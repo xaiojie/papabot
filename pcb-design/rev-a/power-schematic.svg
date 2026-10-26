@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="990" viewBox="0 0 1440 990">
+<rect width="1440" height="990" fill="#f5f7f9"/>
+<style>text{font-family:Arial, PingFang SC, Microsoft YaHei, sans-serif;fill:#183041} .t{font-size:26px;font-weight:bold} .s{font-size:15px} .b{font-size:18px;font-weight:bold} .m{font-size:14px} .note{fill:#9b5f00}</style>
+<text x="30" y="42" class="t">电源与关断原理草图 · Rev A</text>
+<text x="30" y="71" class="s">用于审阅连接关系；USB与5V排针直连已证实；模块电流/上电时序仍待实测，不可直接打样。</text>
+<rect x="30" y="120" width="205" height="130" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="30" y="120" width="205" height="32" rx="8" fill="#dbe9e3"/>
+<text x="42" y="143" class="b">BAT1 · 2S保护电池</text>
+<text x="42" y="175" class="m">7.4V / 满充8.4V</text>
+<text x="42" y="197" class="m">1000mAh / 整包≥10A</text>
+<text x="42" y="219" class="m">保护＋均衡＋XT30</text>
+<rect x="300" y="120" width="195" height="130" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="300" y="120" width="195" height="32" rx="8" fill="#dbe9e3"/>
+<text x="312" y="143" class="b">F1 · 7.5A保险</text>
+<text x="312" y="175" class="m">MINI保险＋PCB座</text>
+<text x="312" y="197" class="m">靠近电池正极</text>
+<text x="312" y="219" class="m">需专用配电PCB</text>
+<rect x="575" y="120" width="210" height="130" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="575" y="120" width="210" height="32" rx="8" fill="#dbe9e3"/>
+<text x="587" y="143" class="b">SW1 · NKK S1A</text>
+<text x="587" y="175" class="m">机械总开关</text>
+<text x="587" y="197" class="m">断开两路工作负载</text>
+<text x="587" y="219" class="m">充电分支在开关前</text>
+<rect x="925" y="120" width="260" height="140" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="925" y="120" width="260" height="32" rx="8" fill="#dbe9e3"/>
+<text x="937" y="143" class="b">REG_S · DFR0753</text>
+<text x="937" y="175" class="m">6–14V输入 → 5V</text>
+<text x="937" y="197" class="m">标称最大8A，目标6A待测</text>
+<text x="937" y="219" class="m">输入/输出物理焊盘待核</text>
+<rect x="925" y="335" width="260" height="140" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="925" y="335" width="260" height="32" rx="8" fill="#dbe9e3"/>
+<text x="937" y="358" class="b">REG_L · 好盈UBEC</text>
+<text x="937" y="390" class="m">86010010 / 3A (2–6S)</text>
+<text x="937" y="412" class="m">跳帽设5V，先测电压</text>
+<text x="937" y="434" class="m">两路5V禁止并联</text>
+<rect x="1220" y="120" width="190" height="205" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="1220" y="120" width="190" height="32" rx="8" fill="#dbe9e3"/>
+<text x="1232" y="143" class="b">舵机配电</text>
+<text x="1232" y="175" class="m">8×MG90S</text>
+<text x="1232" y="197" class="m">每支路独立插座</text>
+<text x="1232" y="219" class="m">PWM来自PCA0–7</text>
+<text x="1232" y="241" class="m">2×1000uF/10V</text>
+<text x="1232" y="263" class="m">地回到舵机降压</text>
+<text x="1232" y="285" class="m">不经主控排针</text>
+<rect x="570" y="335" width="235" height="140" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="570" y="335" width="235" height="32" rx="8" fill="#dbe9e3"/>
+<text x="582" y="358" class="b">CHG1 · 2S充电板</text>
+<text x="582" y="390" class="m">USB输入5V</text>
+<text x="582" y="412" class="m">BAT+接保险后/开关前</text>
+<text x="582" y="434" class="m">BAT−接保护后的P−</text>
+<text x="582" y="456" class="m">目标0.4–0.5A；实际待核</text>
+<rect x="925" y="560" width="260" height="140" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="925" y="560" width="260" height="32" rx="8" fill="#dbe9e3"/>
+<text x="937" y="583" class="b">逻辑5V与功放支路</text>
+<text x="937" y="615" class="m">470uF/16V就近放置</text>
+<text x="937" y="637" class="m">功放VIN / 屏VCC接逻辑5V</text>
+<text x="937" y="659" class="m">主控5V经可断JP1</text>
+<text x="937" y="681" class="m">装机电池供电时勿插USB</text>
+<polyline points="235,175 300,175" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="240" y="166" class="m" style="fill:#398469">P+</text>
+<polyline points="495,175 575,175" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="500" y="107" class="m">VBAT_FUSED</text>
+<polyline points="785,175 860,175 925,175" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="790" y="166" class="m" style="fill:#398469">VBAT_SW</text>
+<polyline points="860,175 860,390 925,390" fill="none" stroke="#398469" stroke-width="3"/>
+<polyline points="1185,175 1220,175" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="1190" y="107" class="m">+5V_SERVO</text>
+<polyline points="535,175 535,390 570,390" fill="none" stroke="#398469" stroke-width="3"/>
+<polyline points="1055,475 1055,560" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="1060" y="466" class="m" style="fill:#398469">+5V_LOGIC</text>
+<polyline points="130,250 130,290 460,290 460,755 1370,755" fill="none" stroke="#546e7a" stroke-width="3"/>
+<text x="140" y="285" class="m">P− / GND</text>
+<polyline points="685,475 685,755" fill="none" stroke="#546e7a" stroke-width="3"/>
+<polyline points="1080,700 1080,755" fill="none" stroke="#546e7a" stroke-width="3"/>
+<polyline points="1300,325 1300,755" fill="none" stroke="#546e7a" stroke-width="3"/>
+<polyline points="1055,260 1205,260 1205,755" fill="none" stroke="#546e7a" stroke-width="3"/>
+<polyline points="1110,475 1205,475" fill="none" stroke="#546e7a" stroke-width="3"/>
+<rect x="30" y="335" width="400" height="365" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="30" y="335" width="400" height="32" rx="8" fill="#dbe9e3"/>
+<text x="42" y="358" class="b">电池ADC · GPIO1 / ADC1_CH0</text>
+<text x="43" y="393" class="m">VBAT_SW → JP2 → VBAT_SENSE</text>
+<text x="96" y="438" class="m">R1 100k</text>
+<text x="332" y="407" class="m">GPIO1</text>
+<polyline points="48,415 60,415" fill="none" stroke="#398469" stroke-width="3"/>
+<circle cx="60" cy="415" r="3" fill="white" stroke="#398469"/><circle cx="85" cy="415" r="3" fill="white" stroke="#398469"/><path d="M60 415L82 403" stroke="#398469" stroke-width="2"/>
+<polyline points="85,415 95,415" fill="none" stroke="#398469" stroke-width="3"/>
+<rect x="95" y="408" width="60" height="14" fill="white" stroke="#398469" stroke-width="2"/>
+<polyline points="155,415 355,415" fill="none" stroke="#398469" stroke-width="3"/>
+<polyline points="245,415 245,440" fill="none" stroke="#398469" stroke-width="3"/>
+<rect x="238" y="440" width="14" height="35" fill="white" stroke="#398469" stroke-width="2"/>
+<polyline points="245,475 245,505 310,505" fill="none" stroke="#546e7a" stroke-width="3"/>
+<text x="171" y="463" class="m">R2 33k</text>
+<polyline points="310,415 310,451" fill="none" stroke="#398469" stroke-width="3"/>
+<path d="M299 451H321 M299 460H321" stroke="#398469" stroke-width="3"/>
+<polyline points="310,460 310,505" fill="none" stroke="#546e7a" stroke-width="3"/>
+<text x="327" y="455" class="m">C1</text>
+<text x="322" y="479" class="m">100nF</text>
+<circle cx="245" cy="415" r="4" fill="#398469"/><circle cx="310" cy="415" r="4" fill="#398469"/>
+<polyline points="270,505 270,515" fill="none" stroke="#546e7a" stroke-width="3"/>
+<path d="M258 515H282 M262 520H278 M266 525H274" stroke="#546e7a" stroke-width="2"/>
+<text x="43" y="555" class="m">8.4V时2.084V；1%最坏约2.116V</text>
+<text x="43" y="582" class="m">等效阻抗24.8kΩ；RC约2.48ms</text>
+<text x="43" y="609" class="m">ADC衰减、校准、断电注入仍需核验</text>
+<text x="43" y="636" class="m">JP2初次断开；确认ADC电压后接通</text>
+<text x="30" y="807" class="s">共地并不意味着共用细回路线：舵机与功放返回各自电源支路，ADC地就近接主控安静地。</text>
+<text x="30" y="842" class="s">USB首次烧录：取下主控单独接USB；装机电池供电时勿插USB。JP1/JP2为可断线桥，初次均断开。</text>
+<text x="30" y="872" class="s">厂家图已证实USB VBUS与5V排针直连；JP1/JP2不是自动隔离，外供一颗二极管不能保护电脑。</text>
+<text x="30" y="907" class="s">首版关机充电。保险座、动力铜路/线径、支路插针额定、模块温升、充电电流与反向漏电都需进入后续检查。</text>
+<text x="30" y="950" class="m">网络数据：03-logical-netlist.json  |  这是逻辑原理草图，不是已经ERC/DRC通过的EDA原理图。</text>
+</svg>

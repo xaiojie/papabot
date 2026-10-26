@@ -1,0 +1,13 @@
+﻿模块针号,模块丝印,载板针脚,电源或MCU引脚,说明
+1,GND,J3.1,GND,共地
+2,VCC,J3.2,LCD_3V3,仅3.3V
+3,SCL,J3.3,GPIO12,SPI时钟
+4,SDA,J3.4,GPIO11,SPI MOSI，不是I2C数据
+5,RES,J3.5,GPIO21,复位
+6,DC,J3.6,GPIO14,数据/命令
+7,CS,J3.7,GPIO13,片选
+8,BLK,J3.8,LCD_3V3,3.3V固定高电平，全亮，无软件调光
+9,A,J7.2,GPIO7,旋钮A相
+10,B,J7.3,GPIO2,旋钮B相
+11,PUSH,J7.5,GPIO38,旋钮按压，按下为低
+12,K0 / KEY0,J7.7,GPIO40,独立按键，按下为低

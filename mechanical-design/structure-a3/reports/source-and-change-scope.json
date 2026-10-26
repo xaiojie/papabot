@@ -1,0 +1,52 @@
+{
+  "comparison": "A2 and A3 binary STL after the 80-byte revision header",
+  "changed_print_parts": [
+    "R02",
+    "R04",
+    "R01",
+    "R03"
+  ],
+  "identical_print_parts": [
+    "R06",
+    "R05",
+    "L101_FL",
+    "L102_FL",
+    "L104_FL",
+    "L101_FR",
+    "L102_FR",
+    "L104_FR",
+    "L101_RL",
+    "L102_RL",
+    "L104_RL",
+    "L101_RR",
+    "L102_RR",
+    "L104_RR",
+    "R11",
+    "R09",
+    "R10_1",
+    "R10_2",
+    "R16",
+    "R17",
+    "R18",
+    "R14",
+    "R12_L",
+    "R13_L",
+    "R12_R",
+    "R13_R"
+  ],
+  "cancelled_parts": [
+    "R07",
+    "R08"
+  ],
+  "original_blends_match_A2_delivery_checksums": {
+    "V1_blend": true,
+    "A1_blend": true,
+    "A2_blend": true
+  },
+  "native_pcb_files_modified": false,
+  "pcb_definition_sha256": "f4481e22dc804908c3d100fa4b78ec90fac37566d6adc409dc1c23a869d0326f",
+  "notes": [
+    "26 unchanged STL payloads are byte-identical, including R06 and all four legs.",
+    "No electrical PCB file was edited in this correction."
+  ]
+}

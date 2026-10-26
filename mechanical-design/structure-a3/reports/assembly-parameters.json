@@ -1,0 +1,262 @@
+{
+  "revision": "A3",
+  "units": "mm",
+  "status": "complete_prototype_geometry__physical_fit_pending",
+  "coordinate_system": "X左右；Y前后（前为负）；Z向上",
+  "body": {
+    "width": 124,
+    "height": 76,
+    "centre_z": 68,
+    "front_outer_y": -46.2,
+    "rear_shell_y": 68,
+    "rear_panel_outer_y": 70.6,
+    "depth_with_covers": 116.8,
+    "wall_nominal": 2.4
+  },
+  "floor": {
+    "z_range": [
+      30,
+      34.6
+    ],
+    "nominal_thickness": 4.6,
+    "base_mount_xy": [
+      [
+        -33,
+        -16
+      ],
+      [
+        33,
+        -16
+      ],
+      [
+        -50,
+        8
+      ],
+      [
+        50,
+        8
+      ]
+    ]
+  },
+  "front_fastener_xz": [
+    [
+      -48,
+      41.7
+    ],
+    [
+      48,
+      41.7
+    ],
+    [
+      -48,
+      96
+    ],
+    [
+      48,
+      96
+    ]
+  ],
+  "display_tab_fastener_xz": [
+    [
+      -43,
+      44
+    ],
+    [
+      46,
+      44
+    ],
+    [
+      -43,
+      94
+    ],
+    [
+      46,
+      94
+    ]
+  ],
+  "display": {
+    "nominal_uncut_pcb_xyz": [
+      91,
+      1.6,
+      44
+    ],
+    "nominal_hole_pitch": [
+      84.5,
+      37.5
+    ],
+    "glass_recess_target": 20.79,
+    "measured": false,
+    "front_normal": [
+      0,
+      -1,
+      0
+    ],
+    "pcb_center": [
+      10.5,
+      -20.2,
+      68
+    ],
+    "original_controls_retained": true,
+    "control_relocation": false,
+    "front_window_size": [
+      70,
+      51
+    ],
+    "light_well_rear_aperture": [
+      59.4,
+      41.8
+    ],
+    "knob_height_basis": "V1 nominal envelope; seller 15mm is shaft length only"
+  },
+  "pcb": {
+    "native_definition": "pcb-design/native-rev-a/carrier-definition.json",
+    "world_transform": "X=u-40;Y=v-2;Z=w+66",
+    "board_bottom_z": 66,
+    "board_top_z": 67.6,
+    "physical_mount_hole_diameter": 3.2,
+    "mount_holes_uv": [
+      [
+        5,
+        5
+      ],
+      [
+        75,
+        5
+      ],
+      [
+        75,
+        27
+      ],
+      [
+        5,
+        27
+      ]
+    ],
+    "screws": "4 M2x8, head D<=4mm; PCB unchanged"
+  },
+  "controller": {
+    "socket_plastic_height_known": 8.5,
+    "male_spacer_nominal": 2.5,
+    "pcb_bottom_z": 78.6,
+    "pcb_top_z": 80.2,
+    "component_reserve_top_z": 86.2,
+    "stack_physically_measured": false
+  },
+  "battery": {
+    "target_xyz": [
+      75,
+      40,
+      20
+    ],
+    "body_bbox": [
+      [
+        -37.5,
+        -6,
+        35.6
+      ],
+      [
+        37.5,
+        34,
+        55.6
+      ]
+    ],
+    "max_mass_target_g": 80,
+    "supplier_final_confirmed": false
+  },
+  "rear_controls_xz": {
+    "S1A": [
+      19,
+      55
+    ],
+    "charger": [
+      -22,
+      55.5
+    ],
+    "speaker": [
+      -35,
+      84
+    ]
+  },
+  "module_bays": {
+    "DFR0753": {
+      "size_xyz": [
+        10,
+        50,
+        30
+      ],
+      "centre": [
+        48,
+        30,
+        83
+      ],
+      "basis": "reservation only, not a measured product dimension"
+    },
+    "UBEC": {
+      "size_xyz": [
+        7,
+        17,
+        43
+      ],
+      "centre": [
+        -49.7,
+        45,
+        77.5
+      ],
+      "basis": "vendor nominal body, excludes leads/magnetic ring"
+    },
+    "mic": {
+      "size_xyz": [
+        14,
+        11.2,
+        22
+      ],
+      "centre": [
+        -50,
+        -11.1,
+        76.8
+      ],
+      "basis": "adjustable provisional bay; exact module identity unresolved"
+    }
+  },
+  "fastener_counts": {
+    "M2×6": 14,
+    "M2×8": 40,
+    "M2×10": 6,
+    "M3×8": 4,
+    "M3×10": 16,
+    "M3×12": 8,
+    "M3×30": 4
+  },
+  "M2_nuts": 60,
+  "M3_nuts": 32,
+  "minimum_designed_load_walls_mm": {
+    "R06_R16_floor_nut_pocket": 1.6,
+    "power_mount_nut_pocket": 1.4,
+    "mic_nut_pocket": 1.0,
+    "rear_speaker_nut_pocket": 1.6
+  },
+  "printable_files": 30,
+  "electronic_envelopes_exported": false,
+  "physical_fit_tested": false,
+  "original_display_controls_xz": {
+    "EC11": [
+      43.5,
+      78.5
+    ],
+    "button": [
+      43.5,
+      55.8
+    ]
+  },
+  "front_service": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "fasteners": "4 M3x30 + 0.8mm washers",
+    "floor_boss_owner": "R01",
+    "light_well_and_acoustic_duct_integrated": true,
+    "knob_to_front_inner_face_axial_gap_mm": 1.3050010681152315
+  }
+}

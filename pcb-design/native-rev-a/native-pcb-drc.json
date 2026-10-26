@@ -1,0 +1,17 @@
+{
+  "doc": {
+    "documentType": 3,
+    "uuid": "641e84beea5fc9c6",
+    "tabId": "641e84beea5fc9c6@e5e438419c1c4681946d5009bb8d6daf",
+    "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+  },
+  "passed": true,
+  "checked_at": "2026-09-08T14:59:58.869923+08:00",
+  "strict": true,
+  "ui_error_count": 0,
+  "version": "3.2.149.88089769",
+  "after_save_and_reopen": false,
+  "final_metadata_synced": true,
+  "after_closed_outline_repair": true,
+  "native_ui_export_drc_pass": true
+}

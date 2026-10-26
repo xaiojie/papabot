@@ -1,0 +1,12 @@
+{
+  "protected_sha256": {
+    "mechanical-design/structure-a3/DesktopAssistant-整机结构-A3.blend": "417dac4775ea8afd120cc55995e1bf2f7cd4b754591cc72ea562b161d17ea4c1",
+    "pcb-design/integrated-v1/user-latest-review-2026-09-13/User_latest_PCB1.source": "46dc44a5512a76a34095a4ad1d3e2c50f8c403e97d0f1298f5a44988ceead21d",
+    "采购清单-20260912/最新BOM总表.md": "2924da533a0eb9942c0d17423a758086eb104dbaf6adac7630a798de464570c6"
+  },
+  "preserved": true,
+  "A4_source": "/Users/jay/work/自研桌面助手/ESP32-desktop-assistant-handoff/mechanical-design/structure-a3/DesktopAssistant-整机结构-A3.blend",
+  "reused": "A3 ear silhouettes and millimetre boolean/STL workflow; all A4 chassis and leg parts rebuilt",
+  "pcb_modified": false,
+  "bom_modified": false
+}

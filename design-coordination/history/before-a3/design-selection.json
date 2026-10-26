@@ -1,0 +1,293 @@
+{
+  "updated": "2026-09-08",
+  "status": "color_scheme_selected",
+  "selected_variant": "A",
+  "selected_name": "奶油薄荷",
+  "reference_image": "design-v7-cmf-options/a-cream-mint.png",
+  "palette": {
+    "body": "#EEEADF",
+    "front_cover": "#F4F0E8",
+    "accents": "#9FB9A9"
+  },
+  "appearance": "奶油白机身与前盖，薄荷绿腿、耳框及细边；低光泽磨砂方向。",
+  "finish_status": "用户已确认配色和磨砂方向；具体基材、层纹粗细与后处理待实物样片确认。",
+  "geometry_reference": "design-v6-compact-centered",
+  "screen_module": "TOUGLESY 2.4 inch ST7789 TFT + EC11, 91 x 44 mm nominal PCB",
+  "servo_selection": {
+    "date": "2026-09-08",
+    "status": "cart_verified_quantity_8__dimensions_and_load_test_pending",
+    "seller_sku": "MG90S舵机（全金属齿轮）180度",
+    "source": "user_added_then_live_cart_verified_2026-09-08",
+    "record": "hardware-selection/servo-mg90s-180.md",
+    "reference_image": "hardware-selection/reference/servo-option-2-mg90s-180-selected.png",
+    "quantity_for_assembly": 8,
+    "quantity_per_leg": 2,
+    "suggested_initial_sample_quantity": 2,
+    "screenshot_unit_price_cny": 10,
+    "screenshot_assembly_servo_subtotal_cny": 80,
+    "live_checkout_price_verified": false,
+    "purchase_confirmed": false,
+    "assembly_model_updated": true,
+    "latest_product_photo": "hardware-selection/reference/servo-mg90s-product-photo.png",
+    "supplier_dimension_drawing_available": false,
+    "recommended_order_quantity": 8,
+    "shop": "玖訫科技",
+    "url": "https://item.taobao.com/item.htm?id=1005683789132&skuId=5999915261650",
+    "cart_quantity": 8,
+    "observed_cart_unit_price_cny": 11,
+    "observed_cart_line_price_cny": 88
+  },
+  "engineering_status": "A2_complete_prototype_structure__native_PCB_review_retained__physical_validation_pending",
+  "power_selection": {
+    "updated": "2026-09-08",
+    "internal_battery": "user_confirmed_required_in_first_version",
+    "charging_port": "user_confirmed_required",
+    "candidate_architecture": "custom protected balanced 2S 7.4V 1000mAh pack, TELESKY MK021163 TYPE-C 8.4V charger, separate regulated servo and logic branches",
+    "specific_battery_and_power_skus_selected": false,
+    "battery_compartment_dimensions_frozen": false,
+    "record": "hardware-selection/power-selection-2s.md",
+    "battery_custom_specification_selected": true,
+    "battery_supplier_can_make_confirmed": true,
+    "charger_sku_selected": true,
+    "charger_current_verified": false,
+    "structured_record": "hardware-selection/power-selection-2s.json",
+    "user_correction": "历史更正：舵机电源是舵机的笔误；本轮用户授权完成四类配件，电源型号已由助手定为样机采购方案。",
+    "servo_regulator_user_confirmed": false,
+    "logic_regulator_user_confirmed": false,
+    "regulator_research_record": "hardware-selection/bom-v4/README.md",
+    "servo_regulator_candidate": "DFR0753 x1 retained for servo branch; low-voltage and thermal validation pending",
+    "logic_regulator_selected": "HOBBYWING UBEC 3A (2-6S), 86010010 x1, jumper set to 5V",
+    "master_switch_selected": "NKK S1A / C5366606 x1, direct mechanical load disconnect after fuse",
+    "regulator_purchase_models_selected": true,
+    "regulator_selection_authority": "user_delegated_selection_completed_2026-09-08",
+    "all_power_parts_load_validated": false,
+    "current_purchase_channels": "DFR0753已在DFRobot官方淘宝店加购1块；两路供电架构不变",
+    "battery_cart_verified_as_custom_spec": false,
+    "battery_custom_message": "hardware-selection/bom-v7/03-电池定制-发给商家.txt",
+    "battery_lead": "18AWG silicone red/black, 80–100mm; complete pack continuous >=10A",
+    "charging_adapter": "UGREEN CD104 17W dual USB-A, 5V2.4A max single port",
+    "usb_data_charge_cable_procurement_quantity": 0,
+    "battery_supplier_confirmation_source": "用户转述锂电池总汇店说可以做；最终尺寸重量、完整规格及报价尚待确认"
+  },
+  "current_bom": "hardware-selection/bom-v7/README.md",
+  "current_bom_data": "hardware-selection/bom-v7/bom-data.json",
+  "dimension_freeze_status": "actual_battery_servo_charger_dimensions__controller_pin_and_mechanical_drawing__new_audio_and_regulator_layout_pending",
+  "previous_options": "V7未选配色和V8探索方案已于2026-09-08移入废纸篓；A奶油薄荷原图及提示词保留，恢复位置见文件清理记录.md。",
+  "software_checked": {
+    "application": "Blender",
+    "version": "5.2.1 LTS",
+    "path": "/Applications/Blender.app",
+    "verification": "local version, actual build, eight renders and saved-file reopen checks 25/25"
+  },
+  "assembly_model": "mechanical-design/structure-a2/DesktopAssistant-整机结构-A2.blend",
+  "assembly_readme": "mechanical-design/structure-a2/README.md",
+  "validation_report": "mechanical-design/structure-a2/验证说明.md",
+  "screen_control_proposal": {
+    "status": "user_selected_rear_relocation__physical_rework_not_done",
+    "proposal": "relocate_EC11_and_separate_button_to_removable_rear_panel_retain_uncut_original_PCB",
+    "target_glass_recess_mm": [
+      0.5,
+      1
+    ],
+    "desoldering_feasibility_verified": false,
+    "user_rework_execution_confirmed": true,
+    "cad_updated": true,
+    "user_confirmation_scope": "用户同意按后置控件设计并接受后续拆焊接线；尚无拆焊完成记录"
+  },
+  "controller_selection": {
+    "date": "2026-09-08",
+    "status": "user_confirmed__pin_mapping_and_physical_dimensions_pending",
+    "model": "LCKFB-ESP32S3R8N8",
+    "lcsc_code": "C20626143",
+    "url": "https://item.szlcsc.com/22034693.html",
+    "flash_mb": 8,
+    "psram_mb": 8,
+    "quantity": 1,
+    "observed_normal_unit_price_cny": 35.9,
+    "headers": "included_1x20_2.54mm_male_headers_not_soldered",
+    "pin_assignment_verified": false,
+    "dimensions_verified": false,
+    "purchase_confirmed": false,
+    "cad_updated": true
+  },
+  "current_bom_workbook": "hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx",
+  "bom_v1_status": "historical__do_not_run_legacy_generator_to_replace_current_selection",
+  "audio_candidates": {
+    "status": "selected_for_prototype__mic_and_amp_added_to_taobao_cart__not_hardware_tested",
+    "microphone": "所购I2S麦克风模块MSM261S4030H0，完整模块外形身份待实物确认；R14采用可换托架",
+    "amplifier": "MAX98357A标准成品模块，淘宝MAX98357 焊接SKU，5.19元，逻辑5V",
+    "speaker": "24MM-4Ω3W-2P1.25 / C50387237, parameter table diameter 23.6 x 10.4mm",
+    "connector_integration": "speaker 1.25mm plug does not mate with screw terminal; solder wire adaptation required; BTL outputs never grounded",
+    "cad_updated": true
+  },
+  "bom_v2_status": "historical_sourcing_snapshot__current_export_is_v4",
+  "procurement_delivery_preference": {
+    "updated": "2026-09-08",
+    "user_request": "所有Excel保持简洁；立创BOM仅包含可精确匹配的立创商城商品；淘宝/天猫及其他产品官网分别列采购单，由用户导入。",
+    "online_import_owner": "user",
+    "assistant_updates_online_bom_now": false,
+    "format": "LCSC only: 原C编码, 原型号, 单套用量; actual purchase quantities including MOQ/spares for 1 set",
+    "current_export_status": "v7_cart_27_rows_verified__16_new_skus_added__cable_cancelled__fabrication_deferred",
+    "all_rows": 44,
+    "material_import_rows": 10,
+    "known_c_code_rows": 10,
+    "model_pending_rows": 1,
+    "quoted_cart_total": false,
+    "reference_cash_cny": 467.3,
+    "sheets_per_workbook": 1,
+    "lcsc_columns": 3,
+    "external_purchase_columns": 7,
+    "omit_from_lcsc": [
+      "外采商品",
+      "内部物料代号",
+      "未定型号",
+      "预算及服务项"
+    ],
+    "retained_match_verification": "10/10 original and matched C codes identical; all stock in actual current user BOM export",
+    "lcsc_account_quote_subtotal_cny": 111.37,
+    "new_v5_online_import_performed": false,
+    "taobao_added_five_subtotal_cny": 87.84,
+    "engineering_requirement_rows": 42,
+    "taobao_rows": 27,
+    "taobao_reference_excluding_custom_battery_cny": 355.93,
+    "new_v7_sku_rows": 16,
+    "new_v7_reference_cny": 89.66
+  },
+  "pwm_candidate": {
+    "status": "selected_for_prototype_under_user_delegation__electrical_and_mechanical_validation_pending",
+    "model": "PCA9685 16路PWM成品模块",
+    "brand": "HANLI",
+    "seller": "汉丽电子科技",
+    "url": "https://item.taobao.com/item.htm?id=967408745108",
+    "observed_price_cny": 8.9,
+    "stock_label": "有货",
+    "quantity": 1,
+    "dimensions_verified": false,
+    "cad_updated": true
+  },
+  "wire_candidates": {
+    "signal": "zave全铜母母20cm/2.54mm，1排40根8.36元，已加购",
+    "power": "WXRKDZ硅胶红黑并线2×18AWG/0.75mm²，1米（红黑各1米）4.29元，已加购",
+    "status": "selected_and_cart_verified__harness_not_built"
+  },
+  "bom_v3_status": "historical_sourcing_snapshot__current_export_is_v4",
+  "four_category_selection_closeout": {
+    "date": "2026-09-08",
+    "requested_categories": [
+      "PCA9685成品现货",
+      "更便宜的逻辑降压",
+      "总开关",
+      "小包装线材/线束"
+    ],
+    "status": "all_four_selected_for_prototype",
+    "row_ids": [
+      "E04",
+      "P03",
+      "P04",
+      "P06",
+      "W02",
+      "W03"
+    ],
+    "remaining_dfr0753_quantity": 1,
+    "logic_saving_vs_second_dfr0753_cny": 20,
+    "hardware_validation_completed": false,
+    "assembly_harness_completed": false,
+    "online_bom_import_owner": "user",
+    "online_bom_changed": false,
+    "order_placed": false
+  },
+  "engineering_sourcing_reference": "hardware-selection/bom-v4/README.md",
+  "bom_v4_status": "historical_full_import_format__use_v5_split_purchase_files__engineering_choices_retained",
+  "procurement_workbooks": {
+    "lcsc": "hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx",
+    "taobao_tmall": "hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx",
+    "other_official_sites": null
+  },
+  "bom_v5_status": "historical__five_official_rows_moved_to_taobao_in_v6__do_not_buy_twice",
+  "taobao_five_closeout": {
+    "date": "2026-09-08",
+    "ids": [
+      "E05",
+      "E06",
+      "P03",
+      "W02",
+      "W03"
+    ],
+    "cart_before": 5,
+    "cart_after": 10,
+    "all_added_quantities": 1,
+    "added_subtotal_cny": 87.84,
+    "order_placed": false,
+    "record": "hardware-selection/bom-v6/evidence/taobao-cart-audit.json"
+  },
+  "whole_robot_procurement_review": {
+    "workbook": "hardware-selection/bom-v7/00-整机配件采购核对.xlsx",
+    "data": "hardware-selection/bom-v7/review-data.json",
+    "date": "2026-09-08",
+    "rows": 44,
+    "sheets": 1,
+    "columns": 8,
+    "purpose": "合并采购及排除项，原42类需求拆为44行实际采购/核对行，非立创导入文件",
+    "order_status_basis": "2026-09-08刷新购物车27项逐SKU/数量核对，已加购不代表已下单"
+  },
+  "taobao_missing_accessories_closeout": {
+    "date": "2026-09-08",
+    "record": "hardware-selection/bom-v7/evidence/taobao-cart-audit.json",
+    "cart_before": 11,
+    "cart_after": 27,
+    "added_sku_rows": 16,
+    "added_reference_cny": 89.66,
+    "battery_custom_quote_pending": true,
+    "cancelled": [
+      "P05 Type-C数据/充电线"
+    ],
+    "deferred": [
+      "P09 PCB打样",
+      "M11 整套3D打印",
+      "M12 3D试样"
+    ],
+    "order_placed": false,
+    "seller_messages_sent": false
+  },
+  "bom_v6_status": "historical__current_procurement_is_v7",
+  "procurement_provisional_status": {
+    "date": "2026-09-08",
+    "parts_provisionally_selected": true,
+    "lcsc_rows": 10,
+    "taobao_regular_rows": 26,
+    "battery_shop": "锂电池总汇店",
+    "battery_supplier_response": "用户转述：可以做",
+    "battery_pending": [
+      "完整规格最终确认",
+      "尺寸重量",
+      "线材及配对接头",
+      "报价",
+      "交期"
+    ],
+    "battery_custom_added_to_cart": false,
+    "fabrication_deferred": true
+  },
+  "parallel_design": {
+    "date": "2026-09-08",
+    "software": {
+      "pcb": "嘉立创EDA专业版",
+      "mechanical": "Blender"
+    },
+    "coordination": "design-coordination/README.md",
+    "interface": "design-coordination/interface-proposal.json",
+    "pcb": "pcb-design/native-rev-a",
+    "mechanical": "mechanical-design/structure-a2",
+    "fabrication_order_deferred": true,
+    "current_mode": "mechanical_background_design"
+  },
+  "current_mechanical": {
+    "revision": "A2",
+    "part_count": 32,
+    "stl_directory": "mechanical-design/structure-a2/stl-complete",
+    "parameters": "mechanical-design/structure-a2/reports/assembly-parameters.json",
+    "physical_fit_tested": false,
+    "manufacturing_order_placed": false,
+    "hardware_delta": "mechanical-design/structure-a2/紧固件与辅料核对.csv",
+    "user_display_preference": "后台建模，不逐件打开Blender界面"
+  }
+}

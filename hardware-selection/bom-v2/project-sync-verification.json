@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "current_controller": "LCKFB-ESP32S3R8N8",
+  "current_bom": "hardware-selection/bom-v2/README.md",
+  "bom_rows": 46,
+  "local_report_links_missing": [],
+  "root_state_and_power_state_consistent": true,
+  "documents_checked": [
+    "README.md",
+    "START-HERE.txt",
+    "design-selection.json",
+    "hardware-selection/power-selection-2s.json",
+    "hardware-selection/bom-v2/README.md"
+  ],
+  "artifact_files": [
+    {
+      "name": "README.md",
+      "bytes": 13390
+    },
+    {
+      "name": "bom-data.json",
+      "bytes": 53808
+    },
+    {
+      "name": "build-v2.py",
+      "bytes": 31768
+    },
+    {
+      "name": "validation.json",
+      "bytes": 1202
+    },
+    {
+      "name": "桌面助手-全套配件选型V2.xlsx",
+      "bytes": 50150
+    },
+    {
+      "name": "立创BOM导入-已核料号子集.csv",
+      "bytes": 1020
+    },
+    {
+      "name": "立创BOM导入-已核料号子集.xlsx",
+      "bytes": 6301
+    }
+  ]
+}

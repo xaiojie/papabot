@@ -1,0 +1,398 @@
+{
+  "success": true,
+  "result": {
+    "project": {
+      "itemType": "Project",
+      "uuid": "e5e438419c1c4681946d5009bb8d6daf",
+      "friendlyName": "DesktopAssistant_RevA",
+      "name": "eda_flnncpnw/DesktopAssistant_RevA",
+      "teamUuid": "d0db481628274583b043080016ef0fff",
+      "description": "",
+      "data": [
+        {
+          "itemType": "Board",
+          "name": "Board1",
+          "schematic": {
+            "itemType": "Schematic",
+            "uuid": "a6220564039ee089",
+            "name": "Schematic1",
+            "page": [
+              {
+                "itemType": "Schematic Page",
+                "uuid": "834bc1f5a1044766",
+                "name": "P1",
+                "parentSchematicUuid": "a6220564039ee089",
+                "showTitleBlock": false,
+                "titleBlockData": {
+                  "Symbol": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "Drawing-Symbol_A4"
+                  },
+                  "Company": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "嘉立创EDA"
+                  },
+                  "Drawed": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Reviewed": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Part Number": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Version": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "V1.0"
+                  },
+                  "Page Size": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "A4"
+                  },
+                  "@Project Name": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "DesktopAssistant_RevA"
+                  },
+                  "@Update Date": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "2026-09-09"
+                  },
+                  "@Create Date": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "2026-09-08"
+                  },
+                  "Device": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Drawing-Symbol_A4"
+                  },
+                  "@Board Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Board1"
+                  },
+                  "@Page Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "P1"
+                  },
+                  "@Create Time": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "11:50:19"
+                  },
+                  "@Page Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": 1
+                  },
+                  "@Page No": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": 1
+                  },
+                  "@Schematic Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Schematic1"
+                  },
+                  "@Update Time": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "10:24:43"
+                  },
+                  "@Assembly Variant": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Basic"
+                  },
+                  "Border": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "Title Block Position": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "3"
+                  },
+                  "Size": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "A4"
+                  },
+                  "Width": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1170"
+                  },
+                  "Height": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "825"
+                  },
+                  "Region Start": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "X Region Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "6"
+                  },
+                  "Y Region Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "4"
+                  },
+                  "Blade Width": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "10"
+                  },
+                  "Color": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "Title Block": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "0"
+                  },
+                  "Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "Description": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "ID": {}
+                }
+              }
+            ],
+            "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf",
+            "parentBoardName": "Board1"
+          },
+          "pcb": {
+            "itemType": "PCB",
+            "name": "PCB1",
+            "uuid": "641e84beea5fc9c6",
+            "parentBoardName": "Board1",
+            "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+          },
+          "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+        },
+        {
+          "itemType": "Schematic",
+          "uuid": "b06160e71c7df69f",
+          "name": "Schematic1_1",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "73e24d5bc667650c",
+              "name": "P1",
+              "parentSchematicUuid": "b06160e71c7df69f",
+              "showTitleBlock": true,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "嘉立创EDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "V1.0"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A4"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DesktopAssistant_RevA"
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-08"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-08"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Page Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "P1"
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "11:50:19"
+                },
+                "@Page Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 1
+                },
+                "@Page No": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 1
+                },
+                "@Schematic Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Schematic1_1"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "12:43:14"
+                },
+                "@Assembly Variant": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Basic"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Size": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "A4"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "825"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "ID": {}
+              }
+            }
+          ],
+          "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf",
+          "parentBoardName": ""
+        },
+        {
+          "itemType": "Panel",
+          "uuid": "4bc7747383be64cb",
+          "name": "Panel1",
+          "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+        }
+      ]
+    },
+    "document": {
+      "documentType": 1,
+      "uuid": "834bc1f5a1044766",
+      "tabId": "834bc1f5a1044766@e5e438419c1c4681946d5009bb8d6daf",
+      "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+    }
+  },
+  "windowId": "1f7f8d1c-3d25-4988-ae9e-ab6d90839409"
+}

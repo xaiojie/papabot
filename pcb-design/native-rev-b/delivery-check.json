@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "package": "DesktopAssistant-RevB-PCB复核包.zip",
+  "bytes": 1641548,
+  "sha256": "fa9be3f98e1b4e8a01df9cde708abb0dfa87768b510c2dbd27c691c3fd60c960",
+  "zip_crc_pass": true,
+  "manifest_files_checked": 28,
+  "pin_csv_rows": 104,
+  "bom_csv_rows": 25,
+  "screen_csv_rows": 12
+}

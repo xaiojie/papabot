@@ -1,0 +1,79 @@
+www.sipeed.com 
+COPYRIGHT © 2019 
+深圳矽速科技有限公司 
+ 
+ 
+Sipeed I2S_Mic 规格书 
+v1.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+特性： 
+◼ MEMS 麦克风 :MSM261S4030H0 是一个全方位、底部端口、I 2 S 数字输出
+的 MEMS 麦克风。它具有高性能和可靠性 
+◼ 灵敏度 : -26(dB,dBFS @1kHz 1Pa) 
+◼ 信噪比 : 57dB(20kHz bandwidth, A-weighted)  
+◼ 尺寸 :15.2*9.1mm  
+◼ 连接方式 :1*6P 2.54mm 间距 排针 
+ 
+ 1 
+Sipeed I2S_Mic 规格书 v1.0   
+深圳矽速科技有限公司 
+本文档更新记录 
+V1.0 2019 年 7 月 9 日编辑；原始文档 
+  
+ 
+功能概述 
+MEMS 麦克风 : MSM261S4030H0 
+声压级 : 140 dB SPL 
+灵敏度 : -26(dB,dBFS @1kHz 1Pa) 
+信噪比 : 57 dB (20kHz bandwidth,A-weighted) 
+THD<1% (100dB SPL @1kHz S=Nom,Rload>2k ) 
+时钟频率:  
+1.0-4.0Mhz(正常模式) 
+150-800khz(低功耗模式) 
+ 
+硬件概述 
+外部供电电压需求 3.3V ±0.2V 
+外部供电电流需求 >1mA 
+温升 <30K 
+工作温度范围 -30℃ ~ 85℃ 
+ 
+  
+ 2 
+Sipeed I2S_Mic 规格书 v1.0   
+深圳矽速科技有限公司 
+尺寸信息 
+长 15.24mm 
+宽 9.14mm 
+厚度 11.2 mm 
+ 
+  
+ 3 
+Sipeed I2S_Mic 规格书 v1.0   
+深圳矽速科技有限公司 
+资源 
+官网 www.sipeed.com 
+Github https://github.com/Lichee-Pi 
+BBS http://bbs.sipeed.com 
+Wiki maixpy.sipeed.com 
+Sipeed 模型平台 https://maixhub.com/ 
+SDK 相关信息 dl.sipeed.com/MAIX/SDK 
+HDK 相关信息 dl.sipeed.com/MAIX/HDK 
+E-mail(技术支持和商业合作) support@sipeed.com 
+telgram link https://t.me/sipeed 
+AI QQ 交流群 878189804 
+ 
+ 
+免责声明和版权声明 
+本文档中的信息（包括 URL 地址）如有更改，恕不另行通知。 
+该文档由 Sipeed 提供， 不附带任何形式的担保， 包括任何适销
+性担保， 以及其他地方提及的任何提案， 规范或样本。 本文档
+不构成责任，包括使用本文档中的信息侵犯任何专利权。 
+Copyrights © 2019  Sipeed Limited. All rights reserved. 

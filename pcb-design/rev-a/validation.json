@@ -1,0 +1,56 @@
+{
+  "status": "review_data_checks_passed",
+  "checks": [
+    "40 unique U1 header locations",
+    "19 unique GPIO assignments on exposed pins",
+    "reserved boot/USB/memory/LED pins not allocated",
+    "ADC uses GPIO1/L1 and switched battery node",
+    "separate servo and logic 5V net names",
+    "speaker BTL nets only join amp and speaker",
+    "module physical pin numbers not invented",
+    "screen VCC uses 5V_LOGIC and two NC points excluded from nets",
+    "JP2 separates switched battery sense input from R1",
+    "manufacturer J1/J2 number mapping included"
+  ],
+  "not_performed": [
+    "EDA ERC",
+    "PCB placement/routing/DRC",
+    "populated CAD collision checks",
+    "real USB backfeed test",
+    "servo current/thermal/EMI validation"
+  ],
+  "counts": {
+    "gpio": 19,
+    "controller_pins": 40,
+    "components": 41,
+    "nets": 40,
+    "no_connect_points": 2,
+    "native_schematic_reported_by_main_task": 22,
+    "native_pcb_reported_by_main_task": 21
+  },
+  "source_sha256": {
+    "lckfb-schematic-cover.jpg": "67fc8d11276709274fc2ea723c5f4681a13b769b42487e339b4dd089842512c3",
+    "lckfb-page-07-Im0.jpg": "c306bb050cd7a5ddf333aa6bbc814d618d0ff01809366e7afd555f2866b3f57d",
+    "lckfb-page-06-Im0.jpg": "e28aeb82b0ee190cb447bc308034c2e6cd1368209fc3c5085f47ea938e937a32",
+    "lckfb-schematic-core.jpg": "9865457ccaf16fe36259b5d73031fded78b8c76e9ab326c29594838e329705bf",
+    "lckfb-contact-sheet.jpg": "70655a0970c3f2bd2c1d9374eb99e0e73022f907651056e46a49a8408b95dfc5",
+    "sen0327.pdf": "7dc734e6983f601068a91a4c7df66ffc86807e074f83a55be1037478e58c7376",
+    "esp32-s3-datasheet.pdf": "2d5a7cb7fd559d8d972bd88db32669c0196d23f22d7afaafb0f63d099b589a3f",
+    "lckfb-page-04-Im0.jpg": "c57c2fe868dbe8e0f15091861ae1e3c0f42a0fd62301d40f93f44068c109eea8",
+    "max98357a-datasheet.pdf": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+    "lckfb-page-05-Im0.jpg": "7a5baa05fa44bc22c8a35500036352af0bccfe67aa9c4f4572a0172b51e6e9b6",
+    "lckfb-antenna-detail.png": "4e129c34651aab04e5c1f87f0701a38c5b47050c4ed0b3a8ebab508a1148006f",
+    "lckfb-page-09-Im0.jpg": "6a1aa952ac120830c53af563ec08747a317f920f2edeb03409c080e1ad3db10e",
+    "selected-display-module-spec.png": "b57a5b6606d98b5e6f6d9a6510f3175e48dd4d9b46e7954482c6628479e2f9f3",
+    "lckfb-datasheet.pdf": "b3bc7835b8604a92909579a025877f245627cd54dd6e1ee6ec7704ea7cc81caa",
+    "lckfb-page-10-Im0.jpg": "3a2959483c7584a0ae626bc5fe6ecd309f5aec7e4b0565a1cfe10148a7003887",
+    "lckfb-page-01-Im0.jpg": "91d330dfe1187cdd40800d5f322c542ddab04d3f6fea2f28793cf2251d56fe5f",
+    "lckfb-page-11-Im0.jpg": "668ffd001bcca97c3c22b326e5e180820303dbfd21473269aa88739e810027d1",
+    "lckfb-page-08-Im0.jpg": "4086d2de93c7776523258eaf89e8a952dddd94b426fac3f18704ce88a99ef9fe",
+    "lckfb-page-13-Im0.jpg": "5f98f22e34f89b5194cf489dcf3237b5e69a99b534a8bb26a186ec6957888a72",
+    "lckfb-page-03-Im0.jpg": "96016d060fd1a17e372605c55adb72afe539e0192b4e11d7aeaf2a52dbba06a3",
+    "pca9685-datasheet.pdf": "237d47f339cac4c3a0d56a5f0b4d3c93df71e3eb43f36ac57ea4ff38e6b2e585",
+    "lckfb-page-02-Im0.jpg": "8bd3bca7ec27c9b88cb36615ba6f40a55c53ed78219ecd52b02c16f2167944e2",
+    "lckfb-page-12-Im0.jpg": "332a148ea5185641e5ce0f790b25783af5e655fca0983d99ee7e5a0526cc4afb"
+  }
+}

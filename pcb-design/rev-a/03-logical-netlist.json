@@ -1,0 +1,1399 @@
+{
+  "schema": "desktop-assistant.logical-review-netlist.v1",
+  "revision": "A0-electrical / A1-mechanical-candidate",
+  "date": "2026-09-08",
+  "release_status": "NOT_FOR_FABRICATION",
+  "native_eda_project": {
+    "id": "e5e438419c1c4681946d5009bb8d6daf",
+    "name": "DesktopAssistant_RevA",
+    "writes_by_this_script": false
+  },
+  "module_pin_number_policy": "模块使用功能端名；只U1有原厂图可核的本项目L/R位置。J_*数字是载板设计定义，不是所购模块针号。",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "LCKFB-ESP32S3R8N8",
+      "pins": {
+        "L1": "ADC_BAT",
+        "L2": "ENC_B",
+        "L4": "MIC_BCLK",
+        "L5": "MIC_WS",
+        "L6": "MIC_SD",
+        "L7": "GND",
+        "L8": "ENC_A",
+        "L9": "PCA_SDA",
+        "L10": "PCA_SCL",
+        "L11": "PCA_OE_N",
+        "L12": "LCD_MOSI",
+        "L13": "LCD_SCLK",
+        "L14": "LCD_CS_N",
+        "L15": "LCD_DC",
+        "L17": "+3V3",
+        "L18": "+3V3",
+        "L19": "+3V3",
+        "L20": "GND",
+        "R5": "AMP_BCLK",
+        "R6": "AMP_WS",
+        "R7": "AMP_DIN",
+        "R9": "GND",
+        "R10": "LCD_RST_N",
+        "R11": "KEY_N",
+        "R13": "ENC_SW_N",
+        "R17": "+5V_MCU",
+        "R18": "+5V_MCU",
+        "R19": "+5V_MCU",
+        "R20": "GND"
+      },
+      "location": "carrier",
+      "status": "manufacturer_pin_labels_verified; footprint_not_released",
+      "native_interface": "C429947 x2, separate 20P sockets; row spacing 17.78mm"
+    },
+    {
+      "ref": "J_LCD",
+      "value": "屏幕线束",
+      "pins": {
+        "1": "GND",
+        "2": "+5V_LOGIC",
+        "3": "LCD_SCLK",
+        "4": "LCD_MOSI",
+        "5": "LCD_RST_N",
+        "6": "LCD_DC",
+        "7": "LCD_CS_N",
+        "8": null
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J3"
+    },
+    {
+      "ref": "J_PCA",
+      "value": "PCA信号线束",
+      "pins": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "PCA_SDA",
+        "4": "PCA_SCL",
+        "5": "PCA_OE_N"
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J4"
+    },
+    {
+      "ref": "J_MIC",
+      "value": "麦克风线束",
+      "pins": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "MIC_BCLK",
+        "4": "MIC_WS",
+        "5": "MIC_SD",
+        "6": "MIC_LR_GND"
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J5"
+    },
+    {
+      "ref": "J_AMP",
+      "value": "功放信号线束",
+      "pins": {
+        "1": "GND",
+        "2": "AMP_BCLK",
+        "3": "AMP_WS",
+        "4": "AMP_DIN"
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J6"
+    },
+    {
+      "ref": "J_REAR",
+      "value": "后置控件线束",
+      "pins": {
+        "1": "GND",
+        "2": "ENC_A",
+        "3": "ENC_B",
+        "4": "GND",
+        "5": "ENC_SW_N",
+        "6": "GND",
+        "7": "KEY_N"
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J7"
+    },
+    {
+      "ref": "J_LOGIC_IN",
+      "value": "逻辑5V入口焊盘",
+      "pins": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J8"
+    },
+    {
+      "ref": "J_SENSE",
+      "value": "开关后电池采样线束",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "location": "carrier",
+      "status": "review_proposal",
+      "native_ref": "J9"
+    },
+    {
+      "ref": "JP_MCU",
+      "value": "可断开的外供5V连接；默认不装",
+      "pins": {
+        "1": "+5V_LOGIC",
+        "2": "+5V_MCU"
+      },
+      "location": "carrier",
+      "status": "open_for_initial_bringup; U1_USB_VBUS_to_5V_direct_connection_verified; no_simultaneous_USB_and_battery",
+      "native_ref": "JP1"
+    },
+    {
+      "ref": "JP_SENSE",
+      "value": "电池采样可断开线桥；初次上电断开",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "VBAT_SENSE"
+      },
+      "location": "carrier",
+      "status": "open_until_power_and_ADC_input_voltage_checked",
+      "native_ref": "JP2"
+    },
+    {
+      "ref": "R1",
+      "value": "100k 1% axial 1/4W",
+      "pins": {
+        "1": "VBAT_SENSE",
+        "2": "ADC_BAT"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "R2",
+      "value": "33k 1% axial 1/4W",
+      "pins": {
+        "1": "ADC_BAT",
+        "2": "GND"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "C1",
+      "value": "100nF 50V THT P5.08",
+      "pins": {
+        "1": "ADC_BAT",
+        "2": "GND"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "R3",
+      "value": "10k 1% OE pullup",
+      "pins": {
+        "1": "+3V3",
+        "2": "PCA_OE_N"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "R4",
+      "value": "10k 1% control pullup",
+      "pins": {
+        "1": "+3V3",
+        "2": "ENC_A"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "R5",
+      "value": "10k 1% control pullup",
+      "pins": {
+        "1": "+3V3",
+        "2": "ENC_B"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "R6",
+      "value": "10k 1% control pullup",
+      "pins": {
+        "1": "+3V3",
+        "2": "ENC_SW_N"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "R7",
+      "value": "10k 1% control pullup",
+      "pins": {
+        "1": "+3V3",
+        "2": "KEY_N"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "C2",
+      "value": "470uF 16V, polarity checked",
+      "pins": {
+        "+": "+5V_LOGIC",
+        "-": "GND"
+      },
+      "location": "logic regulator output / amplifier branch",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "C3",
+      "value": "1000uF 10V, polarity checked",
+      "pins": {
+        "+": "+5V_SERVO",
+        "-": "GND"
+      },
+      "location": "servo power board",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "C4",
+      "value": "1000uF 10V, polarity checked",
+      "pins": {
+        "+": "+5V_SERVO",
+        "-": "GND"
+      },
+      "location": "servo power board",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "BAT1",
+      "value": "2S protected balanced 7.4V pack",
+      "pins": {
+        "P+": "VBAT_PROTECTED",
+        "P-": "GND"
+      },
+      "location": "battery compartment",
+      "status": "supplier_final_spec_pending"
+    },
+    {
+      "ref": "F1",
+      "value": "029707.5WXNV in 01530008Z holder",
+      "pins": {
+        "1": "VBAT_PROTECTED",
+        "2": "VBAT_FUSED"
+      },
+      "location": "dedicated power PCB",
+      "status": "holder footprint/current/temperature pending"
+    },
+    {
+      "ref": "SW1",
+      "value": "NKK S1A",
+      "pins": {
+        "1": "VBAT_FUSED",
+        "2": "VBAT_SW"
+      },
+      "location": "rear panel",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "CHG1",
+      "value": "TELESKY MK021163 Type-C 8.4V charger",
+      "pins": {
+        "BAT+": "VBAT_FUSED",
+        "BAT-": "GND",
+        "USB5V": "USB_CHARGE_5V"
+      },
+      "location": "rear panel",
+      "status": "pin labels/current/reverse leakage pending"
+    },
+    {
+      "ref": "REG_S",
+      "value": "DFR0753",
+      "pins": {
+        "VIN+": "VBAT_SW",
+        "VIN-": "GND",
+        "VOUT+": "+5V_SERVO",
+        "VOUT-": "GND"
+      },
+      "location": "power compartment",
+      "status": "product functional ports only; physical pads pending"
+    },
+    {
+      "ref": "REG_L",
+      "value": "Hobbywing 86010010 5V jumper",
+      "pins": {
+        "VIN+": "VBAT_SW",
+        "VIN-": "GND",
+        "VOUT+": "+5V_LOGIC",
+        "VOUT-": "GND"
+      },
+      "location": "power compartment",
+      "status": "factory leads polarity to verify"
+    },
+    {
+      "ref": "PCA1",
+      "value": "HANLI PCA9685 module",
+      "pins": {
+        "VCC": "+3V3",
+        "GND": "GND",
+        "SDA": "PCA_SDA",
+        "SCL": "PCA_SCL",
+        "OE": "PCA_OE_N",
+        "PWM0": "SERVO_PWM0",
+        "PWM1": "SERVO_PWM1",
+        "PWM2": "SERVO_PWM2",
+        "PWM3": "SERVO_PWM3",
+        "PWM4": "SERVO_PWM4",
+        "PWM5": "SERVO_PWM5",
+        "PWM6": "SERVO_PWM6",
+        "PWM7": "SERVO_PWM7"
+      },
+      "location": "remote signal module",
+      "status": "functional labels known; selected-board pullups/pin order pending"
+    },
+    {
+      "ref": "MIC1",
+      "value": "purchased MSM261S4030H0 I2S module",
+      "pins": {
+        "VCC": "+3V3",
+        "GND": "GND",
+        "SCK": "MIC_BCLK",
+        "WS": "MIC_WS",
+        "SD": "MIC_SD",
+        "LR": "MIC_LR_GND"
+      },
+      "location": "acoustic mount",
+      "status": "exact board identity unresolved"
+    },
+    {
+      "ref": "AMP1",
+      "value": "purchased MAX98357 soldered module",
+      "pins": {
+        "VIN": "+5V_LOGIC",
+        "GND": "GND",
+        "BCLK": "AMP_BCLK",
+        "LRC": "AMP_WS",
+        "DIN": "AMP_DIN",
+        "SPK+": "SPK_P",
+        "SPK-": "SPK_N"
+      },
+      "location": "near speaker",
+      "status": "actual board labels/SD_MODE/GAIN straps pending"
+    },
+    {
+      "ref": "SPK1",
+      "value": "4ohm 3W C50387237",
+      "pins": {
+        "1": "SPK_P",
+        "2": "SPK_N"
+      },
+      "location": "speaker pocket",
+      "status": "review_proposal"
+    },
+    {
+      "ref": "LCD1",
+      "value": "TOUGLESY ST7789 2.4inch",
+      "pins": {
+        "GND": "GND",
+        "VCC": "+5V_LOGIC",
+        "SCL": "LCD_SCLK",
+        "SDA": "LCD_MOSI",
+        "RES": "LCD_RST_N",
+        "DC": "LCD_DC",
+        "CS": "LCD_CS_N",
+        "BLK": null
+      },
+      "location": "front cover",
+      "status": "module_VCC_3.3_to_5V_verified; use_5V_LOGIC; BLK_NC_default_full_brightness; physical_pin_order_pending"
+    },
+    {
+      "ref": "SERVO0",
+      "value": "MG90S 前左髋",
+      "pins": {
+        "SIGNAL": "SERVO_PWM0",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO1",
+      "value": "MG90S 前左膝",
+      "pins": {
+        "SIGNAL": "SERVO_PWM1",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO2",
+      "value": "MG90S 前右髋",
+      "pins": {
+        "SIGNAL": "SERVO_PWM2",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO3",
+      "value": "MG90S 前右膝",
+      "pins": {
+        "SIGNAL": "SERVO_PWM3",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO4",
+      "value": "MG90S 后左髋",
+      "pins": {
+        "SIGNAL": "SERVO_PWM4",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO5",
+      "value": "MG90S 后左膝",
+      "pins": {
+        "SIGNAL": "SERVO_PWM5",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO6",
+      "value": "MG90S 后右髋",
+      "pins": {
+        "SIGNAL": "SERVO_PWM6",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "SERVO7",
+      "value": "MG90S 后右膝",
+      "pins": {
+        "SIGNAL": "SERVO_PWM7",
+        "RED": "+5V_SERVO",
+        "RETURN": "GND"
+      },
+      "location": "legs",
+      "status": "verify real wire colours and connector orientation"
+    },
+    {
+      "ref": "LINK_LR",
+      "value": "0-ohm solder bridge",
+      "pins": {
+        "1": "MIC_LR_GND",
+        "2": "GND"
+      },
+      "location": "carrier",
+      "status": "review_proposal"
+    }
+  ],
+  "nets": {
+    "ADC_BAT": [
+      {
+        "ref": "U1",
+        "pin": "L1"
+      },
+      {
+        "ref": "R1",
+        "pin": "2"
+      },
+      {
+        "ref": "R2",
+        "pin": "1"
+      },
+      {
+        "ref": "C1",
+        "pin": "1"
+      }
+    ],
+    "ENC_B": [
+      {
+        "ref": "U1",
+        "pin": "L2"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "3"
+      },
+      {
+        "ref": "R5",
+        "pin": "2"
+      }
+    ],
+    "MIC_BCLK": [
+      {
+        "ref": "U1",
+        "pin": "L4"
+      },
+      {
+        "ref": "J_MIC",
+        "pin": "3"
+      },
+      {
+        "ref": "MIC1",
+        "pin": "SCK"
+      }
+    ],
+    "MIC_WS": [
+      {
+        "ref": "U1",
+        "pin": "L5"
+      },
+      {
+        "ref": "J_MIC",
+        "pin": "4"
+      },
+      {
+        "ref": "MIC1",
+        "pin": "WS"
+      }
+    ],
+    "MIC_SD": [
+      {
+        "ref": "U1",
+        "pin": "L6"
+      },
+      {
+        "ref": "J_MIC",
+        "pin": "5"
+      },
+      {
+        "ref": "MIC1",
+        "pin": "SD"
+      }
+    ],
+    "GND": [
+      {
+        "ref": "U1",
+        "pin": "L7"
+      },
+      {
+        "ref": "U1",
+        "pin": "L20"
+      },
+      {
+        "ref": "U1",
+        "pin": "R9"
+      },
+      {
+        "ref": "U1",
+        "pin": "R20"
+      },
+      {
+        "ref": "J_LCD",
+        "pin": "1"
+      },
+      {
+        "ref": "J_PCA",
+        "pin": "1"
+      },
+      {
+        "ref": "J_MIC",
+        "pin": "1"
+      },
+      {
+        "ref": "J_AMP",
+        "pin": "1"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "1"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "4"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "6"
+      },
+      {
+        "ref": "J_LOGIC_IN",
+        "pin": "2"
+      },
+      {
+        "ref": "J_SENSE",
+        "pin": "2"
+      },
+      {
+        "ref": "R2",
+        "pin": "2"
+      },
+      {
+        "ref": "C1",
+        "pin": "2"
+      },
+      {
+        "ref": "C2",
+        "pin": "-"
+      },
+      {
+        "ref": "C3",
+        "pin": "-"
+      },
+      {
+        "ref": "C4",
+        "pin": "-"
+      },
+      {
+        "ref": "BAT1",
+        "pin": "P-"
+      },
+      {
+        "ref": "CHG1",
+        "pin": "BAT-"
+      },
+      {
+        "ref": "REG_S",
+        "pin": "VIN-"
+      },
+      {
+        "ref": "REG_S",
+        "pin": "VOUT-"
+      },
+      {
+        "ref": "REG_L",
+        "pin": "VIN-"
+      },
+      {
+        "ref": "REG_L",
+        "pin": "VOUT-"
+      },
+      {
+        "ref": "PCA1",
+        "pin": "GND"
+      },
+      {
+        "ref": "MIC1",
+        "pin": "GND"
+      },
+      {
+        "ref": "AMP1",
+        "pin": "GND"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "GND"
+      },
+      {
+        "ref": "SERVO0",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO1",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO2",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO3",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO4",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO5",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO6",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "SERVO7",
+        "pin": "RETURN"
+      },
+      {
+        "ref": "LINK_LR",
+        "pin": "2"
+      }
+    ],
+    "ENC_A": [
+      {
+        "ref": "U1",
+        "pin": "L8"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "2"
+      },
+      {
+        "ref": "R4",
+        "pin": "2"
+      }
+    ],
+    "PCA_SDA": [
+      {
+        "ref": "U1",
+        "pin": "L9"
+      },
+      {
+        "ref": "J_PCA",
+        "pin": "3"
+      },
+      {
+        "ref": "PCA1",
+        "pin": "SDA"
+      }
+    ],
+    "PCA_SCL": [
+      {
+        "ref": "U1",
+        "pin": "L10"
+      },
+      {
+        "ref": "J_PCA",
+        "pin": "4"
+      },
+      {
+        "ref": "PCA1",
+        "pin": "SCL"
+      }
+    ],
+    "PCA_OE_N": [
+      {
+        "ref": "U1",
+        "pin": "L11"
+      },
+      {
+        "ref": "J_PCA",
+        "pin": "5"
+      },
+      {
+        "ref": "R3",
+        "pin": "2"
+      },
+      {
+        "ref": "PCA1",
+        "pin": "OE"
+      }
+    ],
+    "LCD_MOSI": [
+      {
+        "ref": "U1",
+        "pin": "L12"
+      },
+      {
+        "ref": "J_LCD",
+        "pin": "4"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "SDA"
+      }
+    ],
+    "LCD_SCLK": [
+      {
+        "ref": "U1",
+        "pin": "L13"
+      },
+      {
+        "ref": "J_LCD",
+        "pin": "3"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "SCL"
+      }
+    ],
+    "LCD_CS_N": [
+      {
+        "ref": "U1",
+        "pin": "L14"
+      },
+      {
+        "ref": "J_LCD",
+        "pin": "7"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "CS"
+      }
+    ],
+    "LCD_DC": [
+      {
+        "ref": "U1",
+        "pin": "L15"
+      },
+      {
+        "ref": "J_LCD",
+        "pin": "6"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "DC"
+      }
+    ],
+    "+3V3": [
+      {
+        "ref": "U1",
+        "pin": "L17"
+      },
+      {
+        "ref": "U1",
+        "pin": "L18"
+      },
+      {
+        "ref": "U1",
+        "pin": "L19"
+      },
+      {
+        "ref": "J_PCA",
+        "pin": "2"
+      },
+      {
+        "ref": "J_MIC",
+        "pin": "2"
+      },
+      {
+        "ref": "R3",
+        "pin": "1"
+      },
+      {
+        "ref": "R4",
+        "pin": "1"
+      },
+      {
+        "ref": "R5",
+        "pin": "1"
+      },
+      {
+        "ref": "R6",
+        "pin": "1"
+      },
+      {
+        "ref": "R7",
+        "pin": "1"
+      },
+      {
+        "ref": "PCA1",
+        "pin": "VCC"
+      },
+      {
+        "ref": "MIC1",
+        "pin": "VCC"
+      }
+    ],
+    "AMP_BCLK": [
+      {
+        "ref": "U1",
+        "pin": "R5"
+      },
+      {
+        "ref": "J_AMP",
+        "pin": "2"
+      },
+      {
+        "ref": "AMP1",
+        "pin": "BCLK"
+      }
+    ],
+    "AMP_WS": [
+      {
+        "ref": "U1",
+        "pin": "R6"
+      },
+      {
+        "ref": "J_AMP",
+        "pin": "3"
+      },
+      {
+        "ref": "AMP1",
+        "pin": "LRC"
+      }
+    ],
+    "AMP_DIN": [
+      {
+        "ref": "U1",
+        "pin": "R7"
+      },
+      {
+        "ref": "J_AMP",
+        "pin": "4"
+      },
+      {
+        "ref": "AMP1",
+        "pin": "DIN"
+      }
+    ],
+    "LCD_RST_N": [
+      {
+        "ref": "U1",
+        "pin": "R10"
+      },
+      {
+        "ref": "J_LCD",
+        "pin": "5"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "RES"
+      }
+    ],
+    "KEY_N": [
+      {
+        "ref": "U1",
+        "pin": "R11"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "7"
+      },
+      {
+        "ref": "R7",
+        "pin": "2"
+      }
+    ],
+    "ENC_SW_N": [
+      {
+        "ref": "U1",
+        "pin": "R13"
+      },
+      {
+        "ref": "J_REAR",
+        "pin": "5"
+      },
+      {
+        "ref": "R6",
+        "pin": "2"
+      }
+    ],
+    "+5V_MCU": [
+      {
+        "ref": "U1",
+        "pin": "R17"
+      },
+      {
+        "ref": "U1",
+        "pin": "R18"
+      },
+      {
+        "ref": "U1",
+        "pin": "R19"
+      },
+      {
+        "ref": "JP_MCU",
+        "pin": "2"
+      }
+    ],
+    "+5V_LOGIC": [
+      {
+        "ref": "J_LCD",
+        "pin": "2"
+      },
+      {
+        "ref": "J_LOGIC_IN",
+        "pin": "1"
+      },
+      {
+        "ref": "JP_MCU",
+        "pin": "1"
+      },
+      {
+        "ref": "C2",
+        "pin": "+"
+      },
+      {
+        "ref": "REG_L",
+        "pin": "VOUT+"
+      },
+      {
+        "ref": "AMP1",
+        "pin": "VIN"
+      },
+      {
+        "ref": "LCD1",
+        "pin": "VCC"
+      }
+    ],
+    "MIC_LR_GND": [
+      {
+        "ref": "J_MIC",
+        "pin": "6"
+      },
+      {
+        "ref": "MIC1",
+        "pin": "LR"
+      },
+      {
+        "ref": "LINK_LR",
+        "pin": "1"
+      }
+    ],
+    "VBAT_SW": [
+      {
+        "ref": "J_SENSE",
+        "pin": "1"
+      },
+      {
+        "ref": "JP_SENSE",
+        "pin": "1"
+      },
+      {
+        "ref": "SW1",
+        "pin": "2"
+      },
+      {
+        "ref": "REG_S",
+        "pin": "VIN+"
+      },
+      {
+        "ref": "REG_L",
+        "pin": "VIN+"
+      }
+    ],
+    "VBAT_SENSE": [
+      {
+        "ref": "JP_SENSE",
+        "pin": "2"
+      },
+      {
+        "ref": "R1",
+        "pin": "1"
+      }
+    ],
+    "+5V_SERVO": [
+      {
+        "ref": "C3",
+        "pin": "+"
+      },
+      {
+        "ref": "C4",
+        "pin": "+"
+      },
+      {
+        "ref": "REG_S",
+        "pin": "VOUT+"
+      },
+      {
+        "ref": "SERVO0",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO1",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO2",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO3",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO4",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO5",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO6",
+        "pin": "RED"
+      },
+      {
+        "ref": "SERVO7",
+        "pin": "RED"
+      }
+    ],
+    "VBAT_PROTECTED": [
+      {
+        "ref": "BAT1",
+        "pin": "P+"
+      },
+      {
+        "ref": "F1",
+        "pin": "1"
+      }
+    ],
+    "VBAT_FUSED": [
+      {
+        "ref": "F1",
+        "pin": "2"
+      },
+      {
+        "ref": "SW1",
+        "pin": "1"
+      },
+      {
+        "ref": "CHG1",
+        "pin": "BAT+"
+      }
+    ],
+    "USB_CHARGE_5V": [
+      {
+        "ref": "CHG1",
+        "pin": "USB5V"
+      }
+    ],
+    "SERVO_PWM0": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM0"
+      },
+      {
+        "ref": "SERVO0",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM1": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM1"
+      },
+      {
+        "ref": "SERVO1",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM2": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM2"
+      },
+      {
+        "ref": "SERVO2",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM3": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM3"
+      },
+      {
+        "ref": "SERVO3",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM4": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM4"
+      },
+      {
+        "ref": "SERVO4",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM5": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM5"
+      },
+      {
+        "ref": "SERVO5",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM6": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM6"
+      },
+      {
+        "ref": "SERVO6",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SERVO_PWM7": [
+      {
+        "ref": "PCA1",
+        "pin": "PWM7"
+      },
+      {
+        "ref": "SERVO7",
+        "pin": "SIGNAL"
+      }
+    ],
+    "SPK_P": [
+      {
+        "ref": "AMP1",
+        "pin": "SPK+"
+      },
+      {
+        "ref": "SPK1",
+        "pin": "1"
+      }
+    ],
+    "SPK_N": [
+      {
+        "ref": "AMP1",
+        "pin": "SPK-"
+      },
+      {
+        "ref": "SPK1",
+        "pin": "2"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "ref": "J_LCD",
+      "name": "屏幕线束",
+      "pins": [
+        "GND",
+        "+5V_LOGIC",
+        "LCD_SCLK",
+        "LCD_MOSI",
+        "LCD_RST_N",
+        "LCD_DC",
+        "LCD_CS_N",
+        null
+      ],
+      "note": "载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。",
+      "native_ref": "J3"
+    },
+    {
+      "ref": "J_PCA",
+      "name": "PCA信号线束",
+      "pins": [
+        "GND",
+        "+3V3",
+        "PCA_SDA",
+        "PCA_SCL",
+        "PCA_OE_N"
+      ],
+      "note": "只接模块GND/VCC/SDA/SCL/OE；模块V+不走此接口，8路舵机红线不接PCA成品板公共电源排针。",
+      "native_ref": "J4"
+    },
+    {
+      "ref": "J_MIC",
+      "name": "麦克风线束",
+      "pins": [
+        "GND",
+        "+3V3",
+        "MIC_BCLK",
+        "MIC_WS",
+        "MIC_SD",
+        "MIC_LR_GND"
+      ],
+      "note": "模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。",
+      "native_ref": "J5"
+    },
+    {
+      "ref": "J_AMP",
+      "name": "功放信号线束",
+      "pins": [
+        "GND",
+        "AMP_BCLK",
+        "AMP_WS",
+        "AMP_DIN"
+      ],
+      "note": "对应GND/BCLK/LRC/DIN；功放5V另走短粗线，不经此小信号插头。SD_MODE保留模块原配置，禁止直接接GPIO或5V上拉回灌GPIO。",
+      "native_ref": "J6"
+    },
+    {
+      "ref": "J_REAR",
+      "name": "后置控件线束",
+      "pins": [
+        "GND",
+        "ENC_A",
+        "ENC_B",
+        "GND",
+        "ENC_SW_N",
+        "GND",
+        "KEY_N"
+      ],
+      "note": "1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。",
+      "native_ref": "J7"
+    },
+    {
+      "ref": "J_LOGIC_IN",
+      "name": "逻辑5V入口焊盘",
+      "pins": [
+        "+5V_LOGIC",
+        "GND"
+      ],
+      "note": "好盈UBEC设5V，接已购粗线；孔径和焊盘尺寸待线材/电流核定。",
+      "native_ref": "J8"
+    },
+    {
+      "ref": "J_SENSE",
+      "name": "开关后电池采样线束",
+      "pins": [
+        "VBAT_SW",
+        "GND"
+      ],
+      "note": "只承载分压电流，接S1A后端；禁止改接开关前节点造成关机ADC反向供电。",
+      "native_ref": "J9"
+    }
+  ],
+  "conditional_unpowered_nets": [],
+  "no_connect_points": [
+    {
+      "ref": "J_LCD",
+      "pin": "8",
+      "reason": "reserved connector pin, no BLK wire"
+    },
+    {
+      "ref": "LCD1",
+      "pin": "BLK",
+      "reason": "supplier permits NC, default full brightness"
+    }
+  ],
+  "unpopulated_power_link": "JP_MCU",
+  "open_for_initial_bringup": [
+    "JP_MCU",
+    "JP_SENSE"
+  ],
+  "native_carrier_summary": {
+    "schematic_components": 22,
+    "pcb_components": 21,
+    "off_board_component": "C2 470uF 16V",
+    "source": "main task reported native carrier, 2026-09-08",
+    "scope": "controller sockets, signal interfaces, low-current power/sense circuitry; external servo and amplifier power by separate harness",
+    "logical_count_is_not_native_count": true
+  },
+  "route_constraints": [
+    "GND is electrically common; servo returns must run directly to servo regulator/power distribution, never through MCU headers",
+    "+5V_SERVO and +5V_LOGIC must never be joined",
+    "VBAT_FUSED charger branch before SW1; ADC senses VBAT_SW after SW1 through disconnectable JP2 / JP_SENSE",
+    "SPK_P and SPK_N are BTL outputs, neither is ground",
+    "Manufacturer schematic confirms U1 USB VBUS directly joined to 5V headers; first USB programming requires U1 removed from carrier; do not plug USB during assembled battery operation; JP1/JP2 are manual disconnectable links, not automatic isolation",
+    "Eight servo currents and fuse holder are outside the 80x32 signal carrier proposal"
+  ],
+  "source_supplement": {
+    "display": "sources/selected-display-module-evidence.json",
+    "controller_power": "sources/lckfb-schematic-core.jpg",
+    "review": "05-electrical-evidence-review.md",
+    "native_eda_not_modified": true
+  },
+  "not_an_erc_result": true
+}

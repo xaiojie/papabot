@@ -1,0 +1,148 @@
+{
+  "revision": "A3",
+  "status": "complete_prototype_geometry__physical_fit_pending",
+  "date": "2026-09-08",
+  "unit": "mm",
+  "source": "mechanical-design/structure-a3/reports/assembly-parameters.json",
+  "pcb": {
+    "width": 80,
+    "depth": 32,
+    "thickness": 1.6,
+    "mounting_holes_uv": [
+      [
+        5,
+        5
+      ],
+      [
+        75,
+        5
+      ],
+      [
+        75,
+        27
+      ],
+      [
+        5,
+        27
+      ]
+    ],
+    "hole_diameter": 3.2,
+    "world_transform": {
+      "x": "u - 40",
+      "y": "v - 2",
+      "z": "z_pcb + 66",
+      "pcb_z_origin": "bottom face"
+    },
+    "frozen": false,
+    "pending": [
+      "实物排针与插头高度",
+      "线束走向与弯曲",
+      "天线和温升实测",
+      "装配及负载验证"
+    ],
+    "native_definition": "pcb-design/native-rev-a/carrier-definition.json",
+    "outline_matches_native": true,
+    "mount_fastener": "4 M2x8, head <=4mm; retain native 3.2mm holes"
+  },
+  "battery_envelope": {
+    "target_xyz": [
+      75,
+      40,
+      20
+    ],
+    "target_max_mass_g": 80,
+    "supplier_final_confirmed": false,
+    "placement_frozen": false,
+    "note": "A3主壳宽124、后壁Y68；电池与PCB分层，商家成品尺寸未确认",
+    "proposal_center_xy": [
+      0,
+      14
+    ],
+    "proposal_z_range": [
+      35.6,
+      55.6
+    ]
+  },
+  "controller": {
+    "model": "LCKFB-ESP32S3R8N8",
+    "board_dimensions": [
+      51.66,
+      20.32
+    ],
+    "header_rows": 2,
+    "pins_per_row": 20,
+    "row_spacing": 17.78,
+    "pitch": 2.54,
+    "first_to_last_pin": 48.26,
+    "source": "PCB任务核原厂PDF第2页；文件保存在pcb-design/rev-a/sources/lckfb-datasheet.pdf",
+    "source_status": "manufacturer_nominal_not_physical_measurement",
+    "usb_access": "拆后盖并松开右侧电源架接入右向USB；外部任意插头的封闭壳直插未验证",
+    "pcb_bottom_z": 78.6,
+    "pcb_top_z": 80.2,
+    "component_reserve_top_z": 86.2
+  },
+  "microphone": {
+    "status": "purchased_module_outline_under_review",
+    "chip_marking": "MSM261S4030H0",
+    "issue": "旧记录写SEN0327/直径14mm，但所引用资料是Sipeed I2S_Mic矩形板；相同麦克风芯片不保证模块外形相同",
+    "mount_frozen": false,
+    "instruction": "按所购完整模块复核身份与尺寸，再做专用夹座；目前不冻结直径14mm圆座"
+  },
+  "display_controls": {
+    "rear_relocation_user_selected": false,
+    "requires_desoldering_controls": false,
+    "keep_original_91x44_pcb_uncut": true,
+    "stock_controls_inside_removable_front_cap": true,
+    "front_normal": [
+      0,
+      -1,
+      0
+    ],
+    "nominal_glass_recess_mm": 20.79,
+    "pending": [
+      "原位旋钮整装总高度",
+      "真实针序及排针高度",
+      "模块实测与线束试装"
+    ],
+    "cad_front_cap_modeled": true,
+    "rear_encoder_button_holes_removed": true,
+    "supersedes": "A2 rear relocation, superseded by explicit user V1 instruction",
+    "supplier_document_review": {
+      "review_date": "2026-09-09",
+      "source_report": "pcb-design/native-rev-a/supplier-review-2026-09-09/屏幕资料核对与PCB修改要求.md",
+      "encoder_shaft": "EC11 梅花柄",
+      "L_mm": 15,
+      "F_mm": 7,
+      "shaft_diameter_mm": 6,
+      "spline_teeth": 18,
+      "nominal_bare_shaft_height_from_mount_plane_mm": 19.5,
+      "height_derivation": "4.5mm body plus L=15mm, assuming flush mounting, no knob cap included",
+      "knob_cap_total_height_verified": false,
+      "model_geometry_updated": false,
+      "stock_control_pullup_to_module_vcc_confirmed": true,
+      "required_module_supply_v": 3.3,
+      "native_pcb_supply_revision_pending": true
+    }
+  },
+  "deliverables": {
+    "pcb": "pcb-design/native-rev-a",
+    "mechanical": "mechanical-design/structure-a3"
+  },
+  "fabrication_order_authorized": false,
+  "body_proposal": {
+    "width": 124,
+    "rear_wall_y": 68,
+    "front_outer_y": -46.2,
+    "display_glass_y": -25.41,
+    "frozen": false,
+    "rear_panel_outer_y": 70.6,
+    "depth_including_covers": 116.8
+  },
+  "front_service": {
+    "direction": "-Y",
+    "fasteners": "4 M3x30 plus 0.8mm washers",
+    "floor_front_mount_owner": "R01",
+    "requires_floor_or_pcb_removal": false,
+    "physical_tested": false
+  }
+}

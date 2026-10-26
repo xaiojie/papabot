@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "archive_crc_pass": true,
+  "sha256": "71fd9a5f4137a13db2da8bd1cdf85bb2991591fc534d09e35a2190ccd1f5654c",
+  "pcb_geometry_rules_stackup_match_saved_source": true,
+  "normalized_empty_default_selector": "('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"\"]]')",
+  "active_pages": [
+    {
+      "uuid": "654247b3dab7ee5f",
+      "title": "01_电池保护与均衡"
+    },
+    {
+      "uuid": "1b2919cc1262fe39",
+      "title": "02_USB充电"
+    },
+    {
+      "uuid": "8e03abe4b069eaeb",
+      "title": "03_配电与主控"
+    },
+    {
+      "uuid": "2f4bfc0bfa3d836a",
+      "title": "04_显示音频与交互"
+    },
+    {
+      "uuid": "7020da259480076a",
+      "title": "05_八路舵机驱动"
+    }
+  ],
+  "historical_deleted_pages": 4,
+  "components": 83,
+  "component_pins": 323,
+  "schematic_pcb_pinmaps_match": true,
+  "body_outlines_checked": 61,
+  "body_outline_overlaps": [],
+  "physical_stackup": {
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",3]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 1
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",7]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 2
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",5]')": {
+      "material": "",
+      "thickness": 0.394,
+      "permittivity": 3.3,
+      "lossTangent": 0.02,
+      "isKeepIsland": true,
+      "zIndex": 3
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",1]')": {
+      "material": "",
+      "thickness": 2.756,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 1000
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",361]')": {
+      "material": "FR4",
+      "thickness": 56.693,
+      "permittivity": 4.5,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 1001
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",2]')": {
+      "material": "",
+      "thickness": 2.756,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 9000
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",6]')": {
+      "material": "",
+      "thickness": 0.394,
+      "permittivity": 3.3,
+      "lossTangent": 0.02,
+      "isKeepIsland": true,
+      "zIndex": 10000
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",8]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 10001
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",4]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 10002
+    }
+  }
+}

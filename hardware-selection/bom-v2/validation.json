@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-08",
+  "status": "passed",
+  "bom_rows": 46,
+  "sheets": [
+    "阅读说明",
+    "全套BOM",
+    "立创与MRO有货候选",
+    "外部官网候选",
+    "待定与预算",
+    "备选与缺货",
+    "排除记录",
+    "尺寸待办",
+    "打印分件计划",
+    "资料入口"
+  ],
+  "core_import_rows": 5,
+  "checks": [
+    "JSON合法与ID唯一",
+    "单行现金按MOQ和采购量重算一致",
+    "三类金额分项与总计一致",
+    "Excel重开后数量/总额一致",
+    "导入子集C编号一致，排除缺货/裸芯片/未定模块",
+    "未覆盖V1历史文件"
+  ],
+  "totals": {
+    "scenario": "两路各用1块DFR0753的备选计价方案；未定物料用占位预算；不是已批准采购单",
+    "reference_cash_cny": 769.56,
+    "web_observed_items_cny": 257.03,
+    "historical_screenshot_items_cny": 126.53,
+    "allowances_cny": 386.0,
+    "core_import_subset_cny": 57.45,
+    "previous_reference_cash_cny": 619.53,
+    "change_vs_v1_cny": 150.03
+  },
+  "limitations": [
+    "未在立创云BOM上传验证列映射",
+    "没有商品结算、实物电气或装配验证",
+    "工作簿金额为静态快照，编辑后需重算"
+  ]
+}

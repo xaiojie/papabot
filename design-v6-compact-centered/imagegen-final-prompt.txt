@@ -1,0 +1,16 @@
+Use case: precise-object-edit.
+Correct ONLY the TOP-RIGHT layout inset in this V6 image. Preserve the entire large compact robot hero, blank cheeks, mint ears, centered 4:3 screen, all its proportions, title, bottom cover illustration, lighting and captions. The existing inset has an incorrectly placed centerline and dimension endpoints. Replace the inset drawing with a clean FLAT ORTHOGRAPHIC illustrative layout, following the explicit geometry below. It is labeled as an estimate, not CAD.
+
+For the 1536x1024 canvas, use these inset positions as a guide:
+- Cream enclosure outline: x=973 to 1445, y=217 to 449. Its horizontal center is x=1209.
+- Intact blue PCB rectangle: x=1069 to 1433, y=245 to 421. Width 364, height 176, ratio exactly 91:44. It is offset to the RIGHT of the enclosure; large blank area on left and only 12 pixels clearance on right.
+- Screen assembly's outer rectangle on the left portion of that board: x=1091 to 1327, y=248 to 418. Width 236, representing seller-labelled 59 mm; height 170, representing 42.5 mm. Its horizontal center is x=1209, exactly the same as enclosure center. Show a thin dark bezel with a normal landscape 4:3 display inside, with cyan eyes and smile. The component is not stretched to 16:9.
+- Original knob sits on board right, centered approximately x=1380, y=293, and the separate black key below at x=1380,y=382. They stay on the same unchanged PCB.
+- Draw ONE vertical dashed centerline at x=1209 through both SCREEN CENTER and ENCLOSURE CENTER, from just above the enclosure to just below it. It must pass BETWEEN the two cyan eyes, through the smile center, not through an eye.
+- The dimension labelled “整板 91 mm” should have endpoints over the PCB edges x=1069 and x=1433, not over the outer shell.
+- The dimension labelled “屏幕标注 59 mm” should have endpoints at the SCREEN ASSEMBLY edges x=1091 and x=1327, not over the header/PCB edge.
+- The small right-clearance dimension should span only x=1433 to 1445 and retain “右侧预留约 3 mm”.
+- Keep “横向布局估算” heading and “屏幕中心 = 机身中心” caption.
+- Do not add precision claims: keep the existing bottom note saying dimensions and fit are estimates pending real measurement.
+
+Use flat technical-illustration style just for this inset, clearly secondary to the photorealistic hero. Remove the misleading perspective and misplaced marks in the old inset. Preserve ALL other parts of the image. Do not make the robot wider, add engravings, change ears, or move its LCD.

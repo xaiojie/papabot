@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-09",
+  "status": "selected_for_prototype_not_purchased",
+  "authority": "user requested off-the-shelf sourcing and adapting the design",
+  "battery": {
+    "quantity": 1,
+    "selection_type": "stock_hobby_pack_with_separate_protection",
+    "model": "格氏ACE GS8002S45",
+    "supplier": "格氏电池全国总代",
+    "url": "https://item.taobao.com/item.htm?id=663039669190&skuId=4779123056788",
+    "item_id": "663039669190",
+    "sku_id": "4779123056788",
+    "sku": "T型插头；800mAh-45C-7.4V-2S1P",
+    "nominal_voltage_v": 7.4,
+    "full_charge_voltage_v": 8.4,
+    "configuration": "2S1P_standard_4.2V_LiPo",
+    "capacity_mah": 800,
+    "nominal_energy_wh": 5.92,
+    "body_dimensions_seller_mm": [
+      60,
+      32,
+      16
+    ],
+    "body_dimensions_measured_mm": null,
+    "weight_seller_g": [
+      55,
+      60
+    ],
+    "weight_source_discrepancy": "SKU image:55g ±15g; detail table:60g",
+    "discharge_c_seller": 45,
+    "whole_power_path_tested": false,
+    "internal_protection_verified": false,
+    "main_lead_awg": 16,
+    "main_lead_length_mm": 80,
+    "balance_lead_awg": 22,
+    "balance_lead_length_mm": 45,
+    "connector": "T plug; use matching machine-side connector; retain live battery plug",
+    "observed_price_cny": 39.6,
+    "observed_stock": "有货",
+    "purchase_confirmed": false
+  },
+  "protection_module": {
+    "quantity": 1,
+    "model": "HX-2S-JH20",
+    "supplier": "深圳市优信电子科技有限公司",
+    "url": "https://item.taobao.com/item.htm?id=574046367042",
+    "observed_price_cny": 9.02,
+    "observed_stock": "有货",
+    "dimensions_seller_mm": [
+      46.7,
+      23,
+      3.15
+    ],
+    "working_current_upper_seller_a": 10,
+    "instantaneous_current_upper_seller_a": 20,
+    "overcharge_per_cell_v": 4.25,
+    "overcharge_tolerance_v": 0.05,
+    "overdischarge_per_cell_v": 2.9,
+    "overdischarge_tolerance_v": 0.05,
+    "balancing": true,
+    "common_charge_discharge_port": true,
+    "charger": false,
+    "internal_resistance_upper_seller_ohm": 0.3,
+    "source": "hardware-selection/battery-stock-2026-09-09/evidence/YourCee-67325-2S-protection.pdf",
+    "connections": {
+      "B+": "raw pack main positive",
+      "B-": "raw pack main negative",
+      "BM/MB": "cell midpoint only",
+      "P+": "fuse then charge/load junction",
+      "P-": "all machine and charger returns; never bridge to raw B-"
+    },
+    "purchase_confirmed": false,
+    "thermal_load_tested": false
+  },
+  "observed_subtotal_cny": 48.62,
+  "subtotal_excludes": [
+    "machine-side T mating pigtail",
+    "balance mating pigtail",
+    "insulation/fixing materials"
+  ],
+  "mechanical_record": "mechanical-design/battery-ace800-a3/README.md",
+  "pcb_revision": "RevB",
+  "pcb_copper_change_required": false,
+  "charging": {
+    "target_v": 8.4,
+    "target_cc_a": 0.4,
+    "current_module": "TELESKY MK021163",
+    "current_setting_verified": false,
+    "ready_to_connect_to_battery": false,
+    "action": "measure/configure CC/CV before connecting battery; external configurable 2S charger if incompatible"
+  },
+  "firmware": {
+    "bringup_changed": false,
+    "battery_adc_or_low_voltage_stop_implemented": false,
+    "future_warning_v": 7.2,
+    "future_motion_stop_v": 7.0,
+    "thresholds_validated": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-08",
+  "source": "淘宝Chrome商品页可见DOM和详情图片",
+  "old_supplier": {
+    "shop": "明盛电子商城全新原装",
+    "item_id": "966262592635",
+    "status": "rejected",
+    "basis": "用户转述商家回复：没有"
+  },
+  "fully_qualified_ready_made_found": false,
+  "candidates": [
+    {
+      "shop": "锂电池总汇店",
+      "url": "https://item.taobao.com/item.htm?id=986003989892",
+      "observed": [
+        "一个起订",
+        "定制尺寸 联系客服",
+        "7.4V串联组合电池",
+        "加保护板带线"
+      ],
+      "image_sources": [
+        "https://img.alicdn.com/imgextra/i2/3466412686/O1CN01wUrFJa1ViEvgeDIn6_!!3466412686.jpg",
+        "https://img.alicdn.com/imgextra/i4/3466412686/O1CN01iJM0Aw1ViEvhVkuQA_!!3466412686.jpg"
+      ],
+      "unknown": [
+        "1000mAh整包持续10A",
+        "2S逐节保护与实际均衡电路",
+        "共口充放电",
+        "允许充电电流",
+        "18AWG及XT30配对线束",
+        "成品尺寸重量",
+        "单包报价及交期"
+      ],
+      "qualified": false,
+      "added_to_cart": false,
+      "custom_quote_cny": null,
+      "status": "provisional_supplier_pending_final_spec_and_quote"
+    },
+    {
+      "shop": "鹰王电池工厂直销店",
+      "url": "https://item.taobao.com/item.htm?id=559166020526&skuId=4558635752804",
+      "selected_for_inspection": [
+        "XT30头",
+        "2S/7.4V 1000MAH 35C 62*24*17mm"
+      ],
+      "observed_standard_variant_price_cny": 20,
+      "observed_shipping_cny": 10,
+      "observed_dispatch": "预售15天内",
+      "limitation": "只有3.7V单节选项明确带保护板；两节版本的保护、均衡及整包持续10A能力未核实。35C仅为商品标称，不等于本项目成品验证。",
+      "qualified": false,
+      "added_to_cart": false,
+      "custom_quote_cny": null
+    }
+  ],
+  "other_screened": [
+    {
+      "shop": "深圳市捷讯新能源科技",
+      "item_id": "553314372759",
+      "result": "可定制且有7.4V1000mAh普通款；持续10A和均衡未明确"
+    },
+    {
+      "shop": "广东延尔企业店",
+      "item_id": "694697850466",
+      "result": "可定制高倍率；所看规格150mAh8C不足"
+    },
+    {
+      "shop": "深圳海高志",
+      "item_id": "594055173962",
+      "result": "15A带保护板候选；详情标重160g超目标，均衡未明确",
+      "image_source": "https://img.alicdn.com/imgextra/i2/1820642861/O1CN01RXo2521X0OGiovZXo_!!1820642861.jpg"
+    }
+  ],
+  "cart_changed": false,
+  "order_placed": false,
+  "seller_messages_sent": false,
+  "user_followup": {
+    "source": "用户消息",
+    "first_shop_can_make": true,
+    "all_parts_provisional": true,
+    "final_dimensions_and_quote_confirmed": false
+  }
+}

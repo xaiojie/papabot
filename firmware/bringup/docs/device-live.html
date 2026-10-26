@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>桌面助手 · 设备实时取景（真实画面）</title>
+<style>
+  :root{--bg:#f2f5ef;--ink:#182c32;--mut:#5b6f73;--line:#bed0c8;--accent:#3f7f63;--warn:#a8482c;--card:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  main{max-width:1180px;margin:0 auto;padding:26px 20px 70px}
+  h1{font-size:25px;margin:0 0 6px}
+  h2{font-size:16px;margin:0 0 10px}
+  .sub{color:var(--mut);margin:0 0 16px}
+  .badge{display:inline-block;background:#e3ece4;border:1px solid var(--line);border-radius:20px;padding:3px 11px;font-size:12.5px;color:var(--accent)}
+  .badge.live{background:#fbe9e2;border-color:#e6bfae;color:var(--warn)}
+  .cols{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start}
+  @media(max-width:960px){.cols{grid-template-columns:1fr}}
+  .stage{background:#0d1117;border:1px solid #2b3a3f;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:12px}
+  .screenwrap{position:relative;padding:16px;background:linear-gradient(180deg,#2a3138,#1b2126);border-radius:12px;box-shadow:inset 0 0 0 1px #3d474e;min-width:672px;min-height:512px;display:flex;align-items:center;justify-content:center}
+  #shot{image-rendering:pixelated;display:block;border-radius:4px;width:640px;height:480px;background:#000}
+  .placeholder{color:#7f8f96;font-size:14px;text-align:center;padding:40px}
+  .card{border:1px solid var(--line);border-radius:11px;padding:13px;margin-bottom:12px;background:#fbfcf9}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .btn{appearance:none;background:#e9efe9;border:1px solid var(--line);border-radius:9px;padding:10px;font:600 13.5px/1.3 inherit;color:var(--ink);cursor:pointer;text-align:center;user-select:none}
+  .btn:hover{background:#dde8dd}
+  .btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.busy{opacity:.55;pointer-events:none}
+  input.cmd{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font:13px/1.4 ui-monospace,Menlo,monospace;background:#fff;color:var(--ink)}
+  pre.log{background:#10171c;color:#cfe3d8;border-radius:9px;padding:11px;font:12px/1.6 ui-monospace,Menlo,monospace;max-height:240px;overflow:auto;white-space:pre-wrap;margin:0}
+  .stat{display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px dashed #dbe4dc;font-size:13px}
+  .stat:last-child{border:0}
+  .mono{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+  .note{background:#fdf6e8;border:1px solid #e8d9b0;border-radius:9px;padding:11px 13px;font-size:13.5px;margin:12px 0}
+  .note.ok{background:#e9f2ea;border-color:#c3dbc8}
+  label.row{display:flex;gap:8px;align-items:center;font-size:13.5px;margin:6px 0}
+</style>
+</head>
+<body><main>
+
+<header>
+  <h1>设备实时取景 <span class="badge live" id="lv">● 未连接</span></h1>
+  <p class="sub">这一页显示的是 <b>ESP32 真正画出来的画面</b> —— 服务器通过串口让固件把 PSRAM 帧缓冲吐出来，
+  再重建为 PNG。不是模拟器，不是设计稿。</p>
+</header>
+
+<div class="cols">
+  <div>
+    <div class="stage">
+      <div class="screenwrap">
+        <img id="shot" alt="设备屏幕">
+        <div class="placeholder" id="ph">点右边任意一个屏幕按钮开始取景</div>
+      </div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;font-size:13px;color:#b9c7cc">
+        <span>最近一帧 <span class="mono" id="t">—</span></span>
+        <span>取景耗时 <span class="mono" id="cost">—</span></span>
+        <span>大小 <span class="mono" id="size">—</span></span>
+        <span>取景帧率 <span class="mono" id="fps">—</span></span>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h2>关于这一页</h2>
+      <p style="margin:0 0 8px">取帧流程：</p>
+      <pre class="log" style="max-height:none">浏览器 → GET /api/device/frame?screen=X
+        → 服务器串口发 "stats off" / "screen X" / "dumpr"
+        → 固件把帧缓冲做<b>行程编码（RLE）</b>后从串口发出
+        → 服务器解码重建成 PNG 返回</pre>
+      <div class="note ok" style="margin-bottom:0">
+        <b>为什么能实时：</b>这些界面大部分是纯黑，行程编码（RLE）压掉 <b>90% 以上</b> ——
+        整屏十六进制要 312 KB / 0.93 秒，RLE 只要 7–23 KB / 0.04 秒。<br>
+        再把「重复下发 screen 命令」（每次触发 133 ms 全屏重绘）和「PNG 放大到 640×480」去掉之后，
+        <b>端到端实测：表情 10 fps、时钟/天气/额度 29–32 fps，六屏平均 17.8 fps</b>。<br>
+        <span class="muted">点「▶ 实时」开始连拍；切屏按钮会强制下发一次 screen 命令。</span>
+      </div>
+    </div>
+  </div>
+
+  <aside>
+    <div class="card">
+      <h2>切换屏幕</h2>
+      <div class="grid2" id="screens"></div>
+      <div class="grid2" style="margin-top:8px">
+        <div class="btn" id="refresh">单次取帧<small style="display:block;font-weight:400;font-size:11px">当前屏</small></div>
+        <div class="btn" id="live">▶ 实时<small style="display:block;font-weight:400;font-size:11px" id="lives">关</small></div>
+      </div>
+      <div class="grid2" style="margin-top:8px">
+        <div class="btn" id="auto">定时刷新<small style="display:block;font-weight:400;font-size:11px" id="autos">关</small></div>
+        <select id="iv" style="border:1px solid var(--line);border-radius:9px;padding:10px;font:600 13.5px inherit">
+          <option value="1000">1 秒</option>
+          <option value="3000" selected>3 秒</option>
+          <option value="10000">10 秒</option>
+        </select>
+      </div>
+      <label class="row" style="margin-top:10px">间隔
+        <select id="iv" style="flex:1;border:1px solid var(--line);border-radius:8px;padding:6px">
+          <option value="3000">3 秒</option>
+          <option value="5000" selected>5 秒</option>
+          <option value="10000">10 秒</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="card">
+      <h2>发串口命令</h2>
+      <input class="cmd" id="cmd" placeholder="例如 quota / mood next / status" autocomplete="off">
+      <div class="grid2" style="margin-top:8px">
+        <div class="btn" data-c="quota">quota</div>
+        <div class="btn" data-c="weather">weather</div>
+        <div class="btn" data-c="status">status</div>
+        <div class="btn" data-c="mood next">换情绪</div>
+      </div>
+      <h3 style="font-size:13.5px;color:var(--mut);margin:14px 0 6px">返回</h3>
+      <pre class="log" id="out">(还没有输出)</pre>
+    </div>
+
+    <div class="card">
+      <h2>说明</h2>
+      <div class="stat"><span>串口</span><b id="port">—</b></div>
+      <div class="stat"><span>取景中</span><b id="busy">否</b></div>
+      <p class="sub" style="font-size:12.5px;margin:9px 0 0">
+        串口是独占的：这页取景时，别的程序不能同时占用。
+      </p>
+    </div>
+  </aside>
+</div>
+
+<script>
+// 前六个是固定屏；之后每部 GIF 动画一屏（屏幕序号 6,7,...）
+const SCREENS = [
+  ['face','① 表情'], ['clock','② 数字时钟'], ['analog','③ 表盘时钟'],
+  ['weather','④ 天气'], ['chatgpt','⑤ 账号额度'], ['sys','⑥ 状态'],
+  ['6','⑦ 动画1'], ['7','⑧ 动画2']
+];
+let cur = 'face', fpsAcc = [], forceNext = false, auto = false, live = false, busy = false, timer = null;
+const shot = document.getElementById('shot'), ph = document.getElementById('ph');
+
+SCREENS.forEach(([id, name]) => {
+  const d = document.createElement('div');
+  d.className = 'btn'; d.dataset.id = id; d.textContent = name;
+  d.onclick = () => { cur = id; forceNext = true; mark(); grab(); };
+  document.getElementById('screens').appendChild(d);
+});
+function mark(){
+  document.querySelectorAll('#screens .btn').forEach(b => b.classList.toggle('on', b.dataset.id === cur));
+}
+function setBusy(v){
+  busy = v;
+  document.getElementById('busy').textContent = v ? '是' : '否';
+  document.getElementById('refresh').classList.toggle('busy', v);
+}
+
+async function grab(){
+  if (busy) return;
+  setBusy(true);
+  const t0 = performance.now();
+  try {
+    const r = await fetch('/api/device/frame?screen=' + cur + (forceNext ? '&force=1' : '') + '&_=' + Date.now());
+    forceNext = false;
+    if (!r.ok) {
+      const j = await r.json().catch(() => ({error: r.status}));
+      throw new Error(j.error || ('HTTP ' + r.status));
+    }
+    const b = await r.blob();
+    shot.src = URL.createObjectURL(b);
+    shot.style.display = 'block'; ph.style.display = 'none';
+    document.getElementById('t').textContent = new Date().toLocaleTimeString();
+    document.getElementById('cost').textContent = ((performance.now() - t0) / 1000).toFixed(1) + ' s';
+    document.getElementById('size').textContent = (b.size / 1024).toFixed(1) + ' KB';
+    const dt = performance.now() - t0;
+    fpsAcc.push(dt); if (fpsAcc.length > 12) fpsAcc.shift();
+    const avg = fpsAcc.reduce((a, c) => a + c, 0) / fpsAcc.length;
+    document.getElementById('fps').textContent = (1000 / avg).toFixed(1) + ' fps';
+    document.getElementById('lv').textContent = '● 已连接';
+    document.getElementById('lv').className = 'badge';
+    document.getElementById('port').textContent = '已占用';
+  } catch (e) {
+    document.getElementById('lv').textContent = '● ' + e.message;
+    document.getElementById('lv').className = 'badge live';
+    ph.textContent = e.message; ph.style.display = 'block'; shot.style.display = 'none';
+  } finally {
+    setBusy(false);
+  }
+}
+
+document.getElementById('refresh').onclick = grab;
+
+async function liveLoop(){
+  if (!live) return;
+  await grab();
+  if (live) setTimeout(liveLoop, 0);      // 背靠背：不等待，直接下一帧
+}
+document.getElementById('live').onclick = e => {
+  live = !live;
+  e.currentTarget.classList.toggle('on', live);
+  document.getElementById('lives').textContent = live ? '开' : '关';
+  fpsAcc = [];
+  if (live) liveLoop();
+};
+document.getElementById('auto').onclick = e => {
+  auto = !auto;
+  e.currentTarget.classList.toggle('on', auto);
+  document.getElementById('autos').textContent = auto ? '开' : '关';
+  clearInterval(timer);
+  if (auto) timer = setInterval(grab, +document.getElementById('iv').value);
+};
+document.getElementById('iv').onchange = () => {
+  clearInterval(timer);
+  if (auto) timer = setInterval(grab, +document.getElementById('iv').value);
+};
+
+async function sendCmd(c){
+  const out = document.getElementById('out');
+  out.textContent = '> ' + c + '\n…';
+  try{
+    const r = await fetch('/api/device/cmd?c=' + encodeURIComponent(c));
+    const j = await r.json();
+    out.textContent = '> ' + c + '\n' + (j.output || j.error || '(无输出)');
+  }catch(e){
+    out.textContent = '> ' + c + '\n错误: ' + e.message;
+  }
+}
+const cmdInput = document.getElementById('cmd');
+cmdInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && cmdInput.value.trim()) { sendCmd(cmdInput.value.trim()); cmdInput.value = ''; }
+});
+document.querySelectorAll('[data-c]').forEach(b => b.onclick = () => sendCmd(b.dataset.c));
+
+mark();
+</script>
+</main></body></html>

@@ -1,0 +1,11 @@
+{
+  "pcb_components": 21,
+  "pad_checks": 98,
+  "net_mismatches": [],
+  "row_spacing_mm": 17.779999999999998,
+  "nc_pads": 12,
+  "electrical_nets": 25,
+  "all_component_pads_through_hole": true,
+  "checked_at": "2026-09-08T15:09:53.952930+08:00",
+  "native_archive_sha256": "d1cd0c346180e4c6d4f6c5db1d1d6702007795b03cb1cb408ce0701482a7b223"
+}

@@ -1,0 +1,29 @@
+{
+  "components": [
+    "f5ffea8f40e29d29",
+    "7ddab719953def8e",
+    "b7db843e0f734bc7",
+    "7895facdde61e3a1"
+  ],
+  "wires": [
+    "37feaf46161834e9",
+    "94224acff9601152",
+    "d4c05c8d51af595d",
+    "19b17b8c6a46e488",
+    "54d3626d8b216124",
+    "a3c48c0bc99e87f5",
+    "1cdb3bcbfa21a3b6",
+    "d6cd56828108924e",
+    "d0570fd65cc88b32",
+    "b6f24ae67a1a2ce4",
+    "f6ada2ff35e7e1e7",
+    "ad36bcae8626247b",
+    "0d1cc0cb4faff24a"
+  ],
+  "references": [
+    "EC1",
+    "R11",
+    "R12",
+    "R26"
+  ]
+}

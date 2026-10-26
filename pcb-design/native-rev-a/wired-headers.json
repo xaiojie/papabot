@@ -1,0 +1,150 @@
+{
+  "connections": [
+    {
+      "ref": "J1",
+      "pin": "1",
+      "net": "ADC_BAT"
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "net": "ENC_B"
+    },
+    {
+      "ref": "J1",
+      "pin": "4",
+      "net": "MIC_BCLK"
+    },
+    {
+      "ref": "J1",
+      "pin": "5",
+      "net": "MIC_WS"
+    },
+    {
+      "ref": "J1",
+      "pin": "6",
+      "net": "MIC_SD"
+    },
+    {
+      "ref": "J1",
+      "pin": "7",
+      "net": "GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "8",
+      "net": "ENC_A"
+    },
+    {
+      "ref": "J1",
+      "pin": "9",
+      "net": "PCA_SDA"
+    },
+    {
+      "ref": "J1",
+      "pin": "10",
+      "net": "PCA_SCL"
+    },
+    {
+      "ref": "J1",
+      "pin": "11",
+      "net": "PCA_OE_N"
+    },
+    {
+      "ref": "J1",
+      "pin": "12",
+      "net": "LCD_MOSI"
+    },
+    {
+      "ref": "J1",
+      "pin": "13",
+      "net": "LCD_SCLK"
+    },
+    {
+      "ref": "J1",
+      "pin": "14",
+      "net": "LCD_CS_N"
+    },
+    {
+      "ref": "J1",
+      "pin": "15",
+      "net": "LCD_DC"
+    },
+    {
+      "ref": "J1",
+      "pin": "17",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J1",
+      "pin": "18",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J1",
+      "pin": "19",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J1",
+      "pin": "20",
+      "net": "GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "net": "AMP_BCLK"
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "net": "AMP_WS"
+    },
+    {
+      "ref": "J2",
+      "pin": "7",
+      "net": "AMP_DIN"
+    },
+    {
+      "ref": "J2",
+      "pin": "9",
+      "net": "GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "10",
+      "net": "LCD_RST_N"
+    },
+    {
+      "ref": "J2",
+      "pin": "11",
+      "net": "KEY_N"
+    },
+    {
+      "ref": "J2",
+      "pin": "13",
+      "net": "ENC_SW_N"
+    },
+    {
+      "ref": "J2",
+      "pin": "17",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "J2",
+      "pin": "18",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "J2",
+      "pin": "19",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "J2",
+      "pin": "20",
+      "net": "GND"
+    }
+  ],
+  "saved": true
+}

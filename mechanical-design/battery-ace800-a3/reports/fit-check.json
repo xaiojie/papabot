@@ -1,0 +1,190 @@
+{
+  "revision": "A3-ACE800",
+  "source": "/Users/jay/work/自研桌面助手/ESP32-desktop-assistant-handoff/mechanical-design/structure-a3/DesktopAssistant-整机结构-A3.blend",
+  "source_sha256": "417dac4775ea8afd120cc55995e1bf2f7cd4b754591cc72ea562b161d17ea4c1",
+  "source_unchanged": true,
+  "battery_body_mm": [
+    60,
+    32,
+    16
+  ],
+  "battery_center_mm": [
+    0,
+    14,
+    43.6
+  ],
+  "bms_mount": "vertical in front of battery; cells face +Y, screen faces -Y",
+  "bms_to_display_support_rear_plane_clearance_mm": 1.65,
+  "bms_to_screen_pcb_rear_plane_clearance_mm": 7.25,
+  "cradle_backplate_to_battery_body_clearance_mm": 4.9,
+  "clearance_excludes_wires_solder_and_manufacturing_tolerance": true,
+  "excluded_historical_battery_references": [
+    "REF_CURRENT__REF_BATTERY_75x40x20__SUPPLIER_TARGET",
+    "REF_CURRENT__REF_BATTERY_STRAP_TOP_1mm",
+    "REF__BATTERY_EVA_BASE"
+  ],
+  "parts": [
+    {
+      "id": "R21",
+      "bounds_mm": [
+        [
+          -39.0,
+          -7.000000953674316,
+          34.70000076293945
+        ],
+        [
+          39.0,
+          34.999996185302734,
+          40.60000991821289
+        ]
+      ],
+      "size_mm": [
+        78.0,
+        42.0,
+        5.9000091552734375
+      ],
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 4884.5838569718135,
+      "stl": "R21__ACE800__mm.stl",
+      "sha256": "f2a0575787358509328b4df27039e633c6619f891b3c26c7499c204adc04edba"
+    },
+    {
+      "id": "R22",
+      "bounds_mm": [
+        [
+          -25.999998092651367,
+          -12.300000190734863,
+          38.599998474121094
+        ],
+        [
+          25.999998092651367,
+          -4.5,
+          65.99999237060547
+        ]
+      ],
+      "size_mm": [
+        52.0,
+        7.800000190734863,
+        27.400001525878906
+      ],
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 2579.7614237213875,
+      "stl": "R22__ACE800__mm.stl",
+      "sha256": "da7e62f2a3d1b45386f36efe7dc6752074196d3b61f70b2cd2e7f76b112fe5da"
+    }
+  ],
+  "intersection_candidates": 21,
+  "intersection_results": [
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "R06__PCB_support_bridge_A3_complete",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "R05__reinforced_floor_and_battery_tray_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "R16__PCA9685_rear_rack",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "R22__HX2S_front_cradle",
+      "intersection_mm3": 1.4210854715202004e-14
+    },
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "REF_ACE800_60x32x16_DO_NOT_PRINT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R21__ACE800_spacer",
+      "b": "REF_EVA_60x32x1_DO_NOT_PRINT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R22__HX2S_front_cradle",
+      "b": "R06__PCB_support_bridge_A3_complete",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R22__HX2S_front_cradle",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R22__HX2S_front_cradle",
+      "b": "REF_BMS_INSULATION_0p5_DO_NOT_PRINT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R22__HX2S_front_cradle",
+      "b": "REF_HX2S_46p7x23x3p15_DO_NOT_PRINT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_ACE800_60x32x16_DO_NOT_PRINT",
+      "b": "R06__PCB_support_bridge_A3_complete",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_ACE800_60x32x16_DO_NOT_PRINT",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_ACE800_60x32x16_DO_NOT_PRINT",
+      "b": "R05__reinforced_floor_and_battery_tray_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_EVA_60x32x1_DO_NOT_PRINT",
+      "b": "R06__PCB_support_bridge_A3_complete",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_EVA_60x32x1_DO_NOT_PRINT",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_EVA_60x32x1_DO_NOT_PRINT",
+      "b": "R05__reinforced_floor_and_battery_tray_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_BATTERY_STRAP_DO_NOT_PRINT",
+      "b": "R06__PCB_support_bridge_A3_complete",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_BATTERY_STRAP_DO_NOT_PRINT",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_BMS_INSULATION_0p5_DO_NOT_PRINT",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "REF_HX2S_46p7x23x3p15_DO_NOT_PRINT",
+      "b": "R01__main_housing_A3",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "conflicts": [],
+  "physical_fit_tested": false,
+  "thermal_and_load_tested": false,
+  "installation": "2mm soft side pads; 1mm base pad; original 10mm battery strap; 0.5mm BMS insulation; removable RTV locks two locating feet after trial fit"
+}

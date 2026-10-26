@@ -1,0 +1,20 @@
+# ESP32-S3 / LCKFB ESP32S3R8N8 —— 8 MB flash，单 app 布局。
+#
+# 为什么不用 PlatformIO 自带的 default_8MB.csv：
+#   那个布局是给「双 app OTA + SPIFFS」准备的，app0/app1 各 0x330000（3.2 MB），
+#   再拿 0x180000（1.5 MB）给 spiffs。但 assistant 两个都用不到 ——
+#   代码里没有任何 OTA / SPIFFS / LittleFS 调用，字库和动画是编译期
+#   board_build.embed_files 直接进 flash 的，不读文件系统。
+#   2026-09-16 加第三部 GIF 动画时 app 分区被撑爆（需要 ~4.2 MB），
+#   于是改成单 app 布局，把白占的 4.7 MB 收回来。
+#
+# nvs 的偏移和大小刻意与 default_8MB.csv 完全一致（0x9000 / 0x5000），
+# 所以换分区表不会丢已保存的 Wi-Fi 凭据；在 assistant 和 bench-v1 之间来回刷也没影响。
+#
+# 只有 assistant 用这个表。bringup 保持 default_8MB.csv 不动 ——
+# 它的 dist/ 交付件是按原布局编译并做哈希的。
+#
+# Name,   Type, SubType, Offset,   Size,     Flags
+nvs,      data, nvs,      0x9000,   0x5000,
+app0,     app,  factory,  0x10000,  0x6E0000,
+coredump, data, coredump, 0x6F0000, 0x10000,

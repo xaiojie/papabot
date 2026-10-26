@@ -1,0 +1,25 @@
+{
+  "project_name": "DesktopAssistant_RevA",
+  "project_id": "e5e438419c1c4681946d5009bb8d6daf",
+  "pcb_uuid": "641e84beea5fc9c6",
+  "updated_at": "2026-09-08T14:41:29.595775+08:00",
+  "native_archive": "DesktopAssistant_RevA_PCB_review.epro2",
+  "archive_bytes": 313855,
+  "sha256": "a0c080500727f48837d593ba62b83dd92ef6dc75a31be2871e0243995780875d",
+  "gerber_archive": "DesktopAssistant_RevA_Gerber_review.zip",
+  "gerber_sha256": "16179a1197a80cafabb0e1498a711e8a912df3f0ca7be4ddaa15b8cc92e38b88",
+  "native_pcb_drc_pass": true,
+  "native_schematic_drc_pass": true,
+  "geometry_pass": true,
+  "connected_nets": 25,
+  "orphan_copper_count": 0,
+  "not_for_fabrication": true,
+  "status": "电气检查通过；待实物与机械配合验收",
+  "remaining_reviews": [
+    "模块针序、电压与主控插座方向/高度实物确认",
+    "天线避空与U形槽加工内角确认",
+    "外壳安装配合、线束及电源负载实测"
+  ],
+  "mechanical_work": "paused",
+  "fabrication_order_placed": false
+}

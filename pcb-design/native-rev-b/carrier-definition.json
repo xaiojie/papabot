@@ -1,0 +1,890 @@
+{
+  "revision": "RevB",
+  "updated_at": "2026-09-09T10:55:23.032259+08:00",
+  "parts": [
+    {
+      "ref": "C1",
+      "device": "ea964fb047995a51",
+      "name": "100nF 50V P5.08",
+      "x": 800,
+      "y": 160,
+      "rotation": 90,
+      "nets": {
+        "1": "ADC_BAT",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "e1ee794e74ec3f11",
+      "default_population": "FIT",
+      "pcb_primitive_id": "309b8b345ff24ad0",
+      "pcb_center_mm": [
+        28.0,
+        20.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+    },
+    {
+      "ref": "C2",
+      "device": "6b06e8ea69dba842",
+      "name": "470uF 16V OFF BOARD",
+      "x": 300,
+      "y": 350,
+      "rotation": 0,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "note": "OFF BOARD: mount at UBEC / amplifier power branch; secure and insulate leads.",
+      "actual": true,
+      "on_pcb": false,
+      "native_primitive_id": "132b23ec7999296e",
+      "default_population": "FIT"
+    },
+    {
+      "ref": "C3",
+      "device": "ea964fb047995a51",
+      "name": "100nF 50V P5.08",
+      "x": 460,
+      "y": 160,
+      "rotation": 90,
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "f5bd31e523c8e44c",
+      "default_population": "FIT",
+      "pcb_primitive_id": "3c78251d1e11b4ce",
+      "pcb_center_mm": [
+        57.0,
+        20.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+    },
+    {
+      "ref": "C4",
+      "device": "ea964fb047995a51",
+      "name": "100nF 50V P5.08",
+      "x": 1010,
+      "y": 180,
+      "rotation": 90,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "30940e325cb103fd",
+      "default_population": "FIT",
+      "pcb_primitive_id": "8018e9d056cb2f71",
+      "pcb_center_mm": [
+        68.000001,
+        9.0
+      ],
+      "pcb_rotation_degrees": 90,
+      "footprint": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+    },
+    {
+      "ref": "C5",
+      "device": "ea964fb047995a51",
+      "name": "100nF 50V P5.08",
+      "x": 1000,
+      "y": 285,
+      "rotation": 90,
+      "nets": {
+        "1": "LCD_3V3",
+        "2": "GND"
+      },
+      "note": "LCD rail bypass. External regulator must include its specified bulk/output capacitors; module already includes local decoupling.",
+      "native_primitive_id": "87ccf11bb7f91f19",
+      "on_pcb": true,
+      "default_population": "FIT",
+      "pcb_primitive_id": "e88d452b19d32026",
+      "pcb_center_mm": [
+        73.999999,
+        21.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+    },
+    {
+      "ref": "J1",
+      "device": "f06b35e42d8ad38d",
+      "name": "MCU_LEFT_20P",
+      "x": 200,
+      "y": 650,
+      "rotation": 0,
+      "nets": {
+        "1": "ADC_BAT",
+        "2": "ENC_B",
+        "3": null,
+        "4": "MIC_BCLK",
+        "5": "MIC_WS",
+        "6": "MIC_SD",
+        "7": "GND",
+        "8": "ENC_A",
+        "9": "PCA_SDA",
+        "10": "PCA_SCL",
+        "11": "PCA_OE_N",
+        "12": "LCD_MOSI",
+        "13": "LCD_SCLK",
+        "14": "LCD_CS_N",
+        "15": "LCD_DC",
+        "16": null,
+        "17": "+3V3",
+        "18": "+3V3",
+        "19": "+3V3",
+        "20": "GND"
+      },
+      "note": "",
+      "native_primitive_id": "032d23da439c3cde",
+      "on_pcb": true,
+      "default_population": "FIT",
+      "pcb_primitive_id": "0f4f3d6478d1d308",
+      "pcb_center_mm": [
+        39.999999,
+        7.110001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_20P-P2.54-V-F"
+    },
+    {
+      "ref": "J2",
+      "device": "f06b35e42d8ad38d",
+      "name": "MCU_RIGHT_20P",
+      "x": 460,
+      "y": 650,
+      "rotation": 0,
+      "nets": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": "AMP_BCLK",
+        "6": "AMP_WS",
+        "7": "AMP_DIN",
+        "8": null,
+        "9": "GND",
+        "10": "LCD_RST_N",
+        "11": "KEY_N",
+        "12": null,
+        "13": "ENC_SW_N",
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": "+5V_MCU",
+        "18": "+5V_MCU",
+        "19": "+5V_MCU",
+        "20": "GND"
+      },
+      "note": "",
+      "native_primitive_id": "9fb8236cc0608b7e",
+      "on_pcb": true,
+      "default_population": "FIT",
+      "pcb_primitive_id": "f9295212d6823e9f",
+      "pcb_center_mm": [
+        39.999999,
+        24.890001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_20P-P2.54-V-F"
+    },
+    {
+      "ref": "J3",
+      "device": "0f9709222da61412",
+      "name": "LCD_3V3_SPI",
+      "x": 800,
+      "y": 700,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "LCD_3V3",
+        "3": "LCD_SCLK",
+        "4": "LCD_MOSI",
+        "5": "LCD_RST_N",
+        "6": "LCD_DC",
+        "7": "LCD_CS_N",
+        "8": "LCD_3V3"
+      },
+      "note": "3.3V ONLY: VCC and BLK use LCD_3V3. Stock EC11 and key remain on the original module; see J7.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "8f4268105a083fba",
+      "default_population": "FIT",
+      "pcb_primitive_id": "336ce7be8e825fb0",
+      "pcb_center_mm": [
+        30.000001,
+        2.54
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_8P-P2.54-V-M"
+    },
+    {
+      "ref": "J4",
+      "device": "2a0cc389af5b9794",
+      "name": "PCA9685_LOGIC_ONLY",
+      "x": 800,
+      "y": 530,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "PCA_SDA",
+        "4": "PCA_SCL",
+        "5": "PCA_OE_N"
+      },
+      "note": "VCC 3.3V. OE high=disabled. Module V+ and servo red wires use external power distribution.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "70beb00d6ce80db2",
+      "default_population": "FIT",
+      "pcb_primitive_id": "38662abbb8036e92",
+      "pcb_center_mm": [
+        54.000001,
+        29.459999
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_5P-P2.54-V-M"
+    },
+    {
+      "ref": "J5",
+      "device": "f5216295073a57a9",
+      "name": "MIC_3V3_I2S",
+      "x": 1060,
+      "y": 700,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "MIC_BCLK",
+        "4": "MIC_WS",
+        "5": "MIC_SD",
+        "6": "GND"
+      },
+      "note": "Pin 6 is microphone LR, grounded for left channel. Match module silk, not cable position.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "c031fc4db202a8c0",
+      "default_population": "FIT",
+      "pcb_primitive_id": "63e0638064ee1b4c",
+      "pcb_center_mm": [
+        49.999999,
+        2.54
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_6P-P2.54-V-M-1"
+    },
+    {
+      "ref": "J6",
+      "device": "768d7f54efb3fb76",
+      "name": "AMP_I2S_SIGNALS",
+      "x": 1060,
+      "y": 530,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "AMP_BCLK",
+        "3": "AMP_WS",
+        "4": "AMP_DIN"
+      },
+      "note": "MAX98357 power uses short external UBEC branch. SD_MODE keeps module default.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "44a2a24396f41523",
+      "default_population": "FIT",
+      "pcb_primitive_id": "df8f19b034dd9071",
+      "pcb_center_mm": [
+        65.0,
+        2.54
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_4P-P2.54-V-M"
+    },
+    {
+      "ref": "J7",
+      "device": "f8aa8c113df941ed",
+      "name": "LCD_STOCK_CONTROLS",
+      "x": 1060,
+      "y": 610,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "ENC_A",
+        "3": "ENC_B",
+        "4": "GND",
+        "5": "ENC_SW_N",
+        "6": "GND",
+        "7": "KEY_N"
+      },
+      "note": "A/B/PUSH/K0 from original screen PCB at 3.3V. Keep original controls; match signal labels.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "9cfaa876b030a1c2",
+      "default_population": "FIT",
+      "pcb_primitive_id": "db923771f6700776",
+      "pcb_center_mm": [
+        31.999999,
+        29.459999
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_7P-P2.54-V-M"
+    },
+    {
+      "ref": "J8",
+      "device": "e3a3ad3aa7709b41",
+      "name": "LOGIC_5V_IN",
+      "x": 200,
+      "y": 420,
+      "rotation": 0,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "note": "UBEC 3A set to 5V. Carrier input excludes amplifier branch and all servo currents.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "8b89218822574d83",
+      "default_population": "FIT",
+      "pcb_primitive_id": "fd5b613f8cf5687b",
+      "pcb_center_mm": [
+        68.999999,
+        26.999999
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_2P-P2.54-V-M-1"
+    },
+    {
+      "ref": "J9",
+      "device": "e3a3ad3aa7709b41",
+      "name": "SWITCHED_BAT_SENSE",
+      "x": 200,
+      "y": 260,
+      "rotation": 0,
+      "nets": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "note": "Sense only: connect after main switch. Never connect to unswitched battery.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "9f91477d248df4df",
+      "default_population": "FIT",
+      "pcb_primitive_id": "9dff8ef7ed778e72",
+      "pcb_center_mm": [
+        10.0,
+        4.0
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_2P-P2.54-V-M-1"
+    },
+    {
+      "ref": "J10",
+      "device": "e3a3ad3aa7709b41",
+      "name": "LCD_EXT_3V3_IN",
+      "x": 1060,
+      "y": 435,
+      "rotation": 0,
+      "nets": {
+        "1": "LCD_3V3",
+        "2": "GND"
+      },
+      "note": "Regulated 3.3V ONLY. JP3 must be OPEN. Power MCU/LCD together. Never connect 5V or parallel regulator outputs.",
+      "native_primitive_id": "8256903fe81ab0d7",
+      "on_pcb": true,
+      "default_population": "OPTIONAL_EXTERNAL_INPUT",
+      "pcb_primitive_id": "a1d316824d89ce6c",
+      "pcb_center_mm": [
+        73.999999,
+        11.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_2P-P2.54-V-M-1"
+    },
+    {
+      "ref": "JP1",
+      "device": "e3a3ad3aa7709b41",
+      "name": "MCU_POWER_LINK",
+      "x": 460,
+      "y": 420,
+      "rotation": 0,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "+5V_MCU"
+      },
+      "note": "Solder wire link for standalone battery operation. USB VBUS is NOT isolated. Remove MCU to USB program.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "a797a349cae26b00",
+      "default_population": "OPEN",
+      "pcb_primitive_id": "7d4b294673682be5",
+      "pcb_center_mm": [
+        65.0,
+        21.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_2P-P2.54-V-M-1"
+    },
+    {
+      "ref": "JP2",
+      "device": "e3a3ad3aa7709b41",
+      "name": "BAT_SENSE_LINK",
+      "x": 420,
+      "y": 260,
+      "rotation": 0,
+      "nets": {
+        "1": "VBAT_SW",
+        "2": "VBAT_SENSE"
+      },
+      "note": "Solder link only after battery/MCU power-up verification. Open for standalone USB operation.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "c9b547ef91fad639",
+      "default_population": "OPEN",
+      "pcb_primitive_id": "d625eb87754dcb68",
+      "pcb_center_mm": [
+        15.499999,
+        4.0
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_2P-P2.54-V-M-1"
+    },
+    {
+      "ref": "JP3",
+      "device": "e3a3ad3aa7709b41",
+      "name": "LCD_3V3_LINK_OPEN",
+      "x": 800,
+      "y": 595,
+      "rotation": 0,
+      "nets": {
+        "1": "+3V3",
+        "2": "LCD_3V3"
+      },
+      "note": "Normally OPEN low-profile wire link. Close only after MCU LDO current/thermal checks; external J10 must be disconnected.",
+      "native_primitive_id": "babdc4edd0c2624b",
+      "on_pcb": true,
+      "default_population": "OPEN",
+      "pcb_primitive_id": "acd0a2d69cdaff4d",
+      "pcb_center_mm": [
+        73.999999,
+        16.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "HDR-TH_2P-P2.54-V-M-1"
+    },
+    {
+      "ref": "R1",
+      "device": "7e9f401463d5ebb5",
+      "name": "100k 1% 0.25W",
+      "x": 600,
+      "y": 260,
+      "rotation": 0,
+      "nets": {
+        "1": "VBAT_SENSE",
+        "2": "ADC_BAT"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "d6eb06bda6c435f8",
+      "default_population": "FIT",
+      "pcb_primitive_id": "0117209b8a36a870",
+      "pcb_center_mm": [
+        30.999999,
+        11.999999
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    },
+    {
+      "ref": "R2",
+      "device": "d072e3a4e3ac621e",
+      "name": "33k 1% 0.25W",
+      "x": 700,
+      "y": 180,
+      "rotation": 270,
+      "nets": {
+        "1": "ADC_BAT",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "aa990e9fb83ba1c4",
+      "default_population": "FIT",
+      "pcb_primitive_id": "158d62f2f3fc1e96",
+      "pcb_center_mm": [
+        30.999999,
+        16.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    },
+    {
+      "ref": "R3",
+      "device": "b0ebc38270c1330d",
+      "name": "10k 1% OE pull-up",
+      "x": 620,
+      "y": 519.9999999999999,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "PCA_OE_N"
+      },
+      "note": "Check/remove module OE pull-down if fitted; verify OE remains high at boot.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "53151003159d7694",
+      "default_population": "FIT",
+      "pcb_primitive_id": "abc830720e7775da",
+      "pcb_center_mm": [
+        44.000001,
+        11.999999
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    },
+    {
+      "ref": "R4",
+      "device": "b0ebc38270c1330d",
+      "name": "10k 1% 0.25W",
+      "x": 600,
+      "y": 370,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "ENC_A"
+      },
+      "note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "b88989ce5ce819e4",
+      "default_population": "DNP",
+      "pcb_primitive_id": "acac903530ec72a4",
+      "pcb_center_mm": [
+        44.000001,
+        16.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    },
+    {
+      "ref": "R5",
+      "device": "b0ebc38270c1330d",
+      "name": "10k 1% 0.25W",
+      "x": 710,
+      "y": 369.9999999999999,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "ENC_B"
+      },
+      "note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "c506a9ca445803df",
+      "default_population": "DNP",
+      "pcb_primitive_id": "363a5c04d2da7b33",
+      "pcb_center_mm": [
+        44.000001,
+        20.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    },
+    {
+      "ref": "R6",
+      "device": "b0ebc38270c1330d",
+      "name": "10k 1% 0.25W",
+      "x": 820,
+      "y": 369.9999999999999,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "ENC_SW_N"
+      },
+      "note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "b8020d6d5c8dbd49",
+      "default_population": "DNP",
+      "pcb_primitive_id": "463107cce24ab796",
+      "pcb_center_mm": [
+        58.999999,
+        11.999999
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    },
+    {
+      "ref": "R7",
+      "device": "b0ebc38270c1330d",
+      "name": "10k 1% 0.25W",
+      "x": 930,
+      "y": 369.9999999999999,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_N"
+      },
+      "note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "031511184ff5ae23",
+      "default_population": "DNP",
+      "pcb_primitive_id": "b3991f9d9c09e053",
+      "pcb_center_mm": [
+        58.999999,
+        16.000001
+      ],
+      "pcb_rotation_degrees": 0,
+      "footprint": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+    }
+  ],
+  "pinmaps": {
+    "J1": {
+      "1": "ADC_BAT",
+      "2": "ENC_B",
+      "3": null,
+      "4": "MIC_BCLK",
+      "5": "MIC_WS",
+      "6": "MIC_SD",
+      "7": "GND",
+      "8": "ENC_A",
+      "9": "PCA_SDA",
+      "10": "PCA_SCL",
+      "11": "PCA_OE_N",
+      "12": "LCD_MOSI",
+      "13": "LCD_SCLK",
+      "14": "LCD_CS_N",
+      "15": "LCD_DC",
+      "16": null,
+      "17": "+3V3",
+      "18": "+3V3",
+      "19": "+3V3",
+      "20": "GND"
+    },
+    "J2": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": "AMP_BCLK",
+      "6": "AMP_WS",
+      "7": "AMP_DIN",
+      "8": null,
+      "9": "GND",
+      "10": "LCD_RST_N",
+      "11": "KEY_N",
+      "12": null,
+      "13": "ENC_SW_N",
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": "+5V_MCU",
+      "18": "+5V_MCU",
+      "19": "+5V_MCU",
+      "20": "GND"
+    },
+    "J3": {
+      "1": "GND",
+      "2": "LCD_3V3",
+      "3": "LCD_SCLK",
+      "4": "LCD_MOSI",
+      "5": "LCD_RST_N",
+      "6": "LCD_DC",
+      "7": "LCD_CS_N",
+      "8": "LCD_3V3"
+    },
+    "J4": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "PCA_SDA",
+      "4": "PCA_SCL",
+      "5": "PCA_OE_N"
+    },
+    "J5": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "MIC_BCLK",
+      "4": "MIC_WS",
+      "5": "MIC_SD",
+      "6": "GND"
+    },
+    "J6": {
+      "1": "GND",
+      "2": "AMP_BCLK",
+      "3": "AMP_WS",
+      "4": "AMP_DIN"
+    },
+    "J7": {
+      "1": "GND",
+      "2": "ENC_A",
+      "3": "ENC_B",
+      "4": "GND",
+      "5": "ENC_SW_N",
+      "6": "GND",
+      "7": "KEY_N"
+    },
+    "J8": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    },
+    "J9": {
+      "1": "VBAT_SW",
+      "2": "GND"
+    },
+    "JP1": {
+      "1": "+5V_LOGIC",
+      "2": "+5V_MCU"
+    },
+    "JP2": {
+      "1": "VBAT_SW",
+      "2": "VBAT_SENSE"
+    },
+    "R1": {
+      "1": "VBAT_SENSE",
+      "2": "ADC_BAT"
+    },
+    "R2": {
+      "1": "ADC_BAT",
+      "2": "GND"
+    },
+    "R3": {
+      "1": "+3V3",
+      "2": "PCA_OE_N"
+    },
+    "R4": {
+      "1": "+3V3",
+      "2": "ENC_A"
+    },
+    "R5": {
+      "1": "+3V3",
+      "2": "ENC_B"
+    },
+    "R6": {
+      "1": "+3V3",
+      "2": "ENC_SW_N"
+    },
+    "R7": {
+      "1": "+3V3",
+      "2": "KEY_N"
+    },
+    "C1": {
+      "1": "ADC_BAT",
+      "2": "GND"
+    },
+    "C3": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "C4": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    },
+    "JP3": {
+      "1": "+3V3",
+      "2": "LCD_3V3"
+    },
+    "J10": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "C5": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "C2": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    }
+  },
+  "board": {
+    "width_mm": 80,
+    "height_mm": 32,
+    "thickness_target_mm": 1.6,
+    "copper_layers": 2,
+    "header_row_pitch_mm": 17.78,
+    "mount_holes_mm": [
+      [
+        5,
+        5,
+        3.2
+      ],
+      [
+        75,
+        5,
+        3.2
+      ],
+      [
+        75,
+        27,
+        3.2
+      ],
+      [
+        5,
+        27,
+        3.2
+      ]
+    ],
+    "outline_mm": [
+      [
+        0,
+        0
+      ],
+      [
+        80,
+        0
+      ],
+      [
+        80,
+        32
+      ],
+      [
+        0,
+        32
+      ],
+      [
+        0,
+        22.5
+      ],
+      [
+        24.17,
+        22.5
+      ],
+      [
+        24.17,
+        9.5
+      ],
+      [
+        0,
+        9.5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "antenna_cutout_status": "Conservative candidate based on manufacturer image; not RF validated; router cutter adds internal corner radius."
+  },
+  "display_power": {
+    "net": "LCD_3V3",
+    "voltage_v": 3.3,
+    "default_jp3": "OPEN",
+    "mcu_mode": "Close JP3 only after MCU 3.3V current/thermal margin is verified; disconnect J10.",
+    "external_mode": "JP3 open; J10.1 regulated 3.3V, J10.2 GND; MCU and LCD powered together.",
+    "external_regulator_selected": false,
+    "maximum_display_current_verified": false,
+    "regulators_must_not_be_paralleled": true
+  },
+  "source_note": "Derived from saved RevB schematic, PCB netlists and archived geometry. x/y are schematic API coordinates (0.01 inch), y is inverted from serialized source; pcb_center_mm is separate. Historical initial-build scripts must not be rerun.",
+  "stock_controls_retained": true,
+  "mechanical_revision": "A3",
+  "physical_fit_verified": false
+}

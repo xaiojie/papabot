@@ -1,0 +1,218 @@
+[
+  {
+    "id": "d69aab0b35f01a2d",
+    "key": "LCSC Part Name",
+    "before": "",
+    "after": "1x20P 间距:2.54mm 直插"
+  },
+  {
+    "id": "05f16461fa04e538",
+    "key": "Supplier Footprint",
+    "before": "",
+    "after": "插件,P=2.54mm"
+  },
+  {
+    "id": "37c9cfd7bfa95bb7",
+    "key": "JLCPCB Part Class",
+    "before": "",
+    "after": "Extended Part"
+  },
+  {
+    "id": "c96785f39e76a003",
+    "key": "Datasheet",
+    "before": "",
+    "after": "https://item.szlcsc.com/datasheet/22850120ANG1SYA01/426399.html"
+  },
+  {
+    "id": "f3da3813db5e742a",
+    "key": "Holes Structure",
+    "before": "",
+    "after": "1x20P"
+  },
+  {
+    "id": "90322cefdc73f016",
+    "key": "Pitch",
+    "before": "",
+    "after": "2.54mm"
+  },
+  {
+    "id": "b97c8ddd306839fd",
+    "key": "Row Spacing",
+    "before": "",
+    "after": "-"
+  },
+  {
+    "id": "64607091ee06a72c",
+    "key": "Circular Hole / Square Hole",
+    "before": "",
+    "after": "方孔"
+  },
+  {
+    "id": "56076d59b6a627c2",
+    "key": "Mounting Type",
+    "before": "",
+    "after": "直插"
+  },
+  {
+    "id": "51bb2b5c7d7201a8",
+    "key": "Number of Rows",
+    "before": "",
+    "after": "单排"
+  },
+  {
+    "id": "110d26b84a0b5a41",
+    "key": "Number of Positions",
+    "before": "",
+    "after": "20P"
+  },
+  {
+    "id": "28c72b72ec72b138",
+    "key": "Current Rating",
+    "before": "",
+    "after": "3A"
+  },
+  {
+    "id": "35aae841fa5b5941",
+    "key": "Holes Direction",
+    "before": "",
+    "after": "顶部"
+  },
+  {
+    "id": "ebfcdfe686ac68cd",
+    "key": "Insulation Height",
+    "before": "",
+    "after": "8.5mm"
+  },
+  {
+    "id": "dff3897e13fb5072",
+    "key": "Contact Material",
+    "before": "",
+    "after": "黄铜"
+  },
+  {
+    "id": "189cb64c88323e3f",
+    "key": "Contact Plating",
+    "before": "",
+    "after": "金"
+  },
+  {
+    "id": "288ba613d3059f3d",
+    "key": "Operating Temperature",
+    "before": "",
+    "after": "-40℃~+105℃"
+  },
+  {
+    "id": "524300902120a338",
+    "key": "Description",
+    "before": "",
+    "after": "插孔结构:1x20P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:20P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;"
+  },
+  {
+    "id": "81f071b30bb2b809",
+    "key": "LCSC Part Name",
+    "before": "",
+    "after": "1x20P 间距:2.54mm 直插"
+  },
+  {
+    "id": "55c8281e164ec017",
+    "key": "Supplier Footprint",
+    "before": "",
+    "after": "插件,P=2.54mm"
+  },
+  {
+    "id": "3f6c1b56553d4d83",
+    "key": "JLCPCB Part Class",
+    "before": "",
+    "after": "Extended Part"
+  },
+  {
+    "id": "d58c7f054e926367",
+    "key": "Datasheet",
+    "before": "",
+    "after": "https://item.szlcsc.com/datasheet/22850120ANG1SYA01/426399.html"
+  },
+  {
+    "id": "c7cf1198d0375e5a",
+    "key": "Holes Structure",
+    "before": "",
+    "after": "1x20P"
+  },
+  {
+    "id": "48ef5edac46dca93",
+    "key": "Pitch",
+    "before": "",
+    "after": "2.54mm"
+  },
+  {
+    "id": "040e9dae3664160a",
+    "key": "Row Spacing",
+    "before": "",
+    "after": "-"
+  },
+  {
+    "id": "28701d81ee76cf5b",
+    "key": "Circular Hole / Square Hole",
+    "before": "",
+    "after": "方孔"
+  },
+  {
+    "id": "7aed7f8f0dce6c5f",
+    "key": "Mounting Type",
+    "before": "",
+    "after": "直插"
+  },
+  {
+    "id": "68a05994dd756943",
+    "key": "Number of Rows",
+    "before": "",
+    "after": "单排"
+  },
+  {
+    "id": "b12d16a4da6c190c",
+    "key": "Number of Positions",
+    "before": "",
+    "after": "20P"
+  },
+  {
+    "id": "55b42b4977daf5c1",
+    "key": "Current Rating",
+    "before": "",
+    "after": "3A"
+  },
+  {
+    "id": "0b65c70624c45cc1",
+    "key": "Holes Direction",
+    "before": "",
+    "after": "顶部"
+  },
+  {
+    "id": "cdd40a4b2af6f231",
+    "key": "Insulation Height",
+    "before": "",
+    "after": "8.5mm"
+  },
+  {
+    "id": "cc34b9d4e377b78b",
+    "key": "Contact Material",
+    "before": "",
+    "after": "黄铜"
+  },
+  {
+    "id": "2c4a515f0f3c7af7",
+    "key": "Contact Plating",
+    "before": "",
+    "after": "金"
+  },
+  {
+    "id": "5465beaa2c6b85b1",
+    "key": "Operating Temperature",
+    "before": "",
+    "after": "-40℃~+105℃"
+  },
+  {
+    "id": "ddf0c891824a1557",
+    "key": "Description",
+    "before": "",
+    "after": "插孔结构:1x20P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:20P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;"
+  }
+]

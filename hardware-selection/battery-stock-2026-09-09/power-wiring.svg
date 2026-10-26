@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1050" viewBox="0 0 1400 1050">
+<defs><style>
+text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#182c32} .title{font-size:32px;font-weight:700}.h{font-size:23px;font-weight:650}.t{font-size:19px}.s{font-size:17px;fill:#53676b}.box{fill:white;stroke:#bed0c8;stroke-width:2;rx:14}.red{fill:none;stroke:#cc553e;stroke-width:4}.ground{fill:none;stroke:#384e59;stroke-width:4}.sense{fill:none;stroke:#c48a2f;stroke-width:3}.node{fill:#cc553e}
+</style></defs>
+<rect width="1400" height="1050" fill="#f2f5ef"/>
+<text x="50" y="56" class="title">ACE800 成品电池 · 板外电源接线</text>
+<text x="50" y="91" class="s">2S / 满电 8.4V　｜　载板保持 RevB　｜　模块框内的端子位置不是实物针位排列</text>
+
+<rect class="box" x="50" y="140" width="300" height="265"/>
+<text x="75" y="180" class="h">格氏 ACE800</text>
+<text x="75" y="213" class="t">7.4V · 800mAh · 45C</text>
+<text x="75" y="245" class="s">T 插主线，16AWG</text>
+<text x="75" y="282" class="t">主正极 +</text><path class="red" d="M 350 275 H 475"/>
+<text x="75" y="326" class="t">电芯中点</text><path class="sense" d="M 350 320 H 475"/>
+<text x="75" y="371" class="t">主负极 −</text><path class="ground" d="M 350 365 H 475"/>
+<text x="363" y="305" class="s">平衡头中线</text>
+
+<rect class="box" x="475" y="140" width="310" height="265"/>
+<text x="495" y="180" class="h">HX-2S-JH20</text>
+<text x="495" y="213" class="s">2S 保护＋均衡，共口</text>
+<text x="490" y="282" class="t">B+</text><text x="490" y="327" class="t">BM / MB</text><text x="490" y="372" class="t">B−</text>
+<text x="730" y="282" class="t">P+</text><text x="730" y="372" class="t">P−</text>
+<path class="red" d="M 785 275 H 820"/>
+<rect class="box" x="820" y="247" width="115" height="56"/><text x="838" y="282" class="t">保险丝</text>
+<path class="red" d="M 935 275 H 1030"/><circle class="node" cx="980" cy="275" r="6"/>
+<text x="946" y="239" class="s">充电分线点</text>
+<rect class="box" x="1030" y="247" width="135" height="56"/><text x="1045" y="282" class="t">S1A 开关</text>
+<path class="red" d="M 1165 275 H 1300 V 760"/>
+<text x="1190" y="240" class="t">VBAT_SW</text>
+<path class="ground" d="M 785 365 H 1190"/>
+<text x="860" y="397" class="t">P− = 整机 GND</text>
+
+<rect class="box" x="925" y="455" width="355" height="95"/>
+<text x="947" y="490" class="h">DFR0753 → 舵机 5V</text>
+<text x="947" y="523" class="s">独立粗线配电，负极回 P−</text>
+<path class="red" d="M 1300 480 H 1280"/>
+<circle class="node" cx="1300" cy="480" r="6"/>
+<rect class="box" x="925" y="585" width="355" height="95"/>
+<text x="947" y="620" class="h">好盈 UBEC → 逻辑 5V</text>
+<text x="947" y="653" class="s">跳帽设 5V；接 J8 与功放</text>
+<path class="red" d="M 1300 610 H 1280"/>
+<circle class="node" cx="1300" cy="610" r="6"/>
+<rect class="box" x="925" y="715" width="355" height="95"/>
+<text x="947" y="750" class="h">J9.1 → 电池采样</text>
+<text x="947" y="783" class="s">100k / 33k；J9.2 接 P−</text>
+<path class="red" d="M 1300 760 H 1280"/>
+
+<rect class="box" x="50" y="520" width="725" height="215"/>
+<text x="75" y="563" class="h">充电支路：关机充电</text>
+<text x="75" y="601" class="t">充电器 BAT+ → 保险丝后的充电分线点</text>
+<text x="75" y="638" class="t">充电器 BAT− → 保护板 P−</text>
+<text x="75" y="678" class="s">标准 8.4V CC/CV；首轮目标 0.4A</text>
+<text x="75" y="707" class="s">原 MK021163 的电流尚未实测，确认后才能接电池。</text>
+
+<rect x="50" y="845" width="1300" height="157" rx="14" fill="#e3ece4"/>
+<text x="75" y="883" class="h">四条接线约束</text>
+<text x="75" y="919" class="t">① B− 与 P− 不额外短接；全部机器和充电回路接 P−。　② 平衡线只做检测，不承载舵机电流。</text>
+<text x="75" y="955" class="t">③ 两路 5V 输出不并联；屏幕依照 RevB 仅接 3.3V。　④ 电池工作时不接电脑 USB。</text>
+<text x="50" y="1032" class="s">2026-09-09 · 已完成设计适配，尚未做实物充电、压降、温升或八舵机负载验证。</text>
+</svg>

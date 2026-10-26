@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-08T22:51:55.644535+08:00",
+  "document": {
+    "documentType": 3,
+    "uuid": "641e84beea5fc9c6",
+    "tabId": "641e84beea5fc9c6@e5e438419c1c4681946d5009bb8d6daf",
+    "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+  },
+  "checks": {
+    "lines": {
+      "count": 738,
+      "unchanged_since_outline_repair": true
+    },
+    "polylines": {
+      "count": 1,
+      "unchanged_since_outline_repair": true
+    },
+    "pads": {
+      "count": 102,
+      "unchanged_since_outline_repair": true
+    },
+    "vias": {
+      "count": 24,
+      "unchanged_since_outline_repair": true
+    }
+  },
+  "all_unchanged": true
+}

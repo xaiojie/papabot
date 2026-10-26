@@ -1,0 +1,6 @@
+.pio/
+.venv/
+__pycache__/
+test/.build/
+artifacts/
+dist/

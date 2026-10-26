@@ -1,0 +1,267 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "assembly": "upper_shell",
+      "distance_mm": 0,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 98
+    },
+    {
+      "assembly": "upper_shell",
+      "distance_mm": 5,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 95
+    },
+    {
+      "assembly": "upper_shell",
+      "distance_mm": 15,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 92
+    },
+    {
+      "assembly": "upper_shell",
+      "distance_mm": 35,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 91
+    },
+    {
+      "assembly": "upper_shell",
+      "distance_mm": 80,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "front_assembly",
+      "distance_mm": 0,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "assembly": "front_assembly",
+      "distance_mm": 3,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "assembly": "front_assembly",
+      "distance_mm": 10,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 1
+    },
+    {
+      "assembly": "front_assembly",
+      "distance_mm": 25,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "rear_assembly",
+      "distance_mm": 0,
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 19
+    },
+    {
+      "assembly": "rear_assembly",
+      "distance_mm": 3,
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 13
+    },
+    {
+      "assembly": "rear_assembly",
+      "distance_mm": 10,
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "assembly": "rear_assembly",
+      "distance_mm": 25,
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "conflicts": [],
+      "tested_pairs": 1
+    },
+    {
+      "assembly": "pcb_lift",
+      "distance_mm": 0,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 6
+    },
+    {
+      "assembly": "pcb_lift",
+      "distance_mm": 5,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 4
+    },
+    {
+      "assembly": "pcb_lift",
+      "distance_mm": 15,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "pcb_lift",
+      "distance_mm": 35,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "pcb_lift",
+      "distance_mm": 75,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "battery_tray",
+      "distance_mm": 0,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "battery_tray",
+      "distance_mm": 5,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "battery_tray",
+      "distance_mm": 15,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "battery_tray",
+      "distance_mm": 35,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    },
+    {
+      "assembly": "battery_tray",
+      "distance_mm": 75,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "conflicts": [],
+      "tested_pairs": 0
+    }
+  ],
+  "required_sequence": [
+    "Power off; disconnect battery, then detach front/rear harnesses.",
+    "Remove USB side insert R20, front assembly and rear assembly before upper shell.",
+    "Remove PCB screws and unplug all harnesses before PCB lift.",
+    "Remove PCB and R06 carrier before battery tray; R21 independently replaceable but not hot-swap."
+  ],
+  "limits": [
+    "Sampled straight extraction only; cables, user fingers and tools not fully modeled."
+  ]
+}

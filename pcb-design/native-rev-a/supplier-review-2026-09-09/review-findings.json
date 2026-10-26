@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-09-09",
+  "scope": "supplier source review, no native EDA or mechanical geometry edits",
+  "status": "HOLD_REQUIRES_SCREEN_SUPPLY_REVISION",
+  "module_controls_pullup_ohm": 10000,
+  "module_control_pullup_rail": "VCC",
+  "module_control_common": "GND",
+  "required_module_vcc_v": 3.3,
+  "native_J3_pin2_still": "+5V_LOGIC",
+  "module_current_max_ma": null,
+  "ideal_old_wiring_gpio_high_v": {
+    "A_B_PUSH": 4.145771144278607,
+    "K0": 4.15
+  },
+  "calculation_assumptions": "10k module pullup, 10k carrier pullup to3.3V, 100ohm series exceptK0; ignores GPIO clamps/leakage; not measured",
+  "power_claim_conflict": [
+    "pin-description VCC3.3V",
+    "STM32 example comments 5V or3.3V"
+  ],
+  "physical_validation_done": false,
+  "report": "supplier-review-2026-09-09/屏幕资料核对与PCB修改要求.md"
+}

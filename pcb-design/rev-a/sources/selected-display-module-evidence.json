@@ -1,0 +1,51 @@
+{
+  "review_date": "2026-09-08",
+  "source_type": "项目已有的所选商品供应商规格图片",
+  "original_path": "mechanical-design/assembly-v1/reference/selected-display-module-spec.png",
+  "source_sha256": "b57a5b6606d98b5e6f6d9a6510f3175e48dd4d9b46e7954482c6628479e2f9f3",
+  "module": "TOUGLESY 2.4寸TFT彩屏+EC11旋转编码器模块",
+  "confirmed": {
+    "controller": "ST7789",
+    "resolution": "320×240 RGB",
+    "touch": false,
+    "interface": "SPI",
+    "module_vcc_v": [
+      3.3,
+      5.0
+    ],
+    "BLK": "TFT背光调节，默认全开，可以不接",
+    "pin_functions": {
+      "GND": "电源负极",
+      "VCC": "电源正极",
+      "SCL": "TFT屏SPI通信时钟",
+      "SDA": "TFT屏SPI通信数据",
+      "RES": "复位",
+      "DC": "数据/命令",
+      "CS": "片选，低有效",
+      "BLK": "TFT背光调节，默认全开，可以不接",
+      "A": "EC11 A相",
+      "B": "EC11 B相",
+      "PUSH": "EC11按键",
+      "K0": "独立按键"
+    },
+    "encoder": "5脚带开关；编码器和独立按键与屏幕独立",
+    "nominal_dimensions_mm": [
+      91,
+      44
+    ],
+    "mounting_hole_spacing_mm": [
+      84.5,
+      37.5
+    ],
+    "mounting_hole_diameter_mm": 3.0,
+    "supplier_measurement_note": "手工测量可能存在0.5–1mm误差"
+  },
+  "not_established": [
+    "物理排针数字编号和观察方向",
+    "各逻辑引脚5V容限",
+    "BLK输入阈值、输入电流和内部电路",
+    "VCC供电电流及背光启动电流",
+    "EC11与独立按键的公共端、板载上拉及其电源域"
+  ],
+  "pcb_recommendation": "Rev A 模块VCC接+5V_LOGIC，SPI采用3.3V逻辑；BLK留空，按厂家说明默认全亮。保持实际模块物理针序和供电电流待核；不宣称5V逻辑兼容。"
+}

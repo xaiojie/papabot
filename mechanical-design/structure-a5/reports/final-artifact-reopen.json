@@ -1,0 +1,75 @@
+{
+  "file": "/Users/jay/work/自研桌面助手/ESP32-desktop-assistant-handoff/mechanical-design/structure-a5/DesktopAssistant-整机结构-A5.blend",
+  "sha256": "ace8224003803e50476a99f97ab77cd0ece0d78287bd298232193ee7870a4cf9",
+  "opened_with": "Blender 5.2.1 LTS --background --disable-autoexec",
+  "main_scene": "20_A5_COMPLETE_ASSEMBLY",
+  "available_scenes": [
+    "20_A5_COMPLETE_ASSEMBLY",
+    "21_A5_INTERNAL",
+    "22_A5_LOWER_DECK",
+    "23_A5_EXPLODED",
+    "24_A5_FRONT_REMOVED",
+    "25_A5_PRINT_PARTS"
+  ],
+  "main_print_count": 31,
+  "texture_packed": true,
+  "protected_sources_unchanged": {
+    "mechanical-design/structure-a4/DesktopAssistant-整机结构-A4.blend": true,
+    "mechanical-design/structure-a3/DesktopAssistant-整机结构-A3.blend": true,
+    "pcb-design/integrated-v1/user-latest-review-2026-09-13/User_latest_PCB1.source": true,
+    "采购清单-20260912/最新BOM总表.md": true
+  },
+  "saved_viewport": [
+    {
+      "screen": "Animation",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Animation",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Geometry Nodes",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Layout",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Modeling",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Scripting",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Sculpting",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Shading",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "Texture Paint",
+      "extras": false,
+      "relationship_lines": false
+    },
+    {
+      "screen": "UV Editing",
+      "extras": false,
+      "relationship_lines": false
+    }
+  ],
+  "physical_tested": false
+}

@@ -1,0 +1,202 @@
+{
+  "part_count": 31,
+  "reference_count": 141,
+  "topology_pass": true,
+  "topology": [
+    {
+      "id": "R01",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 49276.492
+    },
+    {
+      "id": "R05",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 41486.579
+    },
+    {
+      "id": "R06",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 9162.536
+    },
+    {
+      "id": "R02",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 13365.305
+    },
+    {
+      "id": "R07",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 1115.267
+    },
+    {
+      "id": "R04",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 2213.841
+    },
+    {
+      "id": "R21",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 7206.544
+    },
+    {
+      "id": "R17",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 4421.12
+    },
+    {
+      "id": "R18",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 2422.821
+    },
+    {
+      "id": "R03",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 18155.99
+    },
+    {
+      "id": "R11",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 888.947
+    },
+    {
+      "id": "R19",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 1371.303
+    },
+    {
+      "id": "R14",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 482.31
+    },
+    {
+      "id": "R08",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 5783.788
+    },
+    {
+      "id": "R20",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 471.928
+    },
+    {
+      "id": "R12_L",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 1037.63
+    },
+    {
+      "id": "R12_R",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 1037.63
+    },
+    {
+      "id": "R13_L",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 88.707
+    },
+    {
+      "id": "R13_R",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 88.707
+    },
+    {
+      "id": "L101_FL",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 2928.194
+    },
+    {
+      "id": "L102_FL",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 4052.85
+    },
+    {
+      "id": "L104_FL",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 3772.204
+    },
+    {
+      "id": "L101_FR",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 2928.194
+    },
+    {
+      "id": "L102_FR",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 4052.85
+    },
+    {
+      "id": "L104_FR",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 3772.204
+    },
+    {
+      "id": "L101_RL",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 2928.194
+    },
+    {
+      "id": "L102_RL",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 4052.85
+    },
+    {
+      "id": "L104_RL",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 3772.204
+    },
+    {
+      "id": "L101_RR",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 2928.194
+    },
+    {
+      "id": "L102_RR",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 4052.85
+    },
+    {
+      "id": "L104_RR",
+      "nonmanifold_edges": 0,
+      "connected_bodies": 1,
+      "volume_mm3": 3772.204
+    }
+  ],
+  "collision_pass": true,
+  "exact_pairs": 282,
+  "conflicts": [],
+  "threshold_mm3": 0.05,
+  "limits": [
+    "Nominal component solids are reserves, not supplier 3D models.",
+    "On-board component-to-component overlap is not a PCB DRC check.",
+    "STL and physical fit checked separately."
+  ]
+}

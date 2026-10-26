@@ -1,0 +1,632 @@
+{
+  "remove_line_ids": [
+    "45ceec04f489fac6",
+    "74657f1c6b7cf1b5",
+    "fc73a5fc6c57d905",
+    "f0c492e9e1529771",
+    "d76efa13f1405ae6",
+    "63dd29ddeff2f3d3",
+    "2f80af37a081ad68",
+    "f2ca9ccfafbdd9b1",
+    "ce8abce483034f70",
+    "fec2be793e0292b0",
+    "1b689569c209e23c",
+    "ccead721050cd523",
+    "c09f3fa5050bf61a",
+    "d8e0038626b1a30e",
+    "d70fe8065c7f1e0c",
+    "f7981fb925c16df5",
+    "e3fd97765af10ed8",
+    "57a8dd7799f1d594",
+    "098f26041aa795ce",
+    "57aba91a0d404896",
+    "edc92f20d4502399",
+    "ef340831cf1d6e84",
+    "a6156a257e43b5ff",
+    "1e969e0f2ffd69b7",
+    "63c94c5b0d5227ec",
+    "8c9b8ed841cfc672",
+    "45c6191d759a97e4",
+    "0d35eb26c1c03688",
+    "2b3342ffa2f884d8",
+    "8720e9ed66aa2388",
+    "de59095f4d4d061d",
+    "ec0050ca435656a6",
+    "3b7ddca7ee6d7d38",
+    "2933d65392fb5765",
+    "be247630d04884e9",
+    "8343412507261fab",
+    "1162c256b813b46c",
+    "691df7734ff4ab54",
+    "709527ba00ec2126",
+    "d9f42aa05f4c007f",
+    "6f1085def4917e77",
+    "6cd48d9402b881c2",
+    "badc9fb757b5b77e",
+    "dc48ab78c73c4eeb",
+    "6fec446aad443b12",
+    "00dc9c3bce08aa6d",
+    "f5cbd2e5c67a4c15",
+    "6776e8154a732513",
+    "9a9425a8630d5b21"
+  ],
+  "preserved_lines": 689,
+  "add_lines": [
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1531.1024,
+      "startY": 100.0,
+      "endX": 1460.0,
+      "endY": 50.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1460.0,
+      "startY": 50.0,
+      "endX": 1009.8425,
+      "endY": 50.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1009.8425,
+      "startY": 50.0,
+      "endX": 931.1024,
+      "endY": 100.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 2,
+      "startX": 2863.3858,
+      "startY": 433.0709,
+      "endX": 2863.3858,
+      "endY": 400.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2863.3858,
+      "startY": 400.0,
+      "endX": 2850.0,
+      "endY": 385.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2850.0,
+      "startY": 385.0,
+      "endX": 2850.0,
+      "endY": 380.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2850.0,
+      "startY": 380.0,
+      "endX": 2820.0,
+      "endY": 350.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2820.0,
+      "startY": 350.0,
+      "endX": 2810.0,
+      "endY": 329.9213,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2810.0,
+      "startY": 329.9213,
+      "endX": 2785.0,
+      "endY": 305.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2785.0,
+      "startY": 305.0,
+      "endX": 2785.0,
+      "endY": 300.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2785.0,
+      "startY": 300.0,
+      "endX": 2770.0,
+      "endY": 285.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2770.0,
+      "startY": 285.0,
+      "endX": 2760.0,
+      "endY": 265.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2760.0,
+      "startY": 265.0,
+      "endX": 2759.0551,
+      "endY": 130.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2759.0551,
+      "startY": 130.0,
+      "endX": 2763.3858,
+      "endY": 120.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2763.3858,
+      "startY": 120.0,
+      "endX": 2763.3858,
+      "endY": 80.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2763.3858,
+      "startY": 80.0,
+      "endX": 2755.0,
+      "endY": 65.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2755.0,
+      "startY": 65.0,
+      "endX": 2740.0,
+      "endY": 50.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2740.0,
+      "startY": 50.0,
+      "endX": 2735.0,
+      "endY": 50.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2735.0,
+      "startY": 50.0,
+      "endX": 2730.0,
+      "endY": 45.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2730.0,
+      "startY": 45.0,
+      "endX": 2235.0,
+      "endY": 45.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2235.0,
+      "startY": 45.0,
+      "endX": 2230.0,
+      "endY": 40.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 2230.0,
+      "startY": 40.0,
+      "endX": 1615.0,
+      "endY": 40.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1615.0,
+      "startY": 40.0,
+      "endX": 1610.0,
+      "endY": 45.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1610.0,
+      "startY": 45.0,
+      "endX": 1605.0,
+      "endY": 45.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1605.0,
+      "startY": 45.0,
+      "endX": 1585.0,
+      "endY": 65.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1585.0,
+      "startY": 65.0,
+      "endX": 1570.0,
+      "endY": 70.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1570.0,
+      "startY": 70.0,
+      "endX": 1560.0,
+      "endY": 80.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1560.0,
+      "startY": 80.0,
+      "endX": 1555.0,
+      "endY": 80.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1555.0,
+      "startY": 80.0,
+      "endX": 1535.0,
+      "endY": 100.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 1,
+      "startX": 1535.0,
+      "startY": 100.0,
+      "endX": 1531.1024,
+      "endY": 100.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 2,
+      "startX": 2963.3858,
+      "startY": 629.9213,
+      "endX": 2863.3858,
+      "endY": 433.0709,
+      "lineWidth": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": 2,
+      "startX": 2813.3858,
+      "startY": 826.7717,
+      "endX": 2963.3858,
+      "endY": 629.9213,
+      "lineWidth": 24
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2509.0551,
+      "startY": 826.7717,
+      "endX": 2524.8031,
+      "endY": 800.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2524.8031,
+      "startY": 800.0,
+      "endX": 2525.0,
+      "endY": 755.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2525.0,
+      "startY": 755.0,
+      "endX": 2616.5354,
+      "endY": 630.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2616.5354,
+      "startY": 630.0,
+      "endX": 2616.5354,
+      "endY": 440.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2616.5354,
+      "startY": 440.0,
+      "endX": 2627.1654,
+      "endY": 415.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2627.1654,
+      "startY": 415.0,
+      "endX": 2627.1654,
+      "endY": 355.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2627.1654,
+      "startY": 355.0,
+      "endX": 2635.0,
+      "endY": 325.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2635.0,
+      "startY": 325.0,
+      "endX": 2655.0,
+      "endY": 305.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2655.0,
+      "startY": 305.0,
+      "endX": 2677.1654,
+      "endY": 254.3307,
+      "lineWidth": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": 2,
+      "startX": 2666.5354,
+      "startY": 1062.9921,
+      "endX": 2509.0551,
+      "endY": 826.7717,
+      "lineWidth": 40
+    },
+    {
+      "net": "+3V3",
+      "layer": 2,
+      "startX": 2863.3858,
+      "startY": 629.9213,
+      "endX": 2705.0,
+      "endY": 680.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "+3V3",
+      "layer": 2,
+      "startX": 2705.0,
+      "startY": 680.0,
+      "endX": 2630.0,
+      "endY": 740.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "+3V3",
+      "layer": 1,
+      "startX": 2630.0,
+      "startY": 740.0,
+      "endX": 2495.0,
+      "endY": 740.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "+3V3",
+      "layer": 1,
+      "startX": 2495.0,
+      "startY": 740.0,
+      "endX": 2340.0,
+      "endY": 855.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "+3V3",
+      "layer": 1,
+      "startX": 2340.0,
+      "startY": 855.0,
+      "endX": 2335.0,
+      "endY": 895.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "+3V3",
+      "layer": 1,
+      "startX": 2335.0,
+      "startY": 895.0,
+      "endX": 2370.0,
+      "endY": 920.0,
+      "lineWidth": 24
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2963.3858,
+      "startY": 433.0709,
+      "endX": 2915.0,
+      "endY": 500.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2915.0,
+      "startY": 500.0,
+      "endX": 2890.0,
+      "endY": 505.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2890.0,
+      "startY": 505.0,
+      "endX": 2820.0,
+      "endY": 565.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2820.0,
+      "startY": 565.0,
+      "endX": 2810.0,
+      "endY": 565.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2810.0,
+      "startY": 565.0,
+      "endX": 2770.0,
+      "endY": 605.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2770.0,
+      "startY": 605.0,
+      "endX": 2760.0,
+      "endY": 625.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2760.0,
+      "startY": 625.0,
+      "endX": 2755.0,
+      "endY": 840.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2755.0,
+      "startY": 840.0,
+      "endX": 2759.0551,
+      "endY": 1015.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2759.0551,
+      "startY": 1015.0,
+      "endX": 2766.5354,
+      "endY": 1035.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "startX": 2766.5354,
+      "startY": 1035.0,
+      "endX": 2766.5354,
+      "endY": 1062.9921,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 3013.3858,
+      "startY": 826.7717,
+      "endX": 2910.0,
+      "endY": 826.7717,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2910.0,
+      "startY": 826.7717,
+      "endX": 2830.0,
+      "endY": 885.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2830.0,
+      "startY": 885.0,
+      "endX": 2790.0,
+      "endY": 885.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2790.0,
+      "startY": 885.0,
+      "endX": 2765.0,
+      "endY": 865.0,
+      "lineWidth": 40
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "startX": 2765.0,
+      "startY": 865.0,
+      "endX": 2755.0,
+      "endY": 840.0,
+      "lineWidth": 40
+    }
+  ],
+  "add_vias": [
+    {
+      "net": "+3V3",
+      "x": 2630.0,
+      "y": 740.0,
+      "diameter": 23.62204724409449,
+      "drill": 11.811023622047244
+    }
+  ]
+}

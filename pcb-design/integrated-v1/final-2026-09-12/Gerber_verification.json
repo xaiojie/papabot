@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-12T20:53:32.961648+08:00",
+  "sha256": "078d038af76aace10132634d8ea8cbe8144f2b2e48152f1195f4986ea9f7b6fe",
+  "crc_pass": true,
+  "board_outline_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      110.0,
+      0.0
+    ],
+    [
+      110.0,
+      -75.0
+    ],
+    [
+      0.0,
+      -75.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "plated_round_holes": 207,
+  "plated_slots": 4,
+  "component_round_holes": 119,
+  "vias": 88,
+  "nonplated_holes": 9,
+  "mounting_holes": 4,
+  "maximum_drill_delta_mm": 1.259999997671457e-06,
+  "drills_and_slots_match_native_archive": true,
+  "copper_segments": {
+    "Gerber_TopLayer.GTL": 696,
+    "Gerber_BottomLayer.GBL": 203
+  },
+  "all_copper_segments_match": true,
+  "static_fill_coverage_missing_mm2": {
+    "1": 0.0,
+    "2": 0.0
+  },
+  "smd_pads_checked": 200,
+  "missing_paste_openings": [],
+  "missing_soldermask_openings": [],
+  "native_custom_stencil_regions": 125,
+  "flying_probe_pinmaps_match": true,
+  "isolated_nc_pins": 45,
+  "separate_via_drill_is_subset_of_pth": true
+}

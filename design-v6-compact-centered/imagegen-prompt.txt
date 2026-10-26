@@ -1,0 +1,40 @@
+Use case: precise-object-edit.
+Asset: photorealistic compact desktop robot proportion study, V6.
+Image 1 is the previous V5 robot design, the edit target. Image 2 is the user's actual display-module specification sheet, authoritative for the unchanged PCB geometry and screen/control layout.
+
+USER'S LATEST CORRECTION:
+The previous body was too long and the cheeks too empty. Keep the accepted small mint ears, REMOVE ALL PHYSICAL ENGRAVED WORDS AND LOGOS, and make a noticeably more compact body with a truly centered screen. This is a proportion revision, not another decoration pass. The display module is nominally 91 mm long; the supplier labels the screen assembly as 59 mm wide. Use that component-to-body ratio consistently, not the previous too-small-looking screen inside a very wide 130 mm body.
+
+DIMENSION STUDY (PROVISIONAL, NOT A CLAIM OF VERIFIED FIT):
+Target the enclosure at approximately 118 mm wide instead of the former 130 mm. The 59 mm supplier-labelled screen assembly should occupy approximately HALF of the enclosure's front width, while the complete unmodified 91 mm PCB occupies approximately 77 percent of it.
+The 59 mm number is a supplier-labelled screen assembly span, NOT a verified optical cutout; show a thin dark glass/frame rim and a 4:3 active display inside, without claiming a newly larger diagonal. Selected electronics remain the original 2.4-inch ST7789, 320x240.
+Assume, ONLY for the small layout study, that the screen assembly starts 5.5 mm from the PCB's left edge. Place the whole PCB at x=24 mm inside an enclosure spanning x=0 to x=118 mm. Thus:
+- PCB extent x=24 to x=115, total 91 mm, only 3 mm to the enclosure's right edge.
+- Screen assembly extent x=29.5 to x=88.5, total 59 mm.
+- Screen center x=59 equals the enclosure center x=59.
+This is one provisional arrangement pending actual measurement. The screen never moves independently on the PCB; the entire board is offset right. Do not shrink, cut, fold or detach the PCB or encoder.
+
+MAIN HERO:
+Change the left-hand robot into a compact, softly rounded rectangular cream body with noticeably tighter cheek spacing. Front width to height approximately 1.7:1, not an elongated slab. Keep the four short mint legs, blue microservos, black feet and the two modest rounded mint triangular ears. Bring hip positions inward consistently with the narrower enclosure. Body height/depth remain approximately the preceding design; do not make a giant cube or use longer legs.
+Use a straight-on front view, slightly elevated to reveal a little top, with zero yaw. The SCREEN ASSEMBLY CENTER, FRONT MASK CENTER and BODY CENTER are aligned. Equal left and right visible cheek margins. The outer dark screen assembly width is about 50% of the body width, not the old 35–40%; its height is proportionate to the supplier's approximately 59x42.5 mm screen outline, containing the actual landscape 4:3 display.
+The inner display keeps cyan eyes, smile and the tiny functional text “你好呀”. Do not stretch the eyes or the pixel aspect ratio. Preserve a narrow black border rather than a huge black surround.
+The removable cream front mask completely conceals the original knob and button, with a hollow right inner pocket. Screen rim stays close to the glass, avoiding a deep narrow tunnel. Keep a fine mint perimeter accent. The accepted small ears remain removable on the top BODY shell, not the front mask; keep the central microphone hole clear.
+REMOVE “爬爬”, “Jay”, the paw, the chip icon, all engraved designs and all brand markings everywhere on the physical shell. Smooth blank cheeks. No extra ornamentation.
+
+PRESENTATION:
+Maintain the warm pale wood studio, ivory/mint/cyan palette, realistic fine print texture and soft product photography. Large clear compact hero occupies about two thirds of a 1536x1024 landscape composition.
+On the right show ONE simple straight-on layout inset: cream enclosure outline, intact blue 91 mm PCB offset right inside it, the wide screen assembly on the left side of that board, original black knob upper-right and button lower-right. Render the module with approximately correct relative dimensions (PCB 91:44, screen assembly 59:42.5). The display assembly center aligns with the enclosure center, while the board itself does not. A single fine vertical dashed centerline is sufficient. Use visible left empty space and a very small right clearance to demonstrate the arrangement honestly.
+Optionally keep one small INSIDE view of the detached blank front mask, with its centered screen aperture and the hidden encoder pocket shown on the viewer's left because the cover is flipped. No front-side knob hole. No engraving on the inside or outside.
+Remove the old 130 mm caption and previous decoration callouts. No old brand title.
+
+TEXT:
+Title: “紧凑比例 · 屏幕居中”
+Subtitle: “保留小耳饰，先确定机身比例”
+Caption below hero: “机身宽约 118 mm（估算，不含腿）”
+Layout inset heading: “横向布局估算”
+Short labels: “整板 91 mm”, “屏幕标注 59 mm”, “右侧预留约 3 mm”
+A short caption near centerline: “屏幕中心 = 机身中心”
+Bottom fine note: “按商品标称与位置估算；开窗、外形及间隙待实物复核。”
+Do not label any unverified dimension as final, or claim the left PCB clearance is only 3–5 mm. Do not fake perfect centering inside a 96 mm shell: the controls need their original fixed space.
+
+The visual must look distinctly tighter and less horizontally stretched than V5. Primary goal: compact blank body, accepted small ears, realistic 59-to-118 screen assembly/front width proportion, centered face, preserved intact module and concealed controls.

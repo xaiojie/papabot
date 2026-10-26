@@ -1,0 +1,105 @@
+{
+  "module": "TOUGLESY ST7789 2.4-inch TFT + EC11, stock 91x44mm PCB",
+  "supply": {
+    "net": "LCD_3V3",
+    "voltage_v": 3.3,
+    "default_jp3": "OPEN",
+    "mcu_mode": "Close JP3 only after MCU 3.3V current/thermal margin is verified; disconnect J10.",
+    "external_mode": "JP3 open; J10.1 regulated 3.3V, J10.2 GND; MCU and LCD powered together.",
+    "external_regulator_selected": false,
+    "maximum_display_current_verified": false,
+    "regulators_must_not_be_paralleled": true
+  },
+  "pins": [
+    {
+      "module_pin": 1,
+      "module_signal": "GND",
+      "carrier_pin": "J3.1",
+      "mcu_or_power": "GND",
+      "note": "共地"
+    },
+    {
+      "module_pin": 2,
+      "module_signal": "VCC",
+      "carrier_pin": "J3.2",
+      "mcu_or_power": "LCD_3V3",
+      "note": "仅3.3V"
+    },
+    {
+      "module_pin": 3,
+      "module_signal": "SCL",
+      "carrier_pin": "J3.3",
+      "mcu_or_power": "GPIO12",
+      "note": "SPI时钟"
+    },
+    {
+      "module_pin": 4,
+      "module_signal": "SDA",
+      "carrier_pin": "J3.4",
+      "mcu_or_power": "GPIO11",
+      "note": "SPI MOSI，不是I2C数据"
+    },
+    {
+      "module_pin": 5,
+      "module_signal": "RES",
+      "carrier_pin": "J3.5",
+      "mcu_or_power": "GPIO21",
+      "note": "复位"
+    },
+    {
+      "module_pin": 6,
+      "module_signal": "DC",
+      "carrier_pin": "J3.6",
+      "mcu_or_power": "GPIO14",
+      "note": "数据/命令"
+    },
+    {
+      "module_pin": 7,
+      "module_signal": "CS",
+      "carrier_pin": "J3.7",
+      "mcu_or_power": "GPIO13",
+      "note": "片选"
+    },
+    {
+      "module_pin": 8,
+      "module_signal": "BLK",
+      "carrier_pin": "J3.8",
+      "mcu_or_power": "LCD_3V3",
+      "note": "3.3V固定高电平，全亮，无软件调光"
+    },
+    {
+      "module_pin": 9,
+      "module_signal": "A",
+      "carrier_pin": "J7.2",
+      "mcu_or_power": "GPIO7",
+      "note": "旋钮A相"
+    },
+    {
+      "module_pin": 10,
+      "module_signal": "B",
+      "carrier_pin": "J7.3",
+      "mcu_or_power": "GPIO2",
+      "note": "旋钮B相"
+    },
+    {
+      "module_pin": 11,
+      "module_signal": "PUSH",
+      "carrier_pin": "J7.5",
+      "mcu_or_power": "GPIO38",
+      "note": "旋钮按压，按下为低"
+    },
+    {
+      "module_pin": 12,
+      "module_signal": "K0 / KEY0",
+      "carrier_pin": "J7.7",
+      "mcu_or_power": "GPIO40",
+      "note": "独立按键，按下为低"
+    }
+  ],
+  "unused_j7_ground_pins": [
+    "J7.1",
+    "J7.4",
+    "J7.6"
+  ],
+  "board_orientation_must_be_confirmed_on_hardware": true
+}

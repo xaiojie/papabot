@@ -1,0 +1,28 @@
+{
+  "async": true,
+  "primitiveType": "Pad",
+  "layer": 12,
+  "padNumber": "H1",
+  "x": 196.8503937007874,
+  "y": 196.8503937007874,
+  "rotation": 0,
+  "pad": [
+    "ELLIPSE",
+    125.98425196850395,
+    125.98425196850395
+  ],
+  "net": "",
+  "hole": [
+    "ROUND",
+    125.98425196850395
+  ],
+  "holeOffsetX": 0,
+  "holeOffsetY": 0,
+  "holeRotation": 0,
+  "metallization": false,
+  "padType": 0,
+  "solderMaskAndPasteMaskExpansion": null,
+  "heatWelding": null,
+  "primitiveLock": true,
+  "primitiveId": "7173875fe2135e24"
+}

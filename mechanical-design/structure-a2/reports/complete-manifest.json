@@ -1,0 +1,834 @@
+[
+  {
+    "id": "R02",
+    "label_zh": "浅前盖与麦克风声孔",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "60×43屏幕框开窗沿用名义几何；玻璃内缩约0.8mm需实测。",
+    "name": "R02__shallow_front_cover_A2",
+    "file": "stl-complete/R02__A2__mm.stl",
+    "dimensions_mm": [
+      124.0,
+      76.00008,
+      12.7
+    ],
+    "assembly_bbox_mm": [
+      [
+        -62.0,
+        -26.200000762939453,
+        30.0
+      ],
+      [
+        62.0,
+        -13.5,
+        106.00007629394531
+      ]
+    ]
+  },
+  {
+    "id": "R04",
+    "label_zh": "完整屏幕板固定框",
+    "quantity": 1,
+    "orientation": "back_down",
+    "note": "上下固定耳改为Z44和94，避开底盘腿座螺母；91×44板体及背面元件待实物试配。",
+    "name": "R04__display_support_A2",
+    "file": "stl-complete/R04__A2__mm.stl",
+    "dimensions_mm": [
+      106.5,
+      58.00005,
+      5.6
+    ],
+    "assembly_bbox_mm": [
+      [
+        -48.5,
+        -19.399999618530273,
+        40.0
+      ],
+      [
+        58.0,
+        -13.800000190734863,
+        98.00005340576172
+      ]
+    ]
+  },
+  {
+    "id": "R06",
+    "label_zh": "主控PCB支撑架",
+    "quantity": 1,
+    "orientation": "inverted",
+    "note": "PCB板底Z66；板上用4颗M2×8，头径≤4mm，不加大垫片；底部仍用M3×10。保留PCB原Ø3.2孔。",
+    "name": "R06__PCB_support_bridge_A2_complete",
+    "file": "stl-complete/R06__A2__mm.stl",
+    "dimensions_mm": [
+      103.99999,
+      41.5,
+      31.40001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -51.999996185302734,
+        -7.5,
+        34.599998474121094
+      ],
+      [
+        51.999996185302734,
+        34.0,
+        66.0
+      ]
+    ]
+  },
+  {
+    "id": "R01",
+    "label_zh": "主外壳：加深后舱、舵机孔和模块座",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "前脸不移动，后壁Y68。供电模块壳内温升和通风需实测。",
+    "name": "R01__main_housing_A2",
+    "file": "stl-complete/R01__A2__mm.stl",
+    "dimensions_mm": [
+      124.0,
+      76.00008,
+      91.50001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -62.0,
+        -23.5,
+        30.0
+      ],
+      [
+        62.0,
+        68.0,
+        106.00007629394531
+      ]
+    ]
+  },
+  {
+    "id": "R05",
+    "label_zh": "加强底盘与电池托架",
+    "quantity": 1,
+    "orientation": "Z",
+    "note": "4.6mm底板。腿座M3×12；底盖及主控架建议M3×10。电池仍按75×40×20目标。",
+    "name": "R05__reinforced_floor_and_battery_tray_A2",
+    "file": "stl-complete/R05__A2__mm.stl",
+    "dimensions_mm": [
+      110.80001,
+      85.7,
+      8.6
+    ],
+    "assembly_bbox_mm": [
+      [
+        -55.40000534057617,
+        -21.5,
+        30.0
+      ],
+      [
+        55.40000534057617,
+        64.19999694824219,
+        38.599998474121094
+      ]
+    ]
+  },
+  {
+    "id": "L101_FL",
+    "label_zh": "髋舵机固定座 FL",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "名义壳体22.8×12.2，轴向22.5；耳孔距27.5±1.4为试配槽，非该批舵机实测。",
+    "name": "L101_FL__hip_fixed_bracket",
+    "file": "stl-complete/L101_FL__A2__mm.stl",
+    "dimensions_mm": [
+      55.39999,
+      24.0,
+      40.0
+    ],
+    "assembly_bbox_mm": [
+      [
+        -79.00000762939453,
+        -24.5,
+        26.60000228881836
+      ],
+      [
+        -39.0,
+        -0.5000000596046448,
+        82.0
+      ]
+    ]
+  },
+  {
+    "id": "L102_FL",
+    "label_zh": "上腿连杆与膝舵机座一体 FL",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "使用随舵机附带的双臂舵盘；中心Ø6.4通孔供原中心螺丝检修；M2槽须与舵盘试配。",
+    "name": "L102_FL__upper_link_and_knee_mount",
+    "file": "stl-complete/L102_FL__A2__mm.stl",
+    "dimensions_mm": [
+      61.7,
+      31.0,
+      13.35001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -101.75,
+        -31.499998092651367,
+        19.0
+      ],
+      [
+        -88.39998626708984,
+        -0.5000000596046448,
+        80.69999694824219
+      ]
+    ]
+  },
+  {
+    "id": "L104_FL",
+    "label_zh": "下腿与脚掌一体 FL",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "脚底平面粘Ø12×2硅胶脚垫；舵盘槽及负载、行程待单腿验证。",
+    "name": "L104_FL__lower_leg_and_foot",
+    "file": "stl-complete/L104_FL__A2__mm.stl",
+    "dimensions_mm": [
+      53.7,
+      39.0,
+      18.00001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -123.90001678466797,
+        -47.5,
+        2.000000238418579
+      ],
+      [
+        -105.90000915527344,
+        -8.5,
+        55.70000076293945
+      ]
+    ]
+  },
+  {
+    "id": "L101_FR",
+    "label_zh": "髋舵机固定座 FR",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "名义壳体22.8×12.2，轴向22.5；耳孔距27.5±1.4为试配槽，非该批舵机实测。",
+    "name": "L101_FR__hip_fixed_bracket",
+    "file": "stl-complete/L101_FR__A2__mm.stl",
+    "dimensions_mm": [
+      55.4,
+      24.0,
+      40.00001
+    ],
+    "assembly_bbox_mm": [
+      [
+        39.0,
+        -24.5,
+        26.60000228881836
+      ],
+      [
+        79.00000762939453,
+        -0.5000000596046448,
+        82.0
+      ]
+    ]
+  },
+  {
+    "id": "L102_FR",
+    "label_zh": "上腿连杆与膝舵机座一体 FR",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "使用随舵机附带的双臂舵盘；中心Ø6.4通孔供原中心螺丝检修；M2槽须与舵盘试配。",
+    "name": "L102_FR__upper_link_and_knee_mount",
+    "file": "stl-complete/L102_FR__A2__mm.stl",
+    "dimensions_mm": [
+      61.7,
+      31.0,
+      13.35002
+    ],
+    "assembly_bbox_mm": [
+      [
+        88.39998626708984,
+        -31.499998092651367,
+        19.0
+      ],
+      [
+        101.75,
+        -0.5000000596046448,
+        80.69999694824219
+      ]
+    ]
+  },
+  {
+    "id": "L104_FR",
+    "label_zh": "下腿与脚掌一体 FR",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "脚底平面粘Ø12×2硅胶脚垫；舵盘槽及负载、行程待单腿验证。",
+    "name": "L104_FR__lower_leg_and_foot",
+    "file": "stl-complete/L104_FR__A2__mm.stl",
+    "dimensions_mm": [
+      53.7,
+      39.0,
+      18.00001
+    ],
+    "assembly_bbox_mm": [
+      [
+        105.90000915527344,
+        -47.5,
+        2.000000238418579
+      ],
+      [
+        123.90001678466797,
+        -8.5,
+        55.70000076293945
+      ]
+    ]
+  },
+  {
+    "id": "L101_RL",
+    "label_zh": "髋舵机固定座 RL",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "名义壳体22.8×12.2，轴向22.5；耳孔距27.5±1.4为试配槽，非该批舵机实测。",
+    "name": "L101_RL__hip_fixed_bracket",
+    "file": "stl-complete/L101_RL__A2__mm.stl",
+    "dimensions_mm": [
+      55.39999,
+      29.0,
+      40.0
+    ],
+    "assembly_bbox_mm": [
+      [
+        -79.00000762939453,
+        12.999999046325684,
+        26.60000228881836
+      ],
+      [
+        -39.0,
+        42.0,
+        82.0
+      ]
+    ]
+  },
+  {
+    "id": "L102_RL",
+    "label_zh": "上腿连杆与膝舵机座一体 RL",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "使用随舵机附带的双臂舵盘；中心Ø6.4通孔供原中心螺丝检修；M2槽须与舵盘试配。",
+    "name": "L102_RL__upper_link_and_knee_mount",
+    "file": "stl-complete/L102_RL__A2__mm.stl",
+    "dimensions_mm": [
+      61.7,
+      31.0,
+      13.35001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -101.75,
+        12.999999046325684,
+        19.0
+      ],
+      [
+        -88.39998626708984,
+        44.0,
+        80.69999694824219
+      ]
+    ]
+  },
+  {
+    "id": "L104_RL",
+    "label_zh": "下腿与脚掌一体 RL",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "脚底平面粘Ø12×2硅胶脚垫；舵盘槽及负载、行程待单腿验证。",
+    "name": "L104_RL__lower_leg_and_foot",
+    "file": "stl-complete/L104_RL__A2__mm.stl",
+    "dimensions_mm": [
+      53.7,
+      39.0,
+      18.00001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -123.90001678466797,
+        21.0,
+        2.000000238418579
+      ],
+      [
+        -105.90000915527344,
+        60.0,
+        55.70000076293945
+      ]
+    ]
+  },
+  {
+    "id": "L101_RR",
+    "label_zh": "髋舵机固定座 RR",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "名义壳体22.8×12.2，轴向22.5；耳孔距27.5±1.4为试配槽，非该批舵机实测。",
+    "name": "L101_RR__hip_fixed_bracket",
+    "file": "stl-complete/L101_RR__A2__mm.stl",
+    "dimensions_mm": [
+      55.4,
+      29.0,
+      40.00001
+    ],
+    "assembly_bbox_mm": [
+      [
+        39.0,
+        12.999999046325684,
+        26.60000228881836
+      ],
+      [
+        79.00000762939453,
+        42.0,
+        82.0
+      ]
+    ]
+  },
+  {
+    "id": "L102_RR",
+    "label_zh": "上腿连杆与膝舵机座一体 RR",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "使用随舵机附带的双臂舵盘；中心Ø6.4通孔供原中心螺丝检修；M2槽须与舵盘试配。",
+    "name": "L102_RR__upper_link_and_knee_mount",
+    "file": "stl-complete/L102_RR__A2__mm.stl",
+    "dimensions_mm": [
+      61.7,
+      31.0,
+      13.35002
+    ],
+    "assembly_bbox_mm": [
+      [
+        88.39998626708984,
+        12.999999046325684,
+        19.0
+      ],
+      [
+        101.75,
+        44.0,
+        80.69999694824219
+      ]
+    ]
+  },
+  {
+    "id": "L104_RR",
+    "label_zh": "下腿与脚掌一体 RR",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "脚底平面粘Ø12×2硅胶脚垫；舵盘槽及负载、行程待单腿验证。",
+    "name": "L104_RR__lower_leg_and_foot",
+    "file": "stl-complete/L104_RR__A2__mm.stl",
+    "dimensions_mm": [
+      53.7,
+      39.0,
+      18.00001
+    ],
+    "assembly_bbox_mm": [
+      [
+        105.90000915527344,
+        21.0,
+        2.000000238418579
+      ],
+      [
+        123.90001678466797,
+        60.0,
+        55.70000076293945
+      ]
+    ]
+  },
+  {
+    "id": "R03",
+    "label_zh": "后面板：旋钮、按键、开关、充电、喇叭与功放座",
+    "quantity": 1,
+    "orientation": "back_down",
+    "note": "S1A孔Ø12.5为资料值；其余控件外形/针脚、开口和压片需要实物试配。",
+    "name": "R03__rear_control_panel_A2",
+    "file": "stl-complete/R03__A2__mm.stl",
+    "dimensions_mm": [
+      104.3,
+      58.00008,
+      13.40004
+    ],
+    "assembly_bbox_mm": [
+      [
+        -55.29999923706055,
+        57.20000076293945,
+        45.0
+      ],
+      [
+        49.0,
+        70.60003662109375,
+        103.00007629394531
+      ]
+    ]
+  },
+  {
+    "id": "R07",
+    "label_zh": "EC11后置压片",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "金属/塑料外壳边缘支撑，中央为焊脚避空；配EVA薄垫，实测后调整压紧量。",
+    "name": "R07__control_retainer",
+    "file": "stl-complete/R07__A2__mm.stl",
+    "dimensions_mm": [
+      26.0,
+      19.0,
+      2.0
+    ],
+    "assembly_bbox_mm": [
+      [
+        15.0,
+        59.0,
+        80.50003051757812
+      ],
+      [
+        41.0,
+        61.0,
+        99.50003051757812
+      ]
+    ]
+  },
+  {
+    "id": "R08",
+    "label_zh": "独立按键后置压片",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "金属/塑料外壳边缘支撑，中央为焊脚避空；配EVA薄垫，实测后调整压紧量。",
+    "name": "R08__control_retainer",
+    "file": "stl-complete/R08__A2__mm.stl",
+    "dimensions_mm": [
+      26.0,
+      15.99997,
+      2.0
+    ],
+    "assembly_bbox_mm": [
+      [
+        15.0,
+        62.19999694824219,
+        65.0000228881836
+      ],
+      [
+        41.0,
+        64.19999694824219,
+        80.99999237060547
+      ]
+    ]
+  },
+  {
+    "id": "R11",
+    "label_zh": "喇叭后压圈",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "Ø23.6×10.4为商品标称；软垫接触外壳边缘，不能压振膜。",
+    "name": "R11__speaker_retaining_ring",
+    "file": "stl-complete/R11__A2__mm.stl",
+    "dimensions_mm": [
+      40.6,
+      29.0,
+      2.0
+    ],
+    "assembly_bbox_mm": [
+      [
+        -55.29999923706055,
+        55.20000076293945,
+        69.50005340576172
+      ],
+      [
+        -14.699997901916504,
+        57.20000076293945,
+        98.50005340576172
+      ]
+    ]
+  },
+  {
+    "id": "R09",
+    "label_zh": "Type-C充电板托架",
+    "quantity": 1,
+    "orientation": "Z",
+    "note": "板体28×17为商品标称；USB口伸出量、背面焊点和压条垫厚待实测。",
+    "name": "R09__charger_tray",
+    "file": "stl-complete/R09__A2__mm.stl",
+    "dimensions_mm": [
+      34.0,
+      32.0,
+      8.2
+    ],
+    "assembly_bbox_mm": [
+      [
+        -39.0,
+        36.20000076293945,
+        48.79999923706055
+      ],
+      [
+        -5.000000476837158,
+        68.19999694824219,
+        57.0
+      ]
+    ]
+  },
+  {
+    "id": "R10_1",
+    "label_zh": "充电板边缘压条 1",
+    "quantity": 1,
+    "orientation": "Z",
+    "note": "需要实测元件位置后选夹持边；压条与板间用EVA隔离。",
+    "name": "R10_1__charger_edge_clamp",
+    "file": "stl-complete/R10_1__A2__mm.stl",
+    "dimensions_mm": [
+      29.0,
+      3.4,
+      4.8
+    ],
+    "assembly_bbox_mm": [
+      [
+        -36.5,
+        40.79999923706055,
+        57.0
+      ],
+      [
+        -7.5,
+        44.20000076293945,
+        61.79999923706055
+      ]
+    ]
+  },
+  {
+    "id": "R10_2",
+    "label_zh": "充电板边缘压条 2",
+    "quantity": 1,
+    "orientation": "Z",
+    "note": "需要实测元件位置后选夹持边；压条与板间用EVA隔离。",
+    "name": "R10_2__charger_edge_clamp",
+    "file": "stl-complete/R10_2__A2__mm.stl",
+    "dimensions_mm": [
+      29.0,
+      3.4,
+      4.8
+    ],
+    "assembly_bbox_mm": [
+      [
+        -36.5,
+        59.79999923706055,
+        57.0
+      ],
+      [
+        -7.5,
+        63.20000076293945,
+        61.79999923706055
+      ]
+    ]
+  },
+  {
+    "id": "R16",
+    "label_zh": "PCA9685后舱安装架",
+    "quantity": 1,
+    "orientation": "inverted",
+    "note": "62×25板体为通用名义占位；开放绑带座，接插件需实物试配。",
+    "name": "R16__PCA9685_rear_rack",
+    "file": "stl-complete/R16__A2__mm.stl",
+    "dimensions_mm": [
+      78.5,
+      30.99999,
+      32.40001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -25.999998092651367,
+        30.5,
+        34.599998474121094
+      ],
+      [
+        52.5,
+        61.499996185302734,
+        67.0
+      ]
+    ]
+  },
+  {
+    "id": "R17",
+    "label_zh": "DFR0753舵机降压固定架",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "开式绑带固定、EVA绝缘垫。DFR0753包络是预留空间；UBEC43×17×7为标称本体，不含线和磁环。",
+    "name": "R17__power_module_strap_mount",
+    "file": "stl-complete/R17__A2__mm.stl",
+    "dimensions_mm": [
+      33.00001,
+      54.0,
+      2.40001
+    ],
+    "assembly_bbox_mm": [
+      [
+        55.0,
+        0.0,
+        65.99999237060547
+      ],
+      [
+        57.40000534057617,
+        54.0,
+        99.0
+      ]
+    ]
+  },
+  {
+    "id": "R18",
+    "label_zh": "好盈UBEC逻辑降压固定架",
+    "quantity": 1,
+    "orientation": "side_down",
+    "note": "开式绑带固定、EVA绝缘垫。DFR0753包络是预留空间；UBEC43×17×7为标称本体，不含线和磁环。",
+    "name": "R18__power_module_strap_mount",
+    "file": "stl-complete/R18__A2__mm.stl",
+    "dimensions_mm": [
+      46.85878,
+      54.5,
+      2.40001
+    ],
+    "assembly_bbox_mm": [
+      [
+        -57.40000534057617,
+        0.0,
+        54.0
+      ],
+      [
+        -55.0,
+        54.5,
+        100.8587875366211
+      ]
+    ]
+  },
+  {
+    "id": "R14",
+    "label_zh": "可换麦克风托架",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "内腔约15.6×23.0，麦克风本体身份待核；可转向放置，EVA隔振，扎带避开声孔。",
+    "name": "R14__microphone_replaceable_tray",
+    "file": "stl-complete/R14__A2__mm.stl",
+    "dimensions_mm": [
+      18.0,
+      34.60004,
+      16.0
+    ],
+    "assembly_bbox_mm": [
+      [
+        -59.0,
+        -17.0,
+        59.499996185302734
+      ],
+      [
+        -41.0,
+        -1.0000001192092896,
+        94.10003662109375
+      ]
+    ]
+  },
+  {
+    "id": "R12_L",
+    "label_zh": "一体小耳朵 L",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "保留原小耳轮廓，内片合并为浅浮雕供奶白上色；后侧装M2螺母，底部螺丝固定。",
+    "name": "R12_L__ear_with_integrated_insert",
+    "file": "stl-complete/R12_L__A2__mm.stl",
+    "dimensions_mm": [
+      17.6,
+      18.66,
+      6.47
+    ],
+    "assembly_bbox_mm": [
+      [
+        -44.79999923706055,
+        -4.46999979019165,
+        103.80000305175781
+      ],
+      [
+        -27.200000762939453,
+        2.0,
+        122.46000671386719
+      ]
+    ]
+  },
+  {
+    "id": "R13_L",
+    "label_zh": "小耳朵内侧压垫 L",
+    "quantity": 1,
+    "orientation": "Z",
+    "note": "",
+    "name": "R13_L__ear_retaining_washer",
+    "file": "stl-complete/R13_L__A2__mm.stl",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      1.2
+    ],
+    "assembly_bbox_mm": [
+      [
+        -41.0,
+        -5.999999523162842,
+        102.40000915527344
+      ],
+      [
+        -31.0,
+        4.0,
+        103.60001373291016
+      ]
+    ]
+  },
+  {
+    "id": "R12_R",
+    "label_zh": "一体小耳朵 R",
+    "quantity": 1,
+    "orientation": "front_down",
+    "note": "保留原小耳轮廓，内片合并为浅浮雕供奶白上色；后侧装M2螺母，底部螺丝固定。",
+    "name": "R12_R__ear_with_integrated_insert",
+    "file": "stl-complete/R12_R__A2__mm.stl",
+    "dimensions_mm": [
+      17.6,
+      18.66,
+      6.47
+    ],
+    "assembly_bbox_mm": [
+      [
+        27.200000762939453,
+        -4.46999979019165,
+        103.80000305175781
+      ],
+      [
+        44.79999923706055,
+        2.0,
+        122.46000671386719
+      ]
+    ]
+  },
+  {
+    "id": "R13_R",
+    "label_zh": "小耳朵内侧压垫 R",
+    "quantity": 1,
+    "orientation": "Z",
+    "note": "",
+    "name": "R13_R__ear_retaining_washer",
+    "file": "stl-complete/R13_R__A2__mm.stl",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      1.2
+    ],
+    "assembly_bbox_mm": [
+      [
+        31.0,
+        -5.999999523162842,
+        102.40000915527344
+      ],
+      [
+        41.0,
+        4.0,
+        103.60001373291016
+      ]
+    ]
+  }
+]

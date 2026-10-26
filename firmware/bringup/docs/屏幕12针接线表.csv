@@ -1,0 +1,13 @@
+﻿模块针号,模块丝印,接到哪里,开发板位置,用途
+1,GND,公共 GND / 电源负极,L7 / GND,共地
+2,VCC,外部稳压 3.3 V 正极,不接开发板 3V3,仅外部3.3V
+3,SCL,GPIO12,L13,SPI信号
+4,SDA,GPIO11 / MOSI,L12,SPI信号
+5,RES,GPIO21,R10,SPI信号
+6,DC,GPIO14,L15,SPI信号
+7,CS,GPIO13,L14,SPI信号
+8,BLK,同一外部 3.3 V 正极 / 全亮,不接 GPIO,仅外部3.3V
+9,A,GPIO7,L8,3.3V控件输入，模块自带上拉
+10,B,GPIO2,L2,3.3V控件输入，模块自带上拉
+11,PUSH,GPIO38,R13,3.3V控件输入，模块自带上拉
+12,K0 / KEY0,GPIO40,R11,3.3V控件输入，模块自带上拉

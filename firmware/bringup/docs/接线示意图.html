@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>桌面助手 · 屏幕接线示意图</title>
+<style>
+  :root{--bg:#eef3ee;--ink:#16272c;--mut:#5d7176;--line:#c3d4cb;--card:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  main{max-width:1620px;margin:0 auto;padding:22px 18px 60px}
+  h1{font-size:24px;margin:0 0 4px}
+  .sub{color:var(--mut);margin:0 0 16px;font-size:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+  .warn{background:#fdecea;border:1px solid #f0b4ac;border-radius:12px;padding:13px 16px;margin-bottom:14px}
+  .ok{background:#e9f4ec;border:1px solid #b6d8c1;border-radius:12px;padding:13px 16px;margin-bottom:14px}
+  .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+  .btn{background:#e7efe7;border:1px solid var(--line);border-radius:9px;padding:8px 14px;font:600 14px inherit;color:var(--ink);cursor:pointer}
+  .btn:hover{background:#dbe8db}
+  .btn.on{background:#2f7a58;border-color:#2f7a58;color:#fff}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13.5px;margin-top:10px}
+  .legend span{display:flex;align-items:center;gap:6px}
+  .dot{width:13px;height:13px;border-radius:3px;display:inline-block}
+  svg{display:block;width:100%;height:auto;background:#f8fbf7;border-radius:10px}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin-top:8px}
+  th,td{border:1px solid var(--line);padding:7px 9px;text-align:left}
+  th{background:#eaf1ea;font-weight:700}
+  tbody tr{cursor:pointer}
+  tbody tr:hover{background:#f2f8f2}
+  tbody tr.hl{background:#fff3cd;outline:2px solid #e8b931;outline-offset:-2px}
+  .mono{font-family:ui-monospace,Menlo,monospace}
+  .power{background:#fff4f4}
+</style>
+</head>
+<body><main>
+
+<h1>屏幕接线示意图</h1>
+<p class="sub">开发板 = LCKFB-ESP32S3R8N8　·　屏幕 = TOUGLESY 2.4″ ST7789（含 EC11 旋钮与按键）</p>
+
+<div class="warn">
+  <b>🔴 上电之前先量一次万用表</b><br>
+  接好 12 根线后，用蜂鸣档量<b>开发板的 3V3 和 GND</b>：<br>
+  · <b>不导通</b> → 正常，可以上电<br>
+  · <b>导通了</b> → 接反了或有短路，<b>马上检查，别上电</b>（GND 和 VCC 接反会烧屏幕）
+</div>
+
+<div class="ok">
+  <b>💡 电源少接一根</b>　<span class="mono">VCC</span>(针2) 和 <span class="mono">BLK</span>(针8) 都要 3.3V。
+  3V3 拉一根到针 2，再用一根短跳线把<b>针 2 和针 8 连起来</b>即可。
+</div>
+
+<div class="bar">
+  <button class="btn on" id="tWires">显示连线</button>
+  <span class="sub" style="margin:0">
+    <b>看编号就够了</b>：开发板上每个彩色圆点里的数字 = 接屏幕的第几针。点表格任意一行会高亮。
+  </span>
+</div>
+
+<div class="card">
+  <svg id="fig" viewBox="0 0 1560 1060" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div class="legend">
+    <span><i class="dot" style="background:#e03131"></i>电源 3.3V</span>
+    <span><i class="dot" style="background:#444"></i>地 GND</span>
+    <span><i class="dot" style="background:#f08c00"></i>背光</span>
+    <span><i class="dot" style="background:#1c7ed6"></i>屏幕 SPI</span>
+    <span><i class="dot" style="background:#2f9e44"></i>旋钮 / 按键</span>
+    <span><i class="dot" style="background:#c9d4ce"></i>本方案不用</span>
+  </div>
+</div>
+
+<div class="card">
+  <h3 style="margin:0 0 4px;font-size:16px">逐根对照表</h3>
+  <table>
+    <thead><tr><th>屏幕针</th><th>丝印</th><th>接到开发板</th><th>位置</th><th>作用</th></tr></thead>
+    <tbody id="tb"></tbody>
+  </table>
+  <p class="sub" style="margin:10px 0 0">
+    <b>位置怎么看</b>：把开发板<b>元件面朝上</b>，<b>天线那一端在上、USB 朝下</b>。
+    左边一列是 L1–L20（由上往下），右边一列是 R1–R20（由上往下）。
+  </p>
+</div>
+
+</main>
+<script>
+/* ================= 数据（来自 01-controller-pinout.csv）================= */
+const LEFT = ['GPIO1','GPIO2','GPIO3','GPIO4','GPIO5','GPIO6','GND','GPIO7','GPIO8','GPIO9',
+              'GPIO10','GPIO11','GPIO12','GPIO13','GPIO14','RESET','3V3','3V3','3V3','GND'];
+const RIGHT= ['GPIO46','GPIO45','GPIO42','GPIO41','GPIO15','GPIO16','GPIO17','GPIO18','GND',
+              'GPIO21','GPIO40','GPIO39','GPIO38','GPIO47','GPIO48','GPIO0','5V','5V','5V','GND'];
+
+const WIRES = [
+  {n:1,  s:'GND', d:'L20', why:'共地',            c:'#444'},
+  {n:2,  s:'VCC', d:'L17', why:'屏幕供电 3.3V',   c:'#e03131'},
+  {n:3,  s:'SCL', d:'L13', why:'SPI 时钟',        c:'#1c7ed6'},
+  {n:4,  s:'SDA', d:'L12', why:'SPI 数据(MOSI)',  c:'#1c7ed6'},
+  {n:5,  s:'RES', d:'R10', why:'复位',            c:'#1c7ed6'},
+  {n:6,  s:'DC',  d:'L15', why:'数据/命令',       c:'#1c7ed6'},
+  {n:7,  s:'CS',  d:'L14', why:'片选',            c:'#1c7ed6'},
+  {n:8,  s:'BLK', d:'L18', why:'背光 3.3V',       c:'#f08c00'},
+  {n:9,  s:'A',   d:'L8',  why:'旋钮 A 相',       c:'#2f9e44'},
+  {n:10, s:'B',   d:'L2',  why:'旋钮 B 相',       c:'#2f9e44'},
+  {n:11, s:'PUSH',d:'R13', why:'旋钮按压',        c:'#2f9e44'},
+  {n:12, s:'K0',  d:'R11', why:'独立按键',        c:'#2f9e44'},
+];
+const devLabel = ref => (ref[0]==='L'?LEFT:RIGHT)[+ref.slice(1)-1];
+
+/* ================= 几何 ================= */
+const SVG='http://www.w3.org/2000/svg';
+const fig=document.getElementById('fig');
+function el(t,a={},kids=[]){const e=document.createElementNS(SVG,t);
+  for(const k in a) e.setAttribute(k,a[k]); kids.forEach(c=>e.appendChild(c)); return e;}
+function tx(x,y,s,a={}){const e=el('text',{x,y,...a}); e.textContent=s; return e;}
+
+const DEV={x:400,y:100,w:300,h:820};
+const PITCH=38, PIN0=150;
+const SC ={x:1120,y:120,w:250,h:760};
+const SPITCH=58, SPIN0=190;
+
+const L={},R={},SP={};
+for(let i=0;i<20;i++){const y=PIN0+i*PITCH;
+  L['L'+(i+1)]={x:DEV.x,y,ext:DEV.x-96};
+  R['R'+(i+1)]={x:DEV.x+DEV.w,y,ext:DEV.x+DEV.w+96};}
+for(let i=0;i<12;i++) SP[i+1]={x:SC.x,y:SPIN0+i*SPITCH,ext:SC.x-96};
+
+/* ================= 画布 ================= */
+const gWires=el('g',{id:'gWires'});
+const gBoard=el('g');
+const gText =el('g');
+
+/* ---- 开发板 ---- */
+gBoard.appendChild(el('rect',{x:DEV.x,y:DEV.y,width:DEV.w,height:DEV.h,rx:13,
+  fill:'#1b3830',stroke:'#0b1d18','stroke-width':2}));
+gBoard.appendChild(el('rect',{x:DEV.x+62,y:DEV.y+52,width:176,height:158,rx:8,
+  fill:'#2b5247',stroke:'#6f9c8c','stroke-width':1.5}));
+gText.appendChild(tx(DEV.x+150,DEV.y+124,'ESP32-S3',{fill:'#c7e8db','font-size':16,
+  'text-anchor':'middle','font-weight':700}));
+gText.appendChild(tx(DEV.x+150,DEV.y+148,'8MB Flash / 8MB PSRAM',{fill:'#8fb9ab','font-size':11,'text-anchor':'middle'}));
+gBoard.appendChild(el('rect',{x:DEV.x+104,y:DEV.y+DEV.h-56,width:92,height:36,rx:6,
+  fill:'#08130f',stroke:'#6f9c8c'}));
+gText.appendChild(tx(DEV.x+150,DEV.y+DEV.h-31,'USB-C',{fill:'#cfe3d8','font-size':13,'text-anchor':'middle'}));
+
+/* ---- 屏幕模块（转 90° 画）---- */
+gBoard.appendChild(el('rect',{x:SC.x,y:SC.y,width:SC.w,height:SC.h,rx:13,
+  fill:'#12304a',stroke:'#08192a','stroke-width':2}));
+gBoard.appendChild(el('rect',{x:SC.x+30,y:SC.y+70,width:SC.w-60,height:400,rx:8,
+  fill:'#0a1420',stroke:'#3b5b78','stroke-width':1.5}));
+gText.appendChild(tx(SC.x+SC.w/2,SC.y+280,'屏幕 320×240',{fill:'#5f83a3','font-size':14,'text-anchor':'middle'}));
+gBoard.appendChild(el('circle',{cx:SC.x+64,cy:SC.y+570,r:33,fill:'#0c1620',stroke:'#4a6c8a','stroke-width':2}));
+gText.appendChild(tx(SC.x+64,SC.y+575,'旋钮',{fill:'#7fa3c2','font-size':12,'text-anchor':'middle'}));
+gBoard.appendChild(el('rect',{x:SC.x+SC.w-108,y:SC.y+546,width:66,height:50,rx:7,
+  fill:'#0c1620',stroke:'#4a6c8a','stroke-width':2}));
+gText.appendChild(tx(SC.x+SC.w-75,SC.y+576,'按键',{fill:'#7fa3c2','font-size':12,'text-anchor':'middle'}));
+
+/* ---- 针脚 ---- */
+function drawPin(x,y,used,color,dir){
+  const len=30, ex=x+(dir==='L'?-len:len);
+  gBoard.appendChild(el('line',{x1:x,y1:y,x2:ex,y2:y,
+    stroke:used?color:'#93a79e','stroke-width':used?4:2,'stroke-linecap':'round'}));
+  gBoard.appendChild(el('circle',{cx:ex+(dir==='L'?-4:4),cy:y,r:5,
+    fill:used?color:'#c9d4ce',stroke:'#fff','stroke-width':1.5}));
+}
+function badge(cx,cy,n,color){
+  const g=el('g'); g.dataset.badge=n;
+  g.appendChild(el('circle',{cx,cy,r:15,fill:color,stroke:'#fff','stroke-width':2}));
+  g.appendChild(tx(cx,cy+5,String(n),{fill:'#fff','font-size':15,'font-weight':700,'text-anchor':'middle'}));
+  return g;
+}
+
+/* 左列 */
+for(let i=1;i<=20;i++){
+  const k='L'+i, w=WIRES.find(x=>x.d===k), used=!!w;
+  drawPin(L[k].x,L[k].y,used,w&&w.c,'L');
+  gText.appendChild(tx(L[k].x+12,L[k].y+5,LEFT[i-1],
+    {fill:used?'#ffffff':'#7c968d','font-size':used?15:13,'font-weight':used?700:400}));
+  gText.appendChild(tx(L[k].x-40,L[k].y+5,k,
+    {fill:used?w.c:'#9fb0a8','font-size':12,'text-anchor':'end','font-weight':used?700:400}));
+  if(used) gText.appendChild(badge(L[k].ext-22,L[k].y,w.n,w.c));
+}
+/* 右列 */
+for(let i=1;i<=20;i++){
+  const k='R'+i, w=WIRES.find(x=>x.d===k), used=!!w;
+  drawPin(R[k].x,R[k].y,used,w&&w.c,'R');
+  gText.appendChild(tx(R[k].x-12,R[k].y+5,RIGHT[i-1],
+    {fill:used?'#ffffff':'#7c968d','font-size':used?15:13,'text-anchor':'end','font-weight':used?700:400}));
+  gText.appendChild(tx(R[k].x+40,R[k].y+5,k,
+    {fill:used?w.c:'#9fb0a8','font-size':12,'font-weight':used?700:400}));
+  if(used) gText.appendChild(badge(R[k].ext+22,R[k].y,w.n,w.c));
+}
+/* 屏幕 12 针 */
+for(let i=1;i<=12;i++){
+  const w=WIRES.find(x=>x.n===i);
+  drawPin(SP[i].x,SP[i].y,true,w.c,'L');
+  gText.appendChild(tx(SP[i].x+14,SP[i].y+6,w.s,
+    {fill:'#ffffff','font-size':17,'font-weight':700}));
+  gText.appendChild(badge(SP[i].ext-22,SP[i].y,i,w.c));
+}
+
+/* ---- 连线（细、半透明）---- */
+WIRES.forEach(w=>{
+  const a=(w.d[0]==='L'?L:R)[w.d], b=SP[w.n];
+  const x1=a.ext, y1=a.y, x2=b.ext, y2=b.y;
+  const mx=(x1+x2)/2;
+  gWires.appendChild(el('path',{
+    d:`M ${x1} ${y1} C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`,
+    fill:'none',stroke:w.c,'stroke-width':2.5,'stroke-linecap':'round',opacity:.42,
+    'data-n':w.n}));
+});
+
+/* ---- 标注 ---- */
+gText.appendChild(tx(DEV.x+150,DEV.y-34,'↑ 天线在这一端（L1 / R1 从这头数起）',
+  {fill:'#2f7a58','font-size':15,'text-anchor':'middle','font-weight':700}));
+gText.appendChild(tx(DEV.x+150,DEV.y+DEV.h+34,'↓ USB 在这一端',
+  {fill:'#5d7176','font-size':14,'text-anchor':'middle'}));
+gText.appendChild(tx(DEV.x+150,DEV.y-8,'开发板（元件面朝上）',
+  {fill:'#5d7176','font-size':14,'text-anchor':'middle'}));
+gText.appendChild(tx(SC.x+SC.w/2,SC.y-42,'屏幕模块',
+  {fill:'#5d7176','font-size':15,'text-anchor':'middle','font-weight':700}));
+gText.appendChild(tx(SC.x+SC.w/2,SC.y-20,'（为方便看图转了 90°，实物针脚在模块顶部那一排）',
+  {fill:'#8a9c96','font-size':12,'text-anchor':'middle'}));
+
+fig.appendChild(gWires); fig.appendChild(gBoard); fig.appendChild(gText);
+
+/* ================= 表格 ================= */
+const tb=document.getElementById('tb');
+WIRES.forEach(w=>{
+  const tr=document.createElement('tr');
+  if(w.d==='L20'||w.d==='L17'||w.d==='L18') tr.className='power';
+  tr.dataset.n=w.n;
+  tr.innerHTML=`<td><b>${w.n}</b></td>
+    <td><span class="mono" style="color:${w.c};font-weight:700">${w.s}</span></td>
+    <td><b>${devLabel(w.d)}</b></td>
+    <td class="mono">${w.d}</td><td>${w.why}</td>`;
+  tr.onclick=()=>hl(w.n); tr.onmouseenter=()=>hl(w.n);
+  tb.appendChild(tr);
+});
+function hl(n){
+  document.querySelectorAll('#tb tr').forEach(t=>t.classList.toggle('hl',+t.dataset.n===n));
+  document.querySelectorAll('#gWires path').forEach(p=>{
+    const on=+p.dataset.n===n;
+    p.setAttribute('stroke-width',on?7:2.5); p.setAttribute('opacity',on?1:.2);
+  });
+  document.querySelectorAll('[data-badge]').forEach(b=>{
+    b.setAttribute('transform', +b.dataset.badge===n?'scale(1.35)':'scale(1)');
+    b.setAttribute('transform-origin', b.querySelector('circle').getAttribute('cx')+' '+
+                                        b.querySelector('circle').getAttribute('cy'));
+  });
+}
+document.getElementById('tWires').onclick=e=>{
+  e.currentTarget.classList.toggle('on');
+  gWires.style.display=e.currentTarget.classList.contains('on')?'':'none';
+};
+</script>
+</body></html>

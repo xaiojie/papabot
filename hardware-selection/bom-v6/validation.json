@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "date": "2026-09-08",
+  "checks": [
+    "01-立创商城-BOM导入.xlsx: 单页、10项、3列，通过",
+    "02-淘宝天猫-采购清单.xlsx: 单页、11项、7列，通过"
+  ],
+  "lcsc_import_byte_identical_to_v5": true,
+  "lcsc_sha256": "83caaaf752e2bd71f4888ba88c8e093c8f1aba2576d3a6be60e1d3cb982fb767",
+  "coverage": {
+    "lcsc": 10,
+    "taobao": 11,
+    "official": 0,
+    "deferred_or_nonpurchase": 21,
+    "total": 42
+  },
+  "newly_added_to_taobao": 5,
+  "cart_quantities_verified": true,
+  "cart_count": 10,
+  "order_placed": false,
+  "online_lcsc_bom_modified": false
+}

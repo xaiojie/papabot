@@ -1,0 +1,150 @@
+{
+  "checked_units": "mm",
+  "weld_tolerance_mm": 1e-05,
+  "mesh_check_pass": true,
+  "items": [
+    {
+      "id": "R01",
+      "file": "stl-structure-a1-DRAFT/R01__main_housing__DRAFT_mm.stl",
+      "sha256": "f0ca8eab204403b31e52d7fb6305246d49f838a8bdad703e55af617fee340a55",
+      "triangles": 13356,
+      "welded_vertices_1e_5_mm": 6628,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 58391.329,
+      "minimum_triangle_area_mm2": 1.1463998816907406e-07,
+      "dimensions_mm": [
+        123.99999,
+        74.07143,
+        68.5
+      ],
+      "dimension_error_mm": 3.6083984440438144e-06,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    },
+    {
+      "id": "R02",
+      "file": "stl-structure-a1-DRAFT/R02__shallow_front_cover__DRAFT_mm.stl",
+      "sha256": "956f81a988804bdfddc9b8ed63684e3ec07f1697576f3309aa138bff48b7e4ab",
+      "triangles": 1892,
+      "welded_vertices_1e_5_mm": 938,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 16899.35569,
+      "minimum_triangle_area_mm2": 0.0006693144896416925,
+      "dimensions_mm": [
+        123.99999,
+        75.99999,
+        4.40001
+      ],
+      "dimension_error_mm": 4.659423828101694e-06,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    },
+    {
+      "id": "R03",
+      "file": "stl-structure-a1-DRAFT/R03__rear_controls_panel_BLANK__DRAFT_mm.stl",
+      "sha256": "3288f0e70b4d44ce2121e627b98c5432a7304c7d7ae877f1db8e2c599d25a107",
+      "triangles": 4188,
+      "welded_vertices_1e_5_mm": 2046,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 13298.94362,
+      "minimum_triangle_area_mm2": 0.022074589738622308,
+      "dimensions_mm": [
+        97.99999,
+        58.0,
+        2.40001
+      ],
+      "dimension_error_mm": 4.659423828101694e-06,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    },
+    {
+      "id": "R04",
+      "file": "stl-structure-a1-DRAFT/R04__display_support_frame__DRAFT_mm.stl",
+      "sha256": "679ba334e6e5c12391ba3e60367d7374da0ccd5c6ef555a5ebc640d714c80cb0",
+      "triangles": 4200,
+      "welded_vertices_1e_5_mm": 2082,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 11111.55669,
+      "minimum_triangle_area_mm2": 5.245208740234375e-06,
+      "dimensions_mm": [
+        106.5,
+        67.99999,
+        5.6
+      ],
+      "dimension_error_mm": 2.3706054719241365e-06,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    },
+    {
+      "id": "R05",
+      "file": "stl-structure-a1-DRAFT/R05__bottom_cover_integrated_battery_tray__DRAFT_mm.stl",
+      "sha256": "848cf0b4da35c7e8b5801218f5a124e024cb3732f92c8511f5b19bc545264479",
+      "triangles": 2478,
+      "welded_vertices_1e_5_mm": 1221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 21494.13725,
+      "minimum_triangle_area_mm2": 0.0024589886124717873,
+      "dimensions_mm": [
+        110.0,
+        63.4,
+        6.8
+      ],
+      "dimension_error_mm": 3.0517578126776357e-06,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    },
+    {
+      "id": "R06",
+      "file": "stl-structure-a1-DRAFT/R06__controller_carrier_bridge__DRAFT_mm.stl",
+      "sha256": "64c288d0030ddbc934623f196ead3587a8cbf0344b520a00a51c0079cfdc05f3",
+      "triangles": 5064,
+      "welded_vertices_1e_5_mm": 2516,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 10316.33972,
+      "minimum_triangle_area_mm2": 0.005636769005723029,
+      "dimensions_mm": [
+        108.0,
+        42.0,
+        29.40001
+      ],
+      "dimension_error_mm": 8.44726564253051e-07,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    }
+  ],
+  "limits": [
+    "No slicer or physical fit test has been performed.",
+    "Topology and duplicate-face checks do not prove all possible self-intersections absent.",
+    "No load-bearing or servo spline/mounting compatibility claim."
+  ]
+}

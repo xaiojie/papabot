@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-09T10:46:52.955543+08:00",
+  "native_archive_sha256": "b313111a40df8c3b7fbe22e4adfcda4f94580163e857947c866374f492375a8b",
+  "archive_crc_pass": true,
+  "pcb_archive_matches_saved_source_after_default_normalization": true,
+  "schematic_content_and_geometry_match_saved_source": true,
+  "schematic_attribute_presentation_normalized": 196,
+  "unchanged_original_component_placements": 21,
+  "outline_and_mounting_holes_unchanged": true,
+  "design_rule_values_and_effective_selectors_unchanged": true,
+  "inherited_rule_selector_serialization": [
+    {
+      "selector": [
+        "NET",
+        ""
+      ],
+      "source": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {
+          "NET_LENGTH_TOLERANCE": [
+            "default",
+            null
+          ]
+        },
+        "copperValue": {},
+        "innerPlaneValue": {}
+      },
+      "archive": "omitted",
+      "reason": "No custom rule override; inherits unchanged DEFAULT rules"
+    },
+    {
+      "selector": [
+        "NET",
+        "LCD_3V3"
+      ],
+      "source": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      },
+      "archive": "omitted",
+      "reason": "No custom rule override; inherits unchanged DEFAULT rules"
+    }
+  ],
+  "pcb_components": 24,
+  "component_pads": 104,
+  "copper_segments": 752,
+  "vias": 25,
+  "checks_not_disabled": true
+}

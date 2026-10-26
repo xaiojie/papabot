@@ -1,0 +1,690 @@
+{"type":"DOCHEAD"}||{"docType":"SCH_PAGE","client":"892d16f879c3ad68","uuid":"b8d9a582c4360871","updateTime":1789207701052,"version":"1789207701052","editVersion":"3.2.149.88089769"}|
+{"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0}|
+{"type":"COMPONENT","ticket":101,"id":"824f16111a2518de"}||{"partId":"pid8a0e77bacb214e","x":0,"y":0,"rotation":0,"isMirror":false,"attrs":{},"zIndex":65}|
+{"type":"ATTR","ticket":71,"id":"669ca9834c39284b"}||{"x":2991,"y":116,"rotation":0,"color":null,"fontFamily":null,"fontSize":20,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"c3a67fdd951d9361","keyVisible":null,"valueVisible":null,"key":"Symbol","fillColor":null,"parentId":"824f16111a2518de","zIndex":2,"locked":false}|
+{"type":"ATTR","ticket":72,"id":"51037740ee870f5e"}||{"x":1483,"y":-30,"rotation":0,"color":null,"fontFamily":null,"fontSize":20,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"嘉立创EDA","keyVisible":null,"valueVisible":null,"key":"Company","fillColor":null,"parentId":"824f16111a2518de","zIndex":3,"locked":false}|
+{"type":"ATTR","ticket":73,"id":"e9680e1591042ded"}||{"x":1043,"y":-120,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"LEFT_MIDDLE","value":"","keyVisible":null,"valueVisible":null,"key":"Drawed","fillColor":null,"parentId":"824f16111a2518de","zIndex":4,"locked":false}|
+{"type":"ATTR","ticket":74,"id":"c5dbfa733f850790"}||{"x":1043,"y":-100,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"LEFT_MIDDLE","value":"","keyVisible":null,"valueVisible":null,"key":"Reviewed","fillColor":null,"parentId":"824f16111a2518de","zIndex":5,"locked":false}|
+{"type":"ATTR","ticket":75,"id":"df36b91094c87b37"}||{"x":1495,"y":-140,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"LEFT_MIDDLE","value":"","keyVisible":null,"valueVisible":null,"key":"Part Number","fillColor":null,"parentId":"824f16111a2518de","zIndex":6,"locked":false}|
+{"type":"ATTR","ticket":76,"id":"42b7c16cbc3901e8"}||{"x":1203,"y":-30,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"1.1","keyVisible":null,"valueVisible":null,"key":"Version","fillColor":null,"parentId":"824f16111a2518de","zIndex":7,"locked":false}|
+{"type":"ATTR","ticket":77,"id":"83de74ad6b1a5495"}||{"x":1285,"y":-30,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"A3","keyVisible":null,"valueVisible":null,"key":"Page Size","fillColor":null,"parentId":"824f16111a2518de","zIndex":8,"locked":false}|
+{"type":"ATTR","ticket":78,"id":"c659845cc176df1c"}||{"x":1405,"y":-100,"rotation":0,"color":null,"fontFamily":null,"fontSize":20,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"DesktopAssistant_Integrated","keyVisible":null,"valueVisible":null,"key":"@Project Name","fillColor":null,"parentId":"824f16111a2518de","zIndex":9,"locked":false}|
+{"type":"ATTR","ticket":79,"id":"544acb38b4ed70fb"}||{"x":1587,"y":-61,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"1","keyVisible":null,"valueVisible":null,"key":"@Page Count","fillColor":null,"parentId":"824f16111a2518de","zIndex":10,"locked":false}|
+{"type":"ATTR","ticket":80,"id":"96ccc37b96e760be"}||{"x":1495,"y":-180,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"LEFT_MIDDLE","value":"2026-09-11","keyVisible":null,"valueVisible":null,"key":"@Update Date","fillColor":null,"parentId":"824f16111a2518de","zIndex":11,"locked":false}|
+{"type":"ATTR","ticket":81,"id":"2fcd56b7dc82fa14"}||{"x":1495,"y":-160,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"LEFT_MIDDLE","value":"2026-09-11","keyVisible":null,"valueVisible":null,"key":"@Create Date","fillColor":null,"parentId":"824f16111a2518de","zIndex":12,"locked":false}|
+{"type":"ATTR","ticket":82,"id":"91be2dd3aa001c64"}||{"x":1215,"y":-170,"rotation":0,"color":null,"fontFamily":null,"fontSize":20,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"Schematic1","keyVisible":null,"valueVisible":null,"key":"@Schematic Name","fillColor":null,"parentId":"824f16111a2518de","zIndex":13,"locked":false}|
+{"type":"ATTR","ticket":83,"id":"da77899128a72432"}||{"x":1470,"y":-61,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"1","keyVisible":null,"valueVisible":null,"key":"@Page No","fillColor":null,"parentId":"824f16111a2518de","zIndex":14,"locked":false}|
+{"type":"ATTR","ticket":84,"id":"10777f1f8da3fba4"}||{"x":1215,"y":-140,"rotation":0,"color":null,"fontFamily":null,"fontSize":15,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"P1","keyVisible":null,"valueVisible":null,"key":"@Page Name","fillColor":null,"parentId":"824f16111a2518de","zIndex":15,"locked":false}|
+{"type":"ATTR","ticket":85,"id":"fc68ed552af69ae9"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"b59b8a01f42ec62d","keyVisible":null,"valueVisible":null,"key":"Device","fillColor":null,"parentId":"824f16111a2518de","zIndex":16}|
+{"type":"ATTR","ticket":86,"id":"aab7ced398ad0b08"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"","keyVisible":null,"valueVisible":null,"key":"Description","fillColor":null,"parentId":"824f16111a2518de","zIndex":17}|
+{"type":"ATTR","ticket":87,"id":"98ea3de9afa0f76f"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"","keyVisible":null,"valueVisible":null,"key":"Name","fillColor":null,"parentId":"824f16111a2518de","zIndex":18}|
+{"type":"ATTR","ticket":88,"id":"5e8666cf7873d406"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"20:59:48","keyVisible":null,"valueVisible":null,"key":"@Create Time","fillColor":null,"parentId":"824f16111a2518de","zIndex":19}|
+{"type":"ATTR","ticket":89,"id":"8d95af1f86d5d397"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"21:29:26","keyVisible":null,"valueVisible":null,"key":"@Update Time","fillColor":null,"parentId":"824f16111a2518de","zIndex":20}|
+{"type":"ATTR","ticket":90,"id":"8aeb706104f4ce2d"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"1","keyVisible":null,"valueVisible":null,"key":"Border","fillColor":null,"parentId":"824f16111a2518de","zIndex":21}|
+{"type":"ATTR","ticket":91,"id":"bfee43e4cb0ae845"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"1655","keyVisible":null,"valueVisible":null,"key":"Width","fillColor":null,"parentId":"824f16111a2518de","zIndex":22}|
+{"type":"ATTR","ticket":92,"id":"01316e20d9847256"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"1170","keyVisible":null,"valueVisible":null,"key":"Height","fillColor":null,"parentId":"824f16111a2518de","zIndex":23}|
+{"type":"ATTR","ticket":93,"id":"54dda642003967f9"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"1","keyVisible":null,"valueVisible":null,"key":"Region Start","fillColor":null,"parentId":"824f16111a2518de","zIndex":24}|
+{"type":"ATTR","ticket":94,"id":"43daaa988a9b8524"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"6","keyVisible":null,"valueVisible":null,"key":"X Region Count","fillColor":null,"parentId":"824f16111a2518de","zIndex":25}|
+{"type":"ATTR","ticket":95,"id":"027e0ab8072b385f"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"4","keyVisible":null,"valueVisible":null,"key":"Y Region Count","fillColor":null,"parentId":"824f16111a2518de","zIndex":26}|
+{"type":"ATTR","ticket":96,"id":"f9c6b6ac9f9de66f"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"10","keyVisible":null,"valueVisible":null,"key":"Blade Width","fillColor":null,"parentId":"824f16111a2518de","zIndex":27}|
+{"type":"ATTR","ticket":97,"id":"763ec4a91fbdfa37"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"","keyVisible":null,"valueVisible":null,"key":"Color","fillColor":null,"parentId":"824f16111a2518de","zIndex":28}|
+{"type":"ATTR","ticket":98,"id":"ea93116d1ac8bb2f"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"3","keyVisible":null,"valueVisible":null,"key":"Title Block Position","fillColor":null,"parentId":"824f16111a2518de","zIndex":29}|
+{"type":"ATTR","ticket":99,"id":"b4a553b22f6c1b7f"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"0","keyVisible":null,"valueVisible":null,"key":"Title Block","fillColor":null,"parentId":"824f16111a2518de","zIndex":30}|
+{"type":"ATTR","ticket":100,"id":"49311dff4b28ccd9"}||{"x":null,"y":null,"rotation":null,"color":null,"fontFamily":null,"fontSize":null,"fontWeight":null,"italic":null,"underline":null,"align":null,"value":"Board1","keyVisible":null,"valueVisible":null,"key":"@Board Name","fillColor":null,"parentId":"824f16111a2518de","zIndex":31}|
+{"type":"TEXT","id":"0ae84277edc2719b","ticket":10005}||{"x":60,"y":-1115,"rotation":0,"color":"#183F62","fontFamily":null,"fontSize":18,"fontWeight":true,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"DesktopAssistant Integrated  |  Power and MCU / 配电与主控","fillColor":"#183F62","zIndex":3000}|
+{"type":"TEXT","id":"6ab288cdf0f6c6c0","ticket":10006}||{"x":60,"y":-1085,"rotation":0,"color":"#576A7D","fontFamily":null,"fontSize":9,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Revision 1.1  •  2026-09-12  •  03 / 05","fillColor":"#576A7D","zIndex":3000}|
+{"type":"RECT","id":"ec2c9e3e65cda601","ticket":11737}||{"radiusX":0,"radiusY":0,"dotX1":50,"dotX2":1600,"dotY1":-1050,"dotY2":-760,"strokeColor":"#BAC9D9","strokeStyle":null,"fillColor":null,"strokeWidth":1,"fillStyle":null,"rotation":0,"zIndex":1,"locked":false}|
+{"type":"TEXT","id":"109bf56d4bcc6ae0","ticket":11738}||{"x":65,"y":-1025,"rotation":0,"color":"#214F78","fontFamily":null,"fontSize":12,"fontWeight":true,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Protected pack → fuse → switch → regulators","fillColor":"#214F78","zIndex":3000}|
+{"type":"COMPONENT","ticket":10000,"id":"5e9d046dce453995"}||{"partId":"01530008Z.1","x":260,"y":-930,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"c95df2d1f2095928","ticket":11739}||{"parentId":"5e9d046dce453995","key":"Symbol","value":"222a04db4f62e5d4","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f80a4ca841d7b810","ticket":11740}||{"parentId":"5e9d046dce453995","key":"Device","value":"f9c5ab3af05b193d","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b1c12fd6bdeb9066","ticket":11741}||{"parentId":"5e9d046dce453995","key":"Unique ID","value":"int-F1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"27afa263f75dddde","ticket":11742}||{"parentId":"5e9d046dce453995","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bee9b6350f0c32f0","ticket":11743}||{"parentId":"5e9d046dce453995","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"59988c6dec82efb5","ticket":11744}||{"parentId":"5e9d046dce453995","key":"Designator","value":"F1","zIndex":10,"keyVisible":false,"valueVisible":true,"x":260,"y":-950,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"c337c42e11a3f0d6","ticket":11745}||{"parentId":"5e9d046dce453995","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7accf5362e2796e8","ticket":11746}||{"parentId":"5e9d046dce453995","key":"Name","value":"01530008Z fuse holder","zIndex":10,"keyVisible":false,"valueVisible":true,"x":260,"y":-902,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"d39ddf5b5668e26b","ticket":11747}||{"parentId":"5e9d046dce453995","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"73ab508a135cd3cb","ticket":11748}||{"parentId":"5e9d046dce453995","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7289e7a260979cfd","ticket":11749}||{"parentId":"5e9d046dce453995","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c5909944ab2e276c","ticket":11750}||{"parentId":"5e9d046dce453995","key":"Manufacturer","value":"Littelfuse(美国力特)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f94cfe1190fc857d","ticket":11751}||{"parentId":"5e9d046dce453995","key":"Manufacturer Part","value":"01530008Z","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"99ca664279ed846d","ticket":11752}||{"parentId":"5e9d046dce453995","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0cbd456e3f62fc85","ticket":11753}||{"parentId":"5e9d046dce453995","key":"Supplier Part","value":"C206907","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0b9a6898dfd1b286","ticket":11754}||{"parentId":"5e9d046dce453995","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"cebd5124905fb530","ticket":11755}||{"parentId":"5e9d046dce453995","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"da6b2e3d996c3f32","ticket":11756}||{"parentId":"5e9d046dce453995","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"26188fc644a5d9f0","ticket":11757}||{"parentId":"5e9d046dce453995","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/01530008Z/208026.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f9646a04ec114f38","ticket":11758}||{"parentId":"5e9d046dce453995","key":"Fuseholder Type","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c82d03ebb5a8a8fe","ticket":11759}||{"parentId":"5e9d046dce453995","key":"Number of Circuits","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e5900d529caf7d13","ticket":11760}||{"parentId":"5e9d046dce453995","key":"Voltage Rating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"71d7dbb2558f3b85","ticket":11761}||{"parentId":"5e9d046dce453995","key":"Current Rating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8c8d8f67128ec223","ticket":11762}||{"parentId":"5e9d046dce453995","key":"Fuse Type","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"86eeddfa5e6bedd5","ticket":11763}||{"parentId":"5e9d046dce453995","key":"Fuse Length","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6334ce96c9aed971","ticket":11764}||{"parentId":"5e9d046dce453995","key":"Fuse Width","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"1de6d4fca8702a06","ticket":11765}||{"parentId":"5e9d046dce453995","key":"Description","value":"保险丝座类型:-;通道数:1;保险丝类型:刀片;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d44ef505220baaab","ticket":11766}||{"parentId":"5e9d046dce453995","key":"Value","value":"保险丝座","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ffc256d4dedd0c51","ticket":11767}||{"parentId":"5e9d046dce453995","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"baa6579d9fd15811","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"ddebbab4bd5f6b7f","ticket":11768}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":280.0,"startY":-930.0,"endX":325.0,"endY":-930.0,"lineGroup":"baa6579d9fd15811"}|
+{"type":"ATTR","id":"9b610bc5c3c83643","ticket":11769}||{"parentId":"baa6579d9fd15811","key":"NET","value":"VBAT_FUSED","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"LEFT_BOTTOM","x":285.0,"y":-932.0}|
+{"type":"ATTR","id":"78ea474c9a2b6849","ticket":11770}||{"parentId":"baa6579d9fd15811","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"ba705ce216d2a12f","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"d9abdefd3919fffc","ticket":11771}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":240.0,"startY":-930.0,"endX":195.0,"endY":-930.0,"lineGroup":"ba705ce216d2a12f"}|
+{"type":"ATTR","id":"ec5a404a958a8563","ticket":11772}||{"parentId":"ba705ce216d2a12f","key":"NET","value":"VBAT_RAW_P","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":235.0,"y":-932.0}|
+{"type":"ATTR","id":"830ecd011d5895c3","ticket":11773}||{"parentId":"ba705ce216d2a12f","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"TEXT","id":"3cbb26a0b5e3cab1","ticket":11774}||{"x":75,"y":-855,"rotation":0,"color":"#26364A","fontFamily":null,"fontSize":9,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Fit 029707.5WXNV 7.5A fuse into F1.","fillColor":"#26364A","zIndex":3000}|
+{"type":"COMPONENT","ticket":10000,"id":"d11e4f7cfff0b7e9"}||{"partId":"KF301-5.0-2P.1","x":640,"y":-930,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"e4e3130ba8d1d4b5","ticket":11775}||{"parentId":"d11e4f7cfff0b7e9","key":"Symbol","value":"15ab48562d5f639c","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"fe0143b637d22dfe","ticket":11776}||{"parentId":"d11e4f7cfff0b7e9","key":"Device","value":"4dd47515616d9094","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"12a61243a8a115bf","ticket":11777}||{"parentId":"d11e4f7cfff0b7e9","key":"Unique ID","value":"int-J_SW","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3af0ef43849fdb63","ticket":11778}||{"parentId":"d11e4f7cfff0b7e9","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c4c8333b944815df","ticket":11779}||{"parentId":"d11e4f7cfff0b7e9","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b89b8e11fe6001c2","ticket":11780}||{"parentId":"d11e4f7cfff0b7e9","key":"Designator","value":"J_SW","zIndex":10,"keyVisible":false,"valueVisible":true,"x":640,"y":-955.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"b892c378646067a8","ticket":11781}||{"parentId":"d11e4f7cfff0b7e9","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f8c0b29193ae95bb","ticket":11782}||{"parentId":"d11e4f7cfff0b7e9","key":"Name","value":"External DC power switch","zIndex":10,"keyVisible":false,"valueVisible":true,"x":640,"y":-897.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"516133b371ab0c62","ticket":11783}||{"parentId":"d11e4f7cfff0b7e9","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"de52282623ced9e3","ticket":11784}||{"parentId":"d11e4f7cfff0b7e9","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"94f469aa97ce49c9","ticket":11785}||{"parentId":"d11e4f7cfff0b7e9","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6db24d87920c646b","ticket":11786}||{"parentId":"d11e4f7cfff0b7e9","key":"Manufacturer","value":"KEFA(科发)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a90d5639cfcce57f","ticket":11787}||{"parentId":"d11e4f7cfff0b7e9","key":"Manufacturer Part","value":"KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e03dbeb5362508a8","ticket":11788}||{"parentId":"d11e4f7cfff0b7e9","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"21e37a59153ba598","ticket":11789}||{"parentId":"d11e4f7cfff0b7e9","key":"Supplier Part","value":"C474881","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9d0fa37c6cbfef7a","ticket":11790}||{"parentId":"d11e4f7cfff0b7e9","key":"LCSC Part Name","value":"1x2P 5mm 直插 排数:1 每排P数:2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"576754b0b7c1ebc6","ticket":11791}||{"parentId":"d11e4f7cfff0b7e9","key":"Supplier Footprint","value":"插件,P=5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d9c653578c9f258d","ticket":11792}||{"parentId":"d11e4f7cfff0b7e9","key":"JLCPCB Part Class","value":"Extended Part","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f73830c2e6d34b99","ticket":11793}||{"parentId":"d11e4f7cfff0b7e9","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/KF301-5.0-2P/481499.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"689fcbffd5f3da62","ticket":11794}||{"parentId":"d11e4f7cfff0b7e9","key":"Number of Positions or Pins","value":"1x2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7bb9cacc42155806","ticket":11795}||{"parentId":"d11e4f7cfff0b7e9","key":"Pitch","value":"5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ea0de8a8e8ce1855","ticket":11796}||{"parentId":"d11e4f7cfff0b7e9","key":"Color","value":"蓝色","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"58f0e7cc40ca64c6","ticket":11797}||{"parentId":"d11e4f7cfff0b7e9","key":"Mounting Type","value":"直插","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"48597a6b14e41899","ticket":11798}||{"parentId":"d11e4f7cfff0b7e9","key":"Number of Pins","value":"2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f32e5d55641ebc47","ticket":11799}||{"parentId":"d11e4f7cfff0b7e9","key":"Number of Rows","value":"1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"24e35b64811029ed","ticket":11800}||{"parentId":"d11e4f7cfff0b7e9","key":"Number of PINs Per Row","value":"2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0d8c352298a76aea","ticket":11801}||{"parentId":"d11e4f7cfff0b7e9","key":"Screw Specification","value":"M2.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"47ef88a1a9e6b634","ticket":11802}||{"parentId":"d11e4f7cfff0b7e9","key":"Current Rating","value":"17A","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"09e428742763c727","ticket":11803}||{"parentId":"d11e4f7cfff0b7e9","key":"Voltage Rating (Max)","value":"250V","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7e86d7a4eb6d55ca","ticket":11804}||{"parentId":"d11e4f7cfff0b7e9","key":"Wire Gauge - AWG","value":"14~22","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6410cd718691ee7d","ticket":11805}||{"parentId":"d11e4f7cfff0b7e9","key":"Wire Gauge - mm2","value":"1.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8dd070a6753d6ca7","ticket":11806}||{"parentId":"d11e4f7cfff0b7e9","key":"Operating Temperature","value":"-30℃~+120℃","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e1bb27f4e6ba79d0","ticket":11807}||{"parentId":"d11e4f7cfff0b7e9","key":"Height Above Board","value":"10mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"dc9e1a99ed92086c","ticket":11808}||{"parentId":"d11e4f7cfff0b7e9","key":"Description","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7f42adc0acce430e","ticket":11809}||{"parentId":"d11e4f7cfff0b7e9","key":"3D Model","value":"442de893d0fc4728b9e5c7abc29ccda5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d9b3fb738cf5ddce","ticket":11810}||{"parentId":"d11e4f7cfff0b7e9","key":"3D Model Title","value":"CONN-TH_P5.00_KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e33e653ac713da22","ticket":11811}||{"parentId":"d11e4f7cfff0b7e9","key":"3D Model Transform","value":"417.322,299.21594,0,0,0,0,11.811,7.874,-137.795","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"2736dacbb5442eaf","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"e94614cd89da720b","ticket":11812}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":620.0,"startY":-935.0,"endX":575.0,"endY":-935.0,"lineGroup":"2736dacbb5442eaf"}|
+{"type":"ATTR","id":"a9ef2a851c3c35be","ticket":11813}||{"parentId":"2736dacbb5442eaf","key":"NET","value":"VBAT_FUSED","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":615.0,"y":-937.0}|
+{"type":"ATTR","id":"a867caa5c118bcd9","ticket":11814}||{"parentId":"2736dacbb5442eaf","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"7f98a569cf8834e5","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"931644f7c4474406","ticket":11815}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":620.0,"startY":-925.0,"endX":575.0,"endY":-925.0,"lineGroup":"7f98a569cf8834e5"}|
+{"type":"ATTR","id":"ee246cd638558390","ticket":11816}||{"parentId":"7f98a569cf8834e5","key":"NET","value":"VBAT_SW","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":615.0,"y":-927.0}|
+{"type":"ATTR","id":"bfc55921e3fb3100","ticket":11817}||{"parentId":"7f98a569cf8834e5","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"TEXT","id":"43c3e876c6d24650","ticket":11818}||{"x":495,"y":-855,"rotation":0,"color":"#26364A","fontFamily":null,"fontSize":9,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"1=fused input; 2=switched output.","fillColor":"#26364A","zIndex":3000}|
+{"type":"COMPONENT","ticket":10000,"id":"43dbfd565b2e8d7d"}||{"partId":"KF301-5.0-2P.1","x":1060,"y":-955,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"973e7c45d9fabf11","ticket":11819}||{"parentId":"43dbfd565b2e8d7d","key":"Symbol","value":"15ab48562d5f639c","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"cdd41843708b02ce","ticket":11820}||{"parentId":"43dbfd565b2e8d7d","key":"Device","value":"4dd47515616d9094","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"087bc871c86b2167","ticket":11821}||{"parentId":"43dbfd565b2e8d7d","key":"Unique ID","value":"int-J_LOG_IN","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"69b74a619c38d2af","ticket":11822}||{"parentId":"43dbfd565b2e8d7d","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5ee18d24cd8eb1fa","ticket":11823}||{"parentId":"43dbfd565b2e8d7d","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a6dea713a8c9b24f","ticket":11824}||{"parentId":"43dbfd565b2e8d7d","key":"Designator","value":"J_LOG_IN","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1060,"y":-980.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"cc48f44469fdae0e","ticket":11825}||{"parentId":"43dbfd565b2e8d7d","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"fa778156e834fec2","ticket":11826}||{"parentId":"43dbfd565b2e8d7d","key":"Name","value":"MP1584 module VIN ±","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1060,"y":-922.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"4cc628877239e41d","ticket":11827}||{"parentId":"43dbfd565b2e8d7d","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c090118f2b31380e","ticket":11828}||{"parentId":"43dbfd565b2e8d7d","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3d1a957142e7202d","ticket":11829}||{"parentId":"43dbfd565b2e8d7d","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"006aec8a13fa54f3","ticket":11830}||{"parentId":"43dbfd565b2e8d7d","key":"Manufacturer","value":"KEFA(科发)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b8e78456a4fac6d9","ticket":11831}||{"parentId":"43dbfd565b2e8d7d","key":"Manufacturer Part","value":"KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8c96e5ddee01dcd0","ticket":11832}||{"parentId":"43dbfd565b2e8d7d","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"01e26014da1d088c","ticket":11833}||{"parentId":"43dbfd565b2e8d7d","key":"Supplier Part","value":"C474881","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8ef723ef892e599e","ticket":11834}||{"parentId":"43dbfd565b2e8d7d","key":"LCSC Part Name","value":"1x2P 5mm 直插 排数:1 每排P数:2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"317af2d0f413c48a","ticket":11835}||{"parentId":"43dbfd565b2e8d7d","key":"Supplier Footprint","value":"插件,P=5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"28f335c4cd36b2da","ticket":11836}||{"parentId":"43dbfd565b2e8d7d","key":"JLCPCB Part Class","value":"Extended Part","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3130f425c2392556","ticket":11837}||{"parentId":"43dbfd565b2e8d7d","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/KF301-5.0-2P/481499.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"547a01947147575a","ticket":11838}||{"parentId":"43dbfd565b2e8d7d","key":"Number of Positions or Pins","value":"1x2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7b6db711c723e227","ticket":11839}||{"parentId":"43dbfd565b2e8d7d","key":"Pitch","value":"5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"cfc050d6205f4a6b","ticket":11840}||{"parentId":"43dbfd565b2e8d7d","key":"Color","value":"蓝色","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"eb66285cbb22ef4c","ticket":11841}||{"parentId":"43dbfd565b2e8d7d","key":"Mounting Type","value":"直插","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"fc678505abc9b77d","ticket":11842}||{"parentId":"43dbfd565b2e8d7d","key":"Number of Pins","value":"2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"24bd6a01bc3412eb","ticket":11843}||{"parentId":"43dbfd565b2e8d7d","key":"Number of Rows","value":"1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5fcf137f753ccf3c","ticket":11844}||{"parentId":"43dbfd565b2e8d7d","key":"Number of PINs Per Row","value":"2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ef16de890ef8ba74","ticket":11845}||{"parentId":"43dbfd565b2e8d7d","key":"Screw Specification","value":"M2.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5c8fcf2e8c4467bc","ticket":11846}||{"parentId":"43dbfd565b2e8d7d","key":"Current Rating","value":"17A","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ac84ece0f181b6c3","ticket":11847}||{"parentId":"43dbfd565b2e8d7d","key":"Voltage Rating (Max)","value":"250V","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b539267d1a49e4b5","ticket":11848}||{"parentId":"43dbfd565b2e8d7d","key":"Wire Gauge - AWG","value":"14~22","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"81f0a7425aab3cb6","ticket":11849}||{"parentId":"43dbfd565b2e8d7d","key":"Wire Gauge - mm2","value":"1.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"818f805fb0054924","ticket":11850}||{"parentId":"43dbfd565b2e8d7d","key":"Operating Temperature","value":"-30℃~+120℃","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d9442e1e9a2ad17c","ticket":11851}||{"parentId":"43dbfd565b2e8d7d","key":"Height Above Board","value":"10mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e78263c123362d8f","ticket":11852}||{"parentId":"43dbfd565b2e8d7d","key":"Description","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c5da7e7f92449511","ticket":11853}||{"parentId":"43dbfd565b2e8d7d","key":"3D Model","value":"442de893d0fc4728b9e5c7abc29ccda5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"caf749a2caec668e","ticket":11854}||{"parentId":"43dbfd565b2e8d7d","key":"3D Model Title","value":"CONN-TH_P5.00_KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"93ad51a0f4b381a4","ticket":11855}||{"parentId":"43dbfd565b2e8d7d","key":"3D Model Transform","value":"417.322,299.21594,0,0,0,0,11.811,7.874,-137.795","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"dd524e9b5b10033f","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"249bbc5a3227cf9c","ticket":11856}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1040.0,"startY":-960.0,"endX":995.0,"endY":-960.0,"lineGroup":"dd524e9b5b10033f"}|
+{"type":"ATTR","id":"f4ff6a042971349c","ticket":11857}||{"parentId":"dd524e9b5b10033f","key":"NET","value":"VBAT_SW","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1035.0,"y":-962.0}|
+{"type":"ATTR","id":"ec37c6833fa8d5b6","ticket":11858}||{"parentId":"dd524e9b5b10033f","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"538fab1d572613f2","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"7c6e7d3add3090d6","ticket":11859}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1040.0,"startY":-950.0,"endX":995.0,"endY":-950.0,"lineGroup":"538fab1d572613f2"}|
+{"type":"ATTR","id":"d35832d3be61d5fc","ticket":11860}||{"parentId":"538fab1d572613f2","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1035.0,"y":-952.0}|
+{"type":"ATTR","id":"459df71050aa7526","ticket":11861}||{"parentId":"538fab1d572613f2","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"7ea54c17b5040bdd"}||{"partId":"KF301-5.0-2P.1","x":1430,"y":-955,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"75c1b1ccbaa281fe","ticket":11862}||{"parentId":"7ea54c17b5040bdd","key":"Symbol","value":"15ab48562d5f639c","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f1376dd9a38cb9a0","ticket":11863}||{"parentId":"7ea54c17b5040bdd","key":"Device","value":"4dd47515616d9094","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"64564cb6aa86936f","ticket":11864}||{"parentId":"7ea54c17b5040bdd","key":"Unique ID","value":"int-J_LOG_OUT","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"149a897b90e0a587","ticket":11865}||{"parentId":"7ea54c17b5040bdd","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"55a38db9e7bc8e68","ticket":11866}||{"parentId":"7ea54c17b5040bdd","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"43cb4b61b3b24b28","ticket":11867}||{"parentId":"7ea54c17b5040bdd","key":"Designator","value":"J_LOG_OUT","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1430,"y":-980.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"126b8930a6bb7634","ticket":11868}||{"parentId":"7ea54c17b5040bdd","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d750752df911fb82","ticket":11869}||{"parentId":"7ea54c17b5040bdd","key":"Name","value":"MP1584 module VOUT ±","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1430,"y":-922.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"943f7e215ac8e443","ticket":11870}||{"parentId":"7ea54c17b5040bdd","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a68e38dd243dee34","ticket":11871}||{"parentId":"7ea54c17b5040bdd","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bff34b2408a95019","ticket":11872}||{"parentId":"7ea54c17b5040bdd","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0a1ea5185d674900","ticket":11873}||{"parentId":"7ea54c17b5040bdd","key":"Manufacturer","value":"KEFA(科发)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"098c5f889c854b59","ticket":11874}||{"parentId":"7ea54c17b5040bdd","key":"Manufacturer Part","value":"KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6cbb3a125516d9f5","ticket":11875}||{"parentId":"7ea54c17b5040bdd","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"1fcfe5093e9a25b3","ticket":11876}||{"parentId":"7ea54c17b5040bdd","key":"Supplier Part","value":"C474881","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"85cb8820e30b95fe","ticket":11877}||{"parentId":"7ea54c17b5040bdd","key":"LCSC Part Name","value":"1x2P 5mm 直插 排数:1 每排P数:2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bd13de53dfc40b08","ticket":11878}||{"parentId":"7ea54c17b5040bdd","key":"Supplier Footprint","value":"插件,P=5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6c1af512db56f481","ticket":11879}||{"parentId":"7ea54c17b5040bdd","key":"JLCPCB Part Class","value":"Extended Part","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"01c41da2a0ed20e0","ticket":11880}||{"parentId":"7ea54c17b5040bdd","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/KF301-5.0-2P/481499.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0f3500f929589334","ticket":11881}||{"parentId":"7ea54c17b5040bdd","key":"Number of Positions or Pins","value":"1x2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"678b6df908227f88","ticket":11882}||{"parentId":"7ea54c17b5040bdd","key":"Pitch","value":"5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"08bd01255cffc843","ticket":11883}||{"parentId":"7ea54c17b5040bdd","key":"Color","value":"蓝色","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8e61cc795fda36f4","ticket":11884}||{"parentId":"7ea54c17b5040bdd","key":"Mounting Type","value":"直插","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"220b5e7745807e23","ticket":11885}||{"parentId":"7ea54c17b5040bdd","key":"Number of Pins","value":"2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0bcdd0c4fb5e22b2","ticket":11886}||{"parentId":"7ea54c17b5040bdd","key":"Number of Rows","value":"1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bd960b5753af0b41","ticket":11887}||{"parentId":"7ea54c17b5040bdd","key":"Number of PINs Per Row","value":"2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3e5d6d08f5bb8337","ticket":11888}||{"parentId":"7ea54c17b5040bdd","key":"Screw Specification","value":"M2.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"549386a79ecacb29","ticket":11889}||{"parentId":"7ea54c17b5040bdd","key":"Current Rating","value":"17A","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9ec91a669abcf18a","ticket":11890}||{"parentId":"7ea54c17b5040bdd","key":"Voltage Rating (Max)","value":"250V","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8ac826a0860aaa0a","ticket":11891}||{"parentId":"7ea54c17b5040bdd","key":"Wire Gauge - AWG","value":"14~22","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2f970d6fb034596d","ticket":11892}||{"parentId":"7ea54c17b5040bdd","key":"Wire Gauge - mm2","value":"1.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"15d2085e9274e49c","ticket":11893}||{"parentId":"7ea54c17b5040bdd","key":"Operating Temperature","value":"-30℃~+120℃","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e0fb030a5551ce0a","ticket":11894}||{"parentId":"7ea54c17b5040bdd","key":"Height Above Board","value":"10mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"1fb73554ca114dab","ticket":11895}||{"parentId":"7ea54c17b5040bdd","key":"Description","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"377da9b73ed6cfb8","ticket":11896}||{"parentId":"7ea54c17b5040bdd","key":"3D Model","value":"442de893d0fc4728b9e5c7abc29ccda5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"fd94c962038055c8","ticket":11897}||{"parentId":"7ea54c17b5040bdd","key":"3D Model Title","value":"CONN-TH_P5.00_KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e130cbb873d922ff","ticket":11898}||{"parentId":"7ea54c17b5040bdd","key":"3D Model Transform","value":"417.322,299.21594,0,0,0,0,11.811,7.874,-137.795","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"5d8bcc10601f9b36","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"be4ff944e476f4a1","ticket":11899}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1410.0,"startY":-960.0,"endX":1365.0,"endY":-960.0,"lineGroup":"5d8bcc10601f9b36"}|
+{"type":"ATTR","id":"2da47188a8adbaeb","ticket":11900}||{"parentId":"5d8bcc10601f9b36","key":"NET","value":"+5V_LOGIC","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1405.0,"y":-962.0}|
+{"type":"ATTR","id":"1fabf9a60952f123","ticket":11901}||{"parentId":"5d8bcc10601f9b36","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"1f77b6ed2cde1517","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"7440d8d95ef19e8e","ticket":11902}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1410.0,"startY":-950.0,"endX":1365.0,"endY":-950.0,"lineGroup":"1f77b6ed2cde1517"}|
+{"type":"ATTR","id":"050be7c80e878642","ticket":11903}||{"parentId":"1f77b6ed2cde1517","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1405.0,"y":-952.0}|
+{"type":"ATTR","id":"261589757c43c7cd","ticket":11904}||{"parentId":"1f77b6ed2cde1517","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"c570ce719d7d519c"}||{"partId":"KF301-5.0-2P.1","x":1060,"y":-825,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"a07eae3c43344816","ticket":11905}||{"parentId":"c570ce719d7d519c","key":"Symbol","value":"15ab48562d5f639c","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2244009af0873181","ticket":11906}||{"parentId":"c570ce719d7d519c","key":"Device","value":"4dd47515616d9094","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"788fcd704f044b42","ticket":11907}||{"parentId":"c570ce719d7d519c","key":"Unique ID","value":"int-J_SRV_IN","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"39cae18c4b5fd084","ticket":11908}||{"parentId":"c570ce719d7d519c","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"35c04dd27b813ab5","ticket":11909}||{"parentId":"c570ce719d7d519c","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"65ecdfaad7b61ce9","ticket":11910}||{"parentId":"c570ce719d7d519c","key":"Designator","value":"J_SRV_IN","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1060,"y":-850.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"a2e0c3b1e6c4c8d3","ticket":11911}||{"parentId":"c570ce719d7d519c","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e3ed051069a392d3","ticket":11912}||{"parentId":"c570ce719d7d519c","key":"Name","value":"DFR0753 module VIN ±","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1060,"y":-792.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"b42015f276e9aacc","ticket":11913}||{"parentId":"c570ce719d7d519c","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c967b7fc8c4d6aed","ticket":11914}||{"parentId":"c570ce719d7d519c","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"81730baac4242a9d","ticket":11915}||{"parentId":"c570ce719d7d519c","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"16f08f0012341c4b","ticket":11916}||{"parentId":"c570ce719d7d519c","key":"Manufacturer","value":"KEFA(科发)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"04e92baa9897de56","ticket":11917}||{"parentId":"c570ce719d7d519c","key":"Manufacturer Part","value":"KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f2a75946dba37b47","ticket":11918}||{"parentId":"c570ce719d7d519c","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9821ebbb63796235","ticket":11919}||{"parentId":"c570ce719d7d519c","key":"Supplier Part","value":"C474881","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5d4aab0a380944b0","ticket":11920}||{"parentId":"c570ce719d7d519c","key":"LCSC Part Name","value":"1x2P 5mm 直插 排数:1 每排P数:2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"13dfcfc82ec2f978","ticket":11921}||{"parentId":"c570ce719d7d519c","key":"Supplier Footprint","value":"插件,P=5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c282574d57ff9b51","ticket":11922}||{"parentId":"c570ce719d7d519c","key":"JLCPCB Part Class","value":"Extended Part","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b8f7e2083d6e9d34","ticket":11923}||{"parentId":"c570ce719d7d519c","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/KF301-5.0-2P/481499.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"924b30c1afd3dafd","ticket":11924}||{"parentId":"c570ce719d7d519c","key":"Number of Positions or Pins","value":"1x2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2eac2224f27fc715","ticket":11925}||{"parentId":"c570ce719d7d519c","key":"Pitch","value":"5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"655091207f6e7adc","ticket":11926}||{"parentId":"c570ce719d7d519c","key":"Color","value":"蓝色","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6cc3d89d66f405cf","ticket":11927}||{"parentId":"c570ce719d7d519c","key":"Mounting Type","value":"直插","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ab852cde8eb302aa","ticket":11928}||{"parentId":"c570ce719d7d519c","key":"Number of Pins","value":"2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9d62e5026716efbc","ticket":11929}||{"parentId":"c570ce719d7d519c","key":"Number of Rows","value":"1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ca89c789fb2ef737","ticket":11930}||{"parentId":"c570ce719d7d519c","key":"Number of PINs Per Row","value":"2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b45a896a53afc7da","ticket":11931}||{"parentId":"c570ce719d7d519c","key":"Screw Specification","value":"M2.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2a1223b23353b6e8","ticket":11932}||{"parentId":"c570ce719d7d519c","key":"Current Rating","value":"17A","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"47d40debcbbff1d3","ticket":11933}||{"parentId":"c570ce719d7d519c","key":"Voltage Rating (Max)","value":"250V","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6ff405e759299adf","ticket":11934}||{"parentId":"c570ce719d7d519c","key":"Wire Gauge - AWG","value":"14~22","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d69e2465c79ed8b6","ticket":11935}||{"parentId":"c570ce719d7d519c","key":"Wire Gauge - mm2","value":"1.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"1bd00d214800f3c3","ticket":11936}||{"parentId":"c570ce719d7d519c","key":"Operating Temperature","value":"-30℃~+120℃","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2af3edbef9a2e24f","ticket":11937}||{"parentId":"c570ce719d7d519c","key":"Height Above Board","value":"10mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b20acd5def794d93","ticket":11938}||{"parentId":"c570ce719d7d519c","key":"Description","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"eaadc6ab623e4ce3","ticket":11939}||{"parentId":"c570ce719d7d519c","key":"3D Model","value":"442de893d0fc4728b9e5c7abc29ccda5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"cfa01dc998d97492","ticket":11940}||{"parentId":"c570ce719d7d519c","key":"3D Model Title","value":"CONN-TH_P5.00_KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f5b22b5c3fbee4af","ticket":11941}||{"parentId":"c570ce719d7d519c","key":"3D Model Transform","value":"417.322,299.21594,0,0,0,0,11.811,7.874,-137.795","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"c8f67029bd89ed56","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"06df439014dbb33c","ticket":11942}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1040.0,"startY":-830.0,"endX":995.0,"endY":-830.0,"lineGroup":"c8f67029bd89ed56"}|
+{"type":"ATTR","id":"a75a99d1e52714c3","ticket":11943}||{"parentId":"c8f67029bd89ed56","key":"NET","value":"VBAT_SW","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1035.0,"y":-832.0}|
+{"type":"ATTR","id":"423bbc6a1c383114","ticket":11944}||{"parentId":"c8f67029bd89ed56","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"cccb49dd5a06dbb5","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"aea2dd268e3416de","ticket":11945}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1040.0,"startY":-820.0,"endX":995.0,"endY":-820.0,"lineGroup":"cccb49dd5a06dbb5"}|
+{"type":"ATTR","id":"8cb55daaeb4d6d00","ticket":11946}||{"parentId":"cccb49dd5a06dbb5","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1035.0,"y":-822.0}|
+{"type":"ATTR","id":"57718dc43d39964a","ticket":11947}||{"parentId":"cccb49dd5a06dbb5","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"4d6c1d8e12e8b1a2"}||{"partId":"KF301-5.0-2P.1","x":1430,"y":-825,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"596bc558a8845b09","ticket":11948}||{"parentId":"4d6c1d8e12e8b1a2","key":"Symbol","value":"15ab48562d5f639c","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"dafe748f642c4128","ticket":11949}||{"parentId":"4d6c1d8e12e8b1a2","key":"Device","value":"4dd47515616d9094","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2c5e3ba6ea0f9532","ticket":11950}||{"parentId":"4d6c1d8e12e8b1a2","key":"Unique ID","value":"int-J_SRV_OUT","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"aaaab3cb56abe132","ticket":11951}||{"parentId":"4d6c1d8e12e8b1a2","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9e2040adebc831a4","ticket":11952}||{"parentId":"4d6c1d8e12e8b1a2","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c2ad7eab2f7d6d01","ticket":11953}||{"parentId":"4d6c1d8e12e8b1a2","key":"Designator","value":"J_SRV_OUT","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1430,"y":-850.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"afedbf0e507c7cde","ticket":11954}||{"parentId":"4d6c1d8e12e8b1a2","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6b451746433e3658","ticket":11955}||{"parentId":"4d6c1d8e12e8b1a2","key":"Name","value":"DFR0753 module VOUT ±","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1430,"y":-792.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"20242c82ab9ec178","ticket":11956}||{"parentId":"4d6c1d8e12e8b1a2","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bc46773dccae991e","ticket":11957}||{"parentId":"4d6c1d8e12e8b1a2","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"adf4862a00c44487","ticket":11958}||{"parentId":"4d6c1d8e12e8b1a2","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a3d3af7efe5bd577","ticket":11959}||{"parentId":"4d6c1d8e12e8b1a2","key":"Manufacturer","value":"KEFA(科发)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2a7f68596ce2e9dc","ticket":11960}||{"parentId":"4d6c1d8e12e8b1a2","key":"Manufacturer Part","value":"KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4cafc949ca1c0a17","ticket":11961}||{"parentId":"4d6c1d8e12e8b1a2","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f53e7be1cbf7e838","ticket":11962}||{"parentId":"4d6c1d8e12e8b1a2","key":"Supplier Part","value":"C474881","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7c86692bd46c3745","ticket":11963}||{"parentId":"4d6c1d8e12e8b1a2","key":"LCSC Part Name","value":"1x2P 5mm 直插 排数:1 每排P数:2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0290f01171b0c9ba","ticket":11964}||{"parentId":"4d6c1d8e12e8b1a2","key":"Supplier Footprint","value":"插件,P=5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"be96e50874e3f2d6","ticket":11965}||{"parentId":"4d6c1d8e12e8b1a2","key":"JLCPCB Part Class","value":"Extended Part","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7b134f56647b30dc","ticket":11966}||{"parentId":"4d6c1d8e12e8b1a2","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/KF301-5.0-2P/481499.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"da827e9f2adddd2e","ticket":11967}||{"parentId":"4d6c1d8e12e8b1a2","key":"Number of Positions or Pins","value":"1x2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3ca4087c1ad1f5a7","ticket":11968}||{"parentId":"4d6c1d8e12e8b1a2","key":"Pitch","value":"5mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"329966cbe9252d31","ticket":11969}||{"parentId":"4d6c1d8e12e8b1a2","key":"Color","value":"蓝色","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3c283ff707021ac2","ticket":11970}||{"parentId":"4d6c1d8e12e8b1a2","key":"Mounting Type","value":"直插","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"05876c7da809e0e0","ticket":11971}||{"parentId":"4d6c1d8e12e8b1a2","key":"Number of Pins","value":"2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2f8691988d9437d8","ticket":11972}||{"parentId":"4d6c1d8e12e8b1a2","key":"Number of Rows","value":"1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"976360f6fd6ab4f2","ticket":11973}||{"parentId":"4d6c1d8e12e8b1a2","key":"Number of PINs Per Row","value":"2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"88578ad4eab39beb","ticket":11974}||{"parentId":"4d6c1d8e12e8b1a2","key":"Screw Specification","value":"M2.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2353fb4649047752","ticket":11975}||{"parentId":"4d6c1d8e12e8b1a2","key":"Current Rating","value":"17A","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5df0181aa45ffa35","ticket":11976}||{"parentId":"4d6c1d8e12e8b1a2","key":"Voltage Rating (Max)","value":"250V","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"91a5033912e041a0","ticket":11977}||{"parentId":"4d6c1d8e12e8b1a2","key":"Wire Gauge - AWG","value":"14~22","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d12d2e9156c6e1a7","ticket":11978}||{"parentId":"4d6c1d8e12e8b1a2","key":"Wire Gauge - mm2","value":"1.5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5ef86f32598bc538","ticket":11979}||{"parentId":"4d6c1d8e12e8b1a2","key":"Operating Temperature","value":"-30℃~+120℃","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f497c978683892f8","ticket":11980}||{"parentId":"4d6c1d8e12e8b1a2","key":"Height Above Board","value":"10mm","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a63172108a4dd49a","ticket":11981}||{"parentId":"4d6c1d8e12e8b1a2","key":"Description","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"1bd3a11cacf1518e","ticket":11982}||{"parentId":"4d6c1d8e12e8b1a2","key":"3D Model","value":"442de893d0fc4728b9e5c7abc29ccda5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"574127cff9b0c4d0","ticket":11983}||{"parentId":"4d6c1d8e12e8b1a2","key":"3D Model Title","value":"CONN-TH_P5.00_KF301-5.0-2P","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a8d2d324ded64226","ticket":11984}||{"parentId":"4d6c1d8e12e8b1a2","key":"3D Model Transform","value":"417.322,299.21594,0,0,0,0,11.811,7.874,-137.795","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"74eb0066077c9243","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"45cf4ae3c30fad43","ticket":11985}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1410.0,"startY":-830.0,"endX":1365.0,"endY":-830.0,"lineGroup":"74eb0066077c9243"}|
+{"type":"ATTR","id":"6d67d62c77e0fe8c","ticket":11986}||{"parentId":"74eb0066077c9243","key":"NET","value":"+5V_SERVO","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1405.0,"y":-832.0}|
+{"type":"ATTR","id":"c117b5955e53b721","ticket":11987}||{"parentId":"74eb0066077c9243","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"befe9cbd447131a7","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"d46e78d23917715e","ticket":11988}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1410.0,"startY":-820.0,"endX":1365.0,"endY":-820.0,"lineGroup":"befe9cbd447131a7"}|
+{"type":"ATTR","id":"a5809d5ab540f4df","ticket":11989}||{"parentId":"befe9cbd447131a7","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1405.0,"y":-822.0}|
+{"type":"ATTR","id":"61691d2020e59797","ticket":11990}||{"parentId":"befe9cbd447131a7","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"TEXT","id":"b2407bc1a16df650","ticket":11991}||{"x":65,"y":-730,"rotation":0,"color":"#A02C2C","fontFamily":null,"fontSize":10,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Two external regulator modules; outputs are separate. Set both to 5.0V before connection.","fillColor":"#A02C2C","zIndex":3000}|
+{"type":"RECT","id":"b73620efd87c03b7","ticket":11992}||{"radiusX":0,"radiusY":0,"dotX1":50,"dotX2":850,"dotY1":-690,"dotY2":-200,"strokeColor":"#BAC9D9","strokeStyle":null,"fillColor":null,"strokeWidth":1,"fillStyle":null,"rotation":0,"zIndex":1,"locked":false}|
+{"type":"TEXT","id":"7fc51955a240be10","ticket":11993}||{"x":65,"y":-665,"rotation":0,"color":"#214F78","fontFamily":null,"fontSize":12,"fontWeight":true,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"ESP32-S3 carrier sockets / 保留已核对的开发板针序","fillColor":"#214F78","zIndex":3000}|
+{"type":"COMPONENT","ticket":10000,"id":"d9347d45bd9d955a"}||{"partId":"22850120ANG1SYA01.1","x":310,"y":-440,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"27209f678df50642","ticket":11994}||{"parentId":"d9347d45bd9d955a","key":"Symbol","value":"87ae94bc8dd59873","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d3c969705dda38c8","ticket":11995}||{"parentId":"d9347d45bd9d955a","key":"Device","value":"e69f05a469e8c9e3","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b702cb2bca7c19b5","ticket":11996}||{"parentId":"d9347d45bd9d955a","key":"Unique ID","value":"int-J1","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b3642e129b9b4316","ticket":11997}||{"parentId":"d9347d45bd9d955a","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b8b84c5f48f7c305","ticket":11998}||{"parentId":"d9347d45bd9d955a","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"90bf720e45b7932e","ticket":11999}||{"parentId":"d9347d45bd9d955a","key":"Designator","value":"J1","zIndex":10,"keyVisible":false,"valueVisible":true,"x":310,"y":-555.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"5e5cb85daabef219","ticket":12000}||{"parentId":"d9347d45bd9d955a","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"17d365a40027aa26","ticket":12001}||{"parentId":"d9347d45bd9d955a","key":"Name","value":"ESP32 right row R1-R20","zIndex":10,"keyVisible":false,"valueVisible":true,"x":310,"y":-317.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"773f6a6c9311cdc5","ticket":12002}||{"parentId":"d9347d45bd9d955a","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"01976077ead9932e","ticket":12003}||{"parentId":"d9347d45bd9d955a","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"855c5ed4d06a9690","ticket":12004}||{"parentId":"d9347d45bd9d955a","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d9722e0055a05ace","ticket":12005}||{"parentId":"d9347d45bd9d955a","key":"Manufacturer","value":"JILN(锦凌)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"884667db87111126","ticket":12006}||{"parentId":"d9347d45bd9d955a","key":"Manufacturer Part","value":"22850120ANG1SYA01","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"66add0c767353d71","ticket":12007}||{"parentId":"d9347d45bd9d955a","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9d27c765c0321fd0","ticket":12008}||{"parentId":"d9347d45bd9d955a","key":"Supplier Part","value":"C429947","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"01b8ccd8a675e3b7","ticket":12009}||{"parentId":"d9347d45bd9d955a","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6fa6e6fcf1eccfd4","ticket":12010}||{"parentId":"d9347d45bd9d955a","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7096222d1b923714","ticket":12011}||{"parentId":"d9347d45bd9d955a","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3643026dddc62e33","ticket":12012}||{"parentId":"d9347d45bd9d955a","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/22850120ANG1SYA01/426399.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"af21fd8193cdab44","ticket":12013}||{"parentId":"d9347d45bd9d955a","key":"Holes Structure","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ef6b3f5527c8a7d0","ticket":12014}||{"parentId":"d9347d45bd9d955a","key":"Pitch","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"042a235276aeb35c","ticket":12015}||{"parentId":"d9347d45bd9d955a","key":"Row Spacing","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"43b3bacb7d717602","ticket":12016}||{"parentId":"d9347d45bd9d955a","key":"Circular Hole / Square Hole","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c56be97a2b66c3e6","ticket":12017}||{"parentId":"d9347d45bd9d955a","key":"Mounting Type","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3ed70bb54a8c59b0","ticket":12018}||{"parentId":"d9347d45bd9d955a","key":"Number of Rows","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"aaca4e578be3c9c8","ticket":12019}||{"parentId":"d9347d45bd9d955a","key":"Number of Positions","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"706821ccef8cc24c","ticket":12020}||{"parentId":"d9347d45bd9d955a","key":"Current Rating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f174556bd618774e","ticket":12021}||{"parentId":"d9347d45bd9d955a","key":"Holes Direction","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"167d20dd98e1bb11","ticket":12022}||{"parentId":"d9347d45bd9d955a","key":"Insulation Height","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"fe5c9fcf62b57c92","ticket":12023}||{"parentId":"d9347d45bd9d955a","key":"Contact Material","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d17944eceace9430","ticket":12024}||{"parentId":"d9347d45bd9d955a","key":"Contact Plating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"657a9cc7a6cc2426","ticket":12025}||{"parentId":"d9347d45bd9d955a","key":"Operating Temperature","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ac1d109481d7fdae","ticket":12026}||{"parentId":"d9347d45bd9d955a","key":"Description","value":"插孔结构:1x20P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:20P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5afa130dc29aad72","ticket":12027}||{"parentId":"d9347d45bd9d955a","key":"Value","value":"1x20P母座","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6ea4b915bf5f4e07","ticket":12028}||{"parentId":"d9347d45bd9d955a","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d02c2f4406773e55","ticket":12029}||{"parentId":"d9347d45bd9d955a-e5","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-535.0}|
+{"type":"ATTR","id":"aee2eb8027537dc5","ticket":12030}||{"parentId":"d9347d45bd9d955a-e9","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-525.0}|
+{"type":"ATTR","id":"7a0687138910100e","ticket":12031}||{"parentId":"d9347d45bd9d955a-e13","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-515.0}|
+{"type":"ATTR","id":"ce0484322c5b965e","ticket":12032}||{"parentId":"d9347d45bd9d955a-e17","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-505.0}|
+{"type":"WIRE","id":"2988593d287d9a29","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"70087035da18a489","ticket":12033}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-495.0,"endX":245.0,"endY":-495.0,"lineGroup":"2988593d287d9a29"}|
+{"type":"ATTR","id":"f434218a1384d398","ticket":12034}||{"parentId":"2988593d287d9a29","key":"NET","value":"AMP_BCLK","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-497.0}|
+{"type":"ATTR","id":"f0d65bec02823f8a","ticket":12035}||{"parentId":"2988593d287d9a29","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"a3eb42d8c795c31c","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"343cbe0065805de3","ticket":12036}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-485.0,"endX":245.0,"endY":-485.0,"lineGroup":"a3eb42d8c795c31c"}|
+{"type":"ATTR","id":"1af5c1c4b085dc34","ticket":12037}||{"parentId":"a3eb42d8c795c31c","key":"NET","value":"AMP_WS","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-487.0}|
+{"type":"ATTR","id":"a6f1ded521ac0a8f","ticket":12038}||{"parentId":"a3eb42d8c795c31c","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"ca8e0e0672e4be1f","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"f80b21d333532c50","ticket":12039}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-475.0,"endX":245.0,"endY":-475.0,"lineGroup":"ca8e0e0672e4be1f"}|
+{"type":"ATTR","id":"3c4caf68c9f41759","ticket":12040}||{"parentId":"ca8e0e0672e4be1f","key":"NET","value":"AMP_DIN","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-477.0}|
+{"type":"ATTR","id":"7953f39a1b19b83c","ticket":12041}||{"parentId":"ca8e0e0672e4be1f","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"343e600869a3a659","ticket":12042}||{"parentId":"d9347d45bd9d955a-e33","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-465.0}|
+{"type":"WIRE","id":"0c1bec7c6ac6a8f9","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"57fd7eddc54ac834","ticket":12043}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-455.0,"endX":245.0,"endY":-455.0,"lineGroup":"0c1bec7c6ac6a8f9"}|
+{"type":"ATTR","id":"3b4ec4f0c8c643e6","ticket":12044}||{"parentId":"0c1bec7c6ac6a8f9","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-457.0}|
+{"type":"ATTR","id":"c1ed7c092bd156c7","ticket":12045}||{"parentId":"0c1bec7c6ac6a8f9","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"de83181c00ad3025","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"e490cb9da029bfcd","ticket":12046}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-445.0,"endX":245.0,"endY":-445.0,"lineGroup":"de83181c00ad3025"}|
+{"type":"ATTR","id":"a9427689488f8551","ticket":12047}||{"parentId":"de83181c00ad3025","key":"NET","value":"LCD_RST_N","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-447.0}|
+{"type":"ATTR","id":"9bb6b4b90fe7a2e3","ticket":12048}||{"parentId":"de83181c00ad3025","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0dedf6845dc3cffb","ticket":12049}||{"parentId":"d9347d45bd9d955a-e45","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-435.0}|
+{"type":"ATTR","id":"5f6ff91af02bbad9","ticket":12050}||{"parentId":"d9347d45bd9d955a-e49","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-425.0}|
+{"type":"WIRE","id":"c5f91101ee09d25f","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"a9acc107a76d1406","ticket":12051}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-415.0,"endX":245.0,"endY":-415.0,"lineGroup":"c5f91101ee09d25f"}|
+{"type":"ATTR","id":"1e2b18254d1b0264","ticket":12052}||{"parentId":"c5f91101ee09d25f","key":"NET","value":"ENC_SW_N","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-417.0}|
+{"type":"ATTR","id":"36e978fa5be4fcf3","ticket":12053}||{"parentId":"c5f91101ee09d25f","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"653388b2745c3a35","ticket":12054}||{"parentId":"d9347d45bd9d955a-e57","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-405.0}|
+{"type":"ATTR","id":"f27628b093c167f4","ticket":12055}||{"parentId":"d9347d45bd9d955a-e61","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-395.0}|
+{"type":"ATTR","id":"56cba10b8fffc9d3","ticket":12056}||{"parentId":"d9347d45bd9d955a-e65","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":290.0,"y":-385.0}|
+{"type":"WIRE","id":"9100cbf0f0bb3889","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"7bfea80492fdf5d7","ticket":12057}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-375.0,"endX":245.0,"endY":-375.0,"lineGroup":"9100cbf0f0bb3889"}|
+{"type":"ATTR","id":"3376e59fbceeb6ab","ticket":12058}||{"parentId":"9100cbf0f0bb3889","key":"NET","value":"MCU_5V","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-377.0}|
+{"type":"ATTR","id":"5d35f29dd52e25b0","ticket":12059}||{"parentId":"9100cbf0f0bb3889","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"e60b8f67664b17f1","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"ecef469a327325ec","ticket":12060}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-365.0,"endX":245.0,"endY":-365.0,"lineGroup":"e60b8f67664b17f1"}|
+{"type":"ATTR","id":"f703316fa71b837d","ticket":12061}||{"parentId":"e60b8f67664b17f1","key":"NET","value":"MCU_5V","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-367.0}|
+{"type":"ATTR","id":"8aaf4d1cf68ad04f","ticket":12062}||{"parentId":"e60b8f67664b17f1","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"747fb0495ac19801","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"03a1402577ec90e5","ticket":12063}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-355.0,"endX":245.0,"endY":-355.0,"lineGroup":"747fb0495ac19801"}|
+{"type":"ATTR","id":"b99fe79ee6a28c69","ticket":12064}||{"parentId":"747fb0495ac19801","key":"NET","value":"MCU_5V","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-357.0}|
+{"type":"ATTR","id":"2aae59e4fc2dffcd","ticket":12065}||{"parentId":"747fb0495ac19801","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"54324b39fb9eab72","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"04558c49126ba1d8","ticket":12066}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":290.0,"startY":-345.0,"endX":245.0,"endY":-345.0,"lineGroup":"54324b39fb9eab72"}|
+{"type":"ATTR","id":"3309566862dc492c","ticket":12067}||{"parentId":"54324b39fb9eab72","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":285.0,"y":-347.0}|
+{"type":"ATTR","id":"35631dbd11147cf6","ticket":12068}||{"parentId":"54324b39fb9eab72","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"70a8203e4baf2b90"}||{"partId":"22850120ANG1SYA01.1","x":685,"y":-440,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"cb2354f23970c935","ticket":12069}||{"parentId":"70a8203e4baf2b90","key":"Symbol","value":"87ae94bc8dd59873","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d8b0faa65db80918","ticket":12070}||{"parentId":"70a8203e4baf2b90","key":"Device","value":"e69f05a469e8c9e3","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d9146c177830fab7","ticket":12071}||{"parentId":"70a8203e4baf2b90","key":"Unique ID","value":"int-J2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7bbc005b3311de61","ticket":12072}||{"parentId":"70a8203e4baf2b90","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"dacfd224bf13ebf5","ticket":12073}||{"parentId":"70a8203e4baf2b90","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"06cb0f1f7d9d7a22","ticket":12074}||{"parentId":"70a8203e4baf2b90","key":"Designator","value":"J2","zIndex":10,"keyVisible":false,"valueVisible":true,"x":685,"y":-555.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"faeaf1525527d8ba","ticket":12075}||{"parentId":"70a8203e4baf2b90","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"418d8f2a328679a3","ticket":12076}||{"parentId":"70a8203e4baf2b90","key":"Name","value":"ESP32 left row L1-L20","zIndex":10,"keyVisible":false,"valueVisible":true,"x":685,"y":-317.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"01bae198ccec3dee","ticket":12077}||{"parentId":"70a8203e4baf2b90","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9bdb9c5290916f82","ticket":12078}||{"parentId":"70a8203e4baf2b90","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"439172344f041236","ticket":12079}||{"parentId":"70a8203e4baf2b90","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ea9cdb875d548589","ticket":12080}||{"parentId":"70a8203e4baf2b90","key":"Manufacturer","value":"JILN(锦凌)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"49e3b9776d63a50e","ticket":12081}||{"parentId":"70a8203e4baf2b90","key":"Manufacturer Part","value":"22850120ANG1SYA01","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a1a5a624015649c3","ticket":12082}||{"parentId":"70a8203e4baf2b90","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0ce6b2b7688833ea","ticket":12083}||{"parentId":"70a8203e4baf2b90","key":"Supplier Part","value":"C429947","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4a916fe4c3ff413b","ticket":12084}||{"parentId":"70a8203e4baf2b90","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"80a25559b1f7677f","ticket":12085}||{"parentId":"70a8203e4baf2b90","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"19657c7186862c0f","ticket":12086}||{"parentId":"70a8203e4baf2b90","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ec0354056238b299","ticket":12087}||{"parentId":"70a8203e4baf2b90","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/22850120ANG1SYA01/426399.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8baa6b78cd77843e","ticket":12088}||{"parentId":"70a8203e4baf2b90","key":"Holes Structure","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"036c09b4f12b9a17","ticket":12089}||{"parentId":"70a8203e4baf2b90","key":"Pitch","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"02a8d91168a28234","ticket":12090}||{"parentId":"70a8203e4baf2b90","key":"Row Spacing","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"21243f84ab7389c9","ticket":12091}||{"parentId":"70a8203e4baf2b90","key":"Circular Hole / Square Hole","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3c32e67432ecadcf","ticket":12092}||{"parentId":"70a8203e4baf2b90","key":"Mounting Type","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"3dd7e3dd7190f93b","ticket":12093}||{"parentId":"70a8203e4baf2b90","key":"Number of Rows","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5dd60683ceec3fa6","ticket":12094}||{"parentId":"70a8203e4baf2b90","key":"Number of Positions","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4e4fa64a67c28a68","ticket":12095}||{"parentId":"70a8203e4baf2b90","key":"Current Rating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ac0a7b505cdc7fbe","ticket":12096}||{"parentId":"70a8203e4baf2b90","key":"Holes Direction","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4df79aa35e420032","ticket":12097}||{"parentId":"70a8203e4baf2b90","key":"Insulation Height","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e9b1350dfede9d60","ticket":12098}||{"parentId":"70a8203e4baf2b90","key":"Contact Material","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bcfb8513d600935e","ticket":12099}||{"parentId":"70a8203e4baf2b90","key":"Contact Plating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"dc1d08e8d3ef8a15","ticket":12100}||{"parentId":"70a8203e4baf2b90","key":"Operating Temperature","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8eebc96904c47cd9","ticket":12101}||{"parentId":"70a8203e4baf2b90","key":"Description","value":"插孔结构:1x20P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:20P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7bbd45cc7454432d","ticket":12102}||{"parentId":"70a8203e4baf2b90","key":"Value","value":"1x20P母座","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d8084efa4461f9bb","ticket":12103}||{"parentId":"70a8203e4baf2b90","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"be6ea891ca5941e2","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"cb8a7c883ab9ccea","ticket":12104}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-535.0,"endX":620.0,"endY":-535.0,"lineGroup":"be6ea891ca5941e2"}|
+{"type":"ATTR","id":"8a4f66a99084b312","ticket":12105}||{"parentId":"be6ea891ca5941e2","key":"NET","value":"ADC_BAT","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-537.0}|
+{"type":"ATTR","id":"bb40927a3390cd51","ticket":12106}||{"parentId":"be6ea891ca5941e2","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"6d4c1701825402dd","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"004a03aca9f5f3de","ticket":12107}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-525.0,"endX":620.0,"endY":-525.0,"lineGroup":"6d4c1701825402dd"}|
+{"type":"ATTR","id":"40fd1bd54688a668","ticket":12108}||{"parentId":"6d4c1701825402dd","key":"NET","value":"ENC_B","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-527.0}|
+{"type":"ATTR","id":"83ae0bcddfb3e164","ticket":12109}||{"parentId":"6d4c1701825402dd","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"55993914e1fa01b3","ticket":12110}||{"parentId":"70a8203e4baf2b90-e13","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":665.0,"y":-515.0}|
+{"type":"WIRE","id":"1713ea0699e29106","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"b142a8a4132363e1","ticket":12111}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-505.0,"endX":620.0,"endY":-505.0,"lineGroup":"1713ea0699e29106"}|
+{"type":"ATTR","id":"7a0189be2c27d723","ticket":12112}||{"parentId":"1713ea0699e29106","key":"NET","value":"MIC_BCLK","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-507.0}|
+{"type":"ATTR","id":"3906309de5ff100e","ticket":12113}||{"parentId":"1713ea0699e29106","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"d74ff6fe0f2ca0f7","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"5c18f1820d92301a","ticket":12114}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-495.0,"endX":620.0,"endY":-495.0,"lineGroup":"d74ff6fe0f2ca0f7"}|
+{"type":"ATTR","id":"4e1e8034f2d4b053","ticket":12115}||{"parentId":"d74ff6fe0f2ca0f7","key":"NET","value":"MIC_WS","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-497.0}|
+{"type":"ATTR","id":"6a9110e0becf745d","ticket":12116}||{"parentId":"d74ff6fe0f2ca0f7","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"60c112522783e266","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"f96fbbddf9ca1d63","ticket":12117}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-485.0,"endX":620.0,"endY":-485.0,"lineGroup":"60c112522783e266"}|
+{"type":"ATTR","id":"27d8b6469ad3e3d7","ticket":12118}||{"parentId":"60c112522783e266","key":"NET","value":"MIC_SD","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-487.0}|
+{"type":"ATTR","id":"d4a288548167e4da","ticket":12119}||{"parentId":"60c112522783e266","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"0596a4568a182001","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"e53fb10434689626","ticket":12120}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-475.0,"endX":620.0,"endY":-475.0,"lineGroup":"0596a4568a182001"}|
+{"type":"ATTR","id":"882d07bfe11398a1","ticket":12121}||{"parentId":"0596a4568a182001","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-477.0}|
+{"type":"ATTR","id":"3d4f2bdb5d791690","ticket":12122}||{"parentId":"0596a4568a182001","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"4cdae251b7dafa85","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"91ab4e85c6b2625a","ticket":12123}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-465.0,"endX":620.0,"endY":-465.0,"lineGroup":"4cdae251b7dafa85"}|
+{"type":"ATTR","id":"0651116fedb7b997","ticket":12124}||{"parentId":"4cdae251b7dafa85","key":"NET","value":"ENC_A","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-467.0}|
+{"type":"ATTR","id":"c02def06663625d2","ticket":12125}||{"parentId":"4cdae251b7dafa85","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"2dcf341b3d8d7109","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"f01236527a143519","ticket":12126}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-455.0,"endX":620.0,"endY":-455.0,"lineGroup":"2dcf341b3d8d7109"}|
+{"type":"ATTR","id":"56b048927145cab3","ticket":12127}||{"parentId":"2dcf341b3d8d7109","key":"NET","value":"PCA_SDA","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-457.0}|
+{"type":"ATTR","id":"03179b97173ed9dc","ticket":12128}||{"parentId":"2dcf341b3d8d7109","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"b8930aef356c3f95","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"f63bd997f37a84fe","ticket":12129}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-445.0,"endX":620.0,"endY":-445.0,"lineGroup":"b8930aef356c3f95"}|
+{"type":"ATTR","id":"5befa9c1efff7a3d","ticket":12130}||{"parentId":"b8930aef356c3f95","key":"NET","value":"PCA_SCL","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-447.0}|
+{"type":"ATTR","id":"8cce97504db6c44c","ticket":12131}||{"parentId":"b8930aef356c3f95","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"ea809e9077730e84","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"3d521f1fa82b1133","ticket":12132}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-435.0,"endX":620.0,"endY":-435.0,"lineGroup":"ea809e9077730e84"}|
+{"type":"ATTR","id":"f92b0cb95b7f6532","ticket":12133}||{"parentId":"ea809e9077730e84","key":"NET","value":"PCA_OE","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-437.0}|
+{"type":"ATTR","id":"227be1096327381b","ticket":12134}||{"parentId":"ea809e9077730e84","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"c17c0d98dbaedce0","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"34e2f83c40bfbabe","ticket":12135}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-425.0,"endX":620.0,"endY":-425.0,"lineGroup":"c17c0d98dbaedce0"}|
+{"type":"ATTR","id":"c6563fd16ea463da","ticket":12136}||{"parentId":"c17c0d98dbaedce0","key":"NET","value":"LCD_MOSI","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-427.0}|
+{"type":"ATTR","id":"0a271b547c9cb5b9","ticket":12137}||{"parentId":"c17c0d98dbaedce0","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"b406bf8401b21f5b","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"9ed7eb61b65ae1c5","ticket":12138}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-415.0,"endX":620.0,"endY":-415.0,"lineGroup":"b406bf8401b21f5b"}|
+{"type":"ATTR","id":"346bd978faa5347d","ticket":12139}||{"parentId":"b406bf8401b21f5b","key":"NET","value":"LCD_SCLK","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-417.0}|
+{"type":"ATTR","id":"c756e11dcca1e07a","ticket":12140}||{"parentId":"b406bf8401b21f5b","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"1967ad2ffbeb88be","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"d9ce6ce321e46402","ticket":12141}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-405.0,"endX":620.0,"endY":-405.0,"lineGroup":"1967ad2ffbeb88be"}|
+{"type":"ATTR","id":"aab57fdb733bd1b4","ticket":12142}||{"parentId":"1967ad2ffbeb88be","key":"NET","value":"LCD_CS_N","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-407.0}|
+{"type":"ATTR","id":"b4079addbb07ffce","ticket":12143}||{"parentId":"1967ad2ffbeb88be","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"970b9caf4d25a8a4","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"7e9ce2eb089a8c9a","ticket":12144}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-395.0,"endX":620.0,"endY":-395.0,"lineGroup":"970b9caf4d25a8a4"}|
+{"type":"ATTR","id":"a94c6d88b299c0fd","ticket":12145}||{"parentId":"970b9caf4d25a8a4","key":"NET","value":"LCD_DC","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-397.0}|
+{"type":"ATTR","id":"85ffbc58464c37d1","ticket":12146}||{"parentId":"970b9caf4d25a8a4","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"074710dd51e70c81","ticket":12147}||{"parentId":"70a8203e4baf2b90-e65","key":"NO_CONNECT","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false,"x":665.0,"y":-385.0}|
+{"type":"WIRE","id":"2f0b600fb600f820","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"5a6eb27a805001f1","ticket":12148}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-375.0,"endX":620.0,"endY":-375.0,"lineGroup":"2f0b600fb600f820"}|
+{"type":"ATTR","id":"95b8d892c0c9f16e","ticket":12149}||{"parentId":"2f0b600fb600f820","key":"NET","value":"+3V3","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-377.0}|
+{"type":"ATTR","id":"296cbd023ab8ea3f","ticket":12150}||{"parentId":"2f0b600fb600f820","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"e53a0b71842fbe15","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"973a3b8d8a38f2d3","ticket":12151}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-365.0,"endX":620.0,"endY":-365.0,"lineGroup":"e53a0b71842fbe15"}|
+{"type":"ATTR","id":"043c363bd304e0bd","ticket":12152}||{"parentId":"e53a0b71842fbe15","key":"NET","value":"+3V3","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-367.0}|
+{"type":"ATTR","id":"0731c1c8b25da589","ticket":12153}||{"parentId":"e53a0b71842fbe15","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"451400dacb456449","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"ee63e3ce8f94cbce","ticket":12154}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-355.0,"endX":620.0,"endY":-355.0,"lineGroup":"451400dacb456449"}|
+{"type":"ATTR","id":"b0dd7def5eac9204","ticket":12155}||{"parentId":"451400dacb456449","key":"NET","value":"+3V3","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-357.0}|
+{"type":"ATTR","id":"7cbb29ab4eb627c1","ticket":12156}||{"parentId":"451400dacb456449","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"ed6e7f88722c34f2","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"b3b40d2d88452bb7","ticket":12157}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":665.0,"startY":-345.0,"endX":620.0,"endY":-345.0,"lineGroup":"ed6e7f88722c34f2"}|
+{"type":"ATTR","id":"ae7396e8bd412716","ticket":12158}||{"parentId":"ed6e7f88722c34f2","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":660.0,"y":-347.0}|
+{"type":"ATTR","id":"6e41e78045f23b87","ticket":12159}||{"parentId":"ed6e7f88722c34f2","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"TEXT","id":"7a9427e77d27a687","ticket":12160}||{"x":70,"y":-225,"rotation":0,"color":"#A02C2C","fontFamily":null,"fontSize":9,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"MCU 5V isolated by JP_MCU; OPEN during USB debugging.","fillColor":"#A02C2C","zIndex":3000}|
+{"type":"RECT","id":"7716ee9065872fb3","ticket":12161}||{"radiusX":0,"radiusY":0,"dotX1":900,"dotX2":1600,"dotY1":-690,"dotY2":-465,"strokeColor":"#BAC9D9","strokeStyle":null,"fillColor":null,"strokeWidth":1,"fillStyle":null,"rotation":0,"zIndex":1,"locked":false}|
+{"type":"TEXT","id":"dd65be9731b3b5e2","ticket":12162}||{"x":915,"y":-665,"rotation":0,"color":"#214F78","fontFamily":null,"fontSize":12,"fontWeight":true,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Logic supply / USB isolation","fillColor":"#214F78","zIndex":3000}|
+{"type":"COMPONENT","ticket":10000,"id":"904a17b0fa2bbe13"}||{"partId":"210S-1*2P L=11.6MMGold-plated black.1","x":1100,"y":-570,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"31d9047872194976","ticket":12163}||{"parentId":"904a17b0fa2bbe13","key":"Symbol","value":"0c93430f0235ecf3","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b2d907d828468e9f","ticket":12164}||{"parentId":"904a17b0fa2bbe13","key":"Device","value":"04053ee921a66581","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"04de361dcd252fd9","ticket":12165}||{"parentId":"904a17b0fa2bbe13","key":"Unique ID","value":"int-JP_MCU","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"095c69065acedbe7","ticket":12166}||{"parentId":"904a17b0fa2bbe13","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7668a0aaf2a45d56","ticket":12167}||{"parentId":"904a17b0fa2bbe13","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"47c71a21fbf27ee2","ticket":12168}||{"parentId":"904a17b0fa2bbe13","key":"Designator","value":"JP_MCU","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1100,"y":-595.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"6d116e8dd574a46b","ticket":12169}||{"parentId":"904a17b0fa2bbe13","key":"Name","value":"MCU supply shunt / OPEN","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1100,"y":-537.0,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"4b74f31131e058ae","ticket":12170}||{"parentId":"904a17b0fa2bbe13","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f0feb1f0d71ea0cd","ticket":12171}||{"parentId":"904a17b0fa2bbe13","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e1236af4a323921b","ticket":12172}||{"parentId":"904a17b0fa2bbe13","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"40156948a252dd74","ticket":12173}||{"parentId":"904a17b0fa2bbe13","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5208e8cf3420b04b","ticket":12174}||{"parentId":"904a17b0fa2bbe13","key":"Manufacturer","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9612549188ec575c","ticket":12175}||{"parentId":"904a17b0fa2bbe13","key":"Manufacturer Part","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d4efdb3087a603cb","ticket":12176}||{"parentId":"904a17b0fa2bbe13","key":"Supplier","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f20f6d763fa9a939","ticket":12177}||{"parentId":"904a17b0fa2bbe13","key":"Supplier Part","value":"C124375","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"01ecde4326c67e5c","ticket":12178}||{"parentId":"904a17b0fa2bbe13","key":"Supplier Footprint","value":"插件","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7160360d11f7f145","ticket":12179}||{"parentId":"904a17b0fa2bbe13","key":"Description","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0fb33a3de497cdf9","ticket":12180}||{"parentId":"904a17b0fa2bbe13","key":"3D Model","value":"79b2e9f2d70a4d68a1b7098f27c6d4c5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f1784853232eb7fc","ticket":12181}||{"parentId":"904a17b0fa2bbe13","key":"3D Model Title","value":"HDR-M-2.54_1x2","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"efd2fcebcab7b60d","ticket":12182}||{"parentId":"904a17b0fa2bbe13","key":"3D Model Transform","value":"200,100,0,0,0,0,0,0,-118.11","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"02f9dd976d44dbf7","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"c8475f1889db88ca","ticket":12183}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1080.0,"startY":-575.0,"endX":1035.0,"endY":-575.0,"lineGroup":"02f9dd976d44dbf7"}|
+{"type":"ATTR","id":"afdb333158d0cb09","ticket":12184}||{"parentId":"02f9dd976d44dbf7","key":"NET","value":"+5V_LOGIC","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1075.0,"y":-577.0}|
+{"type":"ATTR","id":"0a37081329027850","ticket":12185}||{"parentId":"02f9dd976d44dbf7","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"3125337eb54eb1f7","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"544aa18e2439cf7b","ticket":12186}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1080.0,"startY":-565.0,"endX":1035.0,"endY":-565.0,"lineGroup":"3125337eb54eb1f7"}|
+{"type":"ATTR","id":"37c8d04d2cdc0726","ticket":12187}||{"parentId":"3125337eb54eb1f7","key":"NET","value":"MCU_5V","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1075.0,"y":-567.0}|
+{"type":"ATTR","id":"36b518efe591881d","ticket":12188}||{"parentId":"3125337eb54eb1f7","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"b40ef67515179c62"}||{"partId":"ERB16V470M8X12.1","x":1440,"y":-570,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"27cba59c86e2665f","ticket":12189}||{"parentId":"b40ef67515179c62","key":"Symbol","value":"11bf8782b9be87e8","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"51a16c622484ad12","ticket":12190}||{"parentId":"b40ef67515179c62","key":"Device","value":"83adf0e820dc2930","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"956df04b1c31e4ec","ticket":12191}||{"parentId":"b40ef67515179c62","key":"Unique ID","value":"int-C10","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bbcd90c15a856597","ticket":12192}||{"parentId":"b40ef67515179c62","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f26ed45610e3b38c","ticket":12193}||{"parentId":"b40ef67515179c62","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"79b97cd61ca4fa63","ticket":12194}||{"parentId":"b40ef67515179c62","key":"Designator","value":"C10","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1440,"y":-590,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"14cda3b737f2bcbd","ticket":12195}||{"parentId":"b40ef67515179c62","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"15d095da15614b26","ticket":12196}||{"parentId":"b40ef67515179c62","key":"Name","value":"470uF / 16V","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1440,"y":-542,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"08845c4369874ec9","ticket":12197}||{"parentId":"b40ef67515179c62","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"cf592264bf7876c3","ticket":12198}||{"parentId":"b40ef67515179c62","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d99503cbb31e3d5e","ticket":12199}||{"parentId":"b40ef67515179c62","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c8b6ec4045736ea4","ticket":12200}||{"parentId":"b40ef67515179c62","key":"Manufacturer","value":"JIERR(捷而瑞)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ea68835806c75446","ticket":12201}||{"parentId":"b40ef67515179c62","key":"Manufacturer Part","value":"ERB16V470M8X12","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0c41db211d994465","ticket":12202}||{"parentId":"b40ef67515179c62","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ddd1b4156bf0c436","ticket":12203}||{"parentId":"b40ef67515179c62","key":"Supplier Part","value":"C51953430","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d15ee7435928339f","ticket":12204}||{"parentId":"b40ef67515179c62","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ceec6e08f5deb98e","ticket":12205}||{"parentId":"b40ef67515179c62","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bee7a247e5501863","ticket":12206}||{"parentId":"b40ef67515179c62","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"edc3d2fc8e8e5eb2","ticket":12207}||{"parentId":"b40ef67515179c62","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/ERB16V470M8X12/54681555.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d52110a3436892f0","ticket":12208}||{"parentId":"b40ef67515179c62","key":"Value","value":"470uF","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f060db562da68fbf","ticket":12209}||{"parentId":"b40ef67515179c62","key":"Tolerance","value":"±20%","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7649c4a7025988ef","ticket":12210}||{"parentId":"b40ef67515179c62","key":"Voltage Rating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2a5a896b064044db","ticket":12211}||{"parentId":"b40ef67515179c62","key":"Ripple Current","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f7e72ca130b5fbc5","ticket":12212}||{"parentId":"b40ef67515179c62","key":"Equivalent Series Resistance(ESR)","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"137157fa9471e9e7","ticket":12213}||{"parentId":"b40ef67515179c62","key":"Diameter","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"251f855bf0db55ed","ticket":12214}||{"parentId":"b40ef67515179c62","key":"Height - Seated (Max)","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"665b045750c78937","ticket":12215}||{"parentId":"b40ef67515179c62","key":"Lifetime","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b24a88a879bcd5d2","ticket":12216}||{"parentId":"b40ef67515179c62","key":"Operating Temperature","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"559a0b2e198346dc","ticket":12217}||{"parentId":"b40ef67515179c62","key":"Description","value":"容值:470uF;精度:±20%;额定电压:16V;纹波电流:750mA@100kHZ;等效串联电阻(ESR):125mΩ@100KHz;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"920c3c2d8865e3eb","ticket":12218}||{"parentId":"b40ef67515179c62","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"b530bc7e7aa7928d","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"eeeffb490eba3967","ticket":12219}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1420.0,"startY":-570.0,"endX":1375.0,"endY":-570.0,"lineGroup":"b530bc7e7aa7928d"}|
+{"type":"ATTR","id":"62578cf9c38c64e9","ticket":12220}||{"parentId":"b530bc7e7aa7928d","key":"NET","value":"+5V_LOGIC","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1415.0,"y":-572.0}|
+{"type":"ATTR","id":"edae5855bf23cea1","ticket":12221}||{"parentId":"b530bc7e7aa7928d","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"0747e660e0859a6e","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"6a5a704ccdd574df","ticket":12222}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1460.0,"startY":-570.0,"endX":1505.0,"endY":-570.0,"lineGroup":"0747e660e0859a6e"}|
+{"type":"ATTR","id":"cbe5bb5dee58b37e","ticket":12223}||{"parentId":"0747e660e0859a6e","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"LEFT_BOTTOM","x":1465.0,"y":-572.0}|
+{"type":"ATTR","id":"8274a94df605127e","ticket":12224}||{"parentId":"0747e660e0859a6e","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"RECT","id":"a4649668fd4fc471","ticket":12225}||{"radiusX":0,"radiusY":0,"dotX1":900,"dotX2":1600,"dotY1":-430,"dotY2":-215,"strokeColor":"#BAC9D9","strokeStyle":null,"fillColor":null,"strokeWidth":1,"fillStyle":null,"rotation":0,"zIndex":1,"locked":false}|
+{"type":"TEXT","id":"51e4c9c2b6a8d38a","ticket":12226}||{"x":915,"y":-405,"rotation":0,"color":"#214F78","fontFamily":null,"fontSize":12,"fontWeight":true,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Battery ADC / switched measurement","fillColor":"#214F78","zIndex":3000}|
+{"type":"COMPONENT","ticket":10000,"id":"516ec4e64d435627"}||{"partId":"0805W8F1003T5E_C149504.1","x":1090,"y":-340,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"110178052540eb17","ticket":12227}||{"parentId":"516ec4e64d435627","key":"Symbol","value":"77cc9be952761c08","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f577623a4cb9705c","ticket":12228}||{"parentId":"516ec4e64d435627","key":"Device","value":"451544f5bebe0194","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8d8a7a1287ef8764","ticket":12229}||{"parentId":"516ec4e64d435627","key":"Unique ID","value":"int-R10","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"46eab262c440d369","ticket":12230}||{"parentId":"516ec4e64d435627","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2bbc3a6b12130ccc","ticket":12231}||{"parentId":"516ec4e64d435627","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f8f877f6e7576154","ticket":12232}||{"parentId":"516ec4e64d435627","key":"Designator","value":"R10","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1090,"y":-360,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"d60eaa6822922a95","ticket":12233}||{"parentId":"516ec4e64d435627","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"d5545bb4b7d855a9","ticket":12234}||{"parentId":"516ec4e64d435627","key":"Name","value":"100K / 1%","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1090,"y":-312,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"22e29f1b6b15acd1","ticket":12235}||{"parentId":"516ec4e64d435627","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8d0aa88d604fe253","ticket":12236}||{"parentId":"516ec4e64d435627","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"613dd1cf5dba501b","ticket":12237}||{"parentId":"516ec4e64d435627","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"33454be8e5cd7cf7","ticket":12238}||{"parentId":"516ec4e64d435627","key":"Manufacturer","value":"UNI-ROYAL(厚声)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e87dca9ddcf37d30","ticket":12239}||{"parentId":"516ec4e64d435627","key":"Manufacturer Part","value":"0805W8F1003T5E","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"70f7d5be988c7343","ticket":12240}||{"parentId":"516ec4e64d435627","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e917943cec87fee1","ticket":12241}||{"parentId":"516ec4e64d435627","key":"Supplier Part","value":"C149504","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"80a2ae76813045fd","ticket":12242}||{"parentId":"516ec4e64d435627","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"16205b45e69aedc0","ticket":12243}||{"parentId":"516ec4e64d435627","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9dd9b2b1a459274f","ticket":12244}||{"parentId":"516ec4e64d435627","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c86384108adb0615","ticket":12245}||{"parentId":"516ec4e64d435627","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/0805W8F1003T5E/160838.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e62aa588fcbb3292","ticket":12246}||{"parentId":"516ec4e64d435627","key":"Type","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0a24b6c3526ebdf1","ticket":12247}||{"parentId":"516ec4e64d435627","key":"Value","value":"100kΩ","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6f180d8e09f724a2","ticket":12248}||{"parentId":"516ec4e64d435627","key":"Tolerance","value":"±1%","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bee5da94d7956237","ticket":12249}||{"parentId":"516ec4e64d435627","key":"Power(Watts)","value":"125mW","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"542d9d5ffbf4dfb5","ticket":12250}||{"parentId":"516ec4e64d435627","key":"Voltage-Supply(Max)","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6096701314b116d0","ticket":12251}||{"parentId":"516ec4e64d435627","key":"Temperature Coefficient","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ba4f1cedd644092b","ticket":12252}||{"parentId":"516ec4e64d435627","key":"Operating Temperature","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"29daa73015b62d6e","ticket":12253}||{"parentId":"516ec4e64d435627","key":"Description","value":"电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:125mW;工作电压:150V;温度系数:±100ppm/℃;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4d372509f1956631","ticket":12254}||{"parentId":"516ec4e64d435627","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"9a3cea834e4f2493","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"cbfb84fe77cf30f9","ticket":12255}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1110.0,"startY":-340.0,"endX":1155.0,"endY":-340.0,"lineGroup":"9a3cea834e4f2493"}|
+{"type":"ATTR","id":"26febcc509af2c0c","ticket":12256}||{"parentId":"9a3cea834e4f2493","key":"NET","value":"ADC_BAT","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"LEFT_BOTTOM","x":1115.0,"y":-342.0}|
+{"type":"ATTR","id":"07cd14dc7f4db726","ticket":12257}||{"parentId":"9a3cea834e4f2493","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"5218a37ce8764a36","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"6b602e1b128392d8","ticket":12258}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1070.0,"startY":-340.0,"endX":1025.0,"endY":-340.0,"lineGroup":"5218a37ce8764a36"}|
+{"type":"ATTR","id":"0acf4b6aad4b0aa9","ticket":12259}||{"parentId":"5218a37ce8764a36","key":"NET","value":"VBAT_SW","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1065.0,"y":-342.0}|
+{"type":"ATTR","id":"b4f2be09b1fdf8e4","ticket":12260}||{"parentId":"5218a37ce8764a36","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"dad77cf17328c08d"}||{"partId":"0805W8F3302T5E.1","x":1420,"y":-340,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"b340f76cd656a934","ticket":12261}||{"parentId":"dad77cf17328c08d","key":"Symbol","value":"5563f63b5e936aa5","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a034ee3212442509","ticket":12262}||{"parentId":"dad77cf17328c08d","key":"Device","value":"614b3ceca6d5904c","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4ffc51a6a5b4f8c4","ticket":12263}||{"parentId":"dad77cf17328c08d","key":"Unique ID","value":"int-R9","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8cecf0fdd951dba4","ticket":12264}||{"parentId":"dad77cf17328c08d","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c822ff63e910abe0","ticket":12265}||{"parentId":"dad77cf17328c08d","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9813c2d30978afff","ticket":12266}||{"parentId":"dad77cf17328c08d","key":"Designator","value":"R9","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1420,"y":-360,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"fa4c618f26038fa9","ticket":12267}||{"parentId":"dad77cf17328c08d","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b3ab86dc2b3f0f7d","ticket":12268}||{"parentId":"dad77cf17328c08d","key":"Name","value":"33K / 1%","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1420,"y":-312,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"f50cb52fa1d0163e","ticket":12269}||{"parentId":"dad77cf17328c08d","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"5249128ce4506284","ticket":12270}||{"parentId":"dad77cf17328c08d","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2969ca86b554a0a1","ticket":12271}||{"parentId":"dad77cf17328c08d","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"71a1481f3e9e7ed9","ticket":12272}||{"parentId":"dad77cf17328c08d","key":"Manufacturer","value":"UNI-ROYAL(厚声)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"a168fc22d2a65eb5","ticket":12273}||{"parentId":"dad77cf17328c08d","key":"Manufacturer Part","value":"0805W8F3302T5E","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4754f7c683c2340a","ticket":12274}||{"parentId":"dad77cf17328c08d","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6c0610f8909cbae2","ticket":12275}||{"parentId":"dad77cf17328c08d","key":"Supplier Part","value":"C17633","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2c86d55f115e64c1","ticket":12276}||{"parentId":"dad77cf17328c08d","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"0c62056eb5ab2476","ticket":12277}||{"parentId":"dad77cf17328c08d","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"bdb680fd40e2f556","ticket":12278}||{"parentId":"dad77cf17328c08d","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"24b3f09a68d68d97","ticket":12279}||{"parentId":"dad77cf17328c08d","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/0805W8F3302T5E/18321.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"912002fd11e29e92","ticket":12280}||{"parentId":"dad77cf17328c08d","key":"Type","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"4b7b9160d1d3565e","ticket":12281}||{"parentId":"dad77cf17328c08d","key":"Value","value":"33kΩ","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"ea18387a74d8be4a","ticket":12282}||{"parentId":"dad77cf17328c08d","key":"Tolerance","value":"±1%","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6404a81443fe3922","ticket":12283}||{"parentId":"dad77cf17328c08d","key":"Power(Watts)","value":"125mW","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"b898501e56cea6a4","ticket":12284}||{"parentId":"dad77cf17328c08d","key":"Voltage-Supply(Max)","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6b387477921778a8","ticket":12285}||{"parentId":"dad77cf17328c08d","key":"Temperature Coefficient","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"42c7f3966fbaf803","ticket":12286}||{"parentId":"dad77cf17328c08d","key":"Operating Temperature","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c2d4ab72b73003f2","ticket":12287}||{"parentId":"dad77cf17328c08d","key":"Description","value":"电阻类型:厚膜电阻;阻值:33kΩ;精度:±1%;功率:125mW;工作电压:150V;温度系数:±100ppm/℃;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"7ce1514241540588","ticket":12288}||{"parentId":"dad77cf17328c08d","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"f0af24dd10a38a9e","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"329d97ceb0d1226d","ticket":12289}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1440.0,"startY":-340.0,"endX":1485.0,"endY":-340.0,"lineGroup":"f0af24dd10a38a9e"}|
+{"type":"ATTR","id":"fbec074adbe657a4","ticket":12290}||{"parentId":"f0af24dd10a38a9e","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"LEFT_BOTTOM","x":1445.0,"y":-342.0}|
+{"type":"ATTR","id":"7c4bd444b5fad29d","ticket":12291}||{"parentId":"f0af24dd10a38a9e","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"e7486209a4bb48d1","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"ffee38cb25319523","ticket":12292}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1400.0,"startY":-340.0,"endX":1355.0,"endY":-340.0,"lineGroup":"e7486209a4bb48d1"}|
+{"type":"ATTR","id":"15c6f2ffb338ce55","ticket":12293}||{"parentId":"e7486209a4bb48d1","key":"NET","value":"ADC_BAT","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1395.0,"y":-342.0}|
+{"type":"ATTR","id":"7ff664a92903adc8","ticket":12294}||{"parentId":"e7486209a4bb48d1","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"COMPONENT","ticket":10000,"id":"b1437eee639ec296"}||{"partId":"CC0805KRX7R9BB104.1","x":1090,"y":-250,"rotation":0,"isMirror":false,"attrs":{},"zIndex":200}|
+{"type":"ATTR","id":"c2c69017160e4ab3","ticket":12295}||{"parentId":"b1437eee639ec296","key":"Symbol","value":"409fa504832f9713","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"29de09f64d925591","ticket":12296}||{"parentId":"b1437eee639ec296","key":"Device","value":"24506db152ab92cf","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"acfdfa5f6e1b7667","ticket":12297}||{"parentId":"b1437eee639ec296","key":"Unique ID","value":"int-C14","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"9531c79e711f333a","ticket":12298}||{"parentId":"b1437eee639ec296","key":"Add into BOM","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"75376db6f11322cf","ticket":12299}||{"parentId":"b1437eee639ec296","key":"Convert to PCB","value":"yes","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"6abc700540389187","ticket":12300}||{"parentId":"b1437eee639ec296","key":"Designator","value":"C14","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1090,"y":-270,"rotation":0,"align":"CENTER_BOTTOM","fontSize":8,"fontFamily":null}|
+{"type":"ATTR","id":"1b23eea0f60b6653","ticket":12301}||{"parentId":"b1437eee639ec296","key":"Footprint","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"8b2e0ef6207e3315","ticket":12302}||{"parentId":"b1437eee639ec296","key":"Name","value":"100nF low-pass","zIndex":10,"keyVisible":false,"valueVisible":true,"x":1090,"y":-222,"rotation":0,"align":"CENTER_BOTTOM","fontSize":7,"fontFamily":null}|
+{"type":"ATTR","id":"ba3b79bc77cd8a45","ticket":12303}||{"parentId":"b1437eee639ec296","key":"Reuse Block","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"23b9437c0b67ac52","ticket":12304}||{"parentId":"b1437eee639ec296","key":"Group ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"401d54f38108d2a8","ticket":12305}||{"parentId":"b1437eee639ec296","key":"Channel ID","value":null,"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e22ac3bd1c11b42d","ticket":12306}||{"parentId":"b1437eee639ec296","key":"Manufacturer","value":"YAGEO(国巨)","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"1b95891a6548c4b9","ticket":12307}||{"parentId":"b1437eee639ec296","key":"Manufacturer Part","value":"CC0805KRX7R9BB104","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"51c456cba112758d","ticket":12308}||{"parentId":"b1437eee639ec296","key":"Supplier","value":"LCSC","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c790b5fb757b8889","ticket":12309}||{"parentId":"b1437eee639ec296","key":"Supplier Part","value":"C49678","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"440fc03382b442a6","ticket":12310}||{"parentId":"b1437eee639ec296","key":"LCSC Part Name","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"920275c8c64d4d5c","ticket":12311}||{"parentId":"b1437eee639ec296","key":"Supplier Footprint","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"2439d132643b3d5c","ticket":12312}||{"parentId":"b1437eee639ec296","key":"JLCPCB Part Class","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"de0cebeb0a75b8de","ticket":12313}||{"parentId":"b1437eee639ec296","key":"Datasheet","value":"https://item.szlcsc.com/datasheet/CC0805KRX7R9BB104/50686.html","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"c5b1242135d30c1a","ticket":12314}||{"parentId":"b1437eee639ec296","key":"Value","value":"100nF","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"458c53270d0c458c","ticket":12315}||{"parentId":"b1437eee639ec296","key":"Tolerance","value":"±10%","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"f736c0fd5ace8d76","ticket":12316}||{"parentId":"b1437eee639ec296","key":"Voltage Rating","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"e2fb643b44808a20","ticket":12317}||{"parentId":"b1437eee639ec296","key":"Temperature Coefficient","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"676e148d14ffba7f","ticket":12318}||{"parentId":"b1437eee639ec296","key":"Description","value":"容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"ATTR","id":"293686fc57d1b060","ticket":12319}||{"parentId":"b1437eee639ec296","key":"Procurement","value":"","zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"dd3fea2209356899","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"1bd100169d27391e","ticket":12320}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1110.0,"startY":-250.0,"endX":1155.0,"endY":-250.0,"lineGroup":"dd3fea2209356899"}|
+{"type":"ATTR","id":"cbc9ecd9bb750d5a","ticket":12321}||{"parentId":"dd3fea2209356899","key":"NET","value":"GND","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"LEFT_BOTTOM","x":1115.0,"y":-252.0}|
+{"type":"ATTR","id":"d13f2dfb9817b233","ticket":12322}||{"parentId":"dd3fea2209356899","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"WIRE","id":"0dd97dd8c7393246","ticket":10000}||{"zIndex":100}|
+{"type":"LINE","id":"aec1afdce2566231","ticket":12323}||{"fillColor":null,"fillStyle":null,"strokeColor":null,"strokeStyle":null,"strokeWidth":null,"startX":1070.0,"startY":-250.0,"endX":1025.0,"endY":-250.0,"lineGroup":"0dd97dd8c7393246"}|
+{"type":"ATTR","id":"9bca0c786b0e1e06","ticket":12324}||{"parentId":"0dd97dd8c7393246","key":"NET","value":"ADC_BAT","zIndex":10,"keyVisible":false,"valueVisible":true,"fontSize":6,"rotation":0,"fontFamily":null,"color":null,"fillColor":null,"align":"RIGHT_BOTTOM","x":1065.0,"y":-252.0}|
+{"type":"ATTR","id":"f2061559cec5dcb3","ticket":12325}||{"parentId":"0dd97dd8c7393246","key":"Relevance","value":[],"zIndex":10,"keyVisible":false,"valueVisible":false}|
+{"type":"TEXT","id":"91d6c356e1897b03","ticket":12326}||{"x":1280,"y":-250,"rotation":0,"color":"#26364A","fontFamily":null,"fontSize":9,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"ADC_BAT ≈ 2.08V at pack 8.4V.","fillColor":"#26364A","zIndex":3000}|
+{"type":"TEXT","id":"bd9d720d5ba41fe6","ticket":12327}||{"x":60,"y":-160,"rotation":0,"color":"#26364A","fontFamily":null,"fontSize":10,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"Each module connector: pin 1 positive, pin 2 GND. Modules are external, not on-board footprints.","fillColor":"#26364A","zIndex":3000}|
+{"type":"TEXT","id":"d835ba2be870a5c7","ticket":12328}||{"x":60,"y":-130,"rotation":0,"color":"#26364A","fontFamily":null,"fontSize":9,"fontWeight":false,"italic":false,"underline":false,"align":"LEFT_BOTTOM","value":"J_SW is a cable interface, not a diode. Use a DC-rated switch appropriate for servo startup current.","fillColor":"#26364A","zIndex":3000}|

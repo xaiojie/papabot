@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-09-08T15:08:49.486246+08:00",
+  "original_symptom": "原生一键导出提示没有板框层线条，尺寸0×0mm；API的Gerber含轮廓。",
+  "repair": "将8段LINE转换为1个板框层闭合POLY，路径及铜线布局不变。",
+  "native_export_estimate_mm": [
+    79.985,
+    31.979
+  ],
+  "gerber_outline_mm": [
+    80,
+    32
+  ],
+  "native_ui_export_reached_save_dialog": true,
+  "no_missing_outline_warning_after_repair": true,
+  "native_ui_drc_pass": true,
+  "outline_primitive_id": "e80e2f00942fdf66",
+  "native_archive_sha256": "d1cd0c346180e4c6d4f6c5db1d1d6702007795b03cb1cb408ce0701482a7b223"
+}

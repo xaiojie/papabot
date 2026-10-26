@@ -1,0 +1,50 @@
+{
+  "blend_sha256": "ace8224003803e50476a99f97ab77cd0ece0d78287bd298232193ee7870a4cf9",
+  "views": [
+    {
+      "view": "perspective",
+      "file": "renders/A5-perspective.png",
+      "sha256": "2df1504b712da755259be84918607156da385153e58184e13b2373140d78bcab"
+    },
+    {
+      "view": "front",
+      "file": "renders/A5-front.png",
+      "sha256": "addd6f20a3f0c3e520952d1b39d82e67c4fc8a535578cd5d63ccaf4e38d2d87b"
+    },
+    {
+      "view": "rear",
+      "file": "renders/A5-rear.png",
+      "sha256": "1a72e4ba5d0e3d3b07b2ef42be1345590af6f39146620b33a9b2dd163ad144d5"
+    },
+    {
+      "view": "top",
+      "file": "renders/A5-top.png",
+      "sha256": "cf82678d1c9e9fcf2e29769af41cd5ae3d707e93139f6713e1eddc163ce280f0"
+    },
+    {
+      "view": "internal",
+      "file": "renders/A5-internal.png",
+      "sha256": "ada8ac33ad0bdb8ea768e1c7157804d76c55f8e9d2e802d2694ab0bde3bfefcd"
+    },
+    {
+      "view": "lower-deck",
+      "file": "renders/A5-lower-deck.png",
+      "sha256": "b3a2c1a45c73841c1138ea7234c32ac59d6b64f72db4abb042030c3e8c531804"
+    },
+    {
+      "view": "exploded",
+      "file": "renders/A5-exploded.png",
+      "sha256": "e7798cfaee1055e5401f5d6d8763749775487e5263c9f67a6659a87689fc5fe6"
+    },
+    {
+      "view": "front-open",
+      "file": "renders/A5-front-open.png",
+      "sha256": "030341c9882ae24babf344d018ca57b68093edcc43c43661ff5498257aaf7400"
+    },
+    {
+      "view": "parts",
+      "file": "renders/A5-parts.png",
+      "sha256": "6be77d1fc03d02a10387bf24afc5c6b177404c25f1fe3c16cefd16a2c7f642d9"
+    }
+  ]
+}

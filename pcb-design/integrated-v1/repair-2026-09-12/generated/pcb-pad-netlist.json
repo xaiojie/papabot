@@ -1,0 +1,1835 @@
+{
+  "components": [
+    {
+      "designator": "C1",
+      "id": "373612eff78bda11",
+      "pads": [
+        {
+          "number": "2",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "1",
+          "net": "PROT_VDD"
+        }
+      ]
+    },
+    {
+      "designator": "C2",
+      "id": "82fca7ae83a42650",
+      "pads": [
+        {
+          "number": "2",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "1",
+          "net": "PROT_VC"
+        }
+      ]
+    },
+    {
+      "designator": "C3",
+      "id": "1f19dea76d4c98ef",
+      "pads": [
+        {
+          "number": "2",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "1",
+          "net": "BAL1_VDD"
+        }
+      ]
+    },
+    {
+      "designator": "C4",
+      "id": "71e893449e5c3edf",
+      "pads": [
+        {
+          "number": "2",
+          "net": "BM"
+        },
+        {
+          "number": "1",
+          "net": "BAL2_VDD"
+        }
+      ]
+    },
+    {
+      "designator": "C5",
+      "id": "a56d88d8bdbe07c6",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CHG_VIN"
+        }
+      ]
+    },
+    {
+      "designator": "C6",
+      "id": "8b934ce86e86c393",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "VBUS"
+        }
+      ]
+    },
+    {
+      "designator": "C7",
+      "id": "5bbd2aa90bd1e67b",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "VBAT_FUSED"
+        }
+      ]
+    },
+    {
+      "designator": "C8",
+      "id": "eadde43fe240f2c8",
+      "pads": [
+        {
+          "number": "2",
+          "net": "SW_CHG"
+        },
+        {
+          "number": "1",
+          "net": "BST_CAP"
+        }
+      ]
+    },
+    {
+      "designator": "C9",
+      "id": "a5464a2947189faa",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "+5V_SERVO"
+        }
+      ]
+    },
+    {
+      "designator": "C10",
+      "id": "618cc1916547f74c",
+      "pads": [
+        {
+          "number": "1",
+          "net": "+5V_LOGIC"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "C11",
+      "id": "b81f47333bd8a1af",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CHG_VSYS"
+        }
+      ]
+    },
+    {
+      "designator": "C12",
+      "id": "c66d295d886c194b",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CHG_VSYS"
+        }
+      ]
+    },
+    {
+      "designator": "C13",
+      "id": "cea3880e10d84815",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "VBAT_FUSED"
+        }
+      ]
+    },
+    {
+      "designator": "C14",
+      "id": "90eed064f4617b45",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "ADC_BAT"
+        }
+      ]
+    },
+    {
+      "designator": "C15",
+      "id": "9fec325ed6e240e5",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "LCD_3V3"
+        }
+      ]
+    },
+    {
+      "designator": "C16",
+      "id": "aac5dd6601670aa8",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "LCD_3V3"
+        }
+      ]
+    },
+    {
+      "designator": "C17",
+      "id": "69f2a5bd723fcada",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "C18",
+      "id": "27fe764a605d4f48",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "C19",
+      "id": "c292574370c0808f",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "+5V_SERVO"
+        }
+      ]
+    },
+    {
+      "designator": "D2",
+      "id": "25bcfc234801e868",
+      "pads": [
+        {
+          "number": "2",
+          "net": "LED_A"
+        },
+        {
+          "number": "1",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "EC1",
+      "id": "86666bcf8be36e3c",
+      "pads": [
+        {
+          "number": "1",
+          "net": "ENC_A"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "net": "ENC_B"
+        },
+        {
+          "number": "4",
+          "net": "ENC_SW_N"
+        },
+        {
+          "number": "5",
+          "net": "GND"
+        },
+        {
+          "number": "6",
+          "net": "GND"
+        },
+        {
+          "number": "7",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "F1",
+      "id": "77fb356e95eb8e14",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_RAW_P"
+        },
+        {
+          "number": "2",
+          "net": "VBAT_FUSED"
+        }
+      ]
+    },
+    {
+      "designator": "J1",
+      "id": "d3decb7265b7b0c8",
+      "pads": [
+        {
+          "number": "1",
+          "net": ""
+        },
+        {
+          "number": "2",
+          "net": ""
+        },
+        {
+          "number": "3",
+          "net": ""
+        },
+        {
+          "number": "4",
+          "net": ""
+        },
+        {
+          "number": "5",
+          "net": "AMP_BCLK"
+        },
+        {
+          "number": "6",
+          "net": "AMP_WS"
+        },
+        {
+          "number": "7",
+          "net": "AMP_DIN"
+        },
+        {
+          "number": "8",
+          "net": ""
+        },
+        {
+          "number": "9",
+          "net": "GND"
+        },
+        {
+          "number": "10",
+          "net": "LCD_RST_N"
+        },
+        {
+          "number": "11",
+          "net": ""
+        },
+        {
+          "number": "12",
+          "net": ""
+        },
+        {
+          "number": "13",
+          "net": "ENC_SW_N"
+        },
+        {
+          "number": "14",
+          "net": ""
+        },
+        {
+          "number": "15",
+          "net": ""
+        },
+        {
+          "number": "16",
+          "net": ""
+        },
+        {
+          "number": "17",
+          "net": "MCU_5V"
+        },
+        {
+          "number": "18",
+          "net": "MCU_5V"
+        },
+        {
+          "number": "19",
+          "net": "MCU_5V"
+        },
+        {
+          "number": "20",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J2",
+      "id": "d895c9e7b9a9960c",
+      "pads": [
+        {
+          "number": "1",
+          "net": "ADC_BAT"
+        },
+        {
+          "number": "2",
+          "net": "ENC_B"
+        },
+        {
+          "number": "3",
+          "net": ""
+        },
+        {
+          "number": "4",
+          "net": "MIC_BCLK"
+        },
+        {
+          "number": "5",
+          "net": "MIC_WS"
+        },
+        {
+          "number": "6",
+          "net": "MIC_SD"
+        },
+        {
+          "number": "7",
+          "net": "GND"
+        },
+        {
+          "number": "8",
+          "net": "ENC_A"
+        },
+        {
+          "number": "9",
+          "net": "PCA_SDA"
+        },
+        {
+          "number": "10",
+          "net": "PCA_SCL"
+        },
+        {
+          "number": "11",
+          "net": "PCA_OE"
+        },
+        {
+          "number": "12",
+          "net": "LCD_MOSI"
+        },
+        {
+          "number": "13",
+          "net": "LCD_SCLK"
+        },
+        {
+          "number": "14",
+          "net": "LCD_CS_N"
+        },
+        {
+          "number": "15",
+          "net": "LCD_DC"
+        },
+        {
+          "number": "16",
+          "net": ""
+        },
+        {
+          "number": "17",
+          "net": "+3V3"
+        },
+        {
+          "number": "18",
+          "net": "+3V3"
+        },
+        {
+          "number": "19",
+          "net": "+3V3"
+        },
+        {
+          "number": "20",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J3",
+      "id": "747df2feaef4b65b",
+      "pads": [
+        {
+          "number": "1",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "net": "LCD_3V3"
+        },
+        {
+          "number": "3",
+          "net": "LCD_SCLK"
+        },
+        {
+          "number": "4",
+          "net": "LCD_MOSI"
+        },
+        {
+          "number": "5",
+          "net": "LCD_RST_N"
+        },
+        {
+          "number": "6",
+          "net": "LCD_DC"
+        },
+        {
+          "number": "7",
+          "net": "LCD_CS_N"
+        },
+        {
+          "number": "8",
+          "net": "LCD_3V3"
+        },
+        {
+          "number": "9",
+          "net": ""
+        },
+        {
+          "number": "11",
+          "net": ""
+        },
+        {
+          "number": "12",
+          "net": ""
+        },
+        {
+          "number": "13",
+          "net": ""
+        },
+        {
+          "number": "14",
+          "net": ""
+        },
+        {
+          "number": "15",
+          "net": ""
+        },
+        {
+          "number": "16",
+          "net": ""
+        },
+        {
+          "number": "17",
+          "net": ""
+        },
+        {
+          "number": "18",
+          "net": ""
+        },
+        {
+          "number": "19",
+          "net": ""
+        },
+        {
+          "number": "10",
+          "net": ""
+        },
+        {
+          "number": "20",
+          "net": ""
+        }
+      ]
+    },
+    {
+      "designator": "J4",
+      "id": "1e2d5c392045c7d5",
+      "pads": [
+        {
+          "number": "1",
+          "net": "MIC_BCLK"
+        },
+        {
+          "number": "2",
+          "net": "MIC_WS"
+        },
+        {
+          "number": "3",
+          "net": "MIC_SD"
+        },
+        {
+          "number": "4",
+          "net": "+3V3"
+        },
+        {
+          "number": "5",
+          "net": "GND"
+        },
+        {
+          "number": "6",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J5",
+      "id": "60ecbd1653cc87c3",
+      "pads": [
+        {
+          "number": "1",
+          "net": "AMP_BCLK"
+        },
+        {
+          "number": "2",
+          "net": "AMP_WS"
+        },
+        {
+          "number": "3",
+          "net": "AMP_DIN"
+        },
+        {
+          "number": "4",
+          "net": "+5V_LOGIC"
+        },
+        {
+          "number": "5",
+          "net": "GND"
+        },
+        {
+          "number": "6",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J6",
+      "id": "a95e895b1cc119da",
+      "pads": [
+        {
+          "number": "B1A12",
+          "net": "GND"
+        },
+        {
+          "number": "B4A9",
+          "net": "VBUS"
+        },
+        {
+          "number": "B5",
+          "net": "CC2"
+        },
+        {
+          "number": "A8",
+          "net": ""
+        },
+        {
+          "number": "B6",
+          "net": ""
+        },
+        {
+          "number": "A7",
+          "net": ""
+        },
+        {
+          "number": "A6",
+          "net": ""
+        },
+        {
+          "number": "B7",
+          "net": ""
+        },
+        {
+          "number": "A5",
+          "net": "CC1"
+        },
+        {
+          "number": "B8",
+          "net": ""
+        },
+        {
+          "number": "A4B9",
+          "net": "VBUS"
+        },
+        {
+          "number": "A1B12",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "GND"
+        },
+        {
+          "number": "4",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J7",
+      "id": "cc3710b0f31333ef",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "NTC"
+        }
+      ]
+    },
+    {
+      "designator": "J10",
+      "id": "7946732c89c9b9e9",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "LCD_3V3"
+        }
+      ]
+    },
+    {
+      "designator": "JBAL",
+      "id": "5ed0f77816855e23",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "2",
+          "net": "BM"
+        },
+        {
+          "number": "3",
+          "net": "VBAT_RAW_P"
+        }
+      ]
+    },
+    {
+      "designator": "JBAT",
+      "id": "e6a69c186e41d866",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "2",
+          "net": "VBAT_RAW_P"
+        },
+        {
+          "number": "3",
+          "net": ""
+        },
+        {
+          "number": "4",
+          "net": ""
+        }
+      ]
+    },
+    {
+      "designator": "JP_CHG",
+      "id": "984af7ab178e9806",
+      "pads": [
+        {
+          "number": "2",
+          "net": "CHG_EN"
+        },
+        {
+          "number": "1",
+          "net": "CHG_VIN"
+        }
+      ]
+    },
+    {
+      "designator": "JP_LCD",
+      "id": "defb1a22707574a2",
+      "pads": [
+        {
+          "number": "2",
+          "net": "LCD_3V3"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "JP_MCU",
+      "id": "e15167d6353efae2",
+      "pads": [
+        {
+          "number": "2",
+          "net": "MCU_5V"
+        },
+        {
+          "number": "1",
+          "net": "+5V_LOGIC"
+        }
+      ]
+    },
+    {
+      "designator": "J_LOG_IN",
+      "id": "aba45cfc2fef8353",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_SW"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J_LOG_OUT",
+      "id": "721593b30160fb2f",
+      "pads": [
+        {
+          "number": "1",
+          "net": "+5V_LOGIC"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J_SRV_IN",
+      "id": "c7c0ad96a2225773",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_SW"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J_SRV_OUT",
+      "id": "36e7dbb6106903b9",
+      "pads": [
+        {
+          "number": "1",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "J_SW",
+      "id": "2f2bcaa338397eae",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_FUSED"
+        },
+        {
+          "number": "2",
+          "net": "VBAT_SW"
+        }
+      ]
+    },
+    {
+      "designator": "L1",
+      "id": "82cba957a7ca4ba2",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBUS"
+        },
+        {
+          "number": "2",
+          "net": "SW_CHG"
+        }
+      ]
+    },
+    {
+      "designator": "Q1",
+      "id": "6420de17afd5a9f8",
+      "pads": [
+        {
+          "number": "1",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        },
+        {
+          "number": "4",
+          "net": "COUT_GATE"
+        },
+        {
+          "number": "8",
+          "net": "MOS_MID"
+        },
+        {
+          "number": "7",
+          "net": "MOS_MID"
+        },
+        {
+          "number": "6",
+          "net": "MOS_MID"
+        },
+        {
+          "number": "5",
+          "net": "MOS_MID"
+        }
+      ]
+    },
+    {
+      "designator": "Q2",
+      "id": "ad88d9220a8250f6",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "2",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "3",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "4",
+          "net": "DOUT_GATE"
+        },
+        {
+          "number": "8",
+          "net": "MOS_MID"
+        },
+        {
+          "number": "7",
+          "net": "MOS_MID"
+        },
+        {
+          "number": "6",
+          "net": "MOS_MID"
+        },
+        {
+          "number": "5",
+          "net": "MOS_MID"
+        }
+      ]
+    },
+    {
+      "designator": "Q3",
+      "id": "22e69e9021824856",
+      "pads": [
+        {
+          "number": "1",
+          "net": "BAL1_GATE"
+        },
+        {
+          "number": "2",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "3",
+          "net": "BAL1_BLEED"
+        }
+      ]
+    },
+    {
+      "designator": "Q4",
+      "id": "234d7109607d6467",
+      "pads": [
+        {
+          "number": "1",
+          "net": "BAL2_GATE"
+        },
+        {
+          "number": "2",
+          "net": "BM"
+        },
+        {
+          "number": "3",
+          "net": "BAL2_BLEED"
+        }
+      ]
+    },
+    {
+      "designator": "R1",
+      "id": "b1dc76598430d6bc",
+      "pads": [
+        {
+          "number": "2",
+          "net": "PROT_VDD"
+        },
+        {
+          "number": "1",
+          "net": "VBAT_RAW_P"
+        }
+      ]
+    },
+    {
+      "designator": "R2",
+      "id": "259e25b4ca5b837c",
+      "pads": [
+        {
+          "number": "2",
+          "net": "PROT_VC"
+        },
+        {
+          "number": "1",
+          "net": "BM"
+        }
+      ]
+    },
+    {
+      "designator": "R3",
+      "id": "558558a4437f0296",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "VM_SENSE"
+        }
+      ]
+    },
+    {
+      "designator": "R4",
+      "id": "1e66b8d80773e3d3",
+      "pads": [
+        {
+          "number": "2",
+          "net": "BAL1_VDD"
+        },
+        {
+          "number": "1",
+          "net": "BM"
+        }
+      ]
+    },
+    {
+      "designator": "R5",
+      "id": "adcb747cc6b489d1",
+      "pads": [
+        {
+          "number": "2",
+          "net": "BAL2_VDD"
+        },
+        {
+          "number": "1",
+          "net": "VBAT_RAW_P"
+        }
+      ]
+    },
+    {
+      "designator": "R6",
+      "id": "991ad4a5f197d2b8",
+      "pads": [
+        {
+          "number": "2",
+          "net": "CHG_VIN"
+        },
+        {
+          "number": "1",
+          "net": "VBUS"
+        }
+      ]
+    },
+    {
+      "designator": "R7",
+      "id": "d80e601915e19e92",
+      "pads": [
+        {
+          "number": "2",
+          "net": "LED_A"
+        },
+        {
+          "number": "1",
+          "net": "CHG_LED"
+        }
+      ]
+    },
+    {
+      "designator": "R8",
+      "id": "e60a69a310a6c2ec",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CHG_ISET"
+        }
+      ]
+    },
+    {
+      "designator": "R9",
+      "id": "0027b313470666e8",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "ADC_BAT"
+        }
+      ]
+    },
+    {
+      "designator": "R10",
+      "id": "5257f555c2fbcf27",
+      "pads": [
+        {
+          "number": "2",
+          "net": "ADC_BAT"
+        },
+        {
+          "number": "1",
+          "net": "VBAT_SW"
+        }
+      ]
+    },
+    {
+      "designator": "R11",
+      "id": "870435d97bc086ce",
+      "pads": [
+        {
+          "number": "2",
+          "net": "ENC_A"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "R12",
+      "id": "51456fde7225c924",
+      "pads": [
+        {
+          "number": "2",
+          "net": "ENC_B"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "R13",
+      "id": "4e805037d85fb1d5",
+      "pads": [
+        {
+          "number": "2",
+          "net": "PCA_SDA"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "R14",
+      "id": "5325d69635a9a84a",
+      "pads": [
+        {
+          "number": "2",
+          "net": "PCA_SCL"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "R15",
+      "id": "3de678c9efe96d75",
+      "pads": [
+        {
+          "number": "2",
+          "net": "PCA_OE"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "R16",
+      "id": "402029c4563c9e61",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CC1"
+        }
+      ]
+    },
+    {
+      "designator": "R17",
+      "id": "5d5d0b7cc85de67c",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CC2"
+        }
+      ]
+    },
+    {
+      "designator": "R18",
+      "id": "736d7a000c509eb6",
+      "pads": [
+        {
+          "number": "2",
+          "net": "BAL1_BLEED"
+        },
+        {
+          "number": "1",
+          "net": "BM"
+        }
+      ]
+    },
+    {
+      "designator": "R19",
+      "id": "b6582d0b334b4c9a",
+      "pads": [
+        {
+          "number": "2",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "1",
+          "net": "BAL1_GATE"
+        }
+      ]
+    },
+    {
+      "designator": "R20",
+      "id": "37f2686a41c30b19",
+      "pads": [
+        {
+          "number": "2",
+          "net": "BAL2_BLEED"
+        },
+        {
+          "number": "1",
+          "net": "VBAT_RAW_P"
+        }
+      ]
+    },
+    {
+      "designator": "R21",
+      "id": "c341b89bcf393256",
+      "pads": [
+        {
+          "number": "2",
+          "net": "BM"
+        },
+        {
+          "number": "1",
+          "net": "BAL2_GATE"
+        }
+      ]
+    },
+    {
+      "designator": "R22",
+      "id": "e30326b8d227a13d",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CHG_TIME"
+        }
+      ]
+    },
+    {
+      "designator": "R23",
+      "id": "291d25ee2c4ad611",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "NTC"
+        }
+      ]
+    },
+    {
+      "designator": "R24",
+      "id": "35d3349013d293b2",
+      "pads": [
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "1",
+          "net": "CHG_EN"
+        }
+      ]
+    },
+    {
+      "designator": "R26",
+      "id": "74cbcd26d3448025",
+      "pads": [
+        {
+          "number": "2",
+          "net": "ENC_SW_N"
+        },
+        {
+          "number": "1",
+          "net": "+3V3"
+        }
+      ]
+    },
+    {
+      "designator": "SV1",
+      "id": "cae9f9bf60f7cdb0",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM0"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV2",
+      "id": "73c63e01bb776f35",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM1"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV3",
+      "id": "16589f1521967948",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM2"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV4",
+      "id": "4097b13ba8a46f87",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM3"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV5",
+      "id": "02a4393c6a904d9f",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM4"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV6",
+      "id": "a5c47f2f07425b8a",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM5"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV7",
+      "id": "d1ce14e65d5382c9",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM6"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "SV8",
+      "id": "fc2600f12c1e4610",
+      "pads": [
+        {
+          "number": "1",
+          "net": "PWM7"
+        },
+        {
+          "number": "2",
+          "net": "+5V_SERVO"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "designator": "U1",
+      "id": "a7c1a01685c3018e",
+      "pads": [
+        {
+          "number": "3",
+          "net": "VM_SENSE"
+        },
+        {
+          "number": "2",
+          "net": "COUT_GATE"
+        },
+        {
+          "number": "1",
+          "net": "DOUT_GATE"
+        },
+        {
+          "number": "6",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "5",
+          "net": "PROT_VDD"
+        },
+        {
+          "number": "4",
+          "net": "PROT_VC"
+        }
+      ]
+    },
+    {
+      "designator": "U2",
+      "id": "13fa72eb951b5ed6",
+      "pads": [
+        {
+          "number": "3",
+          "net": "VBAT_RAW_N"
+        },
+        {
+          "number": "2",
+          "net": "BAL1_VDD"
+        },
+        {
+          "number": "1",
+          "net": ""
+        },
+        {
+          "number": "6",
+          "net": "BAL1_GATE"
+        },
+        {
+          "number": "5",
+          "net": ""
+        },
+        {
+          "number": "4",
+          "net": ""
+        }
+      ]
+    },
+    {
+      "designator": "U3",
+      "id": "60ebc990c33de0bd",
+      "pads": [
+        {
+          "number": "3",
+          "net": "BM"
+        },
+        {
+          "number": "2",
+          "net": "BAL2_VDD"
+        },
+        {
+          "number": "1",
+          "net": ""
+        },
+        {
+          "number": "6",
+          "net": "BAL2_GATE"
+        },
+        {
+          "number": "5",
+          "net": ""
+        },
+        {
+          "number": "4",
+          "net": ""
+        }
+      ]
+    },
+    {
+      "designator": "U4",
+      "id": "9c0eee234e8ef2a8",
+      "pads": [
+        {
+          "number": "25",
+          "net": "GND"
+        },
+        {
+          "number": "24",
+          "net": ""
+        },
+        {
+          "number": "23",
+          "net": ""
+        },
+        {
+          "number": "22",
+          "net": "VBAT_FUSED"
+        },
+        {
+          "number": "21",
+          "net": "VBAT_FUSED"
+        },
+        {
+          "number": "20",
+          "net": "CHG_VSYS"
+        },
+        {
+          "number": "19",
+          "net": "CHG_VSYS"
+        },
+        {
+          "number": "18",
+          "net": "GND"
+        },
+        {
+          "number": "17",
+          "net": "SW_CHG"
+        },
+        {
+          "number": "16",
+          "net": "SW_CHG"
+        },
+        {
+          "number": "15",
+          "net": "SW_CHG"
+        },
+        {
+          "number": "14",
+          "net": "BST_CAP"
+        },
+        {
+          "number": "13",
+          "net": "CHG_VIN"
+        },
+        {
+          "number": "12",
+          "net": "CHG_EN"
+        },
+        {
+          "number": "11",
+          "net": "CHG_ISET"
+        },
+        {
+          "number": "10",
+          "net": ""
+        },
+        {
+          "number": "9",
+          "net": ""
+        },
+        {
+          "number": "8",
+          "net": ""
+        },
+        {
+          "number": "7",
+          "net": "CHG_TIME"
+        },
+        {
+          "number": "6",
+          "net": "CHG_LED"
+        },
+        {
+          "number": "5",
+          "net": ""
+        },
+        {
+          "number": "4",
+          "net": "NTC"
+        },
+        {
+          "number": "3",
+          "net": ""
+        },
+        {
+          "number": "2",
+          "net": ""
+        },
+        {
+          "number": "1",
+          "net": ""
+        }
+      ]
+    },
+    {
+      "designator": "U7",
+      "id": "23c5129b9acc59ab",
+      "pads": [
+        {
+          "number": "1",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "net": "GND"
+        },
+        {
+          "number": "4",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "net": "GND"
+        },
+        {
+          "number": "6",
+          "net": "PWM0"
+        },
+        {
+          "number": "7",
+          "net": "PWM1"
+        },
+        {
+          "number": "8",
+          "net": "PWM2"
+        },
+        {
+          "number": "9",
+          "net": "PWM3"
+        },
+        {
+          "number": "10",
+          "net": "PWM4"
+        },
+        {
+          "number": "11",
+          "net": "PWM5"
+        },
+        {
+          "number": "12",
+          "net": "PWM6"
+        },
+        {
+          "number": "13",
+          "net": "PWM7"
+        },
+        {
+          "number": "14",
+          "net": "GND"
+        },
+        {
+          "number": "28",
+          "net": "+3V3"
+        },
+        {
+          "number": "27",
+          "net": "PCA_SDA"
+        },
+        {
+          "number": "26",
+          "net": "PCA_SCL"
+        },
+        {
+          "number": "25",
+          "net": "GND"
+        },
+        {
+          "number": "24",
+          "net": "GND"
+        },
+        {
+          "number": "23",
+          "net": "PCA_OE"
+        },
+        {
+          "number": "22",
+          "net": ""
+        },
+        {
+          "number": "21",
+          "net": ""
+        },
+        {
+          "number": "20",
+          "net": ""
+        },
+        {
+          "number": "19",
+          "net": ""
+        },
+        {
+          "number": "18",
+          "net": ""
+        },
+        {
+          "number": "17",
+          "net": ""
+        },
+        {
+          "number": "16",
+          "net": ""
+        },
+        {
+          "number": "15",
+          "net": ""
+        }
+      ]
+    }
+  ],
+  "saved": true
+}

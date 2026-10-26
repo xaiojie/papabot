@@ -1,0 +1,10 @@
+{
+  "main_part_geometry_before": "22f7778bfc08934e5daa00b6e06379146d1e2c9412313f6db44f74e5189eceb8",
+  "main_part_geometry_after": "22f7778bfc08934e5daa00b6e06379146d1e2c9412313f6db44f74e5189eceb8",
+  "unchanged": true,
+  "new_scenes": [
+    "11_A2_EXPLODED_ASSEMBLY",
+    "12_A2_PRINT_PARTS_OVERVIEW"
+  ],
+  "print_part_count": 32
+}

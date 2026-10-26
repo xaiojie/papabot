@@ -1,0 +1,248 @@
+{
+  "screen_normal": [
+    0.0,
+    -1.0,
+    0.0
+  ],
+  "screen_vertical_front_facing": true,
+  "active_area_bbox_mm": [
+    [
+      -24.38399887084961,
+      -25.51999855041504,
+      49.711997985839844
+    ],
+    [
+      24.38399887084961,
+      -25.399999618530273,
+      86.28800201416016
+    ]
+  ],
+  "full_stock_module_bbox_mm": [
+    [
+      -35.0,
+      -21.0,
+      46.0
+    ],
+    [
+      56.0,
+      -19.399999618530273,
+      90.0
+    ]
+  ],
+  "stock_encoder_and_key_objects": [
+    "REF_SCREEN__D005__EC11_metal_body",
+    "REF_SCREEN__D006__EC11_shaft",
+    "REF_SCREEN__D007__EC11_knob_envelope",
+    "REF_SCREEN__D008__knob_top",
+    "REF_SCREEN__D009__knob_indicator",
+    "REF_SCREEN__D010__K0_button_base",
+    "REF_SCREEN__D011__K0_button"
+  ],
+  "glass_front_recess_mm": 20.790002822875977,
+  "knob_to_front_plate_inner_face_axial_gap_mm": 1.3050010681152315,
+  "front_sightline_rays": 143,
+  "occluded_front_sightlines": [],
+  "front_fastener": "4 M3x30, 0.8mm washer; nominal shank Y -47..-17",
+  "front_floor_bosses_attached_to": "R01 main housing, not R02 removable cap",
+  "removal_samples": [
+    {
+      "cover": "front",
+      "distance_mm": 0,
+      "solid_pairs_checked": 31,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 0.25,
+      "solid_pairs_checked": 31,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 0.5,
+      "solid_pairs_checked": 31,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 1,
+      "solid_pairs_checked": 31,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 2,
+      "solid_pairs_checked": 28,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 3,
+      "solid_pairs_checked": 27,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 5,
+      "solid_pairs_checked": 13,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 8,
+      "solid_pairs_checked": 6,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 12,
+      "solid_pairs_checked": 5,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 16,
+      "solid_pairs_checked": 4,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 20,
+      "solid_pairs_checked": 4,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 24,
+      "solid_pairs_checked": 3,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 30,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 40,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 60,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    },
+    {
+      "cover": "front",
+      "distance_mm": 100,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 0,
+      "solid_pairs_checked": 19,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 0.25,
+      "solid_pairs_checked": 19,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 0.5,
+      "solid_pairs_checked": 19,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 1,
+      "solid_pairs_checked": 19,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 2,
+      "solid_pairs_checked": 17,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 3,
+      "solid_pairs_checked": 16,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 5,
+      "solid_pairs_checked": 15,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 8,
+      "solid_pairs_checked": 15,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 12,
+      "solid_pairs_checked": 11,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 16,
+      "solid_pairs_checked": 10,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 20,
+      "solid_pairs_checked": 8,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 24,
+      "solid_pairs_checked": 6,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 30,
+      "solid_pairs_checked": 1,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 40,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 60,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    },
+    {
+      "cover": "rear",
+      "distance_mm": 100,
+      "solid_pairs_checked": 0,
+      "conflicts": []
+    }
+  ],
+  "pass": true,
+  "limits": [
+    "Geometry is based on nominal V1 encoder dimensions; 15mm in the seller image is shaft length, not total mounted height.",
+    "Sightline rays check the nominal active display area straight from the front, not all viewing angles.",
+    "Removal is checked at 16 discrete translations per cover, not a continuous solid sweep.",
+    "Rear cables must be given slack or disconnected before removal; cable flexibility and acoustic response are untested."
+  ]
+}

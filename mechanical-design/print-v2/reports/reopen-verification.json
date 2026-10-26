@@ -1,0 +1,18 @@
+{
+  "reopened": true,
+  "active_scene": "02_PRINT_V2__FIT_COUPONS_ONLY",
+  "scenes": [
+    "01_ASSEMBLY_AND_DISASSEMBLY",
+    "02_PRINT_V2__FIT_COUPONS_ONLY"
+  ],
+  "source_scene_object_count": 196,
+  "source_scene_fingerprint_after_reopen": "25cbd6dd65198a1bb6025ae892f690215222dd3186f2e558b8326865ca5e05d7",
+  "source_geometry_and_transforms_preserved": true,
+  "original_file_unchanged": true,
+  "new_part_count": 6,
+  "expected_part_count": 6,
+  "all_objects_present": true,
+  "mm_display_units": true,
+  "render_exists": true,
+  "pass": true
+}

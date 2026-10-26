@@ -1,0 +1,4092 @@
+{
+  "components": [
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9ac1b14d2b64b7cd",
+      "componentType": "sheet",
+      "x": 0,
+      "y": 0,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "06717ded97597677",
+        "name": "Drawing-Symbol_A4"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "032d23da439c3cde",
+      "componentType": "part",
+      "x": 200,
+      "y": 650,
+      "subPartName": "22850120ANG1SYA01.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "f06b35e42d8ad38d",
+        "name": "22850120ANG1SYA01"
+      },
+      "symbol": {
+        "uuid": "a17338de6732da40",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "22850120ANG1SYA01"
+      },
+      "footprint": {
+        "uuid": "1e9f72ef59ac55b2",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_20P-P2.54-V-F"
+      },
+      "designator": "J1",
+      "name": "MCU_LEFT_20P",
+      "uniqueId": "gge1",
+      "manufacturer": "JILN(锦凌)",
+      "manufacturerId": "22850120ANG1SYA01",
+      "supplier": "LCSC",
+      "supplierId": "22850120ANG1SYA01.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Holes Structure": "",
+        "Pitch": "",
+        "Row Spacing": "",
+        "Circular Hole / Square Hole": "",
+        "Mounting Type": "",
+        "Number of Rows": "",
+        "Number of Positions": "",
+        "Current Rating": "",
+        "Holes Direction": "",
+        "Insulation Height": "",
+        "Contact Material": "",
+        "Contact Plating": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Value": "MCU_LEFT_20P"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9fb8236cc0608b7e",
+      "componentType": "part",
+      "x": 460,
+      "y": 650,
+      "subPartName": "22850120ANG1SYA01.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "f06b35e42d8ad38d",
+        "name": "22850120ANG1SYA01"
+      },
+      "symbol": {
+        "uuid": "a17338de6732da40",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "22850120ANG1SYA01"
+      },
+      "footprint": {
+        "uuid": "1e9f72ef59ac55b2",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_20P-P2.54-V-F"
+      },
+      "designator": "J2",
+      "name": "MCU_RIGHT_20P",
+      "uniqueId": "gge2",
+      "manufacturer": "JILN(锦凌)",
+      "manufacturerId": "22850120ANG1SYA01",
+      "supplier": "LCSC",
+      "supplierId": "22850120ANG1SYA01.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Holes Structure": "",
+        "Pitch": "",
+        "Row Spacing": "",
+        "Circular Hole / Square Hole": "",
+        "Mounting Type": "",
+        "Number of Rows": "",
+        "Number of Positions": "",
+        "Current Rating": "",
+        "Holes Direction": "",
+        "Insulation Height": "",
+        "Contact Material": "",
+        "Contact Plating": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Value": "MCU_RIGHT_20P"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8f4268105a083fba",
+      "componentType": "part",
+      "x": 800,
+      "y": 700,
+      "subPartName": "Header-Male-2.54_1x8.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "0f9709222da61412",
+        "name": "HDR-M_2.54_1x8P"
+      },
+      "symbol": {
+        "uuid": "9982403b9b5d9cf7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Header-Male-2.54_1x8"
+      },
+      "footprint": {
+        "uuid": "95bdbe339194dcd4",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_8P-P2.54-V-M"
+      },
+      "designator": "J3",
+      "name": "LCD_5V_SPI",
+      "uniqueId": "gge3",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "Header-Male-2.54_1x8.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "TOUGLESY 2.4 TFT: match signal names at module. BLK left open, default full brightness.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "LCD_5V_SPI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "70beb00d6ce80db2",
+      "componentType": "part",
+      "x": 800,
+      "y": 530,
+      "subPartName": "MTP125-1105S1.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "2a0cc389af5b9794",
+        "name": "HDR-M_2.54_1x5P"
+      },
+      "symbol": {
+        "uuid": "c8a83687ff86216f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MTP125-1105S1"
+      },
+      "footprint": {
+        "uuid": "ae557be3da6dcd1e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_5P-P2.54-V-M"
+      },
+      "designator": "J4",
+      "name": "PCA9685_LOGIC_ONLY",
+      "uniqueId": "gge4",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "MTP125-1105S1.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "VCC 3.3V. OE high=disabled. Module V+ and servo red wires use external power distribution.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "PCA9685_LOGIC_ONLY"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c031fc4db202a8c0",
+      "componentType": "part",
+      "x": 1060,
+      "y": 700,
+      "subPartName": "Header-Male-2.54_1x6.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "f5216295073a57a9",
+        "name": "HDR-M_2.54_1x6P"
+      },
+      "symbol": {
+        "uuid": "5cd45b0baa13db7b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Header-Male-2.54_1x6"
+      },
+      "footprint": {
+        "uuid": "cbc8631ceed0bfa6",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_6P-P2.54-V-M-1"
+      },
+      "designator": "J5",
+      "name": "MIC_3V3_I2S",
+      "uniqueId": "gge5",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "Header-Male-2.54_1x6.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "Pin 6 is microphone LR, grounded for left channel. Match module silk, not cable position.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "MIC_3V3_I2S"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "44a2a24396f41523",
+      "componentType": "part",
+      "x": 1060,
+      "y": 530,
+      "subPartName": "PZ254V-11-04P.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "768d7f54efb3fb76",
+        "name": "HDR-M_2.54_1x4P"
+      },
+      "symbol": {
+        "uuid": "393fdf8f23cae0cc",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-04P"
+      },
+      "footprint": {
+        "uuid": "f8718583d233d8ff",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_4P-P2.54-V-M"
+      },
+      "designator": "J6",
+      "name": "AMP_I2S_SIGNALS",
+      "uniqueId": "gge6",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "PZ254V-11-04P.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "MAX98357 power uses short external UBEC branch. SD_MODE keeps module default.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "AMP_I2S_SIGNALS"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9cfaa876b030a1c2",
+      "componentType": "part",
+      "x": 1060,
+      "y": 320,
+      "subPartName": "PZ254V-11-07P.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "f8aa8c113df941ed",
+        "name": "HDR-M_2.54_1x7P"
+      },
+      "symbol": {
+        "uuid": "5ee1c7cf80d049c1",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-07P"
+      },
+      "footprint": {
+        "uuid": "3cb89ff0c584bf4e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_7P-P2.54-V-M"
+      },
+      "designator": "J7",
+      "name": "REAR_DRY_CONTACTS",
+      "uniqueId": "gge7",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "PZ254V-11-07P.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "Desolder original EC11 and key. Verify dry contacts with continuity meter before connecting.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "REAR_DRY_CONTACTS"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8b89218822574d83",
+      "componentType": "part",
+      "x": 200,
+      "y": 420,
+      "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e3a3ad3aa7709b41",
+        "name": "HDR-M_2.54_1x2P"
+      },
+      "symbol": {
+        "uuid": "b15747cf9e3d054e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "210S-1*2P L=11.6MMGold-plated black"
+      },
+      "footprint": {
+        "uuid": "99533ffb5b6a0df7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "designator": "J8",
+      "name": "LOGIC_5V_IN",
+      "uniqueId": "gge8",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "210S-1*2P L=11.6MMGold-plated black.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "UBEC 3A set to 5V. Carrier input excludes amplifier branch and all servo currents.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "LOGIC_5V_IN"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9f91477d248df4df",
+      "componentType": "part",
+      "x": 200,
+      "y": 260,
+      "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e3a3ad3aa7709b41",
+        "name": "HDR-M_2.54_1x2P"
+      },
+      "symbol": {
+        "uuid": "b15747cf9e3d054e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "210S-1*2P L=11.6MMGold-plated black"
+      },
+      "footprint": {
+        "uuid": "99533ffb5b6a0df7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "designator": "J9",
+      "name": "SWITCHED_BAT_SENSE",
+      "uniqueId": "gge9",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "210S-1*2P L=11.6MMGold-plated black.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "Sense only: connect after main switch. Never connect to unswitched battery.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "SWITCHED_BAT_SENSE"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a797a349cae26b00",
+      "componentType": "part",
+      "x": 460,
+      "y": 420,
+      "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e3a3ad3aa7709b41",
+        "name": "HDR-M_2.54_1x2P"
+      },
+      "symbol": {
+        "uuid": "b15747cf9e3d054e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "210S-1*2P L=11.6MMGold-plated black"
+      },
+      "footprint": {
+        "uuid": "99533ffb5b6a0df7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "designator": "JP1",
+      "name": "MCU_POWER_LINK",
+      "uniqueId": "gge10",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "210S-1*2P L=11.6MMGold-plated black.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "Solder wire link for standalone battery operation. USB VBUS is NOT isolated. Remove MCU to USB program.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "MCU_POWER_LINK"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c9b547ef91fad639",
+      "componentType": "part",
+      "x": 420,
+      "y": 260,
+      "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e3a3ad3aa7709b41",
+        "name": "HDR-M_2.54_1x2P"
+      },
+      "symbol": {
+        "uuid": "b15747cf9e3d054e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "210S-1*2P L=11.6MMGold-plated black"
+      },
+      "footprint": {
+        "uuid": "99533ffb5b6a0df7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "designator": "JP2",
+      "name": "BAT_SENSE_LINK",
+      "uniqueId": "gge11",
+      "manufacturer": "",
+      "manufacturerId": "",
+      "supplier": "",
+      "supplierId": "210S-1*2P L=11.6MMGold-plated black.1",
+      "otherProperty": {
+        "Supplier Footprint": "",
+        "Description": "",
+        "Assembly note": "Solder link only after battery/MCU power-up verification. Open for standalone USB operation.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template.",
+        "Value": "BAT_SENSE_LINK"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d6eb06bda6c435f8",
+      "componentType": "part",
+      "x": 600,
+      "y": 260,
+      "subPartName": "MF1/4W-100K±1%-ST52.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "7e9f401463d5ebb5",
+        "name": "MF1/4W-100K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "de465cd8997933ab",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-100K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R1",
+      "name": "100k 1% 0.25W",
+      "uniqueId": "gge12",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-100K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-100K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "100k 1% 0.25W",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "aa990e9fb83ba1c4",
+      "componentType": "part",
+      "x": 700,
+      "y": 179.99999999999997,
+      "subPartName": "MF1/4W-33K±1%-ST52.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "d072e3a4e3ac621e",
+        "name": "MF1/4W-33K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "f4ea1f80cc5da0ab",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-33K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R2",
+      "name": "33k 1% 0.25W",
+      "uniqueId": "gge13",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-33K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-33K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "33k 1% 0.25W",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "53151003159d7694",
+      "componentType": "part",
+      "x": 619.9999999999999,
+      "y": 520.0000000000001,
+      "subPartName": "MF1/4W-10K±1%-ST52.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "b0ebc38270c1330d",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "87c7db7fd555e83e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R3",
+      "name": "10k 1% OE pull-up",
+      "uniqueId": "gge14",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-10K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-10K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "10k 1% OE pull-up",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "Check/remove module OE pull-down if fitted; verify OE remains high at boot.",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b88989ce5ce819e4",
+      "componentType": "part",
+      "x": 600,
+      "y": 370.00000000000006,
+      "subPartName": "MF1/4W-10K±1%-ST52.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "b0ebc38270c1330d",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "87c7db7fd555e83e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R4",
+      "name": "10k 1% 0.25W",
+      "uniqueId": "gge15",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-10K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-10K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "10k 1% 0.25W",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c506a9ca445803df",
+      "componentType": "part",
+      "x": 710,
+      "y": 370,
+      "subPartName": "MF1/4W-10K±1%-ST52.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "b0ebc38270c1330d",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "87c7db7fd555e83e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R5",
+      "name": "10k 1% 0.25W",
+      "uniqueId": "gge16",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-10K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-10K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "10k 1% 0.25W",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b8020d6d5c8dbd49",
+      "componentType": "part",
+      "x": 820,
+      "y": 370,
+      "subPartName": "MF1/4W-10K±1%-ST52.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "b0ebc38270c1330d",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "87c7db7fd555e83e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R6",
+      "name": "10k 1% 0.25W",
+      "uniqueId": "gge17",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-10K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-10K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "10k 1% 0.25W",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "031511184ff5ae23",
+      "componentType": "part",
+      "x": 930,
+      "y": 370,
+      "subPartName": "MF1/4W-10K±1%-ST52.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "b0ebc38270c1330d",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "symbol": {
+        "uuid": "87c7db7fd555e83e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/4W-10K±1%-ST52"
+      },
+      "footprint": {
+        "uuid": "89f24940522de529",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+      },
+      "designator": "R7",
+      "name": "10k 1% 0.25W",
+      "uniqueId": "gge18",
+      "manufacturer": "VO(翔胜)",
+      "manufacturerId": "MF1/4W-10K±1%-ST52",
+      "supplier": "LCSC",
+      "supplierId": "MF1/4W-10K±1%-ST52.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Type": "",
+        "Value": "10k 1% 0.25W",
+        "Tolerance": "",
+        "Voltage-Supply(Max)": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e1ee794e74ec3f11",
+      "componentType": "part",
+      "x": 800,
+      "y": 179.99999999999997,
+      "subPartName": "CC1H104ZC14D3F5O10MF.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "ea964fb047995a51",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "symbol": {
+        "uuid": "61fdd1c015210b27",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "footprint": {
+        "uuid": "2dee937134fc6ddb",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+      },
+      "designator": "C1",
+      "name": "100nF 50V P5.08",
+      "uniqueId": "gge19",
+      "manufacturer": "Dersonic(德尔创)",
+      "manufacturerId": "CC1H104ZC14D3F5O10MF",
+      "supplier": "LCSC",
+      "supplierId": "CC1H104ZC14D3F5O10MF.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Value": "100nF 50V P5.08",
+        "Tolerance": "",
+        "Voltage Rating": "",
+        "Pin Spacing": "",
+        "Temperature Coefficient": "",
+        "Diameter": "",
+        "Body Thickness": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "132b23ec7999296e",
+      "componentType": "part",
+      "x": 300,
+      "y": 350,
+      "subPartName": "ERB16V470M8X12.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": false,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "6b06e8ea69dba842",
+        "name": "ERB16V470M8X12"
+      },
+      "symbol": {
+        "uuid": "f7dd23a73e0568c7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "ERB16V470M8X12"
+      },
+      "footprint": {
+        "uuid": "78c0a5011f587124",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_BD8.0-P3.50-D0.5-FD"
+      },
+      "designator": "C2",
+      "name": "470uF 16V",
+      "uniqueId": "gge20",
+      "manufacturer": "JIERR(捷而瑞)",
+      "manufacturerId": "ERB16V470M8X12",
+      "supplier": "LCSC",
+      "supplierId": "ERB16V470M8X12.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Value": "470uF 16V OFF BOARD",
+        "Tolerance": "",
+        "Voltage Rating": "",
+        "Ripple Current": "",
+        "Equivalent Series Resistance(ESR)": "",
+        "Diameter": "",
+        "Height - Seated (Max)": "",
+        "Lifetime": "",
+        "Operating Temperature": "",
+        "Description": "",
+        "Assembly note": "OFF BOARD: mount at UBEC / amplifier power branch; secure and insulate leads.",
+        "Procurement": ""
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "f5bd31e523c8e44c",
+      "componentType": "part",
+      "x": 460,
+      "y": 160,
+      "subPartName": "CC1H104ZC14D3F5O10MF.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "ea964fb047995a51",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "symbol": {
+        "uuid": "61fdd1c015210b27",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "footprint": {
+        "uuid": "2dee937134fc6ddb",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+      },
+      "designator": "C3",
+      "name": "100nF 50V P5.08",
+      "uniqueId": "gge21",
+      "manufacturer": "Dersonic(德尔创)",
+      "manufacturerId": "CC1H104ZC14D3F5O10MF",
+      "supplier": "LCSC",
+      "supplierId": "CC1H104ZC14D3F5O10MF.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Value": "100nF 50V P5.08",
+        "Tolerance": "",
+        "Voltage Rating": "",
+        "Pin Spacing": "",
+        "Temperature Coefficient": "",
+        "Diameter": "",
+        "Body Thickness": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "30940e325cb103fd",
+      "componentType": "part",
+      "x": 1060,
+      "y": 180.00000000000003,
+      "subPartName": "CC1H104ZC14D3F5O10MF.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "ea964fb047995a51",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "symbol": {
+        "uuid": "61fdd1c015210b27",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "footprint": {
+        "uuid": "2dee937134fc6ddb",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+      },
+      "designator": "C4",
+      "name": "100nF 50V P5.08",
+      "uniqueId": "gge22",
+      "manufacturer": "Dersonic(德尔创)",
+      "manufacturerId": "CC1H104ZC14D3F5O10MF",
+      "supplier": "LCSC",
+      "supplierId": "CC1H104ZC14D3F5O10MF.1",
+      "otherProperty": {
+        "LCSC Part Name": "",
+        "Supplier Footprint": "",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Value": "100nF 50V P5.08",
+        "Tolerance": "",
+        "Voltage Rating": "",
+        "Pin Spacing": "",
+        "Temperature Coefficient": "",
+        "Diameter": "",
+        "Body Thickness": "",
+        "Description": "",
+        "Assembly note": "",
+        "Procurement": "Use previously selected BOM item; library geometry is a template."
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "5041c998d253b6c8",
+      "componentType": "netport",
+      "x": 155,
+      "y": 745,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "790d16851faf51a5",
+      "componentType": "netport",
+      "x": 155,
+      "y": 735,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "bf4dc5d5a0dd4177",
+      "componentType": "netport",
+      "x": 155,
+      "y": 715,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "MIC_BCLK",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "99f69d49422b893d",
+      "componentType": "netport",
+      "x": 155,
+      "y": 705,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "MIC_WS",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "7f733956599b4be7",
+      "componentType": "netport",
+      "x": 155,
+      "y": 695,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "MIC_SD",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c75e8831a49d6af8",
+      "componentType": "netport",
+      "x": 155,
+      "y": 685,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "5d211668d6b31d1a",
+      "componentType": "netport",
+      "x": 155,
+      "y": 675,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "539e54da059e5849",
+      "componentType": "netport",
+      "x": 155,
+      "y": 665,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_SDA",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c203c6ecf0fe3a04",
+      "componentType": "netport",
+      "x": 155,
+      "y": 655,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_SCL",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3574249eed4627a1",
+      "componentType": "netport",
+      "x": 155,
+      "y": 645,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_OE_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9dd08d8a8790dddf",
+      "componentType": "netport",
+      "x": 155,
+      "y": 635,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_MOSI",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "68d5708a13d9ce1f",
+      "componentType": "netport",
+      "x": 155,
+      "y": 625,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_SCLK",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9226da3a6f9d11fe",
+      "componentType": "netport",
+      "x": 155,
+      "y": 615,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_CS_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "57327563c7c27113",
+      "componentType": "netport",
+      "x": 155,
+      "y": 605,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_DC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a2e52f4f7d82064c",
+      "componentType": "netport",
+      "x": 155,
+      "y": 585,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "092b4e6b341c5e98",
+      "componentType": "netport",
+      "x": 155,
+      "y": 575,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "15c330a3404363b8",
+      "componentType": "netport",
+      "x": 155,
+      "y": 565,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e1e7f2866106cbf5",
+      "componentType": "netport",
+      "x": 155,
+      "y": 555,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "2005d2034ab36729",
+      "componentType": "netport",
+      "x": 415,
+      "y": 705,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "AMP_BCLK",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "775e687aac458c62",
+      "componentType": "netport",
+      "x": 415,
+      "y": 695,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "AMP_WS",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6810452f6a5d3ac0",
+      "componentType": "netport",
+      "x": 415,
+      "y": 685,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "AMP_DIN",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c31b6a3a3036953f",
+      "componentType": "netport",
+      "x": 415,
+      "y": 665,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4622d14b4218ddfd",
+      "componentType": "netport",
+      "x": 415,
+      "y": 655,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_RST_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "81031b31e0efc40b",
+      "componentType": "netport",
+      "x": 415,
+      "y": 645,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ac637ea5f14ce880",
+      "componentType": "netport",
+      "x": 415,
+      "y": 625,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_SW_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "460705ec20049303",
+      "componentType": "netport",
+      "x": 415,
+      "y": 585,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_MCU",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6330a492593f8781",
+      "componentType": "netport",
+      "x": 415,
+      "y": 575,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_MCU",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "2fdd2eb8007ffa21",
+      "componentType": "netport",
+      "x": 415,
+      "y": 565,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_MCU",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a1c7382abe668ec6",
+      "componentType": "netport",
+      "x": 415,
+      "y": 555,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "45b86bb17978f2c8",
+      "componentType": "netport",
+      "x": 755,
+      "y": 735,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c6fb2c60ad56ece5",
+      "componentType": "netport",
+      "x": 755,
+      "y": 725,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_LOGIC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a902c1e5fc5f5a74",
+      "componentType": "netport",
+      "x": 755,
+      "y": 715,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_SCLK",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e5a57aff73a45747",
+      "componentType": "netport",
+      "x": 755,
+      "y": 705,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_MOSI",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c0981a96a8e4e469",
+      "componentType": "netport",
+      "x": 755,
+      "y": 695,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_RST_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "2e114b1933077ebc",
+      "componentType": "netport",
+      "x": 755,
+      "y": 685,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_DC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "5ad0cf63703df0eb",
+      "componentType": "netport",
+      "x": 755,
+      "y": 675,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LCD_CS_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "149ba134da2c5522",
+      "componentType": "netport",
+      "x": 755,
+      "y": 550,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "53b07468e1094ae5",
+      "componentType": "netport",
+      "x": 755,
+      "y": 540,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "39a18a6dafaff62f",
+      "componentType": "netport",
+      "x": 755,
+      "y": 530,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_SDA",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "60aecf6cd300f302",
+      "componentType": "netport",
+      "x": 755,
+      "y": 520,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_SCL",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8c1e6a5450be0ca8",
+      "componentType": "netport",
+      "x": 755,
+      "y": 510,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_OE_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "f514d960467b1b77",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 725,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ae0f3b126504e0fd",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 715,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "51d7e7c13669caaa",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 705,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "MIC_BCLK",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "42b8c8f7e340f1d1",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 695,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "MIC_WS",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d13c21c2d1969b9d",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 685,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "MIC_SD",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "02ad0a28c7dc847c",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 675,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d32c488a369d51ea",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 545,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "5e9d67e8d2301026",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 535,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "AMP_BCLK",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9408e49cf3a9feda",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 525,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "AMP_WS",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "030b715ae09abe9e",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 515,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "AMP_DIN",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "1246303cf31c566a",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 350,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a3413a6d316a0960",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 340,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0a041e4af7d3501c",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 330,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3267b70cd69ef42b",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 320,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "cd49e9c7595c7f1f",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 310,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_SW_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6508b43646f335db",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 300,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9d0ac216f6b2d0e9",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 290,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a380a438e68766b9",
+      "componentType": "netport",
+      "x": 155,
+      "y": 425,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_LOGIC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "836f8ad476a2a193",
+      "componentType": "netport",
+      "x": 155,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "08a6bc85d1969f30",
+      "componentType": "netport",
+      "x": 155,
+      "y": 265,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "VBAT_SW",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b09cc729f93bc8ff",
+      "componentType": "netport",
+      "x": 155,
+      "y": 255,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3ccf13f072b3058d",
+      "componentType": "netport",
+      "x": 415,
+      "y": 425,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_LOGIC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a1d396d0e10160e1",
+      "componentType": "netport",
+      "x": 415,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_MCU",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a454e0c10e842d20",
+      "componentType": "netport",
+      "x": 375,
+      "y": 265,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "VBAT_SW",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8af221fa54034760",
+      "componentType": "netport",
+      "x": 375,
+      "y": 255,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "VBAT_SENSE",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "28ea2fedc8f8093e",
+      "componentType": "netport",
+      "x": 645,
+      "y": 260,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "10189b1a63a92160",
+      "componentType": "netport",
+      "x": 555,
+      "y": 260,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "VBAT_SENSE",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c8f59f1fc79f657b",
+      "componentType": "netport",
+      "x": 700,
+      "y": 135,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a7db63fa70f548b2",
+      "componentType": "netport",
+      "x": 700,
+      "y": 225,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "23970a1942d3a4ac",
+      "componentType": "netport",
+      "x": 620,
+      "y": 565,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_OE_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b55e8bfe9ceae0eb",
+      "componentType": "netport",
+      "x": 620,
+      "y": 475,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e186eb45a013e26c",
+      "componentType": "netport",
+      "x": 600,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "35422659be1cd924",
+      "componentType": "netport",
+      "x": 600,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9a94a5ccdca36452",
+      "componentType": "netport",
+      "x": 710,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "7631ef05aa1811e9",
+      "componentType": "netport",
+      "x": 710,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4dbc348c70752f3a",
+      "componentType": "netport",
+      "x": 820,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_SW_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "7457597b7a3262b7",
+      "componentType": "netport",
+      "x": 820,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "943b9b78392a508e",
+      "componentType": "netport",
+      "x": 930,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3af760bc1e0f6314",
+      "componentType": "netport",
+      "x": 930,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "73a5841a88c23a67",
+      "componentType": "netport",
+      "x": 845,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8372130ff4f7d6d8",
+      "componentType": "netport",
+      "x": 755,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0b5998106df65b74",
+      "componentType": "netport",
+      "x": 255,
+      "y": 350,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_LOGIC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e3ae325f37bc9433",
+      "componentType": "netport",
+      "x": 345,
+      "y": 350,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "aaee59514999c0b5",
+      "componentType": "netport",
+      "x": 505,
+      "y": 160,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9be1dbaeff6e3715",
+      "componentType": "netport",
+      "x": 415,
+      "y": 160,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ec70f68d6dc2279f",
+      "componentType": "netport",
+      "x": 1105,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_LOGIC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0c9181fe8ff6e106",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    }
+  ],
+  "wires": [
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        745,
+        180,
+        745
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "58f1b441c5ac4683"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        735,
+        180,
+        735
+      ],
+      "net": "ENC_B",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2447d25b96d6175c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        715,
+        180,
+        715
+      ],
+      "net": "MIC_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "4178bfd65e373738"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        705,
+        180,
+        705
+      ],
+      "net": "MIC_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9d03d66b858aef1b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        695,
+        180,
+        695
+      ],
+      "net": "MIC_SD",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1011a973ac4348d1"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        685,
+        180,
+        685
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "6f58eb06d9aadf27"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        675,
+        180,
+        675
+      ],
+      "net": "ENC_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "bedc266dfb12838a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        665,
+        180,
+        665
+      ],
+      "net": "PCA_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "07a3253d68787545"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        655,
+        180,
+        655
+      ],
+      "net": "PCA_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "108f6c87b0a0b243"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        645,
+        180,
+        645
+      ],
+      "net": "PCA_OE_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "cf82437baa78828c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        635,
+        180,
+        635
+      ],
+      "net": "LCD_MOSI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e62ac3321123f1df"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        625,
+        180,
+        625
+      ],
+      "net": "LCD_SCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "a537b934dd75262b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        615,
+        180,
+        615
+      ],
+      "net": "LCD_CS_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "af4650e3ca8e8827"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        605,
+        180,
+        605
+      ],
+      "net": "LCD_DC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f39a51a10f9e0283"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        585,
+        180,
+        585
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f89eaf45267c7dd1"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        575,
+        180,
+        575
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "bdcf42b631cc4bdd"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        565,
+        180,
+        565
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9cf543552b947232"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        555,
+        180,
+        555
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9f4d55950dc81354"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        705,
+        440,
+        705
+      ],
+      "net": "AMP_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "58ba4956fe26ac8b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        695,
+        440,
+        695
+      ],
+      "net": "AMP_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "d085886ca422231d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        685,
+        440,
+        685
+      ],
+      "net": "AMP_DIN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "8f9d5918e5aaf72e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        665,
+        440,
+        665
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "67a1f488d9b94b79"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        655,
+        440,
+        655
+      ],
+      "net": "LCD_RST_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "28ac20c024f02e01"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        645,
+        440,
+        645
+      ],
+      "net": "KEY_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "810c280f0bd8b0e9"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        625,
+        440,
+        625
+      ],
+      "net": "ENC_SW_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c95d4d3b31574842"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        585,
+        440,
+        585
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c1ee5b1615ee1edd"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        575,
+        440,
+        575
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f9e779f33acb0420"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        565,
+        440,
+        565
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2cfbb2a5edc4e0ba"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        555,
+        440,
+        555
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e7d518280ea0d1ee"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        735,
+        780,
+        735
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2ba90519727a5e3c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        725,
+        780,
+        725
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "b8d44e705e508e4a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        715,
+        780,
+        715
+      ],
+      "net": "LCD_SCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e6e186be4276958d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        705,
+        780,
+        705
+      ],
+      "net": "LCD_MOSI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "89f84fc175ce3bde"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        695,
+        780,
+        695
+      ],
+      "net": "LCD_RST_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "6ddc5794d6bd2a3c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        685,
+        780,
+        685
+      ],
+      "net": "LCD_DC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "68a0be78c6a9f7d6"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        675,
+        780,
+        675
+      ],
+      "net": "LCD_CS_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "16d988d8b544d1ca"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        550,
+        780,
+        550
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1c30139285bc5778"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        540,
+        780,
+        540
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e221555bc8490740"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        530,
+        780,
+        530
+      ],
+      "net": "PCA_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "745cbac10cfee158"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        520,
+        780,
+        520
+      ],
+      "net": "PCA_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "a17342b08753286f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        510,
+        780,
+        510
+      ],
+      "net": "PCA_OE_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "a0f8a1995e6d2c27"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        725,
+        1040,
+        725
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "38c2add50a566921"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        715,
+        1040,
+        715
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1eb9d6d5e933685d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        705,
+        1040,
+        705
+      ],
+      "net": "MIC_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "99d755044c0c63b6"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        695,
+        1040,
+        695
+      ],
+      "net": "MIC_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0719331c1a57ecfb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        685,
+        1040,
+        685
+      ],
+      "net": "MIC_SD",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "ed6dce58a2069517"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        675,
+        1040,
+        675
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "510c0ac7044a7f3c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        545,
+        1040,
+        545
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "fc9b26c7384a4331"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        535,
+        1040,
+        535
+      ],
+      "net": "AMP_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "cff5175235bca1da"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        525,
+        1040,
+        525
+      ],
+      "net": "AMP_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "d5a06a612096ff6f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        515,
+        1040,
+        515
+      ],
+      "net": "AMP_DIN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "d8dab9c941cc3291"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        350,
+        1040,
+        350
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "8d21e5cf59d04e32"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        340,
+        1040,
+        340
+      ],
+      "net": "ENC_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "44325a3df635a278"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        330,
+        1040,
+        330
+      ],
+      "net": "ENC_B",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "fea8c611bdab7ec1"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        320,
+        1040,
+        320
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "779a3f080df0cb73"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        310,
+        1040,
+        310
+      ],
+      "net": "ENC_SW_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "cf3925223f0dbc74"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        300,
+        1040,
+        300
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "b86a836c225e6449"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        290,
+        1040,
+        290
+      ],
+      "net": "KEY_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "3033928a4f6c6ace"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        425,
+        180,
+        425
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "a4d2b6e0b87230a9"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        415,
+        180,
+        415
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0522712d448ab151"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        265,
+        180,
+        265
+      ],
+      "net": "VBAT_SW",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "156631ac7ec70dc3"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        255,
+        180,
+        255
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c7c519caf7f72e9c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        425,
+        440,
+        425
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9e24434be0834dc8"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        415,
+        440,
+        415
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0396fcb2795014ee"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        375,
+        265,
+        400,
+        265
+      ],
+      "net": "VBAT_SW",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "574e5e4a16fbfd0c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        375,
+        255,
+        400,
+        255
+      ],
+      "net": "VBAT_SENSE",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "cd23603b4fbb1848"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        645,
+        260,
+        620,
+        260
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "3fd0abdf42375b53"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        555,
+        260,
+        580,
+        260
+      ],
+      "net": "VBAT_SENSE",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "52d8dc34b76a3e4f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        700,
+        135,
+        700,
+        160
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "6517868e00718be9"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        700,
+        225,
+        700,
+        200
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "99d83a23d63bfe78"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        620,
+        565,
+        620,
+        540
+      ],
+      "net": "PCA_OE_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "dfb9311ac9908fd0"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        620,
+        475,
+        620,
+        500
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "cb7a0872f15806bb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        600,
+        415,
+        600,
+        390
+      ],
+      "net": "ENC_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "28a9fbee5de4b8fc"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        600,
+        325,
+        600,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "99599582f7fe7264"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        710,
+        415,
+        710,
+        390
+      ],
+      "net": "ENC_B",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "09f68fe37072febb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        710,
+        325,
+        710,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "fe496943a9c2e5af"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        820,
+        415,
+        820,
+        390
+      ],
+      "net": "ENC_SW_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "31db978053489a3d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        820,
+        325,
+        820,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1d12698107268f13"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        930,
+        415,
+        930,
+        390
+      ],
+      "net": "KEY_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "bea65cab17faf233"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        930,
+        325,
+        930,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "84daf074404db814"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        845,
+        180,
+        820,
+        180
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "ee5377bfb3d16991"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        180,
+        780,
+        180
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "7c2872c1511d4326"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        255,
+        350,
+        280,
+        350
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "92651e41e76efbc5"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        345,
+        350,
+        320,
+        350
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c80f2de5242454ec"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        505,
+        160,
+        480,
+        160
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f1652c8713bf9134"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        160,
+        440,
+        160
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e51e6f524cc92068"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1105,
+        180,
+        1080,
+        180
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2c7f94d9ad9b9932"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        180,
+        1040,
+        180
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e9b2baeb2c10df6b"
+    }
+  ]
+}

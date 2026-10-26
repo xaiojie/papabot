@@ -1,0 +1,559 @@
+{
+  "parts": [
+    {
+      "ref": "J3",
+      "device": "fd554b15b6eb4d6f90f5fd338a8ff700",
+      "name": "LCD_5V_SPI",
+      "x": 800,
+      "y": 700,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "+5V_LOGIC",
+        "3": "LCD_SCLK",
+        "4": "LCD_MOSI",
+        "5": "LCD_RST_N",
+        "6": "LCD_DC",
+        "7": "LCD_CS_N",
+        "8": null
+      },
+      "note": "TOUGLESY 2.4 TFT: match signal names at module. BLK left open, default full brightness.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "8f4268105a083fba"
+    },
+    {
+      "ref": "J4",
+      "device": "e999019a30fc45b6addfb63daf8ef2f8",
+      "name": "PCA9685_LOGIC_ONLY",
+      "x": 800,
+      "y": 530,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "PCA_SDA",
+        "4": "PCA_SCL",
+        "5": "PCA_OE_N"
+      },
+      "note": "VCC 3.3V. OE high=disabled. Module V+ and servo red wires use external power distribution.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "70beb00d6ce80db2"
+    },
+    {
+      "ref": "J5",
+      "device": "8713123b624d4455bcbe38688209bdf0",
+      "name": "MIC_3V3_I2S",
+      "x": 1060,
+      "y": 700,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "MIC_BCLK",
+        "4": "MIC_WS",
+        "5": "MIC_SD",
+        "6": "GND"
+      },
+      "note": "Pin 6 is microphone LR, grounded for left channel. Match module silk, not cable position.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "c031fc4db202a8c0"
+    },
+    {
+      "ref": "J6",
+      "device": "d5e86a4f70d24c6c950b9ff10d30894b",
+      "name": "AMP_I2S_SIGNALS",
+      "x": 1060,
+      "y": 530,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "AMP_BCLK",
+        "3": "AMP_WS",
+        "4": "AMP_DIN"
+      },
+      "note": "MAX98357 power uses short external UBEC branch. SD_MODE keeps module default.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "44a2a24396f41523"
+    },
+    {
+      "ref": "J7",
+      "device": "46da13cb38f04076aa100edb7adcd933",
+      "name": "REAR_DRY_CONTACTS",
+      "x": 1060,
+      "y": 610,
+      "rotation": 0,
+      "nets": {
+        "1": "GND",
+        "2": "ENC_A",
+        "3": "ENC_B",
+        "4": "GND",
+        "5": "ENC_SW_N",
+        "6": "GND",
+        "7": "KEY_N"
+      },
+      "note": "Desolder original EC11 and key. Verify dry contacts with continuity meter before connecting.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "9cfaa876b030a1c2"
+    },
+    {
+      "ref": "J8",
+      "device": "eab4a8150b6d4918927e38d645cd50f2",
+      "name": "LOGIC_5V_IN",
+      "x": 200,
+      "y": 420,
+      "rotation": 0,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "note": "UBEC 3A set to 5V. Carrier input excludes amplifier branch and all servo currents.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "8b89218822574d83"
+    },
+    {
+      "ref": "J9",
+      "device": "eab4a8150b6d4918927e38d645cd50f2",
+      "name": "SWITCHED_BAT_SENSE",
+      "x": 200,
+      "y": 260,
+      "rotation": 0,
+      "nets": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "note": "Sense only: connect after main switch. Never connect to unswitched battery.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "9f91477d248df4df"
+    },
+    {
+      "ref": "JP1",
+      "device": "eab4a8150b6d4918927e38d645cd50f2",
+      "name": "MCU_POWER_LINK",
+      "x": 460,
+      "y": 420,
+      "rotation": 0,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "+5V_MCU"
+      },
+      "note": "Solder wire link for standalone battery operation. USB VBUS is NOT isolated. Remove MCU to USB program.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "a797a349cae26b00"
+    },
+    {
+      "ref": "JP2",
+      "device": "eab4a8150b6d4918927e38d645cd50f2",
+      "name": "BAT_SENSE_LINK",
+      "x": 420,
+      "y": 260,
+      "rotation": 0,
+      "nets": {
+        "1": "VBAT_SW",
+        "2": "VBAT_SENSE"
+      },
+      "note": "Solder link only after battery/MCU power-up verification. Open for standalone USB operation.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "c9b547ef91fad639"
+    },
+    {
+      "ref": "R1",
+      "device": "e3837981a48340158888ed736539403b",
+      "name": "100k 1% 0.25W",
+      "x": 600,
+      "y": 260,
+      "rotation": 0,
+      "nets": {
+        "1": "VBAT_SENSE",
+        "2": "ADC_BAT"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "d6eb06bda6c435f8"
+    },
+    {
+      "ref": "R2",
+      "device": "b5820c5bc6c347098811112c5fd72b49",
+      "name": "33k 1% 0.25W",
+      "x": 700,
+      "y": 180,
+      "rotation": 270,
+      "nets": {
+        "1": "ADC_BAT",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "aa990e9fb83ba1c4"
+    },
+    {
+      "ref": "R3",
+      "device": "aa2dc670869d4717b8e9c7ad13737883",
+      "name": "10k OE pullup",
+      "x": 620,
+      "y": 520,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "PCA_OE_N"
+      },
+      "note": "Check/remove module OE pull-down if fitted; verify OE remains high at boot.",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "53151003159d7694"
+    },
+    {
+      "ref": "R4",
+      "device": "aa2dc670869d4717b8e9c7ad13737883",
+      "name": "10k 1% 0.25W",
+      "x": 600,
+      "y": 370,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "ENC_A"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "b88989ce5ce819e4"
+    },
+    {
+      "ref": "R5",
+      "device": "aa2dc670869d4717b8e9c7ad13737883",
+      "name": "10k 1% 0.25W",
+      "x": 710,
+      "y": 370,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "ENC_B"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "c506a9ca445803df"
+    },
+    {
+      "ref": "R6",
+      "device": "aa2dc670869d4717b8e9c7ad13737883",
+      "name": "10k 1% 0.25W",
+      "x": 820,
+      "y": 370,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "ENC_SW_N"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "b8020d6d5c8dbd49"
+    },
+    {
+      "ref": "R7",
+      "device": "aa2dc670869d4717b8e9c7ad13737883",
+      "name": "10k 1% 0.25W",
+      "x": 930,
+      "y": 370,
+      "rotation": 270,
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_N"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "031511184ff5ae23"
+    },
+    {
+      "ref": "C1",
+      "device": "477a96a6592848738afbd710f8b39fc8",
+      "name": "100nF 50V P5.08",
+      "x": 800,
+      "y": 160,
+      "rotation": 90,
+      "nets": {
+        "1": "ADC_BAT",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "e1ee794e74ec3f11"
+    },
+    {
+      "ref": "C2",
+      "device": "a84729d2d31842da95d4ba6480505198",
+      "name": "470uF 16V",
+      "x": 300,
+      "y": 350,
+      "rotation": 0,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "note": "OFF BOARD: UBEC / amplifier branch. 12mm body height exceeds carrier stacking clearance.",
+      "actual": true,
+      "on_pcb": false,
+      "native_primitive_id": "132b23ec7999296e"
+    },
+    {
+      "ref": "C3",
+      "device": "477a96a6592848738afbd710f8b39fc8",
+      "name": "100nF 50V P5.08",
+      "x": 460,
+      "y": 160,
+      "rotation": 90,
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "f5bd31e523c8e44c"
+    },
+    {
+      "ref": "C4",
+      "device": "477a96a6592848738afbd710f8b39fc8",
+      "name": "100nF 50V P5.08",
+      "x": 1010,
+      "y": 180.00000000000003,
+      "rotation": 90,
+      "nets": {
+        "1": "+5V_LOGIC",
+        "2": "GND"
+      },
+      "note": "",
+      "actual": false,
+      "on_pcb": true,
+      "native_primitive_id": "30940e325cb103fd"
+    }
+  ],
+  "pinmaps": {
+    "J1": {
+      "1": "ADC_BAT",
+      "2": "ENC_B",
+      "3": null,
+      "4": "MIC_BCLK",
+      "5": "MIC_WS",
+      "6": "MIC_SD",
+      "7": "GND",
+      "8": "ENC_A",
+      "9": "PCA_SDA",
+      "10": "PCA_SCL",
+      "11": "PCA_OE_N",
+      "12": "LCD_MOSI",
+      "13": "LCD_SCLK",
+      "14": "LCD_CS_N",
+      "15": "LCD_DC",
+      "16": null,
+      "17": "+3V3",
+      "18": "+3V3",
+      "19": "+3V3",
+      "20": "GND"
+    },
+    "J2": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": "AMP_BCLK",
+      "6": "AMP_WS",
+      "7": "AMP_DIN",
+      "8": null,
+      "9": "GND",
+      "10": "LCD_RST_N",
+      "11": "KEY_N",
+      "12": null,
+      "13": "ENC_SW_N",
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": "+5V_MCU",
+      "18": "+5V_MCU",
+      "19": "+5V_MCU",
+      "20": "GND"
+    },
+    "J3": {
+      "1": "GND",
+      "2": "+5V_LOGIC",
+      "3": "LCD_SCLK",
+      "4": "LCD_MOSI",
+      "5": "LCD_RST_N",
+      "6": "LCD_DC",
+      "7": "LCD_CS_N",
+      "8": null
+    },
+    "J4": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "PCA_SDA",
+      "4": "PCA_SCL",
+      "5": "PCA_OE_N"
+    },
+    "J5": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "MIC_BCLK",
+      "4": "MIC_WS",
+      "5": "MIC_SD",
+      "6": "GND"
+    },
+    "J6": {
+      "1": "GND",
+      "2": "AMP_BCLK",
+      "3": "AMP_WS",
+      "4": "AMP_DIN"
+    },
+    "J7": {
+      "1": "GND",
+      "2": "ENC_A",
+      "3": "ENC_B",
+      "4": "GND",
+      "5": "ENC_SW_N",
+      "6": "GND",
+      "7": "KEY_N"
+    },
+    "J8": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    },
+    "J9": {
+      "1": "VBAT_SW",
+      "2": "GND"
+    },
+    "JP1": {
+      "1": "+5V_LOGIC",
+      "2": "+5V_MCU"
+    },
+    "JP2": {
+      "1": "VBAT_SW",
+      "2": "VBAT_SENSE"
+    },
+    "R1": {
+      "1": "VBAT_SENSE",
+      "2": "ADC_BAT"
+    },
+    "R2": {
+      "1": "ADC_BAT",
+      "2": "GND"
+    },
+    "R3": {
+      "1": "+3V3",
+      "2": "PCA_OE_N"
+    },
+    "R4": {
+      "1": "+3V3",
+      "2": "ENC_A"
+    },
+    "R5": {
+      "1": "+3V3",
+      "2": "ENC_B"
+    },
+    "R6": {
+      "1": "+3V3",
+      "2": "ENC_SW_N"
+    },
+    "R7": {
+      "1": "+3V3",
+      "2": "KEY_N"
+    },
+    "C1": {
+      "1": "ADC_BAT",
+      "2": "GND"
+    },
+    "C2": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    },
+    "C3": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "C4": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    }
+  },
+  "board": {
+    "width_mm": 80,
+    "height_mm": 32,
+    "thickness_target_mm": 1.6,
+    "copper_layers": 2,
+    "header_row_pitch_mm": 17.78,
+    "mount_holes_mm": [
+      [
+        5,
+        5,
+        3.2
+      ],
+      [
+        75,
+        5,
+        3.2
+      ],
+      [
+        75,
+        27,
+        3.2
+      ],
+      [
+        5,
+        27,
+        3.2
+      ]
+    ],
+    "outline_mm": [
+      [
+        0,
+        0
+      ],
+      [
+        80,
+        0
+      ],
+      [
+        80,
+        32
+      ],
+      [
+        0,
+        32
+      ],
+      [
+        0,
+        22.5
+      ],
+      [
+        24.17,
+        22.5
+      ],
+      [
+        24.17,
+        9.5
+      ],
+      [
+        0,
+        9.5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "antenna_cutout_status": "Conservative candidate based on manufacturer image; not RF validated; router cutter adds internal corner radius."
+  },
+  "source_note": "Positions updated from live schematic; historical build_schematic.py must not be rerun."
+}

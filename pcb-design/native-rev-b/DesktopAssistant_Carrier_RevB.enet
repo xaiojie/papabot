@@ -1,0 +1,1897 @@
+{
+    "version": "2.0.0",
+    "components": {
+        "gge1": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "a17338de6732da40",
+                "Designator": "J1",
+                "Device": "f06b35e42d8ad38d",
+                "Unique ID": "gge1",
+                "Footprint": "1e9f72ef59ac55b2",
+                "Name": "={Manufacturer Part}",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I2",
+                "Manufacturer": "JILN(锦凌)",
+                "Manufacturer Part": "22850120ANG1SYA01",
+                "Supplier": "LCSC",
+                "Supplier Part": "C429947",
+                "LCSC Part Name": "1x20P 间距:2.54mm 直插",
+                "Supplier Footprint": "插件,P=2.54mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/22850120ANG1SYA01/426399.html",
+                "Holes Structure": "1x20P",
+                "Pitch": "2.54mm",
+                "Row Spacing": "-",
+                "Circular Hole / Square Hole": "方孔",
+                "Mounting Type": "直插",
+                "Number of Rows": "单排",
+                "Number of Positions": "20P",
+                "Current Rating": "3A",
+                "Holes Direction": "顶部",
+                "Insulation Height": "8.5mm",
+                "Contact Material": "黄铜",
+                "Contact Plating": "金",
+                "Operating Temperature": "-40℃~+105℃",
+                "Description": "插孔结构:1x20P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:20P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;",
+                "Value": "MCU_LEFT_20P",
+                "3D Model": "db7015f7ad9d48b8a3b1188db02e3429|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-F-2.54_1x20",
+                "3D Model Transform": "1999.996,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "22850120ANG1SYA01",
+                "FootprintName": "HDR-TH_20P-P2.54-V-F"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "ADC_BAT",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC_B",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "MIC_BCLK",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "MIC_WS",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "MIC_SD",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "ENC_A",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "9",
+                    "number": "9",
+                    "net": "PCA_SDA",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "10",
+                    "number": "10",
+                    "net": "PCA_SCL",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "11",
+                    "number": "11",
+                    "net": "PCA_OE_N",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                },
+                "12": {
+                    "name": "12",
+                    "number": "12",
+                    "net": "LCD_MOSI",
+                    "props": {
+                        "Pin Number": "12"
+                    }
+                },
+                "13": {
+                    "name": "13",
+                    "number": "13",
+                    "net": "LCD_SCLK",
+                    "props": {
+                        "Pin Number": "13"
+                    }
+                },
+                "14": {
+                    "name": "14",
+                    "number": "14",
+                    "net": "LCD_CS_N",
+                    "props": {
+                        "Pin Number": "14"
+                    }
+                },
+                "15": {
+                    "name": "15",
+                    "number": "15",
+                    "net": "LCD_DC",
+                    "props": {
+                        "Pin Number": "15"
+                    }
+                },
+                "16": {
+                    "name": "16",
+                    "number": "16",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "16"
+                    }
+                },
+                "17": {
+                    "name": "17",
+                    "number": "17",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "17"
+                    }
+                },
+                "18": {
+                    "name": "18",
+                    "number": "18",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "18"
+                    }
+                },
+                "19": {
+                    "name": "19",
+                    "number": "19",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "19"
+                    }
+                },
+                "20": {
+                    "name": "20",
+                    "number": "20",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "20"
+                    }
+                }
+            }
+        },
+        "gge2": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "a17338de6732da40",
+                "Designator": "J2",
+                "Device": "f06b35e42d8ad38d",
+                "Unique ID": "gge2",
+                "Footprint": "1e9f72ef59ac55b2",
+                "Name": "={Manufacturer Part}",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I3",
+                "Manufacturer": "JILN(锦凌)",
+                "Manufacturer Part": "22850120ANG1SYA01",
+                "Supplier": "LCSC",
+                "Supplier Part": "C429947",
+                "LCSC Part Name": "1x20P 间距:2.54mm 直插",
+                "Supplier Footprint": "插件,P=2.54mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/22850120ANG1SYA01/426399.html",
+                "Holes Structure": "1x20P",
+                "Pitch": "2.54mm",
+                "Row Spacing": "-",
+                "Circular Hole / Square Hole": "方孔",
+                "Mounting Type": "直插",
+                "Number of Rows": "单排",
+                "Number of Positions": "20P",
+                "Current Rating": "3A",
+                "Holes Direction": "顶部",
+                "Insulation Height": "8.5mm",
+                "Contact Material": "黄铜",
+                "Contact Plating": "金",
+                "Operating Temperature": "-40℃~+105℃",
+                "Description": "插孔结构:1x20P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:20P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;",
+                "Value": "MCU_RIGHT_20P",
+                "3D Model": "db7015f7ad9d48b8a3b1188db02e3429|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-F-2.54_1x20",
+                "3D Model Transform": "1999.996,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "22850120ANG1SYA01",
+                "FootprintName": "HDR-TH_20P-P2.54-V-F"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "AMP_BCLK",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "AMP_WS",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "AMP_DIN",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "9",
+                    "number": "9",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "10",
+                    "number": "10",
+                    "net": "LCD_RST_N",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "11",
+                    "number": "11",
+                    "net": "KEY_N",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                },
+                "12": {
+                    "name": "12",
+                    "number": "12",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "12"
+                    }
+                },
+                "13": {
+                    "name": "13",
+                    "number": "13",
+                    "net": "ENC_SW_N",
+                    "props": {
+                        "Pin Number": "13"
+                    }
+                },
+                "14": {
+                    "name": "14",
+                    "number": "14",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "14"
+                    }
+                },
+                "15": {
+                    "name": "15",
+                    "number": "15",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "15"
+                    }
+                },
+                "16": {
+                    "name": "16",
+                    "number": "16",
+                    "net": "",
+                    "props": {
+                        "Pin Number": "16"
+                    }
+                },
+                "17": {
+                    "name": "17",
+                    "number": "17",
+                    "net": "+5V_MCU",
+                    "props": {
+                        "Pin Number": "17"
+                    }
+                },
+                "18": {
+                    "name": "18",
+                    "number": "18",
+                    "net": "+5V_MCU",
+                    "props": {
+                        "Pin Number": "18"
+                    }
+                },
+                "19": {
+                    "name": "19",
+                    "number": "19",
+                    "net": "+5V_MCU",
+                    "props": {
+                        "Pin Number": "19"
+                    }
+                },
+                "20": {
+                    "name": "20",
+                    "number": "20",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "20"
+                    }
+                }
+            }
+        },
+        "gge3": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "9982403b9b5d9cf7",
+                "Designator": "J3",
+                "Device": "0f9709222da61412",
+                "Unique ID": "gge3",
+                "Footprint": "95bdbe339194dcd4",
+                "Name": "LCD_3V3_SPI",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I33",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "3.3V ONLY: VCC and BLK use LCD_3V3. Stock EC11 and key remain on the original module; see J7.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "LCD_3V3_SPI",
+                "3D Model": "f5b96e27511e49e38545e53df2320202|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_8P-P2.54-V-M",
+                "3D Model Transform": "807.87244,98.425,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x8P",
+                "FootprintName": "HDR-TH_8P-P2.54-V-M"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "LCD_3V3",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "LCD_SCLK",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "LCD_MOSI",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "LCD_RST_N",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "LCD_DC",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "LCD_CS_N",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "LCD_3V3",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                }
+            }
+        },
+        "gge4": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "c8a83687ff86216f",
+                "Designator": "J4",
+                "Device": "2a0cc389af5b9794",
+                "Unique ID": "gge4",
+                "Footprint": "ae557be3da6dcd1e",
+                "Name": "PCA9685_LOGIC_ONLY",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I34",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "VCC 3.3V. OE high=disabled. Module V+ and servo red wires use external power distribution.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "PCA9685_LOGIC_ONLY",
+                "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+                "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x5P",
+                "FootprintName": "HDR-TH_5P-P2.54-V-M"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "PCA_SDA",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "PCA_SCL",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PCA_OE_N",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                }
+            }
+        },
+        "gge5": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "5cd45b0baa13db7b",
+                "Designator": "J5",
+                "Device": "f5216295073a57a9",
+                "Unique ID": "gge5",
+                "Footprint": "cbc8631ceed0bfa6",
+                "Name": "MIC_3V3_I2S",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I35",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "Pin 6 is microphone LR, grounded for left channel. Match module silk, not cable position.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "MIC_3V3_I2S",
+                "3D Model": "60739dffc9b04830a286435b0fefbd4a|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR2.54-M-LI-1X6P",
+                "3D Model Transform": "599.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x6P",
+                "FootprintName": "HDR-TH_6P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "MIC_BCLK",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "MIC_WS",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "MIC_SD",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                }
+            }
+        },
+        "gge6": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "393fdf8f23cae0cc",
+                "Designator": "J6",
+                "Device": "768d7f54efb3fb76",
+                "Unique ID": "gge6",
+                "Footprint": "f8718583d233d8ff",
+                "Name": "AMP_I2S_SIGNALS",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I36",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "MAX98357 power uses short external UBEC branch. SD_MODE keeps module default.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "AMP_I2S_SIGNALS",
+                "3D Model": "112f4d05e8d64e99ab9a333894bea4f9|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_4P-P2.54-M-LI-1X4P",
+                "3D Model Transform": "399.999,104.7242,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x4P",
+                "FootprintName": "HDR-TH_4P-P2.54-V-M"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "AMP_BCLK",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "AMP_WS",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "AMP_DIN",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                }
+            }
+        },
+        "gge7": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "5ee1c7cf80d049c1",
+                "Designator": "J7",
+                "Device": "f8aa8c113df941ed",
+                "Unique ID": "gge7",
+                "Footprint": "3cb89ff0c584bf4e",
+                "Name": "LCD_STOCK_CONTROLS",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I37",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "A/B/PUSH/K0 from original screen PCB at 3.3V. Keep original controls; match signal labels.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "LCD_STOCK_CONTROLS",
+                "3D Model": "3f496cdc752348c6a5e9157bbaceaf96|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_7P-P2.54-M-LI-1X7P",
+                "3D Model Transform": "690.1561,98.425,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x7P",
+                "FootprintName": "HDR-TH_7P-P2.54-V-M"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC_A",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "ENC_B",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "ENC_SW_N",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "KEY_N",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                }
+            }
+        },
+        "gge8": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b15747cf9e3d054e",
+                "Designator": "J8",
+                "Device": "e3a3ad3aa7709b41",
+                "Unique ID": "gge8",
+                "Name": "LOGIC_5V_IN",
+                "Footprint": "99533ffb5b6a0df7",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I38",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "UBEC 3A set to 5V. Carrier input excludes amplifier branch and all servo currents.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "LOGIC_5V_IN",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x2P",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+5V_LOGIC",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge9": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b15747cf9e3d054e",
+                "Designator": "J9",
+                "Device": "e3a3ad3aa7709b41",
+                "Unique ID": "gge9",
+                "Name": "SWITCHED_BAT_SENSE",
+                "Footprint": "99533ffb5b6a0df7",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I39",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "Sense only: connect after main switch. Never connect to unswitched battery.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "SWITCHED_BAT_SENSE",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x2P",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "VBAT_SW",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge10": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b15747cf9e3d054e",
+                "Designator": "JP1",
+                "Device": "e3a3ad3aa7709b41",
+                "Unique ID": "gge10",
+                "Name": "MCU_POWER_LINK",
+                "Footprint": "99533ffb5b6a0df7",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I40",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "Solder wire link for standalone battery operation. USB VBUS is NOT isolated. Remove MCU to USB program.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "MCU_POWER_LINK",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x2P",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+5V_LOGIC",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "+5V_MCU",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge11": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b15747cf9e3d054e",
+                "Designator": "JP2",
+                "Device": "e3a3ad3aa7709b41",
+                "Unique ID": "gge11",
+                "Name": "BAT_SENSE_LINK",
+                "Footprint": "99533ffb5b6a0df7",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I41",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Supplier Footprint": "",
+                "Description": "",
+                "Assembly note": "Solder link only after battery/MCU power-up verification. Open for standalone USB operation.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Supplier Part": "",
+                "Value": "BAT_SENSE_LINK",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR-M_2.54_1x2P",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "VBAT_SW",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "VBAT_SENSE",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge12": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "de465cd8997933ab",
+                "Designator": "R1",
+                "Device": "7e9f401463d5ebb5",
+                "Unique ID": "gge12",
+                "Footprint": "89f24940522de529",
+                "Name": "100k 1% 0.25W",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I42",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "100k 1% 0.25W",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-100K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-100K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "VBAT_SENSE",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ADC_BAT",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge13": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "f4ea1f80cc5da0ab",
+                "Designator": "R2",
+                "Device": "d072e3a4e3ac621e",
+                "Unique ID": "gge13",
+                "Footprint": "89f24940522de529",
+                "Name": "33k 1% 0.25W",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I43",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "33k 1% 0.25W",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-33K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-33K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "ADC_BAT",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge14": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "87c7db7fd555e83e",
+                "Designator": "R3",
+                "Device": "b0ebc38270c1330d",
+                "Unique ID": "gge14",
+                "Footprint": "89f24940522de529",
+                "Name": "10k OE pullup",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I44",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "10k 1% OE pull-up",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "Check/remove module OE pull-down if fitted; verify OE remains high at boot.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-10K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-10K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "PCA_OE_N",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge15": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "87c7db7fd555e83e",
+                "Designator": "R4",
+                "Device": "b0ebc38270c1330d",
+                "Unique ID": "gge15",
+                "Footprint": "89f24940522de529",
+                "Name": "10k 1% 0.25W",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I45",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "10k 1% 0.25W",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-10K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-10K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC_A",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge16": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "87c7db7fd555e83e",
+                "Designator": "R5",
+                "Device": "b0ebc38270c1330d",
+                "Unique ID": "gge16",
+                "Footprint": "89f24940522de529",
+                "Name": "10k 1% 0.25W",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I46",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "10k 1% 0.25W",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-10K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-10K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC_B",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge17": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "87c7db7fd555e83e",
+                "Designator": "R6",
+                "Device": "b0ebc38270c1330d",
+                "Unique ID": "gge17",
+                "Footprint": "89f24940522de529",
+                "Name": "10k 1% 0.25W",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I47",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "10k 1% 0.25W",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-10K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-10K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC_SW_N",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge18": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "87c7db7fd555e83e",
+                "Designator": "R7",
+                "Device": "b0ebc38270c1330d",
+                "Unique ID": "gge18",
+                "Footprint": "89f24940522de529",
+                "Name": "10k 1% 0.25W",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I48",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Type": "",
+                "Value": "10k 1% 0.25W",
+                "Tolerance": "",
+                "Voltage-Supply(Max)": "",
+                "Power(Watts)": "",
+                "Temperature Coefficient": "",
+                "Operating Temperature": "",
+                "Description": "",
+                "Assembly note": "DNP by default: stock module already has 10k pull-ups to LCD_3V3. Optional footprint retained.",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "VO(翔胜)",
+                "Manufacturer Part": "MF1/4W-10K±1%-ST52",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "f91fbe0e2e6f409498f09f811e4616fe|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+                "3D Model Transform": "417.322,106.221,0,0,0,0,0,0,-196.85",
+                "DeviceName": "MF1/4W-10K±1%-ST52",
+                "FootprintName": "RES-TH_BD2.7-L6.2-P10.20-D0.4"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "KEY_N",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge19": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "61fdd1c015210b27",
+                "Designator": "C1",
+                "Device": "ea964fb047995a51",
+                "Unique ID": "gge19",
+                "Footprint": "2dee937134fc6ddb",
+                "Name": "100nF 50V P5.08",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I49",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Value": "100nF 50V P5.08",
+                "Tolerance": "",
+                "Voltage Rating": "",
+                "Pin Spacing": "",
+                "Temperature Coefficient": "",
+                "Diameter": "",
+                "Body Thickness": "",
+                "Description": "",
+                "Assembly note": "",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "Dersonic(德尔创)",
+                "Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "3d005bb2736f4b028b929daf59d2a504|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L5.0-W2.5-P5.08",
+                "3D Model Transform": "222.8342,98.419,0,0,0,0,0,0,-118.11",
+                "DeviceName": "CC1H104ZC14D3F5O10MF",
+                "FootprintName": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "ADC_BAT",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge21": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "61fdd1c015210b27",
+                "Designator": "C3",
+                "Device": "ea964fb047995a51",
+                "Unique ID": "gge21",
+                "Footprint": "2dee937134fc6ddb",
+                "Name": "100nF 50V P5.08",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I51",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Value": "100nF 50V P5.08",
+                "Tolerance": "",
+                "Voltage Rating": "",
+                "Pin Spacing": "",
+                "Temperature Coefficient": "",
+                "Diameter": "",
+                "Body Thickness": "",
+                "Description": "",
+                "Assembly note": "",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "Dersonic(德尔创)",
+                "Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "3d005bb2736f4b028b929daf59d2a504|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L5.0-W2.5-P5.08",
+                "3D Model Transform": "222.8342,98.419,0,0,0,0,0,0,-118.11",
+                "DeviceName": "CC1H104ZC14D3F5O10MF",
+                "FootprintName": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge22": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "61fdd1c015210b27",
+                "Designator": "C4",
+                "Device": "ea964fb047995a51",
+                "Unique ID": "gge22",
+                "Footprint": "2dee937134fc6ddb",
+                "Name": "100nF 50V P5.08",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I52",
+                "LCSC Part Name": "",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Value": "100nF 50V P5.08",
+                "Tolerance": "",
+                "Voltage Rating": "",
+                "Pin Spacing": "",
+                "Temperature Coefficient": "",
+                "Diameter": "",
+                "Body Thickness": "",
+                "Description": "",
+                "Assembly note": "",
+                "Procurement": "Use previously selected BOM item; library geometry is a template.",
+                "Manufacturer": "Dersonic(德尔创)",
+                "Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+                "Supplier": "LCSC",
+                "Supplier Part": "",
+                "3D Model": "3d005bb2736f4b028b929daf59d2a504|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L5.0-W2.5-P5.08",
+                "3D Model Transform": "222.8342,98.419,0,0,0,0,0,0,-118.11",
+                "DeviceName": "CC1H104ZC14D3F5O10MF",
+                "FootprintName": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+5V_LOGIC",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "revb-JP3": {
+            "props": {
+                "Unique ID": "revb-JP3",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b15747cf9e3d054e",
+                "Designator": "JP3",
+                "Device": "e3a3ad3aa7709b41",
+                "Supplier Part": "",
+                "Supplier Footprint": "",
+                "Name": "LCD_3V3_LINK_OPEN",
+                "Footprint": "99533ffb5b6a0df7",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "Description": "",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I288",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Value": "LCD_3V3_LINK_OPEN",
+                "Assembly note": "Normally OPEN low-profile wire link. Close only after MCU LDO current/thermal checks; external J10 must be disconnected.",
+                "Procurement": "Use matching 2.54mm low-profile wire link/input or 100nF P5.08 capacitor; do not treat library template as purchase confirmation.",
+                "DeviceName": "HDR-M_2.54_1x2P",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "+3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "LCD_3V3",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "revb-J10": {
+            "props": {
+                "Unique ID": "revb-J10",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b15747cf9e3d054e",
+                "Designator": "J10",
+                "Device": "e3a3ad3aa7709b41",
+                "Supplier Part": "",
+                "Supplier Footprint": "",
+                "Name": "LCD_EXT_3V3_IN",
+                "Footprint": "99533ffb5b6a0df7",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "Description": "",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I291",
+                "Manufacturer": "",
+                "Manufacturer Part": "",
+                "Supplier": "",
+                "Value": "LCD_EXT_3V3_IN",
+                "Assembly note": "Regulated 3.3V ONLY. JP3 must be OPEN. Power MCU/LCD together. Never connect 5V or parallel regulator outputs.",
+                "Procurement": "Use matching 2.54mm low-profile wire link/input or 100nF P5.08 capacitor; do not treat library template as purchase confirmation.",
+                "DeviceName": "HDR-M_2.54_1x2P",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "LCD_3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "revb-C5": {
+            "props": {
+                "Unique ID": "revb-C5",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "61fdd1c015210b27",
+                "Designator": "C5",
+                "Device": "ea964fb047995a51",
+                "LCSC Part Name": "",
+                "Supplier Part": "",
+                "Manufacturer": "Dersonic(德尔创)",
+                "Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+                "Supplier Footprint": "",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Supplier": "LCSC",
+                "Footprint": "2dee937134fc6ddb",
+                "3D Model": "3d005bb2736f4b028b929daf59d2a504|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L5.0-W2.5-P5.08",
+                "3D Model Transform": "222.8342,98.419,0,0,0,0,0,0,-118.11",
+                "Value": "100nF 50V P5.08",
+                "Tolerance": "",
+                "Voltage Rating": "",
+                "Pin Spacing": "",
+                "Temperature Coefficient": "",
+                "Diameter": "",
+                "Body Thickness": "",
+                "Name": "100nF 50V P5.08",
+                "Description": "",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I294",
+                "Assembly note": "LCD rail bypass. External regulator must include its specified bulk/output capacitors; module already includes local decoupling.",
+                "Procurement": "Use matching 2.54mm low-profile wire link/input or 100nF P5.08 capacitor; do not treat library template as purchase confirmation.",
+                "DeviceName": "CC1H104ZC14D3F5O10MF",
+                "FootprintName": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "LCD_3V3",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        }
+    },
+    "designRule": {
+        "trackPhysics": {
+            "copperThickness1oz": {
+                "name": "copperThickness1oz",
+                "isDefault": true,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.127,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            },
+            "copperThickness2oz": {
+                "name": "copperThickness2oz",
+                "isDefault": false,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.203,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            }
+        },
+        "netRule": {
+            "ADC_BAT": {
+                "net": "ADC_BAT",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC_B": {
+                "net": "ENC_B",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "MIC_BCLK": {
+                "net": "MIC_BCLK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "MIC_WS": {
+                "net": "MIC_WS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "MIC_SD": {
+                "net": "MIC_SD",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GND": {
+                "net": "GND",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC_A": {
+                "net": "ENC_A",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCA_SDA": {
+                "net": "PCA_SDA",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCA_SCL": {
+                "net": "PCA_SCL",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCA_OE_N": {
+                "net": "PCA_OE_N",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LCD_MOSI": {
+                "net": "LCD_MOSI",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LCD_SCLK": {
+                "net": "LCD_SCLK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LCD_CS_N": {
+                "net": "LCD_CS_N",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LCD_DC": {
+                "net": "LCD_DC",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "+3V3": {
+                "net": "+3V3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "AMP_BCLK": {
+                "net": "AMP_BCLK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "AMP_WS": {
+                "net": "AMP_WS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "AMP_DIN": {
+                "net": "AMP_DIN",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LCD_RST_N": {
+                "net": "LCD_RST_N",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "KEY_N": {
+                "net": "KEY_N",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC_SW_N": {
+                "net": "ENC_SW_N",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "+5V_MCU": {
+                "net": "+5V_MCU",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LCD_3V3": {
+                "net": "LCD_3V3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "+5V_LOGIC": {
+                "net": "+5V_LOGIC",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "VBAT_SW": {
+                "net": "VBAT_SW",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "VBAT_SENSE": {
+                "net": "VBAT_SENSE",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            }
+        }
+    },
+    "differentialPair": {},
+    "netClass": {},
+    "equalLengthNetGroup": {}
+}

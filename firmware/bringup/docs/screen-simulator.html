@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>桌面助手 · ST7789 屏幕模拟器（无硬件预览）</title>
+<style>
+  :root{--bg:#f2f5ef;--ink:#182c32;--mut:#5b6f73;--line:#bed0c8;--accent:#3f7f63;--warn:#a8482c;--card:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  main{max-width:1180px;margin:0 auto;padding:26px 20px 70px}
+  h1{font-size:26px;margin:0 0 6px}
+  h2{font-size:17px;margin:0 0 10px}
+  h3{font-size:14px;margin:16px 0 6px;color:var(--mut)}
+  .sub{color:var(--mut);margin:0 0 18px}
+  .badge{display:inline-block;background:#e3ece4;border:1px solid var(--line);border-radius:20px;padding:3px 11px;font-size:12.5px;color:var(--accent);margin-right:6px}
+  .badge.warn{background:#fbe9e2;border-color:#e6bfae;color:var(--warn)}
+  nav.tabs{display:flex;gap:8px;margin:18px 0 0;flex-wrap:wrap}
+  nav.tabs button{appearance:none;border:1px solid var(--line);background:#e9efe9;color:var(--ink);border-radius:11px 11px 0 0;padding:10px 16px;font:600 14px/1 inherit;cursor:pointer}
+  nav.tabs button[aria-selected="true"]{background:var(--card);border-bottom-color:var(--card);color:var(--accent)}
+  .panel{display:none;background:var(--card);border:1px solid var(--line);border-radius:0 12px 12px 12px;padding:18px}
+  .panel.active{display:block}
+  .cols{display:grid;grid-template-columns:1fr 340px;gap:18px;align-items:start}
+  @media(max-width:920px){.cols{grid-template-columns:1fr}}
+  .stage{background:#0d1117;border:1px solid #2b3a3f;border-radius:10px;padding:12px;display:flex;flex-direction:column;align-items:center;gap:10px}
+  canvas{image-rendering:pixelated;display:block;border-radius:4px}
+  .screenwrap{position:relative;padding:14px;background:linear-gradient(180deg,#2a3138,#1b2126);border-radius:10px;box-shadow:inset 0 0 0 1px #3d474e}
+  .screenwrap::after{content:"";position:absolute;inset:8px;pointer-events:none;border-radius:6px;background:linear-gradient(140deg,rgba(255,255,255,.07),transparent 42%)}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:center}
+  .toolbar button,.btn{appearance:none;background:#e9efe9;border:1px solid var(--line);border-radius:8px;padding:7px 12px;font:600 13px/1 inherit;color:var(--ink);cursor:pointer}
+  .toolbar button:hover,.btn:hover{background:#dde8dd}
+  .toolbar button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .card{border:1px solid var(--line);border-radius:10px;padding:13px;margin-bottom:12px;background:#fbfcf9}
+  .knob{width:120px;height:120px;border-radius:50%;margin:6px auto;background:radial-gradient(circle at 36% 30%,#f6f8f4,#c3cfc6);border:1px solid #9fb0a5;position:relative;cursor:grab;touch-action:none;user-select:none}
+  .knob .dot{position:absolute;left:50%;top:12px;width:9px;height:22px;margin-left:-4.5px;background:#3f7f63;border-radius:4px}
+  .knob:active{cursor:grabbing}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .pad{background:#eef3ec;border:1px solid var(--line);border-radius:9px;padding:11px;text-align:center;font:600 13px/1.35 inherit;cursor:pointer;user-select:none;touch-action:none}
+  .pad small{display:block;font-weight:400;color:var(--mut);font-size:11.5px;margin-top:3px}
+  .pad.down{background:var(--accent);border-color:var(--accent);color:#fff}
+  .pad.down small{color:#dcece2}
+  pre.log{background:#10171c;color:#cfe3d8;border-radius:9px;padding:11px;font:12px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;max-height:230px;overflow:auto;white-space:pre-wrap;margin:0}
+  input.cmd{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font:13px/1.4 ui-monospace,Menlo,monospace;background:#fff;color:var(--ink)}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:8px}
+  th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+  th{background:#eef3ec;font-weight:600}
+  .note{background:#fdf6e8;border:1px solid #e8d9b0;border-radius:9px;padding:11px 13px;font-size:13.5px;margin:12px 0}
+  .note.bad{background:#fbe9e2;border-color:#e6bfae}
+  .note.ok{background:#e9f2ea;border-color:#c3dbc8}
+  .mono{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+  ul{padding-left:20px;margin:8px 0}
+  li{margin:4px 0}
+  label.row{display:flex;gap:8px;align-items:center;font-size:13.5px;margin:7px 0}
+  select,textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px;font:13.5px/1.5 inherit;background:#fff;color:var(--ink)}
+  textarea{min-height:74px;resize:vertical}
+</style>
+</head>
+<body><main>
+
+<header>
+  <h1>ST7789 屏幕模拟器 <span class="badge">无硬件预览</span></h1>
+  <p class="sub">屏幕还没到货时，先在浏览器里看清楚它会长什么样。字模直接取自固件真正链接的
+  <span class="mono">glcdfont.c</span>，所以「固件预览」页的像素与实机一致。</p>
+</header>
+
+<div style="background:#e3ece4;border:1px solid #9fb9a9;border-radius:11px;padding:13px 15px;margin:0 0 16px;font-size:14.5px">
+  🔗 <b>本页是硬件自检（bench-v1）的屏幕预览。</b>
+  你要看的<b>两个程序</b>——会动的表情 + 信息面板（数字时钟 / 表盘时钟 / 长沙天气 / ChatGPT / 状态）——在
+  <a href="assistant-ui-prototype.html" style="color:#2f6b52;font-weight:700">→ 双程序 UI 原型</a>。
+  那一页还带 <b>SPI 带宽仿真</b>，显示的卡顿就是 ESP32 真会有的卡顿。
+</div>
+
+<nav class="tabs" role="tablist">
+  <button id="t1" role="tab" aria-selected="true" aria-controls="p1" data-tab="p1">① 固件预览（bench-v1）</button>
+  <button id="t2" role="tab" aria-selected="false" aria-controls="p2" data-tab="p2">② 中文界面草图</button>
+</nav>
+
+<!-- ===================== TAB 1 ===================== -->
+<section id="p1" class="panel active" role="tabpanel" aria-labelledby="t1">
+  <div class="cols">
+    <div>
+      <div class="stage">
+        <div class="screenwrap"><canvas id="lcd" width="320" height="240" style="width:640px;height:480px"></canvas></div>
+        <div class="toolbar">
+          <button id="zoom">显示 1:1</button>
+          <button id="grid">像素网格</button>
+          <button id="power">屏幕断电</button>
+        </div>
+        <p class="sub" style="margin:0;font-size:12.5px">模拟 2.4 英寸 320×240，rotation=3 横屏。当前 <span class="mono" id="stateline">未初始化</span></p>
+      </div>
+    </div>
+
+    <aside>
+      <div class="card">
+        <h2>虚拟控件</h2>
+        <div class="knob" id="knob"><div class="dot" id="knobdot"></div></div>
+        <p class="sub" style="margin:0 0 8px;font-size:12.5px">拖动旋钮旋转，或点下面的按钮。一格 = 一个计数（由 divisor 决定）。</p>
+        <div class="grid2">
+          <div class="pad" id="ccw">◀ 逆时针<small>−1</small></div>
+          <div class="pad" id="cw">顺时针 ▶<small>+1</small></div>
+          <div class="pad" id="push">PUSH<small>旋钮按压</small></div>
+          <div class="pad" id="key0">KEY0<small>独立按键</small></div>
+        </div>
+        <div class="grid2" style="margin-top:8px">
+          <div class="pad" id="reseten">编码器清零<small>resetEncoder()</small></div>
+          <div class="pad" id="resetbtn">按键计数清零<small>screen start 时</small></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>串口命令</h2>
+        <input class="cmd" id="cmd" placeholder="输入命令后回车，例如 screen start" autocomplete="off">
+        <div class="toolbar" style="justify-content:flex-start;margin-top:8px">
+          <button data-cmd="help">help</button>
+          <button data-cmd="selftest">selftest</button>
+          <button data-cmd="screen start">screen start</button>
+          <button data-cmd="screen stop">screen stop</button>
+          <button data-cmd="encoder divisor 2">divisor 2</button>
+          <button data-cmd="encoder divisor 4">divisor 4</button>
+          <button data-cmd="screen rotation 1">rotation 1</button>
+          <button data-cmd="screen rotation 3">rotation 3</button>
+          <button data-cmd="screen invert 0">invert 0</button>
+          <button data-cmd="screen invert 1">invert 1</button>
+          <button data-cmd="stop">stop</button>
+        </div>
+        <h3>串口输出</h3>
+        <pre class="log" id="log"></pre>
+      </div>
+
+      <div class="card">
+        <h2>接线对照</h2>
+        <table>
+          <tr><th>信号</th><th>GPIO</th></tr>
+          <tr><td>SCL</td><td>12</td></tr>
+          <tr><td>SDA (MOSI)</td><td>11</td></tr>
+          <tr><td>RES</td><td>21</td></tr>
+          <tr><td>DC</td><td>14</td></tr>
+          <tr><td>CS</td><td>13</td></tr>
+          <tr><td>A / B</td><td>7 / 2</td></tr>
+          <tr><td>PUSH / KEY0</td><td>38 / 40</td></tr>
+        </table>
+        <p class="sub" style="font-size:12.5px;margin:9px 0 0">与 RevB 载板接口一致。这页只模拟显示与控件，不涉及供电。</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===================== TAB 2 ===================== -->
+<section id="p2" class="panel" role="tabpanel" aria-labelledby="t2">
+  <div class="note bad">
+    <b>当前固件显示不了中文，但这<b>不是硬件限制</b>。</b><br>
+    ST7789 只是一块 320×240 的像素画布，<b>连 ASCII 字母都不认识</b>——现在能显示英文，是因为 Adafruit GFX 库里带了 5×7 的 ASCII 点阵。
+    你的模块引脚只有 GND/VCC/SCL/SDA/RES/DC/CS/BLK/A/B/PUSH/KEY0，<b>没有中文字库芯片</b>，所以汉字字形必须由固件自己提供。<br>
+    <b>好消息：这纯粹是软件工作，而且很便宜。</b>24px 汉字是 1 位点阵、单字 80 字节；界面常用 300 字只占 <b>23 KB</b>，
+    连 <b>GB2312 全字库（6763 字）也只要 528 KB</b>，而应用分区还空着约 2536 KB。
+    <a href="cjk-render-proof.png">这张图</a>就是按固件真实方式（1bpp）渲染出来的实测效果——勾选右侧「硬边缘」可看同一观感。
+  </div>
+
+  <div class="cols">
+    <div>
+      <div class="stage">
+        <div class="screenwrap"><canvas id="lcd2" width="320" height="240" style="width:640px;height:480px"></canvas></div>
+        <div class="toolbar">
+          <button data-preset="pet">桌宠表情 + 字幕</button>
+          <button data-preset="read">阅读模式</button>
+          <button data-preset="clock">时间 + 提醒</button>
+          <button data-preset="menu">旋钮菜单</button>
+        </div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="card">
+        <h2>排版参数</h2>
+        <label class="row">中文字号
+          <select id="fsize">
+            <option value="12">12 px</option>
+            <option value="16">16 px</option>
+            <option value="20">20 px</option>
+            <option value="24" selected>24 px</option>
+            <option value="28">28 px</option>
+          </select>
+        </label>
+        <label class="row">行距倍数
+          <select id="lheight">
+            <option value="1.1">1.1</option>
+            <option value="1.3" selected>1.3</option>
+            <option value="1.5">1.5</option>
+          </select>
+        </label>
+        <label class="row">左右留边
+          <select id="pad">
+            <option value="8">8 px</option>
+            <option value="12" selected>12 px</option>
+            <option value="16">16 px</option>
+          </select>
+        </label>
+        <h3>显示内容</h3>
+        <textarea id="text">今天下午 3 点提醒你开会
+气温 12℃，出门记得带外套</textarea>
+        <label class="row"><input type="checkbox" id="showexpr" checked> 显示表情区</label>
+        <label class="row"><input type="checkbox" id="showchrome" checked> 显示状态条</label>
+        <label class="row"><input type="checkbox" id="mono"> 硬边缘（模拟 1bpp 点阵）</label>
+        <p class="sub" style="font-size:12px;margin:4px 0 0">真实固件里汉字是 <b>1 位点阵</b>、但用彩色墨迹绘制，所以颜色会保留，只是边缘是硬的（没有灰度抗锯齿）。勾上以看清真实观感。</p>
+      </div>
+
+      <div class="card">
+        <h2>能放多少字</h2>
+        <table id="math"><tr><th>项</th><th>值</th></tr></table>
+      </div>
+    </aside>
+  </div>
+
+  <div class="card">
+    <h2>固件侧显示中文的三条路</h2>
+    <table>
+      <tr><th>方案</th><th>做法</th><th>代价</th></tr>
+      <tr>
+        <td><b>A. 子集化 GFXfont</b><br>（推荐先试）</td>
+        <td>用工具把 TTF 里的<b>用到的那些汉字</b>转成 Adafruit GFXfont 的 C 数组，随固件编译进去。界面文案固定时，几百字足够。</td>
+        <td>字库大小随字数线性增长；每个字号要单独转一份；<b>不支持任意文本</b>（收到未收录的字就画不出）</td>
+      </tr>
+      <tr>
+        <td><b>B. 离线点阵 + 按需取模</b></td>
+        <td>用 PC 端脚本把整段文案渲染成点阵/位图，固件只负责搬运到屏幕。表情和固定界面最省 flash。</td>
+        <td>固件侧不能拼接文本；改文案要重新生成；只适合静态内容</td>
+      </tr>
+      <tr>
+        <td><b>C. U8g2 / LVGL 中文字库</b></td>
+        <td>换用带 GB2312 子集的显示库（U8g2 有 wqy 系列中文字模），或上 LVGL 配子集字体。</td>
+        <td>要改显示驱动层与刷新策略；LVGL 占 RAM/Flash 更多；需要重新验证 10 MHz SPI 下的刷新率</td>
+      </tr>
+    </table>
+    <div class="note ok" style="margin-bottom:0">
+      <b>实测后的建议：走 A，而且不必子集化。</b>
+      应用分区还空着约 2536 KB，而 GB2312 全字库 @24px 只要 <b>528 KB</b>——可以一次把 6763 个常用汉字全嵌进去，
+      <b>任意中文都能显示</b>（包括以后大模型返回的文本），代价只是 flash 的五分之一。
+      关键是这条路<b>完全不用动现在的 ST7789 驱动和 10 MHz SPI 配置</b>，风险最低。
+      等真需要多字号或复杂控件时，再评估 C。
+    </div>
+  </div>
+</section>
+
+<script>
+/* ---------- Adafruit GFX 5x7 字模：直接从固件的 glcdfont.c 抽出，1280 字节 ---------- */
+const FONT = Uint8Array.from(atob("AAAAAAA+W09bPj5rT2s+HD58PhwYPH48GBxXfVccHF5/XhwAGDwYAP/nw+f/ABgkGAD/59vn/zBIOgYOJil5KSZAfwUFB0B/BSU/WjznPFp/PhwcCAgcHD5/FCJ/IhRfXwBfXwYJfwF/AGaJlWpgYGBgYJSi/6KUCAR+BAgQIH4gEAgIKhwICBwqCAgeEBAQEAweDB4MMDg+ODAGDj4OBgAAAAAAAABfAAAABwAHABR/FH8UJCp/KhIjEwhkYjZJViBQAAgHAwAAHCJBAABBIhwAKhx/HCoICD4ICACAcDAACAgICAgAAGBgACAQCAQCPlFJRT4AQn9AAHJJSUlGIUFJTTMYFBJ/ECdFRUU5PEpJSTFBIREJBzZJSUk2RklJKR4AABQAAABANAAAAAgUIkEUFBQUFABBIhQIAgFZCQY+QV1ZTnwSERJ8f0lJSTY+QUFBIn9BQUE+f0lJSUF/CQkJAT5BQVFzfwgICH8AQX9BACBAQT8BfwgUIkF/QEBAQH8CHAJ/fwQIEH8+QUFBPn8JCQkGPkFRIV5/CRkpRiZJSUkyAwF/AQM/QEBAPx8gQCAfP0A4QD9jFAgUYwMEeAQDYVlJTUMAf0FBQQIECBAgAEFBQX8EAgECBEBAQEBAAAMHCAAgVFR4QH8oREQ4OERERCg4REQofzhUVFQYAAh+CQIYpKSceH8IBAR4AER9QAAgQEA9AH8QKEQAAEF/QAB8BHgEeHwIBAR4OERERDj8GCQkGBgkJBj8fAgEBAhIVFRUJAQEP0QkPEBAIHwcIEAgHDxAMEA8RCgQKERMkJCQfERkVExEAAg2QQAAAHcAAABBNggAAgECBAI8JiMmPB6hoWESOkBAIHo4VFRVWSFVVXlBIlRUeEIhVVR4QCBUVXlADB5SchI5VVVVWTlUVFRZOVVUVFgAAEV8QQACRX1CAAFFfEB9EhESffAoJSjwfFRVRQAgVFR8VHwKCX9JMklJSTI6REREOjJKSEgwOkFBIXo6QkAgeACdoKB9PUJCQj09QEBAPTwk/yQkSH5JQ2YrL/wvK/8JKfYgwIh+CQMgVFR5QQAARH1BMEhISjI4QEAiegB6CgpyfQ0ZMX0mKSkvKCYpKSkmMEhNQCA4CAgICAgICAg4LxDIrLovECg0+gAAewAACBQqFCIiFCoUCFUAVQBVqlWqVar/Vf9V/wAAAP8AEBAQ/wAUFBT/ABAQ/wD/EBDwEPAUFBT8ABQU9wD/AAD/AP8UFPQE/BQUFxAfEBAfEB8UFBQfABAQEPAAAAAAHxAQEBAfEBAQEPAQAAAA/xAQEBAQEBAQEP8QAAAA/xQAAP8A/wAAHxAXAAD8BPQUFBcQFxQU9AT0AAD/APcUFBQUFBQU9wD3FBQUFxQQEB8QHxQUFPQUEBDwEPAAAB8QHwAAAB8UAAAA/BQAAPAQ8BAQ/xD/FBQU/xQQEBAfAAAAAPAQ///////w8PDw8P///wAAAAAA//8PDw8PDzhERDhE/EpKSjR+AgIGBgJ+An4CY1VJQWM4REQ8BEB+IB4gBgJ+AgKZpeelmRwqSSocTHIBckwwSk1NMDBIeEgwvGJaRj0+SUlJAH4BAQF+KioqKipERF9EREBRSkRAQERKUUAAAP8BA+CA/wAACAhrawg2EjYkNgYPCQ8GAAAYGAAAABAQADBA/wEBAB8BAR4AGR0XEgA8PDw8AAAAAAA="), c => c.charCodeAt(0));
+
+const BLACK='#000000', WHITE='#ffffff', RED='#ff0000', GREEN='#00ff00', BLUE='#0000ff', CYAN='#00ffff';
+
+/* 在离屏 320x240 上下文里按 Adafruit GFX 语义画字 */
+function gfxChar(ctx, ch, x, y, size, color){
+  const code = ch.charCodeAt(0) & 0xFF, off = code*5;
+  ctx.fillStyle = color;
+  for (let col=0; col<5; col++){
+    const bits = FONT[off+col];
+    for (let row=0; row<8; row++){
+      if ((bits>>row)&1) ctx.fillRect(x+col*size, y+row*size, size, size);
+    }
+  }
+}
+function gfxText(ctx, str, x, y, size, color){
+  let cx = x;
+  for (const ch of str){
+    if (ch === '\n'){ y += 8*size; cx = x; continue; }
+    gfxChar(ctx, ch, cx, y, size, color);
+    cx += 6*size;                    // 5 px 字形 + 1 px 间隔
+  }
+}
+
+/* ---------- 固件状态（与 bench-v1 对应） ---------- */
+const S = {
+  mode:'PASSIVE',      // PASSIVE | SCREEN
+  rotation:3, inverted:true, divisor:4,
+  enc:0, push:0, key:0, pushDown:false, keyDown:false,
+  powered:true, grid:false, zoom:2
+};
+const off = document.createElement('canvas'); off.width=320; off.height=240;
+const octx = off.getContext('2d');
+const vis = document.getElementById('lcd'), vctx = vis.getContext('2d');
+
+function drawStatic(){
+  octx.fillStyle = BLACK; octx.fillRect(0,0,320,240);
+  octx.strokeStyle = WHITE; octx.lineWidth = 1;
+  octx.strokeRect(0.5,0.5,319,239);                       // drawRect(0,0,320,240)
+  gfxText(octx, "DESKTOP / ST7789", 10, 12, 2, WHITE);
+  const cols=[RED,GREEN,BLUE,WHITE], names=["RED","GREEN","BLUE","WHITE"];
+  for (let i=0;i<4;i++){
+    octx.fillStyle = cols[i];
+    octx.fillRect(10+i*75, 43, 72, 32);                    // fillRect
+    gfxText(octx, names[i], 12+i*75, 82, 1, WHITE);
+  }
+  gfxText(octx, "BLK=3.3V | 320x240 | TL->BR", 8, 224, 1, WHITE);
+  gfxText(octx, "BR", 300, 224, 1, WHITE);
+}
+function drawControls(){
+  if (S.mode !== 'SCREEN') return;
+  octx.fillStyle = BLACK; octx.fillRect(8,110,305,102);
+  gfxText(octx, "ENC: "+S.enc, 10, 112, 2, CYAN);
+  gfxText(octx, "PUSH: "+S.push+" "+(S.pushDown?"DOWN":"UP"), 10, 140, 2, CYAN);
+  gfxText(octx, "KEY0: "+S.key+" "+(S.keyDown?"DOWN":"UP"), 10, 168, 2, CYAN);
+  gfxText(octx, "GPIO: A7 B2 PUSH38 KEY40 / div "+S.divisor, 10, 198, 1, WHITE);
+}
+
+function render(){
+  octx.clearRect(0,0,320,240);
+  if (!S.powered){ octx.fillStyle='#0a0a0a'; octx.fillRect(0,0,320,240); }
+  else if (S.mode === 'SCREEN'){ drawStatic(); drawControls(); }
+  else { octx.fillStyle = BLACK; octx.fillRect(0,0,320,240); }
+
+  const scale = S.zoom;
+  vis.width = 320*scale; vis.height = 240*scale;
+  vis.style.width = (320*scale)+'px'; vis.style.height = (240*scale)+'px';
+  vctx.save();
+  vctx.imageSmoothingEnabled = false;
+  if (S.rotation === 1){                       // rotation 1 与 3 相差 180°
+    vctx.translate(320*scale, 240*scale); vctx.rotate(Math.PI);
+  }
+  vctx.drawImage(off, 0, 0, 320*scale, 240*scale);
+  vctx.restore();
+
+  if (S.inverted){                             // invertDisplay(): 颜色取反
+    const img = vctx.getImageData(0,0,vis.width,vis.height), d = img.data;
+    for (let i=0;i<d.length;i+=4){ d[i]=255-d[i]; d[i+1]=255-d[i+1]; d[i+2]=255-d[i+2]; }
+    vctx.putImageData(img,0,0);
+  }
+  if (S.grid && scale>1){
+    vctx.strokeStyle='rgba(120,160,140,.22)'; vctx.lineWidth=1;
+    for(let x=0;x<=320;x+=10){ vctx.beginPath(); vctx.moveTo(x*scale+.5,0); vctx.lineTo(x*scale+.5,240*scale); vctx.stroke(); }
+    for(let y=0;y<=240;y+=10){ vctx.beginPath(); vctx.moveTo(0,y*scale+.5); vctx.lineTo(320*scale,y*scale+.5); vctx.stroke(); }
+  }
+  document.getElementById('stateline').textContent =
+    (S.powered ? (S.mode==='SCREEN' ? 'SCREEN active' : 'PASSIVE（未初始化屏幕）') : '屏幕断电')
+    + ' · rotation=' + S.rotation + ' · invert=' + (S.inverted?1:0) + ' · divisor=' + S.divisor;
+}
+
+/* ---------- 串口输出 ---------- */
+const logEl = document.getElementById('log');
+function log(s){ logEl.textContent += s + "\n"; logEl.scrollTop = logEl.scrollHeight; }
+
+const HELP = `
+Desktop Assistant bench-v1 / serial console 115200
+  help | status | stop | !
+  selftest             PASSIVE only; chip/flash/PSRAM/64 KiB test
+  screen start         confirm external 3.3 V and USB MCU power first
+  screen stop          release signal pins; backlight remains powered
+  screen rotation 1|3  landscape orientation
+  screen invert 0|1    choose correct black/white/color appearance
+  encoder divisor 2|4  reset count, calibrate transitions per click
+（模拟器只实现与屏幕/控件有关的部分）`;
+
+function run(raw){
+  const s = raw.trim(); if (!s) return;
+  log("> " + s);
+  const w = s.split(/\s+/);
+  const eq=(i,t)=>w[i]===t;
+
+  if (w.length===1 && (eq(0,'help')||eq(0,'status'))){
+    if (eq(0,'help')) log(HELP);
+    else log(`mode=${S.mode} rotation=${S.rotation} invert=${S.inverted?1:0} divisor=${S.divisor}\nENC=${S.enc} PUSH=${S.push} KEY0=${S.key}`);
+  }
+  else if (w.length===1 && (eq(0,'stop')||eq(0,'!'))){
+    S.mode='PASSIVE'; S.pushDown=false; S.keyDown=false;
+    S.push=0; S.key=0; S.enc=0;
+    log("STOP: screen pins high-Z, PWM off, Wi-Fi off. External supplies are still ON.");
+  }
+  else if (eq(0,'screen') && eq(1,'start')){
+    if (S.mode!=='PASSIVE'){ log("ERR: screen start requires PASSIVE; use stop first."); }
+    else {
+      S.mode='SCREEN'; S.powered=true;
+      log("Sending ST7789 init. Assumes measured external 3.3 V, USB MCU ON, common GND.");
+      log("SCREEN active; write-only SPI cannot identify or verify the panel. Check it visually.");
+    }
+  }
+  else if (eq(0,'screen') && eq(1,'stop')){
+    S.mode='PASSIVE';
+    log("Screen signal pins high-Z; backlight supply is not switched.");
+  }
+  else if (eq(0,'screen') && eq(1,'rotation') && (w[2]==='1'||w[2]==='3')){
+    if (S.mode!=='SCREEN'){ log("ERR: start screen first."); }
+    else { S.rotation=+w[2]; log(`rotation=${S.rotation}`); }
+  }
+  else if (eq(0,'screen') && eq(1,'invert') && (w[2]==='0'||w[2]==='1')){
+    if (S.mode!=='SCREEN'){ log("ERR: start screen first."); }
+    else { S.inverted = w[2]==='1'; log(`invert=${S.inverted?1:0}`); }
+  }
+  else if (eq(0,'encoder') && eq(1,'divisor') && (w[2]==='2'||w[2]==='4')){
+    if (S.mode!=='SCREEN'){ log("ERR: start screen first."); }
+    else { S.divisor=+w[2]; S.enc=0; log(`divisor=${S.divisor}, encoder reset`); }
+  }
+  else if (eq(0,'selftest')){ log("（模拟器不模拟芯片自检；请在实机或在串口监视器里运行）"); }
+  else { log("ERR: invalid command. Type help."); }
+  render();
+}
+
+/* ---------- 事件绑定 ---------- */
+document.querySelectorAll('nav.tabs button').forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll('nav.tabs button').forEach(x=>x.setAttribute('aria-selected', x===b));
+    document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active', p.id===b.dataset.tab));
+  };
+});
+const cmd=document.getElementById('cmd');
+cmd.addEventListener('keydown', e=>{ if(e.key==='Enter'){ run(cmd.value); cmd.value=''; } });
+document.querySelectorAll('[data-cmd]').forEach(b=> b.onclick=()=>run(b.dataset.cmd));
+
+function bump(d){ if(S.mode==='SCREEN'){ S.enc+=d; render(); } else log("ERR: start screen first."); }
+document.getElementById('cw').onclick=()=>bump(1);
+document.getElementById('ccw').onclick=()=>bump(-1);
+document.getElementById('reseten').onclick=()=>{ S.enc=0; render(); };
+document.getElementById('resetbtn').onclick=()=>{ S.push=0; S.key=0; render(); };
+
+/* 旋钮拖拽：每 30° 记一格 */
+const knob=document.getElementById('knob'), dot=document.getElementById('knobdot');
+let ang=0, dragging=false, lastA=null;
+function knobMove(e){
+  const r=knob.getBoundingClientRect();
+  const p=e.touches?e.touches[0]:e, cx=r.left+r.width/2, cy=r.top+r.height/2;
+  const a=Math.atan2(p.clientY-cy, p.clientX-cx)*180/Math.PI;
+  if(lastA===null){ lastA=a; return; }
+  let d=a-lastA; if(d>180)d-=360; if(d<-180)d+=360;
+  ang+=d; lastA=a;
+  dot.style.transform=`rotate(${ang}deg)`; dot.style.transformOrigin='50% 48px';
+  if(Math.abs(ang)>=30){ const step=ang>0?1:-1; ang=0; bump(step); }
+}
+knob.addEventListener('mousedown',e=>{dragging=true;lastA=null;knobMove(e);});
+knob.addEventListener('touchstart',e=>{dragging=true;lastA=null;knobMove(e);},{passive:true});
+window.addEventListener('mousemove',e=>{if(dragging)knobMove(e);});
+window.addEventListener('touchmove',e=>{if(dragging){knobMove(e);e.preventDefault();}},{passive:false});
+window.addEventListener('mouseup',()=>{dragging=false;lastA=null;});
+window.addEventListener('touchend',()=>{dragging=false;lastA=null;});
+
+/* PUSH / KEY0：按住显示 DOWN，松开计数 +1（与固件的稳定按下沿一致） */
+function bindPad(id, kind){
+  const el=document.getElementById(id);
+  const down=()=>{ if(S.mode!=='SCREEN'){ log("ERR: start screen first."); return; }
+    el.classList.add('down'); if(kind==='push')S.pushDown=true; else S.keyDown=true; render(); };
+  const up=()=>{ if(!el.classList.contains('down'))return; el.classList.remove('down');
+    if(kind==='push'){S.pushDown=false;S.push++;} else {S.keyDown=false;S.key++;} render(); };
+  el.addEventListener('mousedown',down); el.addEventListener('mouseup',up); el.addEventListener('mouseleave',up);
+  el.addEventListener('touchstart',e=>{e.preventDefault();down();},{passive:false});
+  el.addEventListener('touchend',e=>{e.preventDefault();up();},{passive:false});
+}
+bindPad('push','push'); bindPad('key0','key');
+
+document.getElementById('zoom').onclick=e=>{ S.zoom = S.zoom===2?1:2; e.target.textContent = S.zoom===2?'显示 1:1':'显示 2:1'; render(); };
+document.getElementById('grid').onclick=e=>{ S.grid=!S.grid; e.target.classList.toggle('on',S.grid); render(); };
+document.getElementById('power').onclick=e=>{ S.powered=!S.powered; e.target.classList.toggle('on',!S.powered); e.target.textContent=S.powered?'屏幕断电':'屏幕通电'; render(); };
+
+/* ===================== TAB 2：中文排版预览 ===================== */
+const c2=document.getElementById('lcd2'), x2=c2.getContext('2d');
+let preset='pet';
+document.querySelectorAll('[data-preset]').forEach(b=> b.onclick=()=>{ preset=b.dataset.preset; drawCN(); });
+
+function chrome(ctx){
+  ctx.fillStyle='#0e1a20'; ctx.fillRect(0,0,320,26);
+  ctx.fillStyle='#7fd8b0'; ctx.beginPath(); ctx.arc(16,13,5,0,7); ctx.fill();
+  ctx.fillStyle='#cfe3d8'; ctx.font='600 13px "PingFang SC",sans-serif'; ctx.textBaseline='middle';
+  ctx.fillText('Wi-Fi 已连接', 30, 14);
+  ctx.textAlign='right'; ctx.fillText('14:32', 306, 14); ctx.textAlign='left';
+}
+function expression(ctx, x, y, w, h){
+  ctx.save();
+  ctx.fillStyle='#123'; ctx.strokeStyle='#3f7f63'; ctx.lineWidth=2;
+  const r=Math.min(w,h)/2;
+  ctx.beginPath(); ctx.arc(x+w/2, y+h/2, r-1, 0, 7); ctx.fill(); ctx.stroke();
+  // 两只眼睛 + 微笑
+  ctx.fillStyle='#7fd8b0';
+  ctx.beginPath(); ctx.arc(x+w/2-r*0.35, y+h/2-r*0.22, r*0.15, 0, 7); ctx.fill();
+  ctx.beginPath(); ctx.arc(x+w/2+r*0.35, y+h/2-r*0.22, r*0.15, 0, 7); ctx.fill();
+  ctx.strokeStyle='#7fd8b0'; ctx.lineWidth=3; ctx.beginPath();
+  ctx.arc(x+w/2, y+h/2+r*0.12, r*0.42, 0.25*Math.PI, 0.75*Math.PI); ctx.stroke();
+  ctx.restore();
+}
+function drawCN(){
+  const fs=+document.getElementById('fsize').value;
+  const lh=+document.getElementById('lheight').value;
+  const pad=+document.getElementById('pad').value;
+  const text=document.getElementById('text').value.split('\n');
+  const expr=document.getElementById('showexpr').checked;
+  const ch=document.getElementById('showchrome').checked;
+
+  x2.fillStyle='#0a1116'; x2.fillRect(0,0,320,240);
+  if (ch) chrome(x2);
+
+  let top = ch?34:14, exprH = 0;
+  if (expr && preset!=='read'){
+    exprH = preset==='clock' ? 78 : 104;
+    expression(x2, 320/2-exprH/2, top, exprH, exprH);
+    top += exprH + 10;
+  }
+  if (preset==='clock'){
+    x2.fillStyle='#7fd8b0'; x2.font='700 40px "PingFang SC",sans-serif'; x2.textBaseline='top';
+    x2.textAlign='center'; x2.fillText('14:32', 160, top+2); x2.textAlign='left';
+    top += 52;
+  }
+
+  x2.font = fs+'px "PingFang SC","Microsoft YaHei",sans-serif';
+  x2.fillStyle='#e8f1ea'; x2.textBaseline='top';
+  const lineH = Math.round(fs*lh);
+  let y = top;
+  for (const line of text){
+    if (preset==='menu'){ x2.fillStyle='#7fd8b0'; x2.fillText('▸ '+line, pad, y); x2.fillStyle='#e8f1ea'; }
+    else x2.fillText(line, pad, y);
+    y += lineH;
+  }
+  if (preset==='menu'){
+    x2.fillStyle='#5f7a72'; x2.font='12px "PingFang SC",sans-serif';
+    x2.fillText('旋转选择 · 按下确认', pad, 218);
+  }
+
+  // 硬边缘预览：把抗锯齿的灰度削成二值，模拟 1bpp 点阵字模的真实观感
+  if (document.getElementById('mono').checked){
+    const im = x2.getImageData(0,0,320,240), px = im.data;
+    for (let i=0;i<px.length;i+=4){
+      const lum = 0.299*px[i] + 0.587*px[i+1] + 0.114*px[i+2];
+      const v = lum >= 110 ? 255 : 0;
+      px[i]=px[i+1]=px[i+2]=v; px[i+3]=255;
+    }
+    x2.putImageData(im,0,0);
+  }
+
+  // 排版数学
+  const per = Math.floor((320-2*pad)/fs);
+  const lines = Math.floor((240-top)/lineH);
+  const rows = [
+    ['可用宽度', (320-2*pad)+' px'],
+    ['整字宽中文字/行', per+' 字'],
+    ['正文起始 y', top+' px'],
+    ['可用高度', (240-top)+' px'],
+    ['可放行数', lines+' 行'],
+    ['总字数上限', (per*lines)+' 字']
+  ];
+  document.getElementById('math').innerHTML =
+    '<tr><th>项</th><th>值</th></tr>' + rows.map(r=>`<tr><td>${r[0]}</td><td class="mono">${r[1]}</td></tr>`).join('');
+}
+['fsize','lheight','pad','text','showexpr','showchrome','mono'].forEach(id=>{
+  const el=document.getElementById(id);
+  el.addEventListener('input', drawCN); el.addEventListener('change', drawCN);
+});
+
+/* 初始化 */
+drawStatic();
+log("READY / PASSIVE: no display init; no servo PWM. Type selftest.");
+log("（这是模拟器。输入 screen start 看屏幕效果。）");
+render();
+drawCN();
+</script>
+</main></body></html>

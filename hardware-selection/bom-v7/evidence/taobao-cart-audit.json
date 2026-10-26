@@ -1,0 +1,483 @@
+{
+  "date": "2026-09-08",
+  "source": "Chrome购物车可见DOM；逐行标题、SKU链接、数量输入框和价格",
+  "authorization": "补齐Excel缺项并加入淘宝购物车；Type-C线取消，PCB和3D打样暂缓；8舵机已由用户加购",
+  "cart_before_rows": 11,
+  "cart_after_rows": 27,
+  "added_sku_rows": 16,
+  "all_quantities_verified": true,
+  "servo_quantity": 8,
+  "other_row_quantities": 1,
+  "existing_sku_quantities_preserved": true,
+  "new_cart_line_display_subtotal_cny": 89.66,
+  "all_cart_line_display_subtotal_including_unqualified_battery_cny": 370.63,
+  "selected_procurement_reference_excluding_custom_battery_cny": 355.93,
+  "price_note": "逐行展示优惠价，仅作参考。单品券/首单礼金可能互斥；未进入结算，不代表整车实付或含运费。",
+  "ordinary_battery_qualified": false,
+  "ordinary_battery_checkbox_observed": false,
+  "order_placed": false,
+  "seller_messages_sent": false,
+  "online_lcsc_bom_changed": false,
+  "items": [
+    {
+      "id": "E01",
+      "requirements": [
+        "E01"
+      ],
+      "name": "2.4英寸 TFT＋EC11 屏幕",
+      "sku": "TOUGLESY 2.4英寸 ST7789＋EC11",
+      "quantity": 1,
+      "pack": "1块",
+      "price": 32.4,
+      "shop": "touglesy旗舰店",
+      "url": "https://detail.tmall.com/item.htm?id=616669602001&skuId=5749013252092",
+      "note": "已加购1块；屏幕、旋钮和按键为同一模块，不另买。开孔按实物复测。",
+      "status": "已加购",
+      "cart_observed_unit_price": 32.4,
+      "added_this_turn": false
+    },
+    {
+      "id": "E02",
+      "requirements": [
+        "E02"
+      ],
+      "name": "MG90S定位舵机",
+      "sku": "MG90S舵机（全金属齿轮）180度",
+      "quantity": 8,
+      "pack": "8个",
+      "price": 11.0,
+      "shop": "玖訫科技",
+      "url": "https://item.taobao.com/item.htm?id=1005683789132&skuId=5999915261650",
+      "note": "已核购物车数量8，单价11元；每腿2个；试单腿复用其中2个，不另买。",
+      "status": "已加购",
+      "cart_observed_unit_price": 11.0,
+      "added_this_turn": false
+    },
+    {
+      "id": "E04",
+      "requirements": [
+        "E04"
+      ],
+      "name": "16路 PWM 舵机信号模块",
+      "sku": "HANLI PCA9685 16路成品模块",
+      "quantity": 1,
+      "pack": "1块",
+      "price": 8.9,
+      "shop": "汉丽电子科技",
+      "url": "https://item.taobao.com/item.htm?id=967408745108",
+      "note": "已加购1块；VCC接3.3V。只取PWM信号，8舵机总电源走外部配电。",
+      "status": "已加购",
+      "cart_observed_unit_price": 8.9,
+      "added_this_turn": false
+    },
+    {
+      "id": "E05",
+      "requirements": [
+        "E05"
+      ],
+      "name": "I²S 数字麦克风模块",
+      "sku": "I2S麦克风模块MSM261S4030H0（单规格）",
+      "quantity": 1,
+      "pack": "1块",
+      "price": 15.0,
+      "shop": "DFRobot官方品牌店",
+      "url": "https://item.taobao.com/item.htm?id=610064842890",
+      "note": "已加购1块；接3.3V，I²S输入；拾音孔和固定位置待实测。",
+      "status": "已加购",
+      "cart_observed_unit_price": 15.0,
+      "added_this_turn": false
+    },
+    {
+      "id": "E06",
+      "requirements": [
+        "E06"
+      ],
+      "name": "I²S 单声道功放模块",
+      "sku": "MAX98357 焊接",
+      "quantity": 1,
+      "pack": "1块",
+      "price": 5.19,
+      "shop": "信诚新电子",
+      "url": "https://item.taobao.com/item.htm?id=866632847020&skuId=5886764007198",
+      "note": "已加购焊接款；逻辑5V供电。喇叭改焊线接螺丝端子；两路喇叭输出均不接地。",
+      "status": "已加购",
+      "cart_observed_unit_price": 5.19,
+      "added_this_turn": false
+    },
+    {
+      "id": "P01",
+      "requirements": [
+        "P01"
+      ],
+      "name": "2S动力电池包",
+      "sku": "车内普通款：电压7.4V 长53mm宽34mm厚10mm；定制规格另见03文件",
+      "quantity": 1,
+      "pack": "1包",
+      "price": null,
+      "shop": "明盛电子商城全新原装",
+      "url": "https://item.taobao.com/item.htm?id=966262592635&skuId=5908158073708",
+      "note": "原店已由用户询问并回复“没有”，排除该供应商；车内14.70元普通款勿下单。新候选见04换店文件，整包持续≥10A及保护/均衡均待答复，定制价格留空。",
+      "status": "原店无货·待换店",
+      "cart_observed_unit_price": 14.7,
+      "added_this_turn": false
+    },
+    {
+      "id": "P02",
+      "requirements": [
+        "P02"
+      ],
+      "name": "2S 8.4V Type-C 充电模块",
+      "sku": "MK021163，选择TYPE-C接口",
+      "quantity": 1,
+      "pack": "1块",
+      "price": 14.13,
+      "shop": "TELESKY旗舰店",
+      "url": "https://detail.tmall.com/item.htm?id=709098048793&skuId=5148568746386",
+      "note": "已加购TYPE-C款；实际充电电流待核，目标0.4–0.5A；首版关机充电。",
+      "status": "已加购",
+      "cart_observed_unit_price": 14.13,
+      "added_this_turn": false
+    },
+    {
+      "id": "P03",
+      "requirements": [
+        "P03"
+      ],
+      "name": "舵机路独立降压模块",
+      "sku": "DC-DC降压模块6~14V转5V8A（单规格）",
+      "quantity": 1,
+      "pack": "1块",
+      "price": 55.0,
+      "shop": "DFRobot官方品牌店",
+      "url": "https://item.taobao.com/item.htm?id=633486468011",
+      "note": "已加购1块；只需一路舵机电源。5V/6A目标及低电量、温升待实测。",
+      "status": "已加购",
+      "cart_observed_unit_price": 55.0,
+      "added_this_turn": false
+    },
+    {
+      "id": "P04",
+      "requirements": [
+        "P04"
+      ],
+      "name": "逻辑/音频路5V降压模块",
+      "sku": "好盈86010010，选择3A(2-6S)",
+      "quantity": 1,
+      "pack": "1个",
+      "price": 35.0,
+      "shop": "顶峰模型",
+      "url": "https://item.taobao.com/item.htm?id=820639316179&skuId=5525930664079",
+      "note": "原购物车已有1个；到货跳帽设5V。与舵机降压共地，两路5V输出不并联。",
+      "status": "已加购",
+      "cart_observed_unit_price": 35.0,
+      "added_this_turn": false
+    },
+    {
+      "id": "W02",
+      "requirements": [
+        "W02"
+      ],
+      "name": "全铜母对母20cm信号杜邦线，1排40根",
+      "sku": "全铜杜邦线 母对母（20CM) 2.54mm（1排40P）",
+      "quantity": 1,
+      "pack": "1排（40根）",
+      "price": 8.36,
+      "shop": "zave旗舰店",
+      "url": "https://detail.tmall.com/item.htm?id=608543275703&skuId=6167752202862",
+      "note": "已加购1排40根；原需求30根，多10根备用，仅用于信号/小电流。",
+      "status": "已加购",
+      "cart_observed_unit_price": 8.36,
+      "added_this_turn": false
+    },
+    {
+      "id": "W03",
+      "requirements": [
+        "W03"
+      ],
+      "name": "红黑2×18AWG硅胶并线，1米（每色1米）",
+      "sku": "硅胶红黑并线 2×18AWG(0.75平方)(1米)",
+      "quantity": 1,
+      "pack": "1米双芯",
+      "price": 4.29,
+      "shop": "wxrkdz旗舰店",
+      "url": "https://detail.tmall.com/item.htm?id=900626764964&skuId=5923525883949",
+      "note": "已加购1米双芯，即红黑各1米。需自裁焊接；长度、压降、固定待配线。",
+      "status": "已加购",
+      "cart_observed_unit_price": 4.29,
+      "added_this_turn": false
+    },
+    {
+      "id": "W09",
+      "requirements": [
+        "W09"
+      ],
+      "name": "绝缘热缩管",
+      "sku": "127只 黑色 盒装",
+      "quantity": 1,
+      "pack": "1盒（127段）",
+      "price": 8.62,
+      "shop": "touglesy旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=615600154622&skuId=4334209992605",
+      "note": "按焊点选择管径后收缩；余量作备用。",
+      "status": "已加购",
+      "cart_observed_unit_price": 8.62,
+      "added_this_turn": true
+    },
+    {
+      "id": "W10",
+      "requirements": [
+        "W10"
+      ],
+      "name": "信号试接洞洞板",
+      "sku": "4x6 双面喷锡洞洞板（5块）",
+      "quantity": 1,
+      "pack": "1包（5块）",
+      "price": 6.35,
+      "shop": "达科峰旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=616867442654&skuId=5864266635679",
+      "note": "FR-4双面喷锡，40×60mm；暂用1块，其余备用。只用于信号试接，舵机总电流走独立配电。",
+      "status": "已加购",
+      "cart_observed_unit_price": 6.35,
+      "added_this_turn": true
+    },
+    {
+      "id": "W07",
+      "requirements": [
+        "W07"
+      ],
+      "name": "舵机接口及模块排针",
+      "sku": "单排黑--镀金（10只）",
+      "quantity": 1,
+      "pack": "1包（10条40P）",
+      "price": 4.52,
+      "shop": "zave旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=606726184415&skuId=4430371271852",
+      "note": "2.54mm单排直针，可裁成3P×8及模块短针；复用模块自带排针。不能用单个接点承载8舵机总电流。",
+      "status": "已加购",
+      "cart_observed_unit_price": 4.52,
+      "added_this_turn": true
+    },
+    {
+      "id": "M06",
+      "requirements": [
+        "M06"
+      ],
+      "name": "尼龙绝缘垫柱试装盒",
+      "sku": "180PCS白色",
+      "quantity": 1,
+      "pack": "1盒（180件混合）",
+      "price": 11.16,
+      "shop": "深圳市壹优创电子",
+      "url": "https://item.taobao.com/item.htm?id=704528035119&skuId=5130695735303",
+      "note": "M3尼龙螺丝/螺母/垫柱混合盒；高度按实物试配。180件是套装总件数，不是180根垫柱。",
+      "status": "已加购",
+      "cart_observed_unit_price": 11.16,
+      "added_this_turn": true
+    },
+    {
+      "id": "M03",
+      "requirements": [
+        "M03"
+      ],
+      "name": "M2六角螺母",
+      "sku": "M2【20个】316不锈钢",
+      "quantity": 1,
+      "pack": "1包（20个）",
+      "price": 0.96,
+      "shop": "亿豪紧固件企业店",
+      "url": "https://item.taobao.com/item.htm?id=673051124656&skuId=5054000291214",
+      "note": "普通公制右牙，配M2机牙螺丝；捕获槽按实物留公差。",
+      "status": "已加购",
+      "cart_observed_unit_price": 0.96,
+      "added_this_turn": true
+    },
+    {
+      "id": "M04",
+      "requirements": [
+        "M04"
+      ],
+      "name": "M3六角螺母",
+      "sku": "M3【50个】316不锈钢",
+      "quantity": 1,
+      "pack": "1包（50个）",
+      "price": 1.19,
+      "shop": "亿豪紧固件企业店",
+      "url": "https://item.taobao.com/item.htm?id=673051124656&skuId=5054000291216",
+      "note": "选择普通螺母捕获槽方案；暂用约12个，不再另买热熔铜嵌件。",
+      "status": "已加购",
+      "cart_observed_unit_price": 1.19,
+      "added_this_turn": true
+    },
+    {
+      "id": "M05",
+      "requirements": [
+        "M05"
+      ],
+      "name": "M3平垫片",
+      "sku": "M3*6*0.8[200个]",
+      "quantity": 1,
+      "pack": "1包（200个）",
+      "price": 2.77,
+      "shop": "固万基官方旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=575265264956&skuId=5076932416603",
+      "note": "M3、外径6mm、厚0.8mm；暂用约12个。此SKU为200片小袋，余件备用，非200台用量。",
+      "status": "已加购",
+      "cart_observed_unit_price": 2.77,
+      "added_this_turn": true
+    },
+    {
+      "id": "M07",
+      "requirements": [
+        "M07"
+      ],
+      "name": "自粘硅胶软脚垫",
+      "sku": "灰色带胶 直径12mm*2mm/50只装",
+      "quantity": 1,
+      "pack": "1包（50只）",
+      "price": 6.83,
+      "shop": "硅胶制品厂",
+      "url": "https://item.taobao.com/item.htm?id=771706659250&skuId=5290081145877",
+      "note": "暂用4只，余46只备用；脚底粘贴面按Ø12mm设计，实物测试抓地力。",
+      "status": "已加购",
+      "cart_observed_unit_price": 6.83,
+      "added_this_turn": true
+    },
+    {
+      "id": "M08",
+      "requirements": [
+        "M08"
+      ],
+      "name": "电池反扣魔术贴束带",
+      "sku": "黑色1cm宽*15cm长【2条】",
+      "quantity": 1,
+      "pack": "1包（2条）",
+      "price": 1.6,
+      "shop": "粘扣带制造",
+      "url": "https://item.taobao.com/item.htm?id=773700829610&skuId=5466028503337",
+      "note": "10×150mm，暂用1条另1条备用；按成品电池和托架试配，不勒压软包。",
+      "status": "已加购",
+      "cart_observed_unit_price": 1.6,
+      "added_this_turn": true
+    },
+    {
+      "id": "M10",
+      "requirements": [
+        "M10"
+      ],
+      "name": "小号尼龙扎带",
+      "sku": "国标3*100黑【宽2.5mm】100条",
+      "quantity": 1,
+      "pack": "1包（100条）",
+      "price": 3.5,
+      "shop": "浙江力泰塑料工厂店",
+      "url": "https://item.taobao.com/item.htm?id=676815692302&skuId=5034408146913",
+      "note": "实际宽2.5mm、长100mm；暂用约10条，只束线，不直接捆压电芯。",
+      "status": "已加购",
+      "cart_observed_unit_price": 3.5,
+      "added_this_turn": true
+    },
+    {
+      "id": "M09",
+      "requirements": [
+        "M09"
+      ],
+      "name": "自粘EVA缓冲/密封泡棉",
+      "sku": "20mm宽 10米长 1mm厚",
+      "quantity": 1,
+      "pack": "1卷",
+      "price": 3.0,
+      "shop": "敏佰旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=645815964629&skuId=4660038213867",
+      "note": "裁短条作电池缓冲；麦克风只裁环形密封垫，中心留通孔。不是透声网或覆盖拾音孔的海绵。",
+      "status": "已加购",
+      "cart_observed_unit_price": 3.0,
+      "added_this_turn": true
+    },
+    {
+      "id": "P10",
+      "requirements": [
+        "P10"
+      ],
+      "name": "绿联USB-A充电头",
+      "sku": "17W丨白色双口USB丨小巧低温|直插",
+      "quantity": 1,
+      "pack": "1个",
+      "price": 27.9,
+      "shop": "绿联数码旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=39662398527&skuId=6289267198584",
+      "note": "CD104，固定5V，单口最大2.4A、双口总3.4A。专用一口接充电板；裸头不含线。",
+      "status": "已加购",
+      "cart_observed_unit_price": 27.9,
+      "added_this_turn": true
+    },
+    {
+      "id": "F06A",
+      "requirements": [
+        "F06"
+      ],
+      "name": "电池采样上臂电阻",
+      "sku": "1/4W 金属膜电阻1% 100K （100个）",
+      "quantity": 1,
+      "pack": "1包（100个）",
+      "price": 2.54,
+      "shop": "telesky旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=982371708131&skuId=5939246944184",
+      "note": "原型上臂100kΩ；与33kΩ下臂组成分压，8.4V约降至2.08V。装机暂1个；测阻并校准ADC。",
+      "status": "已加购",
+      "cart_observed_unit_price": 2.54,
+      "added_this_turn": true
+    },
+    {
+      "id": "F06B",
+      "requirements": [
+        "F06"
+      ],
+      "name": "电池采样下臂电阻",
+      "sku": "1/4W 金属膜电阻1% 33K （100个）",
+      "quantity": 1,
+      "pack": "1包（100个）",
+      "price": 2.54,
+      "shop": "telesky旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=982371708131&skuId=5939246944172",
+      "note": "原型下臂33kΩ接地；装机暂1个，ADC引脚和衰减档随原理图/固件确定。",
+      "status": "已加购",
+      "cart_observed_unit_price": 2.54,
+      "added_this_turn": true
+    },
+    {
+      "id": "F07A",
+      "requirements": [
+        "F07"
+      ],
+      "name": "PCA9685 OE上拉电阻",
+      "sku": "1/4W 金属膜电阻1% 10K （100个）",
+      "quantity": 1,
+      "pack": "1包（100个）",
+      "price": 2.54,
+      "shop": "telesky旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=982371708131&skuId=5939246944162",
+      "note": "OE拟通过10kΩ上拉3.3V，默认禁止PWM；接线前核实模块原有上下拉，必要时改板；方案未实施。",
+      "status": "已加购",
+      "cart_observed_unit_price": 2.54,
+      "added_this_turn": true
+    },
+    {
+      "id": "F06C",
+      "requirements": [
+        "F06",
+        "F07"
+      ],
+      "name": "采样滤波及本地去耦电容",
+      "sku": "104P 0.1UF 50V 脚距5.08MM ±20%（50个）",
+      "quantity": 1,
+      "pack": "1包（50个）",
+      "price": 3.64,
+      "shop": "jccon旗舰店",
+      "url": "https://item.taobao.com/item.htm?id=609963289065&skuId=4286902992281",
+      "note": "100nF直插独石电容，1个用于采样RC，其余用于需要补充的本地去耦。两项需求共用一包，不重复购买。",
+      "status": "已加购",
+      "cart_observed_unit_price": 3.64,
+      "added_this_turn": true
+    }
+  ]
+}

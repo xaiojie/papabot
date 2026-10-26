@@ -1,0 +1,17 @@
+{
+  "source_directory": "/Users/jay/Downloads/2.4寸TFT彩屏+EC11旋转编码器模块",
+  "files": [
+    {
+      "file": "pin-description-extracted.json",
+      "sha256": "98bd819c511c2a78bcfd7f772843656da641594aba4f6de9931eb30c7af93949"
+    },
+    {
+      "file": "屏幕整板原理图.png",
+      "sha256": "4f3df2836bc6c5c5ef1c60c721816529ed71c347945b7b716722a435fd2848f3"
+    },
+    {
+      "file": "引脚说明.docx",
+      "sha256": "8c1e669e9d05b5d25b095d6d0a2699d43efef146b033a68e0eb30dc683922a7f"
+    }
+  ]
+}

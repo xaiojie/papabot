@@ -1,0 +1,180 @@
+[
+  {
+    "id": "T01",
+    "name": "T01__display_hole_pitch_frame",
+    "label_zh": "屏幕四孔孔距试配框",
+    "file": "stl/T01__display_hole_pitch_frame__mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      97.0,
+      50.0,
+      3.0
+    ],
+    "print_orientation": "as exported, flat bottom at Z=0; no supports intended",
+    "status": "FIT_COUPON_ONLY",
+    "parameters": {
+      "pcb_nominal_mm": [
+        91,
+        44
+      ],
+      "hole_pitch_nominal_mm": [
+        84.5,
+        37.5
+      ],
+      "hole_nominal_diameter_mm": 3,
+      "source": "Selected TOUGLESY product nominal drawing, not measured",
+      "jig_outer_mm": [
+        97,
+        50,
+        3
+      ],
+      "jig_inner_mm": [
+        77,
+        28
+      ],
+      "jig_clearance_hole_mm": 3.2,
+      "note": "Open bench hole-pitch test frame; not the final display mount or screen window. No active-area assumption."
+    }
+  },
+  {
+    "id": "T02",
+    "name": "T02__M2_nut_fit_coupon",
+    "label_zh": "M2六角螺母间隙样件",
+    "file": "stl/T02__M2_nut_fit_coupon__mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      48.0,
+      22.0,
+      4.0
+    ],
+    "print_orientation": "as exported, flat bottom at Z=0; no supports intended",
+    "status": "FIT_COUPON_ONLY",
+    "parameters": {
+      "id": "T02",
+      "thread": "M2",
+      "outer_mm": [
+        48,
+        22,
+        4
+      ],
+      "nominal_nut_af_mm": 4.0,
+      "pocket_af_mm": [
+        4.1,
+        4.2,
+        4.3
+      ],
+      "pocket_depth_mm": 2.1,
+      "through_hole_mm": 2.3,
+      "x_mm": [
+        -15,
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "id": "T03",
+    "name": "T03__M3_nut_fit_coupon",
+    "label_zh": "M3六角螺母间隙样件",
+    "file": "stl/T03__M3_nut_fit_coupon__mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      56.0,
+      22.0,
+      5.0
+    ],
+    "print_orientation": "as exported, flat bottom at Z=0; no supports intended",
+    "status": "FIT_COUPON_ONLY",
+    "parameters": {
+      "id": "T03",
+      "thread": "M3",
+      "outer_mm": [
+        56,
+        22,
+        5
+      ],
+      "nominal_nut_af_mm": 5.5,
+      "pocket_af_mm": [
+        5.6,
+        5.7,
+        5.8
+      ],
+      "pocket_depth_mm": 2.9,
+      "through_hole_mm": 3.3,
+      "x_mm": [
+        -18,
+        0,
+        18
+      ]
+    }
+  },
+  {
+    "id": "T04A",
+    "name": "T04A__MG90S_body_opening_gauge",
+    "label_zh": "MG90S机壳开口试配规A",
+    "file": "stl/T04A__MG90S_body_opening_gauge__mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      31.4,
+      20.8,
+      6.0
+    ],
+    "print_orientation": "as exported, flat bottom at Z=0; no supports intended",
+    "status": "FIT_COUPON_ONLY",
+    "parameters": {
+      "id": "T04A",
+      "opening_mm": [
+        23.4,
+        12.8
+      ],
+      "wall_mm": 4.0,
+      "height_mm": 6.0
+    }
+  },
+  {
+    "id": "T04B",
+    "name": "T04B__MG90S_body_opening_gauge",
+    "label_zh": "MG90S机壳开口试配规B",
+    "file": "stl/T04B__MG90S_body_opening_gauge__mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      31.8,
+      21.2,
+      6.0
+    ],
+    "print_orientation": "as exported, flat bottom at Z=0; no supports intended",
+    "status": "FIT_COUPON_ONLY",
+    "parameters": {
+      "id": "T04B",
+      "opening_mm": [
+        23.8,
+        13.2
+      ],
+      "wall_mm": 4.0,
+      "height_mm": 6.0
+    }
+  },
+  {
+    "id": "T04C",
+    "name": "T04C__MG90S_body_opening_gauge",
+    "label_zh": "MG90S机壳开口试配规C",
+    "file": "stl/T04C__MG90S_body_opening_gauge__mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      32.2,
+      21.6,
+      6.0
+    ],
+    "print_orientation": "as exported, flat bottom at Z=0; no supports intended",
+    "status": "FIT_COUPON_ONLY",
+    "parameters": {
+      "id": "T04C",
+      "opening_mm": [
+        24.2,
+        13.6
+      ],
+      "wall_mm": 4.0,
+      "height_mm": 6.0
+    }
+  }
+]

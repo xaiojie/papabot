@@ -1,0 +1,87 @@
+{
+  "reason": "EDA 3.2 export cache retained the superseded schematic text after live canvas deletion; export normalized to the reviewed visible text state.",
+  "electrical_records_unchanged": true,
+  "pcb_records_unchanged": true,
+  "removed_native_text_records": [
+    {
+      "doc": "1b2919cc1262fe39",
+      "id": "754ac37c875332b5",
+      "text": "Revision 1.1  •  2026-09-12  •  02 / 05"
+    },
+    {
+      "doc": "8e03abe4b069eaeb",
+      "id": "6ab288cdf0f6c6c0",
+      "text": "Revision 1.1  •  2026-09-12  •  03 / 05"
+    },
+    {
+      "doc": "7020da259480076a",
+      "id": "d7acbedde843ca60",
+      "text": "Revision 1.1  •  2026-09-12  •  05 / 05"
+    },
+    {
+      "doc": "654247b3dab7ee5f",
+      "id": "0f716cb4dacc4736",
+      "text": "Revision 1.1  •  2026-09-12  •  01 / 05"
+    },
+    {
+      "doc": "2f4bfc0bfa3d836a",
+      "id": "45371453969dcb1e",
+      "text": "DesktopAssistant Integrated  |  Display, audio and controls / 显示音频与交互"
+    },
+    {
+      "doc": "2f4bfc0bfa3d836a",
+      "id": "9d3fb7e48157aa87",
+      "text": "Revision 1.1  •  2026-09-12  •  04 / 05"
+    },
+    {
+      "doc": "2f4bfc0bfa3d836a",
+      "id": "b4a88dda5011e7c0",
+      "text": "EC11 controls / 旋钮与按压"
+    },
+    {
+      "doc": "2f4bfc0bfa3d836a",
+      "id": "ea551164942b4868",
+      "text": "All ESP32 signals are 3.3V. Debounce encoder and button in firmware."
+    }
+  ],
+  "removed_pdf_text_objects": [
+    {
+      "page": 1,
+      "text": "Revision 1.1     2026-09-12     01 / 05"
+    },
+    {
+      "page": 2,
+      "text": "Revision 1.1     2026-09-12     02 / 05"
+    },
+    {
+      "page": 3,
+      "text": "Revision 1.1     2026-09-12     03 / 05"
+    },
+    {
+      "page": 4,
+      "text": "All ESP32 signals are 3.3V. Debounce encoder and button in firmware."
+    },
+    {
+      "page": 4,
+      "text": "EC11 controls / eËﬂ®N\u000ec\tS‰"
+    },
+    {
+      "page": 4,
+      "text": "DesktopAssistant Integrated  |  Display, audio and controls / f>y:ŠóŸ‚N\u000eN¤N™"
+    },
+    {
+      "page": 4,
+      "text": "Revision 1.1     2026-09-12     04 / 05"
+    },
+    {
+      "page": 5,
+      "text": "Revision 1.1     2026-09-12     05 / 05"
+    }
+  ],
+  "native_archive_before_sha256": "737319ae80948e9ea7441c974030e5586e17923052db139b4032e0cba0baa681",
+  "native_archive_after_sha256": "38f9dca15dc3f1dcd77d106acb48351d12b73110185467406466e4e6a0ce9bb4",
+  "pdf_before_sha256": "26302fdf9c67e14b9ce39033373eff5f8447137d9bedf3526cf23af808e16409",
+  "pdf_after_sha256": "35bca6f647b3d23137983e9d4eae5413f3f614df555db8521340392689d509d2",
+  "all_other_zip_payloads_byte_identical": true,
+  "all_other_pdf_content_operations_preserved": true
+}

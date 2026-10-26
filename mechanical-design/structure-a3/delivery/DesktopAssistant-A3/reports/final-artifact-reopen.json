@@ -1,0 +1,158 @@
+{
+  "blend_sha256": "417dac4775ea8afd120cc55995e1bf2f7cd4b754591cc72ea562b161d17ea4c1",
+  "scene": "10_A3_COMPLETE_ASSEMBLY",
+  "part_count": 30,
+  "all_closed": true,
+  "scenes_available": [
+    "01_ASSEMBLY_AND_DISASSEMBLY",
+    "01_R06_PART__PRINT_THIS_MESH",
+    "02_PRINT_V2__FIT_COUPONS_ONLY",
+    "02_R06_FIT__PCB_BATTERY_FLOOR",
+    "03_A2_ROBOT_CONTEXT__OTHER_PARTS_A1",
+    "03_STRUCTURE_A1__DRAFT_NOT_PRINT_RELEASE",
+    "10_A3_COMPLETE_ASSEMBLY",
+    "11_A3_EXPLODED_ASSEMBLY",
+    "12_A3_PRINT_PARTS_OVERVIEW",
+    "13_A3_FRONT_CAP_REMOVED"
+  ],
+  "parts": [
+    {
+      "id": "R02",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R04",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R06",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R01",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R05",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L101_FL",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L102_FL",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L104_FL",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L101_FR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L102_FR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L104_FR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L101_RL",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L102_RL",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L104_RL",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L101_RR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L102_RR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "L104_RR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R03",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R11",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R09",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R10_1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R10_2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R16",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R17",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R18",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R14",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R12_L",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R13_L",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R12_R",
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": "R13_R",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "rendered_views_this_run": [
+    "front",
+    "perspective",
+    "rear",
+    "internal",
+    "front-open",
+    "exploded",
+    "parts"
+  ],
+  "render_only_changes_saved": false,
+  "packed_file_reopened": true,
+  "fonts": [
+    {
+      "name": "Arial Unicode MS Regular",
+      "packed": true
+    }
+  ],
+  "images": []
+}

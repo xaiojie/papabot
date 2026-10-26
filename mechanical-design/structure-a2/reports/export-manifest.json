@@ -1,0 +1,28 @@
+[
+  {
+    "id": "R06",
+    "name": "R06__PCB_support_bridge_A2",
+    "label_zh": "主控PCB支撑架",
+    "file": "stl/R06__PCB_support_bridge_A2__mm.stl",
+    "quantity": 1,
+    "dimensions_mm": [
+      103.99999,
+      41.5,
+      31.40001
+    ],
+    "print_orientation": "PCB contact seats down; support bridge underside, avoid filling hex tunnels",
+    "assembly_bbox_mm": [
+      [
+        -51.999996185302734,
+        -7.5,
+        34.599998474121094
+      ],
+      [
+        51.999996185302734,
+        34.0,
+        66.0
+      ]
+    ],
+    "status": "CAD_PART_FOR_FIT_TEST"
+  }
+]

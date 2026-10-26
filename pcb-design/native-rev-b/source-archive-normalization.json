@@ -1,0 +1,1412 @@
+{
+  "rule_selectors": [
+    {
+      "selector": [
+        "NET",
+        ""
+      ],
+      "source": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {
+          "NET_LENGTH_TOLERANCE": [
+            "default",
+            null
+          ]
+        },
+        "copperValue": {},
+        "innerPlaneValue": {}
+      },
+      "archive": "omitted",
+      "reason": "No custom rule override; inherits unchanged DEFAULT rules"
+    },
+    {
+      "selector": [
+        "NET",
+        "LCD_3V3"
+      ],
+      "source": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      },
+      "archive": "omitted",
+      "reason": "No custom rule override; inherits unchanged DEFAULT rules"
+    }
+  ],
+  "schematic_attribute_presentation": [
+    {
+      "id": "2041cc749939cda5",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "3c4612042307c491",
+      "key": "Unique ID",
+      "live_z_index": 27,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "69bcf72b4ecc5617",
+      "key": "Pin Number",
+      "live_z_index": 59,
+      "archive_z_index": 59,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2d6501eb14cf116f",
+      "key": "Page Size",
+      "live_z_index": 8,
+      "archive_z_index": 7,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "0d7c9f34865354dd",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7bc4f3055810cd96",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ef96efe2b54de5bb",
+      "key": "Convert to PCB",
+      "live_z_index": 7,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1983b375b21fdfa6",
+      "key": "Pin Number",
+      "live_z_index": 67,
+      "archive_z_index": 67,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "457fb16190a34491",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1bac968b13993235",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "890d30a491bea229",
+      "key": "Add into BOM",
+      "live_z_index": 4,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "3573ead13f7edd06",
+      "key": "Convert to PCB",
+      "live_z_index": 5,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1c6e2513635fe3e5",
+      "key": "Pin Number",
+      "live_z_index": 63,
+      "archive_z_index": 63,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a911a84705ef60d3",
+      "key": "Add into BOM",
+      "live_z_index": 6,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "6a429a8fc7c57744",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c84ca7d017654507",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c54f7e0aac4c4f19",
+      "key": "Designator",
+      "live_z_index": 9,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "77ef82b17813f927",
+      "key": "Convert to PCB",
+      "live_z_index": 7,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f8d6d7abcc117ac1",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ea36917b2d8a6262",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9b6a214afb87c1d3",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "bb59c7698de488ee",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e7de62e226f1dec2",
+      "key": "Convert to PCB",
+      "live_z_index": 10,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a86d317b3ac86412",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1985788e535a0354",
+      "key": "Unique ID",
+      "live_z_index": 11,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "4e0643d790979df3",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "b9440bfd9a305981",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "29ef436f57d5bb99",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "815055c9fabdffef",
+      "key": "Company",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2fb5787ef867a8f9",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f4210c90c8ba3422",
+      "key": "Reviewed",
+      "live_z_index": 5,
+      "archive_z_index": 4,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c0d05181494ba276",
+      "key": "@Create Date",
+      "live_z_index": 11,
+      "archive_z_index": 11,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5a462f1f6067c2b3",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d81ef1a955107be8",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "6c8ce71e7f4027f7",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d7cfdc6323464035",
+      "key": "Unique ID",
+      "live_z_index": 11,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f6e3c6000577e7f6",
+      "key": "Add into BOM",
+      "live_z_index": 7,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5f1cc330ddd3d74d",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ec4498f9da53abbd",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f05c0f815b3ea02d",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1aea0ae7b592d40d",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1ff34680c5af669d",
+      "key": "Unique ID",
+      "live_z_index": 12,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ae41895ecae31c68",
+      "key": "Part Number",
+      "live_z_index": 6,
+      "archive_z_index": 5,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ad6181d7592cd5f4",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "280a405a740e5a3b",
+      "key": "Designator",
+      "live_z_index": 25,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "0b1fb84bcf34a959",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "cfd6959ec1636ac7",
+      "key": "Convert to PCB",
+      "live_z_index": 5,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "4aac904aca10580b",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c28fa3642ed2d90f",
+      "key": "Designator",
+      "live_z_index": 11,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f21495f97248f93d",
+      "key": "Convert to PCB",
+      "live_z_index": 8,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f11fb6ce0255668c",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e62150254bfd8a95",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "56fe39d2f7243953",
+      "key": "Unique ID",
+      "live_z_index": 15,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9c7de4108b6069d4",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "fb4c85978dd23033",
+      "key": "Add into BOM",
+      "live_z_index": 8,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "659e45316466f3c7",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a6be2b3daf37cec5",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7e0450aef572f0eb",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "42baa1abf468fa8a",
+      "key": "Pin Number",
+      "live_z_index": 7,
+      "archive_z_index": 7,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2f80a5dc7896e6c2",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "98af6b9a100337a5",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "118fd6074637551a",
+      "key": "Add into BOM",
+      "live_z_index": 22,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8f938084244895c2",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9285e5d41497b869",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "02bf93805136249b",
+      "key": "Designator",
+      "live_z_index": 25,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "b178c355ce824db3",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9661b108d7218a8a",
+      "key": "Add into BOM",
+      "live_z_index": 6,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "02cecdfa4edc2a36",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "091606bc27131bba",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "92b3c1576d837b37",
+      "key": "@Project Name",
+      "live_z_index": 9,
+      "archive_z_index": 8,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "0483347df97bb84c",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "4259e85144128c74",
+      "key": "Unique ID",
+      "live_z_index": 14,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1c00b3ac36ccd791",
+      "key": "Designator",
+      "live_z_index": 7,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2d47004e60ec453e",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1e365fd1404c8239",
+      "key": "Convert to PCB",
+      "live_z_index": 7,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "11a87fcbd1a16a31",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "37b8df6627a353d7",
+      "key": "Pin Number",
+      "live_z_index": 35,
+      "archive_z_index": 35,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d1d35c70059438ae",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5277b2cb05e6621d",
+      "key": "Version",
+      "live_z_index": 7,
+      "archive_z_index": 6,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "739ad94552522a21",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5538060e08a17590",
+      "key": "Designator",
+      "live_z_index": 12,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ae95e67ff68f0e58",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "25b67f5592a52477",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5e469575f35bdf6f",
+      "key": "Add into BOM",
+      "live_z_index": 9,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9d90706545ab3a68",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c216a29e655f3d68",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "57c99754afa710f4",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5f7d96ab314ead56",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "201a18a6804685c4",
+      "key": "Convert to PCB",
+      "live_z_index": 5,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "48c689527758fd09",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f68fee612e28be94",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7a6a0271dc17f9e1",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "adcdeee452231846",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "26930552a2b163e4",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2917933ae5a8b18a",
+      "key": "Unique ID",
+      "live_z_index": 9,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "359e0901c75da8c8",
+      "key": "Designator",
+      "live_z_index": 9,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a203050a0ab92fc1",
+      "key": "Add into BOM",
+      "live_z_index": 10,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "bf28b1060faa0222",
+      "key": "Convert to PCB",
+      "live_z_index": 7,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "bca942b20168a29c",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1b3e2a3f3a9b9071",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e208d8571298a0fa",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f5f675459ecd6154",
+      "key": "Designator",
+      "live_z_index": 10,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "3277506923aeaa5b",
+      "key": "Pin Number",
+      "live_z_index": 15,
+      "archive_z_index": 15,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9716237431650932",
+      "key": "Drawed",
+      "live_z_index": 4,
+      "archive_z_index": 3,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f0cb45abeb639425",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "98cdbf7d69fd8402",
+      "key": "Add into BOM",
+      "live_z_index": 6,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "cf94670131b6c2b9",
+      "key": "Pin Number",
+      "live_z_index": 67,
+      "archive_z_index": 67,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7713a1b95445292f",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "6255e6421a4e2ea7",
+      "key": "Convert to PCB",
+      "live_z_index": 8,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "93883f9ebd2a764f",
+      "key": "Unique ID",
+      "live_z_index": 11,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a94c07ffebf5daff",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f0f1c0caa00e514e",
+      "key": "Convert to PCB",
+      "live_z_index": 9,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9cbbe2f6be30a6dc",
+      "key": "Convert to PCB",
+      "live_z_index": 5,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "642b15d4911d73a3",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5660d920ac2cbfca",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d972904ce227ee25",
+      "key": "Unique ID",
+      "live_z_index": 27,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "258701ddb571f0f4",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "92ca8bbd54c3558e",
+      "key": "Add into BOM",
+      "live_z_index": 4,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8770def365f8ed66",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8cb8292a19872dac",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f95513a990ef4181",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "3f9cd0a6c2744d33",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5b6e962ab3576c47",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8c44d7b606df66b0",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5e7fadbf67e2df07",
+      "key": "Unique ID",
+      "live_z_index": 13,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "821f36d2f32a14bc",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e2f2daeac837e52c",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "eb8a9b2ac758dd95",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "96fedde68665aeb7",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d56857575633b35e",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7dcd9dea273661c0",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e9bc97187c244145",
+      "key": "Unique ID",
+      "live_z_index": 12,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "961570ccf80e59a9",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ac6750b9afafb02f",
+      "key": "Pin Number",
+      "live_z_index": 11,
+      "archive_z_index": 11,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7d0fc6c9292197ae",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "687ae8897cb4e8d9",
+      "key": "Designator",
+      "live_z_index": 7,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "3a285d4800ee1471",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "cae6c8f10519d467",
+      "key": "Add into BOM",
+      "live_z_index": 3,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "fb2a61c8cdc3b6df",
+      "key": "Unique ID",
+      "live_z_index": 9,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2dc82fbf3ffa1beb",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c2b077660fbe04f4",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a4d4ddbbbf3c7e98",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "59edc5fbdf2ea0a2",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a303474642d2de31",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7ba8dfe4ccd557c4",
+      "key": "Pin Number",
+      "live_z_index": 35,
+      "archive_z_index": 35,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "85e08ff24799fba8",
+      "key": "Designator",
+      "live_z_index": 13,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "98e36f7cb5737114",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ea42729ffa710418",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "5a147c5319db6b38",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "706f7222c07bb252",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9264d21d26bce096",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f501f974f40ad478",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a560fe22f9009c57",
+      "key": "Pin Number",
+      "live_z_index": 15,
+      "archive_z_index": 15,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "ef8a480b7b61f57a",
+      "key": "Convert to PCB",
+      "live_z_index": 23,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2dd94d5bc4324645",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f5a406321e2dd44b",
+      "key": "Designator",
+      "live_z_index": 9,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d0afe2b062bdeac1",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d994c5166d9091de",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "4b495e50ce1b0645",
+      "key": "Pin Number",
+      "live_z_index": 51,
+      "archive_z_index": 51,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "96d666bda86d7a9c",
+      "key": "Add into BOM",
+      "live_z_index": 7,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a03aafa232f58d01",
+      "key": "Convert to PCB",
+      "live_z_index": 4,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "3fbf8d82deb5e0cc",
+      "key": "Add into BOM",
+      "live_z_index": 22,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "20d8fcb0a31f0271",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "894162abbca2f287",
+      "key": "Unique ID",
+      "live_z_index": 9,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "86e4b30202865d98",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e1f1f2bc14d2b1c1",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f28715aa10499e82",
+      "key": "Unique ID",
+      "live_z_index": 9,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "87686cc3dc3792a0",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "0483461abd8c6479",
+      "key": "Designator",
+      "live_z_index": 10,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9af4dbc4a0150a68",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "9a6185b7bf89e460",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "0ddbda083671929e",
+      "key": "@Update Date",
+      "live_z_index": 10,
+      "archive_z_index": 10,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d01b61e427c424bf",
+      "key": "Pin Number",
+      "live_z_index": 19,
+      "archive_z_index": 19,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "341bf484c236179f",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "6438b770fb7deed6",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2bd10964bb1b5bb9",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7e276ba0c7add00a",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "f09326288df33d67",
+      "key": "Designator",
+      "live_z_index": 7,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c180c6fbac8c21e7",
+      "key": "Designator",
+      "live_z_index": 9,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "1042b46f2d3bb825",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "bd83602bc30e4e18",
+      "key": "Designator",
+      "live_z_index": 6,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "83d2582e93cd5675",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c03c2ac268148bde",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "7416506220745519",
+      "key": "Unique ID",
+      "live_z_index": 11,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8db696c5e9f6a6e7",
+      "key": "Designator",
+      "live_z_index": 7,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "c3e02fe40b7534c4",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "2ee2bdff3bea4251",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "dcd60963f08a9548",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "a913b2cbda8a14c8",
+      "key": "Add into BOM",
+      "live_z_index": 4,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "e74e507e4fb281d6",
+      "key": "Add into BOM",
+      "live_z_index": 4,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "d80bc94b3e44ceec",
+      "key": "Unique ID",
+      "live_z_index": 8,
+      "archive_z_index": -2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8709372241d357bd",
+      "key": "Convert to PCB",
+      "live_z_index": 23,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "8e33dc9642b41dd8",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "bac71f0d03ec81ec",
+      "key": "Add into BOM",
+      "live_z_index": 6,
+      "archive_z_index": -1,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "40e619d5d82f7b3e",
+      "key": "Name",
+      "live_z_index": 3,
+      "archive_z_index": 2,
+      "strikeout": "false in rendered source, absent in archive"
+    },
+    {
+      "id": "388f0c6f10aa9684",
+      "key": "Convert to PCB",
+      "live_z_index": 11,
+      "archive_z_index": 0,
+      "strikeout": "false in rendered source, absent in archive"
+    }
+  ],
+  "note": "Only implicit default selectors and ATTR presentation order/default strikeout are normalized. All values, pins, positions, visibility, components and wires compare unchanged."
+}

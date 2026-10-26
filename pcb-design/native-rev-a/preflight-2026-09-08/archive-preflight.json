@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-09-08T22:51:54.791957+08:00",
+  "gerber_sha256": "5bb6b24ac4f5287ba9d7496af1de8c203dfab9e1f86b854cde08af113cc6e084",
+  "closed_outline_matches_definition": true,
+  "drills_match_persisted_geometry": true,
+  "max_drill_delta_mm": 0.0002789999999919246,
+  "pth_count": 122,
+  "npth_count": 4,
+  "via_count_in_pth": 24,
+  "separate_via_file_duplicates_pth_subset": true,
+  "exported_netlist_pins_match_definition": 98
+}

@@ -1,0 +1,10 @@
+{
+  "before": "f218bfc49180e1b68e1e935fbaf539f3350b0ca3166f1afbee2c3ed32bffc746",
+  "after": "f218bfc49180e1b68e1e935fbaf539f3350b0ca3166f1afbee2c3ed32bffc746",
+  "print_geometry_unchanged": true,
+  "front_material_face_counts": {
+    "0": 1906,
+    "1": 262,
+    "2": 2
+  }
+}

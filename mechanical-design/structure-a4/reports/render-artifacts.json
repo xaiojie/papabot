@@ -1,0 +1,46 @@
+{
+  "blend_sha256": "82c49abd8b2335633ff7e55c6c32337df68edd180fdfc25d098fc703cb272ab1",
+  "views": [
+    {
+      "view": "perspective",
+      "file": "renders/A4-perspective.png",
+      "sha256": "d91ae7a4cd2c51c1566cfc01c95cd863e6222fd259c96050d7582bb16e2eb983"
+    },
+    {
+      "view": "front",
+      "file": "renders/A4-front.png",
+      "sha256": "c4077f5ad2168c2ab543125d9dc66c192c57732aa7e20b1b0f5b9a9fd2536931"
+    },
+    {
+      "view": "rear",
+      "file": "renders/A4-rear.png",
+      "sha256": "d93d18bf18eaa400f02eccce306c783c40e001901af4fa953380b07476bf2d66"
+    },
+    {
+      "view": "internal",
+      "file": "renders/A4-internal.png",
+      "sha256": "7f1fcd3080c510cfe76021f54d61096e3a759e887c4319dfd175248ac7e27bbb"
+    },
+    {
+      "view": "lower-deck",
+      "file": "renders/A4-lower-deck.png",
+      "sha256": "f0b8ec253d9bd3a3ad4c8507211ba84414ce121317d5ce4addad7a4f5023baa5"
+    },
+    {
+      "view": "exploded",
+      "file": "renders/A4-exploded.png",
+      "sha256": "57b309eb5be5105faa1695c7f391359999b713e39d8da6077e74bff3d09e55d4"
+    },
+    {
+      "view": "front-open",
+      "file": "renders/A4-front-open.png",
+      "sha256": "e3500ebce7b15266627770aa16394dfb210255023c5419b969c56bb9e2e21e60"
+    },
+    {
+      "view": "parts",
+      "file": "renders/A4-parts.png",
+      "sha256": "a105029ad536e751268846cc61b8fc7040167096081711dcc10a940084a125e5"
+    }
+  ],
+  "visual_review": "See visual-review.json for manual image inspection."
+}

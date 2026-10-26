@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="750" viewBox="0 0 1280 750">
+<rect width="1280" height="750" fill="#f5f7f9"/>
+<style>text{font-family:Arial, PingFang SC, Microsoft YaHei, sans-serif;fill:#183041} .t{font-size:26px;font-weight:bold} .s{font-size:15px} .b{font-size:18px;font-weight:bold} .m{font-size:14px} .note{fill:#9b5f00}</style>
+<text x="30" y="42" class="t">载板与结构接口 · A1候选</text>
+<text x="30" y="71" class="s">80×32×1.6mm只是空间分配草案，主控可放入，不代表连接器、走线和高度已经全部通过。</text>
+<rect x="95" y="200" width="880" height="352" fill="#d9e8e1" stroke="#398469" stroke-width="3"/>
+<circle cx="150" cy="497" r="17.6" fill="white" stroke="#567"/>
+<circle cx="150" cy="497" r="33" fill="none" stroke="#b1c3ba" stroke-dasharray="5 4"/>
+<circle cx="920" cy="497" r="17.6" fill="white" stroke="#567"/>
+<circle cx="920" cy="497" r="33" fill="none" stroke="#b1c3ba" stroke-dasharray="5 4"/>
+<circle cx="920" cy="255" r="17.6" fill="white" stroke="#567"/>
+<circle cx="920" cy="255" r="33" fill="none" stroke="#b1c3ba" stroke-dasharray="5 4"/>
+<circle cx="150" cy="255" r="17.6" fill="white" stroke="#567"/>
+<circle cx="150" cy="255" r="33" fill="none" stroke="#b1c3ba" stroke-dasharray="5 4"/>
+<rect x="183" y="264.24" width="568.26" height="223.52" fill="#faf8ee" stroke="#7d8a9b"/>
+<text x="323" y="354.24" class="b">U1 51.66 × 20.32mm</text>
+<text x="323" y="381.24" class="m">两排20P · 列距17.78mm</text>
+<circle cx="201.7" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="229.64" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="257.58" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="285.52" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="313.46" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="341.4" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="369.34" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="397.28000000000003" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="425.21999999999997" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="453.16" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="481.0999999999999" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="509.04" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="536.98" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="564.92" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="592.8600000000001" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="620.8" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="648.74" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="676.68" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="704.62" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="732.56" cy="473.79" r="5" fill="#ad874c"/>
+<circle cx="201.7" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="229.64" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="257.58" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="285.52" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="313.46" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="341.4" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="369.34" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="397.28000000000003" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="425.21999999999997" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="453.16" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="481.0999999999999" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="509.04" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="536.98" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="564.92" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="592.8600000000001" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="620.8" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="648.74" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="676.68" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="704.62" cy="278.21" r="5" fill="#ad874c"/>
+<circle cx="732.56" cy="278.21" r="5" fill="#ad874c"/>
+<rect x="183" y="288" width="110" height="176" fill="#f5d098" fill-opacity="0.6" stroke="#d08829" stroke-dasharray="6 4"/>
+<text x="189" y="364" class="b">天线</text>
+<text x="189" y="389" class="m">净空待核</text>
+<polyline points="751.26,376 801.26,376" fill="none" stroke="#587ba6" stroke-width="3"/>
+<text x="756.26" y="367" class="m" style="fill:#587ba6">USB → +X</text>
+<text x="725" y="280" class="m">右侧接口候选区</text>
+<text x="725" y="303" class="m">不能占USB插头空间</text>
+<text x="335" y="530" class="m">前侧LCD短线　/　后侧控件短线</text>
+<text x="40" y="605" class="s">整机坐标：X=u−40，Y=v−2，Z=w+64；w=0是载板底面。四孔Ø3.2，中心(5,5)(75,5)(75,27)(5,27)。</text>
+<text x="40" y="635" class="s">高度先预留载板底到最高点20mm，包含插座/开发板/线束弯折；排母8.5mm不是完整装配高度。</text>
+<text x="40" y="665" class="s">外置：MINI保险配电板、舵机铜母线、两路降压、PCA、功放、麦克风；需结构继续容纳并留检修/散热。</text>
+<text x="40" y="710" class="m">本图保留A1空间候选；原生21元件PCB由主任务维护，实际板框/位置/DRC以原生工程为准。</text>
+</svg>

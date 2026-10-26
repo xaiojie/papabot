@@ -1,0 +1,530 @@
+{
+  "passed": true,
+  "pin_count": 104,
+  "schematic_pcb_pinmaps_identical": true,
+  "archive_pinmaps_identical": true,
+  "screen_supply_isolated_from_5v": true,
+  "jp3_open_separates_mcu_and_lcd_3v3": true,
+  "pinmap": [
+    {
+      "ref": "C1",
+      "pin": "1",
+      "net": "ADC_BAT"
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "net": "+5V_LOGIC"
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "net": "LCD_3V3"
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "net": "ADC_BAT"
+    },
+    {
+      "ref": "J1",
+      "pin": "10",
+      "net": "PCA_SCL"
+    },
+    {
+      "ref": "J1",
+      "pin": "11",
+      "net": "PCA_OE_N"
+    },
+    {
+      "ref": "J1",
+      "pin": "12",
+      "net": "LCD_MOSI"
+    },
+    {
+      "ref": "J1",
+      "pin": "13",
+      "net": "LCD_SCLK"
+    },
+    {
+      "ref": "J1",
+      "pin": "14",
+      "net": "LCD_CS_N"
+    },
+    {
+      "ref": "J1",
+      "pin": "15",
+      "net": "LCD_DC"
+    },
+    {
+      "ref": "J1",
+      "pin": "16",
+      "net": ""
+    },
+    {
+      "ref": "J1",
+      "pin": "17",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J1",
+      "pin": "18",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J1",
+      "pin": "19",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "net": "ENC_B"
+    },
+    {
+      "ref": "J1",
+      "pin": "20",
+      "net": "GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "3",
+      "net": ""
+    },
+    {
+      "ref": "J1",
+      "pin": "4",
+      "net": "MIC_BCLK"
+    },
+    {
+      "ref": "J1",
+      "pin": "5",
+      "net": "MIC_WS"
+    },
+    {
+      "ref": "J1",
+      "pin": "6",
+      "net": "MIC_SD"
+    },
+    {
+      "ref": "J1",
+      "pin": "7",
+      "net": "GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "8",
+      "net": "ENC_A"
+    },
+    {
+      "ref": "J1",
+      "pin": "9",
+      "net": "PCA_SDA"
+    },
+    {
+      "ref": "J10",
+      "pin": "1",
+      "net": "LCD_3V3"
+    },
+    {
+      "ref": "J10",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "10",
+      "net": "LCD_RST_N"
+    },
+    {
+      "ref": "J2",
+      "pin": "11",
+      "net": "KEY_N"
+    },
+    {
+      "ref": "J2",
+      "pin": "12",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "13",
+      "net": "ENC_SW_N"
+    },
+    {
+      "ref": "J2",
+      "pin": "14",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "15",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "16",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "17",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "J2",
+      "pin": "18",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "J2",
+      "pin": "19",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "20",
+      "net": "GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "net": "AMP_BCLK"
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "net": "AMP_WS"
+    },
+    {
+      "ref": "J2",
+      "pin": "7",
+      "net": "AMP_DIN"
+    },
+    {
+      "ref": "J2",
+      "pin": "8",
+      "net": ""
+    },
+    {
+      "ref": "J2",
+      "pin": "9",
+      "net": "GND"
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "net": "LCD_3V3"
+    },
+    {
+      "ref": "J3",
+      "pin": "3",
+      "net": "LCD_SCLK"
+    },
+    {
+      "ref": "J3",
+      "pin": "4",
+      "net": "LCD_MOSI"
+    },
+    {
+      "ref": "J3",
+      "pin": "5",
+      "net": "LCD_RST_N"
+    },
+    {
+      "ref": "J3",
+      "pin": "6",
+      "net": "LCD_DC"
+    },
+    {
+      "ref": "J3",
+      "pin": "7",
+      "net": "LCD_CS_N"
+    },
+    {
+      "ref": "J3",
+      "pin": "8",
+      "net": "LCD_3V3"
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J4",
+      "pin": "3",
+      "net": "PCA_SDA"
+    },
+    {
+      "ref": "J4",
+      "pin": "4",
+      "net": "PCA_SCL"
+    },
+    {
+      "ref": "J4",
+      "pin": "5",
+      "net": "PCA_OE_N"
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J5",
+      "pin": "3",
+      "net": "MIC_BCLK"
+    },
+    {
+      "ref": "J5",
+      "pin": "4",
+      "net": "MIC_WS"
+    },
+    {
+      "ref": "J5",
+      "pin": "5",
+      "net": "MIC_SD"
+    },
+    {
+      "ref": "J5",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "net": "AMP_BCLK"
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "net": "AMP_WS"
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "net": "AMP_DIN"
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "net": "ENC_A"
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "net": "ENC_B"
+    },
+    {
+      "ref": "J7",
+      "pin": "4",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "5",
+      "net": "ENC_SW_N"
+    },
+    {
+      "ref": "J7",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "7",
+      "net": "KEY_N"
+    },
+    {
+      "ref": "J8",
+      "pin": "1",
+      "net": "+5V_LOGIC"
+    },
+    {
+      "ref": "J8",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J9",
+      "pin": "1",
+      "net": "VBAT_SW"
+    },
+    {
+      "ref": "J9",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "JP1",
+      "pin": "1",
+      "net": "+5V_LOGIC"
+    },
+    {
+      "ref": "JP1",
+      "pin": "2",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "JP2",
+      "pin": "1",
+      "net": "VBAT_SW"
+    },
+    {
+      "ref": "JP2",
+      "pin": "2",
+      "net": "VBAT_SENSE"
+    },
+    {
+      "ref": "JP3",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "JP3",
+      "pin": "2",
+      "net": "LCD_3V3"
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "net": "VBAT_SENSE"
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "net": "ADC_BAT"
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "net": "ADC_BAT"
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "net": "PCA_OE_N"
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "net": "ENC_A"
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "net": "ENC_B"
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "net": "ENC_SW_N"
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "net": "KEY_N"
+    }
+  ]
+}

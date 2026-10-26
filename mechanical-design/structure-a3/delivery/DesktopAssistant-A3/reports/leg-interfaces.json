@@ -1,0 +1,54 @@
+[
+  {
+    "id": "FL",
+    "fixed": "L101_FL__hip_fixed_bracket",
+    "hip_joint": "JNT_FL_HIP_X",
+    "knee_joint": "JNT_FL_KNEE_X",
+    "upper": "L102_FL__upper_link_and_knee_mount",
+    "lower": "L104_FL__lower_leg_and_foot",
+    "nominal_servo_case": [
+      22.5,
+      12.2,
+      22.8
+    ]
+  },
+  {
+    "id": "FR",
+    "fixed": "L101_FR__hip_fixed_bracket",
+    "hip_joint": "JNT_FR_HIP_X",
+    "knee_joint": "JNT_FR_KNEE_X",
+    "upper": "L102_FR__upper_link_and_knee_mount",
+    "lower": "L104_FR__lower_leg_and_foot",
+    "nominal_servo_case": [
+      22.5,
+      12.2,
+      22.8
+    ]
+  },
+  {
+    "id": "RL",
+    "fixed": "L101_RL__hip_fixed_bracket",
+    "hip_joint": "JNT_RL_HIP_X",
+    "knee_joint": "JNT_RL_KNEE_X",
+    "upper": "L102_RL__upper_link_and_knee_mount",
+    "lower": "L104_RL__lower_leg_and_foot",
+    "nominal_servo_case": [
+      22.5,
+      12.2,
+      22.8
+    ]
+  },
+  {
+    "id": "RR",
+    "fixed": "L101_RR__hip_fixed_bracket",
+    "hip_joint": "JNT_RR_HIP_X",
+    "knee_joint": "JNT_RR_KNEE_X",
+    "upper": "L102_RR__upper_link_and_knee_mount",
+    "lower": "L104_RR__lower_leg_and_foot",
+    "nominal_servo_case": [
+      22.5,
+      12.2,
+      22.8
+    ]
+  }
+]

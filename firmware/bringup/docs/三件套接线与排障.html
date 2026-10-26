@@ -1,0 +1,353 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HW-793 + 开发板 + 12针屏 · 详细接线图</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#eef2f6;color:#192a3b;
+       font:15px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;padding:22px}
+  .wrap{max-width:1500px;margin:0 auto}
+  h1{font-size:26px;margin:0 0 6px}
+  h2{font-size:19px;margin:34px 0 12px;padding-left:11px;border-left:4px solid #2f7a58}
+  .sub{color:#627283;font-size:14px;margin-bottom:18px}
+  .card{background:#fff;border:1px solid #dce4ea;border-radius:14px;padding:16px 20px;margin:14px 0}
+  .warn{background:#fff4f4;border:1px solid #f0b4b4;border-radius:12px;padding:14px 18px;margin:14px 0}
+  .warn b{color:#c92a2a}
+  .ok{background:#f2fbf5;border:1px solid #a8dcb8;border-radius:12px;padding:14px 18px;margin:14px 0}
+  .ok b{color:#2b8a3e}
+  .info{background:#f2f7ff;border:1px solid #a9c9f0;border-radius:12px;padding:14px 18px;margin:14px 0}
+  .info b{color:#1864ab}
+  svg{width:100%;height:auto;background:#f5f8fa;border:1px solid #dce4ea;border-radius:14px}
+  table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px;background:#fff}
+  th,td{border:1px solid #dce4ea;padding:8px 11px;text-align:left;vertical-align:top}
+  th{background:#f0f4f8;color:#192a3b;font-weight:600}
+  tbody tr:hover{background:#fffbe6}
+  tr.power td{background:#fff8f8}
+  tr.power:hover td{background:#ffeeee}
+  tr.sig td{background:#f5faff}
+  tr.sig:hover td{background:#e8f4ff}
+  .k{font-family:ui-monospace,Menlo,monospace;color:#1864ab;font-weight:600}
+  .n{display:inline-block;width:24px;height:24px;line-height:24px;text-align:center;
+     border-radius:50%;background:#495057;color:#fff;font-weight:700;font-size:13px}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin:12px 0;font-size:14px}
+  .legend i{display:inline-block;width:22px;height:5px;border-radius:3px;margin-right:6px;vertical-align:middle}
+  code{background:#eef2f6;padding:2px 6px;border-radius:5px;font-family:ui-monospace,Menlo,monospace;color:#1864ab}
+  .big{font-size:17px;font-weight:700}
+</style></head><body><div class="wrap">
+
+<h1>HW-793 + ESP32-S3 开发板 + 12 针屏 · 详细接线图</h1>
+<div class="sub">面包板测试阶段 · 独立供电方案 · 2026-09-13 · 共 14 根线</div>
+
+<div class="warn">
+<b>⚠️ 两条铁律，先记住</b><br>
+① <b>屏幕 VCC（2脚）和 BLK（8脚）必须接 3.3V</b> —— 接 5V 会烧 ST7789 控制器。
+症状正是「背光还亮，但永远不出画面」。<br>
+② <b>USB 和 HW-793 的 5V 不能同时上</b> —— 开发板 5V 针和 USB VBUS 直连，没有切换电路，会倒灌电脑。
+</div>
+
+<h2>一、接线总图（14 根线）</h2>
+
+<div class="legend">
+  <span><i style="background:#e03131"></i>电源正极</span>
+  <span><i style="background:#2b8a3e"></i>GND 地</span>
+  <span><i style="background:#1971c2"></i>屏幕供电 3.3V</span>
+  <span><i style="background:#7048e8"></i>SPI 信号</span>
+  <span><i style="background:#f08c00"></i>旋钮 / 按键</span>
+</div>
+
+<svg id="fig" viewBox="0 0 1560 1180" xmlns="http://www.w3.org/2000/svg"></svg>
+
+<h2>二、逐根接线表（鼠标划过可高亮）</h2>
+<table>
+<thead><tr><th style="width:52px">序号</th><th>从</th><th>到</th><th>作用</th><th>注意</th></tr></thead>
+<tbody id="tb"></tbody>
+</table>
+
+<h2>三、位置怎么数（最容易搞错的地方）</h2>
+<div class="card">
+<b class="big">开发板 ↓ 这样摆，才不会数错</b><br><br>
+<code>元件面朝上</code> · <code>天线朝上</code> · <code>USB 朝下</code><br><br>
+然后看<b>左列 L1–L20</b>（从上往下数）和<b>右列 R1–R20</b>（从上往下数）。<br><br>
+<table>
+<tr><th>要用的脚</th><th>位置</th><th>板上印的字</th></tr>
+<tr><td class="k">L17 / L18</td><td>左列第 17 / 18 根</td><td>3V3</td></tr>
+<tr><td class="k">L20</td><td>左列最下面</td><td>GND</td></tr>
+<tr><td class="k">L13 / L12</td><td>左列第 13 / 12 根</td><td>12 / 11</td></tr>
+<tr><td class="k">L15 / L14</td><td>左列第 15 / 14 根</td><td>14 / 13</td></tr>
+<tr><td class="k">L8 / L2</td><td>左列第 8 / 2 根</td><td>7 / 2</td></tr>
+<tr><td class="k">R10</td><td>右列第 10 根</td><td>21</td></tr>
+<tr><td class="k">R13 / R11</td><td>右列第 13 / 11 根</td><td>38 / 40</td></tr>
+<tr><td class="k">R17 / R20</td><td>右列第 17 根 / 最下面</td><td><b>5V / GND</b>（挨着）</td></tr>
+</table>
+</div>
+
+<h2>四、HW-793 电源模块 · 接口在哪</h2>
+<table>
+<tr><th>排针</th><th>颜色</th><th>上排</th><th>下排</th><th>本方案用途</th></tr>
+<tr><td>3.3V 输出</td><td>🔵 蓝</td><td>3.3V</td><td>GND</td><td>备用（想给屏独立供电时用）</td></tr>
+<tr><td><b>5V 输出</b></td><td>🔴 红</td><td><b>5V</b></td><td><b>GND</b></td><td><b>→ 开发板 R17 / R20</b></td></tr>
+<tr><td>ADJ 可调</td><td>🟡 黄</td><td>可调</td><td>GND</td><td>不用（蓝电位器 W103 调压）</td></tr>
+</table>
+<div class="card" style="font-size:14px">
+<b>照片上其它元件：</b> LM2596 ×3（三路降压芯片）·「330」方块 ×3（33µH 电感）·
+1000µF/220µF/330µF（滤波电容）· F1/F2/F3（保险丝）· 蓝色按钮（总开关）· 红色端子（DC 输入）
+</div>
+
+<h2>五、「屏幕亮但没画面」逐步排查</h2>
+<div class="info">
+<b>💡 先理解一件事</b><br>
+背光亮 = <b>只剩 BLK 有电</b>，不代表控制器活着。<br>
+<b>背光 LED 和 ST7789 控制器是两套独立电路</b> —— 控制器烧了，背光照样亮。
+</div>
+<table>
+<tr><th style="width:52px">步骤</th><th>查什么</th><th>怎么查</th><th>正常值</th></tr>
+<tr><td><span class="n">1</span></td><td><b>屏 2 脚电压</b></td>
+    <td>万用表直流档，红笔屏 2 脚、黑笔屏 1 脚</td>
+    <td><b>3.3V</b>（若是 5V → 立刻改线）</td></tr>
+<tr><td><span class="n">2</span></td><td>固件在不在跑</td>
+    <td>串口发 <code>status</code></td>
+    <td>返回 <code>app=face uptime=…</code></td></tr>
+<tr><td><span class="n">3</span></td><td>共地</td>
+    <td>蜂鸣档量 屏 1 脚 ↔ 开发板 L20</td>
+    <td>响</td></tr>
+<tr><td><span class="n">4</span></td><td>5 根 SPI 线</td>
+    <td>逐根量通断</td>
+    <td>SCL→L13 · SDA→L12 · RES→R10 · DC→L15 · CS→L14</td></tr>
+<tr><td><span class="n">5</span></td><td>RES 虚焊？</td>
+    <td>量 屏 5 脚 ↔ 开发板 R10</td>
+    <td>导通。悬空 → 屏幕一直复位 → 全黑</td></tr>
+<tr><td><span class="n">6</span></td><td>DC/CS 接反？</td>
+    <td>核对 6脚→L15、7脚→L14</td>
+    <td>接反 → 花屏或全黑</td></tr>
+<tr><td><span class="n">7</span></td><td>3V3 带得动吗</td>
+    <td>接屏后量 3V3 是否掉压</td>
+    <td>≥3.2V（掉太多 → 用 HW-793 蓝排针单独供屏）</td></tr>
+</table>
+
+<div class="warn">
+<b>⚠️ 如果 VCC 之前真的接过 5V</b><br>
+ST7789 绝对最大额定 <b>4.6V</b>，5V 已经过压。判断控制器死没死：<br><br>
+<b>①</b> VCC 改回 3.3V 重新上电 → 出画面 = 没坏<br>
+<b>②</b> 还不行 → 串口发 <code>spi 10</code> 把时钟降到 10MHz 再试（<code>spi 20</code> / <code>spi 40</code> 也可）<br>
+<b>③</b> 仍不行 → 控制器大概率已损伤，需要换屏
+</div>
+
+<h2>六、给屏独立供电（可选，减轻开发板 3V3 负担）</h2>
+<div class="ok">
+<b>✅ 改成从 HW-793 蓝排针取 3.3V</b><br><br>
+<code>HW-793 蓝排针 上排 3.3V</code> → <code>屏 2 脚 + 屏 8 脚</code><br>
+<code>HW-793 蓝排针 下排 GND</code> → <code>屏 1 脚</code><br>
+<code>开发板 L20 GND</code> ↔ <code>HW-793 GND</code> ← <b>必须共地！</b><br><br>
+这样屏幕就不吃开发板的 3V3 了。
+</div>
+
+<h2>七、上电前 30 秒检查</h2>
+<table>
+<tr><th style="width:52px">#</th><th>做什么</th><th>通过标准</th></tr>
+<tr><td><span class="n">1</span></td><td>量 HW-793 红排针上排 ↔ 下排</td><td>≈5.0V（只有 3.5V 说明输入电压不够）</td></tr>
+<tr><td><span class="n">2</span></td><td><b>断电</b>量 5V ↔ GND 是否短路</td><td>蜂鸣档不响</td></tr>
+<tr><td><span class="n">3</span></td><td>量 3V3 ↔ GND 是否短路</td><td>蜂鸣档不响</td></tr>
+<tr><td><span class="n">4</span></td><td>确认 USB 已拔掉</td><td><b>必须</b></td></tr>
+<tr><td><span class="n">5</span></td><td>接模块上电</td><td>开发板红 PWR 灯亮</td></tr>
+<tr><td><span class="n">6</span></td><td>量屏 2 脚 ↔ 1 脚</td><td><b>3.3V</b></td></tr>
+</table>
+
+<div class="info">
+<b>💡 嫌插拔 USB 麻烦？串一个肖特基二极管</b><br>
+在 HW-793 的 5V 线上串 <code>1N5819</code> 或 <code>SS34</code>，以后随便插拔。<br>
+压降约 0.3V，开发板拿到 ~4.7V，完全够用。<br>
+<b>方向：带银色环的一端朝开发板。</b>
+</div>
+
+</div>
+
+<script>
+/* ============ 接线定义 ============ */
+const C_PWR='#e03131', C_GND='#2b8a3e', C_33='#1971c2', C_SPI='#7048e8', C_ENC='#f08c00';
+
+const WIRES=[
+  // 供电（HW-793 → 开发板）
+  {n:1, from:'HW793-5V',  to:'R17', why:'5V 输入',        c:C_PWR, grp:'pwr', note:'独立供电，插 USB 前必须拔掉'},
+  {n:2, from:'HW793-GND', to:'R20', why:'GND 共地',       c:C_GND, grp:'pwr', note:'5V 正下方那根'},
+  // 屏幕供电
+  {n:3, from:'L17', to:'SP2',  why:'屏 VCC 供电',   c:C_33,  grp:'sig', note:'⚠️ 3.3V，绝不能接 5V'},
+  {n:4, from:'L18', to:'SP8',  why:'屏 BLK 背光',   c:C_33,  grp:'sig', note:'⚠️ 3.3V。只控制背光亮灭'},
+  {n:5, from:'L20', to:'SP1',  why:'屏 GND 共地',   c:C_GND, grp:'sig', note:''},
+  // SPI
+  {n:6, from:'L13', to:'SP3',  why:'SPI 时钟 SCL',  c:C_SPI, grp:'sig', note:'对应 GPIO12'},
+  {n:7, from:'L12', to:'SP4',  why:'SPI 数据 SDA',  c:C_SPI, grp:'sig', note:'对应 GPIO11（是 MOSI，不是 I2C）'},
+  {n:8, from:'R10', to:'SP5',  why:'屏幕复位 RES',  c:C_SPI, grp:'sig', note:'对应 GPIO21。悬空会一直复位'},
+  {n:9, from:'L15', to:'SP6',  why:'数据/命令 DC',  c:C_SPI, grp:'sig', note:'对应 GPIO14。接反会花屏'},
+  {n:10,from:'L14', to:'SP7',  why:'片选 CS',       c:C_SPI, grp:'sig', note:'对应 GPIO13'},
+  // 旋钮按键
+  {n:11,from:'L8',  to:'SP9',  why:'旋钮 A 相',     c:C_ENC, grp:'sig', note:'对应 GPIO7'},
+  {n:12,from:'L2',  to:'SP10', why:'旋钮 B 相',     c:C_ENC, grp:'sig', note:'对应 GPIO2'},
+  {n:13,from:'R13', to:'SP11', why:'旋钮按压',      c:C_ENC, grp:'sig', note:'对应 GPIO38'},
+  {n:14,from:'R11', to:'SP12', why:'独立按键 K0',   c:C_ENC, grp:'sig', note:'对应 GPIO40'},
+];
+
+/* 屏幕 12 针丝印 */
+const SPNAME={1:'GND',2:'VCC',3:'SCL',4:'SDA',5:'RES',6:'DC',7:'CS',8:'BLK',9:'A',10:'B',11:'PUSH',12:'K0'};
+
+/* ============ 几何 ============ */
+const SVG='http://www.w3.org/2000/svg';
+const fig=document.getElementById('fig');
+function el(t,a={},kids=[]){const e=document.createElementNS(SVG,t);
+  for(const k in a)e.setAttribute(k,a[k]);kids.forEach(c=>e.appendChild(c));return e;}
+function tx(x,y,s,a={}){const e=el('text',{x,y,...a});e.textContent=s;return e;}
+
+/* 三块板的位置 */
+const PM ={x:40,  y:300, w:230, h:430};   // HW-793
+const DEV={x:520, y:90,  w:300, h:990};   // 开发板
+const SC ={x:1230,y:140, w:270, h:880};   // 屏幕
+
+const PITCH=Math.min(44,(DEV.h-120)/20);
+const PIN0=DEV.y+70;
+const SPITCH=Math.min(62,(SC.h-120)/12);
+const SPIN0=SC.y+70;
+
+/* 针脚坐标 */
+const L={},R={},SP={}; let PM5,PMG;
+// ⚠️ 键名必须带字母前缀（'L1'、'R17'、'SP3'），
+// 否则后面按 WIRES 里的字符串查不到坐标，线一根都画不出来。
+for(let i=0;i<20;i++){
+  const y=PIN0+i*PITCH;
+  L['L'+(i+1)]={x:DEV.x, y, ext:DEV.x-110};
+  R['R'+(i+1)]={x:DEV.x+DEV.w, y, ext:DEV.x+DEV.w+110};   // R1 也在天线端（顶部）
+}
+for(let i=0;i<12;i++) SP['SP'+(i+1)]={x:SC.x, y:SPIN0+i*SPITCH, ext:SC.x-110};
+/* HW-793 两个输出点 */
+PM5={x:PM.x+PM.w, y:PM.y+150, ext:PM.x+PM.w+70};
+PMG={x:PM.x+PM.w, y:PM.y+200, ext:PM.x+PM.w+70};
+
+/* ============ 画布 ============ */
+const gWires=el('g'),gBoard=el('g'),gText=el('g');
+
+/* ---- HW-793 ---- */
+gBoard.appendChild(el('rect',{x:PM.x,y:PM.y,width:PM.w,height:PM.h,rx:14,
+  fill:'#1a1f16',stroke:'#0b0f08','stroke-width':2}));
+gText.appendChild(tx(PM.x+PM.w/2,PM.y+38,'HW-793',{fill:'#c9d1d9','font-size':19,'font-weight':700,'text-anchor':'middle'}));
+gText.appendChild(tx(PM.x+PM.w/2,PM.y+62,'电源模块',{fill:'#8b949e','font-size':13,'text-anchor':'middle'}));
+[['蓝','3.3V','#1971c2',110],['红','5V','#e03131',170],['黄','ADJ','#f08c00',250]].forEach(([t,v,c,y])=>{
+  gBoard.appendChild(el('rect',{x:PM.x+30,y:PM.y+y-18,width:PM.w-60,height:44,rx:6,
+    fill:c+'22',stroke:c,'stroke-width':1.5}));
+  gText.appendChild(tx(PM.x+PM.w/2,PM.y+y+8,v,{fill:c,'font-size':15,'font-weight':700,'text-anchor':'middle'}));
+});
+gBoard.appendChild(el('rect',{x:PM.x+30,y:PM.y+300,width:PM.w-60,height:52,rx:6,
+  fill:'#8b1a1a55',stroke:'#f85149','stroke-width':1.5}));
+gText.appendChild(tx(PM.x+PM.w/2,PM.y+331,'DC 输入',{fill:'#ffb3b3','font-size':13,'text-anchor':'middle'}));
+
+/* ---- 开发板 ---- */
+gBoard.appendChild(el('rect',{x:DEV.x,y:DEV.y,width:DEV.w,height:DEV.h,rx:14,
+  fill:'#1b3830',stroke:'#0b1d18','stroke-width':2}));
+gBoard.appendChild(el('rect',{x:DEV.x+62,y:DEV.y+62,width:176,height:150,rx:8,
+  fill:'#2b5247',stroke:'#6f9c8c','stroke-width':1.5}));
+gText.appendChild(tx(DEV.x+150,DEV.y+130,'ESP32-S3',{fill:'#c7e8db','font-size':17,'font-weight':700,'text-anchor':'middle'}));
+gText.appendChild(tx(DEV.x+150,DEV.y+156,'LCKFB S3R8N8',{fill:'#8fb9ab','font-size':11,'text-anchor':'middle'}));
+gBoard.appendChild(el('rect',{x:DEV.x+104,y:DEV.y+DEV.h-58,width:92,height:36,rx:6,
+  fill:'#08130f',stroke:'#6f9c8c'}));
+gText.appendChild(tx(DEV.x+150,DEV.y+DEV.h-33,'USB-C',{fill:'#cfe3d8','font-size':13,'text-anchor':'middle'}));
+
+/* ---- 屏幕 ---- */
+gBoard.appendChild(el('rect',{x:SC.x,y:SC.y,width:SC.w,height:SC.h,rx:14,
+  fill:'#12304a',stroke:'#08192a','stroke-width':2}));
+gBoard.appendChild(el('rect',{x:SC.x+34,y:SC.y+80,width:SC.w-68,height:430,rx:8,
+  fill:'#0a1420',stroke:'#3b5b78','stroke-width':1.5}));
+gText.appendChild(tx(SC.x+SC.w/2,SC.y+300,'屏幕',{fill:'#5f83a3','font-size':16,'text-anchor':'middle'}));
+gText.appendChild(tx(SC.x+SC.w/2,SC.y+324,'320×240',{fill:'#5f83a3','font-size':13,'text-anchor':'middle'}));
+gBoard.appendChild(el('circle',{cx:SC.x+70,cy:SC.y+600,r:34,fill:'#0c1620',stroke:'#4a6c8a','stroke-width':2}));
+gText.appendChild(tx(SC.x+70,SC.y+605,'旋钮',{fill:'#7fa3c2','font-size':12,'text-anchor':'middle'}));
+gBoard.appendChild(el('rect',{x:SC.x+SC.w-116,y:SC.y+574,width:70,height:52,rx:7,
+  fill:'#0c1620',stroke:'#4a6c8a','stroke-width':2}));
+gText.appendChild(tx(SC.x+SC.w-81,SC.y+605,'按键',{fill:'#7fa3c2','font-size':12,'text-anchor':'middle'}));
+
+/* ---- 画针脚 ---- */
+function pin(x,y,used,color,dir){
+  const len=30, ex=x+(dir==='L'?-len:len);
+  gBoard.appendChild(el('line',{x1:x,y1:y,x2:ex,y2:y,
+    stroke:used?color:'#93a79e','stroke-width':used?4:2,'stroke-linecap':'round'}));
+  gBoard.appendChild(el('circle',{cx:ex+(dir==='L'?-4:4),cy:y,r:5,
+    fill:used?color:'#c9d4ce',stroke:'#fff','stroke-width':1.5}));
+}
+function badge(cx,cy,n,color){
+  const g=el('g');
+  g.appendChild(el('circle',{cx,cy,r:15,fill:color,stroke:'#fff','stroke-width':2.5}));
+  g.appendChild(tx(cx,cy+5,String(n),{fill:'#fff','font-size':15,'font-weight':700,'text-anchor':'middle'}));
+  return g;
+}
+const usedBy=ref=>WIRES.find(w=>w.from===ref);
+
+/* 左列 L1..L20 */
+for(let i=1;i<=20;i++){
+  const k='L'+i, p=L[k], w=usedBy(k), used=!!w;
+  pin(p.x,p.y,used,w&&w.c,'L');
+  gText.appendChild(tx(p.x-42,p.y+5,k,{fill:used?w.c:'#9fb0a8','font-size':12,'text-anchor':'end','font-weight':used?700:400}));
+  if(used) gText.appendChild(badge(p.ext-26,p.y,w.n,w.c));
+}
+/* 右列 R1..R20（从上往下 R20..R1） */
+for(let i=1;i<=20;i++){
+  const k='R'+i, p=R[k], w=usedBy(k), used=!!w;
+  pin(p.x,p.y,used,w&&w.c,'R');
+  gText.appendChild(tx(p.x+42,p.y+5,k,{fill:used?w.c:'#9fb0a8','font-size':12,'font-weight':used?700:400}));
+  if(used) gText.appendChild(badge(p.ext+26,p.y,w.n,w.c));
+}
+/* 屏幕 12 针 */
+for(let i=1;i<=12;i++){
+  const p=SP['SP'+i], w=WIRES.find(x=>x.to==='SP'+i);
+  pin(p.x,p.y,true,w.c,'L');
+  gText.appendChild(tx(p.x+16,p.y+6,SPNAME[i],{fill:'#ffffff','font-size':16,'font-weight':700}));
+  gText.appendChild(badge(p.ext-26,p.y,i,w.c));
+}
+/* HW-793 两个出线点 */
+[[PM5,1],[PMG,2]].forEach(([p,n])=>{
+  const w=WIRES.find(x=>x.n===n);
+  pin(p.x,p.y,true,w.c,'R');
+  gText.appendChild(tx(p.x-14,p.y-12,n===1?'5V':'GND',{fill:w.c,'font-size':14,'font-weight':700,'text-anchor':'end'}));
+  gText.appendChild(badge(p.ext+26,p.y,n,w.c));
+});
+
+/* ---- 连线（贝塞尔，半透明）---- */
+WIRES.forEach(w=>{
+  let a,b;
+  if(w.from.startsWith('HW793')){ a = w.n===1?PM5:PMG; b = w.n===1?R['R17']:R['R20']; }
+  else if(w.from.startsWith('L')){ a=L[w.from]; b=SP[w.to]; }
+  else { a=R[w.from]; b=SP[w.to]; }
+  if(!a||!b) return;
+  const x1=a.ext,y1=a.y,x2=b.ext,y2=b.y,mx=(x1+x2)/2;
+  gWires.appendChild(el('path',{
+    d:`M ${x1} ${y1} C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`,
+    fill:'none',stroke:w.c,'stroke-width':2.5,'stroke-linecap':'round',opacity:.42}));
+});
+
+/* ---- 文字标注 ---- */
+gText.appendChild(tx(DEV.x+150,DEV.y-52,'↑ 天线在这一端（L1 / R20 从这头数起）',
+  {fill:'#2f7a58','font-size':15,'font-weight':700,'text-anchor':'middle'}));
+gText.appendChild(tx(DEV.x+150,DEV.y-24,'开发板（元件面朝上）',
+  {fill:'#5d7176','font-size':14,'text-anchor':'middle'}));
+gText.appendChild(tx(DEV.x+150,DEV.y+DEV.h+38,'↓ USB 在这一端',
+  {fill:'#5d7176','font-size':14,'text-anchor':'middle'}));
+gText.appendChild(tx(SC.x+SC.w/2,SC.y-28,'屏幕模块（12 针）',
+  {fill:'#5d7176','font-size':15,'font-weight':700,'text-anchor':'middle'}));
+gText.appendChild(tx(PM.x+PM.w/2,PM.y-28,'电源模块',
+  {fill:'#5d7176','font-size':15,'font-weight':700,'text-anchor':'middle'}));
+gText.appendChild(tx(PM.x+PM.w/2,PM.y+PM.h+34,'红排针上下两排 = 5V / GND',
+  {fill:'#8a9c96','font-size':12,'text-anchor':'middle'}));
+
+fig.appendChild(gWires);fig.appendChild(gBoard);fig.appendChild(gText);
+
+/* ============ 表格 ============ */
+const tb=document.getElementById('tb');
+WIRES.forEach(w=>{
+  const tr=document.createElement('tr');
+  tr.className = w.grp==='pwr' ? 'power' : 'sig';
+  const fromTxt = w.from.startsWith('HW793') ? ('HW-793 '+(w.n===1?'5V':'GND')+' 排针') : w.from;
+  const toTxt   = w.to.startsWith('SP') ? ('屏 '+w.to.slice(2)+' 脚 ('+SPNAME[+w.to.slice(2)]+')') : w.to;
+  tr.innerHTML =
+    `<td><span class="n" style="background:${w.c}">${w.n}</span></td>`+
+    `<td class="k">${fromTxt}</td>`+
+    `<td class="k">${toTxt}</td>`+
+    `<td>${w.why}</td>`+
+    `<td style="color:#8a6d1a">${w.note||''}</td>`;
+  tb.appendChild(tr);
+});
+</script>
+</body></html>

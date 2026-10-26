@@ -1,0 +1,204 @@
+{
+  "sampled_poses": 32,
+  "exact_intersection_pairs_checked": 0,
+  "sampled_pose_checks_pass": true,
+  "results": [
+    {
+      "leg": "FL",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": []
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": []
+    }
+  ],
+  "limits": [
+    "Only the recorded discrete combinations of hip +/-15deg and knee +/-20deg were sampled, one leg at a time.",
+    "Unsampled intermediate or larger angles, simultaneous gait, cable bends, torque, support stability and ground penetration are not validated.",
+    "Purchased servo and horn geometry is nominal and must be checked against physical parts."
+  ]
+}

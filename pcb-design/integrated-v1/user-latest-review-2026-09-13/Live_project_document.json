@@ -1,0 +1,845 @@
+{
+  "project": {
+    "itemType": "Project",
+    "uuid": "50ae04bdafb74b93b94b7cc4c08171e1",
+    "friendlyName": "DesktopAssistant_Integrated",
+    "name": "eda_flnncpnw/DesktopAssistant_Integrated",
+    "teamUuid": "d0db481628274583b043080016ef0fff",
+    "description": "",
+    "data": [
+      {
+        "itemType": "Board",
+        "name": "Board1",
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "6c93ab84d69093e6",
+          "name": "Schematic1",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "654247b3dab7ee5f",
+              "name": "01_电池保护与均衡",
+              "parentSchematicUuid": "6c93ab84d69093e6",
+              "showTitleBlock": false,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "嘉立创EDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "1.1"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A3"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DesktopAssistant_Integrated"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 5
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 1
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "01_电池保护与均衡"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "19:00:14"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "23:13:01"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1655"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "0"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "1b2919cc1262fe39",
+              "name": "02_USB充电",
+              "parentSchematicUuid": "6c93ab84d69093e6",
+              "showTitleBlock": false,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "嘉立创EDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "1.1"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A3"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DesktopAssistant_Integrated"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 5
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 2
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "02_USB充电"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "18:16:31"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "23:13:01"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1655"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "0"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "8e03abe4b069eaeb",
+              "name": "03_配电与主控",
+              "parentSchematicUuid": "6c93ab84d69093e6",
+              "showTitleBlock": false,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "嘉立创EDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "1.1"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A3"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DesktopAssistant_Integrated"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 5
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 3
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "03_配电与主控"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "18:16:33"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "23:13:03"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1655"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "0"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "2f4bfc0bfa3d836a",
+              "name": "04_显示音频与交互",
+              "parentSchematicUuid": "6c93ab84d69093e6",
+              "showTitleBlock": false,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "嘉立创EDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "1.1"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A3"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DesktopAssistant_Integrated"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 5
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 4
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "04_显示音频与交互"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "19:32:52"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "22:52:03"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1655"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "0"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "7020da259480076a",
+              "name": "05_八路舵机驱动",
+              "parentSchematicUuid": "6c93ab84d69093e6",
+              "showTitleBlock": false,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "嘉立创EDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "1.1"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A3"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DesktopAssistant_Integrated"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 5
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-09-12"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 5
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "05_八路舵机驱动"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A3"
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "18:25:30"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "22:52:03"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1655"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "0"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            }
+          ],
+          "parentProjectUuid": "50ae04bdafb74b93b94b7cc4c08171e1",
+          "parentBoardName": "Board1"
+        },
+        "pcb": {
+          "itemType": "PCB",
+          "name": "PCB1",
+          "uuid": "bc31667e02a33e5b",
+          "parentBoardName": "Board1",
+          "parentProjectUuid": "50ae04bdafb74b93b94b7cc4c08171e1"
+        },
+        "parentProjectUuid": "50ae04bdafb74b93b94b7cc4c08171e1"
+      },
+      {
+        "itemType": "Panel",
+        "uuid": "bd5f67bb031ec907",
+        "name": "Panel1",
+        "parentProjectUuid": "50ae04bdafb74b93b94b7cc4c08171e1"
+      }
+    ]
+  },
+  "document": {
+    "documentType": 3,
+    "uuid": "bc31667e02a33e5b",
+    "tabId": "bc31667e02a33e5b@50ae04bdafb74b93b94b7cc4c08171e1",
+    "parentProjectUuid": "50ae04bdafb74b93b94b7cc4c08171e1"
+  }
+}

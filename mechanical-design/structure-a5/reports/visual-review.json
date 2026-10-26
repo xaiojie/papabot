@@ -1,0 +1,28 @@
+{
+  "blend_sha256": "ace8224003803e50476a99f97ab77cd0ece0d78287bd298232193ee7870a4cf9",
+  "method": "Direct visual inspection of all nine final Blender PNG renders",
+  "views": [
+    "perspective",
+    "front",
+    "rear",
+    "top",
+    "internal",
+    "lower-deck",
+    "exploded",
+    "front-open",
+    "parts"
+  ],
+  "observed": [
+    "124 mm wider and 112 mm shorter body, reduced leg spread",
+    "Rounded front knee clearance; rear service apertures present",
+    "J6 rear insert aligned to rotated mainboard; switch lever recessed within silhouette",
+    "User Gerber artwork packed and visible on rotated mainboard",
+    "31 distinct print parts with readable IDs",
+    "Viewport extras and relationship lines disabled in saved file"
+  ],
+  "status": "CAD visual review complete; physical fit and motion not tested",
+  "limitations": [
+    "Electronics use nominal envelopes, not complete supplier STEP models",
+    "Open service and exploded views are assembly aids, not simultaneous removal paths"
+  ]
+}

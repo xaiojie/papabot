@@ -1,0 +1,20 @@
+﻿GPIO,主控位置,网络,用途,方向,注意
+1,L1,ADC_BAT,电池电压采样,ADC1_CH0,100k/33k/100nF；从总开关后取样
+8,L9,PCA_SDA,PCA I2C数据,I/O,上拉只到3.3V，核模块已有阻值
+9,L10,PCA_SCL,PCA I2C时钟,OUT,初始100kHz；短线
+10,L11,PCA_OE_N,舵机输出禁止,OUT,10k上拉3.3V；高电平禁止；核原模块下拉
+11,L12,LCD_MOSI,屏幕SPI数据,OUT,单向SPI，不需要MISO
+12,L13,LCD_SCLK,屏幕SPI时钟,OUT,初始10MHz后实测提高
+13,L14,LCD_CS_N,屏幕片选,OUT,启动先置高
+14,L15,LCD_DC,屏幕数据命令,OUT,3.3V逻辑
+21,R10,LCD_RST_N,屏幕复位,OUT,不接主控RESET脚
+4,L4,MIC_BCLK,麦克风I2S时钟,OUT,独立I2S接收时钟域
+5,L5,MIC_WS,麦克风I2S帧时钟,OUT,32bit槽；采样格式按实际芯片确认
+6,L6,MIC_SD,麦克风I2S数据,IN,3.3V麦克风输出
+15,R5,AMP_BCLK,功放I2S时钟,OUT,与麦克风分开，避免采样率强绑定
+16,R6,AMP_WS,功放I2S帧时钟,OUT,MAX98357A为I2S；B版为左对齐，核丝印
+17,R7,AMP_DIN,功放I2S数据,OUT,左右槽先送相同单声道数据
+7,L8,ENC_A,后置旋钮A,IN,10k上拉3.3V，机械公共端确认后接地
+2,L2,ENC_B,后置旋钮B,IN,10k上拉3.3V，正反方向可固件配置
+38,R13,ENC_SW_N,后置旋钮按压,IN,10k上拉3.3V，软件消抖
+40,R11,KEY_N,后置独立按键,IN,10k上拉3.3V，软件消抖

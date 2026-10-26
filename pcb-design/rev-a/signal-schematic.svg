@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1100" viewBox="0 0 1440 1100">
+<rect width="1440" height="1100" fill="#f5f7f9"/>
+<style>text{font-family:Arial, PingFang SC, Microsoft YaHei, sans-serif;fill:#183041} .t{font-size:26px;font-weight:bold} .s{font-size:15px} .b{font-size:18px;font-weight:bold} .m{font-size:14px} .note{fill:#9b5f00}</style>
+<text x="30" y="42" class="t">主控与信号连接草图 · Rev A</text>
+<text x="30" y="71" class="s">GPIO来源已核主控原厂图；J_*针号为本项目定义，模块端仍必须按丝印/实物重新排列线序。</text>
+<rect x="475" y="120" width="450" height="550" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="475" y="120" width="450" height="32" rx="8" fill="#dbe9e3"/>
+<text x="487" y="143" class="b">U1 · LCKFB-ESP32S3R8N8</text>
+<text x="487" y="175" class="m">SPI: 11 MOSI / 12 CLK / 13 CS</text>
+<text x="487" y="197" class="m">       14 DC / 21 LCD_RST</text>
+<text x="487" y="219" class="m">I2C: 8 SDA / 9 SCL / 10 OE</text>
+<text x="487" y="241" class="m">I2S RX: 4 BCLK / 5 WS / 6 SD</text>
+<text x="487" y="263" class="m">I2S TX: 15 BCLK / 16 WS / 17 DIN</text>
+<text x="487" y="285" class="m">REAR: 7 A / 2 B / 38 PRESS / 40 KEY</text>
+<text x="487" y="307" class="m">ADC: 1 (ADC1_CH0)</text>
+<text x="487" y="329" class="m">3V3: L17/L18/L19 → 信号外设</text>
+<text x="487" y="351" class="m">5V: R17/R18/R19 ← JP1线桥</text>
+<text x="487" y="373" class="m">GND: L7/L20/R9/R20</text>
+<text x="487" y="395" class="m">天线上、USB下观察，左右列编号</text>
+<text x="487" y="417" class="m">避用0/3/45/46启动脚、48板载LED</text>
+<text x="487" y="439" class="m">USB19/20、UART43/44及内存脚保留</text>
+<text x="487" y="461" class="m">未使用18/39/41/42/47暂不连接</text>
+<text x="487" y="483" class="m">每个GPIO仅分配一次</text>
+<rect x="30" y="120" width="360" height="210" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="30" y="120" width="360" height="32" rx="8" fill="#dbe9e3"/>
+<text x="42" y="143" class="b">J3 · LCD 1×8（载板顺序）</text>
+<text x="42" y="175" class="m">1 GND / 2 +5V_LOGIC</text>
+<text x="42" y="197" class="m">3 CLK / 4 MOSI / 5 LCD_RST</text>
+<text x="42" y="219" class="m">6 DC / 7 CS / 8 NC不接线</text>
+<text x="42" y="241" class="m">模块3.3–5V；本版供5V</text>
+<text x="42" y="263" class="m">SPI用3.3V，BLK留空默认全亮</text>
+<text x="42" y="285" class="m">保留91×44原板，控件移至后方</text>
+<rect x="30" y="420" width="360" height="230" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="30" y="420" width="360" height="32" rx="8" fill="#dbe9e3"/>
+<text x="42" y="443" class="b">J7 · 后置控件1×7</text>
+<text x="42" y="475" class="m">1 编码器公共端 → GND</text>
+<text x="42" y="497" class="m">2 A → GPIO7 / 3 B → GPIO2</text>
+<text x="42" y="519" class="m">4 按压公共端 → GND</text>
+<text x="42" y="541" class="m">5 按压 → GPIO38</text>
+<text x="42" y="563" class="m">6 独立键公共端 → GND</text>
+<text x="42" y="585" class="m">7 独立键 → GPIO40</text>
+<text x="42" y="607" class="m">A/B/两键各10k上拉3.3V</text>
+<rect x="1015" y="120" width="395" height="190" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="1015" y="120" width="395" height="32" rx="8" fill="#dbe9e3"/>
+<text x="1027" y="143" class="b">J4 · PCA逻辑1×5</text>
+<text x="1027" y="175" class="m">1 GND / 2 VCC=3.3V</text>
+<text x="1027" y="197" class="m">3 SDA=8 / 4 SCL=9 / 5 OE=10</text>
+<text x="1027" y="219" class="m">OE：10k上拉，默认禁用</text>
+<text x="1027" y="241" class="m">先核模块下拉；V+不接本接口</text>
+<text x="1027" y="263" class="m">PWM0–7只取信号，供电外部分配</text>
+<rect x="1015" y="385" width="395" height="190" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="1015" y="385" width="395" height="32" rx="8" fill="#dbe9e3"/>
+<text x="1027" y="408" class="b">J5 · MIC 1×6</text>
+<text x="1027" y="440" class="m">1 GND / 2 VCC=3.3V</text>
+<text x="1027" y="462" class="m">3 SCK=4 / 4 WS=5 / 5 SD=6</text>
+<text x="1027" y="484" class="m">6 LR→GND（左声道提案）</text>
+<text x="1027" y="506" class="m">圆板14mm vs 矩形资料存在冲突</text>
+<text x="1027" y="528" class="m">保留功能映射，暂不锁物理孔位</text>
+<rect x="1015" y="660" width="395" height="210" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="1015" y="660" width="395" height="32" rx="8" fill="#dbe9e3"/>
+<text x="1027" y="683" class="b">J6 · AMP 1×4信号</text>
+<text x="1027" y="715" class="m">1 GND / 2 BCLK=15</text>
+<text x="1027" y="737" class="m">3 LRC=16 / 4 DIN=17</text>
+<text x="1027" y="759" class="m">VIN从逻辑5V另接粗短线</text>
+<text x="1027" y="781" class="m">SPK+ / SPK− → 4Ω3W喇叭</text>
+<text x="1027" y="803" class="m">BTL两端均不得接GND</text>
+<text x="1027" y="825" class="m">SD_MODE/GAIN原板配置待核</text>
+<polyline points="390,220 475,220" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="395" y="211" class="m" style="fill:#398469">SPI</text>
+<polyline points="390,520 475,520" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="395" y="511" class="m" style="fill:#398469">控件</text>
+<polyline points="925,220 1015,220" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="930" y="211" class="m" style="fill:#398469">I2C</text>
+<polyline points="925,445 1015,445" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="930" y="436" class="m" style="fill:#398469">I2S RX</text>
+<polyline points="925,590 960,590 960,730 1015,730" fill="none" stroke="#398469" stroke-width="3"/>
+<text x="930" y="581" class="m" style="fill:#398469">I2S TX</text>
+<rect x="30" y="745" width="895" height="145" rx="8" fill="white" stroke="#98aeb6"/>
+<rect x="30" y="745" width="895" height="32" rx="8" fill="#dbe9e3"/>
+<text x="42" y="768" class="b">8路PWM与腿位（固件命名提案）</text>
+<text x="42" y="800" class="m">0 前左髋　1 前左膝　2 前右髋　3 前右膝</text>
+<text x="42" y="822" class="m">4 后左髋　5 后左膝　6 后右髋　7 后右膝</text>
+<text x="42" y="844" class="m">50Hz为调试起点；先单舵机卸载限位标定，PWM中值不代表机构绝对安全角度</text>
+<text x="42" y="866" class="m">OE只禁止PWM，不能切断舵机供电；八舵机上电/重启动作仍需实测</text>
+<text x="30" y="949" class="s">后置控件：拆下后测出A/B/C、按压两端与独立键两端，再接线束；不凭通用EC11照片定义实物脚序。</text>
+<text x="30" y="979" class="s">外设供电/固件启动顺序：OE保持高 → 配置I2C/PCA频率与零输出 → 自检/低电压检查 → 最后使能。</text>
+<text x="30" y="1009" class="s">供电：J8接逻辑5V；J9接开关后电池采样。JP1控主控5V，JP2控采样；两线桥初次上电断开。</text>
+<text x="30" y="1039" class="s">原理图22元件/PCB21元件，C2外置；高电流支路走外部线束。厂家USB与5V直连，装机电池供电勿插USB。</text>
+<text x="30" y="1080" class="m">GPIO表：02-gpio-plan.csv  |  接口逐针表：04-connector-map.csv  |  未冻结项：README.md</text>
+</svg>

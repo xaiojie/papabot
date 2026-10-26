@@ -1,0 +1,35 @@
+{
+  "checked_units": "mm",
+  "weld_tolerance_mm": 1e-05,
+  "mesh_check_pass": true,
+  "items": [
+    {
+      "id": "R06",
+      "file": "stl/R06__PCB_support_bridge_A2__mm.stl",
+      "sha256": "2b5a64e8ca126b24ce99cfd0c32460d203155e2b791399f260a7433faf878618",
+      "triangles": 6822,
+      "welded_vertices_1e_5_mm": 3391,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_edges": 0,
+      "degenerate_triangles": 0,
+      "duplicate_triangles": 0,
+      "connected_shell_count": 1,
+      "volume_mm3": 10181.07936,
+      "minimum_triangle_area_mm2": 1.4329089026432484e-07,
+      "dimensions_mm": [
+        103.99999,
+        41.5,
+        31.40001
+      ],
+      "dimension_error_mm": 4.659423829878051e-06,
+      "bottom_z_mm": 0.0,
+      "pass": true
+    }
+  ],
+  "limits": [
+    "No slicer or physical fit test has been performed.",
+    "Topology and duplicate-face checks do not prove all possible self-intersections absent.",
+    "No load-bearing or servo spline/mounting compatibility claim."
+  ]
+}

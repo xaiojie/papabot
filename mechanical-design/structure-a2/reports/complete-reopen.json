@@ -1,0 +1,167 @@
+{
+  "scene": "10_A2_COMPLETE_ASSEMBLY",
+  "parts": [
+    {
+      "name": "R02__shallow_front_cover_A2",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 17626.95592788199
+    },
+    {
+      "name": "R04__display_support_A2",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 10608.59270746772
+    },
+    {
+      "name": "R06__PCB_support_bridge_A2_complete",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 10460.87419200187
+    },
+    {
+      "name": "R01__main_housing_A2",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 64299.410800233425
+    },
+    {
+      "name": "R05__reinforced_floor_and_battery_tray_A2",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 45072.22816464972
+    },
+    {
+      "name": "L101_FL__hip_fixed_bracket",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4680.617046445208
+    },
+    {
+      "name": "L102_FL__upper_link_and_knee_mount",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5523.079969431388
+    },
+    {
+      "name": "L104_FL__lower_leg_and_foot",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4637.572463955386
+    },
+    {
+      "name": "L101_FR__hip_fixed_bracket",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4680.617046336932
+    },
+    {
+      "name": "L102_FR__upper_link_and_knee_mount",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5523.079972130385
+    },
+    {
+      "name": "L104_FR__lower_leg_and_foot",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4637.572463955385
+    },
+    {
+      "name": "L101_RL__hip_fixed_bracket",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5609.360342892609
+    },
+    {
+      "name": "L102_RL__upper_link_and_knee_mount",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5523.080212095266
+    },
+    {
+      "name": "L104_RL__lower_leg_and_foot",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4637.572533253129
+    },
+    {
+      "name": "L101_RR__hip_fixed_bracket",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5609.36034289261
+    },
+    {
+      "name": "L102_RR__upper_link_and_knee_mount",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5523.08021209529
+    },
+    {
+      "name": "L104_RR__lower_leg_and_foot",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4637.572435130395
+    },
+    {
+      "name": "R03__rear_control_panel_A2",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 15907.08767175717
+    },
+    {
+      "name": "R07__control_retainer",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 798.3876449805163
+    },
+    {
+      "name": "R08__control_retainer",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 670.3124987713336
+    },
+    {
+      "name": "R11__speaker_retaining_ring",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1027.911656942717
+    },
+    {
+      "name": "R09__charger_tray",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1981.603280040095
+    },
+    {
+      "name": "R10_1__charger_edge_clamp",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 256.50597970318177
+    },
+    {
+      "name": "R10_2__charger_edge_clamp",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 256.5059748809592
+    },
+    {
+      "name": "R16__PCA9685_rear_rack",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6806.2093812545445
+    },
+    {
+      "name": "R17__power_module_strap_mount",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2061.1975986964426
+    },
+    {
+      "name": "R18__power_module_strap_mount",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2410.8336676276867
+    },
+    {
+      "name": "R14__microphone_replaceable_tray",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2506.7721478068524
+    },
+    {
+      "name": "R12_L__ear_with_integrated_insert",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1037.6301103947605
+    },
+    {
+      "name": "R13_L__ear_retaining_washer",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 88.70681712024246
+    },
+    {
+      "name": "R12_R__ear_with_integrated_insert",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1037.6301069851695
+    },
+    {
+      "name": "R13_R__ear_retaining_washer",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 88.70681712024248
+    }
+  ],
+  "part_count": 32,
+  "all_closed": true
+}

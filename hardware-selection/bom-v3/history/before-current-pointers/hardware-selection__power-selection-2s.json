@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-07",
+  "status": "battery_custom_spec_and_charger_sku_user_confirmed__regulators_assistant_candidates__validation_pending",
+  "record": "hardware-selection/power-selection-2s.md",
+  "battery": {
+    "quantity": 1,
+    "selection_type": "custom_finished_pack_request_not_confirmed_stock_item",
+    "supplier_inquiry_url": "https://item.taobao.com/item.htm?id=966262592635",
+    "nominal_voltage_v": 7.4,
+    "full_charge_voltage_v": 8.4,
+    "configuration": "2S1P_standard_4.2V_per_cell_LiPo",
+    "pack_capacity_target_mah": 1000,
+    "continuous_discharge_target_a": 10,
+    "minimum_required_allowed_charge_current_a": 1,
+    "protection_requirement": "per_cell_overcharge_and_overdischarge_overcurrent_short_circuit_common_port_PCM",
+    "balancing_requirement": "integrated_connected_2S_passive_balancing",
+    "connector_requirement": "XT30_with_matching_half_and_verified_polarity",
+    "body_envelope_target_mm": [
+      75,
+      40,
+      20
+    ],
+    "target_includes": "finished_protection_board_and_wrapping_excludes_free_lead_and_connector_service_space",
+    "weight_target_max_g": 80,
+    "supplier_can_make_confirmed": false,
+    "actual_dimensions_mm": null,
+    "actual_weight_g": null,
+    "quoted_price_cny": null,
+    "reference_budget_cny": 80,
+    "purchase_confirmed": false,
+    "source_image": "hardware-selection/reference/battery-custom-inquiry-7p4.png"
+  },
+  "charger": {
+    "quantity": 1,
+    "supplier": "telesky旗舰店",
+    "supplier_part_number": "MK021163",
+    "sku_name": "TYPE-C接口",
+    "url": "https://detail.tmall.com/item.htm?id=709098048793&skuId=5148568746386",
+    "declared_function": "5V_input_boost_CC_CV_charging_for_2S_standard_8.4V_pack",
+    "declared_input_voltage_range_v": [
+      4.6,
+      5.5
+    ],
+    "nominal_input_v": 5,
+    "input_adapter_target_a": 2,
+    "declared_board_plan_dimensions_mm": [
+      28,
+      17
+    ],
+    "supplier_manual_measurement_error_mm": [
+      0.5,
+      1
+    ],
+    "board_thickness_mm": null,
+    "highest_component_mm": null,
+    "mounting_hole_dimensions_mm": null,
+    "actual_ic_model": null,
+    "actual_constant_charge_current_a": null,
+    "conservative_charge_current_target_a": [
+      0.4,
+      0.5
+    ],
+    "charging_release_requirement": "actual_maximum_charge_current_within_battery_supplier_limit_and_charge_voltage_termination_thermal_check_passed",
+    "balance_or_pack_discharge_protection_verified": false,
+    "screenshot_unit_price_cny": 14.13,
+    "price_includes_current_reconfiguration": false,
+    "purchase_confirmed": false,
+    "source_image": "hardware-selection/reference/charger-telesky-2s-typec.png"
+  },
+  "input_accessories": {
+    "adapter": "5V_2A_USB_A_finished_adapter_quantity_1_reference_budget_20_CNY",
+    "cable": "USB_A_to_Type_C_5V_2A_quantity_1_reference_budget_5_CNY",
+    "existing_compatible_items": "set_quantity_to_zero_in_BOM_when_user_confirms_reuse"
+  },
+  "integration": {
+    "charge_while_operating_supported": false,
+    "charge_mode": "robot_load_switched_off",
+    "servo_buck_target": "5V_6A_continuous_class_not_load_validated",
+    "logic_buck_target": "5V_2A_class_not_load_validated",
+    "battery_compartment_dimensions_frozen": false,
+    "all_power_parts_verified_compatible": false,
+    "servo_buck_candidate": {
+      "model": "DFR0753",
+      "url": "https://www.dfrobot.com.cn/goods-2971.html",
+      "input_range_v": [
+        6,
+        14
+      ],
+      "nominal_output_v": 5,
+      "manufacturer_max_output_a": 8,
+      "observed_price_cny": 55,
+      "user_confirmed": false,
+      "tested": false
+    },
+    "logic_buck_fallback": {
+      "model": "DFR0753",
+      "quantity": 1,
+      "independent_from_servo_branch": true,
+      "observed_price_cny": 55,
+      "reason": "concrete available fallback for 5V2A requirement; lower-cost SKU still open",
+      "user_confirmed": false,
+      "tested": false
+    },
+    "low_voltage_strategy": {
+      "status": "design_proposal_not_implemented",
+      "stop_motion_starting_point_under_load_v": 6.4,
+      "minimum_regulator_input_v": 6,
+      "needs": "transient sag, hysteresis, load-disconnect and per-cell pack protection validation"
+    }
+  },
+  "screen_controls": {
+    "status": "assistant_recommendation_from_previous_turn__physical_rework_not_performed",
+    "proposal": "relocate_EC11_and_separate_button_to_removable_rear_panel_retain_uncut_original_PCB",
+    "target_glass_recess_mm": [
+      0.5,
+      1
+    ],
+    "desoldering_feasibility_verified": false,
+    "user_rework_execution_confirmed": false,
+    "cad_updated": false
+  },
+  "evidence": {
+    "pricing_basis": "user_supplied_screenshots_not_checkout_or_live_SKU_detail_verification",
+    "browser_attempt": "Computer_Use_refused_current_browser_URL_no_page_content_read",
+    "technical_reference": "https://datasheet.lcsc.com/datasheet/pdf/6aa3821340da5e73caf821c7fe4760e8.pdf?productCode=C5441281",
+    "technical_reference_scope": "IC_function_and_balance_connections_only_not_identification_of_screenshot_modules",
+    "browser_attempt_scope": "original_2026-09-07_Taobao_charger_and_battery_attempt_only; not the later LCSC/DFRobot sourcing session"
+  },
+  "updated": "2026-09-08",
+  "user_correction": "舵机已确认；此前舵机电源为输入错误。没有已确认的独立降压电源。",
+  "current_sourcing_record": "hardware-selection/bom-v2/README.md"
+}

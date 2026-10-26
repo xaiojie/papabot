@@ -1,0 +1,243 @@
+{
+  "date": "2026-09-09",
+  "status": "stock_2s_pack_selected_prototype_load_charge_fit_tests_pending",
+  "record": "hardware-selection/battery-stock-2026-09-09/README.md",
+  "battery": {
+    "quantity": 1,
+    "selection_type": "stock_hobby_pack_with_separate_protection",
+    "model": "格氏ACE GS8002S45",
+    "supplier": "格氏电池全国总代",
+    "url": "https://item.taobao.com/item.htm?id=663039669190&skuId=4779123056788",
+    "item_id": "663039669190",
+    "sku_id": "4779123056788",
+    "sku": "T型插头；800mAh-45C-7.4V-2S1P",
+    "nominal_voltage_v": 7.4,
+    "full_charge_voltage_v": 8.4,
+    "configuration": "2S1P_standard_4.2V_LiPo",
+    "capacity_mah": 800,
+    "nominal_energy_wh": 5.92,
+    "body_dimensions_seller_mm": [
+      60,
+      32,
+      16
+    ],
+    "body_dimensions_measured_mm": null,
+    "weight_seller_g": [
+      55,
+      60
+    ],
+    "weight_source_discrepancy": "SKU image:55g ±15g; detail table:60g",
+    "discharge_c_seller": 45,
+    "whole_power_path_tested": false,
+    "internal_protection_verified": false,
+    "main_lead_awg": 16,
+    "main_lead_length_mm": 80,
+    "balance_lead_awg": 22,
+    "balance_lead_length_mm": 45,
+    "connector": "T plug; use matching machine-side connector; retain live battery plug",
+    "observed_price_cny": 39.6,
+    "observed_stock": "有货",
+    "purchase_confirmed": false
+  },
+  "charger": {
+    "quantity": 1,
+    "supplier": "telesky旗舰店",
+    "supplier_part_number": "MK021163",
+    "sku_name": "TYPE-C接口",
+    "url": "https://detail.tmall.com/item.htm?id=709098048793&skuId=5148568746386",
+    "declared_function": "5V_input_boost_CC_CV_charging_for_2S_standard_8.4V_pack",
+    "declared_input_voltage_range_v": [
+      4.6,
+      5.5
+    ],
+    "nominal_input_v": 5,
+    "input_adapter_target_a": 2,
+    "declared_board_plan_dimensions_mm": [
+      28,
+      17
+    ],
+    "supplier_manual_measurement_error_mm": [
+      0.5,
+      1
+    ],
+    "board_thickness_mm": null,
+    "highest_component_mm": null,
+    "mounting_hole_dimensions_mm": null,
+    "actual_ic_model": null,
+    "actual_constant_charge_current_a": null,
+    "conservative_charge_current_target_a": [
+      0.4,
+      0.4
+    ],
+    "charging_release_requirement": "actual_maximum_charge_current_within_battery_supplier_limit_and_charge_voltage_termination_thermal_check_passed",
+    "balance_or_pack_discharge_protection_verified": false,
+    "screenshot_unit_price_cny": 14.13,
+    "price_includes_current_reconfiguration": false,
+    "purchase_confirmed": false,
+    "source_image": "hardware-selection/reference/charger-telesky-2s-typec.png",
+    "ready_to_connect_to_selected_battery": false
+  },
+  "input_accessories": {
+    "adapter": {
+      "model": "UGREEN CD104 17W",
+      "sku": "17W丨白色双口USB丨小巧低温|直插",
+      "url": "https://item.taobao.com/item.htm?id=39662398527&skuId=6289267198584",
+      "quantity": 1,
+      "cart_verified": true,
+      "price_cny": 27.9,
+      "output_v": 5,
+      "single_port_max_a": 2.4,
+      "total_max_a": 3.4,
+      "includes_cable": false,
+      "spec_image_url": "https://img.alicdn.com/imgextra/i3/713464357/O1CN01RSG3ea1i3YQwjMKGu_!!713464357.jpg"
+    },
+    "cable": "not_purchased_per_user_request_2026-09-08",
+    "existing_compatible_items": "set_quantity_to_zero_in_BOM_when_user_confirms_reuse",
+    "wire_kit_candidate": {
+      "model": "WXRKDZ 2×18AWG silicone twin wire",
+      "url": "https://detail.tmall.com/item.htm?id=900626764964&skuId=5923525883949",
+      "contents": "18AWG red 1m + black 1m",
+      "quantity": 1,
+      "price_cny": 4.29,
+      "user_confirmed": false,
+      "selected_for_prototype": true,
+      "selection_authority": "user_delegated",
+      "cart_verified": true
+    },
+    "cable_purchase_quantity": 0
+  },
+  "integration": {
+    "charge_while_operating_supported": false,
+    "charge_mode": "robot_load_switched_off",
+    "servo_buck_target": "5V_6A_continuous_class_not_load_validated",
+    "logic_buck_target": "5V_2A_class_not_load_validated",
+    "battery_compartment_dimensions_frozen": false,
+    "all_power_parts_verified_compatible": false,
+    "servo_buck_candidate": {
+      "model": "DFR0753",
+      "url": "https://www.dfrobot.com.cn/goods-2971.html",
+      "input_range_v": [
+        6,
+        14
+      ],
+      "nominal_output_v": 5,
+      "manufacturer_max_output_a": 8,
+      "observed_price_cny": 55,
+      "user_confirmed": false,
+      "tested": false,
+      "selected_for_prototype": true,
+      "selection_authority": "user_delegated",
+      "quantity": 1
+    },
+    "low_voltage_strategy": {
+      "status": "design_proposal_not_implemented",
+      "stop_motion_starting_point_under_load_v": 6.4,
+      "minimum_regulator_input_v": 6,
+      "needs": "transient sag, hysteresis, firmware motion stop and user manual-off notification; per-cell pack BMS verification",
+      "automatic_electronic_load_disconnect": false,
+      "motion_stop_is_power_off": false
+    },
+    "logic_buck_selected": {
+      "model": "UBEC 3A (2-6S)",
+      "manufacturer": "HOBBYWING",
+      "manufacturer_part_number": "86010010",
+      "url": "https://item.taobao.com/item.htm?id=820639316179",
+      "purchase_variant": "3A(2-6S)",
+      "official_url": "https://www.hobbywing.com/products/ubec-3a-2-6s99",
+      "input_range_v": [
+        5.5,
+        26
+      ],
+      "output_v": 5,
+      "output_configuration": "jumper_5V_required__6V_not_allowed_for_logic",
+      "manufacturer_output_a": 3,
+      "design_target_a": 2,
+      "quantity": 1,
+      "observed_price_cny": 35,
+      "selected_for_prototype": true,
+      "selection_authority": "user_delegated",
+      "tested": false,
+      "nominal_dimensions_mm": [
+        43,
+        17,
+        7
+      ],
+      "nominal_weight_g": 11
+    },
+    "master_switch_selected": {
+      "model": "S1A",
+      "manufacturer": "NKK Switches",
+      "lcsc_code": "C5366606",
+      "url": "https://item.szlcsc.com/6201668.html",
+      "quantity": 1,
+      "observed_price_cny": 29.42,
+      "observed_stock": 16,
+      "moq": 1,
+      "official_table_dc_rating_a": 15,
+      "dc_voltage_rating_v": 30,
+      "function": "SPST_ON_OFF_latching",
+      "termination": "solder_lugs",
+      "panel_hole_diameter_mm": 12.5,
+      "selected_for_prototype": true,
+      "selection_authority": "user_delegated",
+      "tested": false
+    },
+    "extra_high_side_mosfet_included": false,
+    "automatic_low_voltage_load_disconnect_implemented": false,
+    "power_topology": {
+      "positive": "raw T+ -> B+; raw T- -> B-; midpoint -> BM; P+ -> fuse -> junction; junction -> charger BAT+; junction -> S1A -> VBAT_SW -> two regulators and J9.1",
+      "negative": "P- only: charger negative, both regulator returns, machine GND and J9.2; never bypass via B-",
+      "operation": "first version power switch OFF while charging; external USB/debug feed disconnected when assessing all-off state",
+      "outputs": "P03 servo 5V and P04 logic 5V never parallel; PCA9685 VCC=3.3V, PWM only; servo distribution external",
+      "low_voltage": "future calibrated firmware: warn 7.2V, motion stop 7.0V, user switches OFF; not implemented in bringup; 2.9V/cell BMS is backup cutoff"
+    }
+  },
+  "screen_controls": {
+    "status": "user_confirmed_A3",
+    "proposal": "retain original EC11/key on stock board inside removable front cap",
+    "control_relocation": false
+  },
+  "evidence": {
+    "pricing_basis": "user_supplied_screenshots_not_checkout_or_live_SKU_detail_verification",
+    "browser_attempt": "Computer_Use_refused_current_browser_URL_no_page_content_read",
+    "technical_reference": "https://datasheet.lcsc.com/datasheet/pdf/6aa3821340da5e73caf821c7fe4760e8.pdf?productCode=C5441281",
+    "technical_reference_scope": "IC_function_and_balance_connections_only_not_identification_of_screenshot_modules",
+    "browser_attempt_scope": "original_2026-09-07_Taobao_charger_and_battery_attempt_only; not the later LCSC/DFRobot sourcing session"
+  },
+  "updated": "2026-09-09",
+  "user_correction": "舵机已确认；此前舵机电源为输入错误。没有已确认的独立降压电源。",
+  "current_sourcing_record": "hardware-selection/battery-stock-2026-09-09/README.md",
+  "external_protection": {
+    "quantity": 1,
+    "model": "HX-2S-JH20",
+    "supplier": "深圳市优信电子科技有限公司",
+    "url": "https://item.taobao.com/item.htm?id=574046367042",
+    "observed_price_cny": 9.02,
+    "observed_stock": "有货",
+    "dimensions_seller_mm": [
+      46.7,
+      23,
+      3.15
+    ],
+    "working_current_upper_seller_a": 10,
+    "instantaneous_current_upper_seller_a": 20,
+    "overcharge_per_cell_v": 4.25,
+    "overcharge_tolerance_v": 0.05,
+    "overdischarge_per_cell_v": 2.9,
+    "overdischarge_tolerance_v": 0.05,
+    "balancing": true,
+    "common_charge_discharge_port": true,
+    "charger": false,
+    "internal_resistance_upper_seller_ohm": 0.3,
+    "source": "hardware-selection/battery-stock-2026-09-09/evidence/YourCee-67325-2S-protection.pdf",
+    "connections": {
+      "B+": "raw pack main positive",
+      "B-": "raw pack main negative",
+      "BM/MB": "cell midpoint only",
+      "P+": "fuse then charge/load junction",
+      "P-": "all machine and charger returns; never bridge to raw B-"
+    },
+    "purchase_confirmed": false,
+    "thermal_load_tested": false
+  }
+}

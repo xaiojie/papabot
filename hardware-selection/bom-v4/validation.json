@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-08",
+  "status": "passed",
+  "all_rows": 42,
+  "material_rows": 36,
+  "known_c_code_rows": 10,
+  "other_model_pending_rows": 16,
+  "selected_categories": 4,
+  "checks": [
+    "桌面助手-全量BOM导入V4.xlsx: 36行，19列表头、全部单元格、数量和静态金额核验通过",
+    "立创BOM导入-全部已知C编号V4.xlsx: 10行，19列表头、全部单元格、数量和静态金额核验通过",
+    "仅1块DFR0753，逻辑86010010，S1A C码正确，F05不重复计价",
+    "本轮6行采购数量均满足已查MOQ；30根信号线按3包计量",
+    "6项费用及包内件未混入实物自动匹配表，全量成本未漏项"
+  ],
+  "totals": {
+    "scenario": "舵机1块DFR0753＋逻辑1块好盈86010010＋S1A机械总开关；1套样机含MOQ/备件/试制预留",
+    "reference_cash_cny": 761.18,
+    "web_observed_items_cny": 288.65,
+    "historical_screenshot_items_cny": 126.53,
+    "allowances_cny": 346.0,
+    "known_lcsc_code_rows_cash_cny": 116.75,
+    "previous_v3_cash_cny": 761.76,
+    "change_vs_v3_cny": -0.58,
+    "closeout_items_without_retained_servo_regulator_cny": 101.32,
+    "closeout_items_with_retained_servo_regulator_cny": 156.32
+  },
+  "limitations": [
+    "未上传云BOM验证",
+    "未购买或改购物车",
+    "整机电气/机械实测尚未执行",
+    "其他电池定制及电路结构依赖仍保留"
+  ]
+}

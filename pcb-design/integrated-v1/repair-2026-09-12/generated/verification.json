@@ -1,0 +1,27 @@
+{
+  "component_count": 83,
+  "pin_count": 323,
+  "net_count": 62,
+  "nc_pin_count": 45,
+  "single_pin_nets": {},
+  "pin_net_errors": [],
+  "functional_invariants": {
+    "raw_negative_is_separate": true,
+    "back_to_back_mos_common_drain": true,
+    "mos_gates_not_sources": true,
+    "protection_filters_connected": true,
+    "balance_outputs_drive_gates": true,
+    "charger_vsys_not_vout": true,
+    "charger_pack_minus_protected": true,
+    "charger_voltage_and_cells_correct": true,
+    "charger_current_programmed": true,
+    "charge_enable_default_pulldown": true,
+    "regulator_outputs_separate": true,
+    "mcu_5v_isolated": true,
+    "lcd_source_isolated": true,
+    "servo_headers_three_pins": true,
+    "servo_oe_pullup_and_clock": true
+  },
+  "drc": [],
+  "drc_pass": true
+}

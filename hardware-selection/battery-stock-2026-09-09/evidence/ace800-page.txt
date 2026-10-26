@@ -1,0 +1,241 @@
+Browser tab: 1239519435, Title: "格氏ACE350 450 800 1000 1300 1650mAh遥控小飞机航模2s3s电池-淘宝网", URL: "https://item.taobao.com/item.htm?abbucket=15&id=663039669190&mi_id=0000rIBvMahtEIzYEkTLWJkRHOhMifxZYlG2dpVJSCkySSU&ns=1&priceTId=2147822917889389857284238e107b&spm=a21n57.1.item.19&utparam=%7B%22aplus_abtest%22%3A%22de9e5a7698b6e79741dd760961ac0556%22%7D&xxc=taobaoSearch&skuId=4779123056788".
+0 AXWebArea 格氏ACE350 450 800 1000 1300 1650mAh遥控小飞机航模2s3s电池-淘宝网, URL: item.taobao.com/item.htm
+	1 container
+		2 link Value: javascript:void(0), ID: ariaTipText, Description: 欢迎进入 格氏ACE350 450 800 1000 1300 1650mAh遥控小飞机航模2s3s电池-淘宝网,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。
+		3 container
+			4 container tbpc-split-main
+				5 container J_SiteNavBd
+					6 content list J_SiteNavBdL
+						7 container
+							8 link Description: tb173361072, Value: i.taobao.com/my_itaobao
+							9 text 
+						10 link Description: 网页无障碍, Value: javascript:void(0), ID: cniil_wza
+					11 content list J_SiteNavBdR
+						12 link Description: 淘宝网首页, Value: taobao.com/
+						13 link Description: 已买到的宝贝, Value: buyertrade.taobao.com/trade/itemlist/li…
+						14 container
+							15 link Description: 我的淘宝, Value: i.taobao.com/my_itaobao
+							16 text 
+						17 link Description:  购物车 26, Value: cart.taobao.com/cart.htm
+						18 container
+							19 link Description:  收藏夹, Value: i.taobao.com/my_itaobao/itao-tool/colle…
+							20 text 
+						21 container
+							22 link Description: 免费开店, Value: ishop.taobao.com/openshop/tb_open_shop_…
+							23 text 
+						24 container
+							25 link Description: 千牛卖家中心, Value: myseller.taobao.com/home.htm/Qnworkbenc…
+							26 text 
+						27 container
+							28 link Description: 帮助中心, Value: consumerservice.taobao.com/
+							29 text 
+				30 container page-content-area
+					31 container page-header-area
+						32 link taobao.com/
+						33 container J_Search
+							34 container
+								35 text 格氏2s电池
+								36 text field (settable) q
+								37 text 搜索 搜本店
+					38 container left-content-area
+						39 container
+							40 link Description: 格氏电池全国总代  5.0 好评率98% 平均10小时发货 平均4小时退款, Value: shop319971321.taobao.com/category.htm
+							41 link  客服
+								255 text 
+								43 text 客服
+							44 link Description:  进店, Value: shop319971321.taobao.com/category.htm
+						45 container picGalleryEle
+							46 container
+								47 container
+									48 container
+										256 text 
+										50 text 参数
+								254 image mainPicImageEl
+								257 text 
+								258 text 
+							52 text 图集
+							53 text 参数
+						54 container
+							55 container
+								56 text 用户评价 参数信息 图文详情 本店推荐 看了又看
+							57 text 用户评价 · 100+ 近3个月好评率高达100.0%
+							58 image
+							59 text 崔耀月 2026-03-18 这次购物体验很棒，商品配送速度很快，拿到手时包装也完好无损。快递小哥服务周到，态度亲切，下次还会选择这家店。 查看全部评价 参数信息
+							60 text 可充电电池,电池,航模锂电池
+							61 text 配件类型
+							62 text 品牌 格氏 型号 格氏ACE新品航模350-1650mAh 地市 郴州市 产地 中国大陆 省份 湖南省 适用性别 男女通用 飞机种类 T型插头,JSYP插头,XT60插头 颜色分类 350mAh-30C-7.4V-2S1P,800mAh-45C-7.4V-2S1P,1000mAh-45C-7.4V-2S1P,1300mAh-30C-7.4V-2S1P,800mAh-45C-11.1V-3S1P,1000mAh-45C-11.1V-3S1P,1300mAh-30C-11.1V-3S1P,450mAh-45C-7.4V-2S1P,450mAh-45C-11.1V-3S1P,1650mAh-30C-11.1V-3S1P 图文详情
+					63 container SkuPanel_tbpcDetail_ssr2025
+						64 container tbpcDetail_SkuPanelRightWrap
+							232 container tbpcDetail_SkuPanelItemhead_fixed
+								233 text 格氏ACE350 450 800 1000 1300 1650mAh遥控小飞机航模2s3s电池
+								234 container
+									235 text 店铺优惠后 ￥ 39.6 优惠前 ￥ 45
+							65 container tbpcDetail_SkuPanelBody
+								66 text 平台补贴！开通88VIP领235元消费券，限时有效！
+								67 image
+								68 text 格氏ACE350 450 800 1000 1300 1650mAh遥控小飞机航模2s3s电池
+								69 container
+									70 text 已售 500+ 可开专票
+								71 container
+									72 text 店铺优惠后 ￥ 39.6
+								73 container
+									74 text 优惠前 ￥ 45
+								75 image
+								76 text 9月13日 24点
+								77 text 结束
+								78 container
+									79 text 已享受:
+									275 text 官方立减12%省5.4元
+									259 text 
+									82 text 可再享:
+									83 text 满150减18
+								260 text 
+								85 container
+									86 text 预计后天送达 快递: 免运费，可加价选顺丰 湖南郴州 至 长沙 岳麓 
+									261 text 
+								262 text 
+								89 container
+									90 text 大促价保 7天无理由退货 极速退款
+									263 text 
+								264 text 
+								93 container
+									94 text 信用卡支付
+									265 text 
+								96 container
+									97 image
+									98 text AI已生成筛选项，您可以直接筛选出对应款式 关闭筛选
+								99 text 电池S数
+								100 container 可滚动按钮列表
+									101 container
+										102 text 2S 3S
+								103 text 电池容量
+								104 container
+									105 container 可滚动按钮列表
+										106 container
+											107 text 350mAh 800mAh 1000mAh 1300mAh 450mAh 1650mAh
+									266 text 
+								109 text 放电倍率
+								110 container 可滚动按钮列表
+									111 container
+										112 text 30C 45C
+								113 container skuOptionsArea
+									114 text 飞机种类
+									115 container
+										116 text T型插头
+										117 text JSYP插头
+										118 text XT60插头
+									119 text 颜色分类
+									120 container
+										267 text  切换大图模式
+									122 container
+										123 text 350mAh-30C-7.4V-2S1P
+										124 text 800mAh-45C-7.4V-2S1P
+										125 text 1000mAh-45C-7.4V-2S1P
+										126 text 1300mAh-30C-7.4V-2S1P
+										127 text 800mAh-45C-11.1V-3S1P
+										128 text 1000mAh-45C-11.1V-3S1P
+										129 text 1300mAh-30C-11.1V-3S1P
+										130 text 450mAh-45C-7.4V-2S1P
+										131 text 450mAh-45C-11.1V-3S1P
+										132 text 1650mAh-30C-11.1V-3S1P
+								133 text 数量
+								268 text 
+								135 text field (settable) 1
+								269 text 
+								137 text 有货
+							138 container
+								270 text 
+								140 text 领券购买
+								141 container collectBtn
+									271 text 
+									143 text 收藏
+				144 container
+					145 text 规则协议
+					146 link Description: 淘宝规则, Value: rulechannel.taobao.com/
+					147 link Description: 平台服务协议, Value: terms.alicdn.com/legal-agreement/terms/…
+					148 text 新手上路
+					149 link Description: 0元开店, Value: ishop.taobao.com/openshop/tb_open_shop_…
+					150 link Description: 天猫开店, Value: zhaoshang.tmall.com/
+					151 link Description: 商家服务, Value: helpcenter.taobao.com/servicehall/home
+					152 text 付款方式
+					153 link Description: 快捷支付, Value: cshall.alipay.com/lab/cateQuestion.htm
+					154 link Description: 余额宝, Value: cshall.alipay.com/lab/cateQuestion.htm
+					155 link Description: 蚂蚁花呗, Value: cshall.alipay.com/lab/cateQuestion.htm
+					156 text 淘宝特色
+					157 link Description: 阿里旺旺, Value: pages.tmall.com/wow/qnww/act/index
+					158 link Description: 官方客服, Value: ai.alimebot.taobao.com/intl/index.htm
+					159 link Description: 阿里巴巴集团, Value: alibabagroup.com/
+					160 link Description: 淘宝, Value: taobao.com/
+					161 link Description: 天猫, Value: tmall.com/
+					162 link Description: 1688, Value: 1688.com/
+					163 link Description: 一淘, Value: etao.com/
+					164 link Description: 阿里健康, Value: alihealth.cn/
+					165 link Description: 全球速卖通, Value: aliexpress.com/
+					166 link Description: 阿里巴巴国际站, Value: alibaba.com/
+					167 link Description: 高德, Value: mobile.amap.com/
+					168 link Description: 飞猪, Value: fliggy.com/
+					169 link Description: 优酷, Value: youku.com/
+					170 link Description: 大麦, Value: damai.cn/
+					171 link Description: 阿里影业, Value: alibabapictures.com/
+					172 link Description: 钉钉, Value: dingtalk.com/
+					173 link Description: 支付宝, Value: alipay.com/
+					174 link Description: 阿里妈妈, Value: alimama.com/
+					175 link Description: 阿里云, Value: aliyun.com/
+					176 link Description: TAO, Value: jp.tao.co/
+					177 link Description: 关于淘宝, Value: huodong.taobao.com/wow/tbhome/act/about…
+					178 link Description: 营销中心, Value: pro.taobao.com/index.htm
+					179 link Description: 廉政举报, Value: taotian.jubao.alibaba.com/
+					180 link Description: 开放平台, Value: open.taobao.com/
+					181 link Description: 诚征英才, Value: talent.taotian.com/
+					182 link Description: 隐私权政策, Value: terms.alicdn.com/legal-agreement/terms/…
+					183 link Description: 法律声明, Value: terms.alicdn.com/legal-agreement/terms/…
+					184 link Description: 知识产权, Value: ipp.taobao.com/
+					185 text © 2003-现在 Taobao.com 版权所有
+					186 link Description: 增值电信业务经营许可证：浙B2-20080224, Value: img.alicdn.com/imgextra/i3/O1CN0178Muk8…
+					187 text 增值电信业务经营许可证（跨地区）： B2-20150210
+					188 link Description: 浙网文〔2025〕0051-019号, Value: img.alicdn.com/imgextra/i2/O1CN01841dyq…
+					189 link Description: 浙江省网络食品销售第三方平台提供者备案：浙网食A33010001, Value: img.alicdn.com/imgextra/i1/O1CN01QMwxVp…
+					190 link Description: 网络餐饮服务第三方平台备案：浙网餐备2024A330000020, Value: img.alicdn.com/imgextra/i3/O1CN01kvP6OG…
+					191 link Description: 互联网药品信息服务资格证书（浙）-经营性-2023-0008, Value: img.alicdn.com/imgextra/i2/O1CN01Kyy5nh…
+					192 link Description: 电信网码号资源使用证书：号[2020]00396-A02, Value: img.alicdn.com/imgextra/i1/O1CN01k29GFa…
+					193 link Description: 信息网络传播视听许可证：1109364号, Value: img.alicdn.com/imgextra/i1/O1CN01S8OClN…
+					194 link Description: 出版物网络交易平台服务经营备案号：新出发浙备字第2024004号, Value: img.alicdn.com/imgextra/i2/O1CN01YLll0U…
+					195 link Description: 营业性演出许可证：330101120994, Value: img.alicdn.com/imgextra/i4/O1CN01qI0HEV…
+					196 link Description: 广播电视节目制作经营许可证：（浙）字第01012号, Value: img.alicdn.com/imgextra/i4/O1CN014w2pps…
+					197 link Description: 药品网络交易第三方平台备案：（浙）网药平台备字〔2023〕第000016-001号, Value: img.alicdn.com/imgextra/i4/O1CN01m1j2sp…
+					198 link Description: 医疗器械网络交易服务第三方平台备案凭证：（浙）网械平台备字[2018]第00004号, Value: img.alicdn.com/imgextra/i3/O1CN013YP98t…
+					199 link Description: 浙公网安备 33010002000078号, Value: beian.mps.gov.cn/
+					200 link Description: 全国12315平台, Value: 12315.cn/
+					201 link Description: 浙B2-20080224-1, Value: beian.miit.gov.cn/
+					202 link Description: 浙江省互联网违法和不良信息举报中心, Value: zjjubao.com/
+					203 link Description: 全网举报, Value: jubao.taobao.com/
+					204 link Description: 不当竞争举报, Value: terms.alicdn.com/legal-agreement/terms/…
+					205 link Description: 涉企举报专区, Value: huodong.taobao.com/wow/z/tbhome/default…
+					206 link img.alicdn.com/imgextra/i2/O1CN01mYpkoM…
+					207 link ss.knet.cn/verifyseal.dll
+					208 link 12377.cn/
+					209 link mee.gov.cn/ywgz/fgbz/fl/202004/t2020043…
+					210 link ggfw.cnipa.gov.cn/home
+					211 link shdf.gov.cn/
+				212 container tb-toolkit-new
+					213 link Description: 用户调研, Value: survey.taobao.com/apps/zhiliao/GUShqv-xp
+					214 container
+						215 image
+						216 text 35
+						217 text 联系客服
+					218 link Description: 购物车 26, Value: cart.taobao.com/
+					219 text 商品码
+					220 link Description: 桌面版, Value: pc.taobao.com/
+					221 text 更多
+			222 container
+				223 container
+					272 text  问问 AI
+				225 button 关闭
+					273 text 
+				227 text 有什么想了解的，问我吧
+				228 text entry area (settable)
+				229 button (disabled) 发送消息
+					274 text 
+		231 text 合并下单等情况，可能会导致部分支付方式不可用，请以最终下单页展示为准
+
+The focused UI element is 0 AXWebArea 格氏ACE350 450 800 1000 1300 1650mAh遥控小飞机航模2s3s电池-淘宝网, URL: item.taobao.com/item.htm

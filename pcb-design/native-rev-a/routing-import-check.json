@@ -1,0 +1,24 @@
+{
+  "candidate_sha256": "1dd583181ae2cd736ec868a369581d32c41c55a30fa3f1f33c8041a49b291773",
+  "expected_segments": 732,
+  "actual_segments": 738,
+  "expected_vias": 24,
+  "actual_vias": 24,
+  "exact_lines_match": false,
+  "exact_vias_match": false,
+  "pads_unchanged": true,
+  "native_representation_notes": [
+    "EDA split/merged intersecting or nearly collinear same-net segments.",
+    "pcb_PrimitiveVia.getAll() rounds reported diameters to integer mil; native epro2 source preserves 23.622/11.811mil (0.6/0.3mm)."
+  ],
+  "maximum_trace_copper_hausdorff_mil": 0.07071067811883161,
+  "geometry_equivalent_within_0_2mil": true,
+  "independent_native_geometry_validation": "native-routing-validation.json (source pcb-persisted-geometry.json)",
+  "verified_import_pass": true,
+  "via_api_centres_and_display_sizes_match": true,
+  "persisted_via_centres_and_precise_sizes_match": true,
+  "persisted_via_pad_drill_mil": [
+    23.622,
+    11.811
+  ]
+}

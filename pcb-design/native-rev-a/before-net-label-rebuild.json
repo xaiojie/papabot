@@ -1,0 +1,2998 @@
+{
+  "ports": [
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "70ef838fd67e7a8c",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 745,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0cbfa3b8ef15bced",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 735,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "5c2de0d176b1ee34",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 715,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c9d5a0836d1d97a6",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 705,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8b5ae9f80e088e55",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 695,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3340c0a4a8a8ffdc",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 685,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ce1332d0ec9ac272",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 675,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b3dc7f9ec377a2da",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 665,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "dcd1702e4e566e82",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 655,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4011a78e98ef911d",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 645,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "38199556ec0d2702",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 635,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "52f9c701c7fe2cba",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 625,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d70703a85919d70e",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 615,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "abc4f58772c78dfe",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 605,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "dca0abab0d1d950a",
+      "componentType": "netport",
+      "x": 155.00000000000003,
+      "y": 585,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "570fcb3d3a7c50d2",
+      "componentType": "netport",
+      "x": 155,
+      "y": 575,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "db81a751622feecc",
+      "componentType": "netport",
+      "x": 155,
+      "y": 565,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4d6b6308248ff525",
+      "componentType": "netport",
+      "x": 155,
+      "y": 555,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d4ec69277e454a27",
+      "componentType": "netport",
+      "x": 415,
+      "y": 705,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "bc3659c788e4aa71",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 695,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a2ca569ae18c227a",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 685,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "74c65d12e4af3962",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 665,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e8b9b6d0f7fcdbcb",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 655,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "db6c689149207dc7",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 645,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "504745cbdedcad14",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 625,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b315d66012993920",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 585,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d6d4258fc1de7a75",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 575,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3b39a0b6eefe3c0d",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 565,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8efbf2247321736b",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 555,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "43acd9dda7b4ce35",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 735.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "45bf761c63a919d4",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 725.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "209f099e53b44ba8",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 715.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "07eb55e86e48d2fe",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 705.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "155bbd2c41f1c998",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 695.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4395765e8501c992",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 685.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9b0d269f81f1a4d7",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 675.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "20e7005d390a743c",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 550.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0d9e60e49a05cc17",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 540.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "147551454219c7df",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 530.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "7b7ee3af00134b43",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 520.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4b052457654545d5",
+      "componentType": "netport",
+      "x": 754.9999999999999,
+      "y": 510,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "1ca6741d8261034d",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 725.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a610c27281677976",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 715.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "396b3b7854128cf2",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 705.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0e94d20f8dfa7149",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 695.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b33db8ceec88ec1f",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 685.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "729f64b5b2d3d659",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 675.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "74905f52d7e6a378",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 545.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "93040e4d7b16f25f",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 535.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0507c54f3fcb8728",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 525.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "f92e071b23af3bc9",
+      "componentType": "netport",
+      "x": 1014.9999999999999,
+      "y": 515.0000000000001,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "05eba1b6e644ac6c",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 350,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ff3c48b24e50caa2",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 340,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0764eb98d80702a5",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 330,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "41135c51fa7692ee",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 320,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4906e5af643bac8a",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 310,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "804c6ef071fa4484",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 300,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3fc40626ebda9c94",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 290,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "76f3045083147d6a",
+      "componentType": "netport",
+      "x": 155,
+      "y": 425,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "58b29307c67d3786",
+      "componentType": "netport",
+      "x": 155,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8ceb6e298bb918ab",
+      "componentType": "netport",
+      "x": 154.99999999999997,
+      "y": 265,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e824424eb3ef42dd",
+      "componentType": "netport",
+      "x": 154.99999999999997,
+      "y": 255.00000000000003,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "671d2c6ccf1c5bad",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 425.00000000000006,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "79fd20d41bf4fa60",
+      "componentType": "netport",
+      "x": 414.99999999999994,
+      "y": 415.00000000000006,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6001830b59db4d61",
+      "componentType": "netport",
+      "x": 374.99999999999994,
+      "y": 265.00000000000006,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "00032a0292fdb761",
+      "componentType": "netport",
+      "x": 374.99999999999994,
+      "y": 255,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "bb00d603ba95eaf8",
+      "componentType": "netport",
+      "x": 645,
+      "y": 260,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "878a57a0c6c1cdc6",
+      "componentType": "netport",
+      "x": 555,
+      "y": 260.00000000000006,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "2f1767bca26c6b1f",
+      "componentType": "netport",
+      "x": 700,
+      "y": 135,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0b7d0f73d3ca502b",
+      "componentType": "netport",
+      "x": 700,
+      "y": 225,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c57337a4aa1d6758",
+      "componentType": "netport",
+      "x": 620,
+      "y": 565,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PCA_OE_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "48f0ace44cb4ea0a",
+      "componentType": "netport",
+      "x": 620,
+      "y": 475,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3f2eee74991ca3a6",
+      "componentType": "netport",
+      "x": 600,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "74e53d899d1d2c5e",
+      "componentType": "netport",
+      "x": 600,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "3ac5b7abc4b01276",
+      "componentType": "netport",
+      "x": 710,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b48d1881aedd42cb",
+      "componentType": "netport",
+      "x": 710,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a3583a24cce43ed3",
+      "componentType": "netport",
+      "x": 820,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ENC_SW_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "11de41de64635f6a",
+      "componentType": "netport",
+      "x": 820,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "13773adc1e55da3d",
+      "componentType": "netport",
+      "x": 930,
+      "y": 415,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY_N",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "2fe6730ddef51e0f",
+      "componentType": "netport",
+      "x": 930,
+      "y": 325,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "1bcbb72fce2f472b",
+      "componentType": "netport",
+      "x": 845,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "ADC_BAT",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "fc2718a7882bf2f5",
+      "componentType": "netport",
+      "x": 755,
+      "y": 179.99999999999997,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ecb4a7392da405f6",
+      "componentType": "netport",
+      "x": 255,
+      "y": 350.00000000000006,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d275cc86fab049cc",
+      "componentType": "netport",
+      "x": 345,
+      "y": 350,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "84d6d7fe5be83123",
+      "componentType": "netport",
+      "x": 505,
+      "y": 160,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+3V3",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "697342075af20446",
+      "componentType": "netport",
+      "x": 415,
+      "y": 160,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a519ba8c6791c38c",
+      "componentType": "netport",
+      "x": 1105,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "+5V_LOGIC",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "56bacc9f09fbed3b",
+      "componentType": "netport",
+      "x": 1015,
+      "y": 180,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "49e194ccd64060fc",
+        "name": "Netport-BI"
+      }
+    }
+  ],
+  "wires": [
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        745,
+        180,
+        745
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "bc5aa0494387d310"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        735,
+        180,
+        735
+      ],
+      "net": "ENC_B",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "beb349b878f3dd22"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        715,
+        180,
+        715
+      ],
+      "net": "MIC_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "64b264e08c11c6ed"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        705,
+        180,
+        705
+      ],
+      "net": "MIC_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c956179787c45683"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        695,
+        180,
+        695
+      ],
+      "net": "MIC_SD",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f650322e75623916"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        685,
+        180,
+        685
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "46c96d582e74f592"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        675,
+        180,
+        675
+      ],
+      "net": "ENC_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "5f34af53c80a4495"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        665,
+        180,
+        665
+      ],
+      "net": "PCA_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f99136e84aa4a435"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        655,
+        180,
+        655
+      ],
+      "net": "PCA_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "bca8b12073c60046"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        645,
+        180,
+        645
+      ],
+      "net": "PCA_OE_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9b0535b786954418"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        635,
+        180,
+        635
+      ],
+      "net": "LCD_MOSI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0c9e7dde494072b1"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        625,
+        180,
+        625
+      ],
+      "net": "LCD_SCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "52ab1d92b323c688"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        615,
+        180,
+        615
+      ],
+      "net": "LCD_CS_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9fc538a12417568d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        605,
+        180,
+        605
+      ],
+      "net": "LCD_DC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "940835dbedc5408f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        585,
+        180,
+        585
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "aa449c921a9a3763"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        575,
+        180,
+        575
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "4736b9f7acf7e463"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        565,
+        180,
+        565
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "be13d0e5a6871055"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        555,
+        180,
+        555
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f596ecbf436eeb00"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        705,
+        440,
+        705
+      ],
+      "net": "AMP_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f6336a3b70b380ba"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        695,
+        440,
+        695
+      ],
+      "net": "AMP_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "deb63301772fab8b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        685,
+        440,
+        685
+      ],
+      "net": "AMP_DIN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "dd881512fbbc762d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        665,
+        440,
+        665
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "3c1dca32e072760d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        655,
+        440,
+        655
+      ],
+      "net": "LCD_RST_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "8a32d390614befa5"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        645,
+        440,
+        645
+      ],
+      "net": "KEY_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "4cc998744a398cac"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        625,
+        440,
+        625
+      ],
+      "net": "ENC_SW_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0b8c6b613f764d08"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        585,
+        440,
+        585
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "59182f6783b94a0a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        575,
+        440,
+        575
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "948359e602f01594"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        565,
+        440,
+        565
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "7bedbc0813109f55"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        555,
+        440,
+        555
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9db68c4c8edbfddd"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        735,
+        780,
+        735
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "665588fffe9b2bd6"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        725,
+        780,
+        725
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "36ae4031af861d9d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        715,
+        780,
+        715
+      ],
+      "net": "LCD_SCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e99c5814b086ffb2"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        705,
+        780,
+        705
+      ],
+      "net": "LCD_MOSI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9bb624917bd35d4c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        695,
+        780,
+        695
+      ],
+      "net": "LCD_RST_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "b23861b17e596c39"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        685,
+        780,
+        685
+      ],
+      "net": "LCD_DC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "6dbb0876aa147d86"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        675,
+        780,
+        675
+      ],
+      "net": "LCD_CS_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "b559751787a51705"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        550,
+        780,
+        550
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "21a8b71845434d46"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        540,
+        780,
+        540
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "d4d05be3fa995135"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        530,
+        780,
+        530
+      ],
+      "net": "PCA_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2a4ac2781c1978a1"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        520,
+        780,
+        520
+      ],
+      "net": "PCA_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "b42bd7ec719e0b6b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        510,
+        780,
+        510
+      ],
+      "net": "PCA_OE_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "f65bb8c3a1587143"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        725,
+        1040,
+        725
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0d50be6222ec83fa"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        715,
+        1040,
+        715
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "9d51457b5d48e46f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        705,
+        1040,
+        705
+      ],
+      "net": "MIC_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "6bf64170a00bee92"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        695,
+        1040,
+        695
+      ],
+      "net": "MIC_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "b0ddbdd52cd077dd"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        685,
+        1040,
+        685
+      ],
+      "net": "MIC_SD",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "23cef2de6201eca4"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        675,
+        1040,
+        675
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "ba97c6d0a34c1cd7"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        545,
+        1040,
+        545
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "965f4ccf05f60d8a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        535,
+        1040,
+        535
+      ],
+      "net": "AMP_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "415ce13cf9ea23eb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        525,
+        1040,
+        525
+      ],
+      "net": "AMP_WS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2743ef8a1b59aad8"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        515,
+        1040,
+        515
+      ],
+      "net": "AMP_DIN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "75a966438b81f82e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        350,
+        1040,
+        350
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "fce4f4b34ce69512"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        340,
+        1040,
+        340
+      ],
+      "net": "ENC_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c689a8b14b6656ca"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        330,
+        1040,
+        330
+      ],
+      "net": "ENC_B",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "305a50d9e736e019"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        320,
+        1040,
+        320
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "dda8d228228a400f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        310,
+        1040,
+        310
+      ],
+      "net": "ENC_SW_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "5c47fdbc950209cb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        300,
+        1040,
+        300
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "4c93e9f8f8f9c113"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        290,
+        1040,
+        290
+      ],
+      "net": "KEY_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "343a627cb54e2c04"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        425,
+        180,
+        425
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "08de0d9089c03838"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        415,
+        180,
+        415
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "88d5ee83bd3cea08"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        265,
+        180,
+        265
+      ],
+      "net": "VBAT_SW",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "663e618070cedbfc"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        155,
+        255,
+        180,
+        255
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "2c3078b7b42462b5"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        425,
+        440,
+        425
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "884fb8232c364c20"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        415,
+        440,
+        415
+      ],
+      "net": "+5V_MCU",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "02f984fada14058c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        375,
+        265,
+        400,
+        265
+      ],
+      "net": "VBAT_SW",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e9d3c9e3a6b4cc7b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        375,
+        255,
+        400,
+        255
+      ],
+      "net": "VBAT_SENSE",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "a624dacfd37a1c6c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        645,
+        260,
+        620,
+        260
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "5f94bf3e87686b0e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        555,
+        260,
+        580,
+        260
+      ],
+      "net": "VBAT_SENSE",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1e258f7cfc52896f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        700,
+        134.99999999999997,
+        700,
+        159.99999999999997
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "fce6607868d96b71"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        700,
+        224.99999999999997,
+        700,
+        199.99999999999997
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "88db70ddfc784bd0"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        619.9999999999999,
+        565,
+        619.9999999999999,
+        540
+      ],
+      "net": "PCA_OE_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c971eada20a0255e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        619.9999999999999,
+        475.0000000000001,
+        619.9999999999999,
+        500.0000000000001
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "6d420d126585ed8b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        600,
+        415.00000000000006,
+        600,
+        390.00000000000006
+      ],
+      "net": "ENC_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c069a1bccb782719"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        600,
+        325.00000000000006,
+        600,
+        350.00000000000006
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c41e0181c66c3df4"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        710,
+        415,
+        710,
+        390
+      ],
+      "net": "ENC_B",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "c2bf595ddb0abc66"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        710,
+        325,
+        710,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "5314966292b207cc"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        820,
+        415,
+        820,
+        390
+      ],
+      "net": "ENC_SW_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "536fe92e187d2f20"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        820,
+        325,
+        820,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "0238e3436274ce83"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        930,
+        415,
+        930,
+        390
+      ],
+      "net": "KEY_N",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1ed638a576b47e40"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        930,
+        325,
+        930,
+        350
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "7959839245a37df0"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        845,
+        179.99999999999997,
+        820,
+        179.99999999999997
+      ],
+      "net": "ADC_BAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "1d10d52d6996aa1e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        755,
+        180,
+        780,
+        180
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "65a4ead718cefaa5"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        255,
+        350,
+        280,
+        350
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "d629ac0448f386dd"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        345,
+        350,
+        320,
+        350
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "17e77693beb7a32e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        505,
+        160,
+        480,
+        160
+      ],
+      "net": "+3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "19030b20ec45c401"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        415,
+        160,
+        440,
+        160
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "aac46835f31e50f5"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1105,
+        180,
+        1080,
+        180
+      ],
+      "net": "+5V_LOGIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "afd6f12e9dd86e91"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        1015,
+        180.00000000000003,
+        1040,
+        180.00000000000003
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "cb4b57ba7068c354"
+    }
+  ]
+}

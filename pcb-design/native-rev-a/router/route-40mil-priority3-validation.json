@@ -1,0 +1,432 @@
+{
+  "status": "PASS_GEOMETRY",
+  "not_native_eda_drc": true,
+  "minimum_different_net_clearance_mil": 8.050000000000011,
+  "minimum_copper_board_edge_mil": 13.015748031496058,
+  "minimum_copper_mounting_hole_mil": 39.763779527559564,
+  "violations": [],
+  "connectivity": [
+    {
+      "net": "+3V3",
+      "connected": true,
+      "groups": [
+        [
+          "C3.1",
+          "J1.17",
+          "J1.18",
+          "J1.19",
+          "J4.2",
+          "J5.2",
+          "R3.1",
+          "R4.1",
+          "R5.1",
+          "R6.1",
+          "R7.1"
+        ]
+      ]
+    },
+    {
+      "net": "+5V_LOGIC",
+      "connected": true,
+      "groups": [
+        [
+          "C4.1",
+          "J3.2",
+          "J8.1",
+          "JP1.1"
+        ]
+      ]
+    },
+    {
+      "net": "+5V_MCU",
+      "connected": true,
+      "groups": [
+        [
+          "J2.17",
+          "J2.18",
+          "J2.19",
+          "JP1.2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_BAT",
+      "connected": true,
+      "groups": [
+        [
+          "C1.1",
+          "J1.1",
+          "R1.2",
+          "R2.1"
+        ]
+      ]
+    },
+    {
+      "net": "AMP_BCLK",
+      "connected": true,
+      "groups": [
+        [
+          "J2.5",
+          "J6.2"
+        ]
+      ]
+    },
+    {
+      "net": "AMP_DIN",
+      "connected": true,
+      "groups": [
+        [
+          "J2.7",
+          "J6.4"
+        ]
+      ]
+    },
+    {
+      "net": "AMP_WS",
+      "connected": true,
+      "groups": [
+        [
+          "J2.6",
+          "J6.3"
+        ]
+      ]
+    },
+    {
+      "net": "ENC_A",
+      "connected": true,
+      "groups": [
+        [
+          "J1.8",
+          "J7.2",
+          "R4.2"
+        ]
+      ]
+    },
+    {
+      "net": "ENC_B",
+      "connected": true,
+      "groups": [
+        [
+          "J1.2",
+          "J7.3",
+          "R5.2"
+        ]
+      ]
+    },
+    {
+      "net": "ENC_SW_N",
+      "connected": true,
+      "groups": [
+        [
+          "J2.13",
+          "J7.5",
+          "R6.2"
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "connected": true,
+      "groups": [
+        [
+          "C1.2",
+          "C3.2",
+          "C4.2",
+          "J1.7",
+          "J1.20",
+          "J2.9",
+          "J2.20",
+          "J3.1",
+          "J4.1",
+          "J5.6",
+          "J5.1",
+          "J6.1",
+          "J7.1",
+          "J7.4",
+          "J7.6",
+          "J8.2",
+          "J9.2",
+          "R2.2"
+        ]
+      ]
+    },
+    {
+      "net": "KEY_N",
+      "connected": true,
+      "groups": [
+        [
+          "J2.11",
+          "J7.7",
+          "R7.2"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_CS_N",
+      "connected": true,
+      "groups": [
+        [
+          "J1.14",
+          "J3.7"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_DC",
+      "connected": true,
+      "groups": [
+        [
+          "J1.15",
+          "J3.6"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_MOSI",
+      "connected": true,
+      "groups": [
+        [
+          "J1.12",
+          "J3.4"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_RST_N",
+      "connected": true,
+      "groups": [
+        [
+          "J2.10",
+          "J3.5"
+        ]
+      ]
+    },
+    {
+      "net": "LCD_SCLK",
+      "connected": true,
+      "groups": [
+        [
+          "J1.13",
+          "J3.3"
+        ]
+      ]
+    },
+    {
+      "net": "MIC_BCLK",
+      "connected": true,
+      "groups": [
+        [
+          "J1.4",
+          "J5.3"
+        ]
+      ]
+    },
+    {
+      "net": "MIC_SD",
+      "connected": true,
+      "groups": [
+        [
+          "J1.6",
+          "J5.5"
+        ]
+      ]
+    },
+    {
+      "net": "MIC_WS",
+      "connected": true,
+      "groups": [
+        [
+          "J1.5",
+          "J5.4"
+        ]
+      ]
+    },
+    {
+      "net": "PCA_OE_N",
+      "connected": true,
+      "groups": [
+        [
+          "J1.11",
+          "J4.5",
+          "R3.2"
+        ]
+      ]
+    },
+    {
+      "net": "PCA_SCL",
+      "connected": true,
+      "groups": [
+        [
+          "J1.10",
+          "J4.4"
+        ]
+      ]
+    },
+    {
+      "net": "PCA_SDA",
+      "connected": true,
+      "groups": [
+        [
+          "J1.9",
+          "J4.3"
+        ]
+      ]
+    },
+    {
+      "net": "VBAT_SENSE",
+      "connected": true,
+      "groups": [
+        [
+          "JP2.2",
+          "R1.1"
+        ]
+      ]
+    },
+    {
+      "net": "VBAT_SW",
+      "connected": true,
+      "groups": [
+        [
+          "J9.1",
+          "JP2.1"
+        ]
+      ]
+    }
+  ],
+  "connected_nets": 25,
+  "total_nets": 25,
+  "trace_count": 89,
+  "via_count": 22,
+  "all_nets_connected": true,
+  "trace_widths_mil": [
+    12,
+    24,
+    32,
+    40
+  ],
+  "widths_by_net_mil": {
+    "+3V3": [
+      24
+    ],
+    "+5V_LOGIC": [
+      40
+    ],
+    "+5V_MCU": [
+      40
+    ],
+    "ADC_BAT": [
+      12
+    ],
+    "AMP_BCLK": [
+      12
+    ],
+    "AMP_DIN": [
+      12
+    ],
+    "AMP_WS": [
+      12
+    ],
+    "ENC_A": [
+      12
+    ],
+    "ENC_B": [
+      12
+    ],
+    "ENC_SW_N": [
+      12
+    ],
+    "GND": [
+      40
+    ],
+    "KEY_N": [
+      12
+    ],
+    "LCD_CS_N": [
+      12
+    ],
+    "LCD_DC": [
+      12
+    ],
+    "LCD_MOSI": [
+      12
+    ],
+    "LCD_RST_N": [
+      12
+    ],
+    "LCD_SCLK": [
+      12
+    ],
+    "MIC_BCLK": [
+      12
+    ],
+    "MIC_SD": [
+      12
+    ],
+    "MIC_WS": [
+      12
+    ],
+    "PCA_OE_N": [
+      12
+    ],
+    "PCA_SCL": [
+      12
+    ],
+    "PCA_SDA": [
+      12
+    ],
+    "VBAT_SENSE": [
+      12
+    ],
+    "VBAT_SW": [
+      32
+    ]
+  },
+  "required_widths_by_net_mil": {
+    "+3V3": 24,
+    "+5V_LOGIC": 40,
+    "+5V_MCU": 40,
+    "ADC_BAT": 12,
+    "AMP_BCLK": 12,
+    "AMP_DIN": 12,
+    "AMP_WS": 12,
+    "ENC_A": 12,
+    "ENC_B": 12,
+    "ENC_SW_N": 12,
+    "GND": 40,
+    "KEY_N": 12,
+    "LCD_CS_N": 12,
+    "LCD_DC": 12,
+    "LCD_MOSI": 12,
+    "LCD_RST_N": 12,
+    "LCD_SCLK": 12,
+    "MIC_BCLK": 12,
+    "MIC_SD": 12,
+    "MIC_WS": 12,
+    "PCA_OE_N": 12,
+    "PCA_SCL": 12,
+    "PCA_SDA": 12,
+    "VBAT_SENSE": 12,
+    "VBAT_SW": 32
+  },
+  "power_vias": [
+    {
+      "net": "GND",
+      "x": 1309.8,
+      "y": 400.0,
+      "diameter": 23.62204724409449,
+      "drill": 11.811023622047244
+    },
+    {
+      "net": "GND",
+      "x": 1215.0,
+      "y": 170.0,
+      "diameter": 23.62204724409449,
+      "drill": 11.811023622047244
+    }
+  ],
+  "limits": [
+    "Does not replace native EDA DRC or manufacturing review",
+    "Pad hole readout deliberately ignored; parent verified source drill separately",
+    "No impedance, thermal, voltage drop, antenna RF, assembly or soldermask validation"
+  ]
+}

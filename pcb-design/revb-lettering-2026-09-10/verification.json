@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-09-10T09:47:30.491805+08:00",
+  "passed": true,
+  "native_project_existing_records_unchanged": true,
+  "new_top_silkscreen_objects": 7,
+  "native_pcb_drc_errors": 0,
+  "gerber_geometry_rounding_mm": 1e-05,
+  "gerber_unchanged_layers": {
+    "Gerber_TopLayer.GTL": {
+      "unchanged": true,
+      "primitive_count": 450
+    },
+    "Gerber_BottomLayer.GBL": {
+      "unchanged": true,
+      "primitive_count": 568
+    },
+    "Gerber_BottomSilkscreenLayer.GBO": {
+      "unchanged": true,
+      "primitive_count": 624
+    },
+    "Gerber_TopSolderMaskLayer.GTS": {
+      "unchanged": true,
+      "primitive_count": 212
+    },
+    "Gerber_BottomSolderMaskLayer.GBS": {
+      "unchanged": true,
+      "primitive_count": 212
+    },
+    "Gerber_BoardOutlineLayer.GKO": {
+      "unchanged": true,
+      "primitive_count": 8
+    },
+    "Drill_PTH_Through.DRL": {
+      "unchanged": true,
+      "hole_count": 129
+    },
+    "Drill_NPTH_Through.DRL": {
+      "unchanged": true,
+      "hole_count": 4
+    },
+    "Drill_PTH_Through_Via.DRL": {
+      "unchanged": true,
+      "hole_count": 25
+    }
+  },
+  "existing_top_silk_unchanged": true,
+  "new_top_silk_primitive_types": {
+    "Line": 29,
+    "ArcPoly": 6
+  },
+  "lettering_bbox_mm": [
+    8.77942,
+    27.798740000000002,
+    22.100268,
+    30.799966
+  ],
+  "conservative_soldermask_opening_clearance_mm": 1.378934000000001,
+  "chinese_gerber_area_mm2": 9.248758200437003,
+  "chinese_outline_area_matches": true,
+  "lettering_only_no_circuit_or_mechanical_change": true,
+  "fabrication_order_placed": false,
+  "files": {
+    "DesktopAssistant_RevB_Jay_PaPa.epro2": "430ee48fe51caeae66da65946344b793d71f0a549ea80ff55b74b4010673174a",
+    "DesktopAssistant_RevB_Jay_PaPa_Gerber.zip": "e16fd5db45eac9b9e0b4b7ed29ccbaaaa2adc707149fae1974808781757818aa"
+  }
+}

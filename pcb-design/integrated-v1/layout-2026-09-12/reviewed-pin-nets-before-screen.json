@@ -1,0 +1,1664 @@
+{
+  "JBAT": {
+    "page": "01",
+    "template": "XT30",
+    "id": "e51df01ba38f9225",
+    "name": "XT30 battery input",
+    "pins": {
+      "1": "VBAT_RAW_N",
+      "2": "VBAT_RAW_P",
+      "3": null,
+      "4": null
+    },
+    "pinNames": {
+      "1": "-",
+      "2": "+",
+      "3": "3",
+      "4": "4"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "JBAL": {
+    "page": "01",
+    "template": "XH3",
+    "id": "2f60fb1e5dc6ae20",
+    "name": "2S balance harness",
+    "pins": {
+      "1": "VBAT_RAW_N",
+      "2": "BM",
+      "3": "VBAT_RAW_P"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "U1": {
+    "page": "01",
+    "template": "HY2120",
+    "id": "c2738063bcbb24bf",
+    "name": "HY2120-CB",
+    "pins": {
+      "1": "DOUT_GATE",
+      "2": "COUT_GATE",
+      "3": "VM_SENSE",
+      "4": "PROT_VC",
+      "5": "PROT_VDD",
+      "6": "VBAT_RAW_N"
+    },
+    "pinNames": {
+      "1": "OD",
+      "2": "OC",
+      "3": "CS",
+      "4": "VC",
+      "5": "VDD",
+      "6": "VSS"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R1": {
+    "page": "01",
+    "template": "R1",
+    "id": "fcd1728001e13a8f",
+    "name": "330R",
+    "pins": {
+      "1": "VBAT_RAW_P",
+      "2": "PROT_VDD"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R2": {
+    "page": "01",
+    "template": "R2",
+    "id": "10480d09b4680e7e",
+    "name": "330R",
+    "pins": {
+      "1": "BM",
+      "2": "PROT_VC"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C1": {
+    "page": "01",
+    "template": "C1",
+    "id": "9494f1dd76badbf9",
+    "name": "100nF / 50V",
+    "pins": {
+      "1": "PROT_VDD",
+      "2": "VBAT_RAW_N"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C2": {
+    "page": "01",
+    "template": "C2",
+    "id": "40c618b15150b23e",
+    "name": "100nF / 50V",
+    "pins": {
+      "1": "PROT_VC",
+      "2": "VBAT_RAW_N"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R3": {
+    "page": "01",
+    "template": "R3",
+    "id": "f67106512a05739d",
+    "name": "1K (datasheet min)",
+    "pins": {
+      "1": "VM_SENSE",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "Q2": {
+    "page": "01",
+    "template": "Q2",
+    "id": "6de6e34df73e4b26",
+    "name": "AO4406 / discharge",
+    "pins": {
+      "1": "VBAT_RAW_N",
+      "2": "VBAT_RAW_N",
+      "3": "VBAT_RAW_N",
+      "4": "DOUT_GATE",
+      "5": "MOS_MID",
+      "6": "MOS_MID",
+      "7": "MOS_MID",
+      "8": "MOS_MID"
+    },
+    "pinNames": {
+      "8": "D",
+      "7": "D",
+      "6": "D",
+      "5": "D",
+      "4": "G",
+      "3": "S",
+      "2": "S",
+      "1": "S"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "Q1": {
+    "page": "01",
+    "template": "Q1",
+    "id": "329af35cd0b129ba",
+    "name": "AO4406 / charge",
+    "pins": {
+      "1": "GND",
+      "2": "GND",
+      "3": "GND",
+      "4": "COUT_GATE",
+      "5": "MOS_MID",
+      "6": "MOS_MID",
+      "7": "MOS_MID",
+      "8": "MOS_MID"
+    },
+    "pinNames": {
+      "8": "D",
+      "7": "D",
+      "6": "D",
+      "5": "D",
+      "4": "G",
+      "3": "S",
+      "2": "S",
+      "1": "S"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R4": {
+    "page": "01",
+    "template": "R100",
+    "id": "5e34268a6137ca20",
+    "name": "100R",
+    "pins": {
+      "1": "BM",
+      "2": "BAL1_VDD"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "U2": {
+    "page": "01",
+    "template": "HY2213",
+    "id": "f8d58e6b41edfff4",
+    "name": "HY2213-BB3A",
+    "pins": {
+      "1": null,
+      "2": "BAL1_VDD",
+      "3": "VBAT_RAW_N",
+      "4": null,
+      "5": null,
+      "6": "BAL1_GATE"
+    },
+    "pinNames": {
+      "1": "NC",
+      "2": "VDD",
+      "3": "VSS",
+      "4": "NC",
+      "5": "NC",
+      "6": "OUT"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C3": {
+    "page": "01",
+    "template": "C1",
+    "id": "b14b2a095bbb6f97",
+    "name": "100nF / 50V",
+    "pins": {
+      "1": "BAL1_VDD",
+      "2": "VBAT_RAW_N"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R18": {
+    "page": "01",
+    "template": "R220",
+    "id": "6ad961ce24f12562",
+    "name": "220R / 1206 / 0.25W",
+    "pins": {
+      "1": "BM",
+      "2": "BAL1_BLEED"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "Q3": {
+    "page": "01",
+    "template": "Q3",
+    "id": "75de07a6699fe301",
+    "name": "AO3400A",
+    "pins": {
+      "1": "BAL1_GATE",
+      "2": "VBAT_RAW_N",
+      "3": "BAL1_BLEED"
+    },
+    "pinNames": {
+      "3": "D",
+      "1": "G",
+      "2": "S"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R19": {
+    "page": "01",
+    "template": "R10",
+    "id": "78c273bcf8f91d89",
+    "name": "100K gate pull-down",
+    "pins": {
+      "1": "BAL1_GATE",
+      "2": "VBAT_RAW_N"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R5": {
+    "page": "01",
+    "template": "R100",
+    "id": "957ef142456e7b42",
+    "name": "100R",
+    "pins": {
+      "1": "VBAT_RAW_P",
+      "2": "BAL2_VDD"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "U3": {
+    "page": "01",
+    "template": "HY2213",
+    "id": "9adbd695f3333644",
+    "name": "HY2213-BB3A",
+    "pins": {
+      "1": null,
+      "2": "BAL2_VDD",
+      "3": "BM",
+      "4": null,
+      "5": null,
+      "6": "BAL2_GATE"
+    },
+    "pinNames": {
+      "1": "NC",
+      "2": "VDD",
+      "3": "VSS",
+      "4": "NC",
+      "5": "NC",
+      "6": "OUT"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C4": {
+    "page": "01",
+    "template": "C1",
+    "id": "df307609eb8d835b",
+    "name": "100nF / 50V",
+    "pins": {
+      "1": "BAL2_VDD",
+      "2": "BM"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R20": {
+    "page": "01",
+    "template": "R220",
+    "id": "deb7a04786920f0a",
+    "name": "220R / 1206 / 0.25W",
+    "pins": {
+      "1": "VBAT_RAW_P",
+      "2": "BAL2_BLEED"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "Q4": {
+    "page": "01",
+    "template": "Q4",
+    "id": "7e8896913bf053bc",
+    "name": "AO3400A",
+    "pins": {
+      "1": "BAL2_GATE",
+      "2": "BM",
+      "3": "BAL2_BLEED"
+    },
+    "pinNames": {
+      "3": "D",
+      "1": "G",
+      "2": "S"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R21": {
+    "page": "01",
+    "template": "R10",
+    "id": "669539b2c05d0a5f",
+    "name": "100K gate pull-down",
+    "pins": {
+      "1": "BAL2_GATE",
+      "2": "BM"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J6": {
+    "page": "02",
+    "template": "J6",
+    "id": "5777a0577d00016b",
+    "name": "USB-C / charge only",
+    "pins": {
+      "1": "GND",
+      "2": "GND",
+      "3": "GND",
+      "4": "GND",
+      "B8": null,
+      "B7": null,
+      "B6": null,
+      "B5": "CC2",
+      "A8": null,
+      "A7": null,
+      "A6": null,
+      "A5": "CC1",
+      "B1A12": "GND",
+      "B4A9": "VBUS",
+      "A4B9": "VBUS",
+      "A1B12": "GND"
+    },
+    "pinNames": {
+      "3": "3",
+      "1": "1",
+      "4": "4",
+      "2": "2",
+      "B8": "SBU2",
+      "B7": "DN2",
+      "B6": "DP2",
+      "B5": "CC2",
+      "A8": "SBU1",
+      "A7": "DN1",
+      "A6": "DP1",
+      "A5": "CC1",
+      "B1A12": "GND",
+      "B4A9": "VBUS",
+      "A4B9": "VBUS",
+      "A1B12": "GND"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R16": {
+    "page": "02",
+    "template": "R16",
+    "id": "206d55b9494b6865",
+    "name": "5.1K Rd",
+    "pins": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R17": {
+    "page": "02",
+    "template": "R17",
+    "id": "9fcab0512e69268a",
+    "name": "5.1K Rd",
+    "pins": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "U4": {
+    "page": "02",
+    "template": "IP2326",
+    "id": "b5d1943bb228bd00",
+    "name": "IP2326 / QFN24+EP",
+    "pins": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": "NTC",
+      "5": null,
+      "6": "CHG_LED",
+      "7": "CHG_TIME",
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": "CHG_ISET",
+      "12": "CHG_EN",
+      "13": "CHG_VIN",
+      "14": "BST_CAP",
+      "15": "SW_CHG",
+      "16": "SW_CHG",
+      "17": "SW_CHG",
+      "18": "GND",
+      "19": "CHG_VSYS",
+      "20": "CHG_VSYS",
+      "21": "VBAT_FUSED",
+      "22": "VBAT_FUSED",
+      "23": null,
+      "24": null,
+      "25": "GND"
+    },
+    "pinNames": {
+      "1": "DM",
+      "2": "DP",
+      "3": "VSET",
+      "4": "NTC",
+      "5": "BAT_STAT",
+      "6": "LED",
+      "7": "TIME_SET",
+      "8": "VIN_UVSET",
+      "9": "VIN_OVSET",
+      "10": "CON_SEL",
+      "11": "ISET",
+      "12": "EN",
+      "13": "VIN",
+      "14": "BST",
+      "15": "LX",
+      "16": "LX",
+      "17": "LX",
+      "18": "PGND",
+      "19": "VSYS",
+      "20": "VSYS",
+      "21": "VOUT",
+      "22": "VOUT",
+      "23": "VBATM",
+      "24": "VBAT_GND",
+      "25": "EP"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "L1": {
+    "page": "02",
+    "template": "L2U2",
+    "id": "f68a09a9b7011c91",
+    "name": "2.2uH / 10A",
+    "pins": {
+      "1": "VBUS",
+      "2": "SW_CHG"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R6": {
+    "page": "02",
+    "template": "R050",
+    "id": "e0475c15346dbe5f",
+    "name": "0.5R / VIN filter",
+    "pins": {
+      "1": "VBUS",
+      "2": "CHG_VIN"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C8": {
+    "page": "02",
+    "template": "C8",
+    "id": "1287b780fd113256",
+    "name": "100nF / bootstrap",
+    "pins": {
+      "1": "BST_CAP",
+      "2": "SW_CHG"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C11": {
+    "page": "02",
+    "template": "C22",
+    "id": "bb0b8b866f46254b",
+    "name": "22uF / 25V",
+    "pins": {
+      "1": "CHG_VSYS",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C12": {
+    "page": "02",
+    "template": "C22",
+    "id": "1fcae2378e1ebc66",
+    "name": "22uF / 25V",
+    "pins": {
+      "1": "CHG_VSYS",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C6": {
+    "page": "02",
+    "template": "C6",
+    "id": "abe2c02767487971",
+    "name": "10uF / 50V",
+    "pins": {
+      "1": "VBUS",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C5": {
+    "page": "02",
+    "template": "C6",
+    "id": "27ebc85f051ab964",
+    "name": "10uF / 50V",
+    "pins": {
+      "1": "CHG_VIN",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C7": {
+    "page": "02",
+    "template": "C7",
+    "id": "6c73c181270d3e2c",
+    "name": "10uF / 50V",
+    "pins": {
+      "1": "VBAT_FUSED",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C13": {
+    "page": "02",
+    "template": "C7",
+    "id": "6f5acecd3fca1e42",
+    "name": "10uF / 50V",
+    "pins": {
+      "1": "VBAT_FUSED",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R8": {
+    "page": "02",
+    "template": "R255K",
+    "id": "117e79061bff39fc",
+    "name": "255K / 1% → 0.353A",
+    "pins": {
+      "1": "CHG_ISET",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R22": {
+    "page": "02",
+    "template": "R120K",
+    "id": "382d26329bf876ce",
+    "name": "120K → 12h timeout",
+    "pins": {
+      "1": "CHG_TIME",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R23": {
+    "page": "02",
+    "template": "R82K",
+    "id": "3d60b0e364eb9950",
+    "name": "82K / NTC parallel",
+    "pins": {
+      "1": "NTC",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J7": {
+    "page": "02",
+    "template": "XH2",
+    "id": "5b2fd3678fa3e0f5",
+    "name": "100K NTC / B4100 probe",
+    "pins": {
+      "1": "NTC",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "JP_CHG": {
+    "page": "02",
+    "template": "HDR2",
+    "id": "fd04038ee4fedea0",
+    "name": "Fit shunt to enable",
+    "pins": {
+      "1": "CHG_VIN",
+      "2": "CHG_EN"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R24": {
+    "page": "02",
+    "template": "R10",
+    "id": "c4673e1ad77e7345",
+    "name": "100K EN pull-down",
+    "pins": {
+      "1": "CHG_EN",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R7": {
+    "page": "02",
+    "template": "R100",
+    "id": "61e70c677b6ee6e7",
+    "name": "100R LED series",
+    "pins": {
+      "1": "CHG_LED",
+      "2": "LED_A"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "D2": {
+    "page": "02",
+    "template": "D2",
+    "id": "d2ab609e596f2d00",
+    "name": "Red / charging",
+    "pins": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "pinNames": {
+      "2": "+",
+      "1": "-"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "F1": {
+    "page": "03",
+    "template": "F2",
+    "id": "5e9d046dce453995",
+    "name": "01530008Z fuse holder",
+    "pins": {
+      "1": "VBAT_RAW_P",
+      "2": "VBAT_FUSED"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J_SW": {
+    "page": "03",
+    "template": "TERM2",
+    "id": "d11e4f7cfff0b7e9",
+    "name": "External DC power switch",
+    "pins": {
+      "1": "VBAT_FUSED",
+      "2": "VBAT_SW"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J_LOG_IN": {
+    "page": "03",
+    "template": "TERM2",
+    "id": "43dbfd565b2e8d7d",
+    "name": "MP1584 module VIN ±",
+    "pins": {
+      "1": "VBAT_SW",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J_LOG_OUT": {
+    "page": "03",
+    "template": "TERM2",
+    "id": "7ea54c17b5040bdd",
+    "name": "MP1584 module VOUT ±",
+    "pins": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J_SRV_IN": {
+    "page": "03",
+    "template": "TERM2",
+    "id": "c570ce719d7d519c",
+    "name": "DFR0753 module VIN ±",
+    "pins": {
+      "1": "VBAT_SW",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J_SRV_OUT": {
+    "page": "03",
+    "template": "TERM2",
+    "id": "4d6c1d8e12e8b1a2",
+    "name": "DFR0753 module VOUT ±",
+    "pins": {
+      "1": "+5V_SERVO",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J1": {
+    "page": "03",
+    "template": "J1",
+    "id": "d9347d45bd9d955a",
+    "name": "ESP32 right row R1-R20",
+    "pins": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": "AMP_BCLK",
+      "6": "AMP_WS",
+      "7": "AMP_DIN",
+      "8": null,
+      "9": "GND",
+      "10": "LCD_RST_N",
+      "11": null,
+      "12": null,
+      "13": "ENC_SW_N",
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": "MCU_5V",
+      "18": "MCU_5V",
+      "19": "MCU_5V",
+      "20": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J2": {
+    "page": "03",
+    "template": "J2",
+    "id": "70a8203e4baf2b90",
+    "name": "ESP32 left row L1-L20",
+    "pins": {
+      "1": "ADC_BAT",
+      "2": "ENC_B",
+      "3": null,
+      "4": "MIC_BCLK",
+      "5": "MIC_WS",
+      "6": "MIC_SD",
+      "7": "GND",
+      "8": "ENC_A",
+      "9": "PCA_SDA",
+      "10": "PCA_SCL",
+      "11": "PCA_OE",
+      "12": "LCD_MOSI",
+      "13": "LCD_SCLK",
+      "14": "LCD_CS_N",
+      "15": "LCD_DC",
+      "16": null,
+      "17": "+3V3",
+      "18": "+3V3",
+      "19": "+3V3",
+      "20": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "JP_MCU": {
+    "page": "03",
+    "template": "HDR2",
+    "id": "904a17b0fa2bbe13",
+    "name": "MCU supply shunt / OPEN",
+    "pins": {
+      "1": "+5V_LOGIC",
+      "2": "MCU_5V"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C10": {
+    "page": "03",
+    "template": "C10",
+    "id": "b40ef67515179c62",
+    "name": "470uF / 16V",
+    "pins": {
+      "1": "+5V_LOGIC",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R10": {
+    "page": "03",
+    "template": "R10",
+    "id": "516ec4e64d435627",
+    "name": "100K / 1%",
+    "pins": {
+      "1": "VBAT_SW",
+      "2": "ADC_BAT"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R9": {
+    "page": "03",
+    "template": "R9",
+    "id": "dad77cf17328c08d",
+    "name": "33K / 1%",
+    "pins": {
+      "1": "ADC_BAT",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C14": {
+    "page": "03",
+    "template": "C1",
+    "id": "b1437eee639ec296",
+    "name": "100nF low-pass",
+    "pins": {
+      "1": "ADC_BAT",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "JP_LCD": {
+    "page": "04",
+    "template": "HDR2",
+    "id": "6e878a8199ed2456",
+    "name": "MCU 3V3 → LCD / OPEN",
+    "pins": {
+      "1": "+3V3",
+      "2": "LCD_3V3"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J10": {
+    "page": "04",
+    "template": "XH2",
+    "id": "f00a9e30badd1c69",
+    "name": "External regulated 3.3V",
+    "pins": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C15": {
+    "page": "04",
+    "template": "C1",
+    "id": "fb23443d40f5f644",
+    "name": "100nF",
+    "pins": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C16": {
+    "page": "04",
+    "template": "C6",
+    "id": "eef003ee5fec0c5d",
+    "name": "10uF / 50V",
+    "pins": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J3": {
+    "page": "04",
+    "template": "J3",
+    "id": "f7d4db28a35df0af",
+    "name": "HS24S010B / 3.3V",
+    "pins": {
+      "1": "GND",
+      "2": "LCD_3V3",
+      "3": "LCD_SCLK",
+      "4": "LCD_MOSI",
+      "5": "LCD_RST_N",
+      "6": "LCD_DC",
+      "7": "LCD_CS_N",
+      "8": "LCD_3V3",
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null
+    },
+    "pinNames": {
+      "1": "GND",
+      "2": "VCC",
+      "3": "SCL",
+      "4": "SDA",
+      "5": "RES",
+      "6": "DC",
+      "7": "CS",
+      "8": "LED",
+      "9": "FS0",
+      "12": "RST",
+      "13": "DC",
+      "14": "SDA",
+      "15": "CLK",
+      "16": "FSO",
+      "17": "FCS",
+      "18": "LED",
+      "19": "GND",
+      "20": "VCC",
+      "11": "CS",
+      "10": "FCS"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J4": {
+    "page": "04",
+    "template": "J4",
+    "id": "3c94c4ad46095745",
+    "name": "MIC harness / SEN0327",
+    "pins": {
+      "1": "MIC_BCLK",
+      "2": "MIC_WS",
+      "3": "MIC_SD",
+      "4": "+3V3",
+      "5": "GND",
+      "6": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "J5": {
+    "page": "04",
+    "template": "J5",
+    "id": "874f040317ce6e62",
+    "name": "AMP harness / MAX98357A",
+    "pins": {
+      "1": "AMP_BCLK",
+      "2": "AMP_WS",
+      "3": "AMP_DIN",
+      "4": "+5V_LOGIC",
+      "5": "GND",
+      "6": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "EC1": {
+    "page": "04",
+    "template": "EC1",
+    "id": "f5ffea8f40e29d29",
+    "name": "EC1106S encoder",
+    "pins": {
+      "1": "ENC_A",
+      "2": "GND",
+      "3": "ENC_B",
+      "4": "ENC_SW_N",
+      "5": "GND",
+      "6": "GND",
+      "7": "GND"
+    },
+    "pinNames": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "E",
+      "5": "D",
+      "6": "EP",
+      "7": "EP"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R11": {
+    "page": "04",
+    "template": "R11",
+    "id": "7ddab719953def8e",
+    "name": "10K",
+    "pins": {
+      "1": "+3V3",
+      "2": "ENC_A"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R12": {
+    "page": "04",
+    "template": "R12",
+    "id": "b7db843e0f734bc7",
+    "name": "10K",
+    "pins": {
+      "1": "+3V3",
+      "2": "ENC_B"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R26": {
+    "page": "04",
+    "template": "R11",
+    "id": "7895facdde61e3a1",
+    "name": "10K button pull-up",
+    "pins": {
+      "1": "+3V3",
+      "2": "ENC_SW_N"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "U7": {
+    "page": "05",
+    "template": "U7",
+    "id": "1fd5e30c6d351eb2",
+    "name": "PCA9685PW / 3.3V logic",
+    "pins": {
+      "1": "GND",
+      "2": "GND",
+      "3": "GND",
+      "4": "GND",
+      "5": "GND",
+      "6": "PWM0",
+      "7": "PWM1",
+      "8": "PWM2",
+      "9": "PWM3",
+      "10": "PWM4",
+      "11": "PWM5",
+      "12": "PWM6",
+      "13": "PWM7",
+      "14": "GND",
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": "PCA_OE",
+      "24": "GND",
+      "25": "GND",
+      "26": "PCA_SCL",
+      "27": "PCA_SDA",
+      "28": "+3V3"
+    },
+    "pinNames": {
+      "1": "A0",
+      "2": "A1",
+      "3": "A2",
+      "4": "A3",
+      "5": "A4",
+      "6": "LED0",
+      "7": "LED1",
+      "8": "LED2",
+      "9": "LED3",
+      "10": "LED4",
+      "11": "LED5",
+      "12": "LED6",
+      "13": "LED7",
+      "14": "VSS",
+      "15": "LED8",
+      "16": "LED9",
+      "17": "LED10",
+      "18": "LED11",
+      "19": "LED12",
+      "20": "LED13",
+      "21": "LED14",
+      "22": "LED15",
+      "23": "OE#",
+      "24": "A5",
+      "25": "EXTCLK",
+      "26": "SCL",
+      "27": "SDA",
+      "28": "VDD"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C17": {
+    "page": "05",
+    "template": "C1",
+    "id": "58a50b27dc8d526b",
+    "name": "100nF near VDD",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C18": {
+    "page": "05",
+    "template": "C6",
+    "id": "724248af3224b375",
+    "name": "10uF local bypass",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R13": {
+    "page": "05",
+    "template": "R13",
+    "id": "010037bc45152933",
+    "name": "10K SDA",
+    "pins": {
+      "1": "+3V3",
+      "2": "PCA_SDA"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R14": {
+    "page": "05",
+    "template": "R14",
+    "id": "e5b03d168f85015b",
+    "name": "10K SCL",
+    "pins": {
+      "1": "+3V3",
+      "2": "PCA_SCL"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "R15": {
+    "page": "05",
+    "template": "R15",
+    "id": "77222b248fea25d2",
+    "name": "10K OE pull-up",
+    "pins": {
+      "1": "+3V3",
+      "2": "PCA_OE"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV1": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "693689fc04627c01",
+    "name": "Servo 0",
+    "pins": {
+      "1": "PWM0",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV2": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "4188f7f98827cd5a",
+    "name": "Servo 1",
+    "pins": {
+      "1": "PWM1",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV3": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "7479471f3eaf450c",
+    "name": "Servo 2",
+    "pins": {
+      "1": "PWM2",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV4": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "7133ddf1be40ffe3",
+    "name": "Servo 3",
+    "pins": {
+      "1": "PWM3",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV5": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "8c4e60c8001babed",
+    "name": "Servo 4",
+    "pins": {
+      "1": "PWM4",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV6": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "cc7720a668c0f22f",
+    "name": "Servo 5",
+    "pins": {
+      "1": "PWM5",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV7": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "be1001cae3128ab8",
+    "name": "Servo 6",
+    "pins": {
+      "1": "PWM6",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "SV8": {
+    "page": "05",
+    "template": "HDR3",
+    "id": "e62edb98f07424e2",
+    "name": "Servo 7",
+    "pins": {
+      "1": "PWM7",
+      "2": "+5V_SERVO",
+      "3": "GND"
+    },
+    "pinNames": {
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C9": {
+    "page": "05",
+    "template": "C9",
+    "id": "99171be4f1019f48",
+    "name": "1000uF / 10V bulk",
+    "pins": {
+      "1": "+5V_SERVO",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  },
+  "C19": {
+    "page": "05",
+    "template": "C1",
+    "id": "f65bad8cc47adafe",
+    "name": "100nF ceramic",
+    "pins": {
+      "1": "+5V_SERVO",
+      "2": "GND"
+    },
+    "pinNames": {
+      "2": "2",
+      "1": "1"
+    },
+    "pcb": true,
+    "bom": true
+  }
+}

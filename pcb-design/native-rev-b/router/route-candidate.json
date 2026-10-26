@@ -1,0 +1,11710 @@
+{
+  "traces": [
+    {
+      "net": "ADC_BAT",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1002.4,
+          787.4
+        ],
+        [
+          1019.7,
+          629.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "6437c788b476cebe"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          1421.3,
+          472.4
+        ],
+        [
+          1260,
+          575
+        ]
+      ],
+      "width": 12,
+      "native_id": "ae69147d4fd4da2e"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          1260,
+          575
+        ],
+        [
+          1130,
+          580
+        ]
+      ],
+      "width": 12,
+      "native_id": "1dc9882a1615eb99"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          1130,
+          580
+        ],
+        [
+          1019.7,
+          629.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "bf828fc1c0f1e553"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          624.8,
+          279.9
+        ],
+        [
+          735,
+          355
+        ]
+      ],
+      "width": 12,
+      "native_id": "25f58ec4a0d86205"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          735,
+          355
+        ],
+        [
+          965,
+          355
+        ]
+      ],
+      "width": 12,
+      "native_id": "ce1d19503aab4bdf"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          965,
+          355
+        ],
+        [
+          974.8,
+          370
+        ]
+      ],
+      "width": 12,
+      "native_id": "a1d6a42851c1c765"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          974.8,
+          370
+        ],
+        [
+          975,
+          530
+        ]
+      ],
+      "width": 12,
+      "native_id": "462b165d52cc432f"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          975,
+          530
+        ],
+        [
+          1009.8,
+          575
+        ]
+      ],
+      "width": 12,
+      "native_id": "2980e5c8ba115a7c"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          1009.8,
+          575
+        ],
+        [
+          1010,
+          610
+        ]
+      ],
+      "width": 12,
+      "native_id": "b0c520b7071aa4aa"
+    },
+    {
+      "net": "ADC_BAT",
+      "layer": "TOP",
+      "points": [
+        [
+          1010,
+          610
+        ],
+        [
+          1019.7,
+          629.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "8841c2c03804c606"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1159.8,
+          1159.8
+        ],
+        [
+          1230,
+          1115
+        ]
+      ],
+      "width": 12,
+      "native_id": "d69252b9c0deebd8"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1230,
+          1115
+        ],
+        [
+          1260,
+          1109.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "c9aafe0012108cde"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1260,
+          1109.8
+        ],
+        [
+          1380,
+          1030
+        ]
+      ],
+      "width": 12,
+      "native_id": "d0d3f17baa094f6c"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1380,
+          1030
+        ],
+        [
+          1450,
+          1029.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "f08b496c542f8330"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1450,
+          1029.9
+        ],
+        [
+          1474.8,
+          1000
+        ]
+      ],
+      "width": 12,
+      "native_id": "a47211e064b8626f"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1474.8,
+          1000
+        ],
+        [
+          1475,
+          955
+        ]
+      ],
+      "width": 12,
+      "native_id": "e004c1d3a2ac7a59"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1475,
+          955
+        ],
+        [
+          1485,
+          940
+        ]
+      ],
+      "width": 12,
+      "native_id": "2690d5c823c13188"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1485,
+          940
+        ],
+        [
+          1570,
+          880
+        ]
+      ],
+      "width": 12,
+      "native_id": "f13238439ddb5c25"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1570,
+          880
+        ],
+        [
+          1645,
+          875
+        ]
+      ],
+      "width": 12,
+      "native_id": "79b27f6019ed5ee8"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1645,
+          875
+        ],
+        [
+          1715,
+          825
+        ]
+      ],
+      "width": 12,
+      "native_id": "780f9c084fc73e08"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1715,
+          825
+        ],
+        [
+          1850,
+          825
+        ]
+      ],
+      "width": 12,
+      "native_id": "b5a06c1fda4db885"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1850,
+          825
+        ],
+        [
+          1865,
+          810
+        ]
+      ],
+      "width": 12,
+      "native_id": "c1e411fb0bcb95f2"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1865,
+          810
+        ],
+        [
+          1885,
+          810
+        ]
+      ],
+      "width": 12,
+      "native_id": "f131d5789d2b3acb"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1885,
+          810
+        ],
+        [
+          1915,
+          787.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "182d42839b791987"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "TOP",
+      "points": [
+        [
+          1915,
+          787.4
+        ],
+        [
+          1933.1,
+          787.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "556f3fded56cb4a7"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          724.8,
+          279.9
+        ],
+        [
+          780,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "a2891563a5bd248b"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          780,
+          329.9
+        ],
+        [
+          935,
+          330
+        ]
+      ],
+      "width": 12,
+      "native_id": "fd406434ba02ab65"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          935,
+          330
+        ],
+        [
+          974.8,
+          370
+        ]
+      ],
+      "width": 12,
+      "native_id": "1f311eed6433eff4"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          974.8,
+          370
+        ],
+        [
+          975,
+          485
+        ]
+      ],
+      "width": 12,
+      "native_id": "5e8170c4689a9d5a"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          975,
+          485
+        ],
+        [
+          1074.8,
+          635
+        ]
+      ],
+      "width": 12,
+      "native_id": "170ca90bf1761923"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1074.8,
+          635
+        ],
+        [
+          1075,
+          1005
+        ]
+      ],
+      "width": 12,
+      "native_id": "43b912017020025c"
+    },
+    {
+      "net": "ENC_B",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1075,
+          1005
+        ],
+        [
+          1159.8,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "dc53637ec4f5a3f7"
+    },
+    {
+      "net": "LCD_RST_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1524.8,
+          979.9
+        ],
+        [
+          1275,
+          590
+        ]
+      ],
+      "width": 12,
+      "native_id": "02724edaaebe8315"
+    },
+    {
+      "net": "LCD_RST_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1275,
+          590
+        ],
+        [
+          1274.8,
+          250
+        ]
+      ],
+      "width": 12,
+      "native_id": "cd96c9245256ceac"
+    },
+    {
+      "net": "LCD_RST_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1274.8,
+          250
+        ],
+        [
+          1231.1,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "133ed0c4eb03df68"
+    },
+    {
+      "net": "MIC_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          924.8,
+          279.9
+        ],
+        [
+          1050,
+          207.5
+        ]
+      ],
+      "width": 12,
+      "native_id": "9a09218f1d8f8b16"
+    },
+    {
+      "net": "MIC_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1050,
+          207.5
+        ],
+        [
+          1615,
+          204.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "cd0b282c859448e3"
+    },
+    {
+      "net": "MIC_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1615,
+          204.3
+        ],
+        [
+          1665,
+          160
+        ]
+      ],
+      "width": 12,
+      "native_id": "02922fc0db76fc7e"
+    },
+    {
+      "net": "MIC_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1665,
+          160
+        ],
+        [
+          1840,
+          150
+        ]
+      ],
+      "width": 12,
+      "native_id": "98d50249439d3afa"
+    },
+    {
+      "net": "MIC_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1840,
+          150
+        ],
+        [
+          1918.5,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "459763e5f11f2efc"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1624.8,
+          279.9
+        ],
+        [
+          1865,
+          454.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "cc870da43f564e4d"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1865,
+          454.3
+        ],
+        [
+          1933.1,
+          472.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "7c88b252a5e3935d"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2326,
+          1159.8
+        ],
+        [
+          2280,
+          1115
+        ]
+      ],
+      "width": 12,
+      "native_id": "9edf79a3dbcae0ec"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2280,
+          1115
+        ],
+        [
+          2268.5,
+          1109.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "9c2eb45330b777ae"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2268.5,
+          1109.8
+        ],
+        [
+          2180,
+          1015
+        ]
+      ],
+      "width": 12,
+      "native_id": "4299c29add9bac1e"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2180,
+          1015
+        ],
+        [
+          2175,
+          1000
+        ]
+      ],
+      "width": 12,
+      "native_id": "03013002e33eaecb"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2175,
+          1000
+        ],
+        [
+          2174.8,
+          965
+        ]
+      ],
+      "width": 12,
+      "native_id": "8dec756c85464e61"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2174.8,
+          965
+        ],
+        [
+          2168.5,
+          945
+        ]
+      ],
+      "width": 12,
+      "native_id": "4f31efa78e52d06b"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2168.5,
+          945
+        ],
+        [
+          2155,
+          930
+        ]
+      ],
+      "width": 12,
+      "native_id": "5e4e90a79b42ea44"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2155,
+          930
+        ],
+        [
+          2155,
+          925
+        ]
+      ],
+      "width": 12,
+      "native_id": "ab8d2f2973391211"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2155,
+          925
+        ],
+        [
+          2145,
+          915
+        ]
+      ],
+      "width": 12,
+      "native_id": "19341a8f1c0e2542"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2145,
+          915
+        ],
+        [
+          2144.1,
+          910
+        ]
+      ],
+      "width": 12,
+      "native_id": "1d0344fb63650ba7"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2144.1,
+          910
+        ],
+        [
+          2126,
+          890
+        ]
+      ],
+      "width": 12,
+      "native_id": "92e2baeb5b3665cf"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2126,
+          890
+        ],
+        [
+          2124.8,
+          875
+        ]
+      ],
+      "width": 12,
+      "native_id": "ee76d09ffd53c1e2"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2124.8,
+          875
+        ],
+        [
+          2118.5,
+          860
+        ]
+      ],
+      "width": 12,
+      "native_id": "b8f99bbe57838129"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2118.5,
+          860
+        ],
+        [
+          2100,
+          840
+        ]
+      ],
+      "width": 12,
+      "native_id": "168a979ba40ea2bd"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2100,
+          840
+        ],
+        [
+          2094.1,
+          820
+        ]
+      ],
+      "width": 12,
+      "native_id": "46eb1da26823b3d2"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2094.1,
+          820
+        ],
+        [
+          2076,
+          800
+        ]
+      ],
+      "width": 12,
+      "native_id": "253b7a318c925c61"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2076,
+          800
+        ],
+        [
+          2068.5,
+          765
+        ]
+      ],
+      "width": 12,
+      "native_id": "847e7bcbdeb40084"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2068.5,
+          765
+        ],
+        [
+          2026,
+          715
+        ]
+      ],
+      "width": 12,
+      "native_id": "12f24d6becf29545"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2026,
+          715
+        ],
+        [
+          2024.8,
+          705
+        ]
+      ],
+      "width": 12,
+      "native_id": "5b19efbff2a6daf2"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2024.8,
+          705
+        ],
+        [
+          2018.5,
+          695
+        ]
+      ],
+      "width": 12,
+      "native_id": "d94562b6be28a8ae"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2018.5,
+          695
+        ],
+        [
+          2005,
+          680
+        ]
+      ],
+      "width": 12,
+      "native_id": "e603c550e3cb5d8d"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2005,
+          680
+        ],
+        [
+          2005,
+          675
+        ]
+      ],
+      "width": 12,
+      "native_id": "73ef12b499117ee6"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2005,
+          675
+        ],
+        [
+          1985,
+          655
+        ]
+      ],
+      "width": 12,
+      "native_id": "6ae381d6b86baf9b"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1985,
+          655
+        ],
+        [
+          1976,
+          640
+        ]
+      ],
+      "width": 12,
+      "native_id": "7867c87822bc5ad0"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1976,
+          640
+        ],
+        [
+          1974.8,
+          610
+        ]
+      ],
+      "width": 12,
+      "native_id": "a73a76e02ceb17cb"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1974.8,
+          610
+        ],
+        [
+          1968.5,
+          600
+        ]
+      ],
+      "width": 12,
+      "native_id": "ff63e65a3cb75d1f"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1968.5,
+          600
+        ],
+        [
+          1968.5,
+          575
+        ]
+      ],
+      "width": 12,
+      "native_id": "875af6c345ea94c8"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1968.5,
+          575
+        ],
+        [
+          1965,
+          570
+        ]
+      ],
+      "width": 12,
+      "native_id": "6f1c26a8a2055a87"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1965,
+          570
+        ],
+        [
+          1965,
+          540
+        ]
+      ],
+      "width": 12,
+      "native_id": "7859992134fbeccc"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1965,
+          540
+        ],
+        [
+          1955,
+          525
+        ]
+      ],
+      "width": 12,
+      "native_id": "e648bc7eb5189315"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1955,
+          525
+        ],
+        [
+          1955,
+          515
+        ]
+      ],
+      "width": 12,
+      "native_id": "4c83cffc7c34cf2b"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1955,
+          515
+        ],
+        [
+          1945,
+          505
+        ]
+      ],
+      "width": 12,
+      "native_id": "bec53c9bdd321299"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1945,
+          505
+        ],
+        [
+          1945,
+          495
+        ]
+      ],
+      "width": 12,
+      "native_id": "1b30176d679ffed4"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1945,
+          495
+        ],
+        [
+          1940,
+          490
+        ]
+      ],
+      "width": 12,
+      "native_id": "de356ffa75ee1869"
+    },
+    {
+      "net": "PCA_OE_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1940,
+          490
+        ],
+        [
+          1933.1,
+          472.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "68fc589a245bf1c8"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1524.8,
+          279.9
+        ],
+        [
+          1815,
+          570
+        ]
+      ],
+      "width": 12,
+      "native_id": "1ff7b1aff7a860e7"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1815,
+          570
+        ],
+        [
+          1820,
+          580
+        ]
+      ],
+      "width": 12,
+      "native_id": "076d4fb9acfb202d"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1820,
+          580
+        ],
+        [
+          1865,
+          625
+        ]
+      ],
+      "width": 12,
+      "native_id": "7922982295e1f7c5"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1865,
+          625
+        ],
+        [
+          1885,
+          655
+        ]
+      ],
+      "width": 12,
+      "native_id": "0ec1b1a1312a73c3"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1885,
+          655
+        ],
+        [
+          1915,
+          685
+        ]
+      ],
+      "width": 12,
+      "native_id": "6414a42b2acf8a71"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1915,
+          685
+        ],
+        [
+          1935,
+          715
+        ]
+      ],
+      "width": 12,
+      "native_id": "df12e12fd3f4b727"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1935,
+          715
+        ],
+        [
+          1955,
+          735
+        ]
+      ],
+      "width": 12,
+      "native_id": "3d313b00373dbf19"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1955,
+          735
+        ],
+        [
+          1955,
+          740
+        ]
+      ],
+      "width": 12,
+      "native_id": "e4974f1df1645903"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1955,
+          740
+        ],
+        [
+          1974.8,
+          765
+        ]
+      ],
+      "width": 12,
+      "native_id": "f0b431aabcb3e6ef"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1974.8,
+          765
+        ],
+        [
+          1976,
+          780
+        ]
+      ],
+      "width": 12,
+      "native_id": "5ab7b480eb3e6e81"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1976,
+          780
+        ],
+        [
+          1985,
+          800
+        ]
+      ],
+      "width": 12,
+      "native_id": "559c1df9972397af"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1985,
+          800
+        ],
+        [
+          2010,
+          825
+        ]
+      ],
+      "width": 12,
+      "native_id": "3260c9c28a00b694"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2010,
+          825
+        ],
+        [
+          2010,
+          830
+        ]
+      ],
+      "width": 12,
+      "native_id": "672d34a1a9068be6"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2010,
+          830
+        ],
+        [
+          2015,
+          835
+        ]
+      ],
+      "width": 12,
+      "native_id": "d9a3cb3423cf45e1"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2015,
+          835
+        ],
+        [
+          2015,
+          840
+        ]
+      ],
+      "width": 12,
+      "native_id": "0334b1bc20897323"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2015,
+          840
+        ],
+        [
+          2024.8,
+          855
+        ]
+      ],
+      "width": 12,
+      "native_id": "be669182efa4572a"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2024.8,
+          855
+        ],
+        [
+          2026,
+          865
+        ]
+      ],
+      "width": 12,
+      "native_id": "54e1907df1bb9861"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2026,
+          865
+        ],
+        [
+          2035,
+          875
+        ]
+      ],
+      "width": 12,
+      "native_id": "b2a00128aeb31ff0"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2035,
+          875
+        ],
+        [
+          2035,
+          880
+        ]
+      ],
+      "width": 12,
+      "native_id": "3a613c1729a1d4fc"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2035,
+          880
+        ],
+        [
+          2068.5,
+          915
+        ]
+      ],
+      "width": 12,
+      "native_id": "d3d5ae23f656fe4e"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2068.5,
+          915
+        ],
+        [
+          2074.8,
+          935
+        ]
+      ],
+      "width": 12,
+      "native_id": "027df3ea764aaab1"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2074.8,
+          935
+        ],
+        [
+          2075,
+          990
+        ]
+      ],
+      "width": 12,
+      "native_id": "98fdc0b4ee8f46f7"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2075,
+          990
+        ],
+        [
+          2080,
+          1015
+        ]
+      ],
+      "width": 12,
+      "native_id": "aa1ad8d435b5d99b"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2080,
+          1015
+        ],
+        [
+          2168.5,
+          1109.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "6acf9e3b2bd28a55"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2168.5,
+          1109.8
+        ],
+        [
+          2180,
+          1115
+        ]
+      ],
+      "width": 12,
+      "native_id": "e1b44fa7ae71e023"
+    },
+    {
+      "net": "PCA_SCL",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2180,
+          1115
+        ],
+        [
+          2226,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "61b6e2860d65bd44"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2224.8,
+          279.9
+        ],
+        [
+          2324.8,
+          279.9
+        ]
+      ],
+      "width": 24,
+      "native_id": "ec56e669c5b57ee5"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2324.8,
+          279.9
+        ],
+        [
+          2424.8,
+          279.9
+        ]
+      ],
+      "width": 24,
+      "native_id": "b93f3a9ef9938f06"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1531.5,
+          472.4
+        ],
+        [
+          1531.5,
+          629.9
+        ]
+      ],
+      "width": 24,
+      "native_id": "c3f4101688b3a1f0"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1531.5,
+          629.9
+        ],
+        [
+          1531.5,
+          787.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "232d3732ba1505f4"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2122,
+          472.4
+        ],
+        [
+          2122,
+          629.9
+        ]
+      ],
+      "width": 24,
+      "native_id": "8cca3a43b8bc4c34"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2144.1,
+          787.4
+        ],
+        [
+          2122,
+          629.9
+        ]
+      ],
+      "width": 24,
+      "native_id": "d8f9b6cd5b35796a"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2224.8,
+          279.9
+        ],
+        [
+          2122,
+          472.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "c318342e534c2b9f"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2144.1,
+          787.4
+        ],
+        [
+          2370,
+          920
+        ]
+      ],
+      "width": 24,
+      "native_id": "0a7e3559c8b0cb58"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2370,
+          920
+        ],
+        [
+          2550,
+          925
+        ]
+      ],
+      "width": 24,
+      "native_id": "54a1eb8daabf9776"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2550,
+          925
+        ],
+        [
+          2580,
+          955
+        ]
+      ],
+      "width": 24,
+      "native_id": "e94860e50af9cef9"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2580,
+          955
+        ],
+        [
+          2585,
+          990
+        ]
+      ],
+      "width": 24,
+      "native_id": "54fb24daa32f0018"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2585,
+          990
+        ],
+        [
+          2570,
+          1020
+        ]
+      ],
+      "width": 24,
+      "native_id": "26a3231821a5a523"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2570,
+          1020
+        ],
+        [
+          2510,
+          1065
+        ]
+      ],
+      "width": 24,
+      "native_id": "b23dfb396e54f77b"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2510,
+          1065
+        ],
+        [
+          2240,
+          1065
+        ]
+      ],
+      "width": 24,
+      "native_id": "1d3c0b8ec7a77bec"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2240,
+          1065
+        ],
+        [
+          2150,
+          1105
+        ]
+      ],
+      "width": 24,
+      "native_id": "659c11b7355b234c"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2150,
+          1105
+        ],
+        [
+          2105,
+          1105
+        ]
+      ],
+      "width": 24,
+      "native_id": "0cf37cd5e5f1433c"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2105,
+          1105
+        ],
+        [
+          2026,
+          1159.8
+        ]
+      ],
+      "width": 24,
+      "native_id": "121be8d6e38bc63d"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2224.8,
+          279.9
+        ],
+        [
+          2130,
+          210
+        ]
+      ],
+      "width": 24,
+      "native_id": "b558e1283573cd8f"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1960,
+          204.3
+        ],
+        [
+          2130,
+          210
+        ]
+      ],
+      "width": 24,
+      "native_id": "ee1ad12eb6dcba39"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1818.5,
+          100
+        ],
+        [
+          1960,
+          204.3
+        ]
+      ],
+      "width": 24,
+      "native_id": "2f1caad0fc312cd6"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2130,
+          210
+        ],
+        [
+          2170,
+          240
+        ]
+      ],
+      "width": 24,
+      "native_id": "dec1d95d9b9d8051"
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2170,
+          240
+        ],
+        [
+          2190,
+          285
+        ]
+      ],
+      "width": 24,
+      "native_id": "edf398c096bacf06"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2190,
+          285
+        ],
+        [
+          2180,
+          295
+        ]
+      ],
+      "width": 24,
+      "native_id": "d8819207cc27a7ab"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2180,
+          295
+        ],
+        [
+          2180,
+          305
+        ]
+      ],
+      "width": 24,
+      "native_id": "2e108a671adf174a"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2180,
+          305
+        ],
+        [
+          2176,
+          310
+        ]
+      ],
+      "width": 24,
+      "native_id": "02777fcab693b955"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2176,
+          310
+        ],
+        [
+          2174.8,
+          310
+        ]
+      ],
+      "width": 24,
+      "native_id": "af97de92654bfcc1"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2174.8,
+          310
+        ],
+        [
+          2172,
+          315
+        ]
+      ],
+      "width": 24,
+      "native_id": "33888ebb07157200"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2172,
+          315
+        ],
+        [
+          2170,
+          320
+        ]
+      ],
+      "width": 24,
+      "native_id": "7ce53b0e88379af8"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2170,
+          320
+        ],
+        [
+          2168.5,
+          320
+        ]
+      ],
+      "width": 24,
+      "native_id": "d720f04acf78388f"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2168.5,
+          320
+        ],
+        [
+          2165,
+          325
+        ]
+      ],
+      "width": 24,
+      "native_id": "7c5e70268dae3141"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2165,
+          325
+        ],
+        [
+          2160,
+          329.9
+        ]
+      ],
+      "width": 24,
+      "native_id": "bfe141e27e23665d"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2160,
+          329.9
+        ],
+        [
+          2160,
+          330
+        ]
+      ],
+      "width": 24,
+      "native_id": "6bf400d25a2e91e9"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2160,
+          330
+        ],
+        [
+          2145,
+          345
+        ]
+      ],
+      "width": 24,
+      "native_id": "32a0daf8fdaafff7"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2145,
+          345
+        ],
+        [
+          2144.1,
+          345
+        ]
+      ],
+      "width": 24,
+      "native_id": "fe72332603ae44a2"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2144.1,
+          345
+        ],
+        [
+          2140,
+          350
+        ]
+      ],
+      "width": 24,
+      "native_id": "8e2a70818d437a25"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2140,
+          350
+        ],
+        [
+          2130,
+          360
+        ]
+      ],
+      "width": 24,
+      "native_id": "7f762aed66913f71"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2130,
+          360
+        ],
+        [
+          2126,
+          365
+        ]
+      ],
+      "width": 24,
+      "native_id": "52e380825e7189ae"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2126,
+          365
+        ],
+        [
+          2124.8,
+          365
+        ]
+      ],
+      "width": 24,
+      "native_id": "a7c40fd8cdcabadf"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2124.8,
+          365
+        ],
+        [
+          2122,
+          370
+        ]
+      ],
+      "width": 24,
+      "native_id": "9959f1211ea9e401"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2122,
+          370
+        ],
+        [
+          2118.5,
+          370
+        ]
+      ],
+      "width": 24,
+      "native_id": "627ca4f9e2ca5524"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2118.5,
+          370
+        ],
+        [
+          2115,
+          375
+        ]
+      ],
+      "width": 24,
+      "native_id": "aeff941ba97a70ea"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2115,
+          375
+        ],
+        [
+          2095,
+          395
+        ]
+      ],
+      "width": 24,
+      "native_id": "8a624663fcc26c81"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2095,
+          395
+        ],
+        [
+          2094.1,
+          395
+        ]
+      ],
+      "width": 24,
+      "native_id": "9c63cfcd97ce6150"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2094.1,
+          395
+        ],
+        [
+          2090,
+          400
+        ]
+      ],
+      "width": 24,
+      "native_id": "0692d1a105fa1f54"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2090,
+          400
+        ],
+        [
+          2085,
+          404.3
+        ]
+      ],
+      "width": 24,
+      "native_id": "3019c443d4b9b92c"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2085,
+          404.3
+        ],
+        [
+          2085,
+          405
+        ]
+      ],
+      "width": 24,
+      "native_id": "d8aa9323f466b748"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2085,
+          405
+        ],
+        [
+          2080,
+          410
+        ]
+      ],
+      "width": 24,
+      "native_id": "9743661dfa705f3d"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2080,
+          410
+        ],
+        [
+          2076,
+          415
+        ]
+      ],
+      "width": 24,
+      "native_id": "42f0ab4db4da0031"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2076,
+          415
+        ],
+        [
+          2074.8,
+          415
+        ]
+      ],
+      "width": 24,
+      "native_id": "61e41c3343547cfd"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2074.8,
+          415
+        ],
+        [
+          2072,
+          420
+        ]
+      ],
+      "width": 24,
+      "native_id": "55a0a41b776ac45c"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2072,
+          420
+        ],
+        [
+          2070,
+          422.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "e968376cc71a9b6f"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2070,
+          422.4
+        ],
+        [
+          2068.5,
+          422.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "a488e1cde9c9401e"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2068.5,
+          422.4
+        ],
+        [
+          2065,
+          425
+        ]
+      ],
+      "width": 24,
+      "native_id": "7297087216269cb2"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2065,
+          425
+        ],
+        [
+          2040,
+          450
+        ]
+      ],
+      "width": 24,
+      "native_id": "4fef21b450094be3"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2040,
+          450
+        ],
+        [
+          2035,
+          454.3
+        ]
+      ],
+      "width": 24,
+      "native_id": "f72ebd9a90b93276"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2035,
+          454.3
+        ],
+        [
+          2035,
+          455
+        ]
+      ],
+      "width": 24,
+      "native_id": "41a8b688bdd33221"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2035,
+          455
+        ],
+        [
+          2030,
+          460
+        ]
+      ],
+      "width": 24,
+      "native_id": "b0b9e4616c350de4"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2030,
+          460
+        ],
+        [
+          2026,
+          465
+        ]
+      ],
+      "width": 24,
+      "native_id": "7e9600d35577410b"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2026,
+          465
+        ],
+        [
+          2024.8,
+          465
+        ]
+      ],
+      "width": 24,
+      "native_id": "e5e77e7012184d52"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2024.8,
+          465
+        ],
+        [
+          2020,
+          470
+        ]
+      ],
+      "width": 24,
+      "native_id": "b790613097f62cdc"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2020,
+          470
+        ],
+        [
+          2018.5,
+          470
+        ]
+      ],
+      "width": 24,
+      "native_id": "a46965cd8f70a119"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2018.5,
+          470
+        ],
+        [
+          2015,
+          472.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "d2a2974f47c11624"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2015,
+          472.4
+        ],
+        [
+          2010,
+          475
+        ]
+      ],
+      "width": 24,
+      "native_id": "da49f1ddf2e7151d"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2010,
+          475
+        ],
+        [
+          1985,
+          500
+        ]
+      ],
+      "width": 24,
+      "native_id": "cc4ba451399e3afc"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1985,
+          500
+        ],
+        [
+          1980,
+          500
+        ]
+      ],
+      "width": 24,
+      "native_id": "7043f11c6eeeb911"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1980,
+          500
+        ],
+        [
+          1976,
+          504.3
+        ]
+      ],
+      "width": 24,
+      "native_id": "578a033ec2187b7e"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1976,
+          504.3
+        ],
+        [
+          1975,
+          505
+        ]
+      ],
+      "width": 24,
+      "native_id": "3a305d3f03259009"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1975,
+          505
+        ],
+        [
+          1974.8,
+          505
+        ]
+      ],
+      "width": 24,
+      "native_id": "5a9abb1ecf3bcbd6"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1974.8,
+          505
+        ],
+        [
+          1970,
+          510
+        ]
+      ],
+      "width": 24,
+      "native_id": "caf5d00c1e862064"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1970,
+          510
+        ],
+        [
+          1968.5,
+          510
+        ]
+      ],
+      "width": 24,
+      "native_id": "bbefebf6a61966b1"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1968.5,
+          510
+        ],
+        [
+          1965,
+          515
+        ]
+      ],
+      "width": 24,
+      "native_id": "955272d5d68a47ff"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1965,
+          515
+        ],
+        [
+          1960,
+          515
+        ]
+      ],
+      "width": 24,
+      "native_id": "b48ca48150e7a4a4"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1960,
+          515
+        ],
+        [
+          1955,
+          520
+        ]
+      ],
+      "width": 24,
+      "native_id": "55944a6991ea68ee"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1955,
+          520
+        ],
+        [
+          1905,
+          520
+        ]
+      ],
+      "width": 24,
+      "native_id": "8ba00f345ae62502"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1905,
+          520
+        ],
+        [
+          1890,
+          505
+        ]
+      ],
+      "width": 24,
+      "native_id": "080b14664ab41b2c"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1890,
+          505
+        ],
+        [
+          1885,
+          504.3
+        ]
+      ],
+      "width": 24,
+      "native_id": "8134860a897c4426"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1885,
+          504.3
+        ],
+        [
+          1615,
+          504.3
+        ]
+      ],
+      "width": 24,
+      "native_id": "48b03e9c66b41fce"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1615,
+          504.3
+        ],
+        [
+          1610,
+          500
+        ]
+      ],
+      "width": 24,
+      "native_id": "1cda59918b018e34"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1610,
+          500
+        ],
+        [
+          1590,
+          500
+        ]
+      ],
+      "width": 24,
+      "native_id": "841d3308f20b82cf"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1590,
+          500
+        ],
+        [
+          1585,
+          495
+        ]
+      ],
+      "width": 24,
+      "native_id": "8c61c1e7097ee743"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1585,
+          495
+        ],
+        [
+          1580,
+          495
+        ]
+      ],
+      "width": 24,
+      "native_id": "ab234329fefc1a56"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1580,
+          495
+        ],
+        [
+          1575,
+          490
+        ]
+      ],
+      "width": 24,
+      "native_id": "5abd0fabc911d260"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1575,
+          490
+        ],
+        [
+          1565,
+          490
+        ]
+      ],
+      "width": 24,
+      "native_id": "2044ead9cf59929c"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1565,
+          490
+        ],
+        [
+          1560,
+          485
+        ]
+      ],
+      "width": 24,
+      "native_id": "085c84f95fb98c34"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1560,
+          485
+        ],
+        [
+          1555,
+          485
+        ]
+      ],
+      "width": 24,
+      "native_id": "e49a39d720c18bd7"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1555,
+          485
+        ],
+        [
+          1550,
+          480
+        ]
+      ],
+      "width": 24,
+      "native_id": "c5fd4cb819ac6293"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1550,
+          480
+        ],
+        [
+          1545,
+          480
+        ]
+      ],
+      "width": 24,
+      "native_id": "80fbb7b0c76a54b0"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1545,
+          480
+        ],
+        [
+          1540,
+          475
+        ]
+      ],
+      "width": 24,
+      "native_id": "0b37f47b1b5da8c6"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1540,
+          475
+        ],
+        [
+          1535,
+          472.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "45f5c4c00a4c68fe"
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1535,
+          472.4
+        ],
+        [
+          1531.5,
+          472.4
+        ]
+      ],
+      "width": 24,
+      "native_id": "f49dc29124b08a2f"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1424.8,
+          979.9
+        ],
+        [
+          1431.1,
+          1085
+        ]
+      ],
+      "width": 40,
+      "native_id": "86c67c99eb054737"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1431.1,
+          1085
+        ],
+        [
+          1459.8,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "61226538db412ea3"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          2218.5,
+          100
+        ],
+        [
+          2240,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "852b2864b61ac1d0"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2240,
+          100
+        ],
+        [
+          2376,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "53428cec70742ddd"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          2376,
+          100
+        ],
+        [
+          2409.1,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "8d32bf58ae3973cb"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1259.8,
+          1159.8
+        ],
+        [
+          1320,
+          1215
+        ]
+      ],
+      "width": 40,
+      "native_id": "dbb9f77afe87a938"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1320,
+          1215
+        ],
+        [
+          1345,
+          1225
+        ]
+      ],
+      "width": 40,
+      "native_id": "16dc1cf48669da6e"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1345,
+          1225
+        ],
+        [
+          1375,
+          1225
+        ]
+      ],
+      "width": 40,
+      "native_id": "e9815201d1b7e1a9"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1375,
+          1225
+        ],
+        [
+          1400,
+          1215
+        ]
+      ],
+      "width": 40,
+      "native_id": "7a98e12498dbe273"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1400,
+          1215
+        ],
+        [
+          1459.8,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "b8b9578dd4b2ea74"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2524.8,
+          279.9
+        ],
+        [
+          2409.1,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "a62acbdb6dbac205"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2677.2,
+          454.3
+        ],
+        [
+          2677.2,
+          365
+        ]
+      ],
+      "width": 40,
+      "native_id": "e594275a0067f022"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2677.2,
+          365
+        ],
+        [
+          2709.0999999999995,
+          330
+        ]
+      ],
+      "width": 40,
+      "native_id": "f0d9eb04c9a301bb"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2735,
+          235
+        ],
+        [
+          2735,
+          280
+        ]
+      ],
+      "width": 40,
+      "native_id": "10e941a4951ffb60"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2725,
+          215
+        ],
+        [
+          2735,
+          235
+        ]
+      ],
+      "width": 40,
+      "native_id": "4689d96817d26d8c"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2725,
+          215
+        ],
+        [
+          2705,
+          200
+        ]
+      ],
+      "width": 40,
+      "native_id": "a20a05ff67899f7f"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2605,
+          220
+        ],
+        [
+          2524.8,
+          279.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "d0359f52251ffa47"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2524.8,
+          979.9
+        ],
+        [
+          2615,
+          1130
+        ]
+      ],
+      "width": 40,
+      "native_id": "314f5f829d83c8ae"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2615,
+          1130
+        ],
+        [
+          2716.5,
+          1130
+        ]
+      ],
+      "width": 40,
+      "native_id": "2da6305d580fc8ea"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2716.5,
+          1130
+        ],
+        [
+          2766.5,
+          1063
+        ]
+      ],
+      "width": 40,
+      "native_id": "e67b748e792f30e6"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2344.1,
+          787.4
+        ],
+        [
+          2524.8,
+          979.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "92324bd456e1221f"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1202.4,
+          787.4
+        ],
+        [
+          1421.3,
+          629.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "efaf3f85d166c38c"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1202.4,
+          787.4
+        ],
+        [
+          1424.8,
+          979.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "08ee78950d62c129"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          959.8,
+          1159.8
+        ],
+        [
+          1000,
+          1200
+        ]
+      ],
+      "width": 40,
+      "native_id": "65e3738107a16f3c"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1000,
+          1200
+        ],
+        [
+          1045,
+          1225
+        ]
+      ],
+      "width": 40,
+      "native_id": "eb9795da3a39ece7"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1045,
+          1225
+        ],
+        [
+          1175,
+          1225
+        ]
+      ],
+      "width": 40,
+      "native_id": "4a82f72bd539508f"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1175,
+          1225
+        ],
+        [
+          1205,
+          1215
+        ]
+      ],
+      "width": 40,
+      "native_id": "e6e7fd51abfa29ba"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1205,
+          1215
+        ],
+        [
+          1259.8,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "4b1c62a961ded62e"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          831.1,
+          100
+        ],
+        [
+          695,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "923d2f008d7cb9ee"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          695,
+          100
+        ],
+        [
+          675,
+          90
+        ]
+      ],
+      "width": 40,
+      "native_id": "c30ae10e69ddae8b"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          675,
+          90
+        ],
+        [
+          510,
+          90
+        ]
+      ],
+      "width": 40,
+      "native_id": "831d588c87a87265"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          510,
+          90
+        ],
+        [
+          443.7,
+          157.5
+        ]
+      ],
+      "width": 40,
+      "native_id": "cb05c4dd20967633"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1224.8,
+          279.9
+        ],
+        [
+          1309.8,
+          400
+        ]
+      ],
+      "width": 40,
+      "native_id": "1c51f88c9f1ca88f"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1309.8,
+          400
+        ],
+        [
+          1421.3,
+          629.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "864c538a777ae016"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1224.8,
+          279.9
+        ],
+        [
+          1135,
+          205
+        ]
+      ],
+      "width": 40,
+      "native_id": "b84b3d815563cd26"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1135,
+          205
+        ],
+        [
+          950,
+          200
+        ]
+      ],
+      "width": 40,
+      "native_id": "1c4f50e4dbd1cbec"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          950,
+          200
+        ],
+        [
+          831.1,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "d89061b58eca1d9a"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1926,
+          1159.8
+        ],
+        [
+          1685,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "991e0512e256e74b"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1685,
+          1159.8
+        ],
+        [
+          1665,
+          1150
+        ]
+      ],
+      "width": 40,
+      "native_id": "91dbebf2b1bd9374"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1665,
+          1150
+        ],
+        [
+          1630,
+          1115
+        ]
+      ],
+      "width": 40,
+      "native_id": "4d9ef6d6ef46d760"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1630,
+          1115
+        ],
+        [
+          1575,
+          1095
+        ]
+      ],
+      "width": 40,
+      "native_id": "e1770a68addcd694"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1575,
+          1095
+        ],
+        [
+          1545,
+          1095
+        ]
+      ],
+      "width": 40,
+      "native_id": "c85d00956474677b"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1545,
+          1095
+        ],
+        [
+          1520,
+          1105
+        ]
+      ],
+      "width": 40,
+      "native_id": "aa24df10d04c07c0"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1520,
+          1105
+        ],
+        [
+          1459.8,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "c5138185b6917abb"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2344.1,
+          787.4
+        ],
+        [
+          2345,
+          775
+        ]
+      ],
+      "width": 40,
+      "native_id": "05b2d2a77aff5264"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2345,
+          775
+        ],
+        [
+          2374.8,
+          740
+        ]
+      ],
+      "width": 40,
+      "native_id": "18a7dd8956af7472"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2374.8,
+          740
+        ],
+        [
+          2376,
+          725
+        ]
+      ],
+      "width": 40,
+      "native_id": "e5ca369c5eb7e075"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2376,
+          725
+        ],
+        [
+          2465,
+          605
+        ]
+      ],
+      "width": 40,
+      "native_id": "c1050226006d3d85"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2465,
+          605
+        ],
+        [
+          2465,
+          450
+        ]
+      ],
+      "width": 40,
+      "native_id": "e63a866490cc0f56"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2465,
+          450
+        ],
+        [
+          2480,
+          420
+        ]
+      ],
+      "width": 40,
+      "native_id": "6e4c26d596f0be54"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2480,
+          420
+        ],
+        [
+          2575,
+          290
+        ]
+      ],
+      "width": 40,
+      "native_id": "e3374a7dcb35cc45"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2575,
+          290
+        ],
+        [
+          2609.0999999999995,
+          255
+        ]
+      ],
+      "width": 40,
+      "native_id": "3b0b043c7bf5e200"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2609.0999999999995,
+          255
+        ],
+        [
+          2630,
+          215
+        ]
+      ],
+      "width": 40,
+      "native_id": "93481192a2d7a3c5"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2630,
+          215
+        ],
+        [
+          2646.25,
+          202.8125
+        ]
+      ],
+      "width": 40,
+      "native_id": "bf571a522f1f6319"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2646.25,
+          202.8125
+        ],
+        [
+          2650,
+          200
+        ]
+      ],
+      "width": 40,
+      "native_id": "5aae1c288c842885"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2646.25,
+          202.8125
+        ],
+        [
+          2605,
+          220
+        ]
+      ],
+      "width": 40,
+      "native_id": "2b02e0c45b04d06b"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2650,
+          200
+        ],
+        [
+          2654.2857,
+          199.46429999999998
+        ]
+      ],
+      "width": 40,
+      "native_id": "162b53c7c048e95e"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2654.2857,
+          199.46429999999998
+        ],
+        [
+          2677.5,
+          196.5625
+        ]
+      ],
+      "width": 40,
+      "native_id": "a4445f880497001e"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2677.5,
+          196.5625
+        ],
+        [
+          2690,
+          195
+        ]
+      ],
+      "width": 40,
+      "native_id": "40930563caa540c4"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2677.5,
+          196.5625
+        ],
+        [
+          2665,
+          195
+        ]
+      ],
+      "width": 40,
+      "native_id": "0ce1e6b428d29324"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2665,
+          195
+        ],
+        [
+          2654.2857,
+          199.46429999999998
+        ]
+      ],
+      "width": 40,
+      "native_id": "fb30c5d5f128fa37"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2654.2857,
+          199.46429999999998
+        ],
+        [
+          2646.25,
+          202.8125
+        ]
+      ],
+      "width": 40,
+      "native_id": "316b4a257820e633"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2690,
+          195
+        ],
+        [
+          2697,
+          199
+        ]
+      ],
+      "width": 40,
+      "native_id": "e799abfbcdc5f2fc"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2697,
+          199
+        ],
+        [
+          2725,
+          215
+        ]
+      ],
+      "width": 40,
+      "native_id": "e52fad998da6183c"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2705,
+          200
+        ],
+        [
+          2697,
+          199
+        ]
+      ],
+      "width": 40,
+      "native_id": "99887e9eab3907c1"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2697,
+          199
+        ],
+        [
+          2677.5,
+          196.5625
+        ]
+      ],
+      "width": 40,
+      "native_id": "c092a2179b7bc278"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2735,
+          280
+        ],
+        [
+          2710,
+          320
+        ]
+      ],
+      "width": 40,
+      "native_id": "c176a611b5e9ae5e"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2710,
+          320
+        ],
+        [
+          2709.3678,
+          329.48300000000006
+        ]
+      ],
+      "width": 40,
+      "native_id": "ab865fec49947db6"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2709.3678,
+          329.48300000000006
+        ],
+        [
+          2705,
+          395
+        ]
+      ],
+      "width": 40,
+      "native_id": "f917d416af40c6bc"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2709.0999999999995,
+          330
+        ],
+        [
+          2709.3678,
+          329.48300000000006
+        ]
+      ],
+      "width": 40,
+      "native_id": "90522813529a7ca2"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2709.3678,
+          329.48300000000006
+        ],
+        [
+          2735,
+          280
+        ]
+      ],
+      "width": 40,
+      "native_id": "46e9db7c622c35ac"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2705,
+          395
+        ],
+        [
+          2677.2,
+          454.3
+        ]
+      ],
+      "width": 40,
+      "native_id": "45a7c633f63bb91f"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2218.5,
+          100
+        ],
+        [
+          2145,
+          35
+        ]
+      ],
+      "width": 40,
+      "native_id": "c082b4fccf15fb4b"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2145,
+          35
+        ],
+        [
+          1795,
+          35
+        ]
+      ],
+      "width": 40,
+      "native_id": "e0e7d9e40498bb9a"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1795,
+          35
+        ],
+        [
+          1718.5,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "385043b2fbf8f39c"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1224.8,
+          279.9
+        ],
+        [
+          1215,
+          170
+        ]
+      ],
+      "width": 40,
+      "native_id": "f81dc2e613a004a7"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1515,
+          170
+        ],
+        [
+          1540,
+          157.5
+        ]
+      ],
+      "width": 40,
+      "native_id": "73eba89a21ad58bf"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1540,
+          157.5
+        ],
+        [
+          1600,
+          155
+        ]
+      ],
+      "width": 40,
+      "native_id": "159041e301c1de69"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1600,
+          155
+        ],
+        [
+          1665,
+          115
+        ]
+      ],
+      "width": 40,
+      "native_id": "505467cd16bc64ee"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1665,
+          115
+        ],
+        [
+          1718.5,
+          100
+        ]
+      ],
+      "width": 40,
+      "native_id": "b76177ef9da865cc"
+    },
+    {
+      "net": "LCD_CS_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1924.8,
+          279.9
+        ],
+        [
+          1850,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "16b74e731ad17ec0"
+    },
+    {
+      "net": "LCD_CS_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1850,
+          230
+        ],
+        [
+          1605,
+          229.90000000000003
+        ]
+      ],
+      "width": 12,
+      "native_id": "56b7bb0967407081"
+    },
+    {
+      "net": "LCD_CS_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1605,
+          229.90000000000003
+        ],
+        [
+          1431.1,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "41150a15410a6a31"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          660.2,
+          157.5
+        ],
+        [
+          765,
+          229.90000000000003
+        ]
+      ],
+      "width": 12,
+      "native_id": "754e0a6e5ca0f0f0"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          765,
+          229.90000000000003
+        ],
+        [
+          850,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "3dd0568c7305902e"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          850,
+          230
+        ],
+        [
+          874.8,
+          254.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "be7f5d0702d476de"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          874.8,
+          254.3
+        ],
+        [
+          875,
+          305
+        ]
+      ],
+      "width": 12,
+      "native_id": "641b04d600536191"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          875,
+          305
+        ],
+        [
+          895,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "e126f3cae20cfc95"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          895,
+          329.9
+        ],
+        [
+          981.1,
+          335
+        ]
+      ],
+      "width": 12,
+      "native_id": "32aaca9d686a3928"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          981.1,
+          335
+        ],
+        [
+          1009.8,
+          370
+        ]
+      ],
+      "width": 12,
+      "native_id": "1c477a1e78158014"
+    },
+    {
+      "net": "VBAT_SENSE",
+      "layer": "TOP",
+      "points": [
+        [
+          1009.8,
+          370
+        ],
+        [
+          1019.7,
+          472.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "276d37ae26b40775"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1724.8,
+          279.9
+        ],
+        [
+          1715,
+          279.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "d95e4c2cbdd72233"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1715,
+          279.9
+        ],
+        [
+          1690,
+          255
+        ]
+      ],
+      "width": 12,
+      "native_id": "2fa9e0b4dce7cd81"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1690,
+          255
+        ],
+        [
+          1685,
+          254.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "ed54a6c31d297a98"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1685,
+          254.3
+        ],
+        [
+          1675,
+          245
+        ]
+      ],
+      "width": 12,
+      "native_id": "9dbf7d244d3b541d"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1675,
+          245
+        ],
+        [
+          1665,
+          245
+        ]
+      ],
+      "width": 12,
+      "native_id": "07603fe39a702a05"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1665,
+          245
+        ],
+        [
+          1650,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "0ca1da659f513f16"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1650,
+          230
+        ],
+        [
+          1470,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "d0eb03fc32abc5a7"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1470,
+          230
+        ],
+        [
+          1465,
+          235
+        ]
+      ],
+      "width": 12,
+      "native_id": "0ce5360784b881f8"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1465,
+          235
+        ],
+        [
+          1460,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "0e081548daa8190a"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1460,
+          230
+        ],
+        [
+          1415,
+          229.90000000000003
+        ]
+      ],
+      "width": 12,
+      "native_id": "93b8948c12472d7b"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1415,
+          229.90000000000003
+        ],
+        [
+          1395,
+          210
+        ]
+      ],
+      "width": 12,
+      "native_id": "011a93a31f999d8c"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1395,
+          210
+        ],
+        [
+          1370,
+          200
+        ]
+      ],
+      "width": 12,
+      "native_id": "246ad9dfbb6dc1db"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1370,
+          200
+        ],
+        [
+          1335,
+          165
+        ]
+      ],
+      "width": 12,
+      "native_id": "cfd6854970b95ecc"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1335,
+          165
+        ],
+        [
+          1330,
+          165
+        ]
+      ],
+      "width": 12,
+      "native_id": "43bcef708bb98fca"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1330,
+          165
+        ],
+        [
+          1315,
+          155
+        ]
+      ],
+      "width": 12,
+      "native_id": "ddf80d8b5b8f714e"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1315,
+          155
+        ],
+        [
+          1285,
+          125
+        ]
+      ],
+      "width": 12,
+      "native_id": "6783c385e5861e10"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1285,
+          125
+        ],
+        [
+          1275,
+          110
+        ]
+      ],
+      "width": 12,
+      "native_id": "c8f0cc78ef749dab"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1275,
+          110
+        ],
+        [
+          1274.8,
+          80
+        ]
+      ],
+      "width": 12,
+      "native_id": "8a1ca8787a2c8460"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1274.8,
+          80
+        ],
+        [
+          1270,
+          75
+        ]
+      ],
+      "width": 12,
+      "native_id": "e3231edce75b7772"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1270,
+          75
+        ],
+        [
+          1270,
+          70
+        ]
+      ],
+      "width": 12,
+      "native_id": "ed5b5d6ebabb7ba9"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1270,
+          70
+        ],
+        [
+          1255,
+          55
+        ]
+      ],
+      "width": 12,
+      "native_id": "962a48bb0218206a"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1255,
+          55
+        ],
+        [
+          1209.8,
+          55
+        ]
+      ],
+      "width": 12,
+      "native_id": "491504ebb2fab1cf"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1209.8,
+          55
+        ],
+        [
+          1205,
+          60
+        ]
+      ],
+      "width": 12,
+      "native_id": "bd1668e368abfd74"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1205,
+          60
+        ],
+        [
+          1200,
+          60
+        ]
+      ],
+      "width": 12,
+      "native_id": "f0927f8cf0b380d8"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1200,
+          60
+        ],
+        [
+          1185,
+          75
+        ]
+      ],
+      "width": 12,
+      "native_id": "9d6d833e985f6cc1"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1185,
+          75
+        ],
+        [
+          1180,
+          75
+        ]
+      ],
+      "width": 12,
+      "native_id": "e37f0b6e9386084e"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1180,
+          75
+        ],
+        [
+          1160,
+          95
+        ]
+      ],
+      "width": 12,
+      "native_id": "02ff11cfa75f512a"
+    },
+    {
+      "net": "LCD_MOSI",
+      "layer": "TOP",
+      "points": [
+        [
+          1160,
+          95
+        ],
+        [
+          1131.1,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "d9bcca786dbf2131"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2024.8,
+          279.9
+        ],
+        [
+          2010,
+          279.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "a1435d12e4dfbd6b"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2010,
+          279.9
+        ],
+        [
+          1950,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "d222bf3014243dbb"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1950,
+          230
+        ],
+        [
+          1915,
+          229.90000000000003
+        ]
+      ],
+      "width": 12,
+      "native_id": "85e54635b326880e"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1915,
+          229.90000000000003
+        ],
+        [
+          1885,
+          205
+        ]
+      ],
+      "width": 12,
+      "native_id": "f2f2489a76284473"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1885,
+          205
+        ],
+        [
+          1730,
+          204.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "c91e9687924f38e1"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1730,
+          204.3
+        ],
+        [
+          1550,
+          55
+        ]
+      ],
+      "width": 12,
+      "native_id": "de2ff30a24636277"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1550,
+          55
+        ],
+        [
+          1405,
+          55
+        ]
+      ],
+      "width": 12,
+      "native_id": "a84f41660b2b67f7"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1405,
+          55
+        ],
+        [
+          1355,
+          95
+        ]
+      ],
+      "width": 12,
+      "native_id": "4edf3bde5cb15e81"
+    },
+    {
+      "net": "LCD_DC",
+      "layer": "TOP",
+      "points": [
+        [
+          1355,
+          95
+        ],
+        [
+          1331.1,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "68ca2c8fd274acea"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1824.8,
+          279.9
+        ],
+        [
+          1725,
+          210
+        ]
+      ],
+      "width": 12,
+      "native_id": "77b59c3e9ceb9e13"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1725,
+          210
+        ],
+        [
+          1674.8,
+          195
+        ]
+      ],
+      "width": 12,
+      "native_id": "b28043f2f483d39b"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1674.8,
+          195
+        ],
+        [
+          1581.5,
+          115
+        ]
+      ],
+      "width": 12,
+      "native_id": "fbb85d83588a783d"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1581.5,
+          115
+        ],
+        [
+          1624.8,
+          80
+        ]
+      ],
+      "width": 12,
+      "native_id": "f13cef6549dfa532"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1624.8,
+          80
+        ],
+        [
+          1560,
+          30
+        ]
+      ],
+      "width": 12,
+      "native_id": "d17b5cc6eec1d455"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1560,
+          30
+        ],
+        [
+          1200,
+          30
+        ]
+      ],
+      "width": 12,
+      "native_id": "a62d23e50a9babc7"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1200,
+          30
+        ],
+        [
+          1145,
+          55
+        ]
+      ],
+      "width": 12,
+      "native_id": "262b00a6b8928433"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1145,
+          55
+        ],
+        [
+          1105,
+          55
+        ]
+      ],
+      "width": 12,
+      "native_id": "0178c8974a09418d"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1105,
+          55
+        ],
+        [
+          1060,
+          95
+        ]
+      ],
+      "width": 12,
+      "native_id": "435af7554de2de42"
+    },
+    {
+      "net": "LCD_SCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1060,
+          95
+        ],
+        [
+          1031.1,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "828d86995aa60cc8"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1124.8,
+          279.9
+        ],
+        [
+          1200,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "49bc2862f495ef58"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1200,
+          230
+        ],
+        [
+          1350,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "270942cce228b1ca"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1350,
+          230
+        ],
+        [
+          1374.8,
+          260
+        ]
+      ],
+      "width": 12,
+      "native_id": "b09f62e84324ce6f"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1374.8,
+          260
+        ],
+        [
+          1375,
+          305
+        ]
+      ],
+      "width": 12,
+      "native_id": "1aa5a2ef36e25b06"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1375,
+          305
+        ],
+        [
+          1400,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "c1a411b46947f270"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1400,
+          329.9
+        ],
+        [
+          1655,
+          335
+        ]
+      ],
+      "width": 12,
+      "native_id": "0d57c52c9e7d595b"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1655,
+          335
+        ],
+        [
+          1755,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "677e9b0af0a4becf"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1755,
+          329.9
+        ],
+        [
+          1850,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "3f10ad534973acf2"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1850,
+          329.9
+        ],
+        [
+          1865,
+          315
+        ]
+      ],
+      "width": 12,
+      "native_id": "7d67ca675c90a574"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1865,
+          315
+        ],
+        [
+          1868.5,
+          310
+        ]
+      ],
+      "width": 12,
+      "native_id": "fc8d4b8e253ed4b7"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1868.5,
+          310
+        ],
+        [
+          1870,
+          310
+        ]
+      ],
+      "width": 12,
+      "native_id": "aa3cbe7eca28ada7"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1870,
+          310
+        ],
+        [
+          1874.8,
+          305
+        ]
+      ],
+      "width": 12,
+      "native_id": "5fbb397dc04dc3fb"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1874.8,
+          305
+        ],
+        [
+          1874.8,
+          265
+        ]
+      ],
+      "width": 12,
+      "native_id": "2156bc9b3c92ba63"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1874.8,
+          265
+        ],
+        [
+          1876,
+          254.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "49134fa67e6685a7"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1876,
+          254.3
+        ],
+        [
+          1880,
+          250
+        ]
+      ],
+      "width": 12,
+      "native_id": "37f2241212e0098e"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1880,
+          250
+        ],
+        [
+          1883.1,
+          245
+        ]
+      ],
+      "width": 12,
+      "native_id": "73feb4e1015e4336"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1883.1,
+          245
+        ],
+        [
+          1885,
+          240
+        ]
+      ],
+      "width": 12,
+      "native_id": "4cfabfcab0d25cc3"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1885,
+          240
+        ],
+        [
+          1895,
+          230
+        ]
+      ],
+      "width": 12,
+      "native_id": "8c99f37afc782009"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1895,
+          230
+        ],
+        [
+          1900,
+          229.90000000000003
+        ]
+      ],
+      "width": 12,
+      "native_id": "bd3da3ac6e9515c9"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1900,
+          229.90000000000003
+        ],
+        [
+          1915,
+          215
+        ]
+      ],
+      "width": 12,
+      "native_id": "1f53f2d2b698c48c"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1915,
+          215
+        ],
+        [
+          1920,
+          215
+        ]
+      ],
+      "width": 12,
+      "native_id": "8335582611134aa9"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1920,
+          215
+        ],
+        [
+          1924.8,
+          210
+        ]
+      ],
+      "width": 12,
+      "native_id": "e252b75ed11ef014"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1924.8,
+          210
+        ],
+        [
+          1935,
+          210
+        ]
+      ],
+      "width": 12,
+      "native_id": "03fc2e5d84d3bee0"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1935,
+          210
+        ],
+        [
+          1945,
+          205
+        ]
+      ],
+      "width": 12,
+      "native_id": "59839f5c8500fc66"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1945,
+          205
+        ],
+        [
+          1950,
+          204.3
+        ]
+      ],
+      "width": 12,
+      "native_id": "4ed16b5789cb49a8"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1950,
+          204.3
+        ],
+        [
+          1965,
+          190
+        ]
+      ],
+      "width": 12,
+      "native_id": "ffaa47211cf44757"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1965,
+          190
+        ],
+        [
+          1985,
+          190
+        ]
+      ],
+      "width": 12,
+      "native_id": "1d9189bd034c9cad"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          1985,
+          190
+        ],
+        [
+          2015,
+          160
+        ]
+      ],
+      "width": 12,
+      "native_id": "74fbf575b1e0443e"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2015,
+          160
+        ],
+        [
+          2030,
+          160
+        ]
+      ],
+      "width": 12,
+      "native_id": "97f831d195ac7a4c"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2030,
+          160
+        ],
+        [
+          2040,
+          155
+        ]
+      ],
+      "width": 12,
+      "native_id": "4fffcec1730fc406"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2040,
+          155
+        ],
+        [
+          2065,
+          130
+        ]
+      ],
+      "width": 12,
+      "native_id": "0649d5f5ec10d497"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2065,
+          130
+        ],
+        [
+          2080,
+          130
+        ]
+      ],
+      "width": 12,
+      "native_id": "9a105e6f262fd688"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2080,
+          130
+        ],
+        [
+          2094.1,
+          115
+        ]
+      ],
+      "width": 12,
+      "native_id": "5e710f554e9ad659"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2094.1,
+          115
+        ],
+        [
+          2095,
+          115
+        ]
+      ],
+      "width": 12,
+      "native_id": "e0384e1aa9392cf7"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2095,
+          115
+        ],
+        [
+          2100,
+          110
+        ]
+      ],
+      "width": 12,
+      "native_id": "35af6e44f636014e"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2100,
+          110
+        ],
+        [
+          2110,
+          105
+        ]
+      ],
+      "width": 12,
+      "native_id": "1b63d91f8238d962"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2110,
+          105
+        ],
+        [
+          2115,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "76b4d29321b230db"
+    },
+    {
+      "net": "MIC_SD",
+      "layer": "TOP",
+      "points": [
+        [
+          2115,
+          100
+        ],
+        [
+          2118.5,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "2fc0d01ebb034184"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1024.8,
+          279.9
+        ],
+        [
+          1200,
+          395
+        ]
+      ],
+      "width": 12,
+      "native_id": "3a87c67657c59ba0"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1200,
+          395
+        ],
+        [
+          1290,
+          435
+        ]
+      ],
+      "width": 12,
+      "native_id": "fea19b17a92794dd"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1290,
+          435
+        ],
+        [
+          1335,
+          435
+        ]
+      ],
+      "width": 12,
+      "native_id": "5993cd89b6bc73d8"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1335,
+          435
+        ],
+        [
+          1355,
+          420
+        ]
+      ],
+      "width": 12,
+      "native_id": "3229fecb7ede3f95"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1355,
+          420
+        ],
+        [
+          1770,
+          420
+        ]
+      ],
+      "width": 12,
+      "native_id": "b970d266b8b2ed2e"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1770,
+          420
+        ],
+        [
+          1815,
+          380
+        ]
+      ],
+      "width": 12,
+      "native_id": "d9d0b3565524062a"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1815,
+          380
+        ],
+        [
+          1825,
+          380
+        ]
+      ],
+      "width": 12,
+      "native_id": "85bc9d8d0aa16d12"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1825,
+          380
+        ],
+        [
+          1855,
+          350
+        ]
+      ],
+      "width": 12,
+      "native_id": "0167651fed689e64"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1855,
+          350
+        ],
+        [
+          1885,
+          350
+        ]
+      ],
+      "width": 12,
+      "native_id": "35fdbac03d749afb"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1885,
+          350
+        ],
+        [
+          1905,
+          330
+        ]
+      ],
+      "width": 12,
+      "native_id": "14c6b31e4e9ccc99"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1905,
+          330
+        ],
+        [
+          1950,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "e2c3b3365cca8342"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1950,
+          329.9
+        ],
+        [
+          1974.8,
+          305
+        ]
+      ],
+      "width": 12,
+      "native_id": "68d0505c6638b288"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1974.8,
+          305
+        ],
+        [
+          1975,
+          260
+        ]
+      ],
+      "width": 12,
+      "native_id": "def047f09153d5af"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1975,
+          260
+        ],
+        [
+          1985,
+          240
+        ]
+      ],
+      "width": 12,
+      "native_id": "066e7c574792cf98"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1985,
+          240
+        ],
+        [
+          2065,
+          170
+        ]
+      ],
+      "width": 12,
+      "native_id": "d300a4c45a7bbda0"
+    },
+    {
+      "net": "MIC_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2065,
+          170
+        ],
+        [
+          2018.5,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "9f7a5101eaab4887"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1624.8,
+          979.9
+        ],
+        [
+          1575,
+          1055
+        ]
+      ],
+      "width": 12,
+      "native_id": "16905a0bd3a1c624"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1575,
+          1055
+        ],
+        [
+          1559.8,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "355f73276804992f"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1624.8,
+          979.9
+        ],
+        [
+          1755,
+          876.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "cf6de8f1214839c9"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1755,
+          876.8
+        ],
+        [
+          1985,
+          820
+        ]
+      ],
+      "width": 12,
+      "native_id": "2bc38f594097efe0"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1985,
+          820
+        ],
+        [
+          2215,
+          680
+        ]
+      ],
+      "width": 12,
+      "native_id": "66602b3e178eb8d7"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "TOP",
+      "points": [
+        [
+          2215,
+          680
+        ],
+        [
+          2415,
+          679.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "2cfd6487ed9c5f52"
+    },
+    {
+      "net": "KEY_N",
+      "layer": "TOP",
+      "points": [
+        [
+          2415,
+          679.9
+        ],
+        [
+          2523.6,
+          629.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "a841c4e30b5218f2"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1424.8,
+          279.9
+        ],
+        [
+          1430,
+          285
+        ]
+      ],
+      "width": 12,
+      "native_id": "8720a71f32f99630"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1430,
+          285
+        ],
+        [
+          1431.1,
+          290
+        ]
+      ],
+      "width": 12,
+      "native_id": "504bae037970e77b"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1431.1,
+          290
+        ],
+        [
+          1435,
+          295
+        ]
+      ],
+      "width": 12,
+      "native_id": "a4c85ef81d5585ea"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1435,
+          295
+        ],
+        [
+          1470,
+          329.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "d636c523ae64655d"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1470,
+          329.9
+        ],
+        [
+          1471.3,
+          335
+        ]
+      ],
+      "width": 12,
+      "native_id": "edbae4d2a31f3a51"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1471.3,
+          335
+        ],
+        [
+          1474.8,
+          340
+        ]
+      ],
+      "width": 12,
+      "native_id": "7e1637a7fc1f733f"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1474.8,
+          340
+        ],
+        [
+          1480,
+          345
+        ]
+      ],
+      "width": 12,
+      "native_id": "52d2b88d48eb9104"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1480,
+          345
+        ],
+        [
+          1481.1,
+          350
+        ]
+      ],
+      "width": 12,
+      "native_id": "8b2432c4288b6270"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1481.1,
+          350
+        ],
+        [
+          1485,
+          355
+        ]
+      ],
+      "width": 12,
+      "native_id": "abc603c6ffce350f"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1485,
+          355
+        ],
+        [
+          1530,
+          400
+        ]
+      ],
+      "width": 12,
+      "native_id": "ba6380af588a280c"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1530,
+          400
+        ],
+        [
+          1531.5,
+          405
+        ]
+      ],
+      "width": 12,
+      "native_id": "fa54fa75c9fa1e65"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1531.5,
+          405
+        ],
+        [
+          1535,
+          410
+        ]
+      ],
+      "width": 12,
+      "native_id": "269f931a6c7c8d44"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1535,
+          410
+        ],
+        [
+          1545,
+          420
+        ]
+      ],
+      "width": 12,
+      "native_id": "7648ece568fd5490"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1545,
+          420
+        ],
+        [
+          1545,
+          422.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "34629b4a836f5846"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1545,
+          422.4
+        ],
+        [
+          1550,
+          425
+        ]
+      ],
+      "width": 12,
+      "native_id": "a7937f82651dab31"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1550,
+          425
+        ],
+        [
+          1574.8,
+          450
+        ]
+      ],
+      "width": 12,
+      "native_id": "02727385030299c3"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1574.8,
+          450
+        ],
+        [
+          1575,
+          455
+        ]
+      ],
+      "width": 12,
+      "native_id": "b5cd18de0d95d543"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1575,
+          455
+        ],
+        [
+          1580,
+          460
+        ]
+      ],
+      "width": 12,
+      "native_id": "7bae237a33f38f36"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1580,
+          460
+        ],
+        [
+          1581.1,
+          465
+        ]
+      ],
+      "width": 12,
+      "native_id": "bc0e6b2da8912d06"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1581.1,
+          465
+        ],
+        [
+          1581.5,
+          475
+        ]
+      ],
+      "width": 12,
+      "native_id": "aecc037497e594f8"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1581.5,
+          475
+        ],
+        [
+          1585,
+          480
+        ]
+      ],
+      "width": 12,
+      "native_id": "00676720547a0315"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1585,
+          480
+        ],
+        [
+          1624.8,
+          520
+        ]
+      ],
+      "width": 12,
+      "native_id": "c60ac8a79c54a9ff"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1624.8,
+          520
+        ],
+        [
+          1625,
+          525
+        ]
+      ],
+      "width": 12,
+      "native_id": "61ec2aa76313e6de"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1625,
+          525
+        ],
+        [
+          1665,
+          565
+        ]
+      ],
+      "width": 12,
+      "native_id": "ea6c7e32e6b146fc"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1665,
+          565
+        ],
+        [
+          1668.5,
+          570
+        ]
+      ],
+      "width": 12,
+      "native_id": "a3c044df09eba5d9"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1668.5,
+          570
+        ],
+        [
+          1670,
+          575
+        ]
+      ],
+      "width": 12,
+      "native_id": "d31ce59564743cf2"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1670,
+          575
+        ],
+        [
+          1715,
+          620
+        ]
+      ],
+      "width": 12,
+      "native_id": "333416790271b1aa"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1715,
+          620
+        ],
+        [
+          1718.5,
+          625
+        ]
+      ],
+      "width": 12,
+      "native_id": "cc10d1cbd310f98f"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1718.5,
+          625
+        ],
+        [
+          1720,
+          630
+        ]
+      ],
+      "width": 12,
+      "native_id": "363c1b3a8915d87a"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1720,
+          630
+        ],
+        [
+          1765,
+          675
+        ]
+      ],
+      "width": 12,
+      "native_id": "b11c616ccaffc964"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1765,
+          675
+        ],
+        [
+          1768.5,
+          679.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "3ceb410052295aa5"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1768.5,
+          679.9
+        ],
+        [
+          1770,
+          685
+        ]
+      ],
+      "width": 12,
+      "native_id": "850f4a655094f2f7"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1770,
+          685
+        ],
+        [
+          1815,
+          730
+        ]
+      ],
+      "width": 12,
+      "native_id": "fe4fdcfac8e462d3"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1815,
+          730
+        ],
+        [
+          1818.5,
+          735
+        ]
+      ],
+      "width": 12,
+      "native_id": "1c0bd5fae1bc4910"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1818.5,
+          735
+        ],
+        [
+          1818.5,
+          737.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "5347dd710aa22cd4"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1818.5,
+          737.4
+        ],
+        [
+          1820,
+          740
+        ]
+      ],
+      "width": 12,
+      "native_id": "e11c9a0d3af9903d"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1820,
+          740
+        ],
+        [
+          1855,
+          775
+        ]
+      ],
+      "width": 12,
+      "native_id": "74475cd2e4f36e6b"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1855,
+          775
+        ],
+        [
+          1855,
+          780
+        ]
+      ],
+      "width": 12,
+      "native_id": "851d6e19005fb051"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1855,
+          780
+        ],
+        [
+          1860,
+          785
+        ]
+      ],
+      "width": 12,
+      "native_id": "39c28a5bedd445fd"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1860,
+          785
+        ],
+        [
+          1860,
+          790
+        ]
+      ],
+      "width": 12,
+      "native_id": "41d72fe7ee4f16c0"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1860,
+          790
+        ],
+        [
+          1865,
+          795
+        ]
+      ],
+      "width": 12,
+      "native_id": "bbdd833bd6ce3142"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1865,
+          795
+        ],
+        [
+          1868.5,
+          800
+        ]
+      ],
+      "width": 12,
+      "native_id": "e802820ff5553725"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1868.5,
+          800
+        ],
+        [
+          1870,
+          805
+        ]
+      ],
+      "width": 12,
+      "native_id": "851dd8d2e2d82aa3"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1870,
+          805
+        ],
+        [
+          1875,
+          810
+        ]
+      ],
+      "width": 12,
+      "native_id": "1204cbcccbe32ea0"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1875,
+          810
+        ],
+        [
+          1876,
+          815
+        ]
+      ],
+      "width": 12,
+      "native_id": "96216a6faa1dba6f"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1876,
+          815
+        ],
+        [
+          1883.1,
+          825
+        ]
+      ],
+      "width": 12,
+      "native_id": "d1b3def9ed1633cf"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1883.1,
+          825
+        ],
+        [
+          1883.1,
+          830
+        ]
+      ],
+      "width": 12,
+      "native_id": "e82920fda260955e"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1883.1,
+          830
+        ],
+        [
+          1885,
+          835
+        ]
+      ],
+      "width": 12,
+      "native_id": "996e63c01880bd3c"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1885,
+          835
+        ],
+        [
+          1885,
+          840
+        ]
+      ],
+      "width": 12,
+      "native_id": "7a36abdd1b53109d"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1885,
+          840
+        ],
+        [
+          1915,
+          870
+        ]
+      ],
+      "width": 12,
+      "native_id": "ff6417c4e66f4163"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1915,
+          870
+        ],
+        [
+          1918.5,
+          875
+        ]
+      ],
+      "width": 12,
+      "native_id": "635886108f5958b0"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1918.5,
+          875
+        ],
+        [
+          1918.5,
+          876.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "27389ab0ee8d6bf8"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1918.5,
+          876.8
+        ],
+        [
+          1920,
+          880
+        ]
+      ],
+      "width": 12,
+      "native_id": "ff67c9ee454a8895"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1920,
+          880
+        ],
+        [
+          1924.8,
+          885
+        ]
+      ],
+      "width": 12,
+      "native_id": "91a72bd6ea6870ac"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1924.8,
+          885
+        ],
+        [
+          1926,
+          895
+        ]
+      ],
+      "width": 12,
+      "native_id": "fc4d41e6be1749d8"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1926,
+          895
+        ],
+        [
+          1933.1,
+          905
+        ]
+      ],
+      "width": 12,
+      "native_id": "efc28e9334e47f74"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1933.1,
+          905
+        ],
+        [
+          1935,
+          910
+        ]
+      ],
+      "width": 12,
+      "native_id": "cd73da5f1474117c"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1935,
+          910
+        ],
+        [
+          1965,
+          940
+        ]
+      ],
+      "width": 12,
+      "native_id": "fde92adfe2f333de"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1965,
+          940
+        ],
+        [
+          1968.5,
+          945
+        ]
+      ],
+      "width": 12,
+      "native_id": "6da6af6152b97731"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1968.5,
+          945
+        ],
+        [
+          1970,
+          950
+        ]
+      ],
+      "width": 12,
+      "native_id": "b250064ad99d8be1"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1970,
+          950
+        ],
+        [
+          1974.8,
+          955
+        ]
+      ],
+      "width": 12,
+      "native_id": "0007164686782763"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1974.8,
+          955
+        ],
+        [
+          1975,
+          990
+        ]
+      ],
+      "width": 12,
+      "native_id": "50c9afe7a612a6cb"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1975,
+          990
+        ],
+        [
+          1976,
+          995
+        ]
+      ],
+      "width": 12,
+      "native_id": "36a85005f917b368"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1976,
+          995
+        ],
+        [
+          1976,
+          1005
+        ]
+      ],
+      "width": 12,
+      "native_id": "bdb4a6b3f1328b62"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1976,
+          1005
+        ],
+        [
+          1983.1,
+          1013
+        ]
+      ],
+      "width": 12,
+      "native_id": "29adaec826f3a93d"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1983.1,
+          1013
+        ],
+        [
+          1983.1,
+          1015
+        ]
+      ],
+      "width": 12,
+      "native_id": "5a24f11c395107f9"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1983.1,
+          1015
+        ],
+        [
+          1985,
+          1020
+        ]
+      ],
+      "width": 12,
+      "native_id": "f02062c476dea62d"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1985,
+          1020
+        ],
+        [
+          2015,
+          1050
+        ]
+      ],
+      "width": 12,
+      "native_id": "f69e07436f4a6994"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2015,
+          1050
+        ],
+        [
+          2018.5,
+          1055
+        ]
+      ],
+      "width": 12,
+      "native_id": "6029c9b08b514037"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2018.5,
+          1055
+        ],
+        [
+          2020,
+          1060
+        ]
+      ],
+      "width": 12,
+      "native_id": "a5923294c8e6d496"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2020,
+          1060
+        ],
+        [
+          2025,
+          1063
+        ]
+      ],
+      "width": 12,
+      "native_id": "1734dae552d0e2d7"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2025,
+          1063
+        ],
+        [
+          2030,
+          1070
+        ]
+      ],
+      "width": 12,
+      "native_id": "00e516a0076c2724"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2030,
+          1070
+        ],
+        [
+          2065,
+          1105
+        ]
+      ],
+      "width": 12,
+      "native_id": "9b675923d7d7ddde"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2065,
+          1105
+        ],
+        [
+          2068.5,
+          1109.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "20d2718aab21a079"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2068.5,
+          1109.8
+        ],
+        [
+          2070,
+          1110
+        ]
+      ],
+      "width": 12,
+      "native_id": "3767ab3dbf468c2e"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2070,
+          1110
+        ],
+        [
+          2072,
+          1113
+        ]
+      ],
+      "width": 12,
+      "native_id": "7605e41b898b353d"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2072,
+          1113
+        ],
+        [
+          2074.8,
+          1115
+        ]
+      ],
+      "width": 12,
+      "native_id": "b08b207fce59374f"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2074.8,
+          1115
+        ],
+        [
+          2076,
+          1115
+        ]
+      ],
+      "width": 12,
+      "native_id": "85795d9fe91cf074"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2076,
+          1115
+        ],
+        [
+          2094.1,
+          1135
+        ]
+      ],
+      "width": 12,
+      "native_id": "6045dd9bcd768829"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2094.1,
+          1135
+        ],
+        [
+          2095,
+          1135
+        ]
+      ],
+      "width": 12,
+      "native_id": "7e08164b0977d8e0"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2095,
+          1135
+        ],
+        [
+          2115,
+          1155
+        ]
+      ],
+      "width": 12,
+      "native_id": "3e04dcab7b2bcbae"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2115,
+          1155
+        ],
+        [
+          2118.5,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "aa18ef297571577f"
+    },
+    {
+      "net": "PCA_SDA",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2118.5,
+          1159.8
+        ],
+        [
+          2126,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "48671d3b525f4c2c"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1324.8,
+          279.9
+        ],
+        [
+          1370,
+          340
+        ]
+      ],
+      "width": 12,
+      "native_id": "b9759e54a746a627"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1370,
+          340
+        ],
+        [
+          1440,
+          390
+        ]
+      ],
+      "width": 12,
+      "native_id": "892e414fd8cb8cd7"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1440,
+          390
+        ],
+        [
+          1675,
+          390
+        ]
+      ],
+      "width": 12,
+      "native_id": "2b719dd6eb8fa9f9"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1675,
+          390
+        ],
+        [
+          1933.1,
+          629.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "a654c00e8e7e55fc"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1324.8,
+          279.9
+        ],
+        [
+          1465,
+          450
+        ]
+      ],
+      "width": 12,
+      "native_id": "f507531688e82883"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1465,
+          450
+        ],
+        [
+          1465,
+          490
+        ]
+      ],
+      "width": 12,
+      "native_id": "c59aee3f3f8e5393"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1465,
+          490
+        ],
+        [
+          1431.1,
+          525
+        ]
+      ],
+      "width": 12,
+      "native_id": "110938adfff339cc"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1431.1,
+          525
+        ],
+        [
+          1160,
+          765
+        ]
+      ],
+      "width": 12,
+      "native_id": "acea63b802097636"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1160,
+          765
+        ],
+        [
+          1109.8,
+          885
+        ]
+      ],
+      "width": 12,
+      "native_id": "7ea49ccb02c1b4ca"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1109.8,
+          885
+        ],
+        [
+          1075,
+          925
+        ]
+      ],
+      "width": 12,
+      "native_id": "e2debf35ab053842"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1075,
+          925
+        ],
+        [
+          1074.8,
+          1135
+        ]
+      ],
+      "width": 12,
+      "native_id": "39b3b3d0a44605a4"
+    },
+    {
+      "net": "ENC_A",
+      "layer": "TOP",
+      "points": [
+        [
+          1074.8,
+          1135
+        ],
+        [
+          1059.8,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "def2195a2a921fc5"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1824.8,
+          979.9
+        ],
+        [
+          1750,
+          1029.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "5dc2c8f8d5789e56"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1750,
+          1029.9
+        ],
+        [
+          1505,
+          1065
+        ]
+      ],
+      "width": 12,
+      "native_id": "c2bbc56c0efc4405"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1505,
+          1065
+        ],
+        [
+          1359.8,
+          1159.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "b2c87570402ef095"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1824.8,
+          979.9
+        ],
+        [
+          1830,
+          795
+        ]
+      ],
+      "width": 12,
+      "native_id": "b9aa7874861d664b"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "TOP",
+      "points": [
+        [
+          1830,
+          795
+        ],
+        [
+          2015,
+          685
+        ]
+      ],
+      "width": 12,
+      "native_id": "e0d7664f3e00e845"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "TOP",
+      "points": [
+        [
+          2015,
+          685
+        ],
+        [
+          2135,
+          675
+        ]
+      ],
+      "width": 12,
+      "native_id": "c02fc6d3ba1e2fc3"
+    },
+    {
+      "net": "ENC_SW_N",
+      "layer": "TOP",
+      "points": [
+        [
+          2135,
+          675
+        ],
+        [
+          2523.6,
+          472.4
+        ]
+      ],
+      "width": 12,
+      "native_id": "01b61f768addd015"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1024.8,
+          979.9
+        ],
+        [
+          1031.1,
+          995
+        ]
+      ],
+      "width": 12,
+      "native_id": "0e70ab59d3c44edd"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1031.1,
+          995
+        ],
+        [
+          1045,
+          1010
+        ]
+      ],
+      "width": 12,
+      "native_id": "0bd2b8232b82ace3"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1045,
+          1010
+        ],
+        [
+          1060,
+          1045
+        ]
+      ],
+      "width": 12,
+      "native_id": "e8f8882b57e2367d"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1060,
+          1045
+        ],
+        [
+          1069.7,
+          1055
+        ]
+      ],
+      "width": 12,
+      "native_id": "84ea4c09958e5033"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1069.7,
+          1055
+        ],
+        [
+          1070,
+          1065
+        ]
+      ],
+      "width": 12,
+      "native_id": "2d2af2772ed54730"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1070,
+          1065
+        ],
+        [
+          1074.8,
+          1070
+        ]
+      ],
+      "width": 12,
+      "native_id": "cf999709c4169bb3"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1074.8,
+          1070
+        ],
+        [
+          1075,
+          1075
+        ]
+      ],
+      "width": 12,
+      "native_id": "0d8aef3d51a2b2e2"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1075,
+          1075
+        ],
+        [
+          1100,
+          1105
+        ]
+      ],
+      "width": 12,
+      "native_id": "9ed097f92cdbcc21"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1100,
+          1105
+        ],
+        [
+          1100,
+          1115
+        ]
+      ],
+      "width": 12,
+      "native_id": "341b9bf615a86543"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1100,
+          1115
+        ],
+        [
+          1109.8,
+          1125
+        ]
+      ],
+      "width": 12,
+      "native_id": "78bb9d61e6b72ace"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1109.8,
+          1125
+        ],
+        [
+          1110,
+          1180
+        ]
+      ],
+      "width": 12,
+      "native_id": "a086e4469d98920e"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1110,
+          1180
+        ],
+        [
+          1115,
+          1185
+        ]
+      ],
+      "width": 12,
+      "native_id": "b569eeaa3148ac28"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1115,
+          1185
+        ],
+        [
+          1115,
+          1190
+        ]
+      ],
+      "width": 12,
+      "native_id": "325359d49972b4c8"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1115,
+          1190
+        ],
+        [
+          1130,
+          1205
+        ]
+      ],
+      "width": 12,
+      "native_id": "f9f32bf1c31f58da"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1130,
+          1205
+        ],
+        [
+          1145,
+          1210
+        ]
+      ],
+      "width": 12,
+      "native_id": "ca27f893946cfba8"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1145,
+          1210
+        ],
+        [
+          1480,
+          1209.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "8dfa252a57e14b3b"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          1480,
+          1209.8
+        ],
+        [
+          2345,
+          1209.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "2af347f04c6602ff"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2345,
+          1209.8
+        ],
+        [
+          2525,
+          1100
+        ]
+      ],
+      "width": 12,
+      "native_id": "712afe74c73d6e34"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2525,
+          1100
+        ],
+        [
+          2605,
+          1030
+        ]
+      ],
+      "width": 12,
+      "native_id": "f6b52e786fa31796"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2605,
+          1030
+        ],
+        [
+          2660,
+          940
+        ]
+      ],
+      "width": 12,
+      "native_id": "68aca54a59e1b0ad"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2660,
+          940
+        ],
+        [
+          2660,
+          515
+        ]
+      ],
+      "width": 12,
+      "native_id": "9f4e053c77eb6e8f"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2660,
+          515
+        ],
+        [
+          2625,
+          460
+        ]
+      ],
+      "width": 12,
+      "native_id": "87c4a9e45c25ddce"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2625,
+          460
+        ],
+        [
+          2625,
+          229.90000000000003
+        ]
+      ],
+      "width": 12,
+      "native_id": "e7d1bb8bcfbf7fb9"
+    },
+    {
+      "net": "AMP_BCLK",
+      "layer": "TOP",
+      "points": [
+        [
+          2625,
+          229.90000000000003
+        ],
+        [
+          2509.1,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "b070fd6862a8bdb6"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1224.8,
+          979.9
+        ],
+        [
+          1235,
+          979.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "3f9abc0212cbeaf8"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1235,
+          979.9
+        ],
+        [
+          1295,
+          930
+        ]
+      ],
+      "width": 12,
+      "native_id": "c84179e9ce4849dd"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1295,
+          930
+        ],
+        [
+          1450,
+          930
+        ]
+      ],
+      "width": 12,
+      "native_id": "2a1defd5258d61b3"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1450,
+          930
+        ],
+        [
+          1470,
+          950
+        ]
+      ],
+      "width": 12,
+      "native_id": "73316b7ccbec874b"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1470,
+          950
+        ],
+        [
+          1474.8,
+          960
+        ]
+      ],
+      "width": 12,
+      "native_id": "d716eb8a497e17c4"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1474.8,
+          960
+        ],
+        [
+          1475,
+          1005
+        ]
+      ],
+      "width": 12,
+      "native_id": "17e4f6ac747b92b3"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1475,
+          1005
+        ],
+        [
+          1490,
+          1025
+        ]
+      ],
+      "width": 12,
+      "native_id": "d8d15ce353e68eb6"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1490,
+          1025
+        ],
+        [
+          1495,
+          1029.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "13712abc64a8cf85"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1495,
+          1029.9
+        ],
+        [
+          1550,
+          1029.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "ccbf847bea0b64b2"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1550,
+          1029.9
+        ],
+        [
+          1574.8,
+          1005
+        ]
+      ],
+      "width": 12,
+      "native_id": "ab6846a68a6d04c0"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1574.8,
+          1005
+        ],
+        [
+          1575,
+          955
+        ]
+      ],
+      "width": 12,
+      "native_id": "6bcb5cc088c04d72"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1575,
+          955
+        ],
+        [
+          1595,
+          930
+        ]
+      ],
+      "width": 12,
+      "native_id": "5bc5fcedc25f8fd0"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1595,
+          930
+        ],
+        [
+          1740,
+          929.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "de750900f4cd2bbc"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1740,
+          929.9
+        ],
+        [
+          1745,
+          925
+        ]
+      ],
+      "width": 12,
+      "native_id": "350e71415aa8f3f7"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "TOP",
+      "points": [
+        [
+          1745,
+          925
+        ],
+        [
+          2305,
+          925
+        ]
+      ],
+      "width": 12,
+      "native_id": "e6609da5ea86b377"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2305,
+          925
+        ],
+        [
+          2370,
+          876.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "88b4deff046117f4"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "TOP",
+      "points": [
+        [
+          2370,
+          876.8
+        ],
+        [
+          2555,
+          876.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "3283fbfaa9e13f2b"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "TOP",
+      "points": [
+        [
+          2555,
+          876.8
+        ],
+        [
+          2559.1,
+          875
+        ]
+      ],
+      "width": 12,
+      "native_id": "257fd0ad25ce46ce"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "TOP",
+      "points": [
+        [
+          2559.1,
+          875
+        ],
+        [
+          2559.1,
+          800
+        ]
+      ],
+      "width": 12,
+      "native_id": "5566a1dc1555586c"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "TOP",
+      "points": [
+        [
+          2559.1,
+          800
+        ],
+        [
+          2560,
+          795
+        ]
+      ],
+      "width": 12,
+      "native_id": "5b4e2776f3ccd751"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "TOP",
+      "points": [
+        [
+          2560,
+          795
+        ],
+        [
+          2565,
+          790
+        ]
+      ],
+      "width": 12,
+      "native_id": "5154cff171971524"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2565,
+          790
+        ],
+        [
+          2575,
+          760
+        ]
+      ],
+      "width": 12,
+      "native_id": "d793b5fceb24cd24"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2575,
+          760
+        ],
+        [
+          2595,
+          740
+        ]
+      ],
+      "width": 12,
+      "native_id": "54968c8d3aa3af13"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2595,
+          740
+        ],
+        [
+          2595,
+          735
+        ]
+      ],
+      "width": 12,
+      "native_id": "f3f77b351a5b9234"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2595,
+          735
+        ],
+        [
+          2609.0999999999995,
+          720
+        ]
+      ],
+      "width": 12,
+      "native_id": "e6dc577bb9766444"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2609.0999999999995,
+          720
+        ],
+        [
+          2635,
+          680
+        ]
+      ],
+      "width": 12,
+      "native_id": "8f134955c34f9a99"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2635,
+          680
+        ],
+        [
+          2635,
+          675
+        ]
+      ],
+      "width": 12,
+      "native_id": "72ff9ea6eeda5b30"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2635,
+          675
+        ],
+        [
+          2659.0999999999995,
+          650
+        ]
+      ],
+      "width": 12,
+      "native_id": "e8e908a69ea3305a"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2659.0999999999995,
+          650
+        ],
+        [
+          2660,
+          565
+        ]
+      ],
+      "width": 12,
+      "native_id": "3c6687fa827defa3"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2660,
+          565
+        ],
+        [
+          2690,
+          525
+        ]
+      ],
+      "width": 12,
+      "native_id": "8e0524a67e01ecd6"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2690,
+          525
+        ],
+        [
+          2690,
+          520
+        ]
+      ],
+      "width": 12,
+      "native_id": "042bb5ce4b25e8d2"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2690,
+          520
+        ],
+        [
+          2705,
+          505
+        ]
+      ],
+      "width": 12,
+      "native_id": "b07d016aa77f664b"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2705,
+          505
+        ],
+        [
+          2705,
+          500
+        ]
+      ],
+      "width": 12,
+      "native_id": "4cf74616b4e0be0c"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2705,
+          500
+        ],
+        [
+          2720,
+          475
+        ]
+      ],
+      "width": 12,
+      "native_id": "fab11ab1904ef7a4"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2720,
+          475
+        ],
+        [
+          2720,
+          460
+        ]
+      ],
+      "width": 12,
+      "native_id": "81b9f7c097e1adea"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2720,
+          460
+        ],
+        [
+          2725,
+          455
+        ]
+      ],
+      "width": 12,
+      "native_id": "6989b8e7532d5b4d"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2725,
+          455
+        ],
+        [
+          2725,
+          440
+        ]
+      ],
+      "width": 12,
+      "native_id": "8830feddd33e9c85"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2725,
+          440
+        ],
+        [
+          2740,
+          415
+        ]
+      ],
+      "width": 12,
+      "native_id": "86120cb579ce2887"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2740,
+          415
+        ],
+        [
+          2740,
+          395
+        ]
+      ],
+      "width": 12,
+      "native_id": "46196eed861dcb87"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2740,
+          395
+        ],
+        [
+          2745,
+          390
+        ]
+      ],
+      "width": 12,
+      "native_id": "38f2cd8d12d0c6e9"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2745,
+          390
+        ],
+        [
+          2745,
+          340
+        ]
+      ],
+      "width": 12,
+      "native_id": "4c57eed30d7913cb"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2745,
+          340
+        ],
+        [
+          2755,
+          330
+        ]
+      ],
+      "width": 12,
+      "native_id": "ffbd9b15aadfe641"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2755,
+          330
+        ],
+        [
+          2770,
+          295
+        ]
+      ],
+      "width": 12,
+      "native_id": "f4328b826822bd4b"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2770,
+          295
+        ],
+        [
+          2770,
+          220
+        ]
+      ],
+      "width": 12,
+      "native_id": "0398ebe0768e839a"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2770,
+          220
+        ],
+        [
+          2765,
+          210
+        ]
+      ],
+      "width": 12,
+      "native_id": "cd5b6f95251a68e3"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2765,
+          210
+        ],
+        [
+          2765,
+          200
+        ]
+      ],
+      "width": 12,
+      "native_id": "248b7f88b1a7cd15"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2765,
+          200
+        ],
+        [
+          2755,
+          185
+        ]
+      ],
+      "width": 12,
+      "native_id": "d5e7db51d7556379"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2755,
+          185
+        ],
+        [
+          2730,
+          160
+        ]
+      ],
+      "width": 12,
+      "native_id": "2cace5abc808a7fa"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2730,
+          160
+        ],
+        [
+          2725,
+          145
+        ]
+      ],
+      "width": 12,
+      "native_id": "b15c4eca84cb8692"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2725,
+          145
+        ],
+        [
+          2716.5,
+          135
+        ]
+      ],
+      "width": 12,
+      "native_id": "a6f447da8b9a3997"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2716.5,
+          135
+        ],
+        [
+          2715,
+          115
+        ]
+      ],
+      "width": 12,
+      "native_id": "4e03879d846853e3"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2715,
+          115
+        ],
+        [
+          2710,
+          110
+        ]
+      ],
+      "width": 12,
+      "native_id": "9bf9c4a82aef789b"
+    },
+    {
+      "net": "AMP_DIN",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2710,
+          110
+        ],
+        [
+          2709.0999999999995,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "81e85000f106853c"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1124.8,
+          979.9
+        ],
+        [
+          1195,
+          1029.9
+        ]
+      ],
+      "width": 12,
+      "native_id": "0baa3a7b6192762a"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1195,
+          1029.9
+        ],
+        [
+          1345,
+          1030
+        ]
+      ],
+      "width": 12,
+      "native_id": "f083c4d318eeaf10"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1345,
+          1030
+        ],
+        [
+          1385,
+          1060
+        ]
+      ],
+      "width": 12,
+      "native_id": "ac15beadd4a80cf9"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          1385,
+          1060
+        ],
+        [
+          1471.3,
+          1055
+        ]
+      ],
+      "width": 12,
+      "native_id": "9c82ec9bf32bd6ab"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1471.3,
+          1055
+        ],
+        [
+          1509.8,
+          1125
+        ]
+      ],
+      "width": 12,
+      "native_id": "e7bfa6df40d14337"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1509.8,
+          1125
+        ],
+        [
+          1510,
+          1180
+        ]
+      ],
+      "width": 12,
+      "native_id": "f72798f3f8304eaa"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1510,
+          1180
+        ],
+        [
+          1540,
+          1209.8
+        ]
+      ],
+      "width": 12,
+      "native_id": "fea187a3681e4d27"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1540,
+          1209.8
+        ],
+        [
+          2405,
+          1210
+        ]
+      ],
+      "width": 12,
+      "native_id": "c8b87f726b5607b9"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2405,
+          1210
+        ],
+        [
+          2425,
+          1205
+        ]
+      ],
+      "width": 12,
+      "native_id": "d2e0c89b247d74bc"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2425,
+          1205
+        ],
+        [
+          2455,
+          1175
+        ]
+      ],
+      "width": 12,
+      "native_id": "f2e37e421bb45fff"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2455,
+          1175
+        ],
+        [
+          2550,
+          1113
+        ]
+      ],
+      "width": 12,
+      "native_id": "8a711fc94af3e49d"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2550,
+          1113
+        ],
+        [
+          2710,
+          1113
+        ]
+      ],
+      "width": 12,
+      "native_id": "126dde63fd4ebe0d"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2710,
+          1113
+        ],
+        [
+          2716.5,
+          1105
+        ]
+      ],
+      "width": 12,
+      "native_id": "2e4522a1eb60c9ef"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2716.5,
+          1105
+        ],
+        [
+          2716.5,
+          1020
+        ]
+      ],
+      "width": 12,
+      "native_id": "39d0232f355dccf2"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2716.5,
+          1020
+        ],
+        [
+          2709.0999999999995,
+          1000
+        ]
+      ],
+      "width": 12,
+      "native_id": "cc6eff32b723c0ae"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2709.0999999999995,
+          1000
+        ],
+        [
+          2709.0999999999995,
+          495
+        ]
+      ],
+      "width": 12,
+      "native_id": "9174f6d548d45cc1"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2709.0999999999995,
+          495
+        ],
+        [
+          2720,
+          475
+        ]
+      ],
+      "width": 12,
+      "native_id": "a4b39b0be5088e8d"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2720,
+          475
+        ],
+        [
+          2720,
+          240
+        ]
+      ],
+      "width": 12,
+      "native_id": "60e5d00f4dd6816f"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2720,
+          240
+        ],
+        [
+          2715,
+          225
+        ]
+      ],
+      "width": 12,
+      "native_id": "124906fa25c3fd33"
+    },
+    {
+      "net": "AMP_WS",
+      "layer": "TOP",
+      "points": [
+        [
+          2715,
+          225
+        ],
+        [
+          2609.0999999999995,
+          100
+        ]
+      ],
+      "width": 12,
+      "native_id": "36a74e8c81cee3a2"
+    },
+    {
+      "net": "VBAT_SW",
+      "layer": "TOP",
+      "points": [
+        [
+          343.7,
+          157.5
+        ],
+        [
+          393.7,
+          204.3
+        ]
+      ],
+      "width": 32,
+      "native_id": "c525934ba53a805f"
+    },
+    {
+      "net": "VBAT_SW",
+      "layer": "TOP",
+      "points": [
+        [
+          393.7,
+          204.3
+        ],
+        [
+          425,
+          220
+        ]
+      ],
+      "width": 32,
+      "native_id": "8ddb8f777671940d"
+    },
+    {
+      "net": "VBAT_SW",
+      "layer": "TOP",
+      "points": [
+        [
+          425,
+          220
+        ],
+        [
+          460,
+          220
+        ]
+      ],
+      "width": 32,
+      "native_id": "30f41f424a9c0fa6"
+    },
+    {
+      "net": "VBAT_SW",
+      "layer": "TOP",
+      "points": [
+        [
+          460,
+          220
+        ],
+        [
+          500,
+          204.3
+        ]
+      ],
+      "width": 32,
+      "native_id": "bf75448635f862b6"
+    },
+    {
+      "net": "VBAT_SW",
+      "layer": "TOP",
+      "points": [
+        [
+          500,
+          204.3
+        ],
+        [
+          560.2,
+          157.5
+        ]
+      ],
+      "width": 32,
+      "native_id": "4a82c215b5de8537"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "TOP",
+      "points": [
+        [
+          2224.8,
+          979.9
+        ],
+        [
+          2324.8,
+          979.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "911f70a390761f08"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "TOP",
+      "points": [
+        [
+          2324.8,
+          979.9
+        ],
+        [
+          2424.8,
+          979.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "6a1c00c85228943b"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2424.8,
+          979.9
+        ],
+        [
+          2425,
+          980
+        ]
+      ],
+      "width": 40,
+      "native_id": "f9e5dcc02333e8a3"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2425,
+          980
+        ],
+        [
+          2455,
+          1010
+        ]
+      ],
+      "width": 40,
+      "native_id": "fc7c3c0d51ba98b3"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2455,
+          1010
+        ],
+        [
+          2455,
+          1015
+        ]
+      ],
+      "width": 40,
+      "native_id": "483ed0b2e1246dcb"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2455,
+          1015
+        ],
+        [
+          2459.1,
+          1020
+        ]
+      ],
+      "width": 40,
+      "native_id": "5fc00e5f4a025dce"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2459.1,
+          1020
+        ],
+        [
+          2460,
+          1025
+        ]
+      ],
+      "width": 40,
+      "native_id": "9adcf8133b2261e7"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2470,
+          1035
+        ],
+        [
+          2460,
+          1025
+        ]
+      ],
+      "width": 40,
+      "native_id": "93653845025111de"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2470,
+          1035
+        ],
+        [
+          2473.6,
+          1040
+        ]
+      ],
+      "width": 40,
+      "native_id": "f37f0ea8082ab74e"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2473.6,
+          1040
+        ],
+        [
+          2474.8,
+          1045
+        ]
+      ],
+      "width": 40,
+      "native_id": "fcfdfc1ffcf97c64"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2474.8,
+          1045
+        ],
+        [
+          2475,
+          1050
+        ]
+      ],
+      "width": 40,
+      "native_id": "a5530894ad7f9721"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2475,
+          1050
+        ],
+        [
+          2485,
+          1060
+        ]
+      ],
+      "width": 40,
+      "native_id": "27d584a18e7b905a"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2485,
+          1060
+        ],
+        [
+          2485,
+          1065
+        ]
+      ],
+      "width": 40,
+      "native_id": "9de75e5de96d8acd"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2485,
+          1065
+        ],
+        [
+          2505,
+          1085
+        ]
+      ],
+      "width": 40,
+      "native_id": "073736469c57f927"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2505,
+          1085
+        ],
+        [
+          2509.1,
+          1090
+        ]
+      ],
+      "width": 40,
+      "native_id": "7d27c932f01ebc8f"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2509.1,
+          1090
+        ],
+        [
+          2510,
+          1095
+        ]
+      ],
+      "width": 40,
+      "native_id": "55c84d1dc5c9afa4"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2510,
+          1095
+        ],
+        [
+          2520,
+          1105
+        ]
+      ],
+      "width": 40,
+      "native_id": "a2fb89ae2ee3d3f6"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2520,
+          1105
+        ],
+        [
+          2523.6,
+          1109.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "fef2ffeddc707e5e"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2523.6,
+          1109.8
+        ],
+        [
+          2523.6,
+          1110
+        ]
+      ],
+      "width": 40,
+      "native_id": "438b8667fda97836"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2523.6,
+          1110
+        ],
+        [
+          2524.8,
+          1113
+        ]
+      ],
+      "width": 40,
+      "native_id": "109108c7fb5ad302"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2524.8,
+          1113
+        ],
+        [
+          2525,
+          1115
+        ]
+      ],
+      "width": 40,
+      "native_id": "971eee49e4b6cd41"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2525,
+          1115
+        ],
+        [
+          2555,
+          1145
+        ]
+      ],
+      "width": 40,
+      "native_id": "ab9af4ec2a432850"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2555,
+          1145
+        ],
+        [
+          2559.1,
+          1150
+        ]
+      ],
+      "width": 40,
+      "native_id": "7ab7e4d51d3ebd91"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2559.1,
+          1150
+        ],
+        [
+          2560,
+          1150
+        ]
+      ],
+      "width": 40,
+      "native_id": "3b9bc8ac1483d8d3"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2560,
+          1150
+        ],
+        [
+          2565,
+          1155
+        ]
+      ],
+      "width": 40,
+      "native_id": "986188ab7d6c9c6d"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2565,
+          1155
+        ],
+        [
+          2570,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "a726f1f87216a2b3"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2570,
+          1159.8
+        ],
+        [
+          2570,
+          1160
+        ]
+      ],
+      "width": 40,
+      "native_id": "4a062b86a5285fc7"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2570,
+          1160
+        ],
+        [
+          2573.6000000000004,
+          1165
+        ]
+      ],
+      "width": 40,
+      "native_id": "0f8d8bb8646d3cc0"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2573.6000000000004,
+          1165
+        ],
+        [
+          2575,
+          1165
+        ]
+      ],
+      "width": 40,
+      "native_id": "6a1d02318e2716bd"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2575,
+          1165
+        ],
+        [
+          2585,
+          1175
+        ]
+      ],
+      "width": 40,
+      "native_id": "95b2aa1ab42a962c"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2585,
+          1175
+        ],
+        [
+          2590,
+          1175
+        ]
+      ],
+      "width": 40,
+      "native_id": "b46455abd408245a"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2590,
+          1175
+        ],
+        [
+          2595,
+          1180
+        ]
+      ],
+      "width": 40,
+      "native_id": "29debe5ea00652fc"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2595,
+          1180
+        ],
+        [
+          2735,
+          1180
+        ]
+      ],
+      "width": 40,
+      "native_id": "d021caf3d7cfd05d"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2735,
+          1180
+        ],
+        [
+          2740,
+          1175
+        ]
+      ],
+      "width": 40,
+      "native_id": "44d18e640f9e644a"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2740,
+          1175
+        ],
+        [
+          2745,
+          1175
+        ]
+      ],
+      "width": 40,
+      "native_id": "09f5853903807560"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2745,
+          1175
+        ],
+        [
+          2755,
+          1165
+        ]
+      ],
+      "width": 40,
+      "native_id": "f9cead89f2af6742"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2755,
+          1165
+        ],
+        [
+          2759.0999999999995,
+          1160
+        ]
+      ],
+      "width": 40,
+      "native_id": "1cfc2e85395465c0"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2759.0999999999995,
+          1160
+        ],
+        [
+          2760,
+          1159.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "1d403a170e48cec3"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2760,
+          1159.8
+        ],
+        [
+          2765,
+          1155
+        ]
+      ],
+      "width": 40,
+      "native_id": "38b78554474d1414"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2765,
+          1155
+        ],
+        [
+          2770,
+          1155
+        ]
+      ],
+      "width": 40,
+      "native_id": "4dd245586e751e84"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2770,
+          1155
+        ],
+        [
+          2810,
+          1115
+        ]
+      ],
+      "width": 40,
+      "native_id": "6deda807814a2a75"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2810,
+          1115
+        ],
+        [
+          2815,
+          1113
+        ]
+      ],
+      "width": 40,
+      "native_id": "56149d03185a47b9"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2815,
+          1113
+        ],
+        [
+          2816.5,
+          1110
+        ]
+      ],
+      "width": 40,
+      "native_id": "ff42994526e2aee2"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2816.5,
+          1110
+        ],
+        [
+          2816.5,
+          1109.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "494ffa2f6375c598"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2816.5,
+          1109.8
+        ],
+        [
+          2820,
+          1105
+        ]
+      ],
+      "width": 40,
+      "native_id": "ec64c94f809b8621"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2820,
+          1105
+        ],
+        [
+          2825,
+          1100
+        ]
+      ],
+      "width": 40,
+      "native_id": "e3773dd467ab0f9b"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2825,
+          1100
+        ],
+        [
+          2825,
+          1095
+        ]
+      ],
+      "width": 40,
+      "native_id": "2dd52cd4cdc9648b"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2825,
+          1095
+        ],
+        [
+          2830,
+          1090
+        ]
+      ],
+      "width": 40,
+      "native_id": "0ff067e839cba835"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2830,
+          1090
+        ],
+        [
+          2830,
+          1035
+        ]
+      ],
+      "width": 40,
+      "native_id": "982677a62124a506"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2830,
+          1035
+        ],
+        [
+          2825,
+          1030
+        ]
+      ],
+      "width": 40,
+      "native_id": "ddffc3064b7b1d65"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2825,
+          1030
+        ],
+        [
+          2825,
+          1025
+        ]
+      ],
+      "width": 40,
+      "native_id": "7d209aa68549ff92"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2825,
+          1025
+        ],
+        [
+          2820,
+          1020
+        ]
+      ],
+      "width": 40,
+      "native_id": "7c99cf14366402ef"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2820,
+          1020
+        ],
+        [
+          2816.5,
+          1015
+        ]
+      ],
+      "width": 40,
+      "native_id": "03e33a3cb40b6ca6"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2816.5,
+          1015
+        ],
+        [
+          2815,
+          1013
+        ]
+      ],
+      "width": 40,
+      "native_id": "815f8fe917d9113f"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2815,
+          1013
+        ],
+        [
+          2810,
+          1010
+        ]
+      ],
+      "width": 40,
+      "native_id": "450de05076e85603"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2810,
+          1010
+        ],
+        [
+          2780,
+          980
+        ]
+      ],
+      "width": 40,
+      "native_id": "9bbbf154d5a1ad72"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2780,
+          980
+        ],
+        [
+          2780,
+          979.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "6c88539bc5583f0f"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2770,
+          970
+        ],
+        [
+          2780,
+          979.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "14f7483ec5bc1bbd"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2770,
+          970
+        ],
+        [
+          2766.5,
+          965
+        ]
+      ],
+      "width": 40,
+      "native_id": "b39a7f7c07d736e6"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2766.5,
+          965
+        ],
+        [
+          2765,
+          965
+        ]
+      ],
+      "width": 40,
+      "native_id": "f724a7005115e454"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2765,
+          965
+        ],
+        [
+          2760,
+          960
+        ]
+      ],
+      "width": 40,
+      "native_id": "62cbe4c63b1669a5"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2760,
+          960
+        ],
+        [
+          2759.0999999999995,
+          960
+        ]
+      ],
+      "width": 40,
+      "native_id": "6d44b485a07310e1"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2759.0999999999995,
+          960
+        ],
+        [
+          2755,
+          955
+        ]
+      ],
+      "width": 40,
+      "native_id": "4af2c1ca58e5cd76"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2755,
+          955
+        ],
+        [
+          2730,
+          930
+        ]
+      ],
+      "width": 40,
+      "native_id": "acacd0fce1090d26"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2730,
+          930
+        ],
+        [
+          2727.2,
+          929.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "593a970f1ba828a0"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2727.2,
+          929.9
+        ],
+        [
+          2725,
+          929.9
+        ]
+      ],
+      "width": 40,
+      "native_id": "ffd6e0aae82715fa"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2725,
+          929.9
+        ],
+        [
+          2720,
+          925
+        ]
+      ],
+      "width": 40,
+      "native_id": "43a3e5d41631c0ab"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2720,
+          925
+        ],
+        [
+          2716.5,
+          920
+        ]
+      ],
+      "width": 40,
+      "native_id": "8a0071adf4bd5f1e"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2716.5,
+          920
+        ],
+        [
+          2715,
+          920
+        ]
+      ],
+      "width": 40,
+      "native_id": "3dac063c7c5dd665"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2715,
+          920
+        ],
+        [
+          2710,
+          915
+        ]
+      ],
+      "width": 40,
+      "native_id": "6c3b6b34c551b6ff"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2710,
+          915
+        ],
+        [
+          2709.0999999999995,
+          915
+        ]
+      ],
+      "width": 40,
+      "native_id": "b5dfd772de422976"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2709.0999999999995,
+          915
+        ],
+        [
+          2705,
+          910
+        ]
+      ],
+      "width": 40,
+      "native_id": "43e97f235d612496"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2705,
+          910
+        ],
+        [
+          2680,
+          885
+        ]
+      ],
+      "width": 40,
+      "native_id": "d7c9a6746131776a"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2680,
+          885
+        ],
+        [
+          2675,
+          885
+        ]
+      ],
+      "width": 40,
+      "native_id": "cfe3fb82ff8b8f03"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2675,
+          885
+        ],
+        [
+          2670,
+          880
+        ]
+      ],
+      "width": 40,
+      "native_id": "65331f80da28f438"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2670,
+          880
+        ],
+        [
+          2666.5,
+          876.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "7b98b2bdf2a0e30c"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2666.5,
+          876.8
+        ],
+        [
+          2665,
+          875
+        ]
+      ],
+      "width": 40,
+      "native_id": "49194a5e3a8e7f34"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2665,
+          875
+        ],
+        [
+          2660,
+          870
+        ]
+      ],
+      "width": 40,
+      "native_id": "6e791371e45b2ec2"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2660,
+          870
+        ],
+        [
+          2659.0999999999995,
+          870
+        ]
+      ],
+      "width": 40,
+      "native_id": "17815fd75ec18706"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2659.0999999999995,
+          870
+        ],
+        [
+          2655,
+          865
+        ]
+      ],
+      "width": 40,
+      "native_id": "caeac2c42b3976dc"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2655,
+          865
+        ],
+        [
+          2630,
+          840
+        ]
+      ],
+      "width": 40,
+      "native_id": "13474d4235bb31fd"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2630,
+          840
+        ],
+        [
+          2627.2,
+          837.4
+        ]
+      ],
+      "width": 40,
+      "native_id": "f6e98b6547962316"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2627.2,
+          837.4
+        ],
+        [
+          2625,
+          837.4
+        ]
+      ],
+      "width": 40,
+      "native_id": "2fd38cb88d626e5a"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2625,
+          837.4
+        ],
+        [
+          2620,
+          835
+        ]
+      ],
+      "width": 40,
+      "native_id": "e58047cb8264779d"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2620,
+          835
+        ],
+        [
+          2616.5,
+          830
+        ]
+      ],
+      "width": 40,
+      "native_id": "02647eef8413d61c"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2616.5,
+          830
+        ],
+        [
+          2615,
+          830
+        ]
+      ],
+      "width": 40,
+      "native_id": "82bb7a41e16d6092"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2615,
+          830
+        ],
+        [
+          2610,
+          826.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "d073e6578cc7e3d9"
+    },
+    {
+      "net": "+5V_MCU",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2610,
+          826.8
+        ],
+        [
+          2609.0999999999995,
+          826.8
+        ]
+      ],
+      "width": 40,
+      "native_id": "f600fb1c1e085fba"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1309.8,
+          400
+        ],
+        [
+          1309.8,
+          368.5039
+        ]
+      ],
+      "width": 40,
+      "native_id": "325dd081958fbb2e"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1309.8,
+          400
+        ],
+        [
+          1309.8,
+          368.5039
+        ]
+      ],
+      "width": 40,
+      "native_id": "163449ad8b2dae41"
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          1183.5039,
+          170
+        ],
+        [
+          1515,
+          170
+        ]
+      ],
+      "width": 40,
+      "native_id": "37951ae39b3ff200"
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          1215,
+          170
+        ],
+        [
+          1183.5039,
+          170
+        ]
+      ],
+      "width": 40,
+      "native_id": "46485a234ca2ff79"
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          1531.1024,
+          100.0
+        ],
+        [
+          1460.0,
+          50.0
+        ],
+        [
+          1009.8425,
+          50.0
+        ],
+        [
+          931.1024,
+          100.0
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2863.3858,
+          433.0709
+        ],
+        [
+          2863.3858,
+          400.0
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2863.3858,
+          400.0
+        ],
+        [
+          2850.0,
+          385.0
+        ],
+        [
+          2850.0,
+          380.0
+        ],
+        [
+          2820.0,
+          350.0
+        ],
+        [
+          2810.0,
+          329.9213
+        ],
+        [
+          2785.0,
+          305.0
+        ],
+        [
+          2785.0,
+          300.0
+        ],
+        [
+          2770.0,
+          285.0
+        ],
+        [
+          2760.0,
+          265.0
+        ],
+        [
+          2759.0551,
+          130.0
+        ],
+        [
+          2763.3858,
+          120.0
+        ],
+        [
+          2763.3858,
+          80.0
+        ],
+        [
+          2755.0,
+          65.0
+        ],
+        [
+          2740.0,
+          50.0
+        ],
+        [
+          2735.0,
+          50.0
+        ],
+        [
+          2730.0,
+          45.0
+        ],
+        [
+          2235.0,
+          45.0
+        ],
+        [
+          2230.0,
+          40.0
+        ],
+        [
+          1615.0,
+          40.0
+        ],
+        [
+          1610.0,
+          45.0
+        ],
+        [
+          1605.0,
+          45.0
+        ],
+        [
+          1585.0,
+          65.0
+        ],
+        [
+          1570.0,
+          70.0
+        ],
+        [
+          1560.0,
+          80.0
+        ],
+        [
+          1555.0,
+          80.0
+        ],
+        [
+          1535.0,
+          100.0
+        ],
+        [
+          1531.1024,
+          100.0
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2963.3858,
+          629.9213
+        ],
+        [
+          2863.3858,
+          433.0709
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "LCD_3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2813.3858,
+          826.7717
+        ],
+        [
+          2963.3858,
+          629.9213
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2509.0551,
+          826.7717
+        ],
+        [
+          2524.8031,
+          800.0
+        ],
+        [
+          2525.0,
+          755.0
+        ],
+        [
+          2616.5354,
+          630.0
+        ],
+        [
+          2616.5354,
+          440.0
+        ],
+        [
+          2627.1654,
+          415.0
+        ],
+        [
+          2627.1654,
+          355.0
+        ],
+        [
+          2635.0,
+          325.0
+        ],
+        [
+          2655.0,
+          305.0
+        ],
+        [
+          2677.1654,
+          254.3307
+        ]
+      ],
+      "width": 40
+    },
+    {
+      "net": "+5V_LOGIC",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2666.5354,
+          1062.9921
+        ],
+        [
+          2509.0551,
+          826.7717
+        ]
+      ],
+      "width": 40
+    },
+    {
+      "net": "+3V3",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2863.3858,
+          629.9213
+        ],
+        [
+          2705.0,
+          680.0
+        ],
+        [
+          2630.0,
+          740.0
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "+3V3",
+      "layer": "TOP",
+      "points": [
+        [
+          2630.0,
+          740.0
+        ],
+        [
+          2495.0,
+          740.0
+        ],
+        [
+          2340.0,
+          855.0
+        ],
+        [
+          2335.0,
+          895.0
+        ],
+        [
+          2370.0,
+          920.0
+        ]
+      ],
+      "width": 24
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          2963.3858,
+          433.0709
+        ],
+        [
+          2915.0,
+          500.0
+        ],
+        [
+          2890.0,
+          505.0
+        ],
+        [
+          2820.0,
+          565.0
+        ],
+        [
+          2810.0,
+          565.0
+        ],
+        [
+          2770.0,
+          605.0
+        ],
+        [
+          2760.0,
+          625.0
+        ],
+        [
+          2755.0,
+          840.0
+        ],
+        [
+          2759.0551,
+          1015.0
+        ],
+        [
+          2766.5354,
+          1035.0
+        ]
+      ],
+      "width": 40
+    },
+    {
+      "net": "GND",
+      "layer": "BOTTOM",
+      "points": [
+        [
+          2766.5354,
+          1035.0
+        ],
+        [
+          2766.5354,
+          1062.9921
+        ]
+      ],
+      "width": 40
+    },
+    {
+      "net": "GND",
+      "layer": "TOP",
+      "points": [
+        [
+          3013.3858,
+          826.7717
+        ],
+        [
+          2910.0,
+          826.7717
+        ],
+        [
+          2830.0,
+          885.0
+        ],
+        [
+          2790.0,
+          885.0
+        ],
+        [
+          2765.0,
+          865.0
+        ],
+        [
+          2755.0,
+          840.0
+        ]
+      ],
+      "width": 40
+    }
+  ],
+  "vias": [
+    {
+      "net": "GND",
+      "x": 1309.8,
+      "y": 400,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "d7075dabcf8f42b2"
+    },
+    {
+      "net": "GND",
+      "x": 1215,
+      "y": 170,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "df485e4439af6813"
+    },
+    {
+      "net": "LCD_MOSI",
+      "x": 1465,
+      "y": 235,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "f936fd537057f693"
+    },
+    {
+      "net": "LCD_SCLK",
+      "x": 1674.8,
+      "y": 195,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "d8108818a97e5391"
+    },
+    {
+      "net": "LCD_SCLK",
+      "x": 1581.5,
+      "y": 115,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "324d405b6679be90"
+    },
+    {
+      "net": "LCD_SCLK",
+      "x": 1624.8,
+      "y": 80,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "5d528379990dcb03"
+    },
+    {
+      "net": "MIC_SD",
+      "x": 1655,
+      "y": 335,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "3ded2db53e6dd055"
+    },
+    {
+      "net": "MIC_SD",
+      "x": 1755,
+      "y": 329.9,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "82cf43d23407bc12"
+    },
+    {
+      "net": "MIC_WS",
+      "x": 1770,
+      "y": 420,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "d0b71ea676f791f3"
+    },
+    {
+      "net": "MIC_WS",
+      "x": 1815,
+      "y": 380,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "f47d2120f1e8dcdf"
+    },
+    {
+      "net": "MIC_WS",
+      "x": 2065,
+      "y": 170,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "aacf972236b0cd1a"
+    },
+    {
+      "net": "ENC_A",
+      "x": 1675,
+      "y": 390,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "55d5201b725b76a0"
+    },
+    {
+      "net": "ENC_A",
+      "x": 1431.1,
+      "y": 525,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "ee35760083a43a1c"
+    },
+    {
+      "net": "ENC_SW_N",
+      "x": 1830,
+      "y": 795,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "0be08ea9fb2ccde1"
+    },
+    {
+      "net": "AMP_BCLK",
+      "x": 1480,
+      "y": 1209.8,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "fec415977c06ab4c"
+    },
+    {
+      "net": "AMP_DIN",
+      "x": 1745,
+      "y": 925,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "399ff8e40fce6a0b"
+    },
+    {
+      "net": "AMP_DIN",
+      "x": 2305,
+      "y": 925,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "53ea261736f7426f"
+    },
+    {
+      "net": "AMP_DIN",
+      "x": 2370,
+      "y": 876.8,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "365308f8b4e3d5e7"
+    },
+    {
+      "net": "AMP_DIN",
+      "x": 2565,
+      "y": 790,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "158c03362eb03379"
+    },
+    {
+      "net": "AMP_WS",
+      "x": 1385,
+      "y": 1060,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "c9f4297751646bc8"
+    },
+    {
+      "net": "AMP_WS",
+      "x": 1471.3,
+      "y": 1055,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "5276ba0e9339e51e"
+    },
+    {
+      "net": "AMP_WS",
+      "x": 2405,
+      "y": 1210,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "36a3b4f3efad4da4"
+    },
+    {
+      "net": "GND",
+      "x": 1309.8,
+      "y": 368.5039,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "8f5b963536201370"
+    },
+    {
+      "net": "GND",
+      "x": 1183.5039,
+      "y": 170,
+      "diameter": 23.622,
+      "drill": 11.811,
+      "native_id": "8a2b32d1a74ec4d3"
+    },
+    {
+      "net": "+3V3",
+      "x": 2630.0,
+      "y": 740.0,
+      "diameter": 23.62204724409449,
+      "drill": 11.811023622047244
+    }
+  ],
+  "schema": "desktop-assistant.offline-route-candidate.v1",
+  "units": "mil",
+  "source": "../pcb-placed-pads.json",
+  "source_sha256": "971be9c3091c5115ddb4ea567e8552bc44bf6d5ecfd756c5d5012cbc17e3b615",
+  "precise_pad_audit": {
+    "source": "../pcb-free-pads.json",
+    "sha256": "828a351b1e104fd9c1e6576c61d972b262578ac7cec621fcb8b8af98d5f34565",
+    "native_pad_count": 108,
+    "matched_copper_pads": 104,
+    "maximum_center_shift_mil": 0.06051421320662807,
+    "plated_drill_sizes_mil": [
+      31.496,
+      39.37,
+      43.308,
+      47.244
+    ]
+  },
+  "input_components": 24,
+  "input_pads": 104,
+  "tree_repair_attempts": [
+    {
+      "net": "LCD_3V3",
+      "source": "J3.8",
+      "expanded": 1508,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "LCD_3V3",
+      "source": "J10.1",
+      "expanded": 14394,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "LCD_3V3",
+      "source": "JP3.2",
+      "expanded": 1083,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "LCD_3V3",
+      "source": "C5.1",
+      "expanded": 4345,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "+5V_LOGIC",
+      "source": "JP1.1",
+      "expanded": 3803,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "+5V_LOGIC",
+      "source": "J8.1",
+      "expanded": 1568,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "+3V3",
+      "source": "JP3.1",
+      "expanded": 27064,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "GND",
+      "source": "J10.2",
+      "expanded": 22249,
+      "result": "accepted",
+      "accepted": true
+    },
+    {
+      "net": "GND",
+      "source": "C5.2",
+      "expanded": 8936,
+      "result": "accepted",
+      "accepted": true
+    }
+  ],
+  "removed_original_nets": [
+    "+5V_LOGIC"
+  ],
+  "elapsed_seconds": 4.205430542000613,
+  "unrouted": [],
+  "validation_summary": {
+    "status": "PASS_GEOMETRY",
+    "connected_nets": 26,
+    "total_nets": 26,
+    "all_nets_connected": true,
+    "trace_count": 701,
+    "via_count": 25
+  }
+}

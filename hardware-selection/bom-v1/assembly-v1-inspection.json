@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-07",
+  "checked_manifest_entries": 23,
+  "matched_entries": 22,
+  "mismatches": [
+    "desktop-assistant-assembly-v1.blend"
+  ],
+  "verification": "file integrity against existing manifest; no new Blender geometry or motion validation",
+  "blend_sha256": "df56e4b399b337fb912708011ed11bd848c1d052193cc0339aefa19d34459c0a",
+  "expected_blend_sha256": "3987e973de94fb7fd8b52ad92566a54d572742aade9d99db66da6dc19f00d822",
+  "render_count": 8,
+  "print_release": false
+}

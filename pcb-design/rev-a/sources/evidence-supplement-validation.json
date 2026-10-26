@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-08",
+  "checks": [
+    "connected endpoint index matches component pins",
+    "connector CSV matches netlist component pins",
+    "screen VCC is +5V_LOGIC",
+    "screen BLK and carrier pin8 are separate NC points excluded from nets",
+    "40 components and 39 connected nets",
+    "JP2 upstream of R1 confirmed by native design owner; schematic22/PCB21, C2 off board"
+  ],
+  "not_performed": [
+    "EDA ERC",
+    "PCB DRC",
+    "hardware power or logic-level tests"
+  ],
+  "sha256": {
+    "sources/lckfb-schematic-cover.jpg": "67fc8d11276709274fc2ea723c5f4681a13b769b42487e339b4dd089842512c3",
+    "sources/lckfb-schematic-core.jpg": "9865457ccaf16fe36259b5d73031fded78b8c76e9ab326c29594838e329705bf",
+    "sources/selected-display-module-spec.png": "b57a5b6606d98b5e6f6d9a6510f3175e48dd4d9b46e7954482c6628479e2f9f3",
+    "sources/selected-display-module-evidence.json": "c86748ac1de70c9e834516be3bf40fb3a557829e399ba557ad87e6891b4f985c",
+    "03-logical-netlist.json": "b6b7d128614a6274526e5102604acd22d3e8f526345b4b22d66be850513cc0ca",
+    "04-connector-map.csv": "b12ad60ffb2d69d9e01a94461b2a860aafaee4c5b4eb2778ce39e642fe773ad6",
+    "05-electrical-evidence-review.md": "56ce6bc55a187616c8fddf365d5c2eb79842c453cf0ab7d8d139f4fd4a3aed5a"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "revision": "bench-v1",
+  "date": "2026-09-09",
+  "board": "LCKFB ESP32S3R8N8",
+  "board_orientation": "元件面朝上，天线在上，USB 在下；L/R 各列从上到下 1–20。以实物 GPIO 丝印为准。",
+  "flash_mb": 8,
+  "psram_mb": 8,
+  "console": {
+    "baud": 115200,
+    "type": "UART0 via CH340K",
+    "usb_cdc_on_boot": false
+  },
+  "screen_source": "../../pcb-design/native-rev-b/screen-interface.json",
+  "screen": {
+    "model": "TOUGLESY ST7789 2.4 寸 TFT + EC11",
+    "voltage_v": 3.3,
+    "width": 240,
+    "height": 320,
+    "rotation": 3,
+    "inverted": false,
+    "spi_hz": 10000000,
+    "encoder_transitions_per_detent": 4,
+    "pins": [
+      {
+        "pin": 1,
+        "label": "GND",
+        "target": "公共 GND / 电源负极",
+        "gpio": null,
+        "position": "L7 / GND",
+        "kind": "ground",
+        "key": ""
+      },
+      {
+        "pin": 2,
+        "label": "VCC",
+        "target": "外部稳压 3.3 V 正极",
+        "gpio": null,
+        "position": "不接开发板 3V3",
+        "kind": "power",
+        "key": ""
+      },
+      {
+        "pin": 3,
+        "label": "SCL",
+        "target": "GPIO12",
+        "gpio": 12,
+        "position": "L13",
+        "kind": "spi",
+        "key": "LCD_SCLK"
+      },
+      {
+        "pin": 4,
+        "label": "SDA",
+        "target": "GPIO11 / MOSI",
+        "gpio": 11,
+        "position": "L12",
+        "kind": "spi",
+        "key": "LCD_MOSI"
+      },
+      {
+        "pin": 5,
+        "label": "RES",
+        "target": "GPIO21",
+        "gpio": 21,
+        "position": "R10",
+        "kind": "spi",
+        "key": "LCD_RST"
+      },
+      {
+        "pin": 6,
+        "label": "DC",
+        "target": "GPIO14",
+        "gpio": 14,
+        "position": "L15",
+        "kind": "spi",
+        "key": "LCD_DC"
+      },
+      {
+        "pin": 7,
+        "label": "CS",
+        "target": "GPIO13",
+        "gpio": 13,
+        "position": "L14",
+        "kind": "spi",
+        "key": "LCD_CS"
+      },
+      {
+        "pin": 8,
+        "label": "BLK",
+        "target": "同一外部 3.3 V 正极 / 全亮",
+        "gpio": null,
+        "position": "不接 GPIO",
+        "kind": "power",
+        "key": ""
+      },
+      {
+        "pin": 9,
+        "label": "A",
+        "target": "GPIO7",
+        "gpio": 7,
+        "position": "L8",
+        "kind": "input",
+        "key": "ENC_A"
+      },
+      {
+        "pin": 10,
+        "label": "B",
+        "target": "GPIO2",
+        "gpio": 2,
+        "position": "L2",
+        "kind": "input",
+        "key": "ENC_B"
+      },
+      {
+        "pin": 11,
+        "label": "PUSH",
+        "target": "GPIO38",
+        "gpio": 38,
+        "position": "R13",
+        "kind": "input",
+        "key": "ENC_PUSH"
+      },
+      {
+        "pin": 12,
+        "label": "K0 / KEY0",
+        "target": "GPIO40",
+        "gpio": 40,
+        "position": "R11",
+        "kind": "input",
+        "key": "KEY0"
+      }
+    ]
+  },
+  "mic": {
+    "model": "INMP441 (I²S digital, MSM261S4030H0 equivalent)",
+    "supply_v": 3.3,
+    "sample_rate_hz": 16000,
+    "slot_bits": 32,
+    "data_bits": 24,
+    "channel": "left; L/R pin tied to GND",
+    "note": "Module pin order varies by vendor. Verify the silkscreen before wiring; mic swap exists to test a suspected SCK/WS exchange.",
+    "pins": [
+      {
+        "pin": 1,
+        "label": "SCK",
+        "target": "GPIO4",
+        "gpio": 4,
+        "position": "L4",
+        "kind": "i2s",
+        "key": "MIC_BCLK"
+      },
+      {
+        "pin": 2,
+        "label": "WS",
+        "target": "GPIO5",
+        "gpio": 5,
+        "position": "L5",
+        "kind": "i2s",
+        "key": "MIC_WS"
+      },
+      {
+        "pin": 3,
+        "label": "SD",
+        "target": "GPIO6",
+        "gpio": 6,
+        "position": "L6",
+        "kind": "i2s",
+        "key": "MIC_SD"
+      },
+      {
+        "pin": 4,
+        "label": "VDD",
+        "target": "开发板 3V3 (L17 / L18 / L19)",
+        "gpio": null,
+        "position": "L17",
+        "kind": "power",
+        "key": ""
+      },
+      {
+        "pin": 5,
+        "label": "GND",
+        "target": "公共 GND",
+        "gpio": null,
+        "position": "L7",
+        "kind": "ground",
+        "key": ""
+      },
+      {
+        "pin": 6,
+        "label": "L/R",
+        "target": "公共 GND（选左声道，不可悬空）",
+        "gpio": null,
+        "position": "L7",
+        "kind": "ground",
+        "key": "MIC_LR"
+      }
+    ]
+  },
+  "servo": {
+    "model": "MG90S 180° × 2",
+    "count": 2,
+    "supply_v": 5.0,
+    "gpio": 18,
+    "position": "R8",
+    "gpio2": 15,
+    "position2": "R5",
+    "ground_position": "R9 / GND",
+    "frequency_hz": 50,
+    "resolution_bits": 14,
+    "center_us": 1500,
+    "minimum_us": 1000,
+    "maximum_us": 2000,
+    "slew_step_us": 5,
+    "slew_interval_ms": 20,
+    "timeout_ms": 10000,
+    "production_note": "GPIO18/GPIO15 仅用于桌面双舵机试验，RevB 上该位未连接；整机八舵机通过 PCA9685。"
+  },
+  "onboard": {
+    "led_gpio": 48,
+    "led_active_low": true,
+    "boot_gpio": 0,
+    "boot_active_low": true
+  }
+}

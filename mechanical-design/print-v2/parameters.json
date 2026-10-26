@@ -1,0 +1,38 @@
+{
+  "units": "mm",
+  "status": "FIT_COUPONS_ONLY__NOT_COMPLETE_ROBOT_RELEASE",
+  "display": {
+    "pcb_nominal_mm": [91, 44],
+    "hole_pitch_nominal_mm": [84.5, 37.5],
+    "hole_nominal_diameter_mm": 3,
+    "source": "Selected TOUGLESY product nominal drawing, not measured",
+    "jig_outer_mm": [97, 50, 3],
+    "jig_inner_mm": [77, 28],
+    "jig_clearance_hole_mm": 3.2,
+    "note": "Open bench hole-pitch test frame; not the final display mount or screen window. No active-area assumption."
+  },
+  "nut_coupons": [
+    {"id": "T02", "thread": "M2", "outer_mm": [48, 22, 4], "nominal_nut_af_mm": 4.0, "pocket_af_mm": [4.1, 4.2, 4.3], "pocket_depth_mm": 2.1, "through_hole_mm": 2.3, "x_mm": [-15, 0, 15]},
+    {"id": "T03", "thread": "M3", "outer_mm": [56, 22, 5], "nominal_nut_af_mm": 5.5, "pocket_af_mm": [5.6, 5.7, 5.8], "pocket_depth_mm": 2.9, "through_hole_mm": 3.3, "x_mm": [-18, 0, 18]}
+  ],
+  "servo_gauges": [
+    {"id": "T04A", "opening_mm": [23.4, 12.8], "wall_mm": 4.0, "height_mm": 6.0},
+    {"id": "T04B", "opening_mm": [23.8, 13.2], "wall_mm": 4.0, "height_mm": 6.0},
+    {"id": "T04C", "opening_mm": [24.2, 13.6], "wall_mm": 4.0, "height_mm": 6.0}
+  ],
+  "servo_note": "Body opening gauges derived from unverified generic MG90S envelope; no flange hole, spline, horn or load compatibility claim. Do not force the case into the gauge.",
+  "pcb_interface_proposal": {
+    "status": "PROPOSED_NOT_FROZEN",
+    "outline_mm": [80, 32],
+    "thickness_mm": 1.6,
+    "pcb_local_origin": "lower-left in top view; u right, v rear, w up",
+    "world_transform_mm": "X=u-40; Y=v-6; Z=w+40.0",
+    "mount_holes_local_mm": [[5,5],[75,5],[75,27],[5,27]],
+    "mount_hole_diameter_mm": 3.2,
+    "mount_hole_keepout_radius_mm": 4,
+    "target_component_top_world_z_mm": 60,
+    "connector_and_antenna_clearance": "To be supplied by PCB task; no all-components fit claim"
+  },
+  "battery_target_only": {"body_mm": [75,40,20], "mass_g_max":80, "note":"Seller actual dimensions pending; no fitted tray yet"},
+  "front_controls": {"decision":"User approved rear relocation design; physical desoldering not yet performed", "keep_original_pcb":true, "glass_recess_target_mm":[0.5,1.0]}
+}

@@ -1,0 +1,34 @@
+# 爬爬桌面助手 · 中转服务
+# 部署在 sub2api-US (154.201.78.199)
+#
+# 用法：
+#   cd /opt/papa && docker compose up -d --build
+#
+# 端口只绑 127.0.0.1，由 nginx (papa.papaclaoud.top) 反代，不直接暴露公网。
+
+services:
+  relay:
+    build: ./server
+    image: papa-relay:latest
+    container_name: papa-relay
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8790:8790"
+    environment:
+      PAPA_PORT: "8790"
+      PAPA_USER: "${PAPA_USER}"
+      PAPA_PASS: "${PAPA_PASS}"
+      PAPA_DEVICE_KEY: "${PAPA_DEVICE_KEY}"
+      PAPA_TOKEN_SECRET: "${PAPA_TOKEN_SECRET}"
+      PAPA_TOKEN_TTL_H: "168"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - papa-net
+
+networks:
+  papa-net:
+    driver: bridge

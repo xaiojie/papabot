@@ -1,0 +1,28 @@
+{
+  "source_blend": "DesktopAssistant-整机结构-A2.blend",
+  "comparisons": [
+    {
+      "candidate": "M3 head envelope",
+      "diameter_mm": 6.0,
+      "height_mm": 2.4,
+      "conflicts": [
+        {
+          "xy_mm": [
+            -35,
+            3
+          ],
+          "header": "REF_CURRENT__REF_J9_pin_header_body_NOMINAL",
+          "volume_mm3": 1.85449
+        }
+      ]
+    },
+    {
+      "candidate": "M2 small head envelope",
+      "diameter_mm": 4.0,
+      "height_mm": 2.0,
+      "conflicts": []
+    }
+  ],
+  "minimum_nominal_M2_head_to_J9_body_gap_mm": 0.46,
+  "scope": "PCB top screw heads versus nominal header plastic bodies; received hardware unmeasured"
+}

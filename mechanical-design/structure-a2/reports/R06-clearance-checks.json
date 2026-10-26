@@ -1,0 +1,20 @@
+{
+  "pcb_outline_source": "/Users/jay/work/自研桌面助手/ESP32-desktop-assistant-handoff/pcb-design/native-rev-a/carrier-definition.json",
+  "pcb_mount_centres_match_native": true,
+  "base_mount_centres_unchanged": true,
+  "frame_to_battery_top_gap_mm": 3.0,
+  "frame_to_strap_top_gap_mm": 2.0,
+  "frame_to_3mm_solder_tail_gap_mm": 2.0,
+  "pcb_support_contact_diameter_mm": 5.6,
+  "checked_solder_tails": 98,
+  "solid_intersections_above_0p001_mm3": [],
+  "physical_fit_tested": false,
+  "slicer_tested": false,
+  "limits": [
+    "Battery envelope is the supplier target, not a received pack.",
+    "No RF/thermal/load test.",
+    "Female header plastic height known; male spacer/stack insertion not measured.",
+    "Current R01 shell USB opening is an old left-side proposal and must be revised to match the right-side controller USB."
+  ],
+  "cad_checks_pass": true
+}

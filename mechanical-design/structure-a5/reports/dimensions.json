@@ -1,0 +1,44 @@
+{
+  "body_xyz_mm": [
+    124,
+    112,
+    76
+  ],
+  "standing_xyz_mm": [
+    162.9,
+    116.5,
+    122.46
+  ],
+  "min_xyz_mm": [
+    -81.44999694824219,
+    -58.25,
+    -1.7462297137171845e-06
+  ],
+  "max_xyz_mm": [
+    81.44999694824219,
+    58.25,
+    122.46000671386719
+  ],
+  "pose": "saved neutral standing pose; includes pads and ears, excludes external cable",
+  "pcb_transform": "X=u-55; Y=v-33.5; Z=80.5+w",
+  "pcb_mm": [
+    110,
+    75,
+    1.6
+  ],
+  "pcb_bottom_z_mm": 80.5,
+  "pcb_hole_pitch_xy_mm": [
+    102,
+    67
+  ],
+  "a4_body_xyz_mm": [
+    94,
+    132,
+    76
+  ],
+  "a4_standing_xyz_mm": [
+    174.9,
+    154.75,
+    122.46
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-08",
+  "file": "00-整机配件采购核对.xlsx",
+  "sheets": 1,
+  "columns": 8,
+  "review_rows": 42,
+  "status_counts": {
+    "待确认定制": 1,
+    "待加购": 1,
+    "自备或补购": 2,
+    "待选小包装": 3,
+    "待电路定型": 3,
+    "待结构尺寸": 7,
+    "待PCB打样": 1,
+    "待试样打印": 1,
+    "待整套打印": 1,
+    "已加购": 9,
+    "已列立创BOM": 10,
+    "随电池确认": 1,
+    "费用另计": 2
+  },
+  "known_priced_rows": 20,
+  "known_subtotal_cny": 369.64,
+  "all_42_engineering_records_covered_once": true,
+  "purchase_inputs_unchanged": true,
+  "purchase_input_sha256": {
+    "01-立创商城-BOM导入.xlsx": "83caaaf752e2bd71f4888ba88c8e093c8f1aba2576d3a6be60e1d3cb982fb767",
+    "02-淘宝天猫-采购清单.xlsx": "7f9007cb573a8f4744738857a0b5a913eb3a5443e71dcef6c456265941aa83fa"
+  },
+  "cart_snapshot_reused_not_refreshed": true,
+  "empty_amount_means_unquoted_not_free": true,
+  "new_orders_or_cart_changes": false,
+  "status": "passed"
+}

@@ -1,0 +1,46 @@
+FAIL line 18: b.update(false, 150)
+FAIL line 19: b.pressed()
+FAIL line 25: b.update(false, 1030)
+FAIL: button bounce does not multiply presses
+FAIL line 33: b.update(false, 24)
+FAIL line 36: b.pressed()
+FAIL: button startup and millis wrap
+FAIL line 45: e.count() == 1
+FAIL: encoder full cycle and direction
+FAIL line 60: e.count() == 1
+FAIL line 63: e.count() == 1
+FAIL: encoder bounce and illegal transitions
+FAIL line 70: p.arm(0)
+FAIL line 71: p.armed()
+FAIL line 77: p.setTarget(1400, 10)
+FAIL line 78: p.setTarget(1600, 10)
+FAIL: servo arm and pulse bounds
+FAIL line 89: p.current() == 1505
+FAIL line 90: p.current() == 1510
+FAIL line 92: p.current() == 1507
+FAIL line 94: p.current() == 1502
+FAIL: servo bounded slew
+FAIL line 102: p.armed()
+FAIL line 103: p.tick(10000)
+FAIL: invalid commands cannot prolong PWM
+FAIL line 110: p.setTarget(1500, 9000)
+FAIL line 111: p.armed()
+FAIL: valid commands and deadline
+FAIL line 121: p.armed()
+FAIL line 122: p.tick(9984)
+FAIL: servo millis rollover
+FAIL line 126: parseCommand("servo pulse 1500").kind == CommandKind::ServoPulse
+FAIL line 127: parseCommand("servo pulse 1500").value == 1500
+FAIL line 134: parseCommand("screen rotation 3").kind == CommandKind::ScreenRotation
+FAIL line 135: parseCommand("screen invert 1").kind == CommandKind::ScreenInvert
+FAIL line 136: parseCommand("encoder divisor 2").kind == CommandKind::EncoderDivisor
+FAIL line 138: parseCommand("  stop \r ").kind == CommandKind::Stop
+FAIL line 139: parseCommand("\t \r").kind == CommandKind::Empty
+FAIL: strict command parsing
+FAIL line 146: b.push('\n') == LineEvent::Overflow
+FAIL line 149: b.push('\r') == LineEvent::Ready
+FAIL line 150: std::strcmp(b.line(), "stop") == 0
+FAIL line 153: b.push('\n') == LineEvent::Ready
+FAIL line 154: std::strcmp(b.line(), "help") == 0
+FAIL: serial overflow discards entire line
+11 cases, 196 checks, 34 failures

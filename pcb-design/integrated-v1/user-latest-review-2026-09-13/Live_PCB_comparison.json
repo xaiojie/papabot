@@ -1,0 +1,276 @@
+{
+  "checked_at": "2026-09-13T18:41:03.517248+08:00",
+  "source_sha256": "46dc44a5512a76a34095a4ad1d3e2c50f8c403e97d0f1298f5a44988ceead21d",
+  "project_uuid": "50ae04bdafb74b93b94b7cc4c08171e1",
+  "pcb_uuid": "bc31667e02a33e5b",
+  "electrical_and_geometry_records_identical": true,
+  "counts": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 60,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 60,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 84,
+    "PAD": 4,
+    "LINE": 787,
+    "REGION": 10,
+    "POLY": 1,
+    "FILL": 10,
+    "STRING": 13,
+    "COMPONENT": 79,
+    "ATTR": 256,
+    "PAD_NET": 310
+  },
+  "silkscreen_changes": [
+    {
+      "id": "646a6303f01acc3b",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2047.2441,
+        "y": -2440.9449,
+        "text": "DesktopAssistant",
+        "fontFamily": "default",
+        "fontSize": 53.1496,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": true,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2100,
+        "y": -2660,
+        "text": "DesktopAssistant",
+        "fontFamily": "default",
+        "fontSize": 53.1496,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": false,
+        "zIndex": -1,
+        "specialColor": null
+      }
+    },
+    {
+      "id": "2ab80fa9d311f03c",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2047.2441,
+        "y": -2559.0551,
+        "text": "Integrated V1.2",
+        "fontFamily": "default",
+        "fontSize": 45.2756,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": true,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2450,
+        "y": -2600,
+        "text": "Integrated V1.2",
+        "fontFamily": "default",
+        "fontSize": 45.2756,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": false,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      }
+    },
+    {
+      "id": "05073a2e99d42a52",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2047.2441,
+        "y": -2649.6063,
+        "text": "2S / 2oz / 1.6mm",
+        "fontFamily": "default",
+        "fontSize": 37.4016,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": true,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2060,
+        "y": -2600,
+        "text": "2S / 2oz / 1.6mm",
+        "fontFamily": "default",
+        "fontSize": 37.4016,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": false,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      }
+    },
+    {
+      "id": "c9a32be8e93c6a89",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 1889.7638,
+        "y": -2755.9055,
+        "text": "Jay",
+        "fontFamily": "default",
+        "fontSize": 59.0551,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": true,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 3,
+        "x": 2255,
+        "y": -2545,
+        "text": "小皖子和爬爬 2026 0913设计",
+        "fontFamily": "Al Bayan Bold",
+        "fontSize": 59.0551,
+        "strokeWidth": 5.9055,
+        "bold": 0,
+        "italic": 0,
+        "origin": "CENTER_MIDDLE",
+        "angle": 0,
+        "reverse": false,
+        "expansion": 0,
+        "mirror": false,
+        "locked": true,
+        "zIndex": -1,
+        "specialColor": "#000000"
+      }
+    }
+  ],
+  "non_design_metadata_changes": [
+    {
+      "type": "DOCHEAD",
+      "fields": [
+        "client",
+        "version",
+        "updateTime"
+      ]
+    },
+    {
+      "type": "FILL",
+      "id": "0194c6c2c232e4e3",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "ac8e4fb0c2d39bba",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "63111caccbcc973a",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "21541b23e39042be",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "f59e430b28eb8bf9",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "d886472ff5cd9e15",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "4c659cc4f820bd57",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "3b6149a18c10c40a",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "766274f32999c3b9",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    },
+    {
+      "type": "FILL",
+      "id": "ee1e975cfa90a6b1",
+      "normalization": "refs [null] to null; shape, layer, net and all other values identical"
+    }
+  ],
+  "prior_user_edits_preserved": true,
+  "pcb_mutations_performed": false
+}

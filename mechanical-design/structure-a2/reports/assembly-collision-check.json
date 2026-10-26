@@ -1,0 +1,13 @@
+{
+  "checked_scene": "10_A2_COMPLETE_ASSEMBLY",
+  "print_part_count": 32,
+  "purchased_envelopes_checked": 177,
+  "solid_intersection_pairs_checked": 363,
+  "conflicts_over_0p05_mm3": [],
+  "physical_fit_tested": false,
+  "limits": [
+    "Nominal purchased dimensions and reserved connector volumes are not received-part measurements.",
+    "Contact at shared mounting planes is allowed; report threshold 0.05mm3.",
+    "This static rest-pose pass does not validate strength or full range of motion."
+  ]
+}

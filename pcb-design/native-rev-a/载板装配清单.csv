@@ -1,0 +1,23 @@
+﻿位号,名称或规格,数量,安装位置,封装模板,备注
+C1,100nF 50V P5.08,1,PCB,CAP-TH_L5.0-W2.5-P5.08-D0.7,
+C3,100nF 50V P5.08,1,PCB,CAP-TH_L5.0-W2.5-P5.08-D0.7,
+C4,100nF 50V P5.08,1,PCB,CAP-TH_L5.0-W2.5-P5.08-D0.7,
+J1,MCU_LEFT_20P,1,PCB,HDR-TH_20P-P2.54-V-F,C429947 / JILN 22850120ANG1SYA01；单排20P、2.54mm、塑高8.5mm；两排安装间距17.78mm。
+J2,MCU_RIGHT_20P,1,PCB,HDR-TH_20P-P2.54-V-F,C429947 / JILN 22850120ANG1SYA01；单排20P、2.54mm、塑高8.5mm；两排安装间距17.78mm。
+J3,LCD_5V_SPI,1,PCB,HDR-TH_8P-P2.54-V-M,"TOUGLESY 2.4 TFT: match signal names at module. BLK left open, default full brightness."
+J4,PCA9685_LOGIC_ONLY,1,PCB,HDR-TH_5P-P2.54-V-M,VCC 3.3V. OE high=disabled. Module V+ and servo red wires use external power distribution.
+J5,MIC_3V3_I2S,1,PCB,HDR-TH_6P-P2.54-V-M-1,"Pin 6 is microphone LR, grounded for left channel. Match module silk, not cable position."
+J6,AMP_I2S_SIGNALS,1,PCB,HDR-TH_4P-P2.54-V-M,MAX98357 power uses short external UBEC branch. SD_MODE keeps module default.
+J7,REAR_DRY_CONTACTS,1,PCB,HDR-TH_7P-P2.54-V-M,Desolder original EC11 and key. Verify dry contacts with continuity meter before connecting.
+J8,LOGIC_5V_IN,1,PCB,HDR-TH_2P-P2.54-V-M-1,UBEC 3A set to 5V. Carrier input excludes amplifier branch and all servo currents.
+J9,SWITCHED_BAT_SENSE,1,PCB,HDR-TH_2P-P2.54-V-M-1,Sense only: connect after main switch. Never connect to unswitched battery.
+JP1,MCU_POWER_LINK,1,PCB,HDR-TH_2P-P2.54-V-M-1,Solder wire link for standalone battery operation. USB VBUS is NOT isolated. Remove MCU to USB program.
+JP2,BAT_SENSE_LINK,1,PCB,HDR-TH_2P-P2.54-V-M-1,Solder link only after battery/MCU power-up verification. Open for standalone USB operation.
+R1,100k 1% 0.25W,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,
+R2,33k 1% 0.25W,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,
+R3,10k 1% OE pull-up,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,Check/remove module OE pull-down if fitted; verify OE remains high at boot.
+R4,10k 1% 0.25W,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,
+R5,10k 1% 0.25W,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,
+R6,10k 1% 0.25W,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,
+R7,10k 1% 0.25W,1,PCB,RES-TH_BD2.7-L6.2-P10.20-D0.4,
+C2,470µF 16V,1,板外UBEC/功放供电分支,不占PCB位置,电解电容注意极性；已在原理图保留，不在PCB贴装/插件清单中

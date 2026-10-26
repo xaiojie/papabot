@@ -1,0 +1,77 @@
+{
+  "revision": "A5",
+  "units": "mm",
+  "body_xyz": [
+    124,
+    112,
+    76
+  ],
+  "body_z": [
+    30,
+    106
+  ],
+  "wall": 2.4,
+  "floor_thickness": 4.6,
+  "pcb_xyz": [
+    110,
+    75,
+    1.6
+  ],
+  "pcb_bottom_z": 80.5,
+  "pcb_center_xy": [
+    0,
+    4
+  ],
+  "pcb_holes_xy": [
+    [
+      -51,
+      -29.5
+    ],
+    [
+      -51,
+      37.5
+    ],
+    [
+      51,
+      -29.5
+    ],
+    [
+      51,
+      37.5
+    ]
+  ],
+  "pcb_transform": "X=u-55; Y=v-33.5",
+  "screen_module_xyz": [
+    72.26,
+    3.7,
+    43
+  ],
+  "front_outer_y": -56,
+  "bezel_recess": 0.3,
+  "glass_recess": 2.5,
+  "outer_protective_window_recess": 0.45,
+  "protective_PC_sheet": [
+    57,
+    42,
+    0.8
+  ],
+  "standing_outer_foot_width": 162.9,
+  "battery_nominal": [
+    32,
+    60,
+    16
+  ],
+  "purchased_servo_case": [
+    22.5,
+    12.2,
+    22.8
+  ],
+  "physical_fit_tested": false,
+  "important_limits": [
+    "Screen PDF table/drawing title and AA/VA disagree; adjustable clamping used.",
+    "Low profile or right-angle screen harness required; plug body reserve 7.7 mm.",
+    "C165948 USB footprint compatibility is not proven by this mechanical model.",
+    "DFR0753, microphone and switch are replaceable provisional envelopes.",
+    "Servo torque, continuous movement and thermal performance need hardware tests."
+  ]
+}

@@ -1,0 +1,372 @@
+PAGE 1
+深圳市汉昇实业有限公司 
+深圳市汉昇实业有限公司
+ SHENZHEN HANSHENG INDUSTRAIL CO.LTD., 
+HS24S010B 
+规格书 
+ DATASHEET 
+汉昇
+HS
+制作 审核 批准
+ 
+版本：VER 1.0 
+深圳市汉昇实业有限公司
+地址：深圳市南山区西丽镇牛成村 208 栋亿莱工业大厦 5 楼
+电话：0755-86114312/86114313/86114313
+传真：0755-86114314 
+网址：www.hslcm.com
+
+PAGE 2
+深圳市汉昇实业有限公司 
+1. 概述 ………………………………………………………………………….2 
+2. 特点 ………………………………………………………………………….2 
+3. 外形及接口引脚功能 ……………………………………………………….3 
+4. 基本原理……………………………………………………………………….5 
+5. 技术参数……………………………………………………………………….5 
+6. 时序特性……………………………………………………………………….6 
+7. 指令功能……………………………………………………………………….11 
+
+PAGE 3
+Page 2 
+Revised History
+Part Number Revisio
+n
+Revision Content Revised on 
++66% A 201-0-21
+ 
+
+PAGE 4
+Page 3
+Contents
+Revision History
+Contents
+1. General Description
+2. Mechanical Drawing
+3. Pin Description
+4. Electrical Characteristics
+5. Optical Characteristics
+6. Reliability
+7. Package Specifications
+8. Incoming Inspection standards
+9. Precautions When Using These TFT Display Modules
+10. Warranty
+11. Notice
+
+PAGE 5
+Page 4 
+1. General Description
+1.1 Description 
+ HS20S010B is a 240RGBX320 dot-matrix TFT LCD module. This module is composed of a TFT 
+LCD Panel, driver ICs, FPC and a Backlight unit. 
+1.2 Features 
+NO. Item Contents Unit
+1 LCD Size 2. inch
+2 Display Mode Normally black -
+3 Resolution 240(H)RGB x320(V) pixels
+4 Pixel pitch 0.1275(H) x 0.1275(V) mm
+5 Active area 3.(H) x 4.(V) mm
+6 Module size 3.(H) x .2(V) x.(D) mm
+7 Pixel arrangement RGB Vertical stripe -
+8 Interface 4 Line SPI -
+9 Display Colors 65K colors
+10 Drive IC ST7789V2 -
+11 FONT IC GT30L32S4W 
+12 Luminance(cd/m2) 400 (TYP) Cd/m2
+13 Viewing Direction All View Best image
+14 Backlight 4 White LED Parallel -
+15 Operating Temp. -20℃~ + 70℃ ℃
+16 Storage Temp. -30℃~+ 80℃ ℃
+17 Weight 11 g
+
+PAGE 6
+
+
+PAGE 7
+Page 6 
+3. Pin Definition 
+Symbol Symbol Description
+1 GND Power Ground.
+2 VCC Power Supply for Analog 3.3V
+3 SCL This pin is used to be serial interface clock.
+4 SDA SPI interface input/output pin.
+5 RES This signal will reset the device, Signal is active low.
+6 DC Display data/command selection pin in 4-line serial interface.
+8 BLK Backlight control switch, backlight on by default, low level off backlight
+9 FSO Font database data output
+7 CS LCD Chip selection pin, Low enable, High disable
+10 FCS FONT IC Chip selection pin, Low enable, High disable
+
+PAGE 8
+Page 7
+4. Electrical Characteristics 
+4.1 Absolute Maximum Ratings 
+Parameter Symbol Min MAX Unit Notes
+Supply Voltage (I/O) VDD -0.3 4.6 V
+Analog Supply Voltage VDDIO -0.3 4.6 V
+Logic Input Voltage VIN -0.3 VDDIO+0.5 V
+Operation Temperature Top -20 70 ℃
+Storage Temperature Tst -30 80 ℃
+4.2 Operating Conditions 
+Parameter Symbol Min TYP MAX Unit Notes
+System Voltage VDD 2.5 2.8 3.3 V
+Gate Driver High Voltage VGH 12.2 - 14.97 V
+Gate Driver Low Voltage VGL -12.5 - -7.16 V
+Operating Current for VDD IDD - 8 10 mA
+Sleep_In Mode VDD I dd - 15 30 uA
+Sleep_In Mode VDDIO I ddio - 5 10 uA
+4.3 Backlight Unit 
+Parameter Symbol Min TYP MAX Unit Notes
+Voltage for LED backlight VLED 2.9 3.0 3.1 V
+Current for LED backlight ILED - 80 120 mA 4 LED
+Power Consumption Pbl - 240 372 mW 1
+Brightness Lbr 350 400 - cd/m2 2
+LED Life time - 20000 - - hr 3
+ 
+Note: 
+1. Where ILED =80mA , VLED=3.0V , Pbl= ILED x VLED 
+2. Uniform measure condition: 
+a:Measure 9 point ,Measure location is show below: 
+b:Uniform=(Min brightness/Max brightness)x100% 
+c:Best Contrast. 
+2W/3 
+ W/3
+Active area(W) 
+3. The environmental conducted under ambient air flow ,at Ta=25±2o
+C,60%RH±5% 
+2H/3
+H/3
+Active area(H)
+
+PAGE 9
+Page 8
+4.4 Backlight Recommended Circuit 
+Motherboard driver backlight is need constant current circuit , if threated voltage screen after light 
+brightness difference . Current and power consumption of the machine are inconsistent , so recommend a 
+backlight driving circuit is best rated current . It is recommended to use IC (AW9364) . The reference circuit 
+is as follows: 
+4.5 AC Timing Characteristic of The LCD 
+Serial interface Characteristics(4-line serial): 
+
+PAGE 10
+Page 9
+5. OPTICAL CHARACTERISTICS 
+Item Symbol Measuring 
+Conditions Min. Typ. Max. Unit Remark
+Viewing Angle
+  = 0o 25 o
+C - 80 -
+Deg Note1  =180o 25 o
+C - 80 -
+  = 90o 25 o
+C - 80 -
+ =270o 25 o
+C - 80 -
+Brightness Lbr -- - 350 400 - Cd/m2
+Luminance 
+Uniformity ∆L -- - 70 75 - 
+Contrast Ratio CR -- 25 o
+C 640 800 - -- Note2
+Response 
+Time Tr+Tf  = 0o
+ = 0o
+25 
+o
+C
+- 30 40 ms Note3
+Color of 
+CIE 
+Coordinate
+White X 25 o
+C
+-0.03
+0.296
++0.03 -- BM-7A
+Y 25 o
+C 0.325
+Red
+X 25 o
+C 0.647
+Y 25 o
+C 0.329
+Green
+X 25 o
+C 0.279
+Y 25 o
+C 0.550
+Blue
+X 25 o
+C 0.134
+Y 25 o
+C 0.123
+Transmittance 
+(with polarizer) -- -- -- - 4.5 - % --
+Note 1 Definition of Viewing Angle: 
+Θ U 
+12’ 
+o’cloc 
+Θ Θ
+Φ 180o 
+Θ D 
+Φ =0o 
+Note 2:Definition of Contrast Ratio (CR) : 
+measured at the center point of panel 
+6’ o’clock 
+Φ =270o 
+CR = 
+Luminance with all pixels white 
+Luminance with all pixels black 
+
+PAGE 11
+Page 10
+Note 3: Definition of Response Time : Sum of Tr and Tf : 
+6. Reliability
+Contents of Reliability Tests 
+No. Item Conditions Note
+1 High Temperature Operation 70C±2C, 120 hrs
+2 Low Temperature Operation -20C±2C, 120 hrs
+3 High Temperature Storage 80C±2C, 120 hrs
+4 Low Temperature Storage -30C±2C, 120 hrs
+5 High Temperature 
+/Humidity Operation 60C±2C, 90% RH, 120 hrs
+6 Temperature Cycling
+-10°C→25°C→60°C→25°C→-10°C 
+30min 5min 30min 5min 30min 
+10 cycle.
+7 Vibration Test
+Total fixed amplitude:1.5mm. 
+Vibration Frequerncy:10~55Hz 
+One cycle 60 seconds to 3 direction of X,Y,Z each 
+15 minutes.
+8 ESD Test Air Discharge:Apple ±4KV with 5 times.
+Contact Discharge:Apple ±2KV with 5 times.
+9 Drop Test
+Note: 
+No charge on display and in operation under the following test condition. 
+Please note that the reliability test project requires the use of virgin samples 
+Condition : Unless otherwise specified ,tests will be conducted under the following condition. 
+Temperature:20C±5C. 
+Humidity:65±5%RH. 
+Tests will be not conducted under functioning state. 
+
+PAGE 12
+Page 11
+7. Package Specifications
+Item Quantity
+Module 300 per Primary Box
+Holding Trays (A) 15 per Primary Box
+Total Trays (B) 16 per Primary Box (Including 1 Empty Tray)
+Primary Box (C) 1~4 per Carton (4 as Major / Maximum)
+
+PAGE 13
+Page 12
+8. Incoming Inspection Standards
+8.1. Inspection and Environment Conditions
+8.1.1. Inspection Conditions:
+(1) Inspection Distance :35 cm±5cm
+(2) View Angle : Light-on Inspection Angle: ±5°
+Cosmetic Inspection Angle: ±45° 
+°
+(perpendicular to LCD panel surface) 
+8.1.2 Environment Conditions:
+Ambient Temperature 23℃±5℃
+Ambient Humidity 55±10％RH
+Ambient Illumination
+Cosmetic Inspection 
+Functional Inspection
+More than 600 Lux 
+300~500 Lux
+8.1.3 Sampling Conditions:
+（1） Lot Size:Quantity of shipment lot per model 
+（2） Sampling Method: 
+Sampling Plan
+MIL-STD-105E
+Normal Inspection，Single Sampling
+Level II
+AQL Major Defect 
+Minor Defect
+0.65% 
+1.5%
+
+PAGE 14
+Page 13
+8.1.4 Inspection Criteria
+8.1.4.1 Cosmetic Inspection(Panel):
+Check Item Classification Criteria(Unit: mm)
+Black / White spot
+Foreign material
+(Round type) 
+Pinholes Stain
+Minor
+Particles inside cell.
+Distance between 2 defects should more than 5mm apart.
+Black and White line
+Scratch
+Foreign material Minor
+(Line type)
+Distance between 2 defects should more than 5mm apart.
+Scratches not viewable through the back of the display are
+acceptable.
+Glass Crack Minor
+LCD with extensible crack line is unacceptable(When press the
+cracked LCD Area, the line will expand,we define it is extensible
+crack line)
+Glass Chipping Pad
+Area
+Minor
+
+PAGE 15
+Page 14
+Check Item Classification Criteria(Unit: mm)
+Glass Chipping Rear
+Of Pad Area
+Minor
+Glass Chipping
+Except Pad Area
+Minor
+Glass Corner Chipping
+Minor
+Glass Burr
+Glass burr don’t affect assemble and module dimension.
+Minor
+FPC Defect
+1.Dent , pinhole width a＜W/2.
+Minor ( W:circuitry width) 
+2.Open circuit is unacceptable.
+3.No oxidation, contamination and distortion.
+Bubble on Polarizer Minor
+
+PAGE 16
+Page 15
+Check Item Classification Criteria(Unit: mm)
+Dent on Polarizer Minor
+Test for insertion of plug gauge at highest warping point: 
+H≤0.25mm 
+The client has special requirements, according to drawing. 
+1. No rust, distortion on the Bezel. 
+2. No visible fingerprints, stains or other contamination. 
+D:Diameter W: width L: length 
+1.Spot: D≤0.2 is acceptable 
+0.2＜D≤0.3, acceptable Inspection and Environment
+Conditions
+2dots are acceptable and the distance between defects 
+Should more than 5mm. 
+D＞0.3 is unacceptable 
+2.Dent: D＞0.3 is unacceptable. 
+3.Scratch: W≤0.03,L≤10 is acceptable, 
+0.03＜W≤0.1, L≤10, acceptable Inspection and
+Environment Conditions
+Distance between 2 defects should more than 5 mm. 
+W＞0.1 is unacceptable. 
+1. No distortion or contamination on PCB terminals. 
+2. All components on PCB must same as documented on the 
+BOM/component layout. 
+3. Follow IPC-A-600F. 
+Follow IPC-A-610C standard. 
+Yellow light, OK。White light, According to the limit sample
+Screen deformation
+/
+Bezel /
+Touch Panel /
+PCB /
+Soldering /
+Leak /

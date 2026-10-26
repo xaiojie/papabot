@@ -1,0 +1,263 @@
+{
+  "pass": true,
+  "pose_count": 36,
+  "results": [
+    {
+      "leg": "FL",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FL",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FL",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 0,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "FL",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "FR",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FR",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FR",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 0,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "FR",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RL",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RL",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RL",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 0,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RL",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RR",
+      "hip_deg": -15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RR",
+      "hip_deg": -15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RR",
+      "hip_deg": -15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 8
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 0,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 0,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 0,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 15,
+      "knee_deg": -20,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 15,
+      "knee_deg": 0,
+      "conflicts": [],
+      "tested_pairs": 7
+    },
+    {
+      "leg": "RR",
+      "hip_deg": 15,
+      "knee_deg": 20,
+      "conflicts": [],
+      "tested_pairs": 7
+    }
+  ],
+  "threshold_mm3": 0.1,
+  "limits": [
+    "Discrete poses only, no continuous sweep, torque, cable strain, gait or ground/support validation.",
+    "Both leg-to-fixed and upper-to-lower groups tested; purchased geometry nominal."
+  ]
+}

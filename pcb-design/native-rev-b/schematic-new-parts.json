@@ -1,0 +1,228 @@
+[
+  {
+    "ref": "JP3",
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "babdc4edd0c2624b",
+      "componentType": "part",
+      "x": 800,
+      "y": 595,
+      "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "component": {
+        "uuid": "e3a3ad3aa7709b41",
+        "name": "HDR-M_2.54_1x2P",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "symbol": {
+        "uuid": "b15747cf9e3d054e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "210S-1*2P L=11.6MMGold-plated black"
+      },
+      "footprint": {
+        "uuid": "99533ffb5b6a0df7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "designator": "H?",
+      "name": "",
+      "uniqueId": "",
+      "supplierId": "C124375",
+      "otherProperty": {
+        "Supplier Footprint": "插件",
+        "Description": ""
+      }
+    },
+    "pins": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 780,
+        "y": 600,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "babdc4edd0c2624b-e5",
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 780,
+        "y": 590,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "babdc4edd0c2624b-e9",
+        "noConnected": false
+      }
+    ]
+  },
+  {
+    "ref": "J10",
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "8256903fe81ab0d7",
+      "componentType": "part",
+      "x": 1060,
+      "y": 435,
+      "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "component": {
+        "uuid": "e3a3ad3aa7709b41",
+        "name": "HDR-M_2.54_1x2P",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "symbol": {
+        "uuid": "b15747cf9e3d054e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "210S-1*2P L=11.6MMGold-plated black"
+      },
+      "footprint": {
+        "uuid": "99533ffb5b6a0df7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "designator": "H?",
+      "name": "",
+      "uniqueId": "",
+      "supplierId": "C124375",
+      "otherProperty": {
+        "Supplier Footprint": "插件",
+        "Description": ""
+      }
+    },
+    "pins": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 1040,
+        "y": 440,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "8256903fe81ab0d7-e5",
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 1040,
+        "y": 430,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "8256903fe81ab0d7-e9",
+        "noConnected": false
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "87ccf11bb7f91f19",
+      "componentType": "part",
+      "x": 1060,
+      "y": 285,
+      "subPartName": "CC1H104ZC14D3F5O10MF.1",
+      "rotation": 90,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "component": {
+        "uuid": "ea964fb047995a51",
+        "name": "CC1H104ZC14D3F5O10MF",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "symbol": {
+        "uuid": "61fdd1c015210b27",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CC1H104ZC14D3F5O10MF"
+      },
+      "footprint": {
+        "uuid": "2dee937134fc6ddb",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_L5.0-W2.5-P5.08-D0.7"
+      },
+      "designator": "C?",
+      "name": "={Value}",
+      "uniqueId": "",
+      "manufacturer": "Dersonic(德尔创)",
+      "manufacturerId": "CC1H104ZC14D3F5O10MF",
+      "supplier": "LCSC",
+      "supplierId": "C254090",
+      "otherProperty": {
+        "LCSC Part Name": "100nF -20%~+80% 50V",
+        "Supplier Footprint": "插件,P=5.08mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC1H104ZC14D3F5O10MF/248640.html",
+        "Value": "100nF",
+        "Tolerance": "-20%~+80%",
+        "Voltage Rating": "50V",
+        "Pin Spacing": "5.08mm",
+        "Temperature Coefficient": "Y5V",
+        "Diameter": "5.3mm",
+        "Body Thickness": "2.2mm",
+        "Description": "容值:100nF;精度:-20%~+80%;额定电压:50V;温度系数:Y5V;"
+      }
+    },
+    "pins": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 1080,
+        "y": 285,
+        "pinNumber": "1",
+        "pinName": "1",
+        "rotation": 0,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "87ccf11bb7f91f19-e4",
+        "noConnected": false
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPin",
+        "x": 1040,
+        "y": 285,
+        "pinNumber": "2",
+        "pinName": "2",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "87ccf11bb7f91f19-e10",
+        "noConnected": false
+      }
+    ]
+  }
+]

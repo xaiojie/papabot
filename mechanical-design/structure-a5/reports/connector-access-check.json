@@ -1,0 +1,60 @@
+{
+  "nominal_usb_pass": true,
+  "usb_tests": [
+    {
+      "outward_from_mated_mm": 0,
+      "conflicts": [],
+      "tested_pairs": 4
+    },
+    {
+      "outward_from_mated_mm": 3,
+      "conflicts": [],
+      "tested_pairs": 5
+    },
+    {
+      "outward_from_mated_mm": 8,
+      "conflicts": [],
+      "tested_pairs": 5
+    },
+    {
+      "outward_from_mated_mm": 15,
+      "conflicts": [],
+      "tested_pairs": 3
+    }
+  ],
+  "usb_body_xyz": [
+    14,
+    15,
+    8
+  ],
+  "usb_metal_xyz": [
+    8.4,
+    6.5,
+    2.6
+  ],
+  "port_center_xz_mm": [
+    -42,
+    83.8
+  ],
+  "rear_panel_y_mm": 56,
+  "insertion_axis": "Y",
+  "opening_xz_mm": [
+    17,
+    11
+  ],
+  "clearance_per_side_mm": [
+    1.5,
+    1.5
+  ],
+  "connector": "J6 charging 5V VBUS, not ESP32 programming USB",
+  "mating_exception": "Metal tongue mating with J6 excluded. C165948 exact footprint/mouth datum still requires received-part verification.",
+  "screen_connector_to_pcb_pass": true,
+  "screen_conflicts": [],
+  "screen_connector_depth_mm": 7.7,
+  "screen_connector_to_board_front_gap_mm": 8.6,
+  "limits": [
+    "Nominal insertion gauges, no physical cable or plug force test.",
+    "HS24 low profile/right angle header remains required.",
+    "USB-C footprint compatibility is not proven by enclosure clearance."
+  ]
+}

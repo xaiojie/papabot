@@ -1,0 +1,35 @@
+﻿载板接口,原生位号,载板针号,网络,模块端对应/限制
+J_LCD,J3,1,GND,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,2,+5V_LOGIC,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,3,LCD_SCLK,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,4,LCD_MOSI,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,5,LCD_RST_N,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,6,LCD_DC,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,7,LCD_CS_N,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_LCD,J3,8,NC（不接线）,载板自定义1×8顺序；屏幕端按实物GND/VCC/SCL/SDA/RES/DC/CS/BLK丝印换线，不能认为线序相同。厂家确认VCC为3.3–5V，Rev A接+5V_LOGIC、SPI用3.3V；第8脚与模块BLK各自留空，默认全亮。
+J_PCA,J4,1,GND,只接模块GND/VCC/SDA/SCL/OE；模块V+不走此接口，8路舵机红线不接PCA成品板公共电源排针。
+J_PCA,J4,2,+3V3,只接模块GND/VCC/SDA/SCL/OE；模块V+不走此接口，8路舵机红线不接PCA成品板公共电源排针。
+J_PCA,J4,3,PCA_SDA,只接模块GND/VCC/SDA/SCL/OE；模块V+不走此接口，8路舵机红线不接PCA成品板公共电源排针。
+J_PCA,J4,4,PCA_SCL,只接模块GND/VCC/SDA/SCL/OE；模块V+不走此接口，8路舵机红线不接PCA成品板公共电源排针。
+J_PCA,J4,5,PCA_OE_N,只接模块GND/VCC/SDA/SCL/OE；模块V+不走此接口，8路舵机红线不接PCA成品板公共电源排针。
+J_MIC,J5,1,GND,模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。
+J_MIC,J5,2,+3V3,模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。
+J_MIC,J5,3,MIC_BCLK,模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。
+J_MIC,J5,4,MIC_WS,模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。
+J_MIC,J5,5,MIC_SD,模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。
+J_MIC,J5,6,MIC_LR_GND,模块端功能分别GND/VCC/SCK/WS/SD/LR；MIC_LR_GND与GND在载板相连，拟选左声道。成品板物理顺序和模块身份待确认。
+J_AMP,J6,1,GND,对应GND/BCLK/LRC/DIN；功放5V另走短粗线，不经此小信号插头。SD_MODE保留模块原配置，禁止直接接GPIO或5V上拉回灌GPIO。
+J_AMP,J6,2,AMP_BCLK,对应GND/BCLK/LRC/DIN；功放5V另走短粗线，不经此小信号插头。SD_MODE保留模块原配置，禁止直接接GPIO或5V上拉回灌GPIO。
+J_AMP,J6,3,AMP_WS,对应GND/BCLK/LRC/DIN；功放5V另走短粗线，不经此小信号插头。SD_MODE保留模块原配置，禁止直接接GPIO或5V上拉回灌GPIO。
+J_AMP,J6,4,AMP_DIN,对应GND/BCLK/LRC/DIN；功放5V另走短粗线，不经此小信号插头。SD_MODE保留模块原配置，禁止直接接GPIO或5V上拉回灌GPIO。
+J_REAR,J7,1,GND,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_REAR,J7,2,ENC_A,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_REAR,J7,3,ENC_B,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_REAR,J7,4,GND,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_REAR,J7,5,ENC_SW_N,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_REAR,J7,6,GND,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_REAR,J7,7,KEY_N,1=编码器公共端；2=A；3=B；4=旋钮按压公共端；5=旋钮按压；6=独立键公共端；7=独立键。仅适用拆下后确认是无源干触点的元件，EC11实际脚序需通断表。屏幕原控件焊盘不自动并接。
+J_LOGIC_IN,J8,1,+5V_LOGIC,好盈UBEC设5V，接已购粗线；孔径和焊盘尺寸待线材/电流核定。
+J_LOGIC_IN,J8,2,GND,好盈UBEC设5V，接已购粗线；孔径和焊盘尺寸待线材/电流核定。
+J_SENSE,J9,1,VBAT_SW,只承载分压电流，接S1A后端；禁止改接开关前节点造成关机ADC反向供电。
+J_SENSE,J9,2,GND,只承载分压电流，接S1A后端；禁止改接开关前节点造成关机ADC反向供电。

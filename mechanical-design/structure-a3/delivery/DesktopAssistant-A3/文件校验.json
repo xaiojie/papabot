@@ -1,0 +1,292 @@
+[
+  {
+    "file": "DesktopAssistant-整机结构-A3.blend",
+    "bytes": 18640928,
+    "sha256": "417dac4775ea8afd120cc55995e1bf2f7cd4b754591cc72ea562b161d17ea4c1"
+  },
+  {
+    "file": "README.md",
+    "bytes": 2155,
+    "sha256": "2cd96ea5161ddf15691463527afceefb963b53a6b379cc0ce3b03e4852424b0e"
+  },
+  {
+    "file": "零件清单.md",
+    "bytes": 3548,
+    "sha256": "1d3d8799db7182e028405abbbfed8f605a72fedb37fe5462ddfac3a41611a6e9"
+  },
+  {
+    "file": "装配与打印说明.md",
+    "bytes": 6481,
+    "sha256": "b40bf606597b7a7c89eea215cbd97ea8ebb7697bc20f1ba947b1c45be221013c"
+  },
+  {
+    "file": "验证说明.md",
+    "bytes": 1853,
+    "sha256": "8ec7166c60a5fe6b0e741ca2b94a08a24a6d5f8d2d6b9b794d742689a2e5cfab"
+  },
+  {
+    "file": "设计修正说明.md",
+    "bytes": 1167,
+    "sha256": "b29118f6bd43816ad813f21d4601c9ea308ac889837c76d5be1403e420fe3fa6"
+  },
+  {
+    "file": "紧固件安装明细.csv",
+    "bytes": 1363,
+    "sha256": "3d7d0e687c7827963af8b05e18a9a724a5e76397cc921aaa4ee66197c16f2f98"
+  },
+  {
+    "file": "紧固件与辅料核对.csv",
+    "bytes": 1103,
+    "sha256": "fd3daaeeee350f3e42ff1ec7075307fb1006c985ee79a991fe1d20c6a21dcc67"
+  },
+  {
+    "file": "stl-complete/R02__A3__mm.stl",
+    "bytes": 402484,
+    "sha256": "5a6e45a729f2b30ab626dd79e52744623cfceb9bfa1149244352500c4028e30e"
+  },
+  {
+    "file": "stl-complete/R04__A3__mm.stl",
+    "bytes": 207484,
+    "sha256": "68c5481b253634512736544559eb3f9e77513cf48a0462b9130c580f883d6ff7"
+  },
+  {
+    "file": "stl-complete/R06__A3__mm.stl",
+    "bytes": 424184,
+    "sha256": "5e7fb010165b5eb38098047e28accead25b4c6c567a23278fa462f07c62cd602"
+  },
+  {
+    "file": "stl-complete/R01__A3__mm.stl",
+    "bytes": 894084,
+    "sha256": "b723c964d7c5235f2cc18d90d2e844b1bf68d29a6272a5ffa6dc1b2ffcfbaa41"
+  },
+  {
+    "file": "stl-complete/R05__A3__mm.stl",
+    "bytes": 429084,
+    "sha256": "072f0c21d3802ec2b637a6e609dda0da4f1e6979229bbd07d4c2b3fa34d91a8f"
+  },
+  {
+    "file": "stl-complete/L101_FL__A3__mm.stl",
+    "bytes": 38384,
+    "sha256": "0776a707d536ad85daa4eb0f4f53405b96487ecb21b564f6c197fd90a2a827fe"
+  },
+  {
+    "file": "stl-complete/L102_FL__A3__mm.stl",
+    "bytes": 37584,
+    "sha256": "9668e15515c39e2ca49ebe61dfcd2b9411230e95cbdb4d4d243080316665017d"
+  },
+  {
+    "file": "stl-complete/L104_FL__A3__mm.stl",
+    "bytes": 57784,
+    "sha256": "146ca05413b300322d4fb94cbb3e22332480fa326706bdd688aa5388d5d8f19c"
+  },
+  {
+    "file": "stl-complete/L101_FR__A3__mm.stl",
+    "bytes": 38484,
+    "sha256": "a052ea5dbe0e1de8c5a699d54e2ed0650e8f30099c2d154aeb90ad5cffdb28e9"
+  },
+  {
+    "file": "stl-complete/L102_FR__A3__mm.stl",
+    "bytes": 37584,
+    "sha256": "0bcb3ca1539da8d5b9a6e313f6bef9115912e2c45e29698937a7fb0515cb96ea"
+  },
+  {
+    "file": "stl-complete/L104_FR__A3__mm.stl",
+    "bytes": 57784,
+    "sha256": "6300549975225f910b17dbfea6024ce815752a730392ad4e5779076f241e0392"
+  },
+  {
+    "file": "stl-complete/L101_RL__A3__mm.stl",
+    "bytes": 38184,
+    "sha256": "88929a6eaa3260b968f7036630b55dfd046f2a4564042b3dd2653805cdcca51f"
+  },
+  {
+    "file": "stl-complete/L102_RL__A3__mm.stl",
+    "bytes": 37484,
+    "sha256": "ce710610145200a1a0ef0009e9bbf0f8ab5331c25baa9c3703786e8f1628ea39"
+  },
+  {
+    "file": "stl-complete/L104_RL__A3__mm.stl",
+    "bytes": 57684,
+    "sha256": "f509683cbcf23e11603abf5d9d9fbd1d6622ee9944469865f86260a31243bc21"
+  },
+  {
+    "file": "stl-complete/L101_RR__A3__mm.stl",
+    "bytes": 38084,
+    "sha256": "0eb3c3f74858a1d124bf70b54fad72229068e06123f3f9f17dc4c69091072220"
+  },
+  {
+    "file": "stl-complete/L102_RR__A3__mm.stl",
+    "bytes": 37484,
+    "sha256": "2d4b0b10b57d4bde06b7694c904b8b9bcb5437d4bc97e4157058114a7a94606a"
+  },
+  {
+    "file": "stl-complete/L104_RR__A3__mm.stl",
+    "bytes": 57684,
+    "sha256": "b7b1ea1eb4ac278346e122dc4458b1d080d0b018faa9057188a0d7cbb3937450"
+  },
+  {
+    "file": "stl-complete/R03__A3__mm.stl",
+    "bytes": 529784,
+    "sha256": "1597f40def444aee28d915d63ee724b654d077b2de18f10d5e9e3e092012bc98"
+  },
+  {
+    "file": "stl-complete/R11__A3__mm.stl",
+    "bytes": 83484,
+    "sha256": "8b606ce31af29c0b012e7820e28fef1b1dbb61ce3d52d426b41d049567b4284b"
+  },
+  {
+    "file": "stl-complete/R09__A3__mm.stl",
+    "bytes": 173684,
+    "sha256": "9bc1d9b8ea10e21976c063528056af98bb95d045156d17cf93f34e74fec1e192"
+  },
+  {
+    "file": "stl-complete/R10_1__A3__mm.stl",
+    "bytes": 31784,
+    "sha256": "995f014455b4cd712ef7ab5c726acb5096b0aa1881487884a303619fb67d5f0f"
+  },
+  {
+    "file": "stl-complete/R10_2__A3__mm.stl",
+    "bytes": 31784,
+    "sha256": "6f897ed478c348427952aacb39be63aaddddfafb1efc8a76e5703ca301b001ca"
+  },
+  {
+    "file": "stl-complete/R16__A3__mm.stl",
+    "bytes": 269684,
+    "sha256": "faa3b8f790ebde9d4a2e2e935ddab5b26303ee4eaa34ce3547f63a90e33eb54e"
+  },
+  {
+    "file": "stl-complete/R17__A3__mm.stl",
+    "bytes": 114184,
+    "sha256": "a0e866062b7745087029104b1b013711db86351452897e6b1e24d9f078d33693"
+  },
+  {
+    "file": "stl-complete/R18__A3__mm.stl",
+    "bytes": 94484,
+    "sha256": "40aafe46edd17bc292c33338273ef16a76b549f77a6e89dddbf832cb9649045f"
+  },
+  {
+    "file": "stl-complete/R14__A3__mm.stl",
+    "bytes": 79784,
+    "sha256": "e76f081c08c9e20020a8ee2a0dde8b4e0de7ebcf0aeaa90c9bb3629b6775827b"
+  },
+  {
+    "file": "stl-complete/R12_L__A3__mm.stl",
+    "bytes": 78184,
+    "sha256": "24ebac1ef8ee8cd157a92e0d9da8a2e25ec6001ae474b1b8cbee34108ae7ea08"
+  },
+  {
+    "file": "stl-complete/R13_L__A3__mm.stl",
+    "bytes": 28884,
+    "sha256": "5fbb3594f111b602f254b5d46a7dc5915c78fcc1c14ed0f84a1645524a451595"
+  },
+  {
+    "file": "stl-complete/R12_R__A3__mm.stl",
+    "bytes": 78384,
+    "sha256": "c36a8bd4c05d0f1a71872420126b65ab194878a3f86d6e6b7eca16c626cb9c1a"
+  },
+  {
+    "file": "stl-complete/R13_R__A3__mm.stl",
+    "bytes": 28884,
+    "sha256": "0a1e0180b7c440917ec0c08cebb055c00ecd19386d3fab1722d5a2cbdc63a542"
+  },
+  {
+    "file": "renders/A3-front.png",
+    "bytes": 2100143,
+    "sha256": "52d75d7413389625433b1c3bd44de9f4c50cc7ac0b65e8c694070ecf2db616e4"
+  },
+  {
+    "file": "renders/A3-perspective.png",
+    "bytes": 2166648,
+    "sha256": "593713344080e66ec06fea399fd8cfb429df36688a90c453b2c4d6af70278589"
+  },
+  {
+    "file": "renders/A3-front-open.png",
+    "bytes": 2420885,
+    "sha256": "3768e7a348ef89e11f408ba67b89543fc6c37d5c8789a465c15b11475a5c0a90"
+  },
+  {
+    "file": "renders/A3-rear.png",
+    "bytes": 2127958,
+    "sha256": "01b320246f18578c2f3dbb73e7c7f3be72afece252722a5cebca079c386bf65a"
+  },
+  {
+    "file": "renders/A3-internal.png",
+    "bytes": 2223245,
+    "sha256": "c54aa0ea34c4d44e7cbc53b0bdce3eeea68d704a963fd3c055fc168dd8966188"
+  },
+  {
+    "file": "renders/A3-exploded.png",
+    "bytes": 3001972,
+    "sha256": "77206ea06ea87b61d91bf1bf3f0d6a3250f726b7285b29474e7c0e62d9e4f4af"
+  },
+  {
+    "file": "renders/A3-parts.png",
+    "bytes": 4818135,
+    "sha256": "e4952f8f951de0b2f4c15a21433e2d2b5d13b49082a44e3b64621a2d64b8b9e0"
+  },
+  {
+    "file": "reports/complete-manifest.json",
+    "bytes": 17618,
+    "sha256": "c641ff6e55dc9ce6e5881f66ba092ce5deef2d66af1bd2553631d7e6b5b9c822"
+  },
+  {
+    "file": "reports/assembly-parameters.json",
+    "bytes": 4261,
+    "sha256": "d29a05cd71219c2565b4f8cb94ceee1330d191ac3ae507e190746b25aeefc074"
+  },
+  {
+    "file": "reports/complete-stl-verification.json",
+    "bytes": 21075,
+    "sha256": "8caf26eff404da8b651c386fdce46ccf2705795e30510415b15ade83198a5c22"
+  },
+  {
+    "file": "reports/complete-reopen.json",
+    "bytes": 3930,
+    "sha256": "dd81d4885e9d00036ebcf520d9c0adaed23a9ff348029fd2d307cd3376c913ce"
+  },
+  {
+    "file": "reports/assembly-collision-check.json",
+    "bytes": 506,
+    "sha256": "13467126567075919495ae9d2747f0e28ff70622890a04805a61accfb09648bd"
+  },
+  {
+    "file": "reports/leg-interfaces.json",
+    "bytes": 1202,
+    "sha256": "e9c5f79a849a68fd54a671844dc51ac2bbb2a009ab9153efe902d00cad25665f"
+  },
+  {
+    "file": "reports/leg-motion-sample-check.json",
+    "bytes": 3609,
+    "sha256": "91b5b3405aade216532c5c0115474b973181a68ccff5d6dd9f05870898d0651b"
+  },
+  {
+    "file": "reports/cover-service-check.json",
+    "bytes": 5324,
+    "sha256": "6d9568e3d700aff1677e9e642a382a742433b3f8e0a6d24a42f00b66469d0ffa"
+  },
+  {
+    "file": "reports/complete-preservation.json",
+    "bytes": 368,
+    "sha256": "b0f9cb1a1ec7ae7151a2d6fca5f6b75995e863b1d3d0d72a14cccfacc7cd5655"
+  },
+  {
+    "file": "reports/presentation-preservation.json",
+    "bytes": 364,
+    "sha256": "d46d72fdcb81c202f2846c12390fc0d01c43431acb8cf5f34d071125d168e799"
+  },
+  {
+    "file": "reports/material-refresh-preservation.json",
+    "bytes": 276,
+    "sha256": "1b3b9bafd36aa34161ce4794e34697c1409f987081105c9013818a7cfbd2b231"
+  },
+  {
+    "file": "reports/source-and-change-scope.json",
+    "bytes": 997,
+    "sha256": "e833fe2f738ae5f5cc8b71c54592cd150408888bd21b464b57f8ba12cadf84a8"
+  },
+  {
+    "file": "reports/final-artifact-reopen.json",
+    "bytes": 2787,
+    "sha256": "a28b1b75102edb6b1f85e2e6c80bfc98fffeaa4af27052493d11df03f56c9f63"
+  }
+]

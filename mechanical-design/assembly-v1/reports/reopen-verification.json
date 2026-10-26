@@ -1,0 +1,1298 @@
+{
+  "scope": "stage_1_reopen_geometry_and_sampled_view_verification_only",
+  "blender_version": "5.2.1 LTS",
+  "opened_file": "desktop-assistant-assembly-v1.blend",
+  "check_count": 25,
+  "pass_count": 25,
+  "checks": [
+    {
+      "name": "saved stage flag",
+      "passed": true,
+      "details": "STAGE_1_ASSEMBLY_REVIEW__NO_PRINT_RELEASE"
+    },
+    {
+      "name": "metric units",
+      "passed": true,
+      "details": {
+        "system": "METRIC",
+        "length_unit": "MILLIMETERS",
+        "scale": 1.0
+      }
+    },
+    {
+      "name": "supplier nominal PCB envelope",
+      "passed": true,
+      "details": [
+        91.0,
+        1.6,
+        44.0
+      ]
+    },
+    {
+      "name": "display centered on body X axis",
+      "passed": true,
+      "details": {
+        "active_center_x_mm": 0.0,
+        "body_center_x_mm": 0.0
+      }
+    },
+    {
+      "name": "body design width",
+      "passed": true,
+      "details": [
+        118.0,
+        33.4,
+        76.0
+      ]
+    },
+    {
+      "name": "four PCB mounting centers are open",
+      "passed": true,
+      "details": [
+        {
+          "center_mm": [
+            -31.75,
+            -20.2,
+            49.25
+          ],
+          "center_ray_is_open": true
+        },
+        {
+          "center_mm": [
+            -31.75,
+            -20.2,
+            86.75
+          ],
+          "center_ray_is_open": true
+        },
+        {
+          "center_mm": [
+            52.75,
+            -20.2,
+            49.25
+          ],
+          "center_ray_is_open": true
+        },
+        {
+          "center_mm": [
+            52.75,
+            -20.2,
+            86.75
+          ],
+          "center_ray_is_open": true
+        }
+      ]
+    },
+    {
+      "name": "single-mesh topology only",
+      "passed": true,
+      "details": {
+        "mesh_count": 150,
+        "bad_meshes": []
+      }
+    },
+    {
+      "name": "cover / main hood sampled solids",
+      "passed": true,
+      "details": {
+        "intersection_mm3": 0.0
+      }
+    },
+    {
+      "name": "optical well / EC11 knob sampled solids",
+      "passed": true,
+      "details": {
+        "intersection_mm3": 0.0
+      }
+    },
+    {
+      "name": "speaker / main hood sampled solids",
+      "passed": true,
+      "details": {
+        "intersection_mm3": 0.0
+      }
+    },
+    {
+      "name": "left ear / hood sampled solids",
+      "passed": true,
+      "details": {
+        "intersection_mm3": 0.0
+      }
+    },
+    {
+      "name": "right ear / hood sampled solids",
+      "passed": true,
+      "details": {
+        "intersection_mm3": 0.0
+      }
+    },
+    {
+      "name": "PCB / four hip servo envelopes",
+      "passed": true,
+      "details": [
+        {
+          "servo": "S_FL_HIP_case",
+          "pcb_intersection_mm3": 0.0
+        },
+        {
+          "servo": "S_FR_HIP_case",
+          "pcb_intersection_mm3": 0.0
+        },
+        {
+          "servo": "S_RL_HIP_case",
+          "pcb_intersection_mm3": 0.0
+        },
+        {
+          "servo": "S_RR_HIP_case",
+          "pcb_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "seven sampled front removal positions",
+      "passed": true,
+      "details": [
+        {
+          "travel_mm": 0,
+          "maximum_pair_intersection_mm3": 0.0
+        },
+        {
+          "travel_mm": 2,
+          "maximum_pair_intersection_mm3": 0.0
+        },
+        {
+          "travel_mm": 5,
+          "maximum_pair_intersection_mm3": 0.0
+        },
+        {
+          "travel_mm": 10,
+          "maximum_pair_intersection_mm3": 0.0
+        },
+        {
+          "travel_mm": 20,
+          "maximum_pair_intersection_mm3": 0.0
+        },
+        {
+          "travel_mm": 40,
+          "maximum_pair_intersection_mm3": 0.0
+        },
+        {
+          "travel_mm": 85,
+          "maximum_pair_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "four disassembly display states",
+      "passed": true,
+      "details": [
+        {
+          "frame": 1,
+          "group": "FRONT_COVER",
+          "offset_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expected_mm": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 40,
+          "group": "FRONT_COVER",
+          "offset_mm": [
+            0.0,
+            -85.0,
+            0.0
+          ],
+          "expected_mm": [
+            0,
+            -85,
+            0
+          ]
+        },
+        {
+          "frame": 70,
+          "group": "BOTTOM",
+          "offset_mm": [
+            0.0,
+            0.0,
+            -29.0
+          ],
+          "expected_mm": [
+            0,
+            0,
+            -29
+          ]
+        },
+        {
+          "frame": 100,
+          "group": "HOOD",
+          "offset_mm": [
+            0.0,
+            40.0,
+            65.0
+          ],
+          "expected_mm": [
+            0,
+            40,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "name": "framing HERO",
+      "passed": true,
+      "details": {
+        "view": "HERO",
+        "projected_bounding_rect": [
+          0.1236,
+          0.0903,
+          0.8566,
+          0.7758
+        ]
+      }
+    },
+    {
+      "name": "framing FRONT",
+      "passed": true,
+      "details": {
+        "view": "FRONT",
+        "projected_bounding_rect": [
+          0.084,
+          0.1495,
+          0.916,
+          0.8068
+        ]
+      }
+    },
+    {
+      "name": "framing SIDE",
+      "passed": true,
+      "details": {
+        "view": "SIDE",
+        "projected_bounding_rect": [
+          0.2082,
+          0.0142,
+          0.8062,
+          0.9222
+        ]
+      }
+    },
+    {
+      "name": "framing REAR",
+      "passed": true,
+      "details": {
+        "view": "REAR",
+        "projected_bounding_rect": [
+          0.1223,
+          0.0552,
+          0.8889,
+          0.7744
+        ]
+      }
+    },
+    {
+      "name": "framing FRONT_OPEN",
+      "passed": true,
+      "details": {
+        "view": "FRONT_OPEN",
+        "projected_bounding_rect": [
+          0.0162,
+          0.0995,
+          0.8438,
+          0.8384
+        ]
+      }
+    },
+    {
+      "name": "framing BOTTOM_OPEN",
+      "passed": true,
+      "details": {
+        "view": "BOTTOM_OPEN",
+        "projected_bounding_rect": [
+          0.0332,
+          0.0269,
+          0.9821,
+          0.9438
+        ]
+      }
+    },
+    {
+      "name": "framing EXPLODED",
+      "passed": true,
+      "details": {
+        "view": "EXPLODED",
+        "projected_bounding_rect": [
+          0.0788,
+          0.0316,
+          0.8745,
+          0.9297
+        ]
+      }
+    },
+    {
+      "name": "framing LAYOUT",
+      "passed": true,
+      "details": {
+        "view": "LAYOUT",
+        "projected_bounding_rect": [
+          0.0743,
+          0.0384,
+          0.9135,
+          0.701
+        ]
+      }
+    },
+    {
+      "name": "fonts embedded",
+      "passed": true,
+      "details": [
+        {
+          "name": "Arial Unicode MS Regular",
+          "packed": true
+        }
+      ]
+    },
+    {
+      "name": "native graphics dependency",
+      "passed": true,
+      "details": {
+        "external_bitmap_count": 0
+      }
+    }
+  ],
+  "assembled_visible_mesh_envelope_mm": {
+    "min_mm": [
+      -104.0,
+      -51.5,
+      0.0
+    ],
+    "max_mm": [
+      104.0,
+      54.5,
+      122.46
+    ],
+    "size_mm": [
+      208.0,
+      106.0,
+      122.46
+    ]
+  },
+  "mesh_topology": [
+    {
+      "object": "Base_screw_-40_-5",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_-40_-5_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_-40_29",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_-40_29_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_40_-5",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_40_-5_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_40_29",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Base_screw_40_29_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D001__TOUGLESY_ST7789_EC11_PCB",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D002__LCD_frame_assumed",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D003__LCD_glass",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D004__LCD_active_area_2p4in_4to3",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D005__EC11_metal_body",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D006__EC11_shaft",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D007__EC11_knob_envelope",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D008__knob_top",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D009__knob_indicator",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D010__K0_button_base",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D011__K0_button",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D012__header_housing_assumed",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_00",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_01",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_02",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_03",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_04",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_05",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_06",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_07",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_08",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_09",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_10",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "D013__pin_11",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_hole_plating",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_hole_plating.001",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_hole_plating.002",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_hole_plating.003",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw.001",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw.002",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw.003",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw_drive.001",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw_drive.002",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "Display_mount_screw_drive.003",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E001__ESP32_S3_board_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E001_module_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E001_shield_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002__servo_driver_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.001",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.002",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.003",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.004",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.005",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.006",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E002_pin_bank.007",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E003__audio_amp_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E003_chip",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E004__power_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E004_power_inductor",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E005__speaker_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E005_magnet",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E006__microphone_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E006_mic_port",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E007__power_connector_ENVELOPE",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "E007_connector_dark",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "F_FL_rubber_pad",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "F_FR_rubber_pad",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "F_RL_rubber_pad",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "F_RR_rubber_pad",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "G_body_envelope",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "G_encoder_clearance",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "G_main_PCB_reserved",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FL_hip_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FL_hip_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FL_knee_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FL_knee_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FR_hip_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FR_hip_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FR_knee_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_FR_knee_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RL_hip_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RL_hip_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RL_knee_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RL_knee_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RR_hip_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RR_hip_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RR_knee_screw",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "H_RR_knee_screw_drive",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "LCD_eye",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "LCD_eye.001",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P001__main_hood",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P002__removable_front_cover",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P003__mint_front_outline",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P004__screen_light_baffle",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P005__removable_bottom_tray",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P006__electronics_tray",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P007__screen_module_support",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P007_display_spacer",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P007_display_spacer.001",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P007_display_spacer.002",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P007_display_spacer.003",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P008_ear_L",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P008_ear_R",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P009_ear_insert_L",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P009_ear_insert_R",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P010_FL_servo_mount",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P010_FR_servo_mount",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P010_RL_servo_mount",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P010_RR_servo_mount",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P011_FL_upper_link",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P011_FR_upper_link",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P011_RL_upper_link",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P011_RR_upper_link",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P012_FL_lower_leg",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P012_FR_lower_leg",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P012_RL_lower_leg",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P012_RR_lower_leg",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P013_FL_hip_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P013_FR_hip_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P013_RL_hip_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P013_RR_hip_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P014_FL_knee_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P014_FR_knee_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P014_RL_knee_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "P014_RR_knee_cap",
+      "category": "PRINT_CANDIDATE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FL_HIP_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FL_HIP_mount_flange",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FL_HIP_output_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FL_HIP_shaft",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FL_KNEE_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FL_KNEE_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FR_HIP_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FR_HIP_mount_flange",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FR_HIP_output_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FR_HIP_shaft",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FR_KNEE_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_FR_KNEE_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RL_HIP_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RL_HIP_mount_flange",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RL_HIP_output_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RL_HIP_shaft",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RL_KNEE_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RL_KNEE_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RR_HIP_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RR_HIP_mount_flange",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RR_HIP_output_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RR_HIP_shaft",
+      "category": "REFERENCE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RR_KNEE_boss",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "S_RR_KNEE_case",
+      "category": "ENVELOPE",
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    }
+  ],
+  "not_checked": [
+    "whole-assembly collision matrix",
+    "continuous swept-volume clearance",
+    "manufacturing tolerances and min wall thickness",
+    "fastening, assembly tools and load paths",
+    "servo travel, strength, stability and gait",
+    "slicing or physical print fit",
+    "electrical, thermal, acoustic performance"
+  ],
+  "print_release": false
+}

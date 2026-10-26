@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-09-08T15:09:53.952930+08:00",
+  "sha256": "5bb6b24ac4f5287ba9d7496af1de8c203dfab9e1f86b854cde08af113cc6e084",
+  "zip_crc_pass": true,
+  "files": [
+    "Gerber_TopLayer.GTL",
+    "Gerber_BottomLayer.GBL",
+    "Gerber_TopSilkscreenLayer.GTO",
+    "Gerber_BottomSilkscreenLayer.GBO",
+    "Gerber_TopSolderMaskLayer.GTS",
+    "Gerber_BottomSolderMaskLayer.GBS",
+    "Gerber_BoardOutlineLayer.GKO",
+    "Gerber_DrillDrawingLayer.GDD",
+    "Drill_PTH_Through.DRL",
+    "Drill_NPTH_Through.DRL",
+    "Drill_PTH_Through_Via.DRL",
+    "FlyingProbeTesting.json",
+    "PCB下单必读.txt"
+  ],
+  "board_outline_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      9.5
+    ],
+    [
+      24.17,
+      9.5
+    ],
+    [
+      24.17,
+      22.5
+    ],
+    [
+      0.0,
+      22.5
+    ],
+    [
+      0.0,
+      32.0
+    ],
+    [
+      80.0,
+      32.0
+    ],
+    [
+      80.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "plated_hole_count": 122,
+  "component_hole_count": 98,
+  "nonplated_hole_count": 4,
+  "via_count": 24,
+  "drill_diameters_mm": {
+    "0.3": 24,
+    "0.8": 20,
+    "1.0": 8,
+    "1.1": 24,
+    "1.2": 46
+  },
+  "all_drills_match_native_geometry": true,
+  "comparison_tolerance_mm": 0.001,
+  "maximum_coordinate_or_diameter_difference_mm": 0.0002789999999919246,
+  "coordinate_note": "按1µm容差逐孔比对。电阻14孔的API坐标与Gerber有0.279µm差异；其余差异更小。",
+  "separate_via_drill_file_is_subset_of_pth": true,
+  "note": "原生检查导出；板框与钻孔已核对，尚待实物及外壳配合验收。"
+}

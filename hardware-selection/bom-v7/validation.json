@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "date": "2026-09-08",
+  "one_sheet_each": true,
+  "lcsc_rows": 10,
+  "taobao_rows": 27,
+  "review_rows": 44,
+  "all_42_requirements_covered": true,
+  "all_27_cart_sku_quantities_verified": true,
+  "new_sku_rows": 16,
+  "servo_quantity": 8,
+  "duplicate_cart_sku_rows": 0,
+  "shared_capacitor_counted_once": true,
+  "excluded_cable_and_services_absent_from_taobao_purchase": true,
+  "lcsc_unchanged_sha256": "83caaaf752e2bd71f4888ba88c8e093c8f1aba2576d3a6be60e1d3cb982fb767",
+  "known_reference_total_cny": 467.3,
+  "new_reference_subtotal_cny": 89.66,
+  "battery_custom_quote_included": false,
+  "order_placed": false
+}

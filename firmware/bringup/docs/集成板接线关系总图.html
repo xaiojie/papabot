@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Integrated V1.2 · 接线关系总图</title>
+<style>
+ body{margin:0;background:#0d1117;color:#c9d1d9;
+      font:14px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;padding:20px}
+ h1{font-size:19px;color:#58a6ff;margin:0 0 4px}
+ .sub{color:#8b949e;font-size:13px;margin-bottom:18px}
+ .wrap{max-width:1180px;margin:0 auto}
+ svg{width:100%;height:auto;background:#161b22;border:1px solid #30363d;border-radius:10px}
+ table{border-collapse:collapse;width:100%;margin-top:18px;font-size:13px}
+ th,td{border:1px solid #30363d;padding:6px 9px;text-align:left}
+ th{background:#21262d;color:#58a6ff;font-weight:600}
+ tr:nth-child(even) td{background:#161b22}
+ .k{font-family:ui-monospace,Menlo,monospace;color:#79c0ff}
+ .note{color:#8b949e;font-size:12px;margin-top:10px}
+</style></head><body><div class="wrap">
+<h1>Integrated V1.2 · 接线关系总图</h1>
+<div class="sub">主板 110×75mm · 79 器件 · 26 个接口 · 板外件全部通过插头/端子连接</div>
+
+<svg viewBox="0 0 1180 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 z" fill="#58a6ff"/></marker>
+    <marker id="r" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 z" fill="#f0883e"/></marker>
+  </defs>
+
+  <!-- 主板 -->
+  <rect x="395" y="215" width="390" height="330" rx="10" fill="#0d2a4a" stroke="#58a6ff" stroke-width="2"/>
+  <text x="590" y="245" text-anchor="middle" fill="#58a6ff" font-size="16" font-weight="700">主  板</text>
+  <text x="590" y="266" text-anchor="middle" fill="#8b949e" font-size="12">Integrated V1.2 · 110×75mm</text>
+
+  <!-- 主板上接口小方块 -->
+  <g font-size="11" fill="#c9d1d9">
+    <rect x="410" y="285" width="86" height="26" rx="4" fill="#1f6feb33" stroke="#1f6feb"/>
+    <text x="453" y="302" text-anchor="middle">J1/J2 主控座</text>
+    <rect x="510" y="285" width="86" height="26" rx="4" fill="#1f6feb33" stroke="#1f6feb"/>
+    <text x="553" y="302" text-anchor="middle">U7 PCA9685</text>
+    <rect x="610" y="285" width="86" height="26" rx="4" fill="#1f6feb33" stroke="#1f6feb"/>
+    <text x="653" y="302" text-anchor="middle">J3 屏幕</text>
+
+    <rect x="410" y="325" width="86" height="26" rx="4" fill="#23863633" stroke="#238636"/>
+    <text x="453" y="342" text-anchor="middle">J4 麦克风</text>
+    <rect x="510" y="325" width="86" height="26" rx="4" fill="#23863633" stroke="#238636"/>
+    <text x="553" y="342" text-anchor="middle">J5 功放</text>
+    <rect x="610" y="325" width="86" height="26" rx="4" fill="#23863633" stroke="#238636"/>
+    <text x="653" y="342" text-anchor="middle">J7 NTC</text>
+
+    <rect x="410" y="365" width="86" height="26" rx="4" fill="#f0883e33" stroke="#f0883e"/>
+    <text x="453" y="382" text-anchor="middle">JBAT 电池</text>
+    <rect x="510" y="365" width="86" height="26" rx="4" fill="#f0883e33" stroke="#f0883e"/>
+    <text x="553" y="382" text-anchor="middle">JBAL 平衡</text>
+    <rect x="610" y="365" width="86" height="26" rx="4" fill="#f0883e33" stroke="#f0883e"/>
+    <text x="653" y="382" text-anchor="middle">J6 USB-C</text>
+
+    <rect x="410" y="405" width="86" height="26" rx="4" fill="#8957e533" stroke="#8957e5"/>
+    <text x="453" y="422" text-anchor="middle">J_SW 总开关</text>
+    <rect x="510" y="405" width="86" height="26" rx="4" fill="#8957e533" stroke="#8957e5"/>
+    <text x="553" y="422" text-anchor="middle">LOG/SRV 端子</text>
+    <rect x="610" y="405" width="86" height="26" rx="4" fill="#8957e533" stroke="#8957e5"/>
+    <text x="653" y="422" text-anchor="middle">J10 外3V3</text>
+
+    <rect x="410" y="455" width="286" height="26" rx="4" fill="#d2992233" stroke="#d29922"/>
+    <text x="553" y="472" text-anchor="middle">SV1 – SV8 · 舵机接口 ×8（PWM / +5V_SERVO / GND）</text>
+
+    <rect x="410" y="490" width="286" height="26" rx="4" fill="#30363d" stroke="#8b949e"/>
+    <text x="553" y="507" text-anchor="middle">JP_CHG / JP_LCD / JP_MCU · 三个跳线（默认断开）</text>
+  </g>
+
+  <!-- ===== 左：电源链 ===== -->
+  <g font-size="12">
+    <rect x="30" y="230" width="130" height="42" rx="6" fill="#3d1f00" stroke="#f0883e"/>
+    <text x="95" y="248" text-anchor="middle" fill="#f0883e" font-weight="700">2S 锂电池</text>
+    <text x="95" y="264" text-anchor="middle" fill="#8b949e" font-size="11">7.4V · XT30</text>
+
+    <rect x="30" y="330" width="130" height="42" rx="6" fill="#3d1f00" stroke="#f0883e"/>
+    <text x="95" y="348" text-anchor="middle" fill="#f0883e" font-weight="700">外置总开关</text>
+    <text x="95" y="364" text-anchor="middle" fill="#8b949e" font-size="11">15A</text>
+
+    <rect x="30" y="430" width="130" height="42" rx="6" fill="#3d1f00" stroke="#f0883e"/>
+    <text x="95" y="448" text-anchor="middle" fill="#f0883e" font-weight="700">逻辑降压模块</text>
+    <text x="95" y="464" text-anchor="middle" fill="#8b949e" font-size="11">→ 5V/3A</text>
+
+    <rect x="30" y="520" width="130" height="42" rx="6" fill="#3d1f00" stroke="#f0883e"/>
+    <text x="95" y="538" text-anchor="middle" fill="#f0883e" font-weight="700">舵机降压模块</text>
+    <text x="95" y="554" text-anchor="middle" fill="#8b949e" font-size="11">DFR0753 → 5V/8A</text>
+
+    <!-- 连线 -->
+    <path d="M160,251 L410,378" stroke="#f0883e" stroke-width="2" fill="none" marker-end="url(#r)"/>
+    <text x="250" y="305" fill="#f0883e" font-size="11">XT30 主电源</text>
+
+    <path d="M230,351 L410,418" stroke="#f0883e" stroke-width="2" fill="none" marker-end="url(#r)"/>
+    <text x="255" y="380" fill="#f0883e" font-size="11">J_SW 串在正极</text>
+
+    <path d="M160,451 L410,432" stroke="#f0883e" stroke-width="1.6" fill="none" marker-end="url(#r)"/>
+    <path d="M410,442 L160,472" stroke="#58a6ff" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+    <text x="215" y="440" fill="#f0883e" font-size="10">J_LOG_IN</text>
+    <text x="215" y="490" fill="#58a6ff" font-size="10">J_LOG_OUT → +5V_LOGIC</text>
+
+    <path d="M160,541 L410,425" stroke="#f0883e" stroke-width="1.6" fill="none" marker-end="url(#r)"/>
+    <path d="M410,452 L160,562" stroke="#58a6ff" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+    <text x="200" y="530" fill="#f0883e" font-size="10">J_SRV_IN</text>
+    <text x="200" y="580" fill="#58a6ff" font-size="10">J_SRV_OUT → +5V_SERVO</text>
+  </g>
+
+  <!-- ===== 右：信号 ===== -->
+  <g font-size="12">
+    <rect x="1020" y="285" width="130" height="46" rx="6" fill="#0d2a4a" stroke="#58a6ff"/>
+    <text x="1085" y="303" text-anchor="middle" fill="#58a6ff" font-weight="700">HS24S010B</text>
+    <text x="1085" y="320" text-anchor="middle" fill="#8b949e" font-size="11">2.4" 屏幕 · 10 线</text>
+
+    <rect x="1020" y="355" width="130" height="46" rx="6" fill="#0d2a4a" stroke="#58a6ff"/>
+    <text x="1085" y="373" text-anchor="middle" fill="#58a6ff" font-weight="700">ESP32-S3</text>
+    <text x="1085" y="390" text-anchor="middle" fill="#8b949e" font-size="11">开发板 · 插 J1/J2</text>
+
+    <rect x="1020" y="425" width="130" height="46" rx="6" fill="#0d2a4a" stroke="#58a6ff"/>
+    <text x="1085" y="443" text-anchor="middle" fill="#58a6ff" font-weight="700">麦克风模块</text>
+    <text x="1085" y="460" text-anchor="middle" fill="#8b949e" font-size="11">I²S → J4</text>
+
+    <rect x="1020" y="495" width="130" height="46" rx="6" fill="#0d2a4a" stroke="#58a6ff"/>
+    <text x="1085" y="513" text-anchor="middle" fill="#58a6ff" font-weight="700">功放 + 喇叭</text>
+    <text x="1085" y="530" text-anchor="middle" fill="#8b949e" font-size="11">MAX98357 → J5</text>
+
+    <rect x="1020" y="565" width="130" height="46" rx="6" fill="#0d2a4a" stroke="#58a6ff"/>
+    <text x="1085" y="583" text-anchor="middle" fill="#58a6ff" font-weight="700">MG90S ×8</text>
+    <text x="1085" y="600" text-anchor="middle" fill="#8b949e" font-size="11">插 SV1–SV8</text>
+
+    <path d="M696,298 L1020,308" stroke="#58a6ff" stroke-width="2" fill="none" marker-end="url(#a)"/>
+    <text x="760" y="295" fill="#58a6ff" font-size="11">J3 · 10 线（含背光）</text>
+
+    <path d="M610,298 L1020,378" stroke="#58a6ff" stroke-width="2" fill="none" marker-end="url(#a)"/>
+    <text x="740" y="350" fill="#58a6ff" font-size="11">J1/J2 · 20P×2 插座</text>
+
+    <path d="M496,338 L1020,448" stroke="#58a6ff" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+    <text x="700" y="400" fill="#58a6ff" font-size="11">J4 · 6 线</text>
+
+    <path d="M596,338 L1020,518" stroke="#58a6ff" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+    <text x="790" y="450" fill="#58a6ff" font-size="11">J5 · 6 线</text>
+
+    <path d="M696,468 L1020,588" stroke="#d29922" stroke-width="2" fill="none" marker-end="url(#a)"/>
+    <text x="800" y="545" fill="#d29922" font-size="11">SV1–SV8 · 3 线 ×8</text>
+  </g>
+
+  <!-- 说明 -->
+  <g font-size="11" fill="#8b949e">
+    <text x="30" y="660">🔴 电源链（橙）：电池 → JBAT → 保护+均衡 → 保险丝F1 → J_SW 总开关 → VBAT_SW → 两路降压 → 回流主板</text>
+    <text x="30" y="680">🔵 信号（蓝）：屏幕 J3 / 主控 J1-J2 / 麦克风 J4 / 功放 J5 / NTC J7 / 舵机 SV1-8</text>
+    <text x="30" y="700">⚠️ 两路 5V【共地但正极分开】，不能并联；屏幕供电只能选一个来源（JP_LCD 或 J10）</text>
+    <text x="30" y="720">⚠️ 三个跳线默认【断开】（丝印都标 OPEN），JP_CHG 断开时禁止充电</text>
+  </g>
+</svg>
+
+<table>
+<tr><th>接口</th><th>脚数</th><th>接什么</th><th>关键引脚</th></tr>
+<tr><td class="k">JBAT</td><td>2(+2NC)</td><td>2S 锂电池（XT30）</td><td>1=VBAT_RAW_N  2=VBAT_RAW_P</td></tr>
+<tr><td class="k">JBAL</td><td>3</td><td>电池平衡线</td><td>1=B−  2=BM  3=B+</td></tr>
+<tr><td class="k">J_SW</td><td>2</td><td>外置直流总开关（15A）</td><td>1=VBAT_FUSED  2=VBAT_SW</td></tr>
+<tr><td class="k">J_LOG_IN</td><td>2</td><td>→ 逻辑降压模块输入</td><td>1=VBAT_SW  2=GND</td></tr>
+<tr><td class="k">J_LOG_OUT</td><td>2</td><td>← 逻辑降压模块 5V 输出</td><td>1=+5V_LOGIC  2=GND</td></tr>
+<tr><td class="k">J_SRV_IN</td><td>2</td><td>→ 舵机降压模块输入</td><td>1=VBAT_SW  2=GND</td></tr>
+<tr><td class="k">J_SRV_OUT</td><td>2</td><td>← 舵机降压模块 5V 输出</td><td>1=+5V_SERVO  2=GND</td></tr>
+<tr><td class="k">J6</td><td>16</td><td>USB-C 充电输入（<b>不是下载口</b>）</td><td>VBUS / CC1 / CC2 / GND</td></tr>
+<tr><td class="k">J1 + J2</td><td>20+20</td><td><b>ESP32-S3 开发板插座</b></td><td>见下方详细表</td></tr>
+<tr><td class="k">J3</td><td>10</td><td><b>屏幕线束</b>（XH-10A）</td><td>GND/3V3/SCLK/MOSI/RST/DC/CS/BLK</td></tr>
+<tr><td class="k">J4</td><td>6</td><td>I²S 麦克风模块</td><td>MIC_BCLK / MIC_WS / MIC_SD / +3V3 / GND×2</td></tr>
+<tr><td class="k">J5</td><td>6</td><td>I²S 功放模块</td><td>AMP_BCLK / AMP_WS / AMP_DIN / +5V_LOGIC / GND×2</td></tr>
+<tr><td class="k">J7</td><td>2</td><td>100kΩ B4100 NTC 温度探头</td><td>1=NTC  2=GND</td></tr>
+<tr><td class="k">J10</td><td>2</td><td>可选外部 3.3V 屏幕供电</td><td>1=LCD_3V3  2=GND</td></tr>
+<tr><td class="k">SV1–SV8</td><td>3×8</td><td><b>舵机 ×8</b></td><td>1=PWM0–7  2=+5V_SERVO  3=GND</td></tr>
+<tr><td class="k">JP_CHG</td><td>2</td><td>充电使能跳线（默认断）</td><td>1=CHG_VIN  2=CHG_EN</td></tr>
+<tr><td class="k">JP_LCD</td><td>2</td><td>屏幕供电选择（默认断）</td><td>1=+3V3  2=LCD_3V3</td></tr>
+<tr><td class="k">JP_MCU</td><td>2</td><td>主控供电隔离（默认断）</td><td>1=+5V_LOGIC  2=MCU_5V</td></tr>
+</table>
+
+
+<h1 style="margin-top:26px">主控插座 J1 / J2 引脚分配</h1>
+<div class="sub">ESP32-S3 开发板插在两排 1×20P 插座上，天线朝板外（J1/J2 之间）</div>
+<table>
+<tr><th>网络</th><th>插座脚</th><th>说明</th></tr>
+<tr><td class="k">LCD_SCLK</td><td class="k">J2.13</td><td>屏幕 SPI 时钟</td></tr>
+<tr><td class="k">LCD_MOSI</td><td class="k">J2.12</td><td>屏幕 SPI 数据</td></tr>
+<tr><td class="k">LCD_RST_N</td><td class="k">J1.10</td><td>屏幕复位</td></tr>
+<tr><td class="k">LCD_DC</td><td class="k">J2.15</td><td>屏幕 数据/命令</td></tr>
+<tr><td class="k">LCD_CS_N</td><td class="k">J2.14</td><td>屏幕片选</td></tr>
+<tr><td class="k">MIC_BCLK</td><td class="k">J2.4</td><td>麦克风 I²S 时钟</td></tr>
+<tr><td class="k">MIC_WS</td><td class="k">J2.5</td><td>麦克风 I²S 帧同步</td></tr>
+<tr><td class="k">MIC_SD</td><td class="k">J2.6</td><td>麦克风 I²S 数据</td></tr>
+<tr><td class="k">AMP_BCLK</td><td class="k">J1.5</td><td>功放 I²S 时钟</td></tr>
+<tr><td class="k">AMP_WS</td><td class="k">J1.6</td><td>功放 I²S 帧同步</td></tr>
+<tr><td class="k">AMP_DIN</td><td class="k">J1.7</td><td>功放 I²S 数据</td></tr>
+<tr><td class="k">PCA_SDA</td><td class="k">J2.9</td><td>PCA9685 I²C 数据</td></tr>
+<tr><td class="k">PCA_SCL</td><td class="k">J2.10</td><td>PCA9685 I²C 时钟</td></tr>
+<tr><td class="k">PCA_OE</td><td class="k">J2.11</td><td>PCA9685 输出使能（默认禁止）</td></tr>
+<tr><td class="k">ADC_BAT</td><td class="k">J2.1</td><td>电池电压采样</td></tr>
+<tr><td class="k">+3V3</td><td class="k">J2.17 / 18 / 19</td><td>开发板 3.3V 输出</td></tr>
+<tr><td class="k">MCU_5V</td><td class="k">J1.17 / 18 / 19</td><td>开发板 5V 输入</td></tr>
+<tr><td class="k">GND</td><td class="k">J1.9 / 20 · J2.7 / 20</td><td>地</td></tr>
+</table>
+<div class="note">
+其余引脚为有意不连接的 NC（J1 共 11 个、J2 共 4 个）· 数据来源 <span class="k">引脚网络表_310引脚.csv</span>
+</div>
+
+<div class="note">
+数据来源：<span class="k">接口引脚表.csv</span>（129 行 / 26 个接口）· 生成于 2026-09-13
+</div>
+</div></body></html>

@@ -1,0 +1,190 @@
+{
+  "wired": [
+    {
+      "ref": "J3",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "net": "+5V_LOGIC"
+    },
+    {
+      "ref": "J3",
+      "pin": "3",
+      "net": "LCD_SCLK"
+    },
+    {
+      "ref": "J3",
+      "pin": "4",
+      "net": "LCD_MOSI"
+    },
+    {
+      "ref": "J3",
+      "pin": "5",
+      "net": "LCD_RST_N"
+    },
+    {
+      "ref": "J3",
+      "pin": "6",
+      "net": "LCD_DC"
+    },
+    {
+      "ref": "J3",
+      "pin": "7",
+      "net": "LCD_CS_N"
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J4",
+      "pin": "3",
+      "net": "PCA_SDA"
+    },
+    {
+      "ref": "J4",
+      "pin": "4",
+      "net": "PCA_SCL"
+    },
+    {
+      "ref": "J4",
+      "pin": "5",
+      "net": "PCA_OE_N"
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "net": "+3V3"
+    },
+    {
+      "ref": "J5",
+      "pin": "3",
+      "net": "MIC_BCLK"
+    },
+    {
+      "ref": "J5",
+      "pin": "4",
+      "net": "MIC_WS"
+    },
+    {
+      "ref": "J5",
+      "pin": "5",
+      "net": "MIC_SD"
+    },
+    {
+      "ref": "J5",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "net": "AMP_BCLK"
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "net": "AMP_WS"
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "net": "AMP_DIN"
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "net": "ENC_A"
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "net": "ENC_B"
+    },
+    {
+      "ref": "J7",
+      "pin": "4",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "5",
+      "net": "ENC_SW_N"
+    },
+    {
+      "ref": "J7",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "7",
+      "net": "KEY_N"
+    },
+    {
+      "ref": "J8",
+      "pin": "1",
+      "net": "+5V_LOGIC"
+    },
+    {
+      "ref": "J8",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J9",
+      "pin": "1",
+      "net": "VBAT_SW"
+    },
+    {
+      "ref": "J9",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "JP1",
+      "pin": "1",
+      "net": "+5V_LOGIC"
+    },
+    {
+      "ref": "JP1",
+      "pin": "2",
+      "net": "+5V_MCU"
+    },
+    {
+      "ref": "JP2",
+      "pin": "1",
+      "net": "VBAT_SW"
+    },
+    {
+      "ref": "JP2",
+      "pin": "2",
+      "net": "VBAT_SENSE"
+    }
+  ],
+  "saved": true
+}

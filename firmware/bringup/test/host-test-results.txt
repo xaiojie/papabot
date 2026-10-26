@@ -1,0 +1,15 @@
+PASS: button bounce does not multiply presses
+PASS: button startup and millis wrap
+PASS: encoder full cycle and direction
+PASS: encoder bounce and illegal transitions
+PASS: servo arm and pulse bounds
+PASS: servo bounded slew
+PASS: invalid commands cannot prolong PWM
+PASS: valid commands and deadline
+PASS: servo millis rollover
+PASS: strict command parsing
+PASS: serial overflow discards entire line
+PASS: memory size tolerance for heap-managed totals
+PASS: wifi connect parses utf8 ssid and passphrase
+PASS: utf8 bytes survive the line buffer
+14 cases, 259 checks, 0 failures

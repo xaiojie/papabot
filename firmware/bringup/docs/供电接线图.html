@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HW-793 给开发板供电 · 接线图</title>
+<style>
+  :root{--bg:#eef3ee;--ink:#16272c;--mut:#5d7176;--line:#c3d4cb;--card:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  main{max-width:1400px;margin:0 auto;padding:22px 18px 60px}
+  h1{font-size:24px;margin:0 0 4px}
+  h2{font-size:17px;margin:0 0 10px}
+  .sub{color:var(--mut);margin:0 0 16px;font-size:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+  .warn{background:#fdecea;border:1px solid #f0b4ac;border-radius:12px;padding:13px 16px;margin-bottom:14px}
+  .ok{background:#e9f4ec;border:1px solid #b6d8c1;border-radius:12px;padding:13px 16px;margin-bottom:14px}
+  svg{display:block;width:100%;height:auto;background:#f8fbf7;border-radius:10px}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin-top:8px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+  th{background:#eaf1ea}
+  .mono{font-family:ui-monospace,Menlo,monospace}
+  .big{font-size:16px;font-weight:700}
+</style>
+</head>
+<body><main>
+
+<h1>HW-793 → 开发板 供电接线图</h1>
+<p class="sub">用电源模块独立供电，不依托 USB。<b>只接两根线，屏幕和舵机的线一根都不用动。</b></p>
+
+<div class="warn">
+  <b>🔴 USB 和电源模块，同一时刻只能上一个</b><br>
+  开发板的 <span class="mono">5V 针</span>和 <span class="mono">USB VBUS</span>是<b>直连</b>的，板上<b>没有电源切换电路</b>。<br>
+  两个同时上 = 电源打架，可能倒灌进电脑 USB 口。<br>
+  <b>插 USB 之前，先把模块的 5V 线拔掉。</b>
+</div>
+
+<div class="ok">
+  <b>💡 红色排针（2 排 × 3 列）的用法</b><br>
+  <b>上面那排 = 5V　·　下面那排 = GND</b> —— 两排都能接，随便挑一列。
+</div>
+
+<div class="card">
+  <svg id="fig" viewBox="0 0 1340 800" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<div class="card">
+  <h2>针脚对照</h2>
+  <table>
+    <thead><tr><th>从哪</th><th>到哪</th><th>位置说明</th></tr></thead>
+    <tbody>
+      <tr><td><b>HW-793 红排针 · 上排 5V</b></td><td class="mono big">开发板 R17</td><td>右列第 17 根</td></tr>
+      <tr><td><b>HW-793 红排针 · 下排 GND</b></td><td class="mono big">开发板 R20</td><td>右列最下面那根</td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin:10px 0 0">
+    <b>R17 / R20 在哪：</b>开发板<b>元件面朝上、天线朝上、USB 朝下</b>，看<b>右边一列</b>，从上往下数。
+    R17 印着 <span class="mono">5V</span>、R20 印着 <span class="mono">GND</span>，<b>两根都在最下面，挨着</b>。
+  </p>
+</div>
+
+<div class="card">
+  <h2>上电前 30 秒检查</h2>
+  <table>
+    <thead><tr><th>#</th><th>做什么</th><th>通过标准</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>万用表量红排针上排 ↔ 下排</td><td>≈5.0V（若只有 3.5V，说明模块输入电压不够）</td></tr>
+      <tr><td>2</td><td>量 5V 和 GND 之间是否短路（断电时）</td><td>蜂鸣档<b>不响</b></td></tr>
+      <tr><td>3</td><td>确认 <b>USB 已拔掉</b></td><td>必须</td></tr>
+      <tr><td>4</td><td>接上模块，上电</td><td>开发板红 PWR 灯亮、屏幕亮起</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h2>要传数据的时候</h2>
+  <ol style="margin:0;padding-left:22px">
+    <li>拔掉模块的 <b>5V 线</b>（GND 可以留着，不用拔）</li>
+    <li>插 USB → 烧录 / 看串口</li>
+    <li>拔 USB → 把 5V 线接回去</li>
+  </ol>
+  <p class="sub" style="margin:10px 0 0">
+    <b>嫌麻烦？</b>在模块 5V 线上串一个 <span class="mono">1N5819</span> 或 <span class="mono">SS34</span> 肖特基二极管，
+    以后就能随便插拔（压降约 0.3V，开发板拿到 ~4.7V，完全够）。<b>二极管的方向：</b>带银色环的一端朝开发板。
+  </p>
+</div>
+
+</main>
+<script>
+const SVG='http://www.w3.org/2000/svg';
+const fig=document.getElementById('fig');
+function el(t,a={},kids=[]){const e=document.createElementNS(SVG,t);
+  for(const k in a) e.setAttribute(k,a[k]); kids.forEach(c=>e.appendChild(c)); return e;}
+function tx(x,y,s,a={}){const e=el('text',{x,y,...a}); e.textContent=s; return e;}
+
+/* ================= HW-793 ================= */
+const P={x:120,y:170,w:340,h:440};
+fig.appendChild(el('rect',{x:P.x,y:P.y,width:P.w,height:P.h,rx:10,
+  fill:'#1a1a1a',stroke:'#000','stroke-width':2}));
+fig.appendChild(tx(P.x+P.w/2,P.y+28,'HW-793  电源模块',{fill:'#fff','font-size':16,
+  'text-anchor':'middle','font-weight':700}));
+
+// DC 输入插座 + 螺丝端子
+fig.appendChild(el('rect',{x:P.x-50,y:P.y+50,width:64,height:46,rx:6,fill:'#111',stroke:'#555','stroke-width':2}));
+fig.appendChild(tx(P.x-18,P.y+79,'DC',{fill:'#888','font-size':12,'text-anchor':'middle'}));
+fig.appendChild(el('rect',{x:P.x-50,y:P.y+180,width:64,height:68,rx:5,fill:'#c0392b',stroke:'#8c2318','stroke-width':2}));
+fig.appendChild(el('circle',{cx:P.x-18,cy:P.y+200,r:8,fill:'#ddd'}));
+fig.appendChild(el('circle',{cx:P.x-18,cy:P.y+228,r:8,fill:'#ddd'}));
+fig.appendChild(tx(P.x-18,P.y+268,'DC 输入',{fill:'#c0392b','font-size':12,'text-anchor':'middle','font-weight':700}));
+fig.appendChild(tx(P.x-18,P.y+285,'+ / −',{fill:'#888','font-size':11,'text-anchor':'middle'}));
+
+// 输出排针（2 排 × 3 列）
+function headerPins(x,y,color){
+  fig.appendChild(el('rect',{x:x-10,y:y-10,width:3*26+20,height:2*26+20,rx:5,
+    fill:'#111',stroke:color,'stroke-width':2}));
+  for(let r=0;r<2;r++) for(let c=0;c<3;c++)
+    fig.appendChild(el('rect',{x:x+c*26,y:y+r*26,width:10,height:10,rx:2,fill:'#d9c27a'}));
+}
+function rowTag(y,txt,color,bold){
+  fig.appendChild(tx(P.x+P.w-124,y+9,txt,{fill:color,'font-size':bold?15:13,
+    'text-anchor':'end','font-weight':bold?700:400}));
+}
+
+/* 蓝色 3.3V（不用） */
+headerPins(P.x+P.w-92, P.y+55, '#2f6fd0');
+rowTag(P.y+55,'3.3V','#2f6fd0',false);
+rowTag(P.y+81,'GND','#5d7176',false);
+fig.appendChild(tx(P.x+P.w-88,P.y+108,'3.3V 区（不用）',{fill:'#8a9c96','font-size':11}));
+
+/* 红色 5V（要用） */
+const RX=P.x+P.w-92, RY=P.y+185;
+headerPins(RX,RY,'#e03131');
+rowTag(RY,'5V','#e03131',true);
+rowTag(RY+26,'GND','#333333',true);
+fig.appendChild(tx(RX+96,RY-6,'← 上排 5V',{fill:'#e03131','font-size':13,'font-weight':700}));
+fig.appendChild(tx(RX+96,RY+20,'← 下排 GND',{fill:'#333','font-size':13,'font-weight':700}));
+fig.appendChild(tx(RX+96,RY+46,'两排都能接，挑一列即可',{fill:'#8a9c96','font-size':11}));
+
+/* 黄色 ADJ（不用） */
+headerPins(P.x+P.w-92, P.y+320, '#d4a017');
+rowTag(P.y+320,'ADJ','#d4a017',false);
+rowTag(P.y+346,'GND','#5d7176',false);
+fig.appendChild(tx(P.x+P.w-88,P.y+373,'ADJ 区（不用）',{fill:'#8a9c96','font-size':11}));
+
+/* ================= 开发板 ================= */
+const D={x:880,y:140,w:250,h:580};
+fig.appendChild(el('rect',{x:D.x,y:D.y,width:D.w,height:D.h,rx:10,
+  fill:'#1b3830',stroke:'#0b1d18','stroke-width':2}));
+fig.appendChild(tx(D.x+D.w/2,D.y-40,'开发板（元件面朝上，天线在上）',
+  {fill:'#5d7176','font-size':14,'text-anchor':'middle','font-weight':700}));
+fig.appendChild(tx(D.x+D.w/2,D.y+36,'ESP32-S3',{fill:'#c7e8db','font-size':15,
+  'text-anchor':'middle','font-weight':700}));
+fig.appendChild(el('rect',{x:D.x+80,y:D.y+D.h-58,width:90,height:36,rx:6,fill:'#08130f',stroke:'#6f9c8c'}));
+fig.appendChild(tx(D.x+D.w/2,D.y+D.h-34,'USB-C',{fill:'#cfe3d8','font-size':12,'text-anchor':'middle'}));
+fig.appendChild(tx(D.x+D.w/2,D.y+D.h+28,'↓ USB 在这一端',
+  {fill:'#5d7176','font-size':12,'text-anchor':'middle'}));
+
+const PITCH=25, PIN0=D.y+42;
+const RLAB=['46','45','42','41','15','16','17','18','GND','21','40','39','38','47','48','0','5V','5V','5V','GND'];
+const use={17:'#e03131', 20:'#333333'};
+for(let i=0;i<20;i++){
+  const y=PIN0+i*PITCH, ref='R'+(i+1), col=use[i+1];
+  fig.appendChild(el('line',{x1:D.x+D.w,y1:y,x2:D.x+D.w+26,y2:y,
+    stroke:col||'#93a79e','stroke-width':col?5:2,'stroke-linecap':'round'}));
+  fig.appendChild(el('circle',{cx:D.x+D.w+31,cy:y,r:5,fill:col||'#c9d4ce',stroke:'#fff','stroke-width':1.5}));
+  fig.appendChild(tx(D.x+D.w-12,y+5,RLAB[i],{fill:col?'#fff':'#7c968d',
+    'font-size':col?15:12,'text-anchor':'end','font-weight':col?700:400}));
+  fig.appendChild(tx(D.x+D.w+42,y+5,ref,{fill:col||'#9fb0a8','font-size':11,
+    'font-weight':col?700:400}));
+}
+
+/* ================= 两根线 ================= */
+function wire(y1,y2,color,label){
+  const x1=RX+3*26+14, x2=D.x+D.w+36, mx=(x1+x2)/2;
+  fig.appendChild(el('path',{d:`M ${x1} ${y1} C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`,
+    fill:'none',stroke:color,'stroke-width':5.5,'stroke-linecap':'round',opacity:.92}));
+  fig.appendChild(el('rect',{x:mx-104,y:(y1+y2)/2-36,width:208,height:28,rx:14,
+    fill:'#fff',stroke:color,'stroke-width':1.5}));
+  fig.appendChild(tx(mx,(y1+y2)/2-16,label,{fill:color,'font-size':13.5,
+    'text-anchor':'middle','font-weight':700}));
+}
+const r17y=PIN0+16*PITCH, r20y=PIN0+19*PITCH;
+wire(RY+5,       r17y, '#e03131', '上排 5V  →  开发板 R17');
+wire(RY+26+5,    r20y, '#333333', '下排 GND →  开发板 R20');
+</script>
+</body></html>

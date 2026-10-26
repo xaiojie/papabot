@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-08",
+  "status": "passed",
+  "checks": [
+    "桌面助手-全量BOM导入V3.xlsx: 表头、37行、型号/C号/数量/金额和无公式值核验通过",
+    "立创BOM导入-全部已知C编号V3.xlsx: 表头、9行、型号/C号/数量/金额和无公式值核验通过",
+    "37项实物与6项费用/包内件不重叠、无漏行",
+    "单机量+备损量=本次采购量",
+    "未知型号/封装不补造",
+    "新线材合并未重复计费"
+  ],
+  "all_rows": 43,
+  "material_rows": 37,
+  "known_c_code_rows": 9,
+  "model_pending_rows": 18,
+  "totals": {
+    "scenario": "两路DFR0753备选，1套样机与本次MOQ/备件；含定制/打印/费用预留",
+    "reference_cash_cny": 761.76,
+    "web_observed_items_cny": 279.23,
+    "historical_screenshot_items_cny": 126.53,
+    "allowances_cny": 356.0,
+    "known_lcsc_code_rows_cash_cny": 87.33,
+    "previous_v2_cash_cny": 769.56,
+    "change_vs_v2_cny": -7.8
+  },
+  "limitations": [
+    "未在网页上传验证字段映射",
+    "全部物料选型尚未完成",
+    "未改变云BOM或执行采购",
+    "金额为静态快照，编辑后需重算"
+  ]
+}

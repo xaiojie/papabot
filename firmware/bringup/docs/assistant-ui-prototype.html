@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>桌面助手 · 双程序 UI 原型（含 SPI 带宽仿真）</title>
+<style>
+  :root{--bg:#f2f5ef;--ink:#182c32;--mut:#5b6f73;--line:#bed0c8;--accent:#3f7f63;--warn:#a8482c;--card:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  main{max-width:1200px;margin:0 auto;padding:26px 20px 70px}
+  h1{font-size:25px;margin:0 0 6px}
+  h2{font-size:16px;margin:0 0 10px}
+  h3{font-size:13.5px;margin:14px 0 6px;color:var(--mut)}
+  .sub{color:var(--mut);margin:0 0 16px}
+  .badge{display:inline-block;background:#e3ece4;border:1px solid var(--line);border-radius:20px;padding:3px 11px;font-size:12.5px;color:var(--accent)}
+  .cols{display:grid;grid-template-columns:1fr 372px;gap:18px;align-items:start}
+  @media(max-width:960px){.cols{grid-template-columns:1fr}}
+  .stage{background:#0d1117;border:1px solid #2b3a3f;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:12px}
+  .screenwrap{position:relative;padding:16px;background:linear-gradient(180deg,#2a3138,#1b2126);border-radius:12px;box-shadow:inset 0 0 0 1px #3d474e}
+  canvas{image-rendering:pixelated;display:block;border-radius:4px}
+  .card{border:1px solid var(--line);border-radius:11px;padding:13px;margin-bottom:12px;background:#fbfcf9}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .pad{background:#eef3ec;border:1px solid var(--line);border-radius:9px;padding:10px;text-align:center;font:600 13px/1.3 inherit;cursor:pointer;user-select:none;touch-action:none}
+  .pad small{display:block;font-weight:400;color:var(--mut);font-size:11px;margin-top:2px}
+  .pad:active{background:var(--accent);border-color:var(--accent);color:#fff}
+  .knob{width:104px;height:104px;border-radius:50%;margin:4px auto 8px;background:radial-gradient(circle at 36% 30%,#f6f8f4,#c3cfc6);border:1px solid #9fb0a5;position:relative;cursor:grab;touch-action:none;user-select:none}
+  .knob .dot{position:absolute;left:50%;top:10px;width:8px;height:20px;margin-left:-4px;background:var(--accent);border-radius:4px}
+  table{border-collapse:collapse;width:100%;font-size:13px;margin-top:6px}
+  th,td{border:1px solid var(--line);padding:5px 8px;text-align:left}
+  th{background:#eef3ec;font-weight:600}
+  .mono{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+  .stat{display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px dashed #dbe4dc;font-size:13px}
+  .stat:last-child{border:0}
+  .stat b{font-family:ui-monospace,Menlo,monospace}
+  label.row{display:flex;gap:8px;align-items:center;font-size:13.5px;margin:6px 0}
+  select{width:100%;border:1px solid var(--line);border-radius:8px;padding:7px;font:13.5px inherit;background:#fff;color:var(--ink)}
+  .note{background:#fdf6e8;border:1px solid #e8d9b0;border-radius:9px;padding:11px 13px;font-size:13.5px;margin:12px 0}
+  .note.bad{background:#fbe9e2;border-color:#e6bfae}
+  .note.ok{background:#e9f2ea;border-color:#c3dbc8}
+  .bar{height:9px;background:#e3ece4;border-radius:5px;overflow:hidden;margin-top:5px}
+  .bar i{display:block;height:100%;background:var(--accent)}
+  ul{padding-left:19px;margin:6px 0} li{margin:3px 0}
+  .fps{font:700 15px ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body><main>
+
+<header>
+  <h1>双程序 UI 原型 <span class="badge">SPI 带宽仿真</span></h1>
+  <p class="sub">按概念图的屏幕语言做的两个程序：<b>① 会动的表情</b> 和 <b>② 信息面板</b>，用旋钮切换。
+  这一页把 <b>ST7789 的 SPI 传输时间真实算进去</b>，所以你看到的卡顿就是 ESP32 真会有的卡顿——不是浏览器速度。</p>
+  <p class="sub" style="font-size:13px;margin:8px 0 0">
+    另见：<a href="screen-simulator.html">硬件自检（bench-v1）的屏幕预览与中文排版测算</a>
+    ｜ <a href="index.html">接线页面</a>
+  </p>
+</header>
+
+<div class="cols">
+  <div>
+    <div class="stage">
+      <div class="screenwrap"><canvas id="lcd" width="320" height="240" style="width:640px;height:480px"></canvas></div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;font-size:13px">
+        <span>实测帧率 <span class="fps" id="fps">—</span></span>
+        <span>脏矩形 <span class="mono" id="rect">—</span></span>
+        <span>每帧 <span class="mono" id="bytes">—</span></span>
+        <span>传输 <span class="mono" id="xfer">—</span></span>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h2>架构结论（由上面的数字倒推）</h2>
+      <table>
+        <tr><th>约束</th><th>数字</th><th>结论</th></tr>
+        <tr><td>全屏重绘 @10 MHz</td><td class="mono">122.9 ms / 8 fps</td><td><b>不可用</b>——动画会明显一顿一顿</td></tr>
+        <tr><td>表情区局部刷新</td><td class="mono">35.2 ms / 28 fps</td><td><b>够用</b>，这是表情程序必须走的路线</td></tr>
+        <tr><td>PSRAM 全帧缓冲</td><td class="mono">150 KB / 双缓冲 300 KB</td><td>8 MB PSRAM 随便放，用于合成与求脏矩形</td></tr>
+        <tr><td>SPI 提到 40 MHz</td><td class="mono">8.8 ms / 114 fps</td><td>表情区绰绰有余，但<b>需实物实测确认稳定性</b></td></tr>
+      </table>
+      <p class="sub" style="font-size:13px;margin:9px 0 0">所以固件结构应该是：<b>PSRAM 里维护整帧 → 每帧只把变化区域用 setAddrWindow + pushColors 推给屏</b>，绝不全屏刷。</p>
+    </div>
+  </div>
+
+  <aside>
+    <div class="card">
+      <h2>旋钮切换</h2>
+      <div class="knob" id="knob"><div class="dot" id="knobdot"></div></div>
+      <div class="grid2">
+        <div class="pad" id="ccw">◀ 上一屏<small>逆时针</small></div>
+        <div class="pad" id="cw">下一屏 ▶<small>顺时针</small></div>
+      </div>
+      <div class="grid2" style="margin-top:8px">
+        <div class="pad" id="push">按下<small>表情换情绪 / 信息翻页</small></div>
+        <div class="pad" id="auto">自动轮播<small id="autostate">关</small></div>
+      </div>
+      <h3>当前屏幕</h3>
+      <div class="grid2" id="screens"></div>
+    </div>
+
+    <div class="card">
+      <h2>仿真参数</h2>
+      <label class="row">SPI 时钟
+        <select id="spi">
+          <option value="10000000" selected>10 MHz（当前固件）</option>
+          <option value="20000000">20 MHz</option>
+          <option value="40000000">40 MHz（需实测）</option>
+          <option value="1000000">1 MHz（看有多惨）</option>
+        </select>
+      </label>
+      <label class="row"><input type="checkbox" id="fullredraw"> 强制全屏重绘（对照组）</label>
+      <label class="row"><input type="checkbox" id="showrect" checked> 显示脏矩形框</label>
+      <label class="row"><input type="checkbox" id="throttle" checked> 按 SPI 耗时限速</label>
+      <p class="sub" style="font-size:12.5px;margin:6px 0 0">关掉「限速」就是理想速度，用来对比差距。</p>
+    </div>
+
+    <div class="card">
+      <h2>这一屏会显示什么</h2>
+      <div id="screendesc" class="sub" style="font-size:13px;margin:0"></div>
+    </div>
+  </aside>
+</div>
+
+<div class="card" style="margin-top:16px">
+  <h2>信息面板的数据来源</h2>
+  <table>
+    <tr><th>项目</th><th>来源</th><th>状态</th></tr>
+    <tr><td>时间 / 日期</td><td>NTP（<span class="mono">ntp.aliyun.com</span>），配时区 CST-8</td><td>✅ 无门槛，ESP32 原生支持</td></tr>
+    <tr><td>昵称</td><td>设备配置，写入 NVS</td><td>✅ 简单，但要想好怎么设置（串口？配网页？）</td></tr>
+    <tr><td>天气</td><td>和风天气（QWeather），长沙 → 岳麓区</td><td>⚠️ <b>已实测：Key 可用，但缺 API Host</b>。见下方「和风接入进度」</td></tr>
+    <tr><td>Wi-Fi 信号 / IP</td><td>本机 <span class="mono">WiFi.RSSI()</span></td><td>✅ 已有</td></tr>
+    <tr><td><b>ChatGPT 使用量</b></td><td>自建 <b>sub2api</b> 服务，走它的接口</td><td>❓ 待确认接口形态（你说排后面）</td></tr>
+  </table>
+
+  <h3 style="margin-top:18px">和风接入进度（2026-09-10 实测）</h3>
+  <table>
+    <tr><th>检查</th><th>结果</th></tr>
+    <tr><td>网络可达</td><td>✅ 长沙联通，<span class="mono">devapi.qweather.com</span> 能正常返回 JSON</td></tr>
+    <tr><td>凭据 ID</td><td>✅ 已记录（<b>不写入本仓库</b>，随 Key 一起在设备运行时输入）</td></tr>
+    <tr><td>API Key</td><td>✅ 已提供（<b>不写入本仓库</b>）</td></tr>
+    <tr><td>API Host</td><td>✅ <span class="mono">xxxxxxxx.re.qweatherapi.com（你的项目专属 Host）</span>（<b>不写入本仓库</b>）</td></tr>
+    <tr><td>岳麓区 LocationID</td><td>✅ <span class="mono">101250109</span>（由 GeoAPI 查出）</td></tr>
+    <tr><td>实机拉取</td><td>✅ <b>20°C 阴，今日 19~25°C</b>，now 728 ms / 3d 687 ms</td></tr>
+  </table>
+  <div class="note ok">
+    <b>2026-09-10 打通。</b>过程中踩到三个坑，都已解决：<br>
+    <b>① 只开 443、没有 80</b> —— 明文 HTTP 不通，必须走 TLS；用固件自带的 ISRG Root X1 校验，没用 <span class="mono">setInsecure()</span>。<br>
+    <b>② 无条件 gzip</b> —— 即使声明 <span class="mono">Accept-Encoding: identity</span>，服务端仍回 gzip。
+    用 <b>ESP32-S3 ROM 里的 miniz</b> 解压，只占 916 字节 flash。<br>
+    <b>③ TLS 握手爆栈</b> —— loopTask 默认 8 KB 栈会崩，已提到 16 KB。
+  </div>
+  <div class="note">
+    <b>顺序要求：</b>TLS 要校验证书有效期，所以必须 <b>先 <span class="mono">ntp</span> 再 <span class="mono">weather</span></b>。
+    顺序不对时会明确报「系统时间未同步」，而不是含糊的网络错误。
+  </div>
+</div>
+
+<div class="card">
+  <h2>⑤ ChatGPT 用量：走自建 sub2api</h2>
+  <p>你已经有自建的 <b>sub2api</b> 服务，这是三种方案里最好的一种——key 权限可控，不用把 OpenAI 的 Admin key 放到设备上。</p>
+  <p>要接它，需要你提供三样东西（<b>不急，按你说的排后面</b>）：</p>
+  <table>
+    <tr><th>需要</th><th>说明</th></tr>
+    <tr><td>服务地址</td><td>形如 <span class="mono">https://你的域名</span>，以及它是否暴露在公网（ESP32 要能直连）</td></tr>
+    <tr><td>用量接口路径</td><td>sub2api 一般有 <span class="mono">/api/user/…</span> 或 OpenAI 兼容的 <span class="mono">/v1/dashboard/billing/…</span>。
+        你把它的接口文档或 <span class="mono">/docs</span> 页面发我，我来定用哪个</td></tr>
+    <tr><td>一枚只读 key</td><td>专门给设备用的，权限只够查用量。<b>不要用管理员 key</b></td></tr>
+  </table>
+  <div class="note">
+    <b>接入前我会先做的验证：</b>在你的 Mac 上用 curl 打一遍接口，确认返回结构、字段名和数值单位（是 token 数？美元？百分比？），
+    再决定屏幕上画进度条还是数字。避免把"看起来对"的字段写进固件。
+  </div>
+</div>
+
+<div class="card">
+  <h2>还需要你定的两件事</h2>
+  <ul>
+    <li><b>昵称</b>：显示什么？以及怎么设置它（串口命令 / 配网页面 / 写死）。</li>
+    <li><b>和风的 API Host</b>：见上方「和风接入进度」——这是当前唯一卡住天气页的东西。</li>
+  </ul>
+  <div class="note">
+    <b>另外一个必须提前想的问题：</b>现在的 Wi-Fi 连接是<b>一次性测试、只存 RAM</b>（我们特意没写 NVS，还验证过）。
+    但产品化必须让设备<b>记住</b> Wi-Fi 和 API key——也就是要写 NVS。
+    而 NVS 在 flash 里是<b>可以读出来的</b>，所以 API key 存在设备上等于半公开。
+    <b>建议：天气这类低价值 key 存 NVS 可以接受；OpenAI 的 key 不要放设备上，走中转服务。</b>
+  </div>
+</div>
+
+<script>
+/* ===================== 画布与仿真状态 ===================== */
+const W=320, H=240;
+const lcd=document.getElementById('lcd'), L=lcd.getContext('2d');
+const off=document.createElement('canvas'); off.width=W; off.height=H;
+const C=off.getContext('2d');
+lcd.width=W*2; lcd.height=H*2;
+
+const INK='#000000';                       // 屏幕底色（概念图是黑底）
+const EYE='#6ad4e8';                       // 眼睛/弧线青色
+const EYE2='#8fe3f2';
+const DIM='#4b8f9c';
+
+const SCREENS=[
+  {id:'face',   name:'① 表情',     desc:'会动的脸：两条竖胶囊眼 + 微笑弧 + 一行字。眨眼、左右看、呼吸起伏、切换情绪。这是动画程序，靠局部刷新维持帧率。'},
+  {id:'clock',  name:'② 数字时钟', desc:'大号时间 + 日期 + 昵称问候。整屏只在秒变化时刷新一小块。'},
+  {id:'analog', name:'③ 表盘时钟', desc:'指针表盘：60 格刻度 + 时针/分针/秒针。秒针每跳一次只重画新旧两根秒针的并集矩形，比数字钟还省带宽。'},
+  {id:'weather',name:'④ 长沙天气', desc:'岳麓区、当前温度、天气现象、今日高低温。和风天气 API，每 10–30 分钟拉一次，平时不刷新。'},
+  {id:'gpt',    name:'⑤ ChatGPT',  desc:'使用量进度条 + 已用/总额 + 重置时间。数据来自你自建的 sub2api，接口待你确认。'},
+  {id:'sys',    name:'⑥ 状态',     desc:'Wi-Fi RSSI、IP、运行时间、堆内存。调试用。'}
+];
+const S={
+  app:0, spiHz:10e6, mood:0, t:0,
+  fullredraw:false, showrect:true, throttle:true, auto:false,
+  blinkT:0, blinking:false, lookX:0, lookTarget:0,
+  year:2026, month:9, day:10, hour:0, minute:0, second:0, weekday:0
+};
+
+// 用浏览器真实时间。原型只是预览，时间没必要造假。
+const WD=['周日','周一','周二','周三','周四','周五','周六'];
+function syncClock(){
+  const d=new Date();
+  S.year=d.getFullYear(); S.month=d.getMonth()+1; S.day=d.getDate();
+  S.hour=d.getHours(); S.minute=d.getMinutes(); S.second=d.getSeconds();
+  S.weekday=d.getDay();
+}
+syncClock();
+const dateFull =()=>`${S.year} 年 ${S.month} 月 ${S.day} 日 · ${WD[S.weekday]}`;
+const dateShort=()=>`${S.month} 月 ${S.day} 日 · ${WD[S.weekday]}`;
+
+// ---------------- 真实天气：走本机代理 /api/qweather ----------------
+// 浏览器直连和风会被 CORS 拦（响应里没有 Access-Control-Allow-Origin），
+// 所以由 scripts/docs_server.py 在服务端转发一次。
+let WX={state:'loading', temp:null, text:'', obs:'', min:null, max:null, err:''};
+async function loadWeather(){
+  try{
+    const now = await (await fetch('/api/qweather/v7/weather/now?location=101250109')).json();
+    if(now.code!=='200') throw new Error('和风 code='+now.code);
+    let min=null,max=null;
+    try{
+      const d3 = await (await fetch('/api/qweather/v7/weather/3d?location=101250109')).json();
+      if(d3.code==='200' && d3.daily && d3.daily[0]){ min=+d3.daily[0].tempMin; max=+d3.daily[0].tempMax; }
+    }catch(e){}
+    WX={state:'ok', temp:+now.now.temp, text:now.now.text,
+        obs:(now.now.obsTime||'').slice(11,16), min, max, err:''};
+  }catch(e){
+    WX={state:'error', err:String((e&&e.message)||e)};
+  }
+}
+loadWeather();
+setInterval(loadWeather, 10*60*1000);
+
+const MOODS=['开心','眨眼','好奇','困倦','惊讶','难过'];
+
+/* ===================== 图形工具 ===================== */
+function stadium(ctx,cx,cy,w,h){          // 竖向胶囊（概念图的眼形）
+  const r=w/2, hh=Math.max(h,w);
+  ctx.beginPath();
+  ctx.moveTo(cx-r, cy-hh/2+r);
+  ctx.arc(cx, cy-hh/2+r, r, Math.PI, 0);
+  ctx.lineTo(cx+r, cy+hh/2-r);
+  ctx.arc(cx, cy+hh/2-r, r, 0, Math.PI);
+  ctx.closePath(); ctx.fill();
+}
+function arc(ctx,cx,cy,r,a0,a1,w){        // 微笑 / 难过弧
+  ctx.beginPath(); ctx.arc(cx,cy,r,a0,a1);
+  ctx.lineWidth=w; ctx.lineCap='round'; ctx.strokeStyle=EYE; ctx.stroke();
+}
+function txt(ctx,s,x,y,size,color,align='left',weight='600'){
+  ctx.font=`${weight} ${size}px "PingFang SC","Microsoft YaHei",sans-serif`;
+  ctx.fillStyle=color; ctx.textAlign=align; ctx.textBaseline='top';
+  ctx.fillText(s,x,y);
+}
+
+/* ===================== 程序①：会动的表情 ===================== */
+function drawFace(){
+  C.fillStyle=INK; C.fillRect(0,0,W,H);
+  const m=MOODS[S.mood];
+  const bob=Math.sin(S.t/700)*3;                       // 呼吸起伏
+  const cy=98+bob;
+
+  // 眨眼：每 2.4–4.5 秒一次，持续 ~140ms
+  let eyeH=64, eyeW=36;
+  const bl=S.blinking ? Math.max(6, 64*Math.abs(Math.cos(S.blinkT/140*Math.PI))) : 64;
+  eyeH=bl;
+
+  // 情绪改变眼形
+  if (m==='好奇'){ eyeH=70; eyeW=34; }
+  if (m==='困倦'){ eyeH=26; }
+  if (m==='惊讶'){ eyeW=44; eyeH=44; }
+  if (m==='难过'){ eyeH=58; }
+
+  const dx=S.lookX;
+  C.fillStyle=EYE;
+  stadium(C, 160-52+dx, cy, eyeW, eyeH);
+  stadium(C, 160+52+dx, cy, eyeW, eyeH);
+
+  // 嘴 / 表情
+  if (m==='惊讶'){
+    C.beginPath(); C.arc(160, 168+bob, 13, 0, Math.PI*2); C.fillStyle=EYE; C.fill();
+  } else if (m==='难过'){
+    arc(C, 160, 186+bob, 34, Math.PI*1.15, Math.PI*1.85, 9);
+  } else if (m==='困倦'){
+    // 短平线当嘴：不能用弧，否则弧底会压到下方文字
+    C.beginPath(); C.moveTo(146, 172+bob); C.lineTo(174, 172+bob);
+    C.lineWidth=8; C.lineCap='round'; C.strokeStyle=EYE; C.stroke();
+  } else {
+    // 嘴弧上移：概念图里嘴与下方文字有明确留白，原来贴在文字顶上
+    arc(C, 160, 138+bob, 36, 0.22*Math.PI, 0.78*Math.PI, 9);
+  }
+
+  // 下方一行字
+  const line = m==='开心'?'你好呀' : m==='困倦'?'困了…' : m==='惊讶'?'哇！' : m==='难过'?'嗯…' : '';
+  if (line) txt(C, line, 160, 196, 22, EYE2, 'center');
+}
+
+/* ===================== 程序②：信息面板 ===================== */
+function statusBar(){
+  C.fillStyle='#0e1a20'; C.fillRect(0,0,W,26);
+  C.beginPath(); C.arc(16,13,5,0,7); C.fillStyle=EYE; C.fill();
+  txt(C,'Wi-Fi 已连接',28,6,13,'#cfe3d8','left','500');
+  txt(C, `${String(S.hour).padStart(2,'0')}:${String(S.minute).padStart(2,'0')}`, 306, 6, 13, '#cfe3d8','right','600');
+}
+function dots(i,n){
+  const y=226, gap=16, x0=160-(n-1)*gap/2;
+  for(let k=0;k<n;k++){
+    C.beginPath(); C.arc(x0+k*gap, y, 3.5, 0, 7);
+    C.fillStyle = k===i? EYE : '#33535c'; C.fill();
+  }
+}
+function drawClock(){
+  C.fillStyle=INK; C.fillRect(0,0,W,H); statusBar();
+  txt(C, `${String(S.hour).padStart(2,'0')}:${String(S.minute).padStart(2,'0')}`, 160, 62, 76, EYE, 'center','700');
+  txt(C, dateFull(), 160, 152, 17, '#cfe3d8','center','500');
+  txt(C, '下午好，Jay', 160, 186, 20, EYE2, 'center');
+  dots(1,6);
+}
+/* 表盘时钟：只画几何图形，和表情同一个视觉语言（黑底 + 青色） */
+function drawAnalog(){
+  C.fillStyle=INK; C.fillRect(0,0,W,H); statusBar();
+  const cx=160, cy=116, R=74;
+  const aH=(S.hour%12 + S.minute/60)*Math.PI/6 - Math.PI/2;   // 时针
+  const aM=(S.minute + S.second/60)*Math.PI/30 - Math.PI/2;   // 分针
+  const aS=S.second*Math.PI/30 - Math.PI/2;                   // 秒针
+
+  C.beginPath(); C.arc(cx,cy,R,0,7);
+  C.lineWidth=3; C.strokeStyle='#2b4a52'; C.stroke();
+
+  for(let i=0;i<60;i++){                                     // 60 格刻度
+    const a=i*Math.PI/30 - Math.PI/2, big=(i%5===0);
+    const r0=R-(big?14:7), r1=R-3;
+    C.beginPath();
+    C.moveTo(cx+Math.cos(a)*r0, cy+Math.sin(a)*r0);
+    C.lineTo(cx+Math.cos(a)*r1, cy+Math.sin(a)*r1);
+    C.lineWidth=big?4:1.5;
+    C.strokeStyle= big? EYE : '#3d6b75';
+    C.stroke();
+  }
+  C.lineCap='round';
+  C.beginPath(); C.moveTo(cx,cy); C.lineTo(cx+Math.cos(aH)*(R*0.48), cy+Math.sin(aH)*(R*0.48));
+  C.lineWidth=8; C.strokeStyle=EYE; C.stroke();               // 时针
+
+  C.beginPath(); C.moveTo(cx,cy); C.lineTo(cx+Math.cos(aM)*(R*0.72), cy+Math.sin(aM)*(R*0.72));
+  C.lineWidth=5; C.strokeStyle=EYE2; C.stroke();              // 分针
+
+  C.beginPath();                                              // 秒针（尾部长一点，形状变化更明显）
+  C.moveTo(cx-Math.cos(aS)*13, cy-Math.sin(aS)*13);
+  C.lineTo(cx+Math.cos(aS)*(R*0.84), cy+Math.sin(aS)*(R*0.84));
+  C.lineWidth=2; C.strokeStyle='#ff8a6a'; C.stroke();
+
+  C.beginPath(); C.arc(cx,cy,5,0,7); C.fillStyle=EYE; C.fill();
+  txt(C, dateShort(), 160, 208, 14, DIM, 'center','500');
+  dots(2,6);
+}
+function drawWeather(){
+  C.fillStyle=INK; C.fillRect(0,0,W,H); statusBar();
+  txt(C,'长沙 · 岳麓区',16,40,20,'#cfe3d8','left');
+  if(WX.state==='ok'){
+    txt(C,WX.text,16,66,15,DIM,'left','500');
+    txt(C,WX.temp+'°',16,96,68,EYE,'left','700');
+    if(WX.min!=null) txt(C,`${WX.min}° / ${WX.max}°`,228,104,16,'#cfe3d8','left','500');
+    C.fillStyle=DIM;
+    C.beginPath(); C.arc(250,72,17,0,7); C.arc(272,72,21,0,7); C.arc(292,76,15,0,7); C.fill();
+    txt(C,'和风实测 · 观测 '+WX.obs,16,196,13,DIM,'left','500');
+  }else if(WX.state==='loading'){
+    txt(C,'正在拉取和风天气…',16,110,15,DIM,'left','500');
+  }else{
+    txt(C,'天气获取失败',16,88,17,'#ff8a6a','left');
+    txt(C,String(WX.err).slice(0,42),16,114,12,DIM,'left','500');
+    txt(C,'代理未配置？启动 docs_server.py 时',16,138,12,DIM,'left','500');
+    txt(C,'要给 QW_HOST 和 QW_KEY 环境变量。',16,156,12,DIM,'left','500');
+  }
+  dots(3,6);
+}
+function drawGpt(){
+  C.fillStyle=INK; C.fillRect(0,0,W,H); statusBar();
+  txt(C,'ChatGPT 用量',16,40,17,'#cfe3d8','left');
+  txt(C,'65%',16,72,54,EYE,'left','700');
+  txt(C,'已用 13.0 / 20.0',16,134,15,DIM,'left','500');
+  // 进度条
+  C.fillStyle='#1b2b31'; C.fillRect(16,158,288,16);
+  C.fillStyle=EYE;      C.fillRect(16,158,288*0.65,16);
+  txt(C,'示例数据 · 待接入 sub2api',16,188,12,'#6b8a92','left','500');
+  dots(4,6);
+}
+function drawSys(){
+  C.fillStyle=INK; C.fillRect(0,0,W,H); statusBar();
+  const rows=[['Wi-Fi RSSI','−68 dBm'],['IP','192.168.1.93'],['运行时间','01:23:45'],['空闲堆','295 KB'],['PSRAM 空闲','8.0 MB']];
+  txt(C,'设备状态',16,40,17,'#cfe3d8','left');
+  rows.forEach((r,i)=>{
+    txt(C,r[0],20,72+i*28,14,DIM,'left','500');
+    txt(C,r[1],300,72+i*28,14,EYE,'right','600');
+  });
+  dots(5,6);
+}
+function drawFrame(){
+  const id=SCREENS[S.app].id;
+  if(id==='face') drawFace();
+  else if(id==='clock') drawClock();
+  else if(id==='analog') drawAnalog();
+  else if(id==='weather') drawWeather();
+  else if(id==='gpt') drawGpt();
+  else drawSys();
+}
+
+/* ===================== 脏矩形 + SPI 带宽仿真 ===================== */
+let prevPixels=null, lastFrameAt=0, fpsAcc=[], dirtyBox=null;
+
+function dirtyRect(a,b){
+  let x0=W,y0=H,x1=-1,y1=-1;
+  for(let y=0;y<H;y++){
+    const row=y*W*4;
+    for(let x=0;x<W;x++){
+      const i=row+x*4;
+      if(a[i]!==b[i]||a[i+1]!==b[i+1]||a[i+2]!==b[i+2]){
+        if(x<x0)x0=x; if(x>x1)x1=x; if(y<y0)y0=y; if(y>y1)y1=y;
+      }
+    }
+  }
+  if(x1<0) return {x:0,y:0,w:0,h:0};
+  return {x:x0,y:y0,w:x1-x0+1,h:y1-y0+1};
+}
+
+function present(){
+  L.imageSmoothingEnabled=false;
+  L.drawImage(off,0,0,lcd.width,lcd.height);
+  if(dirtyBox && S.showrect && dirtyBox.w>0){
+    L.strokeStyle='rgba(255,80,80,.9)'; L.lineWidth=2;
+    L.strokeRect(dirtyBox.x*2+.5, dirtyBox.y*2+.5, dirtyBox.w*2, dirtyBox.h*2);
+  }
+}
+
+function tick(now){
+  S.t += 16;
+
+  // 眨眼调度
+  S.blinkT += 16;
+  if(!S.blinking && S.blinkT > 2400 + (S.mood%3)*700){ S.blinking=true; S.blinkT=0; }
+  if(S.blinking && S.blinkT > 150){ S.blinking=false; S.blinkT=0; }
+  // 视线游走
+  if(Math.random()<0.01) S.lookTarget=(Math.random()*24-12)|0;
+  S.lookX += (S.lookTarget-S.lookX)*0.12;
+
+  // 秒针推进（只在信息屏）
+  syncClock();
+
+  drawFrame();
+  const cur=C.getImageData(0,0,W,H).data;
+  const box = (prevPixels && !S.fullredraw) ? dirtyRect(prevPixels,cur) : {x:0,y:0,w:W,h:H};
+  prevPixels=cur; dirtyBox=box;
+
+  const bytes = box.w*box.h*2;
+  const xms = bytes*8/S.spiHz*1000;
+
+  // 传输耗时（按 SPI 带宽），这里才是"真帧率"
+  const wait = S.throttle ? xms : 0;
+
+  // 统计
+  const total = now-lastFrameAt; lastFrameAt=now;
+  fpsAcc.push(total); if(fpsAcc.length>20) fpsAcc.shift();
+  const avg = fpsAcc.reduce((a,b)=>a+b,0)/fpsAcc.length;
+  document.getElementById('fps').textContent = (1000/avg).toFixed(1)+' fps';
+  document.getElementById('rect').textContent = box.w&&box.h ? `${box.w}×${box.h}` : '无变化';
+  document.getElementById('xfer').textContent = xms<0.1?'0 ms':xms.toFixed(1)+' ms';
+  document.getElementById('bytes').textContent = bytes ? (bytes/1024).toFixed(1)+' KB' : '0';
+
+  present();
+  setTimeout(()=>requestAnimationFrame(tick), wait);
+}
+
+/* ===================== 交互 ===================== */
+function go(d){
+  S.app=(S.app+d+SCREENS.length)%SCREENS.length;
+  prevPixels=null;                       // 换屏视为全屏变化
+  updateUI();
+}
+function updateUI(){
+  document.querySelectorAll('#screens .pad').forEach((el,i)=>{
+    el.style.background = i===S.app ? '#3f7f63' : '#eef3ec';
+    el.style.color      = i===S.app ? '#fff' : '#182c32';
+    el.style.borderColor= i===S.app ? '#3f7f63' : '#bed0c8';
+  });
+  document.getElementById('screendesc').textContent = SCREENS[S.app].desc;
+  document.getElementById('moodname') && (document.getElementById('moodname').textContent = MOODS[S.mood]);
+}
+const box=document.getElementById('screens');
+SCREENS.forEach((s,i)=>{
+  const d=document.createElement('div'); d.className='pad'; d.textContent=s.name;
+  d.onclick=()=>{ S.app=i; prevPixels=null; updateUI(); };
+  box.appendChild(d);
+});
+document.getElementById('cw').onclick=()=>go(1);
+document.getElementById('ccw').onclick=()=>go(-1);
+document.getElementById('push').onclick=()=>{
+  if(SCREENS[S.app].id==='face'){ S.mood=(S.mood+1)%MOODS.length; }
+  else { go(1); }
+  updateUI();
+};
+document.getElementById('auto').onclick=()=>{
+  S.auto=!S.auto;
+  document.getElementById('autostate').textContent=S.auto?'开':'关';
+  document.getElementById('auto').style.background=S.auto?'#3f7f63':'#eef3ec';
+  document.getElementById('auto').style.color=S.auto?'#fff':'#182c32';
+};
+setInterval(()=>{ if(S.auto) go(1); }, 6000);
+
+/* 旋钮拖拽 */
+const knob=document.getElementById('knob'), dot=document.getElementById('knobdot');
+let ang=0, dragging=false, lastA=null;
+function kmove(e){
+  const r=knob.getBoundingClientRect();
+  const p=e.touches?e.touches[0]:e, cx=r.left+r.width/2, cy=r.top+r.height/2;
+  const a=Math.atan2(p.clientY-cy,p.clientX-cx)*180/Math.PI;
+  if(lastA===null){lastA=a;return;}
+  let d=a-lastA; if(d>180)d-=360; if(d<-180)d+=360; ang+=d; lastA=a;
+  if(Math.abs(ang)>=34){ const s=ang>0?1:-1; ang=0; go(s); }
+  dot.style.transform=`rotate(${ang}deg)`; dot.style.transformOrigin='50% 42px';
+}
+knob.addEventListener('mousedown',e=>{dragging=true;lastA=null;kmove(e);});
+knob.addEventListener('touchstart',e=>{dragging=true;lastA=null;kmove(e);},{passive:true});
+window.addEventListener('mousemove',e=>{if(dragging)kmove(e);});
+window.addEventListener('touchmove',e=>{if(dragging){kmove(e);e.preventDefault();}},{passive:false});
+window.addEventListener('mouseup',()=>{dragging=false;lastA=null;});
+window.addEventListener('touchend',()=>{dragging=false;lastA=null;});
+
+document.getElementById('spi').onchange=e=>{ S.spiHz=+e.target.value; fpsAcc=[]; };
+document.getElementById('fullredraw').onchange=e=>{ S.fullredraw=e.target.checked; };
+document.getElementById('showrect').onchange=e=>{ S.showrect=e.target.checked; };
+document.getElementById('throttle').onchange=e=>{ S.throttle=e.target.checked; fpsAcc=[]; };
+
+updateUI();
+lastFrameAt=performance.now();
+requestAnimationFrame(tick);
+</script>
+</main></body></html>

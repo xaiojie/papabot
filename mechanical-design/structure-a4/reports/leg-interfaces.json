@@ -1,0 +1,54 @@
+[
+  {
+    "id": "FL",
+    "hip_joint": "JNT_FL_HIP_X",
+    "knee_joint": "JNT_FL_KNEE_X",
+    "fixed": "L101_FL__compact_hip_bracket",
+    "upper": "L102_FL__inboard_knee_link",
+    "lower": "L104_FL__lower_leg_and_foot",
+    "foot_center_mm": [
+      -79.2,
+      -67.5,
+      1
+    ]
+  },
+  {
+    "id": "FR",
+    "hip_joint": "JNT_FR_HIP_X",
+    "knee_joint": "JNT_FR_KNEE_X",
+    "fixed": "L101_FR__compact_hip_bracket",
+    "upper": "L102_FR__inboard_knee_link",
+    "lower": "L104_FR__lower_leg_and_foot",
+    "foot_center_mm": [
+      79.2,
+      -67.5,
+      1
+    ]
+  },
+  {
+    "id": "RL",
+    "hip_joint": "JNT_RL_HIP_X",
+    "knee_joint": "JNT_RL_KNEE_X",
+    "fixed": "L101_RL__compact_hip_bracket",
+    "upper": "L102_RL__inboard_knee_link",
+    "lower": "L104_RL__lower_leg_and_foot",
+    "foot_center_mm": [
+      -79.2,
+      67.5,
+      1
+    ]
+  },
+  {
+    "id": "RR",
+    "hip_joint": "JNT_RR_HIP_X",
+    "knee_joint": "JNT_RR_KNEE_X",
+    "fixed": "L101_RR__compact_hip_bracket",
+    "upper": "L102_RR__inboard_knee_link",
+    "lower": "L104_RR__lower_leg_and_foot",
+    "foot_center_mm": [
+      79.2,
+      67.5,
+      1
+    ]
+  }
+]

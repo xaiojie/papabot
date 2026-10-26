@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-08",
+  "purpose": "并行设计前源文件完整性基线；新设计另存，不覆盖用户源文件",
+  "files": [
+    {
+      "file": "mechanical-design/assembly-v1/desktop-assistant-assembly-v1.blend",
+      "sha256": "df56e4b399b337fb912708011ed11bd848c1d052193cc0339aefa19d34459c0a",
+      "bytes": 16086444
+    },
+    {
+      "file": "mechanical-design/assembly-v1/scripts/build_assembly.py",
+      "sha256": "0225681eee87f41e50fcac2c5dc6040286cf7ff4d7dcd33d3e514bb6e68edb10",
+      "bytes": 31274
+    },
+    {
+      "file": "hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx",
+      "sha256": "83caaaf752e2bd71f4888ba88c8e093c8f1aba2576d3a6be60e1d3cb982fb767",
+      "bytes": 6202
+    },
+    {
+      "file": "hardware-selection/bom-v7/00-整机配件采购核对.xlsx",
+      "sha256": "0d18f41f9da4a19d0b14d1ac3c0987ba3d23808c28c7732547640718d3c6b1e3",
+      "bytes": 15541
+    },
+    {
+      "file": "hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx",
+      "sha256": "f4fa8c9057fa641a0956d3a2020390bb4dd08074188eeffc072b6dc46921ced8",
+      "bytes": 12725
+    }
+  ]
+}

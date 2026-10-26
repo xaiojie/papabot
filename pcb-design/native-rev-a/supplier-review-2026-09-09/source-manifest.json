@@ -1,0 +1,53 @@
+{
+  "received_on": "2026-09-09",
+  "user_confirmed_encoder": "EC11 梅花柄，柄长15mm",
+  "source_directory": "/Users/jay/Downloads/2.4寸TFT彩屏+EC11旋转编码器模块",
+  "selected_files": [
+    {
+      "source_relative_path": "原理图/原理图.png",
+      "bytes": 43386,
+      "sha256": "4f3df2836bc6c5c5ef1c60c721816529ed71c347945b7b716722a435fd2848f3"
+    },
+    {
+      "source_relative_path": "引脚说明.docx",
+      "bytes": 13152,
+      "sha256": "8c1e669e9d05b5d25b095d6d0a2699d43efef146b033a68e0eb30dc683922a7f"
+    },
+    {
+      "source_relative_path": "封面图.jpg",
+      "bytes": 119668,
+      "sha256": "82874ec745fb7ea58dcd2e2c441a519ca3387e370a2b730b7c021998363d8bc1"
+    },
+    {
+      "source_relative_path": "EC11资料/EC1103-D5-K15F7.pdf",
+      "bytes": 234674,
+      "sha256": "35440a3752ca070f4c2bea0d04e8d4dc97e026b18fa64f1417dd3b0060bb3e47"
+    },
+    {
+      "source_relative_path": "EC11资料/360度 旋转编码器模块/EC11 资料.pdf",
+      "bytes": 125390,
+      "sha256": "18a48b75989d0ecedf0fb837d57c43c7bc3fd5aa08ef18baf5b48f1d34e14a12"
+    },
+    {
+      "source_relative_path": "EC11资料/360度 旋转编码器模块/原理图.docx",
+      "bytes": 562021,
+      "sha256": "9f0ef231b2a4d7fd0c3ac1037ef19942216affa63057e30e3888be8e51fe5b3e"
+    },
+    {
+      "source_relative_path": "程序/ST7789/Demo_STM32F103RCT6_Software_SPI/USER/main.c",
+      "bytes": 4847,
+      "sha256": "cdd7d9e8508d42e82773d54b6242495ee8169530ef6520f772d9ea026455fce5"
+    },
+    {
+      "source_relative_path": "程序/ST7789/Demo_STM32F103RCT6_Software_SPI/HARDWARE/LCD/lcd.h",
+      "bytes": 4737,
+      "sha256": "9db56d49d4d826082e0ba85822946a238dde7f83f33bbdc8052aa8570c5e9afa"
+    },
+    {
+      "source_relative_path": "程序/ST7789/ESP8266/sketch_aug07a/sketch_aug07a.ino",
+      "bytes": 4463,
+      "sha256": "4371c0ba4d0172b518b2c37226d1e2c0ef9848a246558be3757da264418d2af7"
+    }
+  ],
+  "original_files_modified": false
+}

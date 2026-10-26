@@ -1,0 +1,31 @@
+{
+  "zip_crc_pass": true,
+  "pcb_doc_present": true,
+  "primitive_counts": {
+    "DOCHEAD": 1,
+    "META": 1,
+    "PRIMITIVE": 37,
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "NET": 26,
+    "COMPONENT": 21,
+    "PAD_NET": 100,
+    "ATTR": 63,
+    "ELE_PLACEHOLDER": 15,
+    "LINE": 746,
+    "PAD": 4,
+    "STRING": 8,
+    "RULE_SELECTOR": 25,
+    "VIA": 24
+  },
+  "rules_unchanged_since_routing": true,
+  "all_copper_and_pad_nets_unchanged": true,
+  "native_archive_sha256": "a0c080500727f48837d593ba62b83dd92ef6dc75a31be2871e0243995780875d"
+}

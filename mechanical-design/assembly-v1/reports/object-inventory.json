@@ -1,0 +1,2267 @@
+[
+  {
+    "object": "Base_screw_-40_-5",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_-40_-5",
+    "part_id": "",
+    "dimensions_mm": [
+      4.8,
+      4.8,
+      1.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 24.9047,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_-40_-5_drive",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_-40_-5_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.64,
+      0.52,
+      0.14
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1922,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_-40_29",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_-40_29",
+    "part_id": "",
+    "dimensions_mm": [
+      4.8,
+      4.8,
+      1.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 24.9047,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_-40_29_drive",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_-40_29_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.64,
+      0.52,
+      0.14
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1922,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_40_-5",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_40_-5",
+    "part_id": "",
+    "dimensions_mm": [
+      4.8,
+      4.8,
+      1.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 24.9047,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_40_-5_drive",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_40_-5_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.64,
+      0.52,
+      0.14
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1922,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_40_29",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_40_29",
+    "part_id": "",
+    "dimensions_mm": [
+      4.8,
+      4.8,
+      1.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 24.9047,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Base_screw_40_29_drive",
+    "category": "REFERENCE",
+    "label_zh": "Base_screw_40_29_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.64,
+      0.52,
+      0.14
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1922,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D001__TOUGLESY_ST7789_EC11_PCB",
+    "category": "REFERENCE",
+    "label_zh": "已选模块 PCB，商品标称 91×44 mm",
+    "part_id": "",
+    "dimensions_mm": [
+      91.0,
+      1.6,
+      44.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6335.5272,
+    "dimension_status": "supplier_nominal__measure_before_manufacture"
+  },
+  {
+    "object": "D002__LCD_frame_assumed",
+    "category": "REFERENCE",
+    "label_zh": "LCD 外形占位：59×41.5，待实测",
+    "part_id": "",
+    "dimensions_mm": [
+      59.0,
+      3.6,
+      41.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 8779.7613,
+    "dimension_status": "assumed_from_supplier_picture__not_active_area"
+  },
+  {
+    "object": "D003__LCD_glass",
+    "category": "REFERENCE",
+    "label_zh": "D003__LCD_glass",
+    "part_id": "",
+    "dimensions_mm": [
+      58.3,
+      0.32,
+      41.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 762.7976,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D004__LCD_active_area_2p4in_4to3",
+    "category": "REFERENCE",
+    "label_zh": "D004__LCD_active_area_2p4in_4to3",
+    "part_id": "",
+    "dimensions_mm": [
+      48.768,
+      0.12,
+      36.576
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 213.8483,
+    "dimension_status": "derived_from_nominal_2.4inch_4to3__measure_actual"
+  },
+  {
+    "object": "D005__EC11_metal_body",
+    "category": "REFERENCE",
+    "label_zh": "D005__EC11_metal_body",
+    "part_id": "",
+    "dimensions_mm": [
+      12.5,
+      5.4,
+      13.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 863.8179,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D006__EC11_shaft",
+    "category": "REFERENCE",
+    "label_zh": "D006__EC11_shaft",
+    "part_id": "",
+    "dimensions_mm": [
+      6.0,
+      15.0,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 421.8414,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D007__EC11_knob_envelope",
+    "category": "REFERENCE",
+    "label_zh": "D007__EC11_knob_envelope",
+    "part_id": "",
+    "dimensions_mm": [
+      15.5,
+      13.8,
+      15.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2591.8629,
+    "dimension_status": "protrusion_21mm_assumed__physical_measurement_required"
+  },
+  {
+    "object": "D008__knob_top",
+    "category": "REFERENCE",
+    "label_zh": "D008__knob_top",
+    "part_id": "",
+    "dimensions_mm": [
+      14.0,
+      0.5,
+      14.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 76.5297,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D009__knob_indicator",
+    "category": "REFERENCE",
+    "label_zh": "D009__knob_indicator",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      0.15,
+      4.2
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.3392,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D010__K0_button_base",
+    "category": "REFERENCE",
+    "label_zh": "D010__K0_button_base",
+    "part_id": "",
+    "dimensions_mm": [
+      12.0,
+      4.0,
+      12.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 546.2518,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D011__K0_button",
+    "category": "REFERENCE",
+    "label_zh": "D011__K0_button",
+    "part_id": "",
+    "dimensions_mm": [
+      6.6,
+      5.5,
+      6.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 186.8069,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D012__header_housing_assumed",
+    "category": "REFERENCE",
+    "label_zh": "D012__header_housing_assumed",
+    "part_id": "",
+    "dimensions_mm": [
+      3.2,
+      4.0,
+      31.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 393.6149,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_00",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_00",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_01",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_01",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_02",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_02",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_03",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_03",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_04",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_04",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_05",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_05",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_06",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_06",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_07",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_07",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_08",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_08",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_09",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_09",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_10",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_10",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "D013__pin_11",
+    "category": "REFERENCE",
+    "label_zh": "D013__pin_11",
+    "part_id": "",
+    "dimensions_mm": [
+      0.55,
+      7.0,
+      0.55
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1054,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_hole_plating",
+    "category": "REFERENCE",
+    "label_zh": "Display_hole_plating",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      0.12,
+      4.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.655,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_hole_plating.001",
+    "category": "REFERENCE",
+    "label_zh": "Display_hole_plating",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      0.12,
+      4.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.655,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_hole_plating.002",
+    "category": "REFERENCE",
+    "label_zh": "Display_hole_plating",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      0.12,
+      4.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.655,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_hole_plating.003",
+    "category": "REFERENCE",
+    "label_zh": "Display_hole_plating",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      0.12,
+      4.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.655,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      4.4,
+      1.4,
+      4.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 20.9026,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw.001",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      4.4,
+      1.4,
+      4.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 20.9026,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw.002",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      4.4,
+      1.4,
+      4.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 20.9026,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw.003",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      4.4,
+      1.4,
+      4.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 20.9026,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.42,
+      0.14,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1762,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw_drive.001",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.42,
+      0.14,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1762,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw_drive.002",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.42,
+      0.14,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1762,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "Display_mount_screw_drive.003",
+    "category": "REFERENCE",
+    "label_zh": "Display_mount_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      2.42,
+      0.14,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1762,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "E001__ESP32_S3_board_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "ESP32-S3 主控占位，型号/尺寸待选",
+    "part_id": "",
+    "dimensions_mm": [
+      62.0,
+      28.0,
+      1.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2756.3004,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E001_module_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "E001_module_ENVELOPE",
+    "part_id": "",
+    "dimensions_mm": [
+      18.0,
+      20.0,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2149.8689,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E001_shield_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "E001_shield_ENVELOPE",
+    "part_id": "",
+    "dimensions_mm": [
+      18.0,
+      18.0,
+      3.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 963.0419,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002__servo_driver_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "舵机驱动占位，PCA9685 仅为候选",
+    "part_id": "",
+    "dimensions_mm": [
+      62.0,
+      25.0,
+      1.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2459.4042,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.001",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.002",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.003",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.004",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.005",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.006",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E002_pin_bank.007",
+    "category": "ENVELOPE",
+    "label_zh": "E002_pin_bank",
+    "part_id": "",
+    "dimensions_mm": [
+      4.0,
+      11.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 306.1833,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E003__audio_amp_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "I2S 功放占位，具体板型待选",
+    "part_id": "",
+    "dimensions_mm": [
+      20.0,
+      18.0,
+      1.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 566.9011,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E003_chip",
+    "category": "ENVELOPE",
+    "label_zh": "E003_chip",
+    "part_id": "",
+    "dimensions_mm": [
+      8.0,
+      8.0,
+      2.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 126.9682,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E004__power_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "外部供电处理区域，具体电路待定",
+    "part_id": "",
+    "dimensions_mm": [
+      30.0,
+      17.0,
+      1.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 804.7894,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E004_power_inductor",
+    "category": "ENVELOPE",
+    "label_zh": "E004_power_inductor",
+    "part_id": "",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      5.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 589.5706,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E005__speaker_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "扬声器占位 Ø28×7 mm，待选型",
+    "part_id": "",
+    "dimensions_mm": [
+      28.0,
+      7.0,
+      28.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4290.0421,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E005_magnet",
+    "category": "ENVELOPE",
+    "label_zh": "E005_magnet",
+    "part_id": "",
+    "dimensions_mm": [
+      16.0,
+      4.0,
+      16.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 799.5091,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E006__microphone_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "I2S 麦克风占位，声孔与外壳孔对齐",
+    "part_id": "",
+    "dimensions_mm": [
+      15.0,
+      10.0,
+      1.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 233.9512,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E006_mic_port",
+    "category": "ENVELOPE",
+    "label_zh": "E006_mic_port",
+    "part_id": "",
+    "dimensions_mm": [
+      3.4,
+      3.4,
+      2.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 17.7871,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E007__power_connector_ENVELOPE",
+    "category": "ENVELOPE",
+    "label_zh": "电源入口占位，连接器规格待定",
+    "part_id": "",
+    "dimensions_mm": [
+      11.0,
+      9.0,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 561.5219,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "E007_connector_dark",
+    "category": "REFERENCE",
+    "label_zh": "E007_connector_dark",
+    "part_id": "",
+    "dimensions_mm": [
+      8.0,
+      0.5,
+      3.2
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 12.1888,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "F_FL_rubber_pad",
+    "category": "REFERENCE",
+    "label_zh": "独立软脚垫占位",
+    "part_id": "",
+    "dimensions_mm": [
+      14.0,
+      17.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1351.2491,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "F_FR_rubber_pad",
+    "category": "REFERENCE",
+    "label_zh": "独立软脚垫占位",
+    "part_id": "",
+    "dimensions_mm": [
+      14.0,
+      17.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1351.2491,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "F_RL_rubber_pad",
+    "category": "REFERENCE",
+    "label_zh": "独立软脚垫占位",
+    "part_id": "",
+    "dimensions_mm": [
+      14.0,
+      17.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1351.2491,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "F_RR_rubber_pad",
+    "category": "REFERENCE",
+    "label_zh": "独立软脚垫占位",
+    "part_id": "",
+    "dimensions_mm": [
+      14.0,
+      17.0,
+      7.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1351.2491,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "G_body_envelope",
+    "category": "ENVELOPE",
+    "label_zh": "G_body_envelope",
+    "part_id": "",
+    "dimensions_mm": [
+      118.0,
+      84.2,
+      76.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 755105.7222,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "G_encoder_clearance",
+    "category": "ENVELOPE",
+    "label_zh": "G_encoder_clearance",
+    "part_id": "",
+    "dimensions_mm": [
+      18.0,
+      24.0,
+      18.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 7776.001,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "G_main_PCB_reserved",
+    "category": "ENVELOPE",
+    "label_zh": "G_main_PCB_reserved",
+    "part_id": "",
+    "dimensions_mm": [
+      84.0,
+      37.0,
+      8.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 24864.0034,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "H_FL_hip_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_FL_hip_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      5.0,
+      5.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 27.0371,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FL_hip_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_FL_hip_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.75,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.2002,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FL_knee_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_FL_knee_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      4.6,
+      4.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 22.8599,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FL_knee_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_FL_knee_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.53,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1842,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FR_hip_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_FR_hip_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      5.0,
+      5.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 27.0371,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FR_hip_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_FR_hip_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.75,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.2002,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FR_knee_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_FR_knee_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      4.6,
+      4.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 22.8599,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_FR_knee_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_FR_knee_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.53,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1842,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RL_hip_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_RL_hip_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      5.0,
+      5.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 27.0371,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RL_hip_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_RL_hip_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.75,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.2002,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RL_knee_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_RL_knee_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      4.6,
+      4.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 22.8599,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RL_knee_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_RL_knee_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.53,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1842,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RR_hip_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_RR_hip_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      5.0,
+      5.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 27.0371,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RR_hip_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_RR_hip_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.75,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.2002,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RR_knee_screw",
+    "category": "REFERENCE",
+    "label_zh": "H_RR_knee_screw",
+    "part_id": "",
+    "dimensions_mm": [
+      1.4,
+      4.6,
+      4.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 22.8599,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "H_RR_knee_screw_drive",
+    "category": "REFERENCE",
+    "label_zh": "H_RR_knee_screw_drive",
+    "part_id": "",
+    "dimensions_mm": [
+      0.14,
+      2.53,
+      0.52
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 0.1842,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "LCD_eye",
+    "category": "REFERENCE",
+    "label_zh": "LCD_eye",
+    "part_id": "",
+    "dimensions_mm": [
+      5.0,
+      0.05,
+      9.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1146,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "LCD_eye.001",
+    "category": "REFERENCE",
+    "label_zh": "LCD_eye",
+    "part_id": "",
+    "dimensions_mm": [
+      5.0,
+      0.05,
+      9.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2.1146,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P001__main_hood",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "主壳：前部和底部可拆",
+    "part_id": "P001",
+    "dimensions_mm": [
+      118.0,
+      52.7,
+      75.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 44803.175,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P002__removable_front_cover",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "可拆前盖：保留旋钮内腔",
+    "part_id": "P002",
+    "dimensions_mm": [
+      118.0,
+      33.4,
+      76.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 37778.4432,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P003__mint_front_outline",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "薄荷绿细边：嵌件/着色方式待验证",
+    "part_id": "P003",
+    "dimensions_mm": [
+      107.5,
+      0.4,
+      68.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 173.8608,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P004__screen_light_baffle",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "屏幕遮光井：正面遮住 PCB，屏幕实际后退",
+    "part_id": "P004",
+    "dimensions_mm": [
+      70.9375,
+      20.6,
+      51.9491
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 5070.201,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P005__removable_bottom_tray",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "底盖/维修托盘",
+    "part_id": "P005",
+    "dimensions_mm": [
+      109.0,
+      48.0,
+      3.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 14031.1665,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P006__electronics_tray",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "可更换电子托板：安装孔待主控/PCB选定",
+    "part_id": "P006",
+    "dimensions_mm": [
+      84.0,
+      37.0,
+      5.1
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 8059.9085,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P007__screen_module_support",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "屏幕支撑框：孔位按商品标称占位",
+    "part_id": "P007",
+    "dimensions_mm": [
+      91.5,
+      3.0,
+      44.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 3748.3901,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P007_display_spacer",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P007_display_spacer",
+    "part_id": "P007_display_spacer",
+    "dimensions_mm": [
+      6.0,
+      6.4,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 125.1665,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P007_display_spacer.001",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P007_display_spacer",
+    "part_id": "P007_display_spacer",
+    "dimensions_mm": [
+      6.0,
+      6.4,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 125.1665,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P007_display_spacer.002",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P007_display_spacer",
+    "part_id": "P007_display_spacer",
+    "dimensions_mm": [
+      6.0,
+      6.4,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 125.1665,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P007_display_spacer.003",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P007_display_spacer",
+    "part_id": "P007_display_spacer",
+    "dimensions_mm": [
+      6.0,
+      6.4,
+      6.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 125.1665,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P008_ear_L",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "独立耳框与一体定位键",
+    "part_id": "P008_ear_L",
+    "dimensions_mm": [
+      17.6,
+      6.0,
+      20.96
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1127.179,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P008_ear_R",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "独立耳框与一体定位键",
+    "part_id": "P008_ear_R",
+    "dimensions_mm": [
+      17.6,
+      6.0,
+      20.96
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1127.179,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P009_ear_insert_L",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "奶白耳饰内片",
+    "part_id": "P009_ear_insert_L",
+    "dimensions_mm": [
+      11.0,
+      0.7,
+      10.8158
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 49.7146,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P009_ear_insert_R",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "奶白耳饰内片",
+    "part_id": "P009_ear_insert_R",
+    "dimensions_mm": [
+      11.0,
+      0.7,
+      10.8158
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 49.7146,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P010_FL_servo_mount",
+    "category": "ENVELOPE",
+    "label_zh": "机身侧舵机连接概念：承载连接与孔位未设计完成",
+    "part_id": "",
+    "dimensions_mm": [
+      5.0,
+      33.0,
+      29.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4545.791,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "P010_FR_servo_mount",
+    "category": "ENVELOPE",
+    "label_zh": "机身侧舵机连接概念：承载连接与孔位未设计完成",
+    "part_id": "",
+    "dimensions_mm": [
+      5.0,
+      33.0,
+      29.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4545.791,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "P010_RL_servo_mount",
+    "category": "ENVELOPE",
+    "label_zh": "机身侧舵机连接概念：承载连接与孔位未设计完成",
+    "part_id": "",
+    "dimensions_mm": [
+      5.0,
+      33.0,
+      29.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4545.791,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "P010_RR_servo_mount",
+    "category": "ENVELOPE",
+    "label_zh": "机身侧舵机连接概念：承载连接与孔位未设计完成",
+    "part_id": "",
+    "dimensions_mm": [
+      5.0,
+      33.0,
+      29.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4545.791,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "P011_FL_upper_link",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "上连杆与第二舵机连接区",
+    "part_id": "P011_FL_upper_link",
+    "dimensions_mm": [
+      7.0,
+      15.0,
+      25.8569
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2396.6416,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P011_FR_upper_link",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "上连杆与第二舵机连接区",
+    "part_id": "P011_FR_upper_link",
+    "dimensions_mm": [
+      7.0,
+      15.0,
+      25.8569
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2396.6416,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P011_RL_upper_link",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "上连杆与第二舵机连接区",
+    "part_id": "P011_RL_upper_link",
+    "dimensions_mm": [
+      7.0,
+      15.0,
+      25.8569
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2396.6416,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P011_RR_upper_link",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "上连杆与第二舵机连接区",
+    "part_id": "P011_RR_upper_link",
+    "dimensions_mm": [
+      7.0,
+      15.0,
+      25.8569
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 2396.6416,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P012_FL_lower_leg",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "下腿：舵盘连接尺寸待选型",
+    "part_id": "P012_FL_lower_leg",
+    "dimensions_mm": [
+      9.8,
+      12.0,
+      46.4281
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4568.7109,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P012_FR_lower_leg",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "下腿：舵盘连接尺寸待选型",
+    "part_id": "P012_FR_lower_leg",
+    "dimensions_mm": [
+      9.8,
+      12.0,
+      46.4281
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4568.7109,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P012_RL_lower_leg",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "下腿：舵盘连接尺寸待选型",
+    "part_id": "P012_RL_lower_leg",
+    "dimensions_mm": [
+      9.8,
+      12.0,
+      45.8602
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4510.1194,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P012_RR_lower_leg",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "下腿：舵盘连接尺寸待选型",
+    "part_id": "P012_RR_lower_leg",
+    "dimensions_mm": [
+      9.8,
+      12.0,
+      45.8602
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 4510.1194,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P013_FL_hip_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P013_FL_hip_cap",
+    "part_id": "P013_FL_hip_cap",
+    "dimensions_mm": [
+      4.0,
+      19.2,
+      19.2
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1151.6355,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P013_FR_hip_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P013_FR_hip_cap",
+    "part_id": "P013_FR_hip_cap",
+    "dimensions_mm": [
+      4.0,
+      19.2,
+      19.2
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1151.6355,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P013_RL_hip_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P013_RL_hip_cap",
+    "part_id": "P013_RL_hip_cap",
+    "dimensions_mm": [
+      4.0,
+      19.2,
+      19.2
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1151.6355,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P013_RR_hip_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P013_RR_hip_cap",
+    "part_id": "P013_RR_hip_cap",
+    "dimensions_mm": [
+      4.0,
+      19.2,
+      19.2
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 1151.6355,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P014_FL_knee_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P014_FL_knee_cap",
+    "part_id": "P014_FL_knee_cap",
+    "dimensions_mm": [
+      4.0,
+      17.4,
+      17.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 945.68,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P014_FR_knee_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P014_FR_knee_cap",
+    "part_id": "P014_FR_knee_cap",
+    "dimensions_mm": [
+      4.0,
+      17.4,
+      17.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 945.68,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P014_RL_knee_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P014_RL_knee_cap",
+    "part_id": "P014_RL_knee_cap",
+    "dimensions_mm": [
+      4.0,
+      17.4,
+      17.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 945.68,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "P014_RR_knee_cap",
+    "category": "PRINT_CANDIDATE",
+    "label_zh": "P014_RR_knee_cap",
+    "part_id": "P014_RR_knee_cap",
+    "dimensions_mm": [
+      4.0,
+      17.4,
+      17.4
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 945.68,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "S_FL_HIP_case",
+    "category": "ENVELOPE",
+    "label_zh": "微型舵机外形占位；非已选型号",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6195.3516,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FL_HIP_mount_flange",
+    "category": "ENVELOPE",
+    "label_zh": "S_FL_HIP_mount_flange",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      31.8,
+      2.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 954.5217,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FL_HIP_output_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_FL_HIP_output_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FL_HIP_shaft",
+    "category": "REFERENCE",
+    "label_zh": "S_FL_HIP_shaft",
+    "part_id": "",
+    "dimensions_mm": [
+      2.7,
+      4.8,
+      4.8
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 48.2342,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "S_FL_KNEE_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_FL_KNEE_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FL_KNEE_case",
+    "category": "ENVELOPE",
+    "label_zh": "膝关节舵机占位",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6206.1747,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FR_HIP_case",
+    "category": "ENVELOPE",
+    "label_zh": "微型舵机外形占位；非已选型号",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6195.3516,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FR_HIP_mount_flange",
+    "category": "ENVELOPE",
+    "label_zh": "S_FR_HIP_mount_flange",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      31.8,
+      2.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 954.5217,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FR_HIP_output_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_FR_HIP_output_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FR_HIP_shaft",
+    "category": "REFERENCE",
+    "label_zh": "S_FR_HIP_shaft",
+    "part_id": "",
+    "dimensions_mm": [
+      2.7,
+      4.8,
+      4.8
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 48.2342,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "S_FR_KNEE_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_FR_KNEE_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_FR_KNEE_case",
+    "category": "ENVELOPE",
+    "label_zh": "膝关节舵机占位",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6206.1747,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RL_HIP_case",
+    "category": "ENVELOPE",
+    "label_zh": "微型舵机外形占位；非已选型号",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6195.3516,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RL_HIP_mount_flange",
+    "category": "ENVELOPE",
+    "label_zh": "S_RL_HIP_mount_flange",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      31.8,
+      2.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 954.5217,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RL_HIP_output_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_RL_HIP_output_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RL_HIP_shaft",
+    "category": "REFERENCE",
+    "label_zh": "S_RL_HIP_shaft",
+    "part_id": "",
+    "dimensions_mm": [
+      2.7,
+      4.8,
+      4.8
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 48.2342,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "S_RL_KNEE_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_RL_KNEE_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RL_KNEE_case",
+    "category": "ENVELOPE",
+    "label_zh": "膝关节舵机占位",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6206.1747,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RR_HIP_case",
+    "category": "ENVELOPE",
+    "label_zh": "微型舵机外形占位；非已选型号",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6195.3516,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RR_HIP_mount_flange",
+    "category": "ENVELOPE",
+    "label_zh": "S_RR_HIP_mount_flange",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      31.8,
+      2.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 954.5217,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RR_HIP_output_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_RR_HIP_output_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RR_HIP_shaft",
+    "category": "REFERENCE",
+    "label_zh": "S_RR_HIP_shaft",
+    "part_id": "",
+    "dimensions_mm": [
+      2.7,
+      4.8,
+      4.8
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 48.2342,
+    "dimension_status": "design_assumption"
+  },
+  {
+    "object": "S_RR_KNEE_boss",
+    "category": "ENVELOPE",
+    "label_zh": "S_RR_KNEE_boss",
+    "part_id": "",
+    "dimensions_mm": [
+      3.8,
+      10.6,
+      10.6
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 333.0151,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "S_RR_KNEE_case",
+    "category": "ENVELOPE",
+    "label_zh": "膝关节舵机占位",
+    "part_id": "",
+    "dimensions_mm": [
+      12.2,
+      22.8,
+      22.5
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 6206.1747,
+    "dimension_status": "assumed__replace_after_selection_or_measurement"
+  },
+  {
+    "object": "Studio floor",
+    "category": "REFERENCE",
+    "label_zh": "Studio floor",
+    "part_id": "",
+    "dimensions_mm": [
+      50000.0038,
+      50000.0038,
+      4.0
+    ],
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_mm3": 10000002000.8535,
+    "dimension_status": "design_assumption"
+  }
+]

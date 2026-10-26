@@ -1,0 +1,4 @@
+.venv/
+.local-key
+__pycache__/
+*.log

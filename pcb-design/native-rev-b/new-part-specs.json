@@ -1,0 +1,41 @@
+[
+  {
+    "ref": "JP3",
+    "dev": "eab4a8150b6d4918927e38d645cd50f2",
+    "name": "LCD_3V3_LINK_OPEN",
+    "x": 800,
+    "y": 595,
+    "rot": 0,
+    "nets": {
+      "1": "+3V3",
+      "2": "LCD_3V3"
+    },
+    "note": "Normally OPEN low-profile wire link. Close only after MCU LDO current/thermal checks; external J10 must be disconnected."
+  },
+  {
+    "ref": "J10",
+    "dev": "eab4a8150b6d4918927e38d645cd50f2",
+    "name": "LCD_EXT_3V3_IN",
+    "x": 1060,
+    "y": 435,
+    "rot": 0,
+    "nets": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "note": "Regulated 3.3V ONLY. JP3 must be OPEN. Power MCU/LCD together. Never connect 5V or parallel regulator outputs."
+  },
+  {
+    "ref": "C5",
+    "dev": "477a96a6592848738afbd710f8b39fc8",
+    "name": "100nF 50V P5.08",
+    "x": 1060,
+    "y": 285,
+    "rot": 90,
+    "nets": {
+      "1": "LCD_3V3",
+      "2": "GND"
+    },
+    "note": "LCD rail bypass. External regulator must include its specified bulk/output capacitors; module already includes local decoupling."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "version": "V7",
+  "status": "user_selected_A",
+  "base_design": "V6",
+  "variants": [
+    {
+      "id": "A",
+      "slug": "cream-mint",
+      "name": "奶油薄荷",
+      "finish": "哑光 PLA · 细微层纹",
+      "route": "哑光 PLA 外观参考",
+      "palette": [
+        "#EEEADF",
+        "#F4F0E8",
+        "#9FB9A9"
+      ],
+      "filename": "a-cream-mint.png"
+    }
+  ]
+}

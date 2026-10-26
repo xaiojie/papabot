@@ -1,0 +1,766 @@
+
+PAGE 1
+© 2012 -2015 HYCON Technology Corp. 
+www.hycontek.com   
+ DS-HY2213-V05_EN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HY2213 
+Datasheet 
+1 Cell Li-ion/ Polymer Battery Charge Balance IC 
+.
+
+
+PAGE 2
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 2 
+ 
+Table of Contents 
+1. GENERAL DESCRIPTION   ....................................................................................................................... 4
+2. FEATURE   .................................................................................................................................................. 4
+3. APPLICATION   .......................................................................................................................................... 4
+4. BLOCK DIAGRAM  .................................................................................................................................... 5
+5. ORDERING INFORMATION   ..................................................................................................................... 5
+6. MODEL LIST   ............................................................................................................................................. 6
+6.1. Electrical Parameter Option   .................................................................................................................. 6
+6.2. Characteristic Code- Other Function Option   ......................................................................................... 6
+7. PIN CONFIGURATION AND PACKAGE MARKING INFORMATION   ..................................................... 6
+8. ELECTRICAL CHARACTERISTICS   ........................................................................................................ 7
+8.1. Absolute Maximum Ratings   .................................................................................................................. 7
+8.2. Electrical Characteristics (Excluding Delay Time)   ................................................................................ 7
+9. EXAMPLE CIRCUIT OF BATTERY CHARGE BALANCE IC APPLICATION   ......................................... 8
+10. DESCRIPTION OF OPERATION   ............................................................................................................. 9
+10.1. Normal Status   ........................................................................................................................................ 9
+10.2. Overcharge Status   ................................................................................................................................ 9
+10.3. Standby Status   ...................................................................................................................................... 9
+11. CHARACTERISTIC CURVE (TYPICAL VALUE)   ................................................................................... 10
+12. PACKAGE INFORMATION   ..................................................................................................................... 11
+12.1. SOT-23-6 Package   .............................................................................................................................. 11
+13. TAPE & REEL INFORMATION   ............................................................................................................... 12
+13.1. Tape & Reel Information ---SOT-23-6 (Type 1)   ................................................................................... 12
+13.2. Tape & Reel Information ---SOT-23-6 (Type 2)   ................................................................................... 13
+14. REVISION HISTORY   .............................................................................................................................. 14
+ 
+ 
+ 
+.
+
+
+PAGE 3
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 3 
+ 
+Attention： 
+1. HYCON Technology Corp. reserves the right to change the content of this datasheet without further 
+notice. For most up-to-date information, please constantly visit our website: http://www.hycontek.com . 
+2. HYCON Technology Corp. is not responsible for problems caused by figures or applicati on circuits 
+narrated herein whose related industrial properties belong to third parties. 
+3. Specifications of any HYCON Technology Corp.  products detailed or contained herein stipulate the 
+performance, characteristics, and functions of the specified products in the independent state. We does 
+not guarantee of the performance, characteristics, and functions of the specified products as placed in 
+the customer’s products or equipment. Constant and sufficient verification and evaluation is highly 
+advised. 
+4. Please note the operating conditions of input voltage, output voltage and load current and ensure the IC 
+internal power consumption does not exceed that of package tolerance. HYCON Technology Corp.  
+assumes no responsibility for equipment failures that resulted from using products at values that exceed, 
+even momentarily, rated values listed in products specifications of HYCON products specified herein. 
+5. Notwithstanding this product has built -in ESD protection circuit, please do not exert excessive static 
+electricity to protection circuit. 
+6. Products specified or contained herein cannot be employed in applications which require extremely high 
+levels of reliability, such as device or equipment affecting the human body, health/medical equipments, 
+security systems, or any apparatus installed in aircrafts and other vehicles. 
+7. Despite the fact that HYCON Technology Corp. endeavors to enhance product quality as well as 
+reliability in every possible way, failure or malfunction of semiconductor products may happen. Hence, 
+users are strongly recommended to comply with safety design including redundancy and fire-precaution 
+equipments to prevent any accidents and fires that may follow. 
+8. Use of the information described herein for other purposes and/or reproduction or copying without the  
+permission of HYCON Technology Corp. is strictly prohibited. 
+ 
+.
+
+
+PAGE 4
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 4 
+ 
+1. General Description 
+The series of HY2213 is created for multi-cell battery packs to single-cell lithium-ion battery 
+Charge balance control, electrical level monitoring ICs and it also comprises high-accuracy 
+voltage detection circuit and delay circuit. 
+ 
+2. Feature 
+HY2213 series IC equips with the following features: 
+(1) High Precision Voltage Detection Circuit 
+ Overcharge detection voltage     4.000~4. 500V        Precision: ±25mV 
+ Overcharge release voltage      3. 800~4.500V         Precision: ±35mV 
+ Standby detection voltage        2.70V                Precision: ±15% 
+ Standby release voltage          2.70V                Precision: ±15% 
+(2) Delay times are generated by an internal circuit (external capacitors are unnecessary). 
+(3) Low consumption current 
+ Operation mode           Typ. value 2. 5μA, max. value: 3.5μA (VDD=3.9V) 
+ Standby mode             Max. value: 0.5μA (VDD=2.7V) 
+(4) Wide operation temperature range: -40℃~ +85℃ 
+(5) Small package: SOT-23-6 
+(6) The HY2213 series are Halogen-free, green package 
+ 
+3. Application 
+ Multi-cell Li-ion rechargeable battery packs 
+ 
+.
+
+
+PAGE 5
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 5 
+ 
+4. Block Diagram 
+VDD
+VSS
+Logic Circuit
+Overcharge 
+detection 
+comparator
+Potential
+Drift Counter
+Oscillator
+OUT
+ 
+5. Ordering Information 
+ Product Name Definition 
+Package type 
+ B: SOT-23-6
+Serial code
+    Alphabetically set from A to Z
+Characteristic code
+    Alphabetically set from A to Z
+Characteristic code
+   
+HY2213－#%3&
+ 
+.
+
+
+PAGE 6
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 6 
+ 
+6. Model List 
+6.1. Electrical Parameter Option 
+ SOT-23-6 Package 
+Table 1 Electrical Parameter Select Table 
+       Parameter 
+Model No. 
+Over-charge Detect Voltage Over-charge Release Voltage Characteristic Code 
+V VCU - CR 
+HY2213-AB3B 4.200±0.025V 4.200-0.035V,4.200+0.025V B 
+HY2213-BB3A 4.200±0.025V 4.190±0.035V A 
+HY2213-CB3A 4.180±0.025V 4.180-0.035V,4.180+0.025V A 
+Remark: 
+1.Table 1 lists various electrical parameters typical value, See Table 5 for each electrical parameter 
+accuracy. 
+2. See Table 2 for other features characteristic code corresponding. 
+3. Please contact our sales office for the products with detection voltage value other than those 
+specified above.  
+ 
+6.2. Characteristic Code- Other Function Option 
+Table 2 Characteristic Code 
+Characteristic Code OUT Effective Action 
+A Balance control N-MOSFET；OUT output status LH effective 
+B Balance control P-MOSFET；OUT output status HL effective 
+      
+7. Pin Configuration and Package Marking Information 
+ SOT-23-6 Package 
+Table 3 SOT-23-6 Package 
+Pin Symbol Description 
+1 NC No connection 
+2 VDD Power end, positive power input pin 
+3 VSS Grounding end, negative power input pin 
+4 NC No connection 
+5 NC No connection 
+6 OUT Charge balance, control MOSFET gate and connection end 
+ 
+5
+1 2 3
+6 4
+B#3&
+XXXX·
+                        
+ 
+B：Product No. 
+#：Serial code, from A~Z 
+3：Characteristic code 
+&：Characteristic code, from A~Z 
+XXXX：Traceability code 
+.
+
+
+PAGE 7
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 7 
+ 
+8. Electrical Characteristics 
+8.1. Absolute Maximum Ratings 
+Table 4 Absolute Maximum Rating (VSS=0V, Ta＝25℃ unless otherwise specified) 
+Item Symbol Rating Unit 
+Input voltage between VDD and VSS pin V VSS-0.3~VSS+10 DD V 
+OUT output voltage V VSS-0.3~VDD+0.3 OUT V 
+Operating Temperature Range T -40~+85 OP ℃ 
+Storage Temperature Range T -40~+125 ST ℃ 
+Power dissipation P 250 D mW 
+ 
+8.2. Electrical Characteristics  
+Table 5 Electrical Characteristics (VSS=0V, Ta＝25℃ unless otherwise specified) 
+Item Symbol Condition Min. Typ. Max. Unit 
+Input Voltage/Power Dissipation 
+VDD-VSS Operation 
+Voltage V - DSOP1 1.5 - 8 V 
+Operation Current I VDD DD - =3.9V 2.0 3.5 μA 
+Standby Current I VSB DD - =2.0V - 0.5 μA 
+Detection Voltage 
+Overcharge Detection 
+Voltage V
+4.0～4.5V adjustable 
+CU 
+VCU V 
+-0.025 
+V
+CU CU V  
++0.025 
+4.0～4.5V adjustable 
+-5℃～55℃（*1） 
+VCU V 
+-0.035 
+V
+CU CU V  
++0.035 
+Overcharge Release 
+Voltage V
+3.8～4.5V adjustable 
+CR VCR≠V
+V
+CU 
+CR V 
+-0.035 
+V
+CR CR V  
++0.035 
+3.8～4.5V adjustable 
+VCR＝V
+V
+CU 
+CR V 
+-0.035 
+V
+CR CR V  
++0.025 
+Standby Release 
+Voltage V  SB 2.3 2.7 3.1 V 
+Delay Time 
+Overcharge Detection 
+Delay Time T VOC DD 200 =3.9V→4.5V 250 300 ms 
+Control Pin Output Voltage 
+OUT output high 
+voltage V  OUT_H VDD-0.1 VDD-0.02 - V 
+OUT output low 
+voltage V  OUT_L - 0.1 0.5 V 
+Remark：*1 Parameters of this temperature range is design -guaranteed not actual test by high/low 
+temperature. 
+ 
+.
+
+
+PAGE 8
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 8 
+ 
+9. Example Circuit of Battery Charge Balance IC Application 
+1
+2
+3 4
+5
+6
+R5C5
+U5
+B5
+1
+2
+3 4
+5
+6
+R4C4
+U4
+B4
+1
+2
+3 4
+5
+6
+R3C3
+U3
+B3
+1
+2
+3 4
+5
+6
+R2C2
+U2
+B2
+1
+2
+3 4
+5
+6
+R1C1
+RB1
+U1
+B1
+V5
+V4
+V3
+V2
+V1
+VSS
+Rsense
+RB2 RB3 RB4 RB5
+Q1
+Q2
+Q3
+Q4
+Q5
+1
+2
+3 4
+5
+6
+R5C5
+U5
+B5
+1
+2
+3 4
+5
+6
+R4C4
+U4
+B4
+1
+2
+3 4
+5
+6
+R3C3
+U3
+B3
+1
+2
+3 4
+5
+6
+R2C2
+U2
+B2
+1
+2
+3 4
+5
+6
+R1C1
+U1
+B1
+V5
+V4
+V3
+V2
+V1
+VSS
+Rsense
+RB5RB4RB3RB2RB1
+Q5
+Q4
+Q3
+Q2
+Q1
+Example application of HY2213-xxxB using P-MOSFET 
+of charge balance
+Example application of HY2213-xxxA using N-MOSFET
+ of charge balance
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+HY2213
+VDD
+VSS
+OUT
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+HY2213
+OUT
+VDD
+VSS
+ 
+Symbol Device Name Purpose Min. Typ. Max. Remark 
+R Resistor 
+1-5 Limit current, stabilize VDD and 
+strengthen ESD protection 100Ω 100Ω 200Ω *1 
+R Resistor B1-5 Charge balance flow loading    *2 
+C Capacitor 1-5 Filter, stabilize VDD 0.01μF 0.1μF 1.0μF *3 
+Q1-5 MOSFET   Charge Balance Control - - - *4 
+*1. If R1-5 connects with an over-spec resistor, battery accuracy may be influenced due to R1-5 voltage 
+drop that caused by current consumption. When a charger is connected in reversed, the current flows 
+from the charger to the IC. At this time, if R1-5
+*2. If R
+ is too high, the voltage between VDD pin and VSS pin may 
+exceed the absolute maximum rating. 
+B1-5
+*3. C
+ connects with an under-spec resistor, the charge current will become large all of a sudden 
+when battery voltage exceeded overcharge detection voltage (VCU), which may lead to charge 
+over-current and the circuit will be protected and could not be charged. 
+1-5 can stabilize the supply voltage of VDD, the value of C1-5
+*4. Select N-MOSFET or P-MOSFET according to different model no. 
+ should larger than 0.01μF. 
+Caution： 
+1. The above constants may be changed without notice，please download the most up-to-date datasheet 
+on our website. http://www.hycontek.com 
+2. It is advised to perform thorough evaluation and test if peripheral devices need to be amended.   
+.
+
+
+PAGE 9
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 9 
+ 
+10. Description of Operation 
+10.1. Normal Status 
+This IC continuing monitor the battery voltage connected between VDD and VSS to control 
+charge balance operation. When battery voltage is higher than overcharge detection 
+voltage (VCU), OUT pin output low potential to control P-MOSFET or output high potential to 
+control N-MOSFET. When battery voltage under overcharge release voltage (VCR
+ 
+), OUT 
+pin output high potential to control P-MOSFET or output low potential to turnoff N-MOSFET. 
+10.2. Overcharge Status 
+When charging battery under normal operation, once cell voltage exceeds over charge 
+detection voltage (VCU) and this status continues longer than overcharge detection delay 
+time (TOC), or when cell voltage lower than overcharge release voltage (VCR
+There are two options of balancing control of MOSFET after overcharge status: 
+), HY2213 
+series will start or turn off the MOSFET (OUT pin) that used for charging potential control, 
+this status is called “Overcharge Status”, also “Charge Balance Control”. 
+(1) HY2213-xxxA series adopts N-MOSFET to implement charge balancing control 
+(a) Cell voltage exceeds overcharge detection voltage (VCU) during charge 
+process and lasts longer than overcharge detection delay time (TOC
+(b) Cell voltage lowers than overcharge release voltage (V
+), potential 
+of OUT pin will generate LH change to turn on N-MOSFET. 
+CR
+(2) HY2213-xxxB series adopts P-MOSFET to implement charge balancing control 
+) during charge 
+process, OUT pin will generate HL change to turn off N-MOSFET. 
+(a) Cell voltage exceeds overcharge detection voltage (VCU) during charge 
+process and lasts longer than overcharge detection delay time (TOC
+(b) Cell voltage lowers than overcharge release voltage (V
+), potential 
+of OUT pin will generate HL change to turn on P-MOSFET. 
+CR
+ 
+) during charge 
+process, OUT pin will generate LH change to turn off P-MOSFET. 
+10.3. Standby Status 
+When discharging battery under normal operation, cell voltage drops under than standby 
+detection voltage (VSB
+ 
+), it will reduce IC current consumption to the same level at standby 
+mode, and this is called “Standby Mode”. 
+.
+
+
+PAGE 10
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 10 
+ 
+11.  Characteristic Curve (Typical Value) 
+1. Overcharge detection voltage, overcharge release voltage and overcharge delay 
+time, standby detection voltage 
+(1) VCU vs. Ta                                (2) VCR
+ vs. Ta 
+     
+  
+ 
+(3) TOC vs. Ta                              (4) VSB
+ 
+ vs. Ta   
+      
+  
+ 
+2. Power Consumption 
+(1) IDD vs. Ta                                    （2）ISB
+ vs. Ta 
+      
+  
+ 
+.
+
+
+PAGE 11
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 11 
+ 
+12.  Package Information 
+12.1. SOT-23-6 Package 
+Unit: mm. 
+ 
+   
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+SYM
+BOL 
+ALL DIMENSIONS IN 
+MILLIMETERS 
+MINIMUM NOMINAL MAXIMUM 
+A - 1.30 1.40 
+A1 0 - 0.15 
+A2 0.90 1.20 1.30 
+b 0.30 - 0.50 
+b1 0.30 0.40 0.45 
+b2 0.30 0.40 0.50 
+c 0.08 - 0.22 
+c1 0.08 0.13 0.20 
+D 2.90 BSC 
+E 2.80 BSC 
+E1 1.60 BSC 
+e 0.95 BSC 
+e1 1.90 BSC 
+L 0.30 0.45 0.60 
+L1 0.60 REF 
+L2 0.25 BSC 
+R 0.10 - - 
+R1 0.10 - 0.25 
+θ 0° 4° 8° 
+θ1 5° - 15° 
+θ2 5° - 15° 
+ 
+.
+
+
+PAGE 12
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 12 
+ 
+13. Tape & Reel Information                                         
+13.1. Tape & Reel Information ---SOT-23-6 (Type 1)                                          
+Description：Unit: mm。                             
+13.1.1. Reel Dimensions  
+W1
+A
+ 
+13.1.2. Carrier Tape Dimensions W
+A0 K0
+EF
+P1
+P2P0D0
+B0
+5ºMAX
+5ºMAX
+ 
+ 
+SYMBOLS 
+Reel  
+Dimensions 
+ 
+Carrier Tape Dimensions 
+A W1 A0 B0 K0 P0 P1 P2 E F D0 W 
+Spec. 178 9.0 3.30 3.20 1.50 4.00 4.00 2.00 1.75 3.50 1.50 8.00 
+Tolerance ±0.50 +1.50/-0 ±0.10 ±0.10 ±0.10 ±0.10 ±0.10 ±0.05 ±0.10 ±0.05 +0.1/-0 ±0.20 
+Note: 10 Sprocket hole pitch cumulative tolerance is ±0.20mm. 
+ 
+13.1.3. PIN1 direction  
+  
+   
+.
+
+
+PAGE 13
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 13 
+ 
+13.2. Tape & Reel Information ---SOT-23-6 (Type 2)                                          
+Description：Unit: mm。                             
+13.2.1. Reel Dimensions  
+W1
+A
+ 
+13.2.2. Carrier Tape Dimensions W
+A0 K0
+EF
+P1
+P2P0D0
+B0
+5ºMAX
+5ºMAX
+ 
+ 
+SYMBOLS 
+Reel  
+Dimensions 
+ 
+Carrier Tape Dimensions 
+A W1 A0 B0 K0 P0 P1 P2 E F D0 W 
+Spec. 178 9.4 3.17 3.23 1.37 4.00 4.00 2.00 1.75 3.50 1.55 8.00 
+Tolerance ±2.00 ±1.50 ±0.10 ±0.10 ±0.10 ±0.10 ±0.10 ±0.05 ±0.10 ±0.05 ±0.05 +0.30/-0.10 
+Note: 10 Sprocket hole pitch cumulative tolerance is ±0.20mm. 
+ 
+13.2.3. PIN1 direction  
+   
+.
+
+
+PAGE 14
+ 
+HY2213 
+1 Cell Li Battery Charge Balance IC 
+                              
+ 
+© 2012-2015 HYCON Technology Corp 
+www.hycontek.com     
+ DS-HY2213-V05_EN 
+Page 14 
+ 
+14.  Revision History 
+Major differences are stated thereinafter: 
+ 
+Version Page Revision Summary 
+V01 - First Edition 
+V02 All Revise Electrical Parameters. 
+V03 12-13 Add Tape & Reel information. 
+V04 8 Revise picture of Example Circuit of Battery Charge Balance IC Application. 
+V05 All Revise Traceability code. 
+ 
+.

@@ -1,0 +1,31 @@
+{
+  "project_name": "DesktopAssistant_RevA",
+  "project_id": "e5e438419c1c4681946d5009bb8d6daf",
+  "pcb_uuid": "641e84beea5fc9c6",
+  "updated_at": "2026-09-08T22:59:11.714122+08:00",
+  "native_archive": "DesktopAssistant_RevA_PCB_review.epro2",
+  "archive_bytes": 313757,
+  "sha256": "d1cd0c346180e4c6d4f6c5db1d1d6702007795b03cb1cb408ce0701482a7b223",
+  "gerber_archive": "DesktopAssistant_RevA_Gerber_review.zip",
+  "gerber_sha256": "5bb6b24ac4f5287ba9d7496af1de8c203dfab9e1f86b854cde08af113cc6e084",
+  "native_pcb_drc_pass": true,
+  "native_schematic_drc_pass": true,
+  "geometry_pass": true,
+  "connected_nets": 25,
+  "orphan_copper_count": 0,
+  "native_ui_outline_recognized": true,
+  "outline_type": "closed POLY",
+  "not_for_fabrication": true,
+  "status": "下单复核：暂缓；原生DRC、几何和导出检查通过，待屏幕原板控件电平及主控插座实物核对",
+  "remaining_reviews": [
+    "屏幕5V供电时A/B/PUSH/K0的内部公共端、上拉及3.3V IO兼容性",
+    "主控准确到货型号、两排针序/排距、插座高度与板底让位",
+    "天线避空与U形槽加工内角确认",
+    "样机阶段：实物外壳配合、线束、上电负载及步态验证"
+  ],
+  "mechanical_work": "A3_nominal_checks_complete_physical_fit_pending",
+  "fabrication_order_placed": false,
+  "preflight_report": "preflight-2026-09-08/下单复核结论.md",
+  "preflight_decision": "HOLD",
+  "design_files_unchanged_by_preflight": true
+}

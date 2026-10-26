@@ -1,0 +1,184 @@
+{
+  "checked_at": "2026-09-13T18:40:08.401141+08:00",
+  "user_archive": "/Users/jay/Downloads/Gerber_PCB1_2026-09-13.zip",
+  "user_sha256": "9660b98ac86395cd7905334e0a560f94b8a849f5d8cc4cadbbd80602483b642e",
+  "baseline_sha256": "d77d7dd5697a9038f594408080d7a81f36bde194a75338c02a3f5bd7595757ec",
+  "crc_pass": true,
+  "coordinate_formats": {
+    "baseline": "2.6 mm",
+    "user": "4.5 mm"
+  },
+  "geometric_tolerance_mm": 3e-05,
+  "additional_output_files": [
+    "Gerber_DrillDrawingLayer.GDD"
+  ],
+  "layers": {
+    "Gerber_BoardOutlineLayer.GKO": {
+      "old_area_mm2": 37.58977917590528,
+      "new_area_mm2": 37.58977897270415,
+      "removed_beyond_rounding_mm2": 0.0,
+      "added_beyond_rounding_mm2": 0.0,
+      "raw_symmetric_difference_mm2": 0.00014999999962070598,
+      "matches_within_rounding": true,
+      "matches_with_documented_export_numeric_differences": true
+    },
+    "Gerber_TopLayer.GTL": {
+      "old_area_mm2": 6159.5413124994875,
+      "new_area_mm2": 6159.533900729259,
+      "removed_beyond_rounding_mm2": 0.01073293349238332,
+      "added_beyond_rounding_mm2": 0.0035487025186960327,
+      "raw_symmetric_difference_mm2": 0.02113671876281428,
+      "matches_within_rounding": false,
+      "differences_outside_three_NC_pads_mm2": 0.0,
+      "three_NC_pad_boundary_difference_exceeding_0_003mm_mm2": 0.0,
+      "matches_with_documented_export_numeric_differences": true,
+      "old_segments": 608,
+      "new_segments": 608,
+      "track_max_delta_mm": 5.000000001587068e-06,
+      "fill_removed_beyond_rounding_mm2": 0.0,
+      "fill_added_beyond_rounding_mm2": 0.0
+    },
+    "Gerber_BottomLayer.GBL": {
+      "old_area_mm2": 6751.573238641279,
+      "new_area_mm2": 6751.566158672986,
+      "removed_beyond_rounding_mm2": 0.01073293391145446,
+      "added_beyond_rounding_mm2": 0.003548702518696033,
+      "raw_symmetric_difference_mm2": 0.018911412907162892,
+      "matches_within_rounding": false,
+      "differences_outside_three_NC_pads_mm2": 0.0,
+      "three_NC_pad_boundary_difference_exceeding_0_003mm_mm2": 0.0,
+      "matches_with_documented_export_numeric_differences": true,
+      "old_segments": 179,
+      "new_segments": 179,
+      "track_max_delta_mm": 5.000000000254801e-06,
+      "fill_removed_beyond_rounding_mm2": 0.0,
+      "fill_added_beyond_rounding_mm2": 0.0
+    },
+    "Gerber_TopSolderMaskLayer.GTS": {
+      "old_area_mm2": 664.4533817846552,
+      "new_area_mm2": 664.4487308130108,
+      "removed_beyond_rounding_mm2": 0.011338596573214926,
+      "added_beyond_rounding_mm2": 0.0037489587330696537,
+      "raw_symmetric_difference_mm2": 0.02006600137331088,
+      "matches_within_rounding": false,
+      "differences_outside_three_NC_pads_mm2": 0.0,
+      "three_NC_pad_boundary_difference_exceeding_0_003mm_mm2": 0.0,
+      "matches_with_documented_export_numeric_differences": true
+    },
+    "Gerber_BottomSolderMaskLayer.GBS": {
+      "old_area_mm2": 398.03028105172785,
+      "new_area_mm2": 398.02390913944794,
+      "removed_beyond_rounding_mm2": 0.011338596573214921,
+      "added_beyond_rounding_mm2": 0.0037489587330696537,
+      "raw_symmetric_difference_mm2": 0.01718340533235585,
+      "matches_within_rounding": false,
+      "differences_outside_three_NC_pads_mm2": 0.0,
+      "three_NC_pad_boundary_difference_exceeding_0_003mm_mm2": 0.0,
+      "matches_with_documented_export_numeric_differences": true
+    },
+    "Gerber_TopPasteMaskLayer.GTP": {
+      "old_area_mm2": 213.16670668174973,
+      "new_area_mm2": 213.1668985274208,
+      "removed_beyond_rounding_mm2": 0.0,
+      "added_beyond_rounding_mm2": 0.0,
+      "raw_symmetric_difference_mm2": 0.0021262941473693415,
+      "matches_within_rounding": true,
+      "matches_with_documented_export_numeric_differences": true
+    },
+    "Gerber_BottomSilkscreenLayer.GBO": {
+      "old_area_mm2": 0.0,
+      "new_area_mm2": 0.0,
+      "removed_beyond_rounding_mm2": 0.0,
+      "added_beyond_rounding_mm2": 0.0,
+      "raw_symmetric_difference_mm2": 0.0,
+      "matches_within_rounding": true,
+      "matches_with_documented_export_numeric_differences": true
+    },
+    "Gerber_TopSilkscreenLayer.GTO": {
+      "old_area_mm2": 484.1754851463872,
+      "new_area_mm2": 490.2029660920137,
+      "removed_beyond_rounding_mm2": 8.480510461794019,
+      "added_beyond_rounding_mm2": 14.508117528734841,
+      "raw_symmetric_difference_mm2": 22.997965235614487,
+      "matches_within_rounding": false,
+      "matches_with_documented_export_numeric_differences": false
+    }
+  },
+  "drills": {
+    "Drill_PTH_Through.DRL": {
+      "round_holes": 203,
+      "slots": 4,
+      "max_delta_mm": 0.0011599999999987176,
+      "matches": true,
+      "three_NC_pad_export_position_differences": [
+        {
+          "baseline": [
+            72.78116,
+            -33.85058,
+            1.2
+          ],
+          "user": [
+            72.78,
+            -33.85,
+            1.2
+          ],
+          "diameter_unchanged": true
+        },
+        {
+          "baseline": [
+            55.00116,
+            -5.91058,
+            1.2
+          ],
+          "user": [
+            55.0,
+            -5.91,
+            1.2
+          ],
+          "diameter_unchanged": true
+        },
+        {
+          "baseline": [
+            55.00116,
+            -21.15058,
+            1.2
+          ],
+          "user": [
+            55.0,
+            -21.15,
+            1.2
+          ],
+          "diameter_unchanged": true
+        }
+      ],
+      "position_note": "Only the three previously corrected NC connector pads may differ by at most 0.003 mm in position; all diameters checked separately within 0.00003 mm."
+    },
+    "Drill_NPTH_Through.DRL": {
+      "round_holes": 7,
+      "slots": 0,
+      "max_delta_mm": 2.9999999995311555e-06,
+      "matches": true,
+      "three_NC_pad_export_position_differences": [],
+      "position_note": "Only the three previously corrected NC connector pads may differ by at most 0.003 mm in position; all diameters checked separately within 0.00003 mm."
+    },
+    "Drill_PTH_Through_Via.DRL": {
+      "round_holes": 84,
+      "slots": 0,
+      "max_delta_mm": 1.0000000116860974e-06,
+      "matches": true,
+      "three_NC_pad_export_position_differences": [],
+      "position_note": "Only the three previously corrected NC connector pads may differ by at most 0.003 mm in position; all diameters checked separately within 0.00003 mm."
+    }
+  },
+  "pinmap": {
+    "components": 79,
+    "pins": 310,
+    "nets": 59,
+    "nc": 48,
+    "matches": true,
+    "pad_geometry_matches": true,
+    "max_pad_delta_mm": 0.0011607800000031602
+  },
+  "extra_synthetic_probe_points": 262,
+  "only_top_silkscreen_differs_after_documented_numeric_normalization": true
+}

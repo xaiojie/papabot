@@ -1,0 +1,1 @@
+const p=await eda.dmt_Project.getCurrentProjectInfo();const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(p?.uuid!=="50ae04bdafb74b93b94b7cc4c08171e1"||d?.uuid!=="bc31667e02a33e5b")throw Error("Target mismatch");return {errors:await eda.pcb_Drc.check(true,false,true),strict_pass:await eda.pcb_Drc.check(true,false,false)};

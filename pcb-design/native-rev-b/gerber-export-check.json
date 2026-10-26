@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "sha256": "3d82864d5b190e2b760c63f7ae638c83f40239f759e35df8d7c399929f95d968",
+  "zip_crc_pass": true,
+  "board_outline_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      9.499999
+    ],
+    [
+      24.17,
+      9.499999
+    ],
+    [
+      24.17,
+      22.500001
+    ],
+    [
+      0.0,
+      22.500001
+    ],
+    [
+      0.0,
+      32.0
+    ],
+    [
+      80.0,
+      32.0
+    ],
+    [
+      80.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "plated_hole_count": 129,
+  "component_hole_count": 104,
+  "via_count": 25,
+  "nonplated_hole_count": 4,
+  "maximum_drill_difference_mm": 5.00000002290335e-07,
+  "all_drills_match_native_archive": true,
+  "copper_segments_by_layer": {
+    "Gerber_TopLayer.GTL": 317,
+    "Gerber_BottomLayer.GBL": 435
+  },
+  "all_copper_segments_match_native_archive": true,
+  "maximum_track_difference_mm": 5.000000005139782e-07,
+  "flying_probe_pinmap_matches": true,
+  "flying_probe_pad_geometry_matches": true,
+  "flying_probe_generated_isolated_nc_names": {
+    "J1.3": "NET_1",
+    "J1.16": "NET_2",
+    "J2.1": "NET_3",
+    "J2.2": "NET_4",
+    "J2.3": "NET_5",
+    "J2.4": "NET_6",
+    "J2.8": "NET_7",
+    "J2.12": "NET_8",
+    "J2.14": "NET_9",
+    "J2.15": "NET_10",
+    "J2.16": "NET_11"
+  },
+  "separate_via_drill_file_is_subset_of_pth": true
+}

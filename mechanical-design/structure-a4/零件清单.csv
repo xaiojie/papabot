@@ -1,0 +1,32 @@
+﻿编号,名称,装机数量,STL文件,打印外包尺寸mm,建议方向,说明
+R01,94 mm 可拆上壳,1,stl-complete/R01__A4__mm.stl,94.0 × 71.2 × 126.6,front_down,壁2.4；底盘4×M3；前后各4×M3；侧板先卸下再向上取壳。
+R05,承力底盘与四腿固定孔,1,stl-complete/R05__A4__mm.stl,93.0 × 126.6 × 4.6,Z,4.6 mm 底；腿座负载传到底盘；电池和模块托盘均可拆。
+R06,四柱主板支架 67×102,1,stl-complete/R06__A4__mm.stl,76.0 × 111.0 × 41.6,inverted,板底Z76.5；4×M2.5×8配螺母，头径≤5.0，不用Ø6垫片；架底4×M3×10。
+R02,浅前脸、压屏固定点和麦克风孔,1,stl-complete/R02__A4__mm.stl,94.0 × 76.0 × 7.7,front_down,前表面Y−66；不保留EC11或按钮；4×M3×10固定。
+R07,黑色可换屏幕遮边,1,stl-complete/R07__A4__mm.stl,63.8 × 47.8 × 2.0,front_down,外边低于前框0.3 mm；57.6×42.6的浅槽放57×42×0.8透明PC片，面低0.45 mm；后方开窗51×38.7。
+R04,HS24S010B 可换背压框,1,stl-complete/R04__A4__mm.stl,78.05 × 56.1 × 2.2,back_down,72.26×43标称背板；四角0.5mm EVA，禁止压玻璃/焊点；4×M2×6自攻。CN1插头深度须≤7.7mm或改弯脚线束。
+R21,ACE800 可换电池托盘,1,stl-complete/R21__A4__mm.stl,44.0 × 65.0 × 6.9,Z,内净32.8×61；按标称60×32×16包络，各侧需试配后微调；0.8mm EVA；两条束带，不能压电池引线。
+R17,DFR0753 开放绑带托架,1,stl-complete/R17__A4__mm.stl,63.0 × 34.0 × 4.3,Z,2×M2自攻螺丝可拆；EVA+束带；尺寸为标称/预留，实物接线和端子另核。
+R18,好盈 UBEC 开放绑带托架,1,stl-complete/R18__A4__mm.stl,28.0 × 47.0 × 4.3,Z,2×M2自攻螺丝可拆；EVA+束带；尺寸为标称/预留，实物接线和端子另核。
+R03,可拆后盖、散热及喇叭座,1,stl-complete/R03__A4__mm.stl,94.0 × 76.0 × 13.5,back_down,喇叭后置低位；4×M3×10；开关板独立，未定型号可只换小板。
+R08,后开关可换接口板,1,stl-complete/R08__A4__mm.stl,34.0 × 22.0 × 2.0,back_down,Ø12.5为旧S1A候选；未确认采购，正式安装前重配孔或装空白板。
+R11,24 mm 级喇叭后压圈,1,stl-complete/R11__A4__mm.stl,28.0 × 36.6 × 2.0,front_down,候选23.6×10.4；2×M2×8自攻轻压壳边，不能压振膜；型号变更替换此件。
+R19,功放后盖绑带架,1,stl-complete/R19__A4__mm.stl,28.0 × 23.0 × 2.2,back_down,2×M2×6；预留端子高度，不与外部独立PCA板混淆。
+R14,前部可换麦克风托架,1,stl-complete/R14__A4__mm.stl,23.0 × 12.0 × 2.0,front_down,可调绑带+EVA；按MSM261S4030H0实际模块调整导声垫，非承诺旧Ø14模块适配。
+R20,USB 插接通道可换侧板,1,stl-complete/R20__A4__mm.stl,14.0 × 27.0 × 2.0,side_down,17×11入口允许插头护套深入；C165948与PCB封装兼容尚无完整重合证明。2×M2×6自攻先拆侧板再提壳。
+R12_L,原型小耳朵 L,1,stl-complete/R12_L__A4__mm.stl,17.6 × 18.66 × 6.47,front_down,
+R12_R,原型小耳朵 R,1,stl-complete/R12_R__A4__mm.stl,17.6 × 18.66 × 6.47,front_down,
+R13_L,耳朵压垫 L,1,stl-complete/R13_L__A4__mm.stl,10.0 × 10.0 × 1.2,Z,
+R13_R,耳朵压垫 R,1,stl-complete/R13_R__A4__mm.stl,10.0 × 10.0 × 1.2,Z,
+L101_FL,收拢髋固定座 FL,1,stl-complete/L101_FL__A4__mm.stl,55.4 × 22.0 × 23.0,side_down,MG90S原尺寸；2×M3×12固定底盘；耳孔试配槽27.5±1.4。
+L102_FL,向内错位膝座及上腿 FL,1,stl-complete/L102_FL__A4__mm.stl,65.7 × 52.0 × 12.3,side_down,用原装舵盘；中心Ø6.4工具孔；2×M2螺丝接舵盘。
+L104_FL,收拢下腿及脚掌 FL,1,stl-complete/L104_FL__A4__mm.stl,49.7 × 32.25 × 16.5,side_down,Ø12×2脚垫；原装舵盘，非打印花键；新腿不可默认与A3混装。
+L101_FR,收拢髋固定座 FR,1,stl-complete/L101_FR__A4__mm.stl,55.4 × 22.0 × 23.0,side_down,MG90S原尺寸；2×M3×12固定底盘；耳孔试配槽27.5±1.4。
+L102_FR,向内错位膝座及上腿 FR,1,stl-complete/L102_FR__A4__mm.stl,65.7 × 52.0 × 12.3,side_down,用原装舵盘；中心Ø6.4工具孔；2×M2螺丝接舵盘。
+L104_FR,收拢下腿及脚掌 FR,1,stl-complete/L104_FR__A4__mm.stl,49.7 × 32.25 × 16.5,side_down,Ø12×2脚垫；原装舵盘，非打印花键；新腿不可默认与A3混装。
+L101_RL,收拢髋固定座 RL,1,stl-complete/L101_RL__A4__mm.stl,55.4 × 22.0 × 23.0,side_down,MG90S原尺寸；2×M3×12固定底盘；耳孔试配槽27.5±1.4。
+L102_RL,向内错位膝座及上腿 RL,1,stl-complete/L102_RL__A4__mm.stl,65.7 × 52.0 × 12.3,side_down,用原装舵盘；中心Ø6.4工具孔；2×M2螺丝接舵盘。
+L104_RL,收拢下腿及脚掌 RL,1,stl-complete/L104_RL__A4__mm.stl,49.7 × 32.25 × 16.5,side_down,Ø12×2脚垫；原装舵盘，非打印花键；新腿不可默认与A3混装。
+L101_RR,收拢髋固定座 RR,1,stl-complete/L101_RR__A4__mm.stl,55.4 × 22.0 × 23.0,side_down,MG90S原尺寸；2×M3×12固定底盘；耳孔试配槽27.5±1.4。
+L102_RR,向内错位膝座及上腿 RR,1,stl-complete/L102_RR__A4__mm.stl,65.7 × 52.0 × 12.3,side_down,用原装舵盘；中心Ø6.4工具孔；2×M2螺丝接舵盘。
+L104_RR,收拢下腿及脚掌 RR,1,stl-complete/L104_RR__A4__mm.stl,49.7 × 32.25 × 16.5,side_down,Ø12×2脚垫；原装舵盘，非打印花键；新腿不可默认与A3混装。

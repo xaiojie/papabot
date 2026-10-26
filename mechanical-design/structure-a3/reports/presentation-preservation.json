@@ -1,0 +1,11 @@
+{
+  "main_part_geometry_before": "f218bfc49180e1b68e1e935fbaf539f3350b0ca3166f1afbee2c3ed32bffc746",
+  "main_part_geometry_after": "f218bfc49180e1b68e1e935fbaf539f3350b0ca3166f1afbee2c3ed32bffc746",
+  "unchanged": true,
+  "new_scenes": [
+    "11_A3_EXPLODED_ASSEMBLY",
+    "12_A3_PRINT_PARTS_OVERVIEW",
+    "13_A3_FRONT_CAP_REMOVED"
+  ],
+  "print_part_count": 30
+}

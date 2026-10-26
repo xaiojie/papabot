@@ -1,0 +1,17 @@
+{
+  "doc": {
+    "documentType": 1,
+    "uuid": "834bc1f5a1044766",
+    "tabId": "834bc1f5a1044766@e5e438419c1c4681946d5009bb8d6daf",
+    "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+  },
+  "passed": true,
+  "checked_at": "2026-09-08T14:32:22.113476+08:00",
+  "strict": true,
+  "fatal_errors": 0,
+  "errors": 0,
+  "warnings": 0,
+  "design_info": 0,
+  "log_info": 2,
+  "after_save_and_reopen": true
+}

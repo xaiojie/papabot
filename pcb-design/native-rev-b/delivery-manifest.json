@@ -1,0 +1,175 @@
+{
+  "revision": "RevB",
+  "project_name": "DesktopAssistant_RevA",
+  "project_id": "e5e438419c1c4681946d5009bb8d6daf",
+  "pcb_uuid": "641e84beea5fc9c6",
+  "schematic_page_uuid": "834bc1f5a1044766",
+  "updated_at": "2026-09-09T10:55:23.036623+08:00",
+  "status": "SCREEN_SUPPLY_REVISION_AND_DESIGN_FILE_REVIEW_COMPLETE__PHYSICAL_AND_POWER_VALIDATION_PENDING",
+  "native_pcb_drc_pass": true,
+  "native_schematic_drc_pass": true,
+  "geometry_pass": true,
+  "gerber_geometry_matches": true,
+  "connected_nets": 26,
+  "component_pads": 104,
+  "orphan_copper_count": 0,
+  "screen_supply_v": 3.3,
+  "default_jp3": "OPEN",
+  "default_dnp": [
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+  ],
+  "external_regulator_selected": false,
+  "fabrication_order_placed": false,
+  "physical_fit_verified": false,
+  "full_brightness_current_verified": false,
+  "mechanical_files_modified": false,
+  "mechanical_revision": "A3",
+  "before_native_archive_sha256": "e4d89c06126e896111884364e2df7225cd9ca7c5dca2ca6ced5e9f1d4fdb1db8",
+  "current_native_archive": "DesktopAssistant_RevB_PCB_review.epro2",
+  "current_gerber_archive": "DesktopAssistant_RevB_Gerber_review.zip",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4281,
+      "sha256": "48d9859d9cd3d8585487d5389264bf10c7002df572d953e23674ab137d0121f9"
+    },
+    {
+      "path": "修改与复核报告.md",
+      "bytes": 3669,
+      "sha256": "98c55db3d898159330218f6fc25d0aafb55952d696bdfdadb5174c50d20a527f"
+    },
+    {
+      "path": "装配与上电核对.md",
+      "bytes": 6791,
+      "sha256": "291bd59fd9970ca7763b18e80cf69e9b837276865168bb37824279ee1f940094"
+    },
+    {
+      "path": "载板接口与引脚.csv",
+      "bytes": 13364,
+      "sha256": "70f0b2d6f7f7b48dfbb0bff274cef15411967257be8de5b69e4c9f18520ab1e8"
+    },
+    {
+      "path": "载板装配清单.csv",
+      "bytes": 3874,
+      "sha256": "1184dce2088b3ae1705806288f50af9129785fc59061c394e24aa1d5b9cdbb77"
+    },
+    {
+      "path": "屏幕12针接线表.csv",
+      "bytes": 503,
+      "sha256": "2394e778c2dfd52437663e49392dcbc8f2be2d60c734b7458f0d12603704eeb2"
+    },
+    {
+      "path": "carrier-definition.json",
+      "bytes": 21274,
+      "sha256": "8281abac09c950745cc765ece3410ac98acf73bace256aad6cac4b5cf035c21f"
+    },
+    {
+      "path": "screen-interface.json",
+      "bytes": 2562,
+      "sha256": "2d0422cb2d5e56447c992ec5a61a8e45dc135cc15bcccd18fdccdcb3a0b1c70b"
+    },
+    {
+      "path": "DesktopAssistant_RevB_PCB_review.epro2",
+      "bytes": 385510,
+      "sha256": "b313111a40df8c3b7fbe22e4adfcda4f94580163e857947c866374f492375a8b"
+    },
+    {
+      "path": "DesktopAssistant_RevB_Gerber_review.zip",
+      "bytes": 57441,
+      "sha256": "3d82864d5b190e2b760c63f7ae638c83f40239f759e35df8d7c399929f95d968"
+    },
+    {
+      "path": "DesktopAssistant_Carrier_RevB.enet",
+      "bytes": 69293,
+      "sha256": "17abfc5757bbb03e452777560225b88620074eb0a494286b422b216607bf8e1d"
+    },
+    {
+      "path": "DesktopAssistant_PCB_RevB.enet",
+      "bytes": 46220,
+      "sha256": "94a839e2f8cb3ea85de1c213ee82e648f78c73c4be5e4426c04e158d0ab76ac4"
+    },
+    {
+      "path": "pcb-native.png",
+      "bytes": 463023,
+      "sha256": "0034fdccb2c3986861f0f22a69559a0b10327901506d3c4921bba52bef1dda01"
+    },
+    {
+      "path": "schematic-native.png",
+      "bytes": 592289,
+      "sha256": "f99d1e221c839921740eb4b480118bb0b647c1743b8dd4dee5d11ecd0d7403d7"
+    },
+    {
+      "path": "pcb-final.source",
+      "bytes": 269809,
+      "sha256": "2ded31360bdbd7721d3569bacb11d1a71d96e3d88a4a98a7243d506ddf3226b5"
+    },
+    {
+      "path": "schematic-final.source",
+      "bytes": 458994,
+      "sha256": "ffae6bd1db874f540b7e8a5af54df20df4f9709444215b0f66e0b2b463c6c446"
+    },
+    {
+      "path": "pcb-persisted-geometry.json",
+      "bytes": 470277,
+      "sha256": "4ba1e96abe1cb95a2205836606751a3791d4e48992c77a08a71f3239bb554456"
+    },
+    {
+      "path": "native-pcb-drc.json",
+      "bytes": 88,
+      "sha256": "fceed398661f326e6bffa00515f0034a168c22f46386b9f67eb81bb07ca32b12"
+    },
+    {
+      "path": "native-schematic-drc.json",
+      "bytes": 88,
+      "sha256": "022e3f33d682b8613c19a3af82ef3035c7e202b572f04099c7a6e7b6dfe8e50f"
+    },
+    {
+      "path": "native-routing-validation.json",
+      "bytes": 6717,
+      "sha256": "254f62a09524e14dc04c46bf0ba9c83b874ebe4bad8192d5eba8ffc48478d5e0"
+    },
+    {
+      "path": "netlist-check.json",
+      "bytes": 7661,
+      "sha256": "1e405338ac1256d6fc23fcfb3a6477b1f44996d6374bab65798b37bd9a26ab6b"
+    },
+    {
+      "path": "native-archive-check.json",
+      "bytes": 1432,
+      "sha256": "a5c6a29f3786c46a845188926ef0d2c010955079fad052f6dceecab50827bb03"
+    },
+    {
+      "path": "gerber-export-check.json",
+      "bytes": 1330,
+      "sha256": "4773996e1d31463477532e9a1583f0069341000e795921fd9f27570f426bd0cb"
+    },
+    {
+      "path": "source-archive-normalization.json",
+      "bytes": 37898,
+      "sha256": "638bb6d7102f4040a6a5471c23faad60dea3b03f4ce45398426c858dd0b37a6f"
+    },
+    {
+      "path": "supplier-evidence/pin-description-extracted.json",
+      "bytes": 917,
+      "sha256": "98bd819c511c2a78bcfd7f772843656da641594aba4f6de9931eb30c7af93949"
+    },
+    {
+      "path": "supplier-evidence/source-manifest.json",
+      "bytes": 522,
+      "sha256": "9ead1db4798d29bc2b9b6e335a148fbe7e02e88f61ede6badf52e4b076e886ed"
+    },
+    {
+      "path": "supplier-evidence/屏幕整板原理图.png",
+      "bytes": 43386,
+      "sha256": "4f3df2836bc6c5c5ef1c60c721816529ed71c347945b7b716722a435fd2848f3"
+    },
+    {
+      "path": "supplier-evidence/引脚说明.docx",
+      "bytes": 13152,
+      "sha256": "8c1e669e9d05b5d25b095d6d0a2699d43efef146b033a68e0eb30dc683922a7f"
+    }
+  ]
+}

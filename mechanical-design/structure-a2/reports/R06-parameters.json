@@ -1,0 +1,154 @@
+{
+  "revision": "A2-R06",
+  "part_id": "R06",
+  "label_zh": "主控PCB支撑架",
+  "quantity": 1,
+  "units": "mm",
+  "frame_bottom_z": 58.6,
+  "frame_top_z": 61.0,
+  "pcb_bottom_z": 66.0,
+  "pcb_thickness": 1.6,
+  "pcb_transform": "X=u-40; Y=v-2; Z=w+66",
+  "pcb_mount_holes_uv": [
+    [
+      5,
+      5,
+      3.2
+    ],
+    [
+      75,
+      5,
+      3.2
+    ],
+    [
+      75,
+      27,
+      3.2
+    ],
+    [
+      5,
+      27,
+      3.2
+    ]
+  ],
+  "pcb_outline_uv": [
+    [
+      0,
+      0
+    ],
+    [
+      80,
+      0
+    ],
+    [
+      80,
+      32
+    ],
+    [
+      0,
+      32
+    ],
+    [
+      0,
+      22.5
+    ],
+    [
+      24.17,
+      22.5
+    ],
+    [
+      24.17,
+      9.5
+    ],
+    [
+      0,
+      9.5
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "feet_xy": [
+    [
+      -47,
+      -3
+    ],
+    [
+      47,
+      -3
+    ],
+    [
+      -47,
+      26.5
+    ],
+    [
+      47,
+      26.5
+    ]
+  ],
+  "feet_bottom_z": 34.6,
+  "frame_outline_xy": [
+    88,
+    40
+  ],
+  "frame_opening_xy": [
+    66,
+    22
+  ],
+  "floor_screw_clearance": 3.4,
+  "pcb_screw_clearance": 2.4,
+  "bottom_nut_AF": 5.8,
+  "pcb_nut_AF": 4.3,
+  "floor_nut_side_loading_z_range": [
+    36.2,
+    38.9
+  ],
+  "floor_nut_load_wall_mm": 1.6,
+  "pcb_fastener": "4 M2x8, head diameter <=4.0mm, no oversized washers",
+  "foot_diameter": 8.8,
+  "pcb_seat_diameter": 5.6,
+  "pcb_nut_boss_diameter": 9.0,
+  "pcb_seat_top_z": 66.0,
+  "pcb_nut_tunnel_top_z": 63.2,
+  "socket_plastic_height_verified": 8.5,
+  "male_header_spacer_nominal": 2.5,
+  "controller_bottom_nominal_z": 78.6,
+  "controller_size_nominal": [
+    51.66,
+    20.32,
+    1.6
+  ],
+  "controller_top_component_reserve_z": 86.2,
+  "battery_target_bbox": [
+    [
+      -37.5,
+      -6,
+      35.6
+    ],
+    [
+      37.5,
+      34,
+      55.6
+    ]
+  ],
+  "display_connector_reserve_bbox": [
+    [
+      -38,
+      -20,
+      50
+    ],
+    [
+      -28,
+      -3,
+      90
+    ]
+  ],
+  "not_measured": [
+    "battery final size",
+    "male header spacer and insertion height",
+    "received M2 head and nut dimensions",
+    "solder tails after trimming",
+    "display connector plug and cable bend"
+  ]
+}

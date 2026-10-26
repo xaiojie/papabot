@@ -1,0 +1,43 @@
+# ---------- 编译产物 / 工具环境 ----------
+.pio/
+.venv/
+.tools/
+__pycache__/
+*.pyc
+*.pyo
+*.o
+*.a
+*.elf
+*.map
+*.lst
+
+# ---------- 系统 / 编辑器 ----------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ---------- WorkBuddy 工作区内部数据 ----------
+.workbuddy/
+.playwright-cli/
+
+# 日志
+*.log
+
+# ---------- Blender 母版（体积大，等装好 git-lfs 再纳管） ----------
+# 总计约 262 MB：*.blend 157 MB + *.blend1（自动备份）105 MB。
+# 想入库时先 `brew install git-lfs && git lfs install`，
+# 再 `git lfs track "*.blend"` 并删掉下面这行，然后 `git add mechanical-design`。
+*.blend
+*.blend1
+*.blend2
+
+# ---------- PCB EDA 审计转储（工具导出，非设计源） ----------
+# 四个 audit 目录合计约 319 MB，单个 JSON 常有 11 MB。
+**/audit/
+
+# ---------- 超大交付包（走 GitHub Release 资产） ----------
+# 这四个整机试装包合计约 120 MB，内容与树里的 STL / 渲染重复。
+**/*试装包.zip
+**/*试装模型包.zip

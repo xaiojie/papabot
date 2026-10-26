@@ -1,0 +1,158 @@
+[
+  {
+    "id": "R01",
+    "name": "R01__main_housing",
+    "label_zh": "主壳草稿：开放前/底维修口",
+    "file": "stl-structure-a1-DRAFT/R01__main_housing__DRAFT_mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      123.99999,
+      74.07143,
+      68.5
+    ],
+    "assembly_bbox_min_mm": [
+      -61.999996185302734,
+      -23.499998092651367,
+      31.928571701049805
+    ],
+    "assembly_bbox_max_mm": [
+      61.999996185302734,
+      45.0,
+      105.99999237060547
+    ],
+    "print_orientation": "front_down",
+    "status": "STRUCTURAL_DRAFT_NOT_FROZEN",
+    "default_variant": true,
+    "limitations": "Rear control/module positions, servo attachment loads and print supports unverified. Service windows are adjustable, not dimensioned connector seats."
+  },
+  {
+    "id": "R02",
+    "name": "R02__shallow_front_cover",
+    "label_zh": "浅前盖试配草稿",
+    "file": "stl-structure-a1-DRAFT/R02__shallow_front_cover__DRAFT_mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      123.99999,
+      75.99999,
+      4.40001
+    ],
+    "assembly_bbox_min_mm": [
+      -61.999996185302734,
+      -26.19999885559082,
+      29.999998092651367
+    ],
+    "assembly_bbox_max_mm": [
+      61.999996185302734,
+      -21.799999237060547,
+      105.99999237060547
+    ],
+    "print_orientation": "front_down",
+    "status": "STRUCTURAL_DRAFT_NOT_FROZEN",
+    "default_variant": true,
+    "limitations": "Glass clearance opening 60x43 is a provisional envelope, not measured active area; 0.79mm recess follows old modeled glass."
+  },
+  {
+    "id": "R03",
+    "name": "R03__rear_controls_panel_BLANK",
+    "label_zh": "可拆后面板：控件区域留白",
+    "file": "stl-structure-a1-DRAFT/R03__rear_controls_panel_BLANK__DRAFT_mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      97.99999,
+      58.0,
+      2.40001
+    ],
+    "assembly_bbox_min_mm": [
+      -48.999996185302734,
+      45.19999694824219,
+      45.0
+    ],
+    "assembly_bbox_max_mm": [
+      48.999996185302734,
+      47.599998474121094,
+      102.99999237060547
+    ],
+    "print_orientation": "front_down",
+    "status": "STRUCTURAL_DRAFT_NOT_FROZEN",
+    "default_variant": true,
+    "limitations": "EC11/K0/charging/master-switch holes intentionally not exported; speaker grille only. Hole locations must follow physical parts."
+  },
+  {
+    "id": "R04",
+    "name": "R04__display_support_frame",
+    "label_zh": "整块显示板支架试配草稿",
+    "file": "stl-structure-a1-DRAFT/R04__display_support_frame__DRAFT_mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      106.5,
+      66.0,
+      5.6
+    ],
+    "assembly_bbox_min_mm": [
+      -48.5,
+      -19.399999618530273,
+      35.0
+    ],
+    "assembly_bbox_max_mm": [
+      57.999996185302734,
+      -13.799999237060547,
+      101.0
+    ],
+    "print_orientation": "back_down",
+    "status": "STRUCTURAL_DRAFT_NOT_FROZEN",
+    "default_variant": true,
+    "limitations": "Board hole pitch nominal only; 1.6mm corner separation and header slot need measurement. Four M2 tabs are design interfaces, not measured hardware holes."
+  },
+  {
+    "id": "R05",
+    "name": "R05__bottom_cover_integrated_battery_tray",
+    "label_zh": "底盖与电池限位框一体草稿",
+    "file": "stl-structure-a1-DRAFT/R05__bottom_cover_integrated_battery_tray__DRAFT_mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      110.0,
+      62.7,
+      6.8
+    ],
+    "assembly_bbox_min_mm": [
+      -55.0,
+      -21.5,
+      31.799999237060547
+    ],
+    "assembly_bbox_max_mm": [
+      55.0,
+      41.20000076293945,
+      38.60000228881836
+    ],
+    "print_orientation": "Z",
+    "status": "STRUCTURAL_DRAFT_NOT_FROZEN",
+    "default_variant": true,
+    "limitations": "75x40x20 battery target unconfirmed; 1mm EVA and belt route under base proposed. No battery compression fit."
+  },
+  {
+    "id": "R06",
+    "name": "R06__controller_carrier_bridge",
+    "label_zh": "主控载板桥架草稿",
+    "file": "stl-structure-a1-DRAFT/R06__controller_carrier_bridge__DRAFT_mm.stl",
+    "quantity_trial": 1,
+    "dimensions_mm": [
+      108.0,
+      42.0,
+      29.40001
+    ],
+    "assembly_bbox_min_mm": [
+      -54.0,
+      -8.000000953674316,
+      34.599998474121094
+    ],
+    "assembly_bbox_max_mm": [
+      54.0,
+      34.0,
+      64.00000762939453
+    ],
+    "print_orientation": "Z",
+    "status": "STRUCTURAL_DRAFT_NOT_FROZEN",
+    "default_variant": true,
+    "limitations": "80x32 PCB and Z64 underside not frozen. Legs/nut pockets and supports need slicer/fit checks; upper electronics not fully allocated."
+  }
+]

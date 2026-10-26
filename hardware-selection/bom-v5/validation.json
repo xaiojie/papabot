@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "date": "2026-09-08",
+  "checks": [
+    "01-立创商城-BOM导入.xlsx: 单页、10项、3列、数值及链接检查通过",
+    "02-淘宝天猫-采购清单.xlsx: 单页、6项、7列、数值及链接检查通过",
+    "03-产品官网-采购清单.xlsx: 单页、5项、7列、数值及链接检查通过"
+  ],
+  "lcsc_verified_exact_code_matches": 10,
+  "lcsc_stocked_rows": 10,
+  "lcsc_columns": 3,
+  "lcsc_quantity_basis": "actual purchase quantities including MOQ/spares; import with procurement sets=1, no additional spares",
+  "coverage": {
+    "lcsc": 10,
+    "taobao": 6,
+    "official_sites": 5,
+    "deferred_or_nonpurchase": 21,
+    "total": 42
+  },
+  "new_online_import_performed": false,
+  "current_online_bom_modified": false,
+  "order_placed": false,
+  "source_match_audit": "evidence/lcsc-match-audit.json"
+}

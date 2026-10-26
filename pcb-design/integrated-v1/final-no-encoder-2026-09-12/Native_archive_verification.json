@@ -1,0 +1,447 @@
+{
+  "passed": true,
+  "archive_crc_pass": true,
+  "sha256": "38f9dca15dc3f1dcd77d106acb48351d12b73110185467406466e4e6a0ce9bb4",
+  "pcb_geometry_rules_stackup_match_saved_source": true,
+  "normalized_empty_default_selector": "('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"\"]]')",
+  "export_normalizations": [
+    {
+      "key": [
+        "COMPONENT",
+        "82cba957a7ca4ba2"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "COMPONENT",
+        "ad88d9220a8250f6"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "LINE",
+        "5ceaf10790a9a998"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198599999958787
+    },
+    {
+      "key": [
+        "COMPONENT",
+        "d3decb7265b7b0c8"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "LINE",
+        "6d8e1691ba7588dc"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0004400362153255361
+    },
+    {
+      "key": [
+        "LINE",
+        "8a71878c7eab7593"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198600000002101
+    },
+    {
+      "key": [
+        "LINE",
+        "2526951a75fcc624"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001120140000001811
+    },
+    {
+      "key": [
+        "LINE",
+        "e2d2fd22a0349a8a"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999996454
+    },
+    {
+      "key": [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"GND\"]]"
+      ],
+      "normalization": "native GND copperRegion selector"
+    },
+    {
+      "key": [
+        "LINE",
+        "7435fd3b4cc050df"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001419860000001654
+    },
+    {
+      "key": [
+        "LINE",
+        "3c488911843f7bdc"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999902605
+    },
+    {
+      "key": [
+        "LINE",
+        "9ad14ba9824750ed"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198599999958787
+    },
+    {
+      "key": [
+        "COMPONENT",
+        "991ad4a5f197d2b8"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "LINE",
+        "c79be3d0afdd7cb3"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198600000002101
+    },
+    {
+      "key": [
+        "LINE",
+        "b76647ae21629df4"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001419860000001654
+    },
+    {
+      "key": [
+        "LINE",
+        "eb7a2f45a9514f9c"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0015194593356832738
+    },
+    {
+      "key": [
+        "LINE",
+        "5102c40edde4b66e"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999989235
+    },
+    {
+      "key": [
+        "LINE",
+        "16242f144fba5434"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999960359
+    },
+    {
+      "key": [
+        "LINE",
+        "409c329f60242bab"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001419860000001654
+    },
+    {
+      "key": [
+        "LINE",
+        "5ae36f62dc3324a4"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001419860000001654
+    },
+    {
+      "key": [
+        "LINE",
+        "60f6f976ecc674c8"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999996454
+    },
+    {
+      "key": [
+        "LINE",
+        "e9dded5e5f0c611d"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999960359
+    },
+    {
+      "key": [
+        "LINE",
+        "2462644501302562"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.000980440000002227
+    },
+    {
+      "key": [
+        "LINE",
+        "373da955d2445d12"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0005410199999970245
+    },
+    {
+      "key": [
+        "LINE",
+        "42f09f957e1dbfa7"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001120140000001811
+    },
+    {
+      "key": [
+        "LINE",
+        "f7995c727d55dd61"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0011201399999960359
+    },
+    {
+      "key": [
+        "LINE",
+        "1fe69bf2a274168e"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198599999958787
+    },
+    {
+      "key": [
+        "LINE",
+        "3685717f2d2d4bed"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001120140000001811
+    },
+    {
+      "key": [
+        "LINE",
+        "6dc8589efe736ce2"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.000980440000002227
+    },
+    {
+      "key": [
+        "LINE",
+        "94263407ca118b01"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198600000074292
+    },
+    {
+      "key": [
+        "LINE",
+        "cb37a01135b4deb9"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198600000074292
+    },
+    {
+      "key": [
+        "COMPONENT",
+        "d895c9e7b9a9960c"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "COMPONENT",
+        "1e2d5c392045c7d5"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "LINE",
+        "dcb460a2d103ca43"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001120140000001811
+    },
+    {
+      "key": [
+        "LINE",
+        "e12544bad7af6149"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001120140000001811
+    },
+    {
+      "key": [
+        "LINE",
+        "fabedc6c8929fc53"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0002997200000056182
+    },
+    {
+      "key": [
+        "LINE",
+        "6a4e9ad812e4ff1c"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001419860000001654
+    },
+    {
+      "key": [
+        "LINE",
+        "981976fb511a7904"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198600000074292
+    },
+    {
+      "key": [
+        "LINE",
+        "0fcea71892dc6a4e"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.000568959999998674
+    },
+    {
+      "key": [
+        "COMPONENT",
+        "60ecbd1653cc87c3"
+      ],
+      "normalization": "rotation modulo 360"
+    },
+    {
+      "key": [
+        "LINE",
+        "5e2acd552b633c6f"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0014198599999958787
+    },
+    {
+      "key": [
+        "LINE",
+        "d7e5c8f1843c0665"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.001120140000001811
+    },
+    {
+      "key": [
+        "LINE",
+        "db44657923e09b6b"
+      ],
+      "normalization": "sub-2um covered endpoint segment",
+      "length_mm": 0.0005206999999992376
+    }
+  ],
+  "active_pages": [
+    {
+      "uuid": "654247b3dab7ee5f",
+      "title": "01_电池保护与均衡"
+    },
+    {
+      "uuid": "1b2919cc1262fe39",
+      "title": "02_USB充电"
+    },
+    {
+      "uuid": "8e03abe4b069eaeb",
+      "title": "03_配电与主控"
+    },
+    {
+      "uuid": "2f4bfc0bfa3d836a",
+      "title": "04_显示音频与交互"
+    },
+    {
+      "uuid": "7020da259480076a",
+      "title": "05_八路舵机驱动"
+    }
+  ],
+  "historical_deleted_pages": 4,
+  "components": 79,
+  "component_pins": 310,
+  "schematic_pcb_pinmaps_match": true,
+  "body_outlines_checked": 60,
+  "body_outline_overlaps": [],
+  "physical_stackup": {
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",3]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 1
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",7]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 2
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",5]')": {
+      "material": "",
+      "thickness": 0.394,
+      "permittivity": 3.3,
+      "lossTangent": 0.02,
+      "isKeepIsland": true,
+      "zIndex": 3
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",1]')": {
+      "material": "",
+      "thickness": 2.756,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 1000
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",361]')": {
+      "material": "FR4",
+      "thickness": 56.693,
+      "permittivity": 4.5,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 1001
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",2]')": {
+      "material": "",
+      "thickness": 2.756,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 9000
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",6]')": {
+      "material": "",
+      "thickness": 0.394,
+      "permittivity": 3.3,
+      "lossTangent": 0.02,
+      "isKeepIsland": true,
+      "zIndex": 10000
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",8]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 10001
+    },
+    "('LAYER_PHYS', '[\"LAYER_PHYS\",4]')": {
+      "material": "",
+      "thickness": 0,
+      "permittivity": 0,
+      "lossTangent": 0,
+      "isKeepIsland": true,
+      "zIndex": 10002
+    }
+  }
+}

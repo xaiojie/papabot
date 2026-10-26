@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>单板全集成 v1 · 摆放框图</title>
+<style>
+ body{margin:0;background:#eef3ee;color:#16272c;font:15px/1.65 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+ main{max-width:1400px;margin:0 auto;padding:22px 18px 50px}
+ h1{font-size:23px;margin:0 0 4px} h2{font-size:16px;margin:16px 0 8px}
+ .sub{color:#5d7176;margin:0 0 14px;font-size:14px}
+ .card{background:#fff;border:1px solid #c3d4cb;border-radius:12px;padding:14px 16px;margin-bottom:14px}
+ .warn{background:#fdecea;border:1px solid #f0b4ac;border-radius:12px;padding:13px 16px;margin-bottom:14px}
+ .ok{background:#e9f4ec;border:1px solid #b6d8c1;border-radius:12px;padding:13px 16px;margin-bottom:14px}
+ table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:8px}
+ th,td{border:1px solid #c3d4cb;padding:7px 9px;text-align:left}
+ th{background:#eaf1ea} .mono{font-family:ui-monospace,Menlo,monospace}
+</style></head><body><main>
+<h1>单板全集成 v1 · 摆放框图</h1>
+<p class="sub">板框 <b>110 × 75 mm</b>，2 层 / <b>2oz</b> 铜。按真实尺寸摆放（自动装箱，最终会按信号流向重排）。</p>
+
+<div class="warn"><b>⚠️ 这个图推翻了一个已定决策</b><br>
+如果 <b>PCA9685 用现成模块</b>（62.5×25.5mm，占 1594mm²），110mm 宽也要 <b>83mm</b> 高，
+100×75 <b>根本装不下</b>（需 96.3mm）。<br>
+换成 <b>裸芯片 TSSOP-28 + 板上 8 路舵机座</b>（合计约 400mm²）后，<b>110×75 就够了</b>。
+</div>
+
+<div class="ok"><b>✅ 板框定稿建议：110 × 75 mm</b><br>
+填充率 <b>65.6%</b>（舒适区）。比 100×75 宽 10mm，但外壳内腔约 124×96.8mm，放得下。
+</div>
+
+<div class="card"><svg viewBox="0 0 1000 860" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#f8fbf7;border-radius:10px">
+<rect x="60" y="60" width="880" height="600" rx="6" fill="#0d1f1a" stroke="#000" stroke-width="2.5"/>
+<text x="60" y="46" fill="#5d7176" font-size="15" font-weight="700">单板全集成 v1 · 板框 110 × 75 mm · 2 层 / 2oz · 填充率 65.6%</text>
+<rect x="60.0" y="60.0" width="208.0" height="432.0" rx="4" fill="#1b3830" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="69.0" cy="69.0" r="4.5" fill="#2f9e44" stroke="#fff" stroke-width="1"/>
+<text x="164.0" y="274.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">ESP32-S3开发板</text>
+<text x="164.0" y="288.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">26×54</text>
+<rect x="284.0" y="60.0" width="240.0" height="160.0" rx="4" fill="#a02020" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="293.0" cy="69.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="404.0" y="138.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">DFR07535V/8</text>
+<text x="404.0" y="152.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">30×20</text>
+<rect x="540.0" y="60.0" width="160.0" height="200.0" rx="4" fill="#5b3a8c" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="549.0" cy="69.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="620.0" y="158.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">2S保护电路</text>
+<text x="620.0" y="172.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">20×25</text>
+<rect x="716.0" y="60.0" width="200.0" height="144.0" rx="4" fill="#5b3a8c" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="725.0" cy="69.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="816.0" y="130.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">2S充电电路</text>
+<text x="816.0" y="144.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">25×18</text>
+<rect x="716.0" y="220.0" width="155.2" height="142.4" rx="4" fill="#8a5cd0" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="725.0" cy="229.0" r="4.5" fill="#2f6fd0" stroke="#fff" stroke-width="1"/>
+<text x="793.6" y="289.2" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">功放MAX98357</text>
+<text x="793.6" y="303.2" fill="#d8e8e2" font-size="10.5" text-anchor="middle">19×18</text>
+<rect x="284.0" y="236.0" width="160.0" height="120.0" rx="4" fill="#1d4a8a" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="293.0" cy="245.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="364.0" y="294.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">逻辑降压3A</text>
+<text x="364.0" y="308.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">20×15</text>
+<rect x="460.0" y="276.0" width="160.0" height="120.0" rx="4" fill="#5b3a8c" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="469.0" cy="285.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="540.0" y="334.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">总开关S1A</text>
+<text x="540.0" y="348.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">20×15</text>
+<rect x="636.0" y="378.4" width="256.0" height="64.0" rx="4" fill="#2b5247" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="645.0" cy="387.4" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="764.0" y="408.4" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">8路舵机3P座</text>
+<text x="764.0" y="422.4" fill="#d8e8e2" font-size="10.5" text-anchor="middle">32×8</text>
+<rect x="284.0" y="372.0" width="112.0" height="112.0" rx="4" fill="#8a5cd0" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="293.0" cy="381.0" r="4.5" fill="#2f6fd0" stroke="#fff" stroke-width="1"/>
+<text x="340.0" y="426.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">麦克风SEN0327</text>
+<text x="340.0" y="440.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">14×14</text>
+<rect x="412.0" y="412.0" width="120.0" height="96.0" rx="4" fill="#5b3a8c" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="421.0" cy="421.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="472.0" y="458.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">电池输入端子</text>
+<text x="472.0" y="472.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">15×12</text>
+<rect x="548.0" y="458.4" width="128.0" height="88.0" rx="4" fill="#5b3a8c" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="557.0" cy="467.4" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="612.0" y="500.4" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">保险丝座</text>
+<text x="612.0" y="514.4" fill="#d8e8e2" font-size="10.5" text-anchor="middle">16×11</text>
+<rect x="60.0" y="508.0" width="240.0" height="40.0" rx="4" fill="#2f6e8a" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="69.0" cy="517.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="180.0" y="526.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">屏幕连接器</text>
+<text x="180.0" y="540.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">30×5</text>
+<rect x="692.0" y="458.4" width="93.6" height="100.0" rx="4" fill="#c47a1a" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="701.0" cy="467.4" r="4.5" fill="#2f6fd0" stroke="#fff" stroke-width="1"/>
+<text x="738.8" y="506.4" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">EC11编码器</text>
+<text x="738.8" y="520.4" fill="#d8e8e2" font-size="10.5" text-anchor="middle">12×12</text>
+<rect x="801.6" y="458.4" width="80.0" height="104.0" rx="4" fill="#a02020" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="810.6" cy="467.4" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="841.6" y="508.4" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">1000µF</text>
+<text x="841.6" y="522.4" fill="#d8e8e2" font-size="10.5" text-anchor="middle">10×13</text>
+<rect x="316.0" y="524.0" width="104.0" height="64.0" rx="4" fill="#2b5247" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="325.0" cy="533.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="368.0" y="554.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">PCA9685芯片</text>
+<text x="368.0" y="568.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">13×8</text>
+<rect x="436.0" y="524.0" width="64.0" height="96.0" rx="4" fill="#1d4a8a" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="445.0" cy="533.0" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="468.0" y="570.0" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">470µF</text>
+<text x="468.0" y="584.0" fill="#d8e8e2" font-size="10.5" text-anchor="middle">8×12</text>
+<rect x="516.0" y="562.4" width="80.0" height="64.0" rx="4" fill="#5b3a8c" stroke="#fff" stroke-width="1.2" opacity="0.94"/>
+<circle cx="525.0" cy="571.4" r="4.5" fill="#8a8a8a" stroke="#fff" stroke-width="1"/>
+<text x="556.0" y="592.4" fill="#fff" font-size="12.5" text-anchor="middle" font-weight="700">Type-C母座</text>
+<text x="556.0" y="606.4" fill="#d8e8e2" font-size="10.5" text-anchor="middle">10×8</text>
+<text x="60" y="694.0" fill="#16272c" font-size="13" font-weight="700">尺寸可信度：</text>
+<circle cx="170" cy="690.0" r="5" fill="#2f9e44"/>
+<text x="181" y="694.0" fill="#5d7176" font-size="12.5">实测</text>
+<circle cx="244" cy="690.0" r="5" fill="#2f6fd0"/>
+<text x="255" y="694.0" fill="#5d7176" font-size="12.5">核实</text>
+<circle cx="318" cy="690.0" r="5" fill="#8a8a8a"/>
+<text x="329" y="694.0" fill="#5d7176" font-size="12.5">估</text>
+<circle cx="392" cy="690.0" r="5" fill="#e03131"/>
+<text x="403" y="694.0" fill="#5d7176" font-size="12.5">待核</text>
+<text x="60" y="720.0" fill="#16272c" font-size="13" font-weight="700">分区：</text>
+<rect x="122" y="711.0" width="15" height="11" rx="2.5" fill="#1b3830"/>
+<text x="142" y="720.0" fill="#5d7176" font-size="12.5">主控</text>
+<rect x="174" y="711.0" width="15" height="11" rx="2.5" fill="#a02020"/>
+<text x="194" y="720.0" fill="#5d7176" font-size="12.5">舵机电源</text>
+<rect x="252" y="711.0" width="15" height="11" rx="2.5" fill="#1d4a8a"/>
+<text x="272" y="720.0" fill="#5d7176" font-size="12.5">逻辑电源</text>
+<rect x="330" y="711.0" width="15" height="11" rx="2.5" fill="#5b3a8c"/>
+<text x="350" y="720.0" fill="#5d7176" font-size="12.5">电池</text>
+<rect x="382" y="711.0" width="15" height="11" rx="2.5" fill="#8a5cd0"/>
+<text x="402" y="720.0" fill="#5d7176" font-size="12.5">音频</text>
+<rect x="434" y="711.0" width="15" height="11" rx="2.5" fill="#c47a1a"/>
+<text x="454" y="720.0" fill="#5d7176" font-size="12.5">交互</text>
+<rect x="486" y="711.0" width="15" height="11" rx="2.5" fill="#2f6e8a"/>
+<text x="506" y="720.0" fill="#5d7176" font-size="12.5">显示</text>
+<rect x="538" y="711.0" width="15" height="11" rx="2.5" fill="#2b5247"/>
+<text x="558" y="720.0" fill="#5d7176" font-size="12.5">舵机信号</text>
+</svg></div>
+
+<div class="card"><h2>尺寸档位说明</h2>
+<table><thead><tr><th>档位</th><th>含义</th><th>本轮有几项</th></tr></thead><tbody>
+<tr><td>🟢 <b>实测</b></td><td>我自己量的，含 2.54 针距自校验</td><td>ESP32 开发板、插座</td></tr>
+<tr><td>🔵 <b>核实</b></td><td>厂家官网 / 数据手册</td><td>屏幕、麦克风、功放、EC11、喇叭、电池</td></tr>
+<tr><td>⚪ <b>估</b></td><td>按经验估算，需实物确认</td><td>大部分电源和连接器</td></tr>
+<tr><td>🔴 <b>待核</b></td><td>查不到，必须问商家或实测</td><td>—（本轮已全部消除）</td></tr>
+</tbody></table></div>
+
+<div class="card"><h2>最终摆放要按信号流向重排</h2>
+<p class="sub">上图是算法装箱的结果（保证不重叠、证明装得下），但区域是散的。正式布局要按这些原则重排：</p>
+<ol style="margin:0;padding-left:22px">
+<li><b>电池 → 保险丝 → 开关 → 两路降压</b> 单向排列，走线短</li>
+<li><b>DFR0753 靠近 8 路舵机座</b>，5V 铺铜路径最短</li>
+<li><b>逻辑降压靠近开发板</b>，逻辑 5V 走线短</li>
+<li><b>ESP32 靠近 PCA9685 / 麦克风 / 功放 / 屏幕连接器</b>（I2C、I2S、SPI 都要短）</li>
+<li><b>大电流区与信号区物理分开</b> —— 舵机噪声不窜进 I2S/SPI</li>
+<li><b>EC11 位置由前面板决定</b>，需要和结构件对齐</li>
+</ol></div>
+
+<div class="card"><h2>关键约束</h2>
+<table><thead><tr><th>项</th><th>要求</th></tr></thead><tbody>
+<tr><td>铜厚</td><td><b>2oz</b></td></tr>
+<tr><td>5V 舵机铺铜</td><td><b>≥4mm 宽</b>（8A / 10°C 温升）</td></tr>
+<tr><td>层叠</td><td>顶层：信号 + 5V 铺铜　｜　<b>底层：整片 GND 铺铜</b>（RevA 的教训）</td></tr>
+<tr><td>DFR0753 散热</td><td>背面散热焊盘<b>必须铺铜 + 打散热过孔</b>到底层</td></tr>
+<tr><td>电池输入</td><td><b>接线端子 / XT30</b>，不用 2.54 排针过总电流</td></tr>
+<tr><td>去耦</td><td>DFR0753 输出 1000µF，逻辑 5V 470µF，都紧贴负载</td></tr>
+</tbody></table></div>
+</main></body></html>

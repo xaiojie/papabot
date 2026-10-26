@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-09",
+  "active_document": {
+    "documentType": 1,
+    "uuid": "834bc1f5a1044766",
+    "tabId": "834bc1f5a1044766@e5e438419c1c4681946d5009bb8d6daf",
+    "parentProjectUuid": "e5e438419c1c4681946d5009bb8d6daf"
+  },
+  "live_source_checks": {
+    "lcd_3v3": true,
+    "battery_switched": true,
+    "divider_100k": true,
+    "divider_33k": true,
+    "j8": true,
+    "j9": true
+  },
+  "source_sha256": "9b4d2d2755e411e5e6a2e7f6059b04ca163450d745e2dc020db1c4b3ed3eb285",
+  "pcb_revision": "RevB",
+  "carrier_changes_required": false,
+  "live_project_mutated": false,
+  "gerber_reexported": false,
+  "rationale": "same 2S maximum 8.4V, same regulated 5V and 3.3V; charging/protection/servo current already offboard",
+  "full_charge_adc_v": 2.0842105263157893,
+  "pcb_sense_ground": "protected P-",
+  "original_fabrication_checks": "pcb-design/native-rev-b/README.md",
+  "verification_scope": "live schematic interface and archived RevB architecture; no new routing or new DRC claim",
+  "hardware_tested": false
+}

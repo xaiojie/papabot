@@ -1,0 +1,217 @@
+[
+  {
+    "net": "ADC_BAT",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ADC_BAT",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ENC_B",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ENC_B",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "LCD_RST_N",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "MIC_BCLK",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "PCA_OE_N",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "PCA_OE_N",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "PCA_SCL",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "+3V3",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "+3V3",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "+5V_LOGIC",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "+5V_LOGIC",
+    "layer": 1,
+    "hausdorff_mil": 9.713407672867936e-13
+  },
+  {
+    "net": "GND",
+    "layer": 2,
+    "hausdorff_mil": 6.844854043943255e-13
+  },
+  {
+    "net": "GND",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "LCD_CS_N",
+    "layer": 2,
+    "hausdorff_mil": 1.1368683772161603e-13
+  },
+  {
+    "net": "VBAT_SENSE",
+    "layer": 1,
+    "hausdorff_mil": 8.526512829121202e-14
+  },
+  {
+    "net": "LCD_MOSI",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "LCD_MOSI",
+    "layer": 2,
+    "hausdorff_mil": 3.0212691549237007e-13
+  },
+  {
+    "net": "LCD_DC",
+    "layer": 2,
+    "hausdorff_mil": 1.1368683772161603e-13
+  },
+  {
+    "net": "LCD_DC",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "LCD_SCLK",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "LCD_SCLK",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "MIC_SD",
+    "layer": 1,
+    "hausdorff_mil": 2.6812987050722663e-13
+  },
+  {
+    "net": "MIC_SD",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "MIC_WS",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "MIC_WS",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "KEY_N",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "KEY_N",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "PCA_SDA",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ENC_A",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ENC_A",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ENC_SW_N",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "ENC_SW_N",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "AMP_BCLK",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "AMP_BCLK",
+    "layer": 1,
+    "hausdorff_mil": 1.4210854715202004e-14
+  },
+  {
+    "net": "AMP_DIN",
+    "layer": 2,
+    "hausdorff_mil": 9.713407672867936e-13
+  },
+  {
+    "net": "AMP_DIN",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "AMP_WS",
+    "layer": 2,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "AMP_WS",
+    "layer": 1,
+    "hausdorff_mil": 9.528693348238568e-13
+  },
+  {
+    "net": "VBAT_SW",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "+5V_MCU",
+    "layer": 1,
+    "hausdorff_mil": 0.0
+  },
+  {
+    "net": "+5V_MCU",
+    "layer": 2,
+    "hausdorff_mil": 0.07071067811883161
+  }
+]

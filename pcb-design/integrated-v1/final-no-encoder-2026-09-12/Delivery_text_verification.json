@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-12T23:37:54.844900+08:00",
+  "archive_sha256": "38f9dca15dc3f1dcd77d106acb48351d12b73110185467406466e4e6a0ce9bb4",
+  "pdf_sha256": "35bca6f647b3d23137983e9d4eae5413f3f614df555db8521340392689d509d2",
+  "native_records_removed": 8,
+  "native_changes_are_exactly_the_eight_documented_TEXT_removals": true,
+  "all_electrical_and_PCB_records_byte_identical_to_pre_normalized_export": true,
+  "all_other_archive_payloads_byte_identical": true,
+  "pdf_pages": 5,
+  "pdf_text_objects_removed": 8,
+  "pdf_content_streams_match_exact_serialization_after_eight_text_removals": true,
+  "each_page_has_one_revision_1_2_label_and_no_obsolete_revision": true
+}
