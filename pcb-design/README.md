@@ -5,6 +5,7 @@
 | 资料 | 入口 | 适用范围 |
 |---|---|---|
 | 用户最新版 | [核对结论](integrated-v1/user-latest-review-2026-09-13/核对结论.md) | 保留用户丝印与文字位置调整 |
+| 芯片和屏幕资料 | [第三方资料索引](../docs/references/README.md) | 完整 PDF、规格图和供应商说明 |
 | V1.2 无旋钮交付 | [交付说明](integrated-v1/final-no-encoder-2026-09-12/README.md) | 五页原理图、原生工程、Gerber、BOM 与检查报告 |
 | 集成板设计演进 | [设计记录](integrated-v1/README.md) | 部分早期条目已被最终交付替代 |
 | RevB 载板 | [RevB](native-rev-b/README.md) | 模块方案载板，屏幕电源修订为 3.3V |

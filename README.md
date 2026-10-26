@@ -525,6 +525,7 @@ bash firmware/bringup/scripts/setup.sh
 |---|---|
 | **当前进度（权威）** | [项目进度总览.md](项目进度总览.md) |
 | 仓库导航与目录约定 | [docs/仓库结构.md](docs/仓库结构.md) |
+| 第三方规格书、参考图与供应商说明 | [第三方资料索引](docs/references/README.md) |
 | 固件与网页模块入口 | [firmware/README.md](firmware/README.md) |
 | 产品固件的设计与踩坑 | [firmware/assistant/README.md](firmware/assistant/README.md) |
 | 硬件自检与接线 | [firmware/bringup/README.md](firmware/bringup/README.md) · [接线总图](firmware/bringup/docs/index.html) |
@@ -543,7 +544,7 @@ bash firmware/bringup/scripts/setup.sh
 
 几点说明：
 
-- **第三方资料不在本许可范围内**：芯片/模块数据手册、厂商规格书、商品图片的版权归各自所有者。
+- **第三方资料随 Git 仓库保存，方便查阅**：芯片/模块数据手册、厂商规格书、供应商说明和商品参考图见 [资料索引](docs/references/README.md)。其版权与许可归原作者或厂商，项目的 MIT 许可不替代其原许可。
 - **字库需要在发布前替换**：当前 `cjk*.bin` 由 macOS 自带字体生成，仅限自用；
   换思源黑体 / Noto Sans CJK（SIL OFL）后可再分发，详见 [5.5 节](#55-资源文件)。
 - 如果你希望硬件部分使用**带传染性的**硬件许可，可换成

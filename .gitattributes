@@ -1,0 +1,3 @@
+# Preserve the supplier's original GBK/CRLF document byte for byte.
+# A UTF-8 reading copy is linked from docs/references/README.md.
+"pcb-design/native-rev-a/supplier-review-2026-09-09/sources/EC11资料/360度 旋转编码器模块/STM8S-IAR/测试方法.txt" binary

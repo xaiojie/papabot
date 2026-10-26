@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Check tracked repository hygiene and the current documentation entry points."""
 
+import hashlib
+import json
 import os
 from pathlib import Path
 import re
@@ -18,6 +20,7 @@ ENTRY_POINTS = (
     'README.md', 'docs/仓库结构.md', 'firmware/README.md',
     'pcb-design/README.md', 'mechanical-design/README.md',
     'hardware-selection/README.md',
+    'docs/references/README.md',
 )
 LINK = re.compile(r'!?\[[^\]\n]*\]\((<[^>\n]+>|[^\s)\n]+)(?:\s+"[^"]*")?\)')
 
@@ -63,12 +66,38 @@ def main():
             ))
             if not target.exists() or not is_tracked:
                 errors.append(f'Missing GitHub-visible local link: {name} -> {url}')
+    reference_count = 0
+    manifest_file = ROOT / 'docs/references/资料清单.json'
+    if manifest_file.is_file():
+        manifest = json.loads(manifest_file.read_text())
+        references = manifest['files']
+        if manifest['file_count'] != len(references):
+            errors.append('Reference manifest file count does not match its entries.')
+        for reference in references:
+            name = reference['path']
+            path = (ROOT / name).resolve()
+            try:
+                path.relative_to(ROOT)
+            except ValueError:
+                errors.append(f'Reference leaves the repository: {name}')
+                continue
+            if name not in tracked_set or not path.is_file():
+                errors.append(f'Reference is not tracked or missing: {name}')
+                continue
+            data = path.read_bytes()
+            if (len(data) != reference['bytes']
+                    or hashlib.sha256(data).hexdigest() != reference['sha256']):
+                errors.append(f'Reference differs from its manifest: {name}')
+            reference_count += 1
+    else:
+        errors.append('Missing reference manifest: docs/references/资料清单.json')
+
     if errors:
         for error in errors:
             print('FAIL:', error)
         print(f'{len(errors)} problem(s); {len(tracked)} tracked files, {checked_links} local links checked.')
         return 1
-    print(f'PASS: {len(tracked)} tracked files; {checked_links} local links across {len(ENTRY_POINTS)} entry points.')
+    print(f'PASS: {len(tracked)} tracked files; {checked_links} local links across {len(ENTRY_POINTS)} entry points; {reference_count} reference file hashes.')
     return 0
 
 
