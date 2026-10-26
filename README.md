@@ -1,467 +1,530 @@
-# ESP 系列四足智能桌面助手：项目交接说明
+# 爬爬 · ESP32-S3 四足智能桌面助手
+
+> 一台会做表情、能联网看天气、可以用手机网页远程戳一戳的低成本桌面小机器人。
+> 硬件（PCB / 结构件）、两套固件、网页控制台**全部开源**。
+
+当前阶段：**桌面原型联调**。屏幕、联网、网页控制、双舵机台架已经实机跑通；
+语音闭环、八舵机步态、电池整机供电与实体装配仍在推进。逐项状态以
+[项目进度总览](项目进度总览.md) 为准。
+
+---
+
+## 一、这个项目能做什么
+
+| 能力 | 状态 | 说明 |
+|---|---|---|
+| 表情 / 动画 | ✅ 已实现 | 2.4″ 彩屏；6 个信息页 + 3 部 GIF 动画，共 9 屏 |
+| 时钟 / 日历 | ✅ 已实现 | 数字钟 + 指针表盘，NTP 自动对时 |
+| 天气 | ✅ 已实现 | 和风天气，含今日温度区间、湿度、体感、风力 |
+| 账号额度 | ✅ 已实现 | 自建 sub2api 账号状态与剩余额度 |
+| 旋钮 / 按键交互 | ✅ 已实现 | EC11 旋转切页，按下确认，独立键自定义 |
+| 网页远程控制 | ✅ 已实现 | 切屏、换表情、远程画面、状态回传（WSS 中转） |
+| 舵机动作 | 🟡 台架验证 | 两路 PWM 已实测；八路与步态未做 |
+| 语音对话 | 🔴 未实现 | 麦克风与功放已选型接线，录音→ASR→TTS 链路空白 |
+| 四足行走 | 🔴 未实现 | 结构件已出，步态算法未开始 |
+
+### 硬件规格
+
+| 项目 | 参数 |
+|---|---|
+| 主控 | LCKFB-ESP32S3R8N8（ESP32-S3，8 MB Flash + 8 MB Octal PSRAM） |
+| 屏幕 | TOUGLESY 2.4″ ST7789，320×240，四线 SPI，**3.3 V**，背光常亮 |
+| 交互 | EC11 旋转编码器（A/B/按压）+ 1 个独立按键 |
+| 舵机 | 计划 8 × MG90S（每腿 2 个）；台架当前 2 路，GPIO18 / GPIO15 |
+| 麦克风 | INMP441（I²S 数字麦），BCLK=4 / WS=5 / SD=6 |
+| 功放 | MAX98357A + 喇叭（已选型，未接） |
+| 电源 | 格氏 ACE 800mAh 2S 7.4V + HX-2S-JH20 保护均衡板 |
+| 结构 | structure-a5：机身 124×112×76 mm，站姿 162.9×116.5×122.46 mm |
+| PCB | integrated-v1 V1.2：110×75 mm 双层集成板（无旋钮版） |
+
+> ⚠️ 舵机实物型号（MG90S / SG90）与到货数量需要对着实物复核，不能只信采购记录。
+> 本节参数是**选型值**，不是整机负载实测值。
+
+---
+
+## 二、目录结构
+
+```
+papabot/
+├── firmware/                     两套固件 + 网页控制台
+│   ├── bringup/                  ① 硬件自检工程（bench-v1）
+│   │   ├── wiring.json           ★ 接线真值源（引脚、屏幕、舵机、麦克风）
+│   │   ├── include/
+│   │   │   ├── board_config.h    由 wiring.json 生成，**不要手改**
+│   │   │   └── control_logic.h   纯命令解析逻辑（可主机测试）
+│   │   ├── src/main.cpp          外设驱动 + 串口命令台
+│   │   ├── scripts/              setup / pio / 生成器 / 文档渲染 / 导出
+│   │   ├── test/                 主机单元测试
+│   │   └── docs/                 接线图、速查卡、故障对照、验收记录
+│   ├── assistant/               ② 产品固件（表情 + 信息面板）
+│   │   ├── platformio.ini        两个 env：UART 控制台 / 原生 USB 控制台
+│   │   ├── partitions-assistant-8mb.csv  单 app 6.875 MB 分区表
+│   │   ├── include/              config.h（引脚/配色/刷新周期）、canvas.h …
+│   │   ├── src/                  main / apps / canvas / anim / net / cloud / font
+│   │   ├── data/                 anim.bin（动画）、cjk16.bin / cjk24.bin（中文字库）
+│   │   └── scripts/              字库与动画生成器、主机测试
+│   └── web-console/              ③ 网页控制台与服务端中转
+│       ├── server/server.js      papa-relay：WSS 中转 + /api/*
+│       ├── www/index.html        单页控制台
+│       └── docker-compose.yml
+├── pcb-design/                   PCB 三条版本线（RevA / RevB / integrated-v1）
+├── mechanical-design/            Blender 结构（A2–A5）、STL、渲染、打印预案
+├── hardware-selection/           选型与 BOM：电池、舵机、屏幕、供电、采购清单
+├── design-coordination/          PCB × 结构接口约定
+├── design-selection.json         全部选型与决定的结构化记录
+├── 项目进度总览.md               ★ 当前进度的唯一权威入口
+├── PROGRESS.md                   历史进度（已被总览取代，保留追溯）
+└── docs/交接说明-2026-09-12.md   旧的交接说明（历史）
+```
+
+三个「真值源」要记住：
+
+1. **引脚 ↔ 硬件** → `firmware/bringup/wiring.json`
+2. **当前进度** → `项目进度总览.md`
+3. **产品行为** → `firmware/assistant/include/config.h`
+
+---
+
+## 三、环境依赖与安装
+
+### 3.1 硬件
+
+- LCKFB-ESP32S3R8N8 开发板（**必须是 8 MB Flash + 8 MB PSRAM**，N8R8）
+- TOUGLESY 2.4″ ST7789 模块（12 针，含 EC11）
+- **外部 3.3 V** 给屏幕（模块 VCC 与 BLK）、**外部 5 V** 给舵机
+- USB **数据**线（不是只能充电的线）
+
+### 3.2 软件
+
+| 依赖 | 版本 | 用途 |
+|---|---|---|
+| Python | ≥ 3.9 | 生成器、主机测试 |
+| PlatformIO | 6.1.18 | 编译 / 烧录 |
+| Node.js | ≥ 20 | 网页控制台中转服务 |
+| Pillow | 任意近期版 | 字库与 GIF 转动画 |
 
-> **最新项目进度（2026-09-12）：[项目进度总览](项目进度总览.md)。**
-> 当前为模块联调：屏幕/联网/网页控制已有实机成果，单舵机已测试；语音、八舵机运动、电池整机供电与实体装配仍待完成。
-> RevB 带字载板是已有制造文件入口；integrated-v1 是新方案，原理图已建但电气纠错及 PCB 布线未完成。A3 尚未适配新集成板。
-> 本轮控制台健康接口显示服务正常、设备在线；详细验收范围与订单未知项见总览。
->
-> **以下为分日期交接与历史记录。** 其中“屏幕未测”“六屏”“额度待接”“Wi-Fi 只存 RAM”等条目已被后续版本更新；请勿将旧段落直接作为当前状态。旧 `PROGRESS.md` 保留追溯。
+### 3.3 安装步骤
 
+```bash
+git clone https://github.com/xaiojie/papabot.git
+cd papabot
 
-PCB 丝印更新（2026-09-10）：已在正面左上加入 **Jay / 爬爬**，保存到原嘉立创工程。当前带字制板文件与原生工程见[RevB 丝印版交付](pcb-design/revb-lettering-2026-09-10/README.md)。严格 DRC 通过，导出中文字形已检查，电路、板框和孔位未变；原无字 RevB 包保留作历史电气复核资料。
+# 建一个隔离的 PlatformIO 环境（会生成 firmware/bringup/.venv）
+bash firmware/bringup/scripts/setup.sh
+```
 
-采购状态更新（2026-09-09）：电池改为现货格氏ACE800（2S、7.4V、800mAh、45C、T插）＋HX-2S-JH20外置保护均衡板，前两项参考¥48.62，尚未购买。详见[成品电池与设计适配](hardware-selection/battery-stock-2026-09-09/README.md)。常规配件以V7为底表，旧电池定制与随包XT30行停用；当前开发先用已购买的屏幕、主控和1个MG90S。
+脚本内容相当于：
 
-更新日期：2026-09-09。RevB屏幕供电修订与设计文件复核完成，当前进行样机采购，实物及负载验证尚未完成。
+```bash
+python3 -m venv firmware/bringup/.venv
+firmware/bringup/.venv/bin/python -m pip install "platformio==6.1.18" "urllib3<2"
+```
 
-已清理早期外观草稿、未选配色及旧模型打包副本；当前入口与源文件保留，详见[文件清理记录](文件清理记录.md)。
+编译时**必须屏蔽 `PYTHONPATH`**：
 
-## 当前开发入口：无PCB模块测试
+```bash
+env -u PYTHONPATH bash firmware/bringup/scripts/pio.sh run -e lckfb_s3_usbjtag
+```
 
-2026-09-09：用户已确认购买立创 ESP32S3R8N8 开发板、TOUGLESY 2.4 寸 ST7789+EC11 屏幕和 **1 个 MG90S**；此前采购表的8个舵机是整机计划数量。屏幕与舵机先分别用现有可调电源测试。
+> **为什么**：某些托管环境会往 `PYTHONPATH` 注入 Python 垫片，导致
+> `generate_wiring.py` 里的 `Path.mkdir(exist_ok=True)` 抛 `PermissionError`
+> （不是 `FileExistsError`，`exist_ok` 拦不住），prebuild 直接失败、整个编译挂掉。
 
-**2026-09-10：主控已到货并完成实机自检。** 芯片/Flash/PSRAM、64KiB PSRAM 样本、Wi-Fi 扫描、**Wi-Fi 连接与外网联通**、LED 心跳与 BOOT 按键全部通过，实测值见[实机验收记录](firmware/bringup/docs/实机验收记录.csv)。**屏幕与舵机仍未测。**
+网页控制台（可选，本地跑）：
 
-Wi-Fi 联通实测：关联成功（ch7、RSSI −68 dBm、DHCP 得到 192.168.1.93），随后 DNS 10 ms、TCP:80 22 ms、HTTP `200 OK` 40 ms。该测试为一次性联通验证，凭据只存 RAM——已用 esptool 读 NVS 分区确认 `sta.ssid`/`sta.pswd` 均不存在、复位后即失效；固件显式关闭了 Arduino-ESP32 默认开启的 `WiFi.persistent`。**这不代表语音/联网应用固件已完成。**
+```bash
+cd firmware/web-console/server
+npm install && PAPA_PORT=8790 npm start     # 默认监听 8790
+```
 
-- [开发测试接线页面](firmware/bringup/docs/index.html)：USB主控自检、外部3.3V屏幕/控件、外部5V单舵机，附排针焊接和针位说明。
-- [测试程序工程](firmware/bringup/README.md)：已通过ESP32-S3交叉编译和14组主机行为测试。屏幕信号沿用RevB，GPIO18仅作临时单舵机测试脚。
-- [通电前自检与故障对照](firmware/bringup/docs/通电前自检与故障对照.md)：上电前的电学自检、四条红线、故障对照表和到货当天时间线。
-- [屏幕模拟器](firmware/bringup/docs/screen-simulator.html)：**屏幕未到货时的浏览器预览**——字模取自固件真正链接的 `glcdfont.c`，像素与实机一致；可拖虚拟旋钮、按虚拟按键、敲同样的串口命令；另有中文界面排版草图与字号/行数测算。
-- [开发测试包](firmware/bringup/dist/DesktopAssistant-开发测试包-v1.zip)：源码、接线资料、编译后的烧录文件、验证记录与已填主控实测CSV。
+---
 
-### 应用固件（两个程序）已开工：`firmware/assistant/`
+## 四、编译与烧录
 
-2026-09-10：**产品固件独立成工程**，与硬件自检的 bench-v1 分工，互不覆盖。
+两套固件共用同一块板子，**分工不同**：
 
-- [应用固件工程](firmware/assistant/README.md)：六屏框架（① 表情 → ② 数字时钟 → ③ 表盘时钟 → ④ 天气 → ⑤ ChatGPT → ⑥ 状态），旋钮循环切换
-- [双程序 UI 原型](firmware/bringup/docs/assistant-ui-prototype.html)：**含 SPI 带宽仿真**，看到的卡顿就是真机会有的卡顿
+| 工程 | 用途 | 适合什么时候烧 |
+|---|---|---|
+| `bringup` | 硬件自检台：屏幕彩条、旋钮计数、麦克风电平、舵机单步 | 接线后第一次上电、怀疑硬件坏了 |
+| `assistant` | 产品固件：表情、时钟、天气、动画、网页控制 | 硬件确认没问题之后 |
 
-**真机实测（无屏验证，数据来自串口遥测）**：表情屏脏矩形 160×136 / 43.5 KB / 37.8 ms → **23 fps** 动得起来；静态屏 0 fps 不浪费带宽。全屏 320×240 实测 133 ms，印证了「绝不能每帧全屏重绘」这一架构前提。
+### 4.1 选端口与环境
 
-**2026-09-10 三个里程碑**：
+```bash
+ls /dev/cu.*          # macOS
+```
 
-1. **六屏实机跑通** —— 表情动画、数字时钟、表盘时钟、天气、状态，旋钮切换，NTP 对时。
-2. **和风天气打通** —— 长沙岳麓区实测 `20°C 阴，19~25°C`。踩到并解决了三个坑：Host 只开 443（必须 TLS）、CDN 无条件 gzip（用 ROM 里的 miniz 解，只占 916 字节 flash）、TLS 握手爆 8 KB 栈（提到 16 KB）。
-3. **中文字体接入** —— GB2312 符号区 + 一级汉字共 4444 字形（含 `·` `°` 等标点），16/24 两套字号，521 KB flash。生成器会自检界面文案覆盖率（当前 57/57）。
+| 端口 | 对应 env | 说明 |
+|---|---|---|
+| `/dev/cu.usbmodem*` | `lckfb_s3_usbjtag` | **原生 USB-Serial/JTAG，免装驱动**（推荐） |
+| `/dev/cu.wchusbserial*` | `lckfb_s3_bringup` / `lckfb_s3_assistant` | 板载 CH340K，需装 CH34x 驱动 |
 
-> ⚠️ 字体现用 macOS 自带字体，**仅供个人开发**；发布/商用请换思源黑体或 Noto Sans CJK（SIL OFL）。
+### 4.2 烧录
 
-**未完成**：⑤ ChatGPT 用量待接自建 sub2api（需要服务地址、用量接口路径、一枚只读 key）。
+```bash
+# 硬件自检
+env -u PYTHONPATH bash firmware/bringup/scripts/pio.sh run \
+    -e lckfb_s3_usbjtag -t upload --upload-port /dev/cu.usbmodemXXXX
 
-## 当前设计入口：整机结构 A3
+# 产品固件
+cd firmware/assistant
+env -u PYTHONPATH bash scripts/pio.sh run \
+    -e lckfb_s3_usbjtag -t upload --upload-port /dev/cu.usbmodemXXXX
+```
 
-[整机结构A3](mechanical-design/structure-a3/README.md)按用户确认的旧V1结构修正：**屏幕竖直正对使用者，旋钮和独立按键留在完整原板上，藏在可拆前盖内，玻璃内凹约20.8mm。** 该决定替代A2的拆焊后置方案。前盖向前抽出，底盘前固定点已转移到主壳，拆盖不用拆底盘或主板。后盖保留充电、总开关、喇叭及功放结构。
+烧不进去时：按住 **BOOT** → 点一下 **RESET** → 松开 BOOT，进下载模式重试。
+烧完按 RESET 正常启动，**不要一直按住 BOOT**。
 
-当前有30个独立STL，统一取 `mechanical-design/structure-a3/stl-complete/`，每件打印1个。Blender包含总装、爆炸、零件总览和拆前盖4个当前场景；V1/A1/A2文件保留。STL单一闭合连通检查通过，453对静态实体交集未发现超过0.05mm³冲突；前后盖共32个轴向拆卸抽样位置通过。实物总高度、线束、打印配合与负载/步态仍需验证。
+### 4.3 主机测试（不用板子）
 
-机身含盖约124×116.8×76mm，不含腿、耳朵、外伸总开关和螺丝头。前盖用4颗M3×30配0.8mm垫片；屏幕固定框已补排针末端让位。主控PCB板底Z66，4颗小头M2×8固定，原Ø3.2孔不变。[零件清单](mechanical-design/structure-a3/零件清单.md)及[装配说明](mechanical-design/structure-a3/装配与打印说明.md)列出全部30件与紧固件差额。后台建模，不自动打开Blender界面。
+```bash
+# bringup：命令解析逻辑
+python3 firmware/bringup/scripts/test_host.py
 
-PCB当前版本为 **RevB**，已在用户原有嘉立创EDA工程 `DesktopAssistant_RevA` 的 `Board1 / P1 / PCB1` 内完成屏幕3.3V供电修订。入口见[RevB PCB复核说明](pcb-design/native-rev-b/README.md)，下载[RevB完整复核包](pcb-design/native-rev-b/DesktopAssistant-RevB-PCB复核包.zip)。屏幕VCC和BLK均接独立LCD_3V3网络，新增JP3选择连接位、J10外部稳压3.3V输入及C5旁路电容；R4–R7默认不焊，JP1/JP2/JP3默认断开。原理图及PCB严格DRC通过，26/26网络连通，Gerber板框、铜线与钻孔核对通过。**旧RevA Gerber已停用。** 屏幕全亮最大电流、主控稳压余量/温升、供电时序及实物针序/插座/线束/外壳配合仍需验证，尚未下单。本轮未修改A3 Blender/STL，控件继续留在原屏幕板和可拆前盖内。
+# assistant：脏矩形与 SPI 预算
+python3 firmware/assistant/scripts/test_host.py
+```
 
-## 0. 常规采购底表 V7（电池由2026-09-09现成方案覆盖）
+---
 
-[整机配件核对Excel](hardware-selection/bom-v7/00-整机配件采购核对.xlsx)为单页8列44行，覆盖原42类整机需求。采样/去耦按真实SKU拆列，同一包电容只计一次。
+## 五、配置说明
 
-[立创BOM](hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx)保持10项3列、与V6逐字节一致，由用户导入，套数1。[淘宝采购表](hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx)为27行7列，包含26项已选商品和1项新店暂定电池定制入口。购物车已逐项复核为27项，本轮新增16个SKU参考89.66元；MG90S180°共8个、11元/个，其他各1份。未代下单或代联系商家；电池由用户自行沟通。
+### 5.1 引脚表（权威值，改硬件请改 `wiring.json`）
 
-已知商品参考合计467.30元（淘宝355.93元＋立创111.37元），不含定制电池、运费、打样；单品券/首单礼金可能互斥，不能当最终实付。车内14.70元普通电池没有证明符合要求，暂勿按普通SKU下单。详细依据见[采购V7](hardware-selection/bom-v7/README.md)。
+| 功能 | GPIO | 位置提示 |
+|---|---|---|
+| LCD_SCLK | 12 | 左列 L13 |
+| LCD_MOSI | 11 | 左列 L12（模块丝印写 `SDA`，**不是 I²C**） |
+| LCD_RST | 21 | 右列 R10 |
+| LCD_DC | 14 | 左列 L15 |
+| LCD_CS | 13 | 左列 L14 |
+| ENC_A / ENC_B | 7 / 2 | L8 / L2 |
+| ENC_PUSH | 38 | R13（按下为低） |
+| KEY0 | 40 | R11（按下为低） |
+| SERVO0 / SERVO1 | 18 / 15 | 台架试验脚，**不代表载板已有舵机座** |
+| MIC_BCLK / WS / SD | 4 / 5 / 6 | INMP441，L/R 接地选左声道 |
+| LED | 48 | 低电平点亮 |
+| BOOT | 0 | 低电平有效 |
 
-Type-C数据/充电线取消本次采购。旧定制电池规格已停用；本轮选现货ACE800＋板外保护均衡，载板保持RevB。[电池适配试装件](mechanical-design/battery-ace800-a3/README.md)新增R21/R22，原A3的30件保持原文件。新的电源接线、价格与尚未完成的实测以[现成方案](hardware-selection/battery-stock-2026-09-09/README.md)为准。
+> 屏幕 `VCC` 与 `BLK` **只能接 3.3 V**。RevA 时代用 5 V，旧习惯必须丢掉。
 
-主控LCKFB-ESP32S3R8N8；舵机路1块DFR0753，逻辑路好盈86010010/3A(2-6S)跳帽设5V；总开关NKK S1A；充电头绿联CD104 17W双USB-A，单口5V/2.4A。两路5V不并联，共地，首版关机充电。PCA只提供PWM信号，舵机总电流走专门配电。电池充电板实际限流、压降、温升、承载及安装尺寸待验证。
+### 5.2 两套固件的配置入口不同
 
-新补直插电阻/电容为原型器件；100k/33k分压和10k OE上拉已纳入原生载板，尚未实物焊接。RevB比RevA新增1只100nF电容、JP3短导线位和J10外部3.3V预留口，R4–R7默认不焊；装配与采购差额见[RevB装配说明](pcb-design/native-rev-b/装配与上电核对.md)，V7采购Excel仍为此前选型记录。紧固件与绝缘垫柱用于试装，结构按实物复测。V7采购整理时保留Blender用户改动；后续结构进度以顶部A3入口为准。
+**`bringup`：改 `wiring.json`，不要改生成的头文件**
 
-用户已明确选定 **途格斯 / TOUGLESY 2.4 英寸 TFT 彩屏 + EC11 旋转编码器模块**，已确认购买并等待到货。它是 **ST7789、320×240、SPI、不带触摸** 的独立显示模块；不再要求 OLED / AMOLED。
+```bash
+vim firmware/bringup/wiring.json
+env -u PYTHONPATH python3 firmware/bringup/scripts/generate_wiring.py
+```
 
-商品标称整板 **91×44 mm**，四个 **Ø3 mm** 安装孔，孔中心距 **84.5×37.5 mm**。正面布局为屏幕在左、旋钮在右上、独立按键在右下，外壳需整体容纳这块 PCB。排针是否已焊接及其朝向仍待核实。
+`generate_wiring.py` 会校验 GPIO 冲突、位置合法性和重复占用，然后生成
+`include/board_config.h`。手改 `board_config.h` 会在下次构建时被覆盖。
 
-- [第一阶段 Blender 总装与交付说明](mechanical-design/assembly-v1/README.md)
-- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](hardware-selection/bom-v1/assembly-v1-inspection.json)
-- [实际 Blender 渲染：八视图](mechanical-design/assembly-v1/gallery.html)
-- [保存后重开验证与工程限制](mechanical-design/assembly-v1/reports/validation-report.md)
-- [最终已选配色：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)
-- [配色选择与当前工程状态](design-selection.json)
-- [Blender 整机建模、分件与打印交付路线](mechanical-design/modeling-and-print-plan.md)
-- [已选配色、表面方向与提示词](design-v7-cmf-options/design-notes.md)
-- [V6 外观比例基准：紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
-- [V6 尺寸假设、居中计算与限制](design-v6-compact-centered/design-notes.md)
-- [用户商品规格图](mechanical-design/assembly-v1/reference/selected-display-module-spec.png)
+**`assistant`：直接改 `include/config.h`**
 
-**最新决定：用户已明确敲定 A「奶油薄荷」——奶油白机身与前盖、薄荷绿腿与耳框及细边、磨砂低光泽方向。** 颜色代码为设计目标；具体打印基材、层纹粗细、后处理与供应商实物色样仍需确认。
+| 配置项 | 默认值 | 说明 |
+|---|---|---|
+| `SCREEN_W/H` | 320×240 | 逻辑分辨率（横屏） |
+| `PANEL_NATIVE_W/H` | 240×320 | **面板原生尺寸，必须竖屏传参**，传反会导致画面转 90° 且地址回绕 |
+| `SCREEN_ROTATION` | 3 | 横屏 |
+| `SCREEN_INVERT` | false | 这块模组设 true 会变白底暗红 |
+| `SPI_HZ_DEFAULT` | 10 MHz | 提到 40 MHz 可到 ~33 fps，但需实测时序 |
+| `SERVO_COUNT / SERVO_PINS` | 2 / {18, 15} | 加第三路：改这两个即可 |
+| `SERVO_MIN_US / MAX_US` | 1000 / 2000 | 完整 0–180°；顶到机械限位要自己往回收 |
+| `WEATHER_REFRESH_MS` | 20 min | 和风免费版有日调用上限 |
+| `QUOTA_REFRESH_MS` | 5 min | 额度变化比天气频繁 |
+| `NET_RETRY_MS` | 60 s | 失败重试，否则断网开机永远空状态 |
 
-历史V1阶段：Blender 5.2.1 LTS 建立独立对象组成的整机总装，生成八张真实渲染，包含前盖/底盖拆开及爆炸姿态、元件占位、待测尺寸表。当时的文件保存后重开通过25项限定检查。主壳与前盖、底盖、耳饰、屏幕支架等可单独编辑；舵机承载连接、紧固件、公差、运动与实物试配尚未完成，没有输出 STL/3MF/STEP 生产包。
+### 5.3 运行期配置（写进 NVS，掉电不丢）
 
-已选配色为 A 奶油薄荷。V7 的其余配色及 V8 蓝白探索方案已于目录清理时移入废纸篓；当前保留 A 原图、提示词和配色记录。
+凭据**不写进源码**，只在设备上用串口命令配置：
 
-比例沿用 V6：压缩横向长度，保留已认可的小耳饰，暂去全部刻字和 Logo。以商品整板 91 mm、屏幕组件标注 59 mm 研究约 118 mm 外宽（不含腿）的居中方案；该宽度基于屏幕左边距约 5.5 mm、板右侧总余量约 3 mm 的假设，尚未实测，不是最小宽度或已验证尺寸。
+```
+wifi connect <SSID> <密码>        连接并保存，开机自动重连
+wifi connect <SSID> <密码> ram    只连本次，不保存
+wifi forget                       清除已保存的凭据
+cloud key <密钥>                  配置云端设备密钥
+set qwkey <和风 Key>              天气 API Key（值不回显）
+set qwhost <API Host>             和风项目 API Host
+```
 
-所选模块不变，仍通过偏置整块 PCB 让显示区中心对准机身中心。右侧控件使屏幕偏离整板中心，仅在 91 mm 整板外加 3～5 mm 并不能保证显示区居中；本轮假设下板左侧需约 24 mm、右侧约 3 mm。必须实测屏幕相对 PCB 的位置，不能宣称已经同时满足极小板边余量与居中。此前 130 mm 宽度为历史设计预估。
+`config` 命令可以查看当前存了什么（密钥只显示"已设置/未设置"）。
 
-V1的可拆前盖仅露显示区，完整旋钮和按键藏在盖内，形成约20.8mm内缩。A2一度改为后置控件；用户现已明确回到旧V1方案，A3恢复原板旋钮和按键、竖直朝前的内凹屏幕，不再要求拆焊后置。旋钮装板总高度仍需实物核对；配色和耳饰沿用，刻字/Logo暂缓。
+### 5.4 分区表
 
-V2 曾以宽 112×深 82×高 72 mm 预估机身；后续加宽及覆盖旋钮所需的前盖深度尚未实测，不能沿用旧数值作为最终尺寸。商品图的“显示区域 59×42.5 mm”与 2.4 英寸标称不一致，开窗、有效显示区相对 PCB 的位置、模块厚度与安装间隙须以实物复核。历史概念图未完成 CAD 装配验证。最新 assembly-v1 是数值建模的 Blender 总装，检查范围与未完成项见其验证报告，不能等同于制造装配确认。
+`assistant` 用自定义的 `partitions-assistant-8mb.csv`：
 
-历史V1总装的主体设计包络约118×84.6×76 mm，含腿耳的静态包络约208×106×122.5 mm。四腿外移用于避开偏置屏幕PCB，安装载荷路径待所选 MG90S 的实际尺寸和舵盘确认后设计；屏幕后退约20.8 mm源于保留完整EC11的假设。以上均未冻结为实物加工尺寸。
+```
+nvs       0x9000   0x5000
+app0      app,factory  0x10000  0x6E0000   (6.875 MB，单 app、无 OTA、无 SPIFFS)
+coredump  0x6F0000 0x10000
+```
 
-以下保留早期交接背景；OLED 和外接电源首版等建议均由本节最新决定更新。当前已有包含 PCB 的模块级 BOM 与预算预留，最终商品/结算价格、原理图和 PCB 器件级 BOM、实物验证仍待完成。
+- 这台设备**不用 OTA、不用文件系统**：字库和动画在编译期通过 `embed_files` 直接进 flash。
+- `nvs` 偏移与 PlatformIO 默认的 `default_8MB.csv` 一致，所以换表**不会丢 Wi-Fi 凭据**。
+- `bringup` 仍用 `default_8MB.csv`（它的发布包按原布局做过哈希），两个工程分区表**故意不一致**。
 
-## 1. 接手时先读这一段
+### 5.5 资源文件
 
-用户想做一只可爱的 ESP 系列智能桌面助手，具有显示屏、语音输入输出、四条能够行走的腿。屏幕既要显示表情，也要显示中文文本和其他信息。
+| 文件 | 生成方式 | 说明 |
+|---|---|---|
+| `data/cjk16.bin` / `cjk24.bin` | `scripts/make_cjk_font.py` | GB2312 4444 字形，16 / 24 px |
+| `data/anim.bin` | `scripts/make_gif_anim.py` | GFX1 v2 动画包，当前 3 部 |
 
-最初用户明确要求“价格控制在300以内，性价比要最高”。随后用户强调屏幕是第一眼就看到的东西，允许屏幕预算稍微提高，并希望寻找 **2.4～3.0 英寸 OLED**，同时避免屏幕过大导致整机变大。
+```bash
+# 字库
+python3 scripts/make_cjk_font.py
 
-**屏幕现已选定为 2.4 英寸 TFT + EC11，舵机为8个MG90S全金属齿轮180度，主控为LCKFB-ESP32S3R8N8，详见第0节；PCB方案、舵机实测尺寸与承载待验证。新的整机总预算上限未确定。** 接手者应保留低成本目标，并按已选模块继续核算包含PCB的整机成本。下文高价OLED候选没有获得采购确认。
+# 动画：路径后面加 :2 表示按步长 2 抽帧
+python3 scripts/make_gif_anim.py a.gif "b.gif:2" -o data/anim.bin --preview
+```
 
-本次 OLED 调研在形成最终答复前，被用户主动中断，转而要求整理交接。因此下文 OLED 结果是已做的调研记录，不是已经获得用户认可的最终方案。
+> **字库许可**：当前 16/24 px 字模取自 macOS 自带字体，**仅限自用**。
+> 对外发布或商用前必须换成思源黑体 / Noto Sans CJK 等可再分发字体。
 
-## 2. 用户原始意图与最新偏好
+---
 
-按对话顺序：
+## 六、主要模块与核心逻辑
 
-1. 用户希望“基于ESP系列的单片机做一个可爱的智能桌面助手”，需要显示屏、语音输入输出和四条能走路的腿，先设计雏形并提出建议。
-2. 用户明确预算：“价格控制在300以内，性价比要最高”。
-3. 用户询问制作流程是否应当是：设计 PCB、焊接、编写程序、打印外壳、组装。
-4. 用户希望屏幕比最初的 1.54 英寸更大，除了表情，还能显示文本等信息。
-5. 早期 OLED 屏幕偏好原文（已被第 0 节的选型决定更新）：
-   > 对于屏幕的预算可以稍稍提高一点，因为这是第一眼就回看到的东西，你找找oled屏幕呢？显示效果应该会好一些，然后屏幕尺寸可以在2.4到3之间，太大了也就意味着整体会变大
+### 6.1 为什么架构长这样：SPI 带宽是硬上限
 
-可以确定的要求：
+面板是**只写 SPI**（没有 MISO），10 MHz 下推一屏 320×240 要：
 
-- ESP 系列平台。
-- 可爱、适合放在桌面，外观和屏幕观感重要。
-- 语音输入和输出。
-- 四条实际能实现基本行走的腿。
-- 显示表情，也能显示中文文本、时间、提醒等信息。
-- 当前屏幕已确定为 2.4 英寸 ST7789 TFT + EC11，不带触摸；此前 OLED / AMOLED 为历史候选。
-- 性价比优先；原整机预算 300 元，最新允许屏幕适当加预算，但尚无新的具体金额。
-- 用户有设计 PCB、焊接和打印外壳的制作意向。
+```
+320 × 240 × 2 字节(RGB565) = 153,600 B
+153,600 × 8 / 10,000,000   ≈ 123 ms  →  8 fps 封顶
+```
 
-尚未确认：
+所以**绝不能每帧全屏重绘**，否则动画一顿一顿。于是有了下面两条设计：
 
-- 是否必须完全离线对话。此前方案以联网语音对话为假设。
-- 用户现有工具、焊接水平、是否拥有 3D 打印机。
-- 第一版已确认内置电池；本轮定制2S1000mAh需求和TELESKY Type-C充电板款式已选，定制供货、实际充电电流与两路降压的负载验证待核。
-- 对行走距离、速度、姿态和稳定性的具体验收要求。
-- 是否接受“现成屏幕主控一体板 + 自制底板”的组合。
-- 首版已选屏幕不带触摸；旋钮和独立按键的具体交互功能尚待设计。
+1. **帧缓冲放 PSRAM**（153,600 B，SRAM 装不下），Canvas 在内存里画完再推。
+2. **脏矩形局部刷新**：只把发生变化的矩形区域推给屏幕。
+   实测表情页脏矩形 160×136 → **37.8 ms**，比全屏 133 ms 快 3.5 倍。
 
-## 3. 已产出的外观概念
+### 6.2 `bringup`（硬件自检台）
 
-- [最终配色概念图：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)：保留原图和生成提示词。
-- [V6 紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)：保留当前造型比例与尺寸假设。
-- [Blender 总装 V1](mechanical-design/assembly-v1/README.md)：可编辑模型、八视图、验证报告及重建脚本均保留。
+| 文件 | 作用 |
+|---|---|
+| `wiring.json` | 接线真值源，生成 `board_config.h` |
+| `include/control_logic.h` | 纯命令解析（无硬件依赖）→ 可在 PC 上跑单元测试 |
+| `src/main.cpp` | 屏幕 / 舵机 / 麦克风 / 编码器驱动 + 串口命令台 |
 
-初版小屏构想和 V2–V5 过渡外观已移出工作目录。概念图用于外观参考，实际安装尺寸、承载和运动仍需按实物验证。
+设计要点：**解析逻辑与硬件驱动分离**。`control_logic.h` 只把字符串变成命令结构体，
+不碰任何外设，因此 16 组、293 项断言能在主机上跑完，不用反复烧板子。
 
-## 4. 当前建议的系统架构（未定稿）
+状态机是显式的：`PASSIVE`（什么都不初始化）↔ `SCREEN` ↔ `SERVO`。
+`screen` 与 `servo` 互斥，切过去要先 `stop`。
 
-### 主控与显示
+### 6.3 `assistant`（产品固件）
 
-早期建议：
+| 文件 | 作用 |
+|---|---|
+| `main.cpp` | 启动流程、主循环、串口命令台、云端命令桥 |
+| `apps.cpp` | 9 个页面：表情 / 数字钟 / 表盘 / 天气 / 额度 / 状态 + 每部动画一页 |
+| `canvas.cpp` + `dirty.h` | 帧缓冲、RGB565 绘制、脏矩形累积与推屏 |
+| `anim.cpp` | GFX1 v2 解码：第 0 帧整存，其后叠加差分 |
+| `net.cpp` | Wi-Fi、NTP、HTTP（天气 / 额度） |
+| `cloud.cpp` | WSS 客户端，连 `papa.papaclaoud.top` 中转 |
+| `font_ascii.cpp` | ASCII 字模；中文走 `cjk*.bin` 查表 |
 
-- ESP32-S3 开发板，优先 N16R8，即 16 MB Flash、8 MB PSRAM。
-- 通过 SPI 控制普通彩色 LCD。
-- 如果采用已调研的 AMOLED + ESP32-S3 一体板，它可以替代早期的独立主控板和显示模块，应从 BOM 中扣除被替代的两项。
+**启动顺序**（串口能看到对应日志）：
 
-最新 AMOLED 候选使用 QSPI 显示接口，不能直接套用早期 ST7789 普通 SPI 屏的连接和初始化方案。
+```
+boot: config → spi → panel init → panel ok → canvas
+     → anim 载入 → framebuffer 分配 → CJK 字库 → inputs
+     → goto face → 自动连 Wi-Fi → NTP → cloud WSS → READY
+```
 
-### 语音
+**页面编号**：`0`face `1`clock `2`analog `3`weather `4`chatgpt `5`sys，
+之后每部动画占一页 → 当前 3 部动画共 **9 页（0–8）**。旋钮转动即切页。
 
-建议架构：
+**动画格式（GFX1 v2）**
 
-麦克风 → ESP32-S3 → Wi-Fi → 语音识别 / 大模型 / 语音合成服务 → ESP32-S3 → 功放及喇叭。
+```
+Header : "GFX1" | u8 version=2 | u8 count | u16 reserved
+Record : u16 w,h,frames,delayMs,reserved | u32 paletteOff | u32 frameIndexOff | u32 dataOff
+Frame0 : w*h 字节索引，整帧
+FrameN : [u32 start | u16 run | run 字节] × N | u32 0xFFFFFFFF
+```
 
-- 可参考小智 ESP32 开源项目，减少联网语音、表情显示和设备控制的基础开发量。
-- 原型可使用 I²S 麦克风、MAX98357A 功放和小喇叭；具体模块和接线尚未确定。
-- 开放式聊天主要依赖后端服务；本地表情与预设动作可以离线运行。
-- 少量离线命令可研究乐鑫 ESP-SR MultiNet。
-- 首版建议“走动结束后倾听，再回答”，减少舵机机械噪声对收音的干扰。
-- 麦克风和喇叭应考虑分开布置；未验证全双工对话、回声消除或边走边听效果。
-- 采用显示主控一体板时，应重新核实剩余 GPIO、I²S、I²C 和固件兼容性，不能默认现成小智固件直接适用。
+`start` 是**绝对像素位置**，不是"相对跳过"。v1 用 `u16 start`，单帧像素数硬上限
+65535 —— 320×240（76800）根本编不出来，所以升到 v2 时把 `start` 放宽到 u32。
+**脚本的 `VERSION` 与 `anim.cpp` 的 `kFormatVersion` 必须同步**，不一致固件会拒绝加载。
 
-### 四足机构
+### 6.4 `web-console`（papa-relay）
 
-当前建议为 **8 个小型定位舵机，每腿两个关节：水平摆腿 + 上下抬腿**，采用低矮、四脚外伸的小龟 / 爬行式结构。
+- Node.js + `ws`，默认端口 **8790**（`PAPA_PORT` 可改）
+- 两个 WSS 通道：设备主动连上来 + 浏览器连上来，服务端做双向转发
+- HTTP 接口：`/api/health`、`/api/login`、`/api/status`、`/api/device/ping`
+- 部署实例：<https://papa.papaclaoud.top/>
 
-方案比较：
+设备端在 `cloud.cpp` 里主动连出，所以**不需要公网 IP、不需要端口映射**。
 
-- 4 舵机：便宜，但每腿单关节无法独立控制抬脚与前进，常依赖特殊连杆、脚形、摇摆或滑动。
-- 8 舵机：当前建议的成本与动作能力折中。
-- 12 舵机：动作空间更大，但增加成本、重量、结构与供电负担，暂不作为首版目标。
+---
 
-工程限制：
+## 七、启动与使用方法
 
-- 8 自由度不代表足端能自由控制 XYZ，也不保证抬起一条腿后自然稳定。
-- 每次抬脚前，需结合支撑三角形和重心调试站姿与步态。
-- 第一版目标是平整表面上的基本前进、慢速转向和简单姿态动作，不应承诺精致犬步或可靠自主巡游。
-- MiniKame / Kame32 可作为机械与步态参考，加装显示屏后仍需重新验证重心。
+### 7.1 开机
 
-早期尺寸与重量目标，仅用于开始布局：
+1. 接 USB（或电池），板载 LED 1 Hz 心跳 = 主控在跑。
+2. 屏幕先黑一下再出表情页。
+3. 串口打印 `READY.` 后即可接命令。
+4. Wi-Fi 若已保存过凭据会自动重连，随后自动同步 NTP、拉天气与额度。
 
-- 机身约 8 × 6 cm。
-- 连腿站立占地约 13～16 cm。
-- 身体离桌面约 2～3 cm。
-- 整机尽量约 200～250 g；更大的屏幕和主板可能要求修订。
-- 短腿、薄壁外壳、柔软脚垫，避免厚重前脸。
+### 7.2 实体操作
 
-扭矩粗算仅用于筛选：
+| 操作 | 效果 |
+|---|---|
+| 转旋钮 | 上/下一页（顺时针下一屏） |
+| 按旋钮 | 当前页确认 / 换情绪 |
+| 按独立键 | 页面自定义动作 |
 
-以 250 g 总重、有效水平力臂 3 cm、2～3 条腿主要承重估算，静态约 0.25～0.375 kgf·cm；乘 2～3 倍初步余量约 0.5～1.13 kgf·cm，尚未充分计入碰撞、摩擦和载荷不均。
+### 7.3 串口命令台（115200）
 
-TowerPro SG90 官方标称 9 g、4.8 V 下 1.8 kgf·cm 堵转扭矩。堵转扭矩不能当持续工作能力；廉价兼容舵机不能视为必然达到原厂规格。建议先买单条腿所需舵机验证承重和动作，再决定批量采购。
+```
+help | status | stats [on|off] | dump | dumpr
+next | prev | screen <0-8|name>
+mood [next]                     换表情情绪
+ntp                             立即对时
+wifi connect/forget/status/scan/off
+cloud status | cloud key <密钥> | cloud forget
+set nick / qwhost / qwkey / qwloc / subhost / adminkey / account / subkey
+quota | usage | weather         立即拉取
+spi <10|20|40>                  改 SPI 时钟
+servo arm|center|stop [n]       舵机上电回中 / 松力（n 省略=全部）
+servo pulse [n] <1000-2000>     设脉宽
+servo status                    各路状态
+config                          查看已存配置
+```
 
-### 电源与活动范围
+> 有些命令（`dump` / `dumpr`）会输出几十万字节，读的时候记得别设太短的超时。
+> **不要把"返回空串"当成命令结束** —— 偶发一次空回不代表命令不存在，重发即可。
 
-- 此前建议第一版外接电源，暂不带电池，以减重并控制费用。
-- 5 V 5 A 适配器只是候选起点，未证明能满足实际八个舵机的同时动作。
-- 需测试单舵机、八舵机起身，以及 Wi-Fi、显示和扬声器同时运行时的峰值电流及压降。
-- 从电源处分出主控和舵机两路，共地；舵机电流不经过 ESP 开发板或普通面包板电源条。
-- PCA9685 负责 PWM 控制信号，不能因此忽略舵机的大电流配电。
-- 首版在地面或带围边托盘中验证，默认不自主巡游。尚未设计可靠的桌边检测系统。
-- 外接线从较低位置引出并留松弛，避免把轻量机器人拖偏。
+### 7.4 网页控制台
 
-## 5. 屏幕选型的演变
+打开 <https://papa.papaclaoud.top/> → 登录 → 能看到设备在线状态、点按钮切屏/换表情、
+开远程画面（约 4.5 fps，按浏览器连接数自动开关推流）。
 
-### A. 最早的 1.54 英寸方案：已被用户的新需求替代
+---
 
-1.54 英寸、240×240、ST7789 彩屏，原分配预算 22 元。适合表情，但用户要求更大并显示文本，不能继续以此作为最终选型。
+## 八、常见问题（FAQ）
 
-### B. 2.4 英寸 LCD 候选：仍可作成本对照，当前不应视为首选已定
+### 屏幕整块纯白
 
-具体调研过正点原子 ATK-MD0240：
+**先别拆线。** `bringup` 复位后停在 `PASSIVE`，这个状态**一行屏幕初始化都不发**，
+而 `BLK` 接的是 3.3 V 常亮 → 面板有电、没命令 → 肉眼就是纯白。
 
-- 2.4 英寸。
-- ST7789，320×240，可横屏。
-- 厂商标注全视角。
-- 四线 SPI，3.3 V 供电与 I/O。
-- 模块尺寸 72 × 43.65 mm。
-- 有官方驱动和接口资料。
-- 没有核实到当前人民币到手价；此前 30～40 元仅为屏幕采购目标，不能写成该型号实时报价。
+```
+screen start
+```
 
-文字排版估算：
+出彩条即正常。真正要查线的情况是：**已经 `screen start` 之后**还是白的。
 
-- 320×240 横屏，左右各留 12 px。
-- 24 px 全角汉字每行约 12 个。
-- 表情 + 短字幕：约 2 行。
-- 阅读模式：约 5 行。
-- 这些基于假设字号及行距，未实现 UI。
-- 相同分辨率与像素字号下，2.8 英寸比 2.4 英寸字更大，但不会显示更多字。
+### 串口一回 `SCREEN active`，但屏还是不亮
 
-### C. 最新优先调研：2.41 英寸彩色 AMOLED
+正常。ST7789 **只写、没有 MISO**，固件根本读不回面板状态。
+`SCREEN active` 只证明"初始化命令发出去了"，**判断屏幕只能靠眼睛**。
 
-AMOLED 适合黑底表情：黑色区域不发光，可让眼睛和文字显得更突出。实际观感仍取决于盖板反光、亮度、调光及 UI；不能概括成 OLED 一定在所有方面优于 LCD。
+### 每次打开串口设备就重启
 
-#### 候选 1：Waveshare ESP32-S3-Touch-AMOLED-2.41
+预期。打开 `/dev/cu.usbmodem*` 会触发复位（`USB_UART_CHIP_RESET`），
+所以**一批命令必须在同一次串口会话里发完**，否则状态全丢。
 
-已核实厂商资料：
+### 编译报 `PermissionError` / prebuild 失败
 
-- 2.41 英寸彩色 AMOLED，600×450。
-- QSPI，显示驱动 RM690B0。
-- 电容触控，触控控制器 FT6336。
-- ESP32-S3R8，16 MB Flash + 8 MB PSRAM。
-- 带 RTC、6 轴 IMU、TF 卡槽及锂电池充电相关电路。
-- 引出 GPIO、I²C、UART、USB 等接口。
-- 厂商选型表没有将该型号列为自带麦克风和喇叭的完整语音板，需要外接音频电路。
-- 有无外壳两种产品形态，自制机器人外壳时可优先研究无壳版本。
+`PYTHONPATH` 垫片问题，加 `env -u PYTHONPATH` 前缀：
 
-价格记录：
+```bash
+env -u PYTHONPATH bash scripts/pio.sh run -e lckfb_s3_usbjtag
+```
 
-- 查询时国际官网显示 **USD 49.99～53.99，依版本**。
-- 这是“屏幕 + ESP32-S3 主板”价格，不是单独屏幕价格。
-- 国内商品页遇到滑动验证，**人民币到手价、国内运费及最终版本库存未确认**。
-- 没有执行滑动验证、购物车操作或下单。
+### `pio.sh` 说找不到 PlatformIO
 
-版本与尺寸：
+仓库自带的 `.venv` / `.tools` 不在版本库里，需要自己建：
 
-- 官方最新文档区分 V1、V2，显示、触控、中断与扩展 I/O 定义有变化，示例与固件不能互用。
-- 必须按实际 PCB 版本核对原理图后再设计配套底板。
-- 已找到官方尺寸图和尺寸文件 ZIP，但本轮没有完成对整板尺寸的可靠读取；不要编造尺寸或套用 LILYGO 的尺寸。
-- 官方网页列出亮度 800 cd/m²、对比度 100000:1，属于厂商规格，未实测。
-- 音频与四足并发运行、GPIO 分配、功耗及刷新表现均未实测。
+```bash
+bash firmware/bringup/scripts/setup.sh
+```
 
-#### 候选 2：LILYGO T4-S3
+`pio.sh` 的查找顺序：`.tools/bringup-venv/bin/pio` → `工程/.venv/bin/pio` → `PATH`。
 
-已核实厂商资料：
+### 串口列表里看不到设备
 
-- 官方名称 **T4-S3**；没有确认另一个独立产品名“T-AMOLED 2.41”。
-- 2.41 英寸彩色 AMOLED 电容触控屏，450×600，横屏为 600×450，QSPI。
-- ESP32-S3R8，16 MB Flash + 8 MB PSRAM。
-- 有效显示区 36.2×48.96 mm，横置约 48.96×36.2 mm。
-- 官方无壳尺寸图示总成 56×44×13 mm，图中包含屏、PCB及焊接排针，不能把 13 mm 当裸屏厚度。
-- 带壳图示 59×46×14 mm。
-- 独立 PCB、裸屏尺寸及厚度公差未进一步核实。
+先换一根**数据线**；再看是不是选错了口。同一块板可能同时出现原生 USB 和 CH340 两个口，
+**不要凭列表顺序选**。
 
-价格与状态，2026-09-07 查询记录：
+### 舵机不动 / 一直嗡嗡响 / 发热
 
-- Basic [H678]：**USD 56.89**。
-- 带壳 + 已焊母排 [H711]：USD 58.99。
-- 带壳 + 已焊公排 [H724]：USD 60.23。
-- 查询时官网具体变体数据标为可售；未验证用户地址的配送和结算状态。
-- 官网 USD 1.10 的 “Only Sheild” 是配件选项，不能当成整板价。
-- 国内人民币售价与最终到手价未确认。
+- 不动：确认已 `servo arm`（未 arm 时 PWM 根本没开）、外部 5 V 是否上电、信号线是否接对。
+- 嗡嗡响 = **堵转**，该端已顶到机械限位，**立刻断电**，把该端脉宽往中间收（如 600/2350）。
+- 10 秒没新指令会自动松力（停 PWM，**但没有断舵机电源**）。
+- 舵机 5 V **必须外部供电**，不能从开发板取。
 
-接口及资料问题：
+### 中文显示成方块 / 乱码
 
-- 2×15 针 GPIO 接口，间距 1.27 mm。
-- 两个 JST-SH 1.0 mm 插座，官方引脚图为一个 UART GPIO43/44、一个 I²C GPIO6/7；Wiki 概括描述存在差异，设计前要对照具体板版次。
-- GPIO18 被屏幕 TE 信号占用，不能随意分配给外设。
-- 未见板载完整麦克风 / 功放语音链路或舵机直插口。
-- 商品页 / Wiki 亮度写 800 cd/m²，官方仓库表格写 550 nits，属于待核实冲突。
-- 外接音频、PCA9685 和舵机电源的整体适配未验证。
+`data/cjk*.bin` 没被链接进去。检查 `platformio.ini` 的 `board_build.embed_files`，
+并确认文件确实存在（它们是二进制资源，不是 git 忽略项）。
 
-#### 需要区分的另一类 OLED
+### 动画屏只画一半 / 花屏
 
-调研也看到微雪 2.42 英寸 SSD1309 OLED：
+先确认 `anim.bin` 的版本与固件匹配（`GFX1` 后第 5 个字节应为 `2`）。
+脚本和 `anim.cpp` 版本不一致时，固件会打印"版本不支持"并拒绝加载 —— 重新生成即可。
 
-- 128×64，白色或黄色单色版本，SPI / I²C。
-- 国际官网显示 USD 12.99。
-- 虽然尺寸和“OLED”字样符合搜索条件，但它不是高分辨率彩色 AMOLED；不应直接当作彩色表情 + 中文信息界面的升级方案。
+### 天气 / 额度一直是空的
 
-当前检索中，2.41 英寸 AMOLED 一体板是较明确的可开发候选。没有完成全市场扫描，不能断言 2.4～3.0 英寸范围只存在这些产品。2.8 英寸附近也有 MIPI 面板，若继续研究裸屏，必须核对其接口是否能被 ESP32-S3直接使用，以及驱动、电源、连接器和单片采购渠道。
+按顺序查：`wifi status` → 有没有 IP；`ntp` → 时间是否有效；
+`config` → `qwkey` / `subkey` 是否已设置。HTTP 失败会 60 s 后重试，也可以 `weather` / `quota` 立即拉。
 
-## 6. 早期预算表：仅用于追溯，最新方案必须重算
+### 网页控制台连不上设备
 
-以下是早期模块方案的设计分配，不是已经核实的店铺报价：
+看设备串口是否打印 `[cloud] ✅ 已连上中转服务`。断线会自动重连；
+若一直失败，检查 `cloud key` 是否配置、网络是否能出 443。
 
-| 项目 | 分配金额 |
-|---|---:|
-| ESP32-S3 N16R8 开发板 | 30 元 |
-| 1.54 英寸 ST7789 屏 | 22 元 |
-| I²S 麦克风 + MAX98357A + 小喇叭 | 18 元 |
-| SG90 级定位舵机 × 8 | 80 元 |
-| PCA9685 模块 | 10 元 |
-| 5 V 5 A 外接电源候选 | 30 元 |
-| 分电、开关、电容、线材 | 22 元 |
-| 轻量外壳、腿和支架 | 35 元 |
-| 螺丝、脚垫 | 10 元 |
-| 电容触摸模块 | 3 元 |
-| 合计 | 260 元 |
-| 运费、舵机差价及补件预留 | 40 元 |
-| 原总上限 | 300 元 |
+---
 
-注意：
+## 九、安全红线与注意事项
 
-- 没有单列定制 PCB 打样、额外连接器及焊接耗材。
-- 不包括购买焊接工具或 3D 打印机。
-- 不包括联网语音服务的后续费用。
-- 8 个舵机实际可能需要 80～100 元甚至更多，取决于可靠性和供货。
-- 若采用 AMOLED 一体板，可扣除早期主控 30 元和屏幕 22 元，其他原分配约 208 元，但仍须逐项修正。
-- 以目前已查到的一体板海外官网价，整机总额将明显高于原预算；国内价未确认，不能直接把美元标价当国内采购价，也不能声称 300 元已能实现新方案。
-- 用户允许在屏幕上适当增加投入；新的总额应提供具体方案后再由用户确定。
+1. **屏幕 VCC 和 BLK 只能 3.3 V。** 接 5 V 可能不可逆损坏。
+2. **屏幕不允许单独带电。** 控件上拉接在屏幕 VCC 上，屏幕带电而主控没电会经信号线倒灌。
+3. **任何接线动作前，USB 和外部电源都必须断开。** 不允许带电插拔杜邦线。
+4. **不要让外部 3.3 V 正极接到开发板的 3V3 / 5V 排针。** 两边各自供电、只共地。
+5. **舵机 5 V 走外部独立供电**，与逻辑 5 V 只共地不并联。
+6. **上电顺序**：先 USB、确认 `PASSIVE`，再开外部 3.3 V；断电反过来。
+7. **凭据不入库。** `wifi` 口令、和风 Key、云端密钥都只写设备 NVS，源码里没有。
+8. **字库需要替换。** 当前字模来自 macOS 自带字体，发布/商用前必须换可再分发字体。
+9. **脉宽 ≠ 角度。** `1000–2000 µs` 是电气行程，装上腿以后每个关节要单独标定。
 
-## 7. 建议的制作顺序与 PCB 路线
+---
 
-对用户提出的制作流程，已解释为：
+## 十、还没验证的部分（别当成已完成）
 
-1. 确定元件和整体布局，先放入屏幕、主板、舵机及必要走线空间。
-2. 使用模块验证显示、语音和单条腿，编写基础程序；随后验证多舵机同时工作。
-3. 在接口、供电、板框和安装孔明确后，设计原理图与 PCB。
-4. PCB 打样、焊接，先检查电源，再逐个接入外设。
-5. 联调舵机零位、限位、步态、表情和语音。
-6. 根据真实线束与元件位置，打印完整外壳并总装。
-7. 验证装壳后的行走、收音、温升、供电和结构干涉。
+- 八舵机同时动作的**电源能力、压降、发热**（只测过两路空载）
+- 屏幕最大电流、主控稳压余量、温升
+- 电池**充电电流与保护板实际限流**（0.353 A 是公式值）
+- 整机续航、承重、步态
+- 语音闭环（录音 → ASR → 对话 → TTS）
+- PCB 打样/焊接/上电，结构件实物打印与试装
+- 新屏 HS24S010B（无旋钮版）点亮与固件适配
 
-关键区分：
+---
 
-- 腿和支架需要较早制作 / 打印，用于实际步态测试。
-- 外壳布局与 PCB 并行规划，最终装饰外壳稍后定稿。
-- 程序从模块验证阶段开始，不应等全部焊完才首次开发。
-- 第一版可以做“成熟模块 / 屏幕主控板 + 自定义集成底板”，后续再考虑更高集成度。
-- 是否采用上述 PCB 路线尚未由用户最终选定。
+## 十一、文档索引
 
-## 8. 早期交接时的工作状态（历史，以第 0 节最新记录为准）
+| 想看什么 | 去哪 |
+|---|---|
+| **当前进度（权威）** | [项目进度总览.md](项目进度总览.md) |
+| 产品固件的设计与踩坑 | [firmware/assistant/README.md](firmware/assistant/README.md) |
+| 硬件自检与接线 | [firmware/bringup/README.md](firmware/bringup/README.md) · [接线总图](firmware/bringup/docs/index.html) |
+| 通电前自检与故障对照 | [通电前自检与故障对照.md](firmware/bringup/docs/通电前自检与故障对照.md) |
+| 舵机接线 | [舵机接线.md](firmware/bringup/docs/舵机接线.md) |
+| PCB 三版本 | [integrated-v1](pcb-design/integrated-v1/) · [native-rev-b](pcb-design/native-rev-b/) · [RevA](pcb-design/native-rev-a/) |
+| 结构版本 | [mechanical-design/当前结构版本.md](mechanical-design/当前结构版本.md) |
+| 选型与采购 | [hardware-selection/](hardware-selection/) · [采购清单](采购清单-20260912/) |
+| 网页控制台部署 | [firmware/web-console/部署记录.md](firmware/web-console/部署记录.md) |
 
-已经完成：
+---
 
-- 前期方案讨论、机械与电源粗评估。
-- 一张外观概念图及生成提示词。
-- 1.54 / 2.4 / 2.8 英寸 LCD 的尺寸与文字显示讨论。
-- 2.41 英寸微雪、LILYGO 彩色 AMOLED 候选的初步官方资料与价格调研。
-- 本交接说明和文件打包。
+## 许可
 
-尚未完成：
-
-- 最终 BOM 及人民币实际到手价。
-- 屏幕、主控和舵机定型。
-- 原理图、PCB、Gerber、焊接图。
-- GPIO 分配与完整供电设计。
-- 任何固件项目、代码或测试。
-- CAD、STL、STEP 或可打印结构。
-- 模块采购、焊接、打印、实物组装与实测。
-
-没有下单、部署服务或连接用户设备。本交接不代表硬件已经验证可行。
-
-## 9. 早期 OLED 调研后续建议（历史，已被第 0 节更新）
-
-优先完成“2.4～3.0 英寸 OLED 选型 + 整机预算”这一小步：
-
-1. 阅读本交接及概念图，保留最新尺寸和屏幕优先级。
-2. 比较至少一个屏幕主控一体板方案与一个能实际单片购买的独立 AMOLED 屏 / 模块方案；若独立方案不合适，应明确原因。
-3. 核实国内可买型号、人民币价格、版本、整板 / 裸屏尺寸、显示接口、所需供电及剩余可用 GPIO。
-4. 说明如何连接语音输入输出和 8 个舵机，是否有适配现有固件的依据。
-5. 重新列出包含 PCB 的整机预算，区分实时报价和估算，避免重复计算一体板已包含的主控。
-6. 给出明确推荐，再确定新的预算范围与最终选型。
-7. 定型后推进电气连接图和内部布局，再进行原理图 / PCB；当前没有启动正式制作的定稿方案。
-
-不要默认用户已经选定微雪、LILYGO 或批准显著提高整机总预算。继续搜索、比较和设计属于当前工作范围。
-
-## 10. 官方资料索引
-
-### 主控、语音、运动与供电参考
-
-- [ESP32-S3-WROOM-1 规格](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
-- [小智 ESP32](https://github.com/78/xiaozhi-esp32)
-- [ESP-SR MultiNet](https://docs.espressif.com/projects/esp-sr/zh_CN/latest/esp32s3/speech_command_recognition/README.html)
-- [MiniKame 原作者仓库](https://github.com/javierih/minikame)
-- [Kame32](https://github.com/JavierIH/Kame32)
-- [TowerPro SG90](https://towerpro.com.tw/product/sg90-7/)
-- [MAX98357A](https://www.analog.com/en/products/max98357a.html)
-- [PCA9685 数据手册](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf)
-
-### 早期 LCD 参考
-
-- [ATK-MD0240 官方资料](https://github.com/alientek-module/LCD-module_2.4-inch_ATK-MD0240)
-- [ATK-MD0240 SPI 示例](https://wiki.alientek.com/docs/Boards/IoT/DNT5M/example-base/spilcd/)
-- [微雪 2.4 英寸 LCD](https://www.waveshare.com/wiki/2.4inch_LCD_Module)
-- [LCDWIKI 2.8 英寸 IPS](https://www.lcdwiki.com/2.8inch_IPS_SPI_Module_ILI9341)
-
-### 微雪 AMOLED
-
-- [国内商品页](https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-2.41.htm)
-- [国际商品页](https://www.waveshare.com/esp32-s3-touch-amoled-2.41.htm)
-- [官方文档及版本差异](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.41)
-- [原理图、尺寸文件和示例](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.41/Resources-And-Documents)
-- [V2 官方仓库](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-2.41-V2)
-- [官方尺寸图](https://www.waveshare.com/img/devkit/ESP32-S3-Touch-AMOLED-2.41/ESP32-S3-Touch-AMOLED-2.41-details-size.jpg)
-- [尺寸文件 ZIP](https://files.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.41/Dimension_Appearance_Diagram.zip)
-- [单色 OLED 对照](https://www.waveshare.com/product/2.42inch-oled-module.htm)
-
-### LILYGO AMOLED
-
-- [T4-S3 官方商品页](https://lilygo.cc/products/t4-s3)
-- [官方商品变体数据](https://lilygo.cc/products/t4-s3.js)
-- [官方 Wiki](https://wiki.lilygo.cc/products/t4-series/t4-s3/)
-- [官方代码仓库](https://github.com/Xinyuan-LilyGO/LilyGo-AMOLED-Series)
-- [官方 DXF](https://github.com/Xinyuan-LilyGO/LilyGo-AMOLED-Series/blob/master/dimensions/T4-S3-AMOLED.dxf)
-- [无壳尺寸图](https://cdn.shopify.com/s/files/1/0617/7190/7253/files/T4-S3_3.jpg?v=1712915514)
-- [带壳尺寸图](https://cdn.shopify.com/s/files/1/0617/7190/7253/files/T4_S3_5.jpg?v=1712827651)
-- [官方引脚图](https://cdn.shopify.com/s/files/1/0617/7190/7253/files/T4-S3-2.41_2.jpg?v=1740477913)
-
-以上价格和可售状态是 2026-09-07 的查询记录，采购前应重新核实。
-
-## 11. 可直接发给新 Codex 对话的启动消息
-
-先读README.md第0节、design-selection.json和hardware-selection/bom-v7/README.md。最新Excel：00整机核对单页8列44行（覆盖42类需求）；01立创10项3列；02淘宝27项7列。01与V6逐字节一致，用户自行导入，套数1。03是电池定制文字，供用户发给商家。
-
-本轮按用户授权补齐小件，淘宝购物车11项增至27项，新增16个SKU参考89.66元。用户已加入MG90S金属齿轮180°共8个，当前11元/个、88元；其余商品各1份。淘宝已选26项参考355.93元，1项新店暂定电池定制入口，报价未定；原车内普通电池已排除。加立创111.37元，已知参考467.30元，不含定制电池/运费/打样；优惠以实际结算为准。未下单、未给商家发消息。
-
-Type-C数据/充电线取消本次采购；PCB、整套3D及试样打印暂缓。XT30配对件并入电池定制，不单独买。电池要求2S1P 7.4V/满8.4V、真实1000mAh、整包持续≥10A，逐节保护/均衡、18AWG短引线和XT30配对件；75×40×20mm/80g是目标，商家实际成品尺寸和供货待确认。
-
-屏幕TOUGLESY2.4寸ST7789+EC11、奶油薄荷、8个MG90S、LCKFB-ESP32S3R8N8、TELESKY TYPE-C充电板延续。舵机DFR0753一路，逻辑好盈3A(2-6S)/86010010一路跳帽设5V；NKK S1A总开关；绿联CD104 17W适配器单口5V2.4A。保险后、开关前接充电支路；两路5V不并联，共地，首版关机充电。充电板实际限流仍待核定，不得直接套用标题5V2A作为电池充电电流。
-
-新增直插小件为原型选型：100k/33k分压、100nF滤波/去耦共用一包、10k上拉PCA OE。OE先核实板上现有上下拉，ADC/GPIO、最终PCB封装和接线未冻结。信号试接板不能承载8舵机公共电流。尼龙垫柱、螺母、脚垫和束带按实物试配。小包余件为备用，不重复计整机数量。
-
-旧V1–V6保留历史，勿运行旧生成器覆盖V7。BlenderV1用户修改必须保留；本轮不改CAD，不设计PCB，不下打印单。整机尚未完成原理图/PCB/固件、实物尺寸/电气/负载验证。更新2026-09-08。
+本项目**尚未选定开源许可证**。在补充 LICENSE 之前，默认保留所有权利。
+第三方字模、芯片数据手册、厂商资料各有其原始许可，商用前请分别确认。
