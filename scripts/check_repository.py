@@ -21,6 +21,7 @@ ENTRY_POINTS = (
     'pcb-design/README.md', 'mechanical-design/README.md',
     'hardware-selection/README.md',
     'docs/references/README.md',
+    'docs/guides/开发与调试.md',
 )
 LINK = re.compile(r'!?\[[^\]\n]*\]\((<[^>\n]+>|[^\s)\n]+)(?:\s+"[^"]*")?\)')
 
