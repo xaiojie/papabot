@@ -2,6 +2,12 @@
 .pio/
 .venv/
 .tools/
+.local/
+.build/
+node_modules
+_deps
+compile_commands.json
+*.inspect.ndjson
 __pycache__/
 *.pyc
 *.pyo
@@ -24,6 +30,13 @@ Thumbs.db
 
 # 日志
 *.log
+logs/
+
+# 本机配置与运行凭据（样例配置可以入库）
+.env
+.env.*
+!.env.example
+.local-key
 
 # ---------- Blender 母版（体积大，等装好 git-lfs 再纳管） ----------
 # 总计约 262 MB：*.blend 157 MB + *.blend1（自动备份）105 MB。
@@ -44,6 +57,6 @@ Thumbs.db
 
 # ---------- 另属其他项目的目录（不是 papabot 的内容） ----------
 # 这两个是翻译云的 PHP / 支付业务代码，只是恰好放在同一个工作目录下。
-# 它们不进本仓库；需要版本管理请单独建仓。
+# 本地目录已移到仓库外；保留规则以免后续误放、误提交。
 翻译云-php-demo/
 翻译云-支付业务实现/

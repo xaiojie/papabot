@@ -5,31 +5,31 @@
 
 ## 0. 当前已选方案：TFT + EC11、奶油薄荷、MG90S、LCKFB-ESP32S3R8N8
 
-**最新采购交付改为[简洁分渠道V5](hardware-selection/bom-v5/README.md)**：立创单页3列10项，淘宝/天猫单页6项，DFRobot官网单页5项。只导入[01立创BOM](hardware-selection/bom-v5/01-立创商城-BOM导入.xlsx)，采购套数1、数量已含MOQ/备件。立创10项已在用户当前云BOM导出结果中逐项核对到相同C编号且现货；不把外采、内部物料代号或待定需求混入自动配单。所有后续Excel都保持简洁。V4全量表曾产生裸芯片/连接器误匹配，不再作为一键下单文件；下面V4的型号、接线与工程预算继续保留。
+**最新采购交付改为[简洁分渠道V5](../../../bom-v5/README.md)**：立创单页3列10项，淘宝/天猫单页6项，DFRobot官网单页5项。只导入[01立创BOM](../../../bom-v5/01-立创商城-BOM导入.xlsx)，采购套数1、数量已含MOQ/备件。立创10项已在用户当前云BOM导出结果中逐项核对到相同C编号且现货；不把外采、内部物料代号或待定需求混入自动配单。所有后续Excel都保持简洁。V4全量表曾产生裸芯片/连接器误匹配，不再作为一键下单文件；下面V4的型号、接线与工程预算继续保留。
 
-**本轮四类配件已定型：HANLI PCA9685成品板×1（8.90元）、好盈UBEC 3A(2-6S)/86010010×1（35元，跳帽必须5V）、立创NKK S1A/C5366606×1（29.42元）、FIT0030母母信号线3包共30根（18元）和FIT0585红黑18AWG各1米（10元）。** 舵机路保留1块DFR0753（55元），取消第二块同款及F05重复MOSFET预算。用户已授权助手完成本轮选型，不再等待逐型号确认；实物温升/压降/尺寸未验证。详见[选型与接线V4](hardware-selection/bom-v4/README.md)；V4保留42项工程总表，实际下单改用上面的V5分渠道文件。全套参考现金761.18元，其中346元仍为定制/试制等预算。另16项电池定制、辅料和电路/结构依赖保留，四类商品定型不等于全机生产BOM完成。主控仍为用户确认的LCKFB-ESP32S3R8N8/C20626143，8MB Flash＋8MB PSRAM，附未焊排针；音频延续SEN0327、DFR0954及C50387237候选。
+**本轮四类配件已定型：HANLI PCA9685成品板×1（8.90元）、好盈UBEC 3A(2-6S)/86010010×1（35元，跳帽必须5V）、立创NKK S1A/C5366606×1（29.42元）、FIT0030母母信号线3包共30根（18元）和FIT0585红黑18AWG各1米（10元）。** 舵机路保留1块DFR0753（55元），取消第二块同款及F05重复MOSFET预算。用户已授权助手完成本轮选型，不再等待逐型号确认；实物温升/压降/尺寸未验证。详见[选型与接线V4](../../../bom-v4/README.md)；V4保留42项工程总表，实际下单改用上面的V5分渠道文件。全套参考现金761.18元，其中346元仍为定制/试制等预算。另16项电池定制、辅料和电路/结构依赖保留，四类商品定型不等于全机生产BOM完成。主控仍为用户确认的LCKFB-ESP32S3R8N8/C20626143，8MB Flash＋8MB PSRAM，附未焊排针；音频延续SEN0327、DFR0954及C50387237候选。
 
-**已选电池与充电：定制成品2S 7.4V 1000mAh电池包1包＋TELESKY MK021163 TYPE-C接口2S8.4V充电板1块。** 定制要求含持续10A、每节保护与均衡、XT30配对接头；商家能否做、成品尺寸与报价尚未确认。充电板截图价14.13元、标注28×17mm，默认充电电流及厚度/孔位待核。详见[电源选择与定制文字](hardware-selection/power-selection-2s.md)。屏幕、8个舵机、充电板的126.53元有历史用户截图价格；电池80元仍为预算，不能套用14.7元普通对讲机电池价。[V1的619.53元BOM](hardware-selection/bom-v1/README.md)保留作历史，当前采购文件以V5为准，型号与接线延续V4。新的总预算上限仍未确认。
+**已选电池与充电：定制成品2S 7.4V 1000mAh电池包1包＋TELESKY MK021163 TYPE-C接口2S8.4V充电板1块。** 定制要求含持续10A、每节保护与均衡、XT30配对接头；商家能否做、成品尺寸与报价尚未确认。充电板截图价14.13元、标注28×17mm，默认充电电流及厚度/孔位待核。详见[电源选择与定制文字](../../../power-selection-2s.md)。屏幕、8个舵机、充电板的126.53元有历史用户截图价格；电池80元仍为预算，不能套用14.7元普通对讲机电池价。[V1的619.53元BOM](../../../bom-v1/README.md)保留作历史，当前采购文件以V5为准，型号与接线延续V4。新的总预算上限仍未确认。
 
-**最新舵机选型：图二「MG90S舵机（全金属齿轮）180度」，整机 8 个、每腿 2 个。** 用户截图单价 10 元，舵机小计 80 元；尚未核实结算价、下单、实物尺寸或承载能力。建议先用 2 个完成单腿试样。详见 [舵机选型与商品截图](hardware-selection/servo-mg90s-180.md)。assembly-v1 的八个蓝色舵机仍为历史占位模型，后续依实际尺寸和舵盘重做腿部安装结构。
+**最新舵机选型：图二「MG90S舵机（全金属齿轮）180度」，整机 8 个、每腿 2 个。** 用户截图单价 10 元，舵机小计 80 元；尚未核实结算价、下单、实物尺寸或承载能力。建议先用 2 个完成单腿试样。详见 [舵机选型与商品截图](../../../servo-mg90s-180.md)。assembly-v1 的八个蓝色舵机仍为历史占位模型，后续依实际尺寸和舵盘重做腿部安装结构。
 
 用户已明确选定 **途格斯 / TOUGLESY 2.4 英寸 TFT 彩屏 + EC11 旋转编码器模块**，并表示已加入购物车，尚未确认下单或收货。它是 **ST7789、320×240、SPI、不带触摸** 的独立显示模块；不再要求 OLED / AMOLED。
 
 商品标称整板 **91×44 mm**，四个 **Ø3 mm** 安装孔，孔中心距 **84.5×37.5 mm**。正面布局为屏幕在左、旋钮在右上、独立按键在右下，外壳需整体容纳这块 PCB。排针是否已焊接及其朝向仍待核实。
 
-- [第一阶段 Blender 总装与交付说明](mechanical-design/assembly-v1/README.md)
-- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](hardware-selection/bom-v1/assembly-v1-inspection.json)
-- [实际 Blender 渲染：八视图](mechanical-design/assembly-v1/gallery.html)
-- [保存后重开验证与工程限制](mechanical-design/assembly-v1/reports/validation-report.md)
-- [最终已选配色：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)
+- [第一阶段 Blender 总装与交付说明](../../../../mechanical-design/assembly-v1/README.md)
+- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](../../../bom-v1/assembly-v1-inspection.json)
+- [实际 Blender 渲染：八视图](../../../../mechanical-design/assembly-v1/gallery.html)
+- [保存后重开验证与工程限制](../../../../mechanical-design/assembly-v1/reports/validation-report.md)
+- [最终已选配色：A 奶油薄荷](../../../../mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png)
 - [配色选择与当前工程状态](design-selection.json)
-- [Blender 整机建模、分件与打印交付路线](mechanical-design/modeling-and-print-plan.md)
+- [Blender 整机建模、分件与打印交付路线](../../../../mechanical-design/modeling-and-print-plan.md)
 - [历史 V8：三款 B/C 蓝白组合与原备选对比](design-v8-bc-refined/comparison.html)
 - [V8 原图、配色分配与完整提示词](design-v8-bc-refined/design-notes.md)
 - [V7：六款配色与表面对比页](design-v7-cmf-options/comparison.html)
-- [V7 六款原图、材质路线与提示词](design-v7-cmf-options/design-notes.md)
-- [V6 外观比例基准：紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
-- [V6 尺寸假设、居中计算与限制](design-v6-compact-centered/design-notes.md)
+- [V7 六款原图、材质路线与提示词](../../../../mechanical-design/concepts/design-v7-cmf-options/design-notes.md)
+- [V6 外观比例基准：紧凑居中比例](../../../../mechanical-design/concepts/design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
+- [V6 尺寸假设、居中计算与限制](../../../../mechanical-design/concepts/design-v6-compact-centered/design-notes.md)
 - [历史外观效果图 V5：爬爬/Jay 刻字与小耳饰](design-v5-engraving-ears/desktop-pet-jay-ears-v5.png)
 - [V5 文字、图案与头饰设计说明](design-v5-engraving-ears/design-notes.md)
 - [历史外观效果图 V4：加宽机身、显示区居中](design-v4-centered-face/desktop-pet-centered-face-v4.png)

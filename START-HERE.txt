@@ -1,19 +1,16 @@
-桌面助手 · 当前入口（2026-09-12）
+爬爬 papabot · 项目入口（目录整理：2026-10-26）
 
-先读：项目进度总览.md
-总交接与历史：README.md；PROGRESS.md 是旧快照。
+项目说明和运行方法：README.md
+当前进度与验收边界：项目进度总览.md
+仓库目录、版本入口和迁移对照：docs/仓库结构.md
 
-当前阶段：模块联调。主控、实屏、联网、网页控制已有实机结果，单舵机已测试。
-产品固件：firmware/assistant/；硬件自检：firmware/bringup/。
-网页控制台：https://papa.papaclaoud.top/；部署记录：firmware/web-console/部署记录.md。
+固件与网页：firmware/README.md
+PCB 与制造包：pcb-design/README.md
+外壳、STL 与概念图：mechanical-design/README.md
+选型、BOM 与采购：hardware-selection/README.md
+PCB × 结构接口：design-coordination/README.md
 
-已完成载板：pcb-design/revb-lettering-2026-09-10/（RevB + Jay/爬爬）。
-旧 RevA 屏幕 5V 文件已被 RevB 3.3V 修订替代，仅作历史。
-新方案：pcb-design/integrated-v1/交接说明.md（均衡电路待修，PCB 尚未导入/布线）。
-结构基线：mechanical-design/structure-a3/；电池适配：mechanical-design/battery-ace800-a3/。
-A3 还没适配 110×75mm 集成板与新屏幕，实物打印/装配状态待补。
+旧进度和交接文档：docs/history/
+仓库检查：python3 scripts/check_repository.py
 
-电池当前选型为 ACE800 2S 800mAh；模块路线用外置保护，集成路线另有 BOM。
-采购 V7 是历史底表，不能直接当最终预算或已购数量。
-未完成：语音全链路、八舵机/步态、整机电池供电、实体组装与长期验证。
-PCB/结构件订单和收货、电池/音频到货情况待用户补充。
+各模块的当前版本和实机状态，以相应入口引用的记录为准。

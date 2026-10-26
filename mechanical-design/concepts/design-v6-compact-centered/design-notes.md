@@ -8,7 +8,7 @@
 
 - [本轮效果图](desktop-pet-compact-centered-v6.png)
 - [主要提示词](imagegen-prompt.txt)与[示意图修正提示词](imagegen-final-prompt.txt)：内置 imagegen 参考图编辑。
-- [商品规格图](../mechanical-design/assembly-v1/reference/selected-display-module-spec.png)
+- [商品规格图](../../assembly-v1/reference/selected-display-module-spec.png)
 
 ## 结果与限制
 

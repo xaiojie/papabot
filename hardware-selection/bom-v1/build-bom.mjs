@@ -1,11 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import crypto from 'node:crypto';
 import { Workbook, SpreadsheetFile } from '@oai/artifact-tool';
 
-const root = '/Users/jay/work/自研桌面助手/ESP32-desktop-assistant-handoff';
-const here = path.join(root, 'hardware-selection/bom-v1');
-const output = path.join(root, 'outputs/01a07a09-ef1b-7760-a41d-14c5a4d8f9ec');
+const here = path.dirname(fileURLToPath(import.meta.url));
+const root = path.resolve(here, '../..');
+const output = path.join(here, 'exports');
 await fs.mkdir(output, { recursive: true });
 const refs = {
   mg: 'https://towerpro.com.tw/product/mg90s-3/',

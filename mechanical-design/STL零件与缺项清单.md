@@ -2,7 +2,7 @@
 
 2026-09-08更新：机械目录内共75个STL文件，其中 **30个是当前A3整机件**。其余是A2、A1和试配片的历史文件。
 
-当前统一使用[structure-a3/stl-complete](structure-a3/stl-complete/)，每个文件打印1件。逐件用途、尺寸见[A3零件清单](structure-a3/零件清单.md)。
+当前统一使用[structure-a3/stl-complete](structure-a3/stl-complete)，每个文件打印1件。逐件用途、尺寸见[A3零件清单](structure-a3/零件清单.md)。
 
 | 部分 | 当前件数 | 内容 |
 |---|---:|---|

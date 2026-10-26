@@ -1,6 +1,6 @@
 # PCB与整机结构协调记录
 
-2026-09-08：用户明确恢复旧V1方案：**屏幕竖直正对使用者，旋钮与按键保留在原板，藏在可拆前盖内，屏幕内凹。** 当前机械入口为[structure-a3](../mechanical-design/structure-a3/README.md)，30个独立STL及Blender总装/爆炸/零件总览/拆前盖场景已生成。后台建模，原V1、A1、A2保留。
+2026-09-08：用户明确恢复旧V1方案：**屏幕竖直正对使用者，旋钮与按键保留在原板，藏在可拆前盖内，屏幕内凹。** 当前机械入口为[structure-a3](../../../../../mechanical-design/structure-a3/README.md)，30个独立STL及Blender总装/爆炸/零件总览/拆前盖场景已生成。后台建模，原V1、A1、A2保留。
 
 ## 当前接口
 
@@ -17,10 +17,10 @@
 
 ## 文件与检查范围
 
-[参数记录](../mechanical-design/structure-a3/reports/assembly-parameters.json)及[接口JSON](interface-proposal.json)为当前A3数据。旧后置控件决定已被用户本轮确认替代。
+[参数记录](../../../../../mechanical-design/structure-a3/reports/assembly-parameters.json)及[接口JSON](interface-proposal.json)为当前A3数据。旧后置控件决定已被用户本轮确认替代。
 
-30件STL重读均为单一闭合连通体；453对静态实体检查无超过0.05mm³冲突。正面显示区143条抽样视线无遮挡，前后盖各16个轴向拆卸位置与32个逐腿姿态抽样通过。详见[验证说明](../mechanical-design/structure-a3/验证说明.md)，不等于连续扫掠、实物配合、线束、承载、步态、声学、温升或RF通过。
+30件STL重读均为单一闭合连通体；453对静态实体检查无超过0.05mm³冲突。正面显示区143条抽样视线无遮挡，前后盖各16个轴向拆卸位置与32个逐腿姿态抽样通过。详见[验证说明](../../../../../mechanical-design/structure-a3/验证说明.md)，不等于连续扫掠、实物配合、线束、承载、步态、声学、温升或RF通过。
 
 A3只改4个打印件R01/R02/R03/R04，取消R07/R08，其余26件的STL几何数据与A2逐字节一致。原V1/A1/A2的Blender文件校验值与A2交付记录一致。前一版当前入口已备份在history/before-a3/。
 
-采购参考V7暂定选型；结构细化差额见[装配说明](../mechanical-design/structure-a3/装配与打印说明.md)。A3前盖新增M3×30，M2螺母总数减为60。本轮没有变更购物车或下单，也没有改电气PCB。
+采购参考V7暂定选型；结构细化差额见[装配说明](../../../../../mechanical-design/structure-a3/装配与打印说明.md)。A3前盖新增M3×30，M2螺母总数减为60。本轮没有变更购物车或下单，也没有改电气PCB。

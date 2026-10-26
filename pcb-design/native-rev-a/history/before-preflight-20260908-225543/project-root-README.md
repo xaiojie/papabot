@@ -4,27 +4,27 @@
 
 更新日期：2026-09-08。当前进行样机采购，设计与负载验证尚未完成。
 
-已清理早期外观草稿、未选配色及旧模型打包副本；当前入口与源文件保留，详见[文件清理记录](文件清理记录.md)。
+已清理早期外观草稿、未选配色及旧模型打包副本；当前入口与源文件保留，详见[文件清理记录](../../../../docs/history/文件清理记录-2026-09-08.md)。
 
 ## 当前设计入口：整机结构 A3
 
-[整机结构A3](mechanical-design/structure-a3/README.md)按用户确认的旧V1结构修正：**屏幕竖直正对使用者，旋钮和独立按键留在完整原板上，藏在可拆前盖内，玻璃内凹约20.8mm。** 该决定替代A2的拆焊后置方案。前盖向前抽出，底盘前固定点已转移到主壳，拆盖不用拆底盘或主板。后盖保留充电、总开关、喇叭及功放结构。
+[整机结构A3](../../../../mechanical-design/structure-a3/README.md)按用户确认的旧V1结构修正：**屏幕竖直正对使用者，旋钮和独立按键留在完整原板上，藏在可拆前盖内，玻璃内凹约20.8mm。** 该决定替代A2的拆焊后置方案。前盖向前抽出，底盘前固定点已转移到主壳，拆盖不用拆底盘或主板。后盖保留充电、总开关、喇叭及功放结构。
 
 当前有30个独立STL，统一取 `mechanical-design/structure-a3/stl-complete/`，每件打印1个。Blender包含总装、爆炸、零件总览和拆前盖4个当前场景；V1/A1/A2文件保留。STL单一闭合连通检查通过，453对静态实体交集未发现超过0.05mm³冲突；前后盖共32个轴向拆卸抽样位置通过。实物总高度、线束、打印配合与负载/步态仍需验证。
 
-机身含盖约124×116.8×76mm，不含腿、耳朵、外伸总开关和螺丝头。前盖用4颗M3×30配0.8mm垫片；屏幕固定框已补排针末端让位。主控PCB板底Z66，4颗小头M2×8固定，原Ø3.2孔不变。[零件清单](mechanical-design/structure-a3/零件清单.md)及[装配说明](mechanical-design/structure-a3/装配与打印说明.md)列出全部30件与紧固件差额。后台建模，不自动打开Blender界面。
+机身含盖约124×116.8×76mm，不含腿、耳朵、外伸总开关和螺丝头。前盖用4颗M3×30配0.8mm垫片；屏幕固定框已补排针末端让位。主控PCB板底Z66，4颗小头M2×8固定，原Ø3.2孔不变。[零件清单](../../../../mechanical-design/structure-a3/零件清单.md)及[装配说明](../../../../mechanical-design/structure-a3/装配与打印说明.md)列出全部30件与紧固件差额。后台建模，不自动打开Blender界面。
 
-嘉立创EDA专业版原生工程 `DesktopAssistant_RevA` 继续保留既有原理图、80×32mm载板与25个网络布线，入口见[原生PCB检查版](pcb-design/native-rev-a/README.md)。本轮未更改电气PCB，未下单打样。[协调记录](design-coordination/README.md)与[接口参数](design-coordination/interface-proposal.json)已同步A3。
+嘉立创EDA专业版原生工程 `DesktopAssistant_RevA` 继续保留既有原理图、80×32mm载板与25个网络布线，入口见[原生PCB检查版](../../README.md)。本轮未更改电气PCB，未下单打样。[协调记录](../../../../design-coordination/README.md)与[接口参数](../../../../design-coordination/interface-proposal.json)已同步A3。
 
 ## 0. 当前采购交付 V7
 
-[整机配件核对Excel](hardware-selection/bom-v7/00-整机配件采购核对.xlsx)为单页8列44行，覆盖原42类整机需求。采样/去耦按真实SKU拆列，同一包电容只计一次。
+[整机配件核对Excel](../../../../hardware-selection/bom-v7/00-整机配件采购核对.xlsx)为单页8列44行，覆盖原42类整机需求。采样/去耦按真实SKU拆列，同一包电容只计一次。
 
-[立创BOM](hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx)保持10项3列、与V6逐字节一致，由用户导入，套数1。[淘宝采购表](hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx)为27行7列，包含26项已选商品和1项新店暂定电池定制入口。购物车已逐项复核为27项，本轮新增16个SKU参考89.66元；MG90S180°共8个、11元/个，其他各1份。未代下单或代联系商家；电池由用户自行沟通。
+[立创BOM](../../../../hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx)保持10项3列、与V6逐字节一致，由用户导入，套数1。[淘宝采购表](../../../../hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx)为27行7列，包含26项已选商品和1项新店暂定电池定制入口。购物车已逐项复核为27项，本轮新增16个SKU参考89.66元；MG90S180°共8个、11元/个，其他各1份。未代下单或代联系商家；电池由用户自行沟通。
 
-已知商品参考合计467.30元（淘宝355.93元＋立创111.37元），不含定制电池、运费、打样；单品券/首单礼金可能互斥，不能当最终实付。车内14.70元普通电池没有证明符合要求，暂勿按普通SKU下单。详细依据见[采购V7](hardware-selection/bom-v7/README.md)。
+已知商品参考合计467.30元（淘宝355.93元＋立创111.37元），不含定制电池、运费、打样；单品券/首单礼金可能互斥，不能当最终实付。车内14.70元普通电池没有证明符合要求，暂勿按普通SKU下单。详细依据见[采购V7](../../../../hardware-selection/bom-v7/README.md)。
 
-Type-C数据/充电线取消本次采购；PCB打样、整套3D及试样打印暂缓。电池采用2S1P、7.4V/满8.4V、1000mAh、整包持续≥10A，含逐节保护/均衡、18AWG短引线和XT30配对件。目标75×40×20mm、≤80g，真实尺寸与供货仍需商家确认。[电池定制文字](hardware-selection/bom-v7/03-电池定制-发给商家.txt)由用户自行发送。
+Type-C数据/充电线取消本次采购；PCB打样、整套3D及试样打印暂缓。电池采用2S1P、7.4V/满8.4V、1000mAh、整包持续≥10A，含逐节保护/均衡、18AWG短引线和XT30配对件。目标75×40×20mm、≤80g，真实尺寸与供货仍需商家确认。[电池定制文字](../../../../hardware-selection/bom-v7/03-电池定制-发给商家.txt)由用户自行发送。
 
 主控LCKFB-ESP32S3R8N8；舵机路1块DFR0753，逻辑路好盈86010010/3A(2-6S)跳帽设5V；总开关NKK S1A；充电头绿联CD104 17W双USB-A，单口5V/2.4A。两路5V不并联，共地，首版关机充电。PCA只提供PWM信号，舵机总电流走专门配电。电池充电板实际限流、压降、温升、承载及安装尺寸待验证。
 
@@ -34,17 +34,17 @@ Type-C数据/充电线取消本次采购；PCB打样、整套3D及试样打印�
 
 商品标称整板 **91×44 mm**，四个 **Ø3 mm** 安装孔，孔中心距 **84.5×37.5 mm**。正面布局为屏幕在左、旋钮在右上、独立按键在右下，外壳需整体容纳这块 PCB。排针是否已焊接及其朝向仍待核实。
 
-- [第一阶段 Blender 总装与交付说明](mechanical-design/assembly-v1/README.md)
-- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](hardware-selection/bom-v1/assembly-v1-inspection.json)
-- [实际 Blender 渲染：八视图](mechanical-design/assembly-v1/gallery.html)
-- [保存后重开验证与工程限制](mechanical-design/assembly-v1/reports/validation-report.md)
-- [最终已选配色：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)
-- [配色选择与当前工程状态](design-selection.json)
-- [Blender 整机建模、分件与打印交付路线](mechanical-design/modeling-and-print-plan.md)
-- [已选配色、表面方向与提示词](design-v7-cmf-options/design-notes.md)
-- [V6 外观比例基准：紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
-- [V6 尺寸假设、居中计算与限制](design-v6-compact-centered/design-notes.md)
-- [用户商品规格图](mechanical-design/assembly-v1/reference/selected-display-module-spec.png)
+- [第一阶段 Blender 总装与交付说明](../../../../mechanical-design/assembly-v1/README.md)
+- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](../../../../hardware-selection/bom-v1/assembly-v1-inspection.json)
+- [实际 Blender 渲染：八视图](../../../../mechanical-design/assembly-v1/gallery.html)
+- [保存后重开验证与工程限制](../../../../mechanical-design/assembly-v1/reports/validation-report.md)
+- [最终已选配色：A 奶油薄荷](../../../../mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png)
+- [配色选择与当前工程状态](../../../../design-selection.json)
+- [Blender 整机建模、分件与打印交付路线](../../../../mechanical-design/modeling-and-print-plan.md)
+- [已选配色、表面方向与提示词](../../../../mechanical-design/concepts/design-v7-cmf-options/design-notes.md)
+- [V6 外观比例基准：紧凑居中比例](../../../../mechanical-design/concepts/design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
+- [V6 尺寸假设、居中计算与限制](../../../../mechanical-design/concepts/design-v6-compact-centered/design-notes.md)
+- [用户商品规格图](../../../../mechanical-design/assembly-v1/reference/selected-display-module-spec.png)
 
 **最新决定：用户已明确敲定 A「奶油薄荷」——奶油白机身与前盖、薄荷绿腿与耳框及细边、磨砂低光泽方向。** 颜色代码为设计目标；具体打印基材、层纹粗细、后处理与供应商实物色样仍需确认。
 
@@ -107,9 +107,9 @@ V2 曾以宽 112×深 82×高 72 mm 预估机身；后续加宽及覆盖旋钮�
 
 ## 3. 已产出的外观概念
 
-- [最终配色概念图：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)：保留原图和生成提示词。
-- [V6 紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)：保留当前造型比例与尺寸假设。
-- [Blender 总装 V1](mechanical-design/assembly-v1/README.md)：可编辑模型、八视图、验证报告及重建脚本均保留。
+- [最终配色概念图：A 奶油薄荷](../../../../mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png)：保留原图和生成提示词。
+- [V6 紧凑居中比例](../../../../mechanical-design/concepts/design-v6-compact-centered/desktop-pet-compact-centered-v6.png)：保留当前造型比例与尺寸假设。
+- [Blender 总装 V1](../../../../mechanical-design/assembly-v1/README.md)：可编辑模型、八视图、验证报告及重建脚本均保留。
 
 初版小屏构想和 V2–V5 过渡外观已移出工作目录。概念图用于外观参考，实际安装尺寸、承载和运动仍需按实物验证。
 

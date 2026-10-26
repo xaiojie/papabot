@@ -9,7 +9,7 @@
 - 奶油白主体与前盖、薄荷绿脚腿与耳框、前盖细边，保留黑色显示区和青色表情。
 - 磨砂、低光泽方向。概念图标注的 PLA 和细微层纹不是已经完成结构材料选型；真实表面依店家样片确认。
 - 紧凑机身、显示区居中、两个小耳饰、可拆前盖遮住 EC11 旋钮和独立按键；无刻字/Logo。
-- [已选 A 原图](../design-v7-cmf-options/a-cream-mint.png)；[机器可读选择记录](../design-selection.json)。
+- [已选 A 原图](concepts/design-v7-cmf-options/a-cream-mint.png)；[机器可读选择记录](../design-selection.json)。
 
 ## 推荐工作顺序
 

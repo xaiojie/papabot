@@ -3,7 +3,7 @@
   "status": "color_scheme_selected",
   "selected_variant": "A",
   "selected_name": "奶油薄荷",
-  "reference_image": "design-v7-cmf-options/a-cream-mint.png",
+  "reference_image": "mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png",
   "palette": {
     "body": "#EEEADF",
     "front_cover": "#F4F0E8",
@@ -11,7 +11,7 @@
   },
   "appearance": "奶油白机身与前盖，薄荷绿腿、耳框及细边；低光泽磨砂方向。",
   "finish_status": "用户已确认配色和磨砂方向；具体基材、层纹粗细与后处理待实物样片确认。",
-  "geometry_reference": "design-v6-compact-centered",
+  "geometry_reference": "mechanical-design/concepts/design-v6-compact-centered",
   "screen_module": "TOUGLESY 2.4 inch ST7789 TFT + EC11, 91 x 44 mm nominal PCB",
   "servo_selection": {
     "date": "2026-09-08",
@@ -143,7 +143,7 @@
   "current_bom": "hardware-selection/battery-stock-2026-09-09/README.md",
   "current_bom_data": "hardware-selection/battery-stock-2026-09-09/bom-data.json",
   "dimension_freeze_status": "actual_battery_servo_charger_dimensions__controller_pin_and_mechanical_drawing__new_audio_and_regulator_layout_pending",
-  "previous_options": "V7未选配色和V8探索方案已于2026-09-08移入废纸篓；A奶油薄荷原图及提示词保留，恢复位置见文件清理记录.md。",
+  "previous_options": "V7未选配色和V8探索方案已于2026-09-08移入废纸篓；A奶油薄荷原图及提示词保留，恢复位置见docs/history/文件清理记录-2026-09-08.md。",
   "software_checked": {
     "application": "Blender",
     "version": "5.2.1 LTS",

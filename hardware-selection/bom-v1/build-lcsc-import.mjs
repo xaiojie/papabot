@@ -1,8 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { Workbook, SpreadsheetFile } from '@oai/artifact-tool';
 
-const out = '/Users/jay/work/自研桌面助手/ESP32-desktop-assistant-handoff/outputs/01a07a09-ef1b-7760-a41d-14c5a4d8f9ec';
+const out = path.join(path.dirname(fileURLToPath(import.meta.url)), 'exports');
 const headers = ['原型号', '原品牌', '原封装', '原参数', '原C编码', '单套用量', '备损量'];
 const rows = [
   ['LCKFB-ESP32S3R8N8','立创开发板','开发板成品','ESP32-S3；8MB Flash+8MB PSRAM；USB-C；含排针，需自行焊接','C20626143',1,0],

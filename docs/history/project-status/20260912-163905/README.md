@@ -1,41 +1,37 @@
 # ESP 系列四足智能桌面助手：项目交接说明
 
-> **最新项目进度（2026-09-12）：[项目进度总览](项目进度总览.md)。**
-> 当前为模块联调：屏幕/联网/网页控制已有实机成果，单舵机已测试；语音、八舵机运动、电池整机供电与实体装配仍待完成。
-> RevB 带字载板是已有制造文件入口；integrated-v1 是新方案，原理图已建但电气纠错及 PCB 布线未完成。A3 尚未适配新集成板。
-> 本轮控制台健康接口显示服务正常、设备在线；详细验收范围与订单未知项见总览。
->
-> **以下为分日期交接与历史记录。** 其中“屏幕未测”“六屏”“额度待接”“Wi-Fi 只存 RAM”等条目已被后续版本更新；请勿将旧段落直接作为当前状态。旧 `PROGRESS.md` 保留追溯。
+> 📊 **想快速了解整体进度，先看 [`PROGRESS.md`](PROGRESS.md)** —— 硬件/固件/凭据/未完成项的总览，
+> 每条结论都标了验证方式。本文件是详细交接说明与历史记录。
 
 
-PCB 丝印更新（2026-09-10）：已在正面左上加入 **Jay / 爬爬**，保存到原嘉立创工程。当前带字制板文件与原生工程见[RevB 丝印版交付](pcb-design/revb-lettering-2026-09-10/README.md)。严格 DRC 通过，导出中文字形已检查，电路、板框和孔位未变；原无字 RevB 包保留作历史电气复核资料。
+PCB 丝印更新（2026-09-10）：已在正面左上加入 **Jay / 爬爬**，保存到原嘉立创工程。当前带字制板文件与原生工程见[RevB 丝印版交付](../../../../pcb-design/revb-lettering-2026-09-10/README.md)。严格 DRC 通过，导出中文字形已检查，电路、板框和孔位未变；原无字 RevB 包保留作历史电气复核资料。
 
-采购状态更新（2026-09-09）：电池改为现货格氏ACE800（2S、7.4V、800mAh、45C、T插）＋HX-2S-JH20外置保护均衡板，前两项参考¥48.62，尚未购买。详见[成品电池与设计适配](hardware-selection/battery-stock-2026-09-09/README.md)。常规配件以V7为底表，旧电池定制与随包XT30行停用；当前开发先用已购买的屏幕、主控和1个MG90S。
+采购状态更新（2026-09-09）：电池改为现货格氏ACE800（2S、7.4V、800mAh、45C、T插）＋HX-2S-JH20外置保护均衡板，前两项参考¥48.62，尚未购买。详见[成品电池与设计适配](../../../../hardware-selection/battery-stock-2026-09-09/README.md)。常规配件以V7为底表，旧电池定制与随包XT30行停用；当前开发先用已购买的屏幕、主控和1个MG90S。
 
 更新日期：2026-09-09。RevB屏幕供电修订与设计文件复核完成，当前进行样机采购，实物及负载验证尚未完成。
 
-已清理早期外观草稿、未选配色及旧模型打包副本；当前入口与源文件保留，详见[文件清理记录](文件清理记录.md)。
+已清理早期外观草稿、未选配色及旧模型打包副本；当前入口与源文件保留，详见[文件清理记录](../../文件清理记录-2026-09-08.md)。
 
 ## 当前开发入口：无PCB模块测试
 
 2026-09-09：用户已确认购买立创 ESP32S3R8N8 开发板、TOUGLESY 2.4 寸 ST7789+EC11 屏幕和 **1 个 MG90S**；此前采购表的8个舵机是整机计划数量。屏幕与舵机先分别用现有可调电源测试。
 
-**2026-09-10：主控已到货并完成实机自检。** 芯片/Flash/PSRAM、64KiB PSRAM 样本、Wi-Fi 扫描、**Wi-Fi 连接与外网联通**、LED 心跳与 BOOT 按键全部通过，实测值见[实机验收记录](firmware/bringup/docs/实机验收记录.csv)。**屏幕与舵机仍未测。**
+**2026-09-10：主控已到货并完成实机自检。** 芯片/Flash/PSRAM、64KiB PSRAM 样本、Wi-Fi 扫描、**Wi-Fi 连接与外网联通**、LED 心跳与 BOOT 按键全部通过，实测值见[实机验收记录](../../../../firmware/bringup/docs/实机验收记录.csv)。**屏幕与舵机仍未测。**
 
 Wi-Fi 联通实测：关联成功（ch7、RSSI −68 dBm、DHCP 得到 192.168.1.93），随后 DNS 10 ms、TCP:80 22 ms、HTTP `200 OK` 40 ms。该测试为一次性联通验证，凭据只存 RAM——已用 esptool 读 NVS 分区确认 `sta.ssid`/`sta.pswd` 均不存在、复位后即失效；固件显式关闭了 Arduino-ESP32 默认开启的 `WiFi.persistent`。**这不代表语音/联网应用固件已完成。**
 
-- [开发测试接线页面](firmware/bringup/docs/index.html)：USB主控自检、外部3.3V屏幕/控件、外部5V单舵机，附排针焊接和针位说明。
-- [测试程序工程](firmware/bringup/README.md)：已通过ESP32-S3交叉编译和14组主机行为测试。屏幕信号沿用RevB，GPIO18仅作临时单舵机测试脚。
-- [通电前自检与故障对照](firmware/bringup/docs/通电前自检与故障对照.md)：上电前的电学自检、四条红线、故障对照表和到货当天时间线。
-- [屏幕模拟器](firmware/bringup/docs/screen-simulator.html)：**屏幕未到货时的浏览器预览**——字模取自固件真正链接的 `glcdfont.c`，像素与实机一致；可拖虚拟旋钮、按虚拟按键、敲同样的串口命令；另有中文界面排版草图与字号/行数测算。
+- [开发测试接线页面](../../../../firmware/bringup/docs/index.html)：USB主控自检、外部3.3V屏幕/控件、外部5V单舵机，附排针焊接和针位说明。
+- [测试程序工程](../../../../firmware/bringup/README.md)：已通过ESP32-S3交叉编译和14组主机行为测试。屏幕信号沿用RevB，GPIO18仅作临时单舵机测试脚。
+- [通电前自检与故障对照](../../../../firmware/bringup/docs/通电前自检与故障对照.md)：上电前的电学自检、四条红线、故障对照表和到货当天时间线。
+- [屏幕模拟器](../../../../firmware/bringup/docs/screen-simulator.html)：**屏幕未到货时的浏览器预览**——字模取自固件真正链接的 `glcdfont.c`，像素与实机一致；可拖虚拟旋钮、按虚拟按键、敲同样的串口命令；另有中文界面排版草图与字号/行数测算。
 - [开发测试包](firmware/bringup/dist/DesktopAssistant-开发测试包-v1.zip)：源码、接线资料、编译后的烧录文件、验证记录与已填主控实测CSV。
 
 ### 应用固件（两个程序）已开工：`firmware/assistant/`
 
 2026-09-10：**产品固件独立成工程**，与硬件自检的 bench-v1 分工，互不覆盖。
 
-- [应用固件工程](firmware/assistant/README.md)：六屏框架（① 表情 → ② 数字时钟 → ③ 表盘时钟 → ④ 天气 → ⑤ ChatGPT → ⑥ 状态），旋钮循环切换
-- [双程序 UI 原型](firmware/bringup/docs/assistant-ui-prototype.html)：**含 SPI 带宽仿真**，看到的卡顿就是真机会有的卡顿
+- [应用固件工程](../../../../firmware/assistant/README.md)：六屏框架（① 表情 → ② 数字时钟 → ③ 表盘时钟 → ④ 天气 → ⑤ ChatGPT → ⑥ 状态），旋钮循环切换
+- [双程序 UI 原型](../../../../firmware/bringup/docs/assistant-ui-prototype.html)：**含 SPI 带宽仿真**，看到的卡顿就是真机会有的卡顿
 
 **真机实测（无屏验证，数据来自串口遥测）**：表情屏脏矩形 160×136 / 43.5 KB / 37.8 ms → **23 fps** 动得起来；静态屏 0 fps 不浪费带宽。全屏 320×240 实测 133 ms，印证了「绝不能每帧全屏重绘」这一架构前提。
 
@@ -51,43 +47,43 @@ Wi-Fi 联通实测：关联成功（ch7、RSSI −68 dBm、DHCP 得到 192.168.1
 
 ## 当前设计入口：整机结构 A3
 
-[整机结构A3](mechanical-design/structure-a3/README.md)按用户确认的旧V1结构修正：**屏幕竖直正对使用者，旋钮和独立按键留在完整原板上，藏在可拆前盖内，玻璃内凹约20.8mm。** 该决定替代A2的拆焊后置方案。前盖向前抽出，底盘前固定点已转移到主壳，拆盖不用拆底盘或主板。后盖保留充电、总开关、喇叭及功放结构。
+[整机结构A3](../../../../mechanical-design/structure-a3/README.md)按用户确认的旧V1结构修正：**屏幕竖直正对使用者，旋钮和独立按键留在完整原板上，藏在可拆前盖内，玻璃内凹约20.8mm。** 该决定替代A2的拆焊后置方案。前盖向前抽出，底盘前固定点已转移到主壳，拆盖不用拆底盘或主板。后盖保留充电、总开关、喇叭及功放结构。
 
 当前有30个独立STL，统一取 `mechanical-design/structure-a3/stl-complete/`，每件打印1个。Blender包含总装、爆炸、零件总览和拆前盖4个当前场景；V1/A1/A2文件保留。STL单一闭合连通检查通过，453对静态实体交集未发现超过0.05mm³冲突；前后盖共32个轴向拆卸抽样位置通过。实物总高度、线束、打印配合与负载/步态仍需验证。
 
-机身含盖约124×116.8×76mm，不含腿、耳朵、外伸总开关和螺丝头。前盖用4颗M3×30配0.8mm垫片；屏幕固定框已补排针末端让位。主控PCB板底Z66，4颗小头M2×8固定，原Ø3.2孔不变。[零件清单](mechanical-design/structure-a3/零件清单.md)及[装配说明](mechanical-design/structure-a3/装配与打印说明.md)列出全部30件与紧固件差额。后台建模，不自动打开Blender界面。
+机身含盖约124×116.8×76mm，不含腿、耳朵、外伸总开关和螺丝头。前盖用4颗M3×30配0.8mm垫片；屏幕固定框已补排针末端让位。主控PCB板底Z66，4颗小头M2×8固定，原Ø3.2孔不变。[零件清单](../../../../mechanical-design/structure-a3/零件清单.md)及[装配说明](../../../../mechanical-design/structure-a3/装配与打印说明.md)列出全部30件与紧固件差额。后台建模，不自动打开Blender界面。
 
-PCB当前版本为 **RevB**，已在用户原有嘉立创EDA工程 `DesktopAssistant_RevA` 的 `Board1 / P1 / PCB1` 内完成屏幕3.3V供电修订。入口见[RevB PCB复核说明](pcb-design/native-rev-b/README.md)，下载[RevB完整复核包](pcb-design/native-rev-b/DesktopAssistant-RevB-PCB复核包.zip)。屏幕VCC和BLK均接独立LCD_3V3网络，新增JP3选择连接位、J10外部稳压3.3V输入及C5旁路电容；R4–R7默认不焊，JP1/JP2/JP3默认断开。原理图及PCB严格DRC通过，26/26网络连通，Gerber板框、铜线与钻孔核对通过。**旧RevA Gerber已停用。** 屏幕全亮最大电流、主控稳压余量/温升、供电时序及实物针序/插座/线束/外壳配合仍需验证，尚未下单。本轮未修改A3 Blender/STL，控件继续留在原屏幕板和可拆前盖内。
+PCB当前版本为 **RevB**，已在用户原有嘉立创EDA工程 `DesktopAssistant_RevA` 的 `Board1 / P1 / PCB1` 内完成屏幕3.3V供电修订。入口见[RevB PCB复核说明](../../../../pcb-design/native-rev-b/README.md)，下载[RevB完整复核包](../../../../pcb-design/native-rev-b/DesktopAssistant-RevB-PCB复核包.zip)。屏幕VCC和BLK均接独立LCD_3V3网络，新增JP3选择连接位、J10外部稳压3.3V输入及C5旁路电容；R4–R7默认不焊，JP1/JP2/JP3默认断开。原理图及PCB严格DRC通过，26/26网络连通，Gerber板框、铜线与钻孔核对通过。**旧RevA Gerber已停用。** 屏幕全亮最大电流、主控稳压余量/温升、供电时序及实物针序/插座/线束/外壳配合仍需验证，尚未下单。本轮未修改A3 Blender/STL，控件继续留在原屏幕板和可拆前盖内。
 
 ## 0. 常规采购底表 V7（电池由2026-09-09现成方案覆盖）
 
-[整机配件核对Excel](hardware-selection/bom-v7/00-整机配件采购核对.xlsx)为单页8列44行，覆盖原42类整机需求。采样/去耦按真实SKU拆列，同一包电容只计一次。
+[整机配件核对Excel](../../../../hardware-selection/bom-v7/00-整机配件采购核对.xlsx)为单页8列44行，覆盖原42类整机需求。采样/去耦按真实SKU拆列，同一包电容只计一次。
 
-[立创BOM](hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx)保持10项3列、与V6逐字节一致，由用户导入，套数1。[淘宝采购表](hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx)为27行7列，包含26项已选商品和1项新店暂定电池定制入口。购物车已逐项复核为27项，本轮新增16个SKU参考89.66元；MG90S180°共8个、11元/个，其他各1份。未代下单或代联系商家；电池由用户自行沟通。
+[立创BOM](../../../../hardware-selection/bom-v7/01-立创商城-BOM导入.xlsx)保持10项3列、与V6逐字节一致，由用户导入，套数1。[淘宝采购表](../../../../hardware-selection/bom-v7/02-淘宝天猫-采购清单.xlsx)为27行7列，包含26项已选商品和1项新店暂定电池定制入口。购物车已逐项复核为27项，本轮新增16个SKU参考89.66元；MG90S180°共8个、11元/个，其他各1份。未代下单或代联系商家；电池由用户自行沟通。
 
-已知商品参考合计467.30元（淘宝355.93元＋立创111.37元），不含定制电池、运费、打样；单品券/首单礼金可能互斥，不能当最终实付。车内14.70元普通电池没有证明符合要求，暂勿按普通SKU下单。详细依据见[采购V7](hardware-selection/bom-v7/README.md)。
+已知商品参考合计467.30元（淘宝355.93元＋立创111.37元），不含定制电池、运费、打样；单品券/首单礼金可能互斥，不能当最终实付。车内14.70元普通电池没有证明符合要求，暂勿按普通SKU下单。详细依据见[采购V7](../../../../hardware-selection/bom-v7/README.md)。
 
-Type-C数据/充电线取消本次采购。旧定制电池规格已停用；本轮选现货ACE800＋板外保护均衡，载板保持RevB。[电池适配试装件](mechanical-design/battery-ace800-a3/README.md)新增R21/R22，原A3的30件保持原文件。新的电源接线、价格与尚未完成的实测以[现成方案](hardware-selection/battery-stock-2026-09-09/README.md)为准。
+Type-C数据/充电线取消本次采购。旧定制电池规格已停用；本轮选现货ACE800＋板外保护均衡，载板保持RevB。[电池适配试装件](../../../../mechanical-design/battery-ace800-a3/README.md)新增R21/R22，原A3的30件保持原文件。新的电源接线、价格与尚未完成的实测以[现成方案](../../../../hardware-selection/battery-stock-2026-09-09/README.md)为准。
 
 主控LCKFB-ESP32S3R8N8；舵机路1块DFR0753，逻辑路好盈86010010/3A(2-6S)跳帽设5V；总开关NKK S1A；充电头绿联CD104 17W双USB-A，单口5V/2.4A。两路5V不并联，共地，首版关机充电。PCA只提供PWM信号，舵机总电流走专门配电。电池充电板实际限流、压降、温升、承载及安装尺寸待验证。
 
-新补直插电阻/电容为原型器件；100k/33k分压和10k OE上拉已纳入原生载板，尚未实物焊接。RevB比RevA新增1只100nF电容、JP3短导线位和J10外部3.3V预留口，R4–R7默认不焊；装配与采购差额见[RevB装配说明](pcb-design/native-rev-b/装配与上电核对.md)，V7采购Excel仍为此前选型记录。紧固件与绝缘垫柱用于试装，结构按实物复测。V7采购整理时保留Blender用户改动；后续结构进度以顶部A3入口为准。
+新补直插电阻/电容为原型器件；100k/33k分压和10k OE上拉已纳入原生载板，尚未实物焊接。RevB比RevA新增1只100nF电容、JP3短导线位和J10外部3.3V预留口，R4–R7默认不焊；装配与采购差额见[RevB装配说明](../../../../pcb-design/native-rev-b/装配与上电核对.md)，V7采购Excel仍为此前选型记录。紧固件与绝缘垫柱用于试装，结构按实物复测。V7采购整理时保留Blender用户改动；后续结构进度以顶部A3入口为准。
 
 用户已明确选定 **途格斯 / TOUGLESY 2.4 英寸 TFT 彩屏 + EC11 旋转编码器模块**，已确认购买并等待到货。它是 **ST7789、320×240、SPI、不带触摸** 的独立显示模块；不再要求 OLED / AMOLED。
 
 商品标称整板 **91×44 mm**，四个 **Ø3 mm** 安装孔，孔中心距 **84.5×37.5 mm**。正面布局为屏幕在左、旋钮在右上、独立按键在右下，外壳需整体容纳这块 PCB。排针是否已焊接及其朝向仍待核实。
 
-- [第一阶段 Blender 总装与交付说明](mechanical-design/assembly-v1/README.md)
-- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](hardware-selection/bom-v1/assembly-v1-inspection.json)
-- [实际 Blender 渲染：八视图](mechanical-design/assembly-v1/gallery.html)
-- [保存后重开验证与工程限制](mechanical-design/assembly-v1/reports/validation-report.md)
-- [最终已选配色：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)
-- [配色选择与当前工程状态](design-selection.json)
-- [Blender 整机建模、分件与打印交付路线](mechanical-design/modeling-and-print-plan.md)
-- [已选配色、表面方向与提示词](design-v7-cmf-options/design-notes.md)
-- [V6 外观比例基准：紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
-- [V6 尺寸假设、居中计算与限制](design-v6-compact-centered/design-notes.md)
-- [用户商品规格图](mechanical-design/assembly-v1/reference/selected-display-module-spec.png)
+- [第一阶段 Blender 总装与交付说明](../../../../mechanical-design/assembly-v1/README.md)
+- [本轮 V1 文件完整性检查：22/23 项一致，当前 Blender 文件已有变化](../../../../hardware-selection/bom-v1/assembly-v1-inspection.json)
+- [实际 Blender 渲染：八视图](../../../../mechanical-design/assembly-v1/gallery.html)
+- [保存后重开验证与工程限制](../../../../mechanical-design/assembly-v1/reports/validation-report.md)
+- [最终已选配色：A 奶油薄荷](../../../../mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png)
+- [配色选择与当前工程状态](../../../../design-selection.json)
+- [Blender 整机建模、分件与打印交付路线](../../../../mechanical-design/modeling-and-print-plan.md)
+- [已选配色、表面方向与提示词](../../../../mechanical-design/concepts/design-v7-cmf-options/design-notes.md)
+- [V6 外观比例基准：紧凑居中比例](../../../../mechanical-design/concepts/design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
+- [V6 尺寸假设、居中计算与限制](../../../../mechanical-design/concepts/design-v6-compact-centered/design-notes.md)
+- [用户商品规格图](../../../../mechanical-design/assembly-v1/reference/selected-display-module-spec.png)
 
 **最新决定：用户已明确敲定 A「奶油薄荷」——奶油白机身与前盖、薄荷绿腿与耳框及细边、磨砂低光泽方向。** 颜色代码为设计目标；具体打印基材、层纹粗细、后处理与供应商实物色样仍需确认。
 
@@ -150,9 +146,9 @@ V2 曾以宽 112×深 82×高 72 mm 预估机身；后续加宽及覆盖旋钮�
 
 ## 3. 已产出的外观概念
 
-- [最终配色概念图：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)：保留原图和生成提示词。
-- [V6 紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)：保留当前造型比例与尺寸假设。
-- [Blender 总装 V1](mechanical-design/assembly-v1/README.md)：可编辑模型、八视图、验证报告及重建脚本均保留。
+- [最终配色概念图：A 奶油薄荷](../../../../mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png)：保留原图和生成提示词。
+- [V6 紧凑居中比例](../../../../mechanical-design/concepts/design-v6-compact-centered/desktop-pet-compact-centered-v6.png)：保留当前造型比例与尺寸假设。
+- [Blender 总装 V1](../../../../mechanical-design/assembly-v1/README.md)：可编辑模型、八视图、验证报告及重建脚本均保留。
 
 初版小屏构想和 V2–V5 过渡外观已移出工作目录。概念图用于外观参考，实际安装尺寸、承载和运动仍需按实物验证。
 

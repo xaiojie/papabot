@@ -4,7 +4,7 @@ All model dimensions below are mm; native scene is metres, STL exports are mm.
 """
 exec(compile((__import__('pathlib').Path(__file__).parent/'core.py').read_text(),str(__file__),'exec'))
 SOURCE=OUT.parent/'structure-a3/DesktopAssistant-整机结构-A3.blend'
-PROTECTED=[SOURCE,PROJECT/'pcb-design/integrated-v1/user-latest-review-2026-09-13/User_latest_PCB1.source',PROJECT/'采购清单-20260912/最新BOM总表.md']
+PROTECTED=[SOURCE,PROJECT/'pcb-design/integrated-v1/user-latest-review-2026-09-13/User_latest_PCB1.source',PROJECT/'hardware-selection/procurement/2026-09-12/最新BOM总表.md']
 hashes={str(p.relative_to(PROJECT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in PROTECTED}
 PCB_Z=76.5;PCB_DY=4.0
 HOLES=[(x,y+PCB_DY) for x in [-33.5,33.5] for y in [-51,51]]

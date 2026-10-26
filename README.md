@@ -71,14 +71,19 @@ papabot/
 │       ├── server/server.js      papa-relay：WSS 中转 + /api/*
 │       ├── www/index.html        单页控制台
 │       └── docker-compose.yml
-├── pcb-design/                   PCB 三条版本线（RevA / RevB / integrated-v1）
-├── mechanical-design/            Blender 结构（A2–A5）、STL、渲染、打印预案
-├── hardware-selection/           选型与 BOM：电池、舵机、屏幕、供电、采购清单
-├── design-coordination/          PCB × 结构接口约定
-├── design-selection.json         全部选型与决定的结构化记录
-├── 项目进度总览.md               ★ 当前进度的唯一权威入口
-├── PROGRESS.md                   历史进度（已被总览取代，保留追溯）
-└── docs/交接说明-2026-09-12.md   旧的交接说明（历史）
+├── pcb-design/                   PCB：用户最新版、制造包与历史版本
+├── mechanical-design/            结构：A2–A5、STL、渲染与试装资料
+│   └── concepts/                 早期外观比例与已选配色
+├── hardware-selection/           选型、BOM 与电源资料
+│   ├── procurement/2026-09-12/   集成板采购清单与原始报价
+│   └── bom-v1/exports/           早期 BOM 工作簿及预览
+├── design-coordination/          PCB × 结构接口与 EDA Bridge
+├── docs/                        仓库导航、图片、计划与历史文档
+│   └── history/                 旧进度、交接、清理记录与分日快照
+├── scripts/check_repository.py   仓库卫生与入口链接检查
+├── design-selection.json         选型与决定的结构化记录
+├── 项目进度总览.md               ★ 当前进度入口
+└── START-HERE.txt                快速导航
 ```
 
 三个「真值源」要记住：
@@ -86,6 +91,8 @@ papabot/
 1. **引脚 ↔ 硬件** → `firmware/bringup/wiring.json`
 2. **当前进度** → `项目进度总览.md`
 3. **产品行为** → `firmware/assistant/include/config.h`
+
+目录约定、各版本入口和文件迁移对照见 [仓库结构说明](docs/仓库结构.md)。
 
 ---
 
@@ -517,13 +524,15 @@ bash firmware/bringup/scripts/setup.sh
 | 想看什么 | 去哪 |
 |---|---|
 | **当前进度（权威）** | [项目进度总览.md](项目进度总览.md) |
+| 仓库导航与目录约定 | [docs/仓库结构.md](docs/仓库结构.md) |
+| 固件与网页模块入口 | [firmware/README.md](firmware/README.md) |
 | 产品固件的设计与踩坑 | [firmware/assistant/README.md](firmware/assistant/README.md) |
 | 硬件自检与接线 | [firmware/bringup/README.md](firmware/bringup/README.md) · [接线总图](firmware/bringup/docs/index.html) |
 | 通电前自检与故障对照 | [通电前自检与故障对照.md](firmware/bringup/docs/通电前自检与故障对照.md) |
 | 舵机接线 | [舵机接线.md](firmware/bringup/docs/舵机接线.md) |
-| PCB 三版本 | [integrated-v1](pcb-design/integrated-v1/) · [native-rev-b](pcb-design/native-rev-b/) · [RevA](pcb-design/native-rev-a/) |
+| PCB 三版本与当前入口 | [pcb-design/README.md](pcb-design/README.md) |
 | 结构版本 | [mechanical-design/当前结构版本.md](mechanical-design/当前结构版本.md) |
-| 选型与采购 | [hardware-selection/](hardware-selection/) · [采购清单](采购清单-20260912/) |
+| 选型与采购 | [hardware-selection/README.md](hardware-selection/README.md) · [采购清单](hardware-selection/procurement/2026-09-12) |
 | 网页控制台部署 | [firmware/web-console/部署记录.md](firmware/web-console/部署记录.md) |
 
 ---

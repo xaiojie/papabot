@@ -1,6 +1,6 @@
 # PCB与整机结构协调记录
 
-2026-09-08：用户已恢复结构设计并要求专心后台建模。当前机械入口为[structure-a2](../mechanical-design/structure-a2/README.md)，32个独立STL及Blender整机/爆炸/零件总览场景已生成；原V1和A1文件保留。PCB入口为[原生检查版](../pcb-design/native-rev-a/README.md)，本轮机械任务不修改电气设计。
+2026-09-08：用户已恢复结构设计并要求专心后台建模。当前机械入口为[structure-a2](../../../../mechanical-design/structure-a2/README.md)，32个独立STL及Blender整机/爆炸/零件总览场景已生成；原V1和A1文件保留。PCB入口为[原生检查版](../../../../pcb-design/native-rev-a/README.md)，本轮机械任务不修改电气设计。
 
 ## 当前接口
 
@@ -16,8 +16,8 @@
 
 ## 文件与验证边界
 
-[参数记录](../mechanical-design/structure-a2/reports/assembly-parameters.json)与[接口JSON](interface-proposal.json)为当前A2数据。旧print-v2参数仍作为历史输入，不能覆盖当前坐标。
+[参数记录](../../../../mechanical-design/structure-a2/reports/assembly-parameters.json)与[接口JSON](interface-proposal.json)为当前A2数据。旧print-v2参数仍作为历史输入，不能覆盖当前坐标。
 
-当前32件STL重读闭合检查通过，静态检查363对实体交集未发现超过0.05mm³冲突。腿部32个离散姿态的检查范围见[验证说明](../mechanical-design/structure-a2/验证说明.md)。这些结果不代替切片、实物试装、连续扫掠、扭矩、步态、线束、温升或RF验证。
+当前32件STL重读闭合检查通过，静态检查363对实体交集未发现超过0.05mm³冲突。腿部32个离散姿态的检查范围见[验证说明](../../../../mechanical-design/structure-a2/验证说明.md)。这些结果不代替切片、实物试装、连续扫掠、扭矩、步态、线束、温升或RF验证。
 
-采购仍参考V7暂定选型；A2细化后产生的紧固件差额单列在[装配说明](../mechanical-design/structure-a2/装配与打印说明.md)，没有改购物车或替用户联系商家、下单。PCB Gerber/原生工程的既有审查结果见PCB目录，最终生产资格不因结构文件导出而自动成立。
+采购仍参考V7暂定选型；A2细化后产生的紧固件差额单列在[装配说明](../../../../mechanical-design/structure-a2/装配与打印说明.md)，没有改购物车或替用户联系商家、下单。PCB Gerber/原生工程的既有审查结果见PCB目录，最终生产资格不因结构文件导出而自动成立。

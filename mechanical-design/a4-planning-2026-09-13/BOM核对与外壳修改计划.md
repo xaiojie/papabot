@@ -149,8 +149,8 @@ Excel 工作表为 `sheet`，共 47 行、25 列；第 7–47 行是 41 项物�
 
 ## 9. 来源与文件
 
-- [最新 BOM 总表](../../采购清单-20260912/最新BOM总表.md)
-- [淘宝采购清单](../../采购清单-20260912/淘宝-采购清单.md)
+- [最新 BOM 总表](../../hardware-selection/procurement/2026-09-12/最新BOM总表.md)
+- [淘宝采购清单](../../hardware-selection/procurement/2026-09-12/淘宝-采购清单.md)
 - 用户原始 Excel：`/Users/jay/Downloads/立创商城-一键下单-立创_20260913.xls`
 - [本次机器核对记录](BOM核对记录.json)
 - [用户最新版 PCB 核对与备份](../../pcb-design/integrated-v1/user-latest-review-2026-09-13/核对结论.md)

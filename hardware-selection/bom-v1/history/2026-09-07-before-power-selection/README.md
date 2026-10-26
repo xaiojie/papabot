@@ -5,27 +5,27 @@
 
 ## 0. 当前已选方案：2.4 英寸 TFT + EC11、奶油薄荷、MG90S 180 度
 
-**本轮供电决定：第一版就装电池，需电池仓和充电接口。** 具体电池、充电器、降压和穿壳接口仍待选型。今天以完成外壳和安装件的结构准备为目标：先锁定关键器件尺寸与屏幕平齐方式，再细化托架、关节、固定孔和分件。已整理 [内置电池版 BOM、尺寸待办与分件计划](hardware-selection/bom-v1/README.md)，附可编辑 Excel。参考现金预留 580.40 元，其中仅屏幕和舵机的 112.40 元有此前商品截图价格，其余为预算预留，未获新的预算上限确认。含一次 PCB 小批打样、整套打印和一轮试样。
+**本轮供电决定：第一版就装电池，需电池仓和充电接口。** 具体电池、充电器、降压和穿壳接口仍待选型。今天以完成外壳和安装件的结构准备为目标：先锁定关键器件尺寸与屏幕平齐方式，再细化托架、关节、固定孔和分件。已整理 [内置电池版 BOM、尺寸待办与分件计划](../../README.md)，附可编辑 Excel。参考现金预留 580.40 元，其中仅屏幕和舵机的 112.40 元有此前商品截图价格，其余为预算预留，未获新的预算上限确认。含一次 PCB 小批打样、整套打印和一轮试样。
 
-**最新舵机选型：图二「MG90S舵机（全金属齿轮）180度」，整机 8 个、每腿 2 个。** 用户截图单价 10 元，舵机小计 80 元；尚未核实结算价、下单、实物尺寸或承载能力。建议先用 2 个完成单腿试样。详见 [舵机选型与商品截图](hardware-selection/servo-mg90s-180.md)。assembly-v1 的八个蓝色舵机仍为历史占位模型，后续依实际尺寸和舵盘重做腿部安装结构。
+**最新舵机选型：图二「MG90S舵机（全金属齿轮）180度」，整机 8 个、每腿 2 个。** 用户截图单价 10 元，舵机小计 80 元；尚未核实结算价、下单、实物尺寸或承载能力。建议先用 2 个完成单腿试样。详见 [舵机选型与商品截图](../../../servo-mg90s-180.md)。assembly-v1 的八个蓝色舵机仍为历史占位模型，后续依实际尺寸和舵盘重做腿部安装结构。
 
 用户已明确选定 **途格斯 / TOUGLESY 2.4 英寸 TFT 彩屏 + EC11 旋转编码器模块**，并表示已加入购物车，尚未确认下单或收货。它是 **ST7789、320×240、SPI、不带触摸** 的独立显示模块；不再要求 OLED / AMOLED。
 
 商品标称整板 **91×44 mm**，四个 **Ø3 mm** 安装孔，孔中心距 **84.5×37.5 mm**。正面布局为屏幕在左、旋钮在右上、独立按键在右下，外壳需整体容纳这块 PCB。排针是否已焊接及其朝向仍待核实。
 
-- [第一阶段 Blender 总装与交付说明](mechanical-design/assembly-v1/README.md)
-- [本轮 V1 文件完整性检查：23 项哈希一致](hardware-selection/bom-v1/assembly-v1-inspection.json)
-- [实际 Blender 渲染：八视图](mechanical-design/assembly-v1/gallery.html)
-- [保存后重开验证与工程限制](mechanical-design/assembly-v1/reports/validation-report.md)
-- [最终已选配色：A 奶油薄荷](design-v7-cmf-options/a-cream-mint.png)
+- [第一阶段 Blender 总装与交付说明](../../../../mechanical-design/assembly-v1/README.md)
+- [本轮 V1 文件完整性检查：23 项哈希一致](../../assembly-v1-inspection.json)
+- [实际 Blender 渲染：八视图](../../../../mechanical-design/assembly-v1/gallery.html)
+- [保存后重开验证与工程限制](../../../../mechanical-design/assembly-v1/reports/validation-report.md)
+- [最终已选配色：A 奶油薄荷](../../../../mechanical-design/concepts/design-v7-cmf-options/a-cream-mint.png)
 - [配色选择与当前工程状态](design-selection.json)
-- [Blender 整机建模、分件与打印交付路线](mechanical-design/modeling-and-print-plan.md)
+- [Blender 整机建模、分件与打印交付路线](../../../../mechanical-design/modeling-and-print-plan.md)
 - [历史 V8：三款 B/C 蓝白组合与原备选对比](design-v8-bc-refined/comparison.html)
 - [V8 原图、配色分配与完整提示词](design-v8-bc-refined/design-notes.md)
 - [V7：六款配色与表面对比页](design-v7-cmf-options/comparison.html)
-- [V7 六款原图、材质路线与提示词](design-v7-cmf-options/design-notes.md)
-- [V6 外观比例基准：紧凑居中比例](design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
-- [V6 尺寸假设、居中计算与限制](design-v6-compact-centered/design-notes.md)
+- [V7 六款原图、材质路线与提示词](../../../../mechanical-design/concepts/design-v7-cmf-options/design-notes.md)
+- [V6 外观比例基准：紧凑居中比例](../../../../mechanical-design/concepts/design-v6-compact-centered/desktop-pet-compact-centered-v6.png)
+- [V6 尺寸假设、居中计算与限制](../../../../mechanical-design/concepts/design-v6-compact-centered/design-notes.md)
 - [历史外观效果图 V5：爬爬/Jay 刻字与小耳饰](design-v5-engraving-ears/desktop-pet-jay-ears-v5.png)
 - [V5 文字、图案与头饰设计说明](design-v5-engraving-ears/design-notes.md)
 - [历史外观效果图 V4：加宽机身、显示区居中](design-v4-centered-face/desktop-pet-centered-face-v4.png)
